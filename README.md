@@ -24,7 +24,7 @@ cd /
 ```  
 Clone the repository
 ```
-git clone https://github.com/acastellanos-ie/NLP-MBD-EN2022A-Electives.git
+git clone https://github.com/acastellanos-ie/NLP-MBD-EN.git
 ```
 
 After cloning you should see all the materials in your local folder (and your local folder will be connected to this repo).
