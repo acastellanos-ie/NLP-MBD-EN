@@ -11,7 +11,7 @@ This section covers the instructions to configure the repo for executing locally
 
 ## Create the working directory
 
-On your computer, create the directory on which you want to work. In my case, it's called `NLP-MBD-EN2021S-Electives`.
+On your computer, create the directory on which you want to work. In my case, it's called `NLP-MBD-EN`.
 
 ## Connect your local directory to this repository
 
