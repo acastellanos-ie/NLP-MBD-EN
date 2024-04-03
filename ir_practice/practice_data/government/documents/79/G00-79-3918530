@@ -1,0 +1,262 @@
+http://edc.usgs.gov/doc/edchome/ndcdb/ndcdb.html
+
+   Link to the USGS Home Page
+   Examples Banner
+   USGS Geographic Data Download Navigation bar contains layers, click to
+   Skip past Top Navigation Bar
+
+         Javascript is required for functionality. Click for alternative
+   page.
+   Data Sets: 1:250K DEM 1:24K DEM 30 m NED 1:2M DLG 1:100K DLG 1:24K DLG
+   LULC NLCD NHD
+
+
+   1:250,000 Scale Digital Elevation Models (DEM) Close this window
+     * Examples
+     * Status Maps
+     * Data User Guide (National Mapping Program FTP)
+     * Elevation Program (USGS Rocky Mountain Mapping Center HTML)
+     * Condensed User Guide (HTML)
+     * Review the 00README before downloading!
+     * FTP via Alphabetical List
+     * FTP via State
+     * FTP via Graphics
+     * Back
+
+
+   1:24,000 Scale Digital Elevation Models (DEM) SDTS format only    Close
+                                                                  this window
+   The USGS has two options for acquiring 1:24,000-Scale (7.5-minute)
+   Digital Elevation Model data.
+   1) The original DEM 7.5 minute tiled data available only in Spatial
+   Data Transfer Standard (SDTS) form is available at no cost via
+   downloads from the GeoComm International Corporation at
+   http://gisdatadepot.com/dem and from MapMart.com at
+   http://www.mapmart.com. (See disclaimer).
+   2) The National Elevation Dataset (NED) is the result of the maturation
+   of the USGS effort to provide 1:24,000-scale Digital Elevation Model
+   (DEM) data for the conterminous U.S. and 1:63,360-scale DEM data for
+   Alaska in a seamless form. Available data formats include ArcGrid,
+   Floating Point, and BILS. For more information see (30m NED button), or
+   go directly to the Seamless Data Distribution System at (Seamless
+   Store).
+   Back
+
+
+   1:2,000,000 Digital Line Graphs (DLG) SDTS format only Close this
+                                                          window
+     * Examples
+     * Data User Guide (National Mapping Program FTP)
+     * Condensed User Guide (Global Land Information System HTML)
+     * Review the 00README before downloading!
+     * SDTS format only.
+     * FTP via State
+     * FTP via Graphics
+     * SDTS DLGs require Master Data Dictionary
+     * Back
+
+
+   1:100,000 Scale Digital Line Graphs (DLG)   Close this window
+     * File names changes
+     * Example
+     * Status Maps
+     * Data User Guide (National Mapping Program FTP)
+     * Condensed User Guide (Global Land Information System HTML)
+     * Review the 00README for Native and the 00README.SDTS for SDTS
+       before downloading data.
+     * FTP via Alphabetical List
+     * FTP via State
+     * FTP via Graphics
+     * SDTS DLGs require Master Data Dictionary
+     * Back
+
+
+   1:24,000 Scale Digital Line Graphs (DLG) SDTS Format Only Close this
+                                                             window
+     * Example
+     * Status Maps
+     * GLIS to check availability in Native or SDTS formats.
+     * Data User Guide (National Mapping Program FTP)
+     * Condensed User Guide (Global Land Information System HTML)
+     * Review the 00README before downloading!
+     * SDTS format only.
+     * FTP via Alphabetical List
+     * FTP via State
+     * FTP via Graphics
+     * SDTS DLGs require Master Data Dictionary
+     * Back
+
+
+   1:250,000 & 1:100,000 Scale Land Use Land Cover (LULC) Close this
+                                                          window
+     * Examples
+     * Condensed User Guide (Global Land Information System HTML)
+     * Review the 00README before downloading!
+     * 250K FTP via Alphabetical List
+     * 250K FTP via State
+     * 250K FTP via Graphics
+     * Review the 00README before downloading!
+     * 100K FTP via Alphabetical List
+     * 100K FTP via State
+     * 100K FTP via Graphics
+     * Back
+
+
+   Files are not directly viewable!          Close this window
+   Note: These data files are for use in geographical information
+   systems(GIS) for analysis and integration with other geospatial data.
+   They are not directly viewable using WWW browser or image viewing
+   tools. The USGS offers free software for viewing some digital
+   cartographic products, including DLG-O, DEM, DLG/SDTS and DRG data.
+   These viewers run on Windows 95/NT only. They are tools for data
+   preview, and are not substitutes for commercial geographic information
+   system software. Available display software may be found in the "Public
+   Domain Software" Web page.
+   Back
+
+
+   FTP File Access                   Close this window
+   The EROS Data Center provides file transfer protocol (FTP) access to a
+   variety of USGS digital data sets. The following is a list of each data
+   set and includes: a link to data examples, a hyperlink to user guide
+   information, and a list of the methods available for transferring the
+   data using FTP. You can download files by connecting to the data set's
+   anonymous FTP account and selecting files from the existing directory
+   structure (FTP from account), by selecting from a list of states that
+   will guide you to the appropriate files (FTP sorted by state), or by
+   using the graphic option which allows you to select files using an
+   index map (Graphics FTP). Not all FTP options are available for each
+   data set. The user guide provides detailed information about the data
+   set, including distribution formats.
+   If you use FTP from account, be sure to review the README (or 00README)
+   file located in the first directory you encounter.
+   Back
+
+
+   Effective July 1, 1996               Close this window
+   NOTICE: Effective July 1, 1996, the U.S. Geological Survey discontinued
+   providing the Digital Line Graph (DLG-S) data in the Standard format.
+   The Digital Line Graph (DLG-O) data in the Optional (Native) format
+   will continue to be available. The newer Spatial Data Transfer Standard
+   (SDTS) format availability will continue to increase as data are
+   converted and/or produced in this format.
+   Back
+
+
+   Note                        Close this window
+   Due to an error in processing, some 7.5' DEM files may contain an
+   incorrect compilation method and version number. The problem is being
+   corrected. To determine if a file has incurred this error, you may
+   query the Global Land Information System and check the comment field of
+   the detail window.
+   Back
+
+
+   Note: Name Changes                Close this window
+   Note: The file names have been changed to match the file naming
+   structure from the production centers. A cross reference from the old
+   naming convention to the new naming convention is available for
+   optional (native) and SDTS formats.
+   Back
+
+
+   SDTS Format Data Dictionaries           Close this window
+   SDTS DLGs require the use of either the uncompressed SDTS Master Data
+   Dictionary file as a single tar file for 1:2M, 100K, 1:24K or a series
+   of uncompressed small files for 1:2M. 100K, 1:24K
+   Back
+
+
+   SDTS Format Data Dictionaries           Close this window
+   SDTS DLGs require the use of either the uncompressed SDTS Master Data
+   Dictionary file as a single tar file or a series of uncompressed small
+   files.
+   Back
+
+
+   National Land Cover Data (NLCD) Close this window
+
+     Product Description
+
+     Examples
+
+     Products
+
+     Classification Guide
+   Back
+
+
+   National Hydrography Dataset (NHD) Close this window
+
+     Examples-Application Demo
+
+     Status Maps
+
+     GLIS to check availability
+
+     Technical References
+
+     National Hydrographic Dataset Program
+
+     Download Data
+   Back
+
+
+   30 Meter Resolution National Elevation Dataset   Close this window
+   Merging the highest-resolution, best-quality elevation data available
+   across the United States into a seamless raster format has developed
+   the USGS National Elevation Dataset (NED). NED is the result of the
+   maturation of the USGS effort to provide 1:24,000-scale Digital
+   Elevation Model (DEM) data for the conterminous US and 1:63,360-scale
+   DEM data for Alaska. Seamless Data Distribution System (SDDS) offers
+   seamless data for sale, by user-defined area, in a variety of formats.
+   Back
+
+
+   Disclaimer                     Close this window
+   The U.S. Geological Survey (USGS) has entered into an agreement with
+   the GeoCommunity and MapMart.com to serve updated, SDTS format, Digital
+   Elevation Models (DEMs) through the GIS Data Depot at
+   http://www.gisdatadepot.com and http://www.mapmart.com for no charge.
+   The 7.5' SDTS DEM data are also available for purchase via premium
+   (fast) download and on CD-ROM from GeoCommunity.
+   The decision to provide SDTS DEMs through commercial vendors is
+   consistent with the USGS goal of making more public domain data
+   available at no charge while enabling the private sector to have a
+   greater role in the distribution of USGS data. SDTS DEMs placed on
+   media in response to customer orders will be sold by the GeoCommunity
+   at a price less than the USGS currently charges.
+   The GeoCommunity and MapMart.com will continue to receive SDTS versions
+   of the DEMs as they are made available by the USGS. Native format DEMs
+   are still available for sale from USGS on various media and via ftp.
+   If you have additional questions or comments, please contact us at
+   sdts@usgs.gov. Please monitor the SDTS Home Page for further news and
+   updates on this issue. http://mcmcweb.er.usgs.gov/sdts
+   Back
+
+   USGS Home Page Mapping Home Page
+   __________________________________________________________________
+
+
+    U.S. Department of the Interior  |  U.S. Geological Survey
+    Please read this general Disclaimer
+    URL: http://edc.usgs.gov/doc/edchome/ndcdb/ndcdb.html
+    Maintainer: EDC Web Master
+    Last Update: Monday, January 14, 2002
+    USGS Privacy Statement | Accessibility
+
+   Link to FirstGov Web Site
+
+
+   NOTES:
+     * Effective July 1, 1996
+     * These files are not directly viewable!
+     * FTP File Access
+     * Status Maps are available for a limited number of data sets.
+     * Geographic Data Download Statistics
+     * Public Domain Software for use with DEM, DLG, DRG, LULC, and SDTS
+       files.
+     * Spatial Data Transfer Standard (SDTS) information. Note: Please be
+       aware that not all Native files have been converted to SDTS format.
+       For a complete listing of data available in Native and SDTS, please
+       go to EarthExplorer

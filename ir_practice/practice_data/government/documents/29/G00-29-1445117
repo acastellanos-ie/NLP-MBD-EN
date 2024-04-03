@@ -1,0 +1,22 @@
+http://mit.fnal.gov/computing.html
+
+
+   Computing facilities we use / administer at CDF
+      System OS Name # of Nodes / CPUs Description
+
+     MIT Cluster IRIX 5.3   3 x SG Indy / 1 Workstations
+
+     MIT Cluster IRIX 6.2   1 x SG Indy / 1 Workstation
+
+     MIT Cluster Linux 5.0   4 x Pentium II / 1 Workstations
+
+     MIT Cluster Linux 5.0   1 x Pentium Pro / 2 Workstation
+
+     CDFSGA IRIX 6.2   1 x MIPS / 28 CDF workhorse
+
+     Level-3 Prototype Linux 5.0   5 x Pentium II / 1 Converter nodes
+
+     Level-3 Prototype Linux 5.0 19 x Pentium II / 2 Processor nodes
+
+
+        [ HOME ]  [ PEOPLE ]  [ PROJECTS ]  [ COMPUTING ]  [ THESES ]

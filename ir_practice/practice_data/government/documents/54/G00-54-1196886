@@ -1,0 +1,54 @@
+http://scarpia.lbl.gov/lbl_hif_rsch/focus_exp.html
+
+            [hiflogotiny.jpg]
+
+                              Theoretical Studies and Initiatives
+
+   Final focus provides an excellent opportunity for theoretical analysis
+   to point the way to improvement. To ignite the target, the heavy ion
+   beams must be focused to a radius of several millimeters from a
+   standoff distance of several meters (the distance from the target to
+   the fusion chamber wall). Large-aperture magnetic quadrupole lenses
+   located outside the chamber can provide adequate focusing if the
+   transverse and longitudinal emittance of the beam and the beam current
+   are sufficiently low. Most studies of heavy-ion-fusion power plants are
+   based on this simple ballistic focusing scheme. Quantitatively, for
+   ballistic focusing, the normalized transverse emittance must be less
+   than about 10 pi mm-mr and the longitudinal emittance must be less than
+   about 1 eV-s. While these values appear to be achievable, one could
+   reduce the cost of the accelerator if these values could be relaxed.
+
+   The limit on beam current is also an important constraint. If this
+   current limit imposed by focusing could be relaxed, it would be
+   possible to use accelerators that deliver low kinetic energy and high
+   current. With induction accelerators, current is much cheaper to
+   produce than kinetic energy, so improvements in final focusing would
+   lead to greatly reduced accelerator cost. Improvements in focusing
+   would also allow smaller focusing systems and more attractive fusion
+   chamber designs. For these reasons, we have started a major theoretical
+   and experimental initiative to explore more favorable focusing schemes.
+   Advanced focusing schemes are essential for the success of fusion with
+   the lighter ions. Sandia National Laboratory in Albuquerque, NM already
+   has a large program to study these schemes. Our initiative is part of a
+   tri-laboratory effort that involves them and also Lawrence Livermore
+   National Laboratory.
+
+   We are currently exploring three advanced concepts, all of which employ
+   some kind of beam neutralization by electrons. The first is a variation
+   of conventional ballistic focusing. The positively charged beams may be
+   neutralized either by co-injected electrons or by electrons produced by
+   the beam's ionization of a gas medium in the chamber. A gas is always
+   present in the chamber, albeit at low pressures (~10^-5 to 10^-2 torr)
+   that depend primarily on the chamber wall type and temperature. At the
+   higher end of this pressure range, the gas will provide ample
+   neutralizing electrons. This gas, along with x-rays from the target,
+   strips beam ions above and beyond the charge state (+1 to +3) at which
+   they entered the chamber. A rather complex beam electrodynamics
+   situation results, which is only partially understood at present. All
+   three members of the collaboration are currently using large-scale,
+   particle-in-cell computer models to study this situation. Preliminary
+   results are very encouraging: with neutralization, it appears possible
+   to reduce the ion kinetic energy by a factor of two or more.
+
+
+   [redstar1.gif] Return to Current LBNL IFE Research Activities

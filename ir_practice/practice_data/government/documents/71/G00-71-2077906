@@ -1,0 +1,62 @@
+http://ldm.crh.noaa.gov/r3.crh.noaa.gov.73.html
+
+   REFRESH(300 sec):
+   file://localhost/tmp/lynxXXXXXh8qvm/L26673-4771TMP.html
+
+                       Traffic Analysis for Serial2/2.13
+
+   System:     CAN-3.crh.noaa.gov in
+   Maintainer:
+   Interface:  Serial2/2.13 (73)
+   IP:         FGF (204.227.117.222)
+   Max Speed:  256.0 kBytes/s (frame-relay)
+     __________________________________________________________________
+
+   The statistics were last updated Thursday, 15 November 2001 at 18:20,
+   at which time 'CAN-3.crh.noaa.gov' had been up for 21 days, 2:06:54.
+     __________________________________________________________________
+
+   `Daily' Graph (5 Minute Average)
+   day
+
+   Max  In: 7160.0 B/s (2.8%) Average  In: 350.0 B/s (0.1%) Current  In:
+   112.0 B/s (0.0%)
+   Max  Out: 30.9 kB/s (12.1%) Average  Out: 1849.0 B/s (0.7%) Current
+   Out: 310.0 B/s (0.1%)
+     __________________________________________________________________
+
+   `Weekly' Graph (30 Minute Average)
+   week
+
+   Max  In: 3614.0 B/s (1.4%) Average  In: 303.0 B/s (0.1%) Current  In:
+   246.0 B/s (0.1%)
+   Max  Out: 30.5 kB/s (11.9%) Average  Out: 1022.0 B/s (0.4%) Current
+   Out: 705.0 B/s (0.3%)
+     __________________________________________________________________
+
+   `Monthly' Graph (2 Hour Average)
+   month
+
+   Max  In: 1145.0 B/s (0.4%) Average  In: 302.0 B/s (0.1%) Current  In:
+   737.0 B/s (0.3%)
+   Max  Out: 16.3 kB/s (6.4%) Average  Out: 1019.0 B/s (0.4%) Current
+   Out: 4513.0 B/s (1.8%)
+     __________________________________________________________________
+
+   `Yearly' Graph (1 Day Average)
+   year
+
+   Max  In: 340.0 B/s (0.1%) Average  In: 258.0 B/s (0.1%) Current  In:
+   275.0 B/s (0.1%)
+   Max  Out: 1280.0 B/s (0.5%) Average  Out: 759.0 B/s (0.3%) Current
+   Out: 695.0 B/s (0.3%)
+     __________________________________________________________________
+
+   GREEN ### Incoming Traffic in Bytes per Second
+    BLUE ### Outgoing Traffic in Bytes per Second
+     __________________________________________________________________
+
+   MRTG Multi Router Traffic Grapher
+
+   version 2.9.6 Tobias Oetiker <oetiker@ee.ethz.ch> and   Dave Rand
+                 <dlr@bungi.com>

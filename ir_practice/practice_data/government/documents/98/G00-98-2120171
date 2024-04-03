@@ -1,0 +1,125 @@
+http://www-aig.jpl.nasa.gov/public/planning/usnaufo1/
+
+   [jpllogo.gif] Projects: USNAUFO1, Planning and Scheduling, Artificial
+   Intelligence Group [Nasalogo.gif]
+
+   nothing
+
+   artificial intelligence group [_line.gif] planning and scheduling
+   [_line.gif] machine learning systems [_line.gif] jpl [_line.gif]
+   caltech [_line.gif] nasa
+
+   [dot.gif] [earth.gif]
+   nothing
+   background description impact technology status significance problem
+   sponsors moreinfo publications the team contacts
+
+   Background top
+
+                                    SAIL
+
+   AI Technology top
+
+   Information currently unavailable.
+
+   Problem top
+
+   Information currently unavailable.
+
+   Impact top
+
+   Information currently unavailable.
+
+   Status top
+
+   Information currently unavailable.
+
+   Description top
+
+   The Artificial Intelligence Group at JPL has been working on a system
+   called ASPEN (A Scheduling and Planning Environment). Based on AI
+   techniques, ASPEN is a modular, reconfigurable application framework
+   which is capable of supporting a wide variety of planning and
+   scheduling applications. ASPEN provides a set of reusable software
+   components that implement the elements commonly found in complex
+   planning/scheduling systems, including: an expressivemodeling language,
+   a resource management system, a temporal reasoning system, a set of
+   search algorithms for generating and repairing schedules, and a
+   graphical interface.
+
+   The primary application area for ASPEN is the spacecraft operations
+   domain. Planning and scheduling spacecraft operations involves
+   generating a sequence of low-level spacecraft commands from a set of
+   high-level science and engineering goals. ASPEN will encode complex
+   spacecraft operability constraints, flight rules, spacecraft hardware
+   models, science experiment goals and operations procedures to allow for
+   automated generation of low level spacecraft sequences by use of
+   advanced Artificial Intelligence planning and scheduling technology.
+
+   Hughes Space and Communications will build, launch, test and deliver
+   on-orbit 10 UFO satellites under a contract with the US Navy. These
+   spacecraft will provide secure global communications for U.S. Naval
+   forces. The UFO series was the first to use the HS-601 spacecraft bus
+   design. UFO-1 was launched into a useless orbit by a faulty Atlas on
+   March 25, 1993. The Spacecraft Artificial Intelligence Laboratory at
+   the U.S. Naval Academy (USNA) is using UFO-1 to conduct AI research.
+   The ASPEN planning system will be used to schedule station keeping
+   maneuvers and plan ground contacts when the spacecraft is within view
+   of the USNA.
+
+   Significance top
+
+   Automated planning/scheduling technologies have great promise in
+   reducing operations cost and increasing the autonomy of the UFO-1
+   mission operations. By automating the command sequence generation
+   process and by encapsulating the operation specific knowledge, ASPEN
+   will enable UFO-1 spacecraft commanding by a small operations team
+   without subsystem experts.
+
+   More Information top
+
+   Information currently unavailable.
+
+   Publications top
+
+   Please Note:
+   This material is provided for your personal use only and may not be
+   retransmitted or redistributed without permission in writing from the
+   paper's publisher and/or author. You may not upload this material to
+   any public server, on-line service, network, or bulletin board without
+   prior written permission from the publisher and/or author. You may not
+   make copies for any commercial purpose. This material is not public
+   domain. Reproduction or storage of materials retrieved from this web
+   site are subject to the U.S. Copyright Act of 1976, Title 17 U.S.C.
+
+   Currently none available.
+
+   Contacts top
+
+   USNA UFO-1 Project Contact:
+   Robert Sherwood, AI Group,
+   rob.sherwood@jpl.nasa.gov, (818) 393-5378
+
+   Gregg Rabideau, AI Group,
+   gregg.rabideau@jpl.nasa.gov, (818) 393-5364
+
+   JPL Technical Contact:
+   Dr. Steve Chien, AI Group,
+   steve.chien@jpl.nasa.gov, (818) 393-5320
+
+   JPL Program Contact:
+   Dr. Richard J.Doyle, Operations/Autonomy Program.
+
+   The Project Team top
+
+   Robert Sherwood
+   Robert.Sherwood@jpl.nasa.gov
+
+   Dr. Steve Chien
+   Steve.Chien@jpl.nasa.gov, (818) 393-5320
+
+   Sponsors top
+
+   NASA Code S
+
+   [jpllogo.gif] Questions: www@www-aig.jpl.nasa.gov

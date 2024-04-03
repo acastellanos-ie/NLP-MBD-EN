@@ -1,0 +1,75 @@
+http://seesar.lbl.gov/ANAG/index.html
+
+   [USEMAP:banner11-99.gif]
+
+             [LBLlogo.gif]
+
+                           Lawrence Berkeley National Laboratory
+                           Applied Numerical Algorithms Group
+
+     * Software
+     * Staff
+     * Research
+     * Publications
+     * Links
+     * Internal WWW site
+     * APDEC (An Algorithic and Framework for Applied PDE's)
+
+
+   [vspacer.gif]   Mission
+
+   The mission of the Applied Numerical Algorithms Group (ANAG) is the
+   development of advanced numerical algorithms and software for partial
+   differential equations integrated with the application of the software
+   to problems of independent scientific and engineering interest. The
+   primary focus of our work is in the development of high-resolution and
+   adaptive finite difference methods for partial differential equations
+   in complex geometries, with applications to internal combustion engines
+   and other industrial problems.
+
+   [vspacer.gif]   Software
+
+Chombo: Adaptive Mesh Refinement Library
+
+   The Chombo package provides a set of tools for implementing finite
+   difference methods for the solution of partial differential equations
+   on block-structured adaptively refined rectangular grids. Both elliptic
+   and time-dependent modules are included. Support for parallel platforms
+   and standardized self-describing file formats are included. 2D
+   visualization based on X is also included. A reference manual is
+   available online as well.
+
+   STATUS:Chombo 1.0 released 12 October 2000.
+
+ChomboVis
+
+   3D visualization tool for 3D AMR data. Tcl/TK graphical user interface
+   to a VTK based rendering package. Supports common visualization
+   techniques (isosurface, cut planes, grid visualization).
+
+   STATUS:ChomboVis 1.0 released 12 October 2000
+
+Embedded Boundary Library
+
+   EBChombo is a collection of C++ classes for the construction of
+   numerical PDE algorithms in complex geometries using the embedded
+   boundary method. EBLib also includes extensions to BoxLib, a library
+   for the construction of numerical PDE algorithms on rectangular grids,
+   developed by CCSE.
+
+   STATUS: EBLib is in its development phase. The design document for
+   EBLib is available now, as is a reference manual.
+     __________________________________________________________________
+
+                         ANAG         Research Staff
+                         Publications Software Links
+
+      Applied Numerical Algorithms Group at Lawrence Berkeley National
+                      Laboratory Berkeley, California.
+     __________________________________________________________________
+
+        General Info/News | Computing Facilities | Research | Search
+         Table of Contents | Notice to Users | For Staff Only | Home
+
+   Page last modified: Feb 1, 2000
+   Contact: Webmaster <chombo@anag.lbl.gov>

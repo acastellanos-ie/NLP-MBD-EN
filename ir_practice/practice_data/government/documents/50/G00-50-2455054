@@ -1,0 +1,99 @@
+http://user88.lbl.gov//88_docs/GSnews.html
+
+                                GAMMASPHERE NEWS
+     __________________________________________________________________
+
+    April 5, 1995:
+
+   During the February shutdown, the Gammasphere data acquisition system
+   was installed and debugged. Together with the new support stand
+   installed last October, this completes the transition from the Early
+   Implementation configuration to the final Gammasphere configuration.
+   The new data acquisition system consists of Ge and BGO electronics on
+   VXI boards, single board computers in VME crates for data processing,
+   and workstations for online data analysis. Each VXI board contains two
+   complete Ge-BGO channels of electronics, which include circuits for
+   pulse shaping, timing, ADCs, TDCs and control logic. The digitized
+   signals are transmitted via an optical link to the VME processors
+   located in the counting room. The VME processors perform energy and
+   time calibrations, as well as event filtering and formatting. Data can
+   be written to eight 8mm tapes simultaneously and also sent to
+   workstations through the network. The system was designed and
+   constructed at LBL with contributions from ANL and ORNL.
+
+   Since March 8, four experiments have been carried out successfully with
+   about 55 detectors in the array. New detectors are being added to the
+   array as they arrive from the vendor and around October 95 all 110
+   detectors are expected to be in operation. Work on the data interface
+   for auxiliary detectors is proceeding and is expected to be completed
+   during May or June 95. No further shutdowns associated with Gammasphere
+   implementation are anticipated at this time.
+
+   Submitted by Frank Stephens
+     __________________________________________________________________
+
+    May 11, 1995:
+
+   As you are aware, the deadline for proposals to run at the 88-inch
+   Cyclotron is May 22nd. With this in mind we enclose a brief update of
+   the status of GAMMASPHERE for your information.
+
+   Installation of the VXI electronics was completed at the end of
+   February. Since then 9 GAMMASPHERE experiments have been successfully
+   run.
+
+   Detectors: Currently running 56 (including 18 segmented)
+
+   Electronics: At present time we are able to trigger only on the clean
+   Ge.
+
+   Data Acq.: For all runs the data to tape has consisted of the following
+   parameters;
+
+   Ge ID (adc number)
+
+   Ge Energy (5MeV full scale @ 1/3 keV/chan)
+
+   Ge Time
+
+   Ge Side Channel
+
+   Ge Energy (20MeV full scale)
+
+   Ge Trap Corrector
+
+   Before writing to tape Ge energies can be Doppler corrected and their
+   times aligned.
+
+   Other event format options are available.
+
+   Tapes: With this format the tapes are run at less than 500 kBytes/sec
+   and this enables simultaneous copy to 2 tapes. A typical experiment (4
+   days) requires 30-40 tapes per copy.
+
+   Performance: Average Peak to Total = 0.57 for 60Co
+
+   Average Resolution (1.3MeV) = 2.7 keV
+
+   Rates: As an example, in a Rare Earth Compound Nucleus Reaction :-
+
+   Trigger Condition of Clean Ge Fold = 5
+
+   Beam = 2pnA
+
+   Target thickness = 1mg/cm**2
+
+   Ge (forward) = 10K
+
+   Master Trigger Rate = 4 -> 5K
+
+   For more information please contact either:
+
+   I-Yang Lee, iyl@lbl.gov
+
+   Augusto Macchiavelli, aom@lbl.gov
+
+   Submitted by Paul Fallon
+     __________________________________________________________________
+
+   [GS1.gif]

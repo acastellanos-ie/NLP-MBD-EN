@@ -1,0 +1,288 @@
+http://energycrisis.lbl.gov/details.html
+
+   [sm3.gif] Details and Data Links for "Today's Supply of and Demand for
+   Electricity in California"
+   _______________________________________________________________________
+
+   This page contains more information about the different lines on the
+   Electricity Supply and Demand chart, as well as links to the original
+   data sources. If you'd like an overview of the basics of electricity,
+   you can read the Primer on Electricity below. Otherwise, use these
+   links to jump to the terms that interest you:
+     * Primer on Electricity
+     * ISO Control Area
+     * Maximum Capacity
+     * Potential Capacity
+     * Current Load
+     * Forecast Load
+     * Load plus Reserves
+     * Forced and Planned Outages
+     * Imports and Exports
+     * Return to chart
+   _______________________________________________________________________
+
+   Primer on Electricity Electricity is a form of energy with a number of
+   unique properties. It is constantly in motion and can't be stored,
+   although it can be used to create other forms of energy that can be
+   stored. There is an analogy between electricty flowing through wires
+   and water flowing through pipes, which is helpful in clarifying
+   concepts such as current and voltage. Voltage is analogous to water
+   pressure -- to keep electricity flowing at the appropriate rate, the
+   voltage must be maintained within certain design parameters. But a more
+   physically accurate analogy is that electricity is like waves flowing
+   through water flowing though pipes. In this picture, the pipes are
+   still analogous to wires, but the water is like electrons in the wires,
+   and electricity is a type of wave travelling through the wire that can
+   transport energy from place to place. Any type of wave has a frequency
+   associated with it -- this is basically the speed with which successive
+   wave crests pass a given point. Electricity (or more specifically, AC
+   current) as it flows has a frequency that, like voltage, has to be kept
+   within certain design limits.
+
+   Like water, electricity will flow over any path that is open to it. In
+   an interconnected transmission system, this effectively means that, if
+   at some point in the system someone is putting electricity in (or
+   taking it out), then the flow of electricity will be affected
+   everywhere. Unlike water, electricity is quite dangerous to handle. A
+   live wire leaking electricity is a much greater hazard than a pipe
+   leaking water. Moreover, the equipment that generates, transmits and
+   uses electricity is designed to operate with specific voltages and
+   frequencies. If these are not maintained, there can be substantial
+   damage to equipment or transmission lines. Damage to this equipment may
+   make electricity unavailable for days or even weeks.
+
+   Generators and final consumers of electricity are connected to one
+   another through an enormous web of wires, transformers and other
+   equipment which we will just refer to as the grid. Given the physical
+   nature of electricity, operation of the grid is a complicated task that
+   requires continuous monitoring, not just of the supply of and demand
+   for electricity, but also of various technical parameters such as
+   voltage and frequency. Maintaining these parameters at their
+   pre-established values, and being ready to compensate for any
+   unexpected events such as a generator or transmission line failure, is
+   the primary responsibility of the California Independent System
+   Operator , or ISO. This is known as maintaining system reliability.
+   Ensuring that there is actually enough electricity flowing at all times
+   to meet the demand of consumers is called maintaining system adequacy.
+   While this is important, it is secondary to maintaining reliability.
+   Inadequate supply may lead to rolling blackouts, which are a problem,
+   but they are used to avoid the more serious problems that can result
+   from a failure of system reliability.
+
+   In economic terms, electricity is a commodity that is produced,
+   transported and sold. Currently, the division of labor in California is
+   roughly as follows: Electricity is produced by generators that can be
+   owned by just about anyone, including private companies whose primary
+   business may or may not be electricity, the Municipal Utility Districts
+   ( Muni 's) such as LADWP and SMUD , or the utility companies. Transport
+   of electricity is the ISO's responsibility inside its own control area
+   (see more on this below). The Muni's are responsible for operating the
+   grid in their own service areas. These administrative units are
+   physically interconnected in one big grid, which also covers the other
+   Western states and parts of Canada and Mexico. Obviously, the
+   electricity doesn't care who is responsible for which part of the grid,
+   and to maintain the overall system reliability, different entities need
+   to work closely together. For example, to avoid system failure, the ISO
+   may need to ask the Muni's to accept blackouts, or it may need to call
+   in emergency power supplies from out-of-state. The organization
+   responsible for overseeing operation of the grid in the Western part of
+   the continent is called the Western Systems Coordinating Council or
+   WSCC. Final distribution of electricity to consumers, billing etc. is
+   the business of the Investor Owned Utilities ( PG&E , SCE , and SDG&E )
+   in their service areas, and of the Muni's in theirs. A map of the
+   different municipal and commercial utility service areas is available
+   here .
+
+   In 1996 legislation was passed in California mandating the creation of
+   a wholesale market for electricity. Wholesale is the term used to
+   describe sales of electricity by generators, to the ISO, the Muni's,
+   the in-state utility companies, or out-of-state. These intermediaries
+   then distribute it to consumers, also known as retail sales. In a
+   market, sellers of electricity state the price they want to receive. If
+   they don't get it, they don't generate. This gives a different sense to
+   the word supply, which can mean either the amount of electricity a
+   generator is physically capable of producing, or the amount that the
+   owner of the generation resources is willing to make available on the
+   market. To distinguish between these two concepts, we will use the
+   terms capacity and market supply . Califoria's current problems are not
+   merely a result of insufficient capacity, they are also due to
+   difficulties in maintaining adequate market supply at an affordable
+   price. Our purpose in creating this site is not to editorialize on this
+   situation , but to help clarify the nature of the problem, and give
+   concrete definition to some of the issues.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   ISO Control Area The ISO defines a control area as a "geographic area
+   which regulates its generation in order to balance load and maintain
+   planned interchange schedules with other control areas" ( ISO Summer
+   Assessment, p. 40). Loosely, it is a portion of the grid over which a
+   single entity has responsiblity for maintaining the balance of supply
+   and demand, and ensuring reliability. The ISO control area consists of
+   the former control areas of the three Investor Owned Utilities (PG&E,
+   SDG&E, and Southern California Edison). It includes the current service
+   areas of these utilities, and the service areas of a few of the
+   Municipal Utility Districts, including SMUD. The ISO Control Area does
+   not include LADWP. A map of the different utility and MUD service areas
+   is available here . A map of the ISO control area can be found here .
+   Within it's control area, the ISO is responsible for scheduling
+   generation and load, contracting for all the services necessary to
+   maintain grid reliability ("ancillary services", in the technical
+   jargon), and dealing with any and all contingencies. To account for all
+   the power that flows through the wires, they also need to keep tabs on
+   how much electricity is entering and leaving through the borders of
+   their control area. The ISO web site contains extensive information on
+   their technical and market operations.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Maximum Capacity
+   As outlined in the Primer above, we need to make a distinction between
+   the market supply of electricity (the amount available to be sold) and
+   the physical capacity of generation resources. The Maximum Capacity
+   defined here corresponds to the latter concept - it represents the
+   total amount of electricity that could conceivably be produced by all
+   the generators in the ISO control area. Anyone who wants to operate a
+   generator inside California has to obtain a license from the state
+   government to do so. The California Energy Commission maintains lists
+   of all the generators licensed to operate in the state (including the
+   Muni's) at their Siting Information Page , under Historical and
+   Statistical Data. From this list, the total on-line capacity in state
+   is 53,810 MW. There are 9,130 MW in the Municipal districts, and 44,680
+   MW of capacity in the ISO area. The latter figure is used on the chart.
+   This is a maximum because at any given moment some generators may not
+   be operating, or not operating at full capacity, for a wide variety of
+   reasons.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Forced and Planned Outages For system reliability purposes, it isn't
+   enough to know if a generator is hooked up to the grid -- you also need
+   to know if it's going to be operating. For this reason, every day the
+   generators must notify the ISO if they plan to take capacity
+   "off-line". A generator that is off-line is called an "outage" or a
+   "curtailment". Outages can be scheduled in advance (usually for
+   maintenance purposes), in which case they're known as "planned"
+   outages. Or they may occur with little or no advance notice, in which
+   case they're called "forced" outages. Each day the ISO publishes a
+   detailed list of these planned and forced outages, which we use to
+   compute the totals in our figure. It's important to realize that plants
+   can go off-line or come on-line at any time, so these daily numbers are
+   necessarily approximate. As the ISO states, "[b]ecause outages may
+   overlap or may not all be simultaneously in effect, this report may
+   indicate a different total outage/curtailment than a real-time report
+   using only data from curtailments/outages in effect at that time." An
+   archive of the ISO files containing this data is available here.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Imports and Exports Keeping track of the electricity flowing through
+   the grid entails monitoring how much enters and leaves the ISO control
+   area. Electricity going out is called an "export" while electricity
+   coming in is (not surprisingly) referred to as an "import". Exports and
+   imports don't necessarily leave the state -- they may also be due to
+   exchanges with the Municipal Utility Districts inside California. So,
+   for example, if a generator inside the district controlled by LADWP
+   sells power to SDG&E, this will be counted as an import to the ISO
+   area. A Muni buying electricity from a generator inside the ISO area
+   would count as an export. The information on our chart is taken from
+   the ISO's OASIS Hour Ahead Market Information, which you will find on
+   the menu here. This tells you the volume of imports and exports that
+   have been scheduled about two hours in advance of the current (or
+   operating) hour. The ISO also operates real-time markets, and buys
+   electricity "out-of-market" in real time, so the real-time values of
+   imports/exports may be somewhat different.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Potential Capacity Our estimate of the total capacity that is
+   potentially available to supply electricity is computed as the sum of
+   (Maximum Capacity) minus (Forced and Planned Outages) plus (Imports)
+   minus (Exports). There are uncertainties, and there may be real-time
+   variations, in all the quantities that go into this calculation. Some
+   of these are discussed under the other headings. The uncertainty is
+   partly due to a lack of data, but is also due to the inherently dynamic
+   nature of the grid. The quanitity of supply represented by "Potential
+   capacity", compared with the current load, is meant to give a rough
+   sense of how close we are to over-taxing the available resources, but
+   can't be used as an exact measure of how much electricity is really
+   available. One reason for this is that the ISO also operates real-time
+   markets, but data on the volume of electricity traded in these markets
+   is not available to be posted on our chart. Also, some of the power
+   plants in the state are "peaker plants", which generally operate only
+   during periods of peak demand, and are not available at all times.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Current Load The current load is the total demand for electricity in
+   the ISO control area at the current time. Since it's impossible to
+   track changes in demand that occur every second, the current load
+   really represents an average over a time period of about ten minutes.
+   The ISO web site has a small chart of current and forecast load, along
+   with some other information, here . Although the load varies everytime
+   anyone flicks a switch, on the average it's fairly predictable, with
+   variations due to daily, weekly and seasonal patterns. Load that is
+   fairly constant over the entire day is referred to as the "baseload"--
+   for residences, it includes such things as refrigerators, water
+   heaters, and lights that are never turned off. Baseload for residential
+   and commercial buildings can be surprisingly large, considering that
+   there is little activity at night. Seasonal variations in load are due
+   mainly to changes in the need for heating and cooling, and can be quite
+   substantial. This is somewhat inconvenient in terms of managing supply,
+   since generation capacity has to be built to satisfy the peak load, but
+   for much of the year the actual loads may be much less.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Forecast Load The demand for electricity is fairly predictable, given
+   information about weather, the habits of individuals and businesses,
+   economic activity, etc. To facilitate the operation of the grid the ISO
+   produces a number of forecasts of the daily system load. Two-day-ahead
+   and one-day-ahead forecasts can be found here (click on "Load"). We use
+   their one-day-ahead forecast on our chart. The ISO does an adjustment
+   to this forecast two hours ahead of the operating hour, and uses this
+   value in the chart at their website ( here ). So, the forecast on their
+   chart may differ somewhat from ours. The forecast load is an important
+   quanitity because it is used to estimate reserve requirements, which
+   need to be booked in advance as much as possible.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   Load plus Reserves The current load on the system is determined by what
+   everyone who uses electricity is actually doing at the moment. As such,
+   it fluctuates constantly. The system is designed to handle these
+   fluctuations within limits, but very large fluctuations (due say to an
+   unexpected generator failure) can cause major problems, including
+   equipment failures that are expensive and time-consuming to fix. To
+   avoid these problems, all grid operators (not just the ISO) are
+   required to make sure that a certain amount of "reserve" capacity is
+   available. There are different types of reserves (spinning,
+   non-spinning), as well as other forms of so-called "ancillary services"
+   that the ISO must acquire to be able to dynamically maintain the
+   balance between supply and demand. Detailed information about the
+   markets for these services are available at the ISO OASIS site here.
+   The Western Systems Coordinating Council actually sets the standards
+   for grid operators in the western part of the continent (they have to
+   use the same standards, because all the grids are interconnected). The
+   formula is somewhat complicated, but amounts to a requirement of about
+   7% of the forecast load, which is the figure we use on the chart. If
+   you want the gory details, you can find them here, or search the WSCC
+   site for information on "Minimum Operating Reliability Criteria"
+   (MORC). The ISO calls emergencies (Stage 1,2 and 3) when reserves are
+   in short supply -- physics requires that supply in the grid equal
+   demand in the grid, irrespective of what supply in the market is doing,
+   so a potential shortfall shows up first in the reserves.
+
+   Back to top. Back to chart.
+   _______________________________________________________________________
+
+   This page was prepared by KCoughlin@lbl.gov , May, 2001.
+   _______________________________________________________________________

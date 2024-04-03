@@ -1,0 +1,51 @@
+http://fast.nist.gov/examples.html
+
+   [bfrltop.gif]
+
+                                          Examples of the Model
+
+                                                 [nistglogo.gif]
+     __________________________________________________________________
+
+Examples
+
+   Several examples of the inputs and outputs of CFAST are included below.
+   These are not meant to be all-inclusive. Rather, they provide and
+   overview of the calculations and displays available from the CFAST
+   model.
+
+   [3rcorr.gif] The first is a simulation of tests which were performed in
+   the full scale test facility at NIST and involved three rooms, a burn
+   room, a corridor and a target room. The experiments were actually a
+   series of 11 replicate tests with simple steady-state gas burner fires
+   which was used for evaluation of the model's predictive capability.
+   This movie (183K) shows the long corridor (20 m) calculation in both
+   plan and elevation view. The CFAST data file for this simulation is
+   also available.
+
+   Plaza Hotel Simulation By far the most complex example presented here
+   is a simulation from a series of real-scale experiments conducted to
+   evaluate zoned smoke control systems, with and without stairwell
+   pressurization. It was conducted in a seven story hotel with multiple
+   rooms on each floor and a stairwell and elevator shaft connecting to
+   all floors. The movie (242K) shows the fire floor of the hotel in plan
+   view and the entire structure in elevation view. A graph and table of
+   calculated values show the output of the model. The CFAST data file for
+   this simulation is also available.
+
+   Nike Site demo The third is a simulation of a fire in an army barracks
+   and was a test of the effectiveness of using door closing as a
+   preventative measure to prevent the spread of toxic gases. The fire
+   source in a room off a long corridor was a burning mattress. A third
+   room off the corridor includes a nearly closed door to simulate leakage
+   around the doorway. The movie (122K) shows the facility in plan view
+   and includes a table of calculated values showing some of the outputs
+   of the model. The CFAST data file for this simulation is also
+   available.
+
+     __________________________________________________________________
+
+   [bfrlsmal.gif]
+
+   This page maintained by the Fire Safety Systems Group, National
+   Institute of Standards and Technology, Gaithersburg, MD 20899-8642

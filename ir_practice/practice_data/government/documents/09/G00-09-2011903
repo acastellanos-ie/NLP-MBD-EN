@@ -1,0 +1,36 @@
+http://explorer.arc.nasa.gov
+
+Test NASA Testbed Streams
+
+  Live Streams
+
+   If the live streams don't work, try the staic streams. If the static
+   streams work, it may mean the encoder is down.
+     * KSC
+     * ARC1
+     * STSCI
+     * JPL
+
+  Broadcast Splits
+
+     * ARC2 mirror ARC1
+     * ARC3 mirror ARC1
+     * KSC mirror ARC1
+
+  Pull Splits
+
+     * KSC to ARC3
+     * HQ to ARC3
+     * ARC1 to STSCI
+
+  Static Test Streams
+
+   These test to see if the server is operating and accessible.
+     * ARC3
+     * ARC2
+     * ARC1
+     * HQ
+     * GRC
+     * JPL
+     * KSC
+     * STSCI

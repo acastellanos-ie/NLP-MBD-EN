@@ -1,0 +1,90 @@
+http://ssrl.arc.nasa.gov/x38.html
+
+   [symbol.gif]
+
+   Smart Systems
+
+                                X38/CRV FDIR
+     __________________________________________________________________
+
+
+     Current Projects
+
+     Breast Cancer Diagnostics
+
+     Centrifuge Disturbance Control
+
+     Geological Probe
+
+     Interferometry Signal Detection
+
+     Robotic Neurosurgery
+
+     Spacecraft Docking
+
+     Telescope Balancing
+
+     Virtual IronBird
+
+     X38/CRV FDIR
+
+     Outreach Projects
+
+     Educational Docking Simulation
+
+     Tech Museum Docking Simulation
+
+     Links
+
+     NASA Home
+
+     Ames Research Center
+
+     Computational Sciences Division
+
+     People
+
+     Contact Us
+
+
+   [X38image1.jpg]
+
+   X38 vehicle
+
+   [X38image2.jpg]
+
+   X38 De-orbit
+   Propulsion Stage
+
+   [X38image3.jpg]
+
+   Thruster Fault Detection for the X38
+
+   OBJECTIVES:
+   Increase the safety, accuracy and efficiency of navigation control for
+   the X38/CRV :
+
+   The Smart Systems Research Lab at NASA Ames Research Center is
+   developing advanced fault detection technologies for the X38/CRV, in
+   collaboration with NASA Johnson Space Center (Code EG - Aeroscience and
+   Flight Mechanics Division). This effort focuses on identifying in near
+   real-time single/multiple hard thruster failure, thruster leaks, and
+   vehicle mass property. This work also includes adaptive reconfiguration
+   control based on the identified thrusters and mass property for a class
+   of future spacecrafts.
+
+   For the X38 vehicle, thruster failures are difficult to detect because
+   of the limited sensor capabilities. For the CRV, mass property is
+   difficult to determine accurately as the number of crew members can
+   vary, and the payload brought onboard varies as well. The approach
+   being applied is to use advanced identification technologies and
+   adaptive neural control to provide optimal control of the spacecraft.
+   This approach does not require a mathematical model of the spacecraft a
+   priori but instead it effectively learns an accurate model of the
+   spacecraft from its behavior. The controller uses gathered data from a
+   set of navigational sensors to quasi-statically learn an accurate model
+   of the spacecraft performance. In this manner, the controller can
+   control the spacecraft under a variety of changing conditions such as
+   varying mass, changing center-of-mass location, thruster degradations,
+   failures, and leaks. Optimization methodologies are then used to
+   achieve optimal performance.

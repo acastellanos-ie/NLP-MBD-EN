@@ -1,0 +1,461 @@
+http://fast.nist.gov/cfast.html
+
+Explation of the CFAST Model
+     __________________________________________________________________
+
+   Overview
+
+   CFAST is a zone model capable of predicting the environment in a
+   multi-compartment structure subjected to a fire. It calculates the time
+   evolving distribution of smoke and fire gases and the temperature
+   throughout a building during a user-specified fire. CFAST is the result
+   of a merger of ideas that came out of the FAST and the CCFM.VENTS
+   development projects at NIST. The organization of the CFAST suite of
+   programs is thus a combination of the two models. The primary focus of
+   this paper is to lay out the details of CFAST, including the equations
+   used and the assumptions made. This is done with a view toward
+   modification of the computer code, and the variables which are used are
+   discussed and made explicit. In addition, the structure of the model is
+   shown. Although it may not be all inclusive, CFAST has demonstrated the
+   ability to make reasonably good predictions. Also, it has been subject
+   to close scrutiny to insure its correctness. Thus it forms a prototype
+   for what constitutes a reasonable approach to modeling fire growth and
+   the spread of smoke and toxic gases.
+
+   With this level of detail, researchers not intimately involved in the
+   development of CFAST should be able to add to the model in a
+   straightforward manner. Independent or cooperative efforts to enhance
+   the capabilites of the model are encouraged. Model developers can use
+   this version of the model for open or proprietary additions to the
+   model or as the basis for new models. While encouraging additions to
+   the model, the role of the National Institute of Standards and
+   Technology in the development must be clearly defined. NIST will
+   continue to develop and document algorithms and the model in total.
+   Depending on the extent others validate and document their additions to
+   the model in the refereed literature, NIST may include them in its
+   future versions. Thus, non-developers will continue to have access to
+   an increasingly capable model from NIST, and perhaps from others as
+   well.
+
+   CFAST is a member of a class of models referred to as zone or finite
+   element models. This means that each room is divided into a small
+   number of volumes (called layers), each of which is assumed to be
+   internally uniform. That is, the temperature, smoke and gas
+   concentrations within each layer are assumed to be exactly the same at
+   every point. In CFAST, each room is divided into two layers. Since
+   these layers represent the upper and lower parts of the room,
+   conditions within a room can only vary from floor to ceiling, and not
+   horizontally. This assumption is based on experimental observations
+   that in a fire, room conditions do stratify into two distinct layers.
+   While we can measure variations in conditions within a layer, these are
+   generally small compared to differences between the layers.
+
+   CFAST is based on solving a set of equations that predict state
+   variables (pressure, temperature and so on) based on the enthalpy and
+   mass flux over small increments of time. These equations are derived
+   from the conservation equations for energy mass, and momentum, and the
+   ideal gas law. These conservation equations are always correct,
+   everywhere. Thus any errors which might be made by the model cannot
+   come from these equations, but rather come from simplifying assumptions
+   or from processes left out because we don't know how to include them.
+   Examples of each source of error will be highlighted in the following
+   discussion.
+
+  Fires
+
+   Within CFAST, a fire is a source of fuel which is released at a
+   specified rate. This fuel is converted into enthalpy (the conversion
+   factor is the heat of combustion) and mass (the conversion factor is
+   the yield of a particular species) as it burns. Burning can take place
+   in the portion of the plume in the lower layer (if any), in the upper
+   layer, or in a door jet. For an unconstrained fire, the burning will
+   all take place within the fire plume. For a constrained fire, burning
+   will take place where there is sufficient oxygen. Where insufficient
+   oxygen is entrained into the fire plume, unburned fuel will
+   successively move into and burn in: the upper layer of the fire room,
+   the plume in the doorway to the next room, the upper layer of the next
+   room, the plume in the doorway to the third room, and so forth until it
+   is consumed or gets to the outside.
+
+   The current version of CFAST includes the ability to track,
+   independently, multiple fires in one or more rooms of the building.
+   These fires are treated as totally separate entities, i.e., with no
+   interaction of the plumes or radiative exchange between fires in a
+   room.
+
+   Like all current zone fire models, this version of CFAST does not
+   include a pyrolysis model to predict fire growth. Rather pyrolysis
+   rates for each fire modeled define the fire history. The similarity of
+   that input to the real fire problem of interest will determine the
+   accuracy of the resulting calculation. The user must account for any
+   interactions between the fire and the pyrolysis rate. Planned future
+   research should remove this limitation.
+
+  Plumes and Layers
+
+   Above any burning object, a plume is formed which is not considered to
+   be a part of either layer, but which acts as a pump for enthalpy and
+   mass from the lower layer into the upper layer (upward only). For the
+   fire plume, CFAST does not use a point source approximation, but rather
+   uses an empirical correlation to determine the amount of mass moved
+   between layers by the plume.
+
+   Two sources exist for moving enthalpy and mass between the layers
+   within and between rooms. Within the room, the fire plume provides one
+   source. The other source of mixing between the layers occurs at vents
+   such as doors or windows. Here, there is mixing at the boundary of the
+   opposing flows moving into and out of the room. The degree of mixing is
+   based on an empirically-derived mixing relation. Both the outflow and
+   inflow entrain air from the surrounding layers. The flow at vents is
+   also modeled as a plume (called the door plume or jet), and uses the
+   same equations as the fire plume, with two differences. First, an
+   offset is calculated to account for entrainment within the doorway and
+   second, the equations are modified to account for the rectangular
+   geometry of vents compared to the round geometry of fire plumes. All
+   plumes within the simulation entrain air from their surroundings
+   according to an empirically-derived entrainment relation. Entrainment
+   of relatively cool, non-smoke laden air adds oxygen to the plume and
+   allows burning of the fuel. It also causes it to expand as the plume
+   moves upward in the shape of an inverted cone. The entrainment in a
+   vent is caused by bi-directional flow and results from a phenomenon
+   called the Kelvin-Helmholz instability. It is not exactly the same as a
+   normal plume, so some error arises when this entrainment is
+   approximated by a normal plume entrainment algorithm.
+
+   While experiments show that there is very little mixing between the
+   layers at their interface, sources of convection such as radiators or
+   diffusers of heating and air conditioning systems, and the downward
+   flows of gases caused by cooling at walls, will cause such mixing.
+   These are examples of phenomena which are not included because the
+   theories are still under development. Also, the plumes are assumed not
+   to be affected by other flows which may occur. For example, if the
+   burning object is near the door the strong inflow of air will cause the
+   plume axis to lean away from the door and affect entrainment of gases
+   into the plume. Such effects are not included in the model.
+
+   As discussed above, each room is divided into two layers, the upper and
+   lower. At the start of the simulation, the layers in each room are
+   initialized at ambient conditions and by default, the upper layer
+   volume set to 0.001 of the room volume (an arbitrary, small value set
+   to avoid the potential mathematical problems associated with dividing
+   by zero). Other values can be set. As enthalpy and mass are pumped into
+   the upper layer by the fire plume, the upper layer expands in volume
+   causing the lower layer to decrease in volume and the interface to move
+   downward. If the door to the next room has a soffit, there can be no
+   flow through the vent from the upper layer until the interface reaches
+   the bottom of that soffit. Thus in the early stages the expanding upper
+   layer will push down on the lower layer air and force it into the next
+   compartment through the vent by expansion.
+
+   Once the interface reaches the soffit level, a door plume forms and
+   flow from the fire room to the next room is initiated. As smoke flow
+   from the fire room fills the second room, the lower layer of air in the
+   second room is pushed down. As a result, some of this air flows into
+   the fire room through the lower part of the connecting doorway (or
+   vent). Thus, a vent between the fire room and connecting rooms can have
+   simultaneous, opposing flows of air. All flows are driven by pressure
+   differences and density differences that result from temperature
+   differences and layer depths. Thus the key to getting the right flows
+   is to correctly distribute the fire's mass and enthalpy between the
+   layers.
+
+  Vent Flow
+
+   Flow through vents is the dominant phenomenon in a fire model because
+   it fluctuates most rapidly and transfers the greatest amount of
+   enthalpy on an instantaneous basis of all the source terms. Also, it is
+   most sensitive to changes in the environment. Flow through vents comes
+   in two varieties. The first we refer to as horizontal flow. It is the
+   flow which is normally thought of in discussing fires. It encompasses
+   flow through doors, windows and so on. The other is vertical flow and
+   can occur if there is a hole in the ceiling or floor of a compartment.
+   This latter phenomena is particularly important in two disparate
+   situations: a ship, and the role of fire fighters doing roof venting.
+
+   Flow through normal vents is governed by the pressure difference across
+   a vent. There are two situations which give rise to flow through vents.
+   The first, and usually thought of in fire problems, is that of air or
+   smoke which is driven from a compartment by buoyancy. The second type
+   of flow is due to expansion which is particularly important when
+   conditions in the fire environment are changing rapidly. Rather than
+   depending entirely on density differences between the two gases, the
+   flow is forced by volumetric expansion. The earlier version of this
+   model did not solve this part of the problem entirely correctly. In
+   most cases the differences are small except for rapidly changing
+   situations. However, these small differences become very important if
+   we wish to follow flows due to small pressure differences, such as will
+   occur in a mechanical ventilation system. Atmospheric pressure is about
+   100 000 Pa, fires produce pressure changes from 1 to 1000 Pa and
+   mechanical ventilation systems typically involve pressure differentials
+   of about 1 to 100 Pa. In order to solve these interactions correctly,
+   we must be able to follow pressure differences of 0.1 Pa out of 100 000
+   Pa for the overall problem, or 10-4 for adjacent compartments.
+
+  Heat Transfer
+
+   Heat transfer is the mechanism by which the gas layers exchange energy
+   with their surroundings. Convective transfer occurs from the layers to
+   the room surfaces. The enthalpy thus transferred in the simulations
+   conducts through the wall, ceiling, or floor in the direction
+   perpendicular to the surface only. CFAST is more advanced than most
+   models in this field since it allows different material properties to
+   be used for the ceiling, floor, and walls of each room (although all
+   the walls of a room must be the same). Additionally, CFAST uniquely
+   allows each surface to be composed of up to three distinct layers for
+   each surface, which are treated separately in the conduction
+   calculation. This not only produces more accurate results, but allows
+   the user to deal naturally with the actual building construction.
+   Material thermophysical properties are assumed to be constant, although
+   we know that they actually vary with temperature. This assumption is
+   made because data over the required temperature range is scarce even
+   for common materials, and because the variation is relatively small for
+   most materials. However the user should recognize that some materials
+   may change mechanical properties with temperature. These effects are
+   not modeled.
+
+   Radiative transfer occurs among the fire(s), gas layers and compartment
+   surfaces (ceiling, walls and floor). This transfer is a function of the
+   temperature differences and the emissivity of the gas layers as well as
+   the compartment surfaces. For the fire and typical surfaces, emissivity
+   values only vary over a small range. For the gas layers, however, the
+   emissivity is a function of the concentration of species which are
+   strong radiators: predominately smoke particulates, carbon dioxide, and
+   water. Thus errors in the species concentrations can give rise to
+   errors in the distribution of enthalpy among the layers, which results
+   in errors in temperatures, resulting in errors in the flows. This
+   illustrates just how tightly coupled the predictions made by CFAST can
+   be.
+
+  Species Concentration and Deposition
+
+   When the layers are initialized at the start of the simulation, they
+   are set to ambient conditions. These are the initial temperatures
+   specified by the user, and 23 percent by mass (20.8 percent by volume)
+   oxygen, 77 percent by mass (79 percent by volume) nitrogen, a mass
+   concentration of water specified by the user as a relative humidity,
+   and a zero concentration of all other species. As fuel is pyrolyzed,
+   the various species are produced in direct relation to the mass of fuel
+   burned (this relation is the species yield specified by the user for
+   the fuel burning). Since oxygen is consumed rather than produced by the
+   burning, the "yield" of oxygen is negative, and is set internally to
+   correspond to the amount of oxygen needed to burn the fuel. Also,
+   hydrogen cyanide and hydrogen chloride are assumed to be products of
+   pyrolysis whereas carbon dioxide, carbon monoxide, water, and soot are
+   products of combustion.
+
+   Each unit mass of a species produced is carried in the flow to the
+   various rooms and accumulates in the layers. The model keeps track of
+   the mass of each species in each layer, and knows the volume of each
+   layer as a function of time. The mass divided by the volume is the mass
+   concentration, which along with the molecular weight gives the
+   concentration in volume percent or ppm as appropriate.
+
+   CFAST uses a combustion chemistry scheme different from any other
+   model. While others compute each species concentration with an
+   independent yield fraction, CFAST maintains a carbon-hydrogen-oxygen
+   balance. The scheme is applied in three places. The first is burning in
+   the portion of the plume which is in the lower layer of the room of
+   fire origin. The second is the portion in the upper layer, also in the
+   room of origin. The third is in the vent flow which entrains air from a
+   lower layer into an upper layer in an adjacent compartment. This is
+   equivalent to solving the conservation equations for each species
+   independently.
+
+  Assumptions and Limitations
+
+   CFAST consists of a collection of data and computer programs which are
+   used to simulate the important time-dependent phenomena involved in
+   fires. The major functions provided include calculation of:
+     * the production of enthalpy and mass (smoke and gases) by one or
+       more burning objects in one room, based on small- or large-scale
+       measurements,
+     * the buoyancy-driven as well as forced transport of this energy and
+       mass through a series of specified rooms and connections (e.g.,
+       doors, windows, cracks, ducts),
+     * the resulting temperatures, smoke optical densities, and gas
+       concentrations after accounting for heat transfer to surfaces and
+       dilution by mixing with clean air.
+
+   As can be seen from this list, fire modeling involves an
+   interdisciplinary consideration of physics, chemistry, fluid mechanics,
+   and heat transfer. In some areas, fundamental laws (conservation of
+   mass, energy, and momentum) can be used, whereas in others empirical
+   correlations or even "educated guesses" must be employed to bridge gaps
+   in existing knowledge. The necessary approximations required by
+   operational practicality result in the introduction of uncertainties in
+   the results. The user should understand the inherent assumptions and
+   limitations of the programs, and use these programs judiciously -
+   including sensitivity analyses for the ranges of values for key
+   parameters - in order to make estimates of these uncertainties. This
+   section provides an overview of these assumptions and limitations.
+
+  Specified Fire Limitations
+
+   An important limitation of CFAST is the absence of a fire growth model.
+   At the present time, it is not practical to adapt currently available
+   fire growth models for direct inclusion in CFAST. Therefore, the system
+   utilizes a user specified fire, expressed in terms of time specified
+   rates of energy and mass released by the burning item(s). Such data can
+   be obtained by measurements taken in large- and small-scale
+   calorimeters, or from room burns. Examples of their associated
+   limitations are as follows:
+     * For a large-scale calorimeter, a product (e.g., chair, table,
+       bookcase) is placed under a large collection hood and ignited by a
+       50 kW gas burner (simulating a wastebasket) placed adjacent to the
+       item for 120 s. The combustion process then proceeds under assumed
+       "free-burning" conditions, and the release rate data are measured.
+       Potential sources of uncertainty here include measurement errors
+       related to the instrumentation, and the degree to which
+       "free-burning" conditions are not achieved (e.g., radiation from
+       the gases under the hood or from the hood itself, and restrictions
+       in the air entrained by the object causing locally reduced oxygen
+       concentrations affecting the combustion chemistry). There are
+       limited experimental data for upholstered furniture which suggest
+       that prior to the onset of flashover in a compartment, the
+       influence of the compartment on the burning behavior of the item is
+       small. The differences obtained from the use of different types or
+       locations of ignition sources have not been explored.
+     * Where small-scale calorimeter data are used, procedures are
+       available to extrapolate to the behavior of a full-size item. These
+       procedures are based on empirical correlations of data which
+       exhibit significant scatter, thus limiting their accuracy. For
+       example, for upholstered furniture, the peak heat release rates
+       estimated by the "triangular approximation" method averaged 91
+       percent (range 46 to 103 percent) of values measured for a group of
+       26 chairs with noncombustible frames, but only 63 perecnt (range 46
+       to 83 percent) of values measured for a group of 11 chairs with
+       combustible frames . Also, the triangle neglects the "tails" of the
+       curve; these are the initial time from ignition to significant
+       burning of the item, and the region of burning of the combustible
+       frame, after the fabric and filler are consumed.
+
+   The provided data and procedures only relate directly to burning of
+   items initiated by relatively large flaming sources. Little data are
+   currently available for release rates under smoldering combustion, or
+   for the high external flux and low oxygen conditions characteristic of
+   post-flashover burning. While the model allows multiple items burning
+   simultaneously, it does not account for the synergy of such multiple
+   fires. Thus, for other ignition scenarios, multiple items burning
+   simultaneously (which exchange energy by radiation and convection),
+   combustible interior finish, and post-flashover conditions, the move
+   can give estimates which are often nonconservative (the actual release
+   rates would be greater than estimated). At present, the only sure way
+   to account for all of these complex phenomena is to conduct a
+   full-scale room burn and use the pyrolysis rates directly. Subsequent
+   versions of the model will include detailed combustion models which can
+   be used as the source fire.
+
+  Zone Model and Transport Limitations
+
+   The basic assumption of all zone fire models is that each room can be
+   divided into a small number of control volumes, each of which is
+   internally uniform in temperature and composition. In CFAST, all rooms
+   have two zones except the fire room, which has an additional zone for
+   the fire plume. The boundary between the two layers in a room is called
+   the interface.
+
+   It has generally been observed that in the spaces close to the fire,
+   buoyantly stratified layers form. While in an experiment the
+   temperature can be seen to vary within a given layer, these variations
+   are small compared to the temperature difference between the layers.
+
+   Beyond the basic zone assumptions, the model typically involves a
+   mixture of established theory (e.g., conservation equations), empirical
+   correlations where there are data but no theory (e.g., flow and
+   entrainment coefficients), and approximations where there are neither
+   (e.g., post-flashover combustion chemistry) or where their effect is
+   considered secondary compared to the "cost" of inclusion. An example of
+   a widely used assumption is that the estimated error from ignoring the
+   variation of the thermal properties of structural materials with
+   temperature is small. While this information would be fairly simple to
+   add to the computer code, data are scarce over a broad range of
+   temperatures even for the most common materials.
+
+   With a highly complex model such as CFAST, the only reasonable method
+   of assessing impacts of assumptions and limitations is through the
+   verification process, which is ongoing at the Building and Fire
+   Research Laboratory (BFRL). Until the results of this process are
+   available, the user should be aware of the general limits of zone
+   modeling and some specific manifestations in CFAST. These include the
+   following:
+    1. Burning can be constrained by the available oxygen. However, this
+       "constrained fire" (a "type 2" fire, see page 17) is not subject to
+       the influences of radiation to enhance its burning rate, but is
+       influenced by the oxygen available in the room. If a large mass
+       loss rate is entered, the model will follow this input until there
+       is insufficient oxygen available for that quantity of fuel to burn
+       in the room. The unburned fuel (sometimes called excess pyrolyzate)
+       is tracked as it flows out in the door jet, where it can entrain
+       more oxygen. If this mixture is within the user-specified flammable
+       range, it burns in the door plume. If not, it will be tracked
+       throughout the building until it eventually collects as unburned
+       fuel or burns in a vent. The enthalpy released in the fire room and
+       in each vent, as well as the total enthalpy released, is detailed
+       in the output of the model. Since mass and enthalpy are conserved,
+       the total will be correct. However, since combustion did not take
+       place adjacent to the burning object, the actual mass burned could
+       be lower than that specified by the user. The difference will be
+       the unburned fuel.
+    2. An oxygen combustion chemistry scheme is employed only in
+       constrained (type 2) fires. Here user-specified hydrocarbon ratios
+       and species yields are used by the model to predict concentrations.
+       A balance among hydrogen, carbon, and oxygen molecules is
+       maintained. Under some conditions, low oxygen can change the
+       combustion chemistry, with an attendant increase in the yields of
+       products of incomplete combustion such as CO. Guidance is provided
+       on how to adjust the CO/CO2 ratio. However, not enough is known
+       about these chemical processes to build this relationship into the
+       model at the present time. Some data exist in reports of full-scale
+       experiments (e.g., reference ) which can assist in making such
+       determinations.
+    3. The entrainment coefficients are empirically determined values.
+       Small errors in these values will have a small effect on the fire
+       plume or the flow in the plume of gases exiting the door of that
+       room. In a multi-compartment model such as CFAST, however, small
+       errors in each door plume are multiplicative as the flow proceeds
+       through many compartments, possibly resulting in a significant
+       error in the furthest rooms. The data available from validation
+       experiments indicate that the values for entrainment coefficients
+       currently used in most zone models produce good agreement for a
+       three-compartment configuration. More data are needed for larger
+       numbers of rooms to study this further.
+    4. In real fires, smoke and gases are introduced into the lower layer
+       of each room primarily due to mixing at connections between rooms
+       and from the downward flows along walls (where contact with the
+       wall cools the gas and reduces its buoyancy). Doorway mixing has
+       been included in CFAST, using an empirically derived mixing
+       coefficient. However, for smoke flow along a wall, the associated
+       theory is only now being developed and is not included in the
+       model. This may produce an underestimate of the lower layer
+       concentrations. The most important manifestation of this
+       underestimate will be the temperature distribution between the
+       upper and lower layers caused by radiation.
+    5. The only mechanisms provided in zone models to move enthalpy and
+       mass into the upper layer of a room are two types of plumes: those
+       formed by the burning item(s) in the fire room, and those formed by
+       the jet of upper layer gases flowing through an opening. Thus, when
+       the model calculates the flow of warm, lower layer gases through a
+       low opening (e.g., the undercut of a "closed" door) by expansion of
+       the smoke layer, they are assigned to the lower layer of the room
+       into which they flowed where they remain until the upper layer in
+       the source room drops to the level of the undercut and the door jet
+       forms. Thus, for a time the receiving room can show a lower layer
+       temperature which exceeds that in the upper layer (a physically
+       impossible condition). A better understanding of the flow within
+       compartments in the context of a zone fire model would allow us to
+       remove this anomaly. However, no hazard will exist during this time
+       as the temperatures are low, and no gas species produced by the
+       fire are carried through the opening until the upper layer drops to
+       the height of the undercut.
+     __________________________________________________________________
+
+   Click here for other NIST fire modeling software
+
+   Click here to for access to data used by fire modeling software
+
+   In order to read the documents provided in PDF format, you must have
+   installed a version of the Adobe Acrobat Reader appropriate for your
+   computer hardware and software. Click here to download the software.
+     __________________________________________________________________
+
+   Back to the CFAST home page.

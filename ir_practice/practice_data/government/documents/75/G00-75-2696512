@@ -1,0 +1,227 @@
+http://sscweb.gsfc.nasa.gov/users_guide/query_tutorial.html
+
+                               2.4 Query Tutorial
+
+   The Query component provides two query matching options, magnetospheric
+   region occupancy and magnetic field line conjunctions. The user can
+   specify up to nine conditions under which a single query may be made. A
+   condition consists of satellite selections, region specifications, and
+   field line tracing options.
+
+   PLEASE NOTE that the current condition number and the totoal number of
+   conditions entered is located at the top of the command menu. The trace
+   model selection, as well as the start and stop times, are used
+   throughout all conditions.
+
+   The first screen of the Query Interface requires selection of at least
+   one satellite for processing from a scrolling list of available
+   satellites, selection of whether all the satellites or any number of
+   them must meet the conditions to be specified, and entry of the start
+   and stop times for satellite processing.
+
+   [Qscreen1.gif]
+
+
+   As shown in the figure above, three satellites have been chosen, and a
+   time range identified.
+
+2.3.1 Condition Selection
+
+   The Conditions section determines how conditions will be processed.
+   Selecting "This condition", will enable processing of only the current
+   condition as indicated by the condition number. Selecting "All" will
+   process all conditions (up to nine) entered during the current session
+   and is equivalent to a logical `and' between conditions. It displays
+   results when All conditions are met. Selecting "Any" will process all
+   conditions that meet the specified criteria and is equivalent to a
+   logical `or' between conditions. It displays results when one or more
+   conditions are met.
+
+    Query Parameters Screen
+
+   The Query Parameters Screen displays the primary fields for specify the
+   query criteria. At the top of the screen two choices to identify which
+   magnetospheric regions the satellites must occupy for inclusion in
+   output processing. Alternatively, the user may choose to ignore the
+   regions. This is useful if trace criteria have been entered and region
+   criteria are to be ignored for the current condition.
+
+   [Qscreen2.gif]
+
+
+   Meet ALL Region Filter groups (AND)
+          Each satellite must be in the same selected region to be
+          included in the output.
+
+   Meet ANY Region Filter groups (ANY)
+          The satellite(s) may be in any of the selected regions to
+          provide a conjunction.
+
+   Ignore Region Groups
+          region query testing is not performed.
+
+   As shown in the previous figure, "Any Region" has been chosen.
+
+   Once the Same or Any option is determined, one or more magnetospheric
+   regions must be selected.
+
+   [Qscreen3.gif]
+
+   The Region Selection options are located beneath the region occupancy
+   field. This area displays the magnetospheric regions and mapped regions
+   available for satellite occupancy testing. Mapped regions are
+   subregions which correspond to areas on the Earth's surface into which
+   field lines from the satellite's orbital position traces.
+
+   As shown in the above figure, the choice of 'All regions' was made.
+
+   At the bottom of the screen are located the Trace Setup fields.
+
+   [Qscreen4.gif]
+
+
+
+   The Trace Setup option is a series of pull-down menus for selecting
+   conjunction conditions, trace direction, B-field model, and output
+   format.
+
+   Regardless of the conjunction condition, specify the trace direction or
+   hemisphere as either down to the same hemisphere as the satellite,
+   either/both hemispheres, opposite hemisphere, northern hemisphere or
+   southern hemisphere.
+
+   The Ground Station Selection is a page that when selected enables the
+   query to perform a conjuction of the ground station area as a box
+   centered on the ground station of a given latitude and longitude in
+   either the GEO or GM coordinate systems. A great circle distance in
+   kilometers may also be selected.
+
+   [Qscreen5.gif]
+
+   As shown in the figure above the ground station selection screen
+   displays a scrolling list of ground stations. The list will allow you
+   to select as many names as you like however only the first four
+   selected will be applied to your query. If you would like to change the
+   information for a ground station, change the default box size (10
+   degrees lat, 3 degrees long) or radius (400 km) you need to select the
+   appropriate ground stations and access the "Edit/Add Ground Station"
+   page.
+
+   [Qscreen6.gif]
+
+   As shown in the figure above the "Edit/Add Ground Station" page allows
+   you to modify information about a selected station or to add new ground
+   station information. The user is limited to 3 new ground stations on
+   each visit to the page.
+
+   To summarize the step for selecting ground stations for a conjuntion
+   are as follows:
+    1. Select the ground stations that are of interest.
+    2. Select either box or radius for the conjunction.
+    3. Select the "Edit/Add Ground Station" button in the command menu.
+       (Optional)
+    4. Edit the fields of interest or add your own ground station.
+       (Optional)
+    5. Return to the "Ground Station Selection" screen to confirm your
+       selections. (Optional)
+
+   The list of available ground stations and their locations is given in
+   Appendix D.
+
+
+   As shown in the previous figure, the selection of Lead Satellite was
+   made.
+
+   [Qscreen7.gif]
+
+   The Lead Satellite option is a scrolling list that displays the
+   satellites chosen for the query, all of which are eligible to be lead
+   satellites. It also displays the conjunction area and data entry fields
+   for delta latitude and longitude. In order to use this option, at least
+   two satellites must be selected for processing, at least one of which
+   must be selected as the lead satellite (in the lead satellite selection
+   field). The conjunction area coordinate system and the size of the area
+   are also entered in this field.
+
+
+   As shown in the above figure, the satellites selected on the main
+   screen are listed here for selection as lead satellites. Next select
+   the "B Field Models" from the command menu to go to the page for B
+   Field Model options.
+
+   [Qscreen8.gif]
+
+   The B Field Model option is a page for entering internal and external
+   trace model options. There are several internal and external
+   magnetospheric models available from which to choose. Tracing is
+   projected straight down to the Earth from the stop trace altitude.
+
+   Appendix A includes descriptions of all internal and external field
+   models used in SSC programs.
+
+
+   [Qscreen9.gif]
+
+   The Output Format option is a page that displays a checklist for both
+   subsatellite coordinate system and trace coordinate system.
+
+   Data for all satellites which satisfied the query is displayed. For
+   example, a user selects five satellites and specifies ANY 2 in the
+   select box. If only three satellites meet the region criteria (no trace
+   criteria specified), then only those three satellites are displayed.
+
+
+
+
+   [Qscreen10.gif]
+
+
+
+   The Output Setup window allows users to designate where the output will
+   be sent. Output may be sent to the screen, to a file or both. Output
+   sent to the screen is sometimes too wide to be displayed. If output is
+   wider than the screen, right/left shifts allow for shifting within the
+   output window. Horizontal and vertical scroll bars are also available
+   for scrolling through the output. If output is sent to a file, the user
+   must specify a file name and may modify the number of lines per page of
+   output.
+
+
+   The Formats & Units button will allow the user to specify formats of
+   time and degrees latitude and longitude, units for distance, and the
+   number of decimal places.
+
+   The Formats & Units button will allow the user to specify formats of
+   time and degrees latitude and longitude, units for distance, and the
+   number of decimal places.
+
+   The Input Summary option on the Query Processor Main Menu screen allows
+   users to view their selections prior to executing a query. An output
+   summary is available for both screen and file outputs. File output
+   summaries precede the actual output within the same file.
+
+   The Execute button will execute the query. While the output is being
+   processed a window will display the percentage of processing currently
+   completed.
+
+   A search capability is available through most browsers that allows
+   searches through the output for specified character strings. This
+   option will most likely be under the "Edit" menu.
+     __________________________________________________________________
+
+   * SSC Users Guide Table of Contents
+
+   * SSC Home Page
+     __________________________________________________________________
+
+   Responsible NASA official and Curators:
+
+
+    Robert McGuire, Robert.E.McGuire.1@gsfc.nasa.gov, (301) 286-7794
+    Head Space Physics Data Facility
+    Code 632
+    NASA Goddard Space Flight Center
+    Greenbelt, MD 20771
+    SSCWeb Curators
+
+   Last Modified:Tuesday, 20-Nov-2001 13:18:52 EST

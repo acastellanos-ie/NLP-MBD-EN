@@ -1,0 +1,91 @@
+http://vcctl.cbt.nist.gov/vcctlfaq.html
+
+                                 VCCTL FAQs
+     __________________________________________________________________
+
+   1) I created a first graph or gif image using VCCTL, changed a few
+   parameters and resubmitted the task. But, the graphs and/or gif images
+   appear to be the same as in the first run. Why is this?
+
+   Some WWW browsers do not update gif images if they already exist in
+   their cache. The surest way to remedy this problem is to exit the WWW
+   browser and restart it from the operating system (then reperform the
+   task). Pressing the reload button on your WWW browser may also bring up
+   the new gif graph from the VCCTL system.
+     __________________________________________________________________
+
+   2) I attempted to perform a simulation with a certain gypsum content,
+   but when calculating the number of one-pixel particles of gypsum to add
+   to the 3-D microstructure before hydration, the one-pixel worksheet
+   returned a negative integer for the number of gypsum pixels to add.
+   What should I do about this?
+
+   Because gypsum (or hemihydrate or anhydrite) is added as complete
+   particles during the particle placement phase, occasionally (on a
+   random probability basis), a very large particle of gypsum will be
+   added to the 3-D microstructure and the gypsum content will be much too
+   high even if no further particles of gypsum are added to the system.
+   The user should first try to repeat the execution of menu selection #3)
+   Generate an initial 3-D microstructure with a different random number
+   seed to see if this alleviates the problem (and giving a new name for
+   the created image). The actual gypsum fraction of the generated 3-D
+   microstructure can then be checked using menu selection #9) Compute
+   spatial statistics for a 3-D microstructure. If repeated changes of the
+   random number seed are to no avail, the next solution would be to
+   reduce the requested gypsum volume fraction input into the particle
+   generation form (by say 0.005) to hopefully reduce the overall gypsum
+   content in the generated initial 3-D particle microstructure.
+     __________________________________________________________________
+
+   3) Is there any way I can see which parameters I used for a specific
+   hydration run, after the run has completed?
+
+   With each hydration run, a parameter file is created and stored on the
+   system. It has the general name image.par.nnnn.tt.xyz where image is
+   the name of the image file being hydrated, nnnn is the number of
+   hydration cycles, tt is the starting hydration temperature in degrees
+   Celsius, x is the conversion of primary C-S-H to pozzolanic C-S-H
+   (prohibited=0, allowed=1), y is the thermal curing selected
+   (isothermal=0, adiabatic=1, temperature-defined=2), and z is the
+   initial saturation for curing (saturated=0, sealed=1). The user may
+   view this file through their WWW browser by specifying
+   http://ciks.cbt.nist.gov/~vcctl/data/image.par.nnnn.tt.xyz with the
+   appropriately substituted values for image, nnnn, tt, and xyz.
+     __________________________________________________________________
+
+   4) Is there any way I can access the output datafiles from a hydration
+   run to graph them using my own plotting/spreadsheet program?
+
+   With each hydration run, a set of datafiles are created and stored on
+   the system. They have the general name image.dft.nnnn.tt.xyz where
+   image is the name of the image file being hydrated, dft is the datafile
+   type (pha for phases, chs for chemical shrinkage, heat for heat release
+   data, adi for adiabatic heat signature, etc.), nnnn is the number of
+   hydration cycles, tt is the starting hydration temperature in degrees
+   Celsius, x is the conversion of primary C-S-H to pozzolanic C-S-H
+   (prohibited=0, allowed=1), y is the thermal curing selected
+   (isothermal=0, adiabatic=1, temperature-defined=2), and z is the
+   initial saturation for curing (saturated=0, sealed=1). When the user
+   submits their hydration run, the VCCTL returns a detailed listing of
+   these files which will be created by the VCCTL (the user could print
+   out this page through their WWW browser for later reference). The user
+   may view (and download) this file through their WWW browser by
+   specifying http://ciks.cbt.nist.gov/~vcctl/data/image.dft.nnnn.tt.xyz
+   with the appropriately substituted values for image, dft, nnnn, tt, and
+   xyz. Once viewed, the file may be saved using the Save as option on the
+   WWW browser File pulldown menu.
+     __________________________________________________________________
+
+   5) Is there any way I can create an animation of a hydration?
+
+   At the end of the hydration menu selection form, there is a place to
+   enter the number of slices to include in an animation file during the
+   ongoing hydration. The default value for this selection is 0,
+   indicating that no movie file will be created. The microstructure
+   slices (from the middle of the model microstructure volume), will be
+   stored in a file of the form newcem.mov.4000.25.000. After the
+   hydration is complete, this filename can be entered in menu selection 5
+   to create the actual animated gif file illustrating the progress of the
+   hydration. As usual, this animated gif file can be viewed using menu
+   selection 6 from the main VCCTL Menu.
+     __________________________________________________________________

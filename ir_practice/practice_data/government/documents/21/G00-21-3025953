@@ -1,0 +1,25 @@
+http://insurance.va.gov/miscellaneous/chkbrows.js
+
+   function CheckBrowser1() { return CheckBrowser("mypolicy"); } function
+   CheckBrowser2() { return CheckBrowser("liability"); } function
+   CheckBrowser(linkname) { var browserAgent = navigator.userAgent; var
+   browserName = navigator.appName; var browserRealnum =
+   navigator.appVersion; var browserParsed = browserRealnum.substring
+   (0,4); //alert(browserAgent); //alert(browserName);
+   //alert(browserRealnum); //alert(browserParsed); if (browserParsed ==
+   "3.0 ") browserParsed = 3.0; if (browserName.indexOf("WebTV") != -1)
+   return true; else if (browserName == "Netscape" && (browserParsed <
+   4.0)) { var newWin = window.open("miscellaneous/upgrade.htm", linkname,
+   'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,res
+   izable=1,width=600,height=480'); return false; } else if (browserName
+   == "Microsoft Internet Explorer") { if (browserRealnum.indexOf ("Mac")
+   == -1) // Browser is not on a Mac { var ieVer =
+   browserRealnum.substring(browserRealnum.indexOf("MSIE")+5,
+   browserRealnum.indexOf("MSIE")+9); if (ieVer < "4.0") { var newWin =
+   window.open("miscellaneous/upgrade.htm", linkname,
+   'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,res
+   izable=1,width=600,height=480'); return false; } return true; } else if
+   ((browserParsed < 4.0)) // Browser is on a Mac { var newWin =
+   window.open("miscellaneous/upgrade.htm", linkname,
+   'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,res
+   izable=1,width=600,height=480'); return false; } } return true; }

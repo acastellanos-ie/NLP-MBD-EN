@@ -1,0 +1,107 @@
+http://sfbay.wr.usgs.gov/access/Bathy/zTool.html
+
+   [USGS Banner]
+
+San Francisco Bay Bathymetry Web Site
+
+
+
+   -> OBJECTIVES
+
+   -> METHODS
+
+   -> GEOSTATISTICS
+
+   -> zTool
+
+   -> CHANGE
+
+   -> DOWNLOAD GRIDS
+
+   -> CREDITS
+
+   -> RELATED WEB SITES
+
+   -> TABLE OF CONTENTS
+
+   [Shaded bathymetric map of SF Bay]
+
+zTool
+
+   Use zTool to examine a bathymetry data set. You can display a
+   cross-section profile, and compute volume above and below the section.
+   Using the polygon tool you can compute the volume of an outlined
+   polygon at various tide levels.
+
+PLEASE NOTE: zTool has been tested using Netscape rev 4.7 for UNIX and
+Windows, and Netscape 6.2 for MacOS and Windows. Your browser must have
+JavaScript enabled.
+
+
+   CAPTION:
+
+Data Sets:
+
+
+                      Full Bay
+                   100m grid
+                   (1950-95 data) San Pablo Bay
+                                  50m grid
+                                  (1983 data)  Suisun Bay
+                                               25m grid
+                                               (1990 data)
+
+To compute a cross-section area and
+plot the profile:
+
+     * Select a data set from the list above
+     * Select the tide level in the Bathy data box
+     * If necessary use the scroll bars at the bottom and right of the
+       image to locate your area of interest
+     * Select the line tool
+     * Locate the start of your profile with a single mouse click
+     * Move to mouse to the end of your profile and terminate the profile
+       with a second mouse click (use the RESET button to relocate your
+       profile)
+     * Click on the SUBMIT button to obtain your results
+
+Example Input Screen:
+
+   [Screen capture of input screen, with labels]
+
+Example Output Screen:
+
+   [Example of the output screen from above steps]
+
+To compute volume of a polygon:
+
+     * Select a data set from the list above
+     * Select the tide level in the Bathy data box
+     * If necessary, use the scroll bars at the bottom and right of the
+       image to locate your area of interest
+     * Select polygon tool and outline your polygon using the mouse; click
+       at each vertex of the polygon; use the spacebar to end the outline
+       selection
+     * Use the Establish Seed button to set a start point for the volume
+       calculation; after selecting Establish Seed, click anywhere within
+       your polygon
+     * Click on the SUBMIT button to obtain your results
+
+Example Output Screen from Polygon Tool:
+
+   Using the POLYGON TOOL you can compute the volume of a portion of the
+   Bay. In the example below, Suisun Bay has been outlined in the
+   "Selection Window"; in the "Results Window", an image of the selected
+   area and the volume of that segment is returned.
+
+   [Example of the output screen from above steps]
+
+   URL: http://sfbay.wr.usgs.gov/access/Bathy/zTool.html
+   Last modified: 29 January 2002 Laura Zink Torresan
+
+   For more information please contact the "Access USGS--San Francisco Bay
+   and Delta" Web Team
+
+   USGS Privacy Statement  ||  Disclaimer  ||  Copyright
+   information  ||  Accessibility
+   Site Meter

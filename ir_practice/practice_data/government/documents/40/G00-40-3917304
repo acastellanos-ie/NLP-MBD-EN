@@ -1,0 +1,170 @@
+http://sscweb.gsfc.nasa.gov/users_guide/Appendix_A.html
+
+      Models and Regions of Geospace in the Satellite Situation Center
+                              Software, SSCWeb
+
+                  (Hitchhiker's Guide to the SSC Geospace)
+     __________________________________________________________________
+
+   As part of the modernization of the magnetic field models and geospace
+   region definitions used in the Satellite Situation Center (SSC)
+   software, a radical change was introduced between Versions 2.1 and 2.2
+   in terms of the philosophy used to define regions of geospace. Versions
+   2.1 and earlier essentially employed a single "index" to identify
+   regions, without distinction between regions in space and regions on
+   the ionosphere (or ground). Version 2.2, in contrast, involves multiple
+   indices to specifically differentiate the region in geospace that the
+   satellite resides in, and the (mapped) regions on the ionosphere (or
+   ground) that the subsatellite point or magnetic footpoint(s) fall in.
+   Thus, the new geospace region definitions involve a family of
+   "spacecraft regions," and a family of "mapped regions," as listed
+   below:
+
+  Regions of Geospace
+
+   Spacecraft Regions:
+
+     * Interplanetary Medium
+     * Dayside Magnetosheath
+     * Nightside Magnetosheath
+     * Dayside Magnetosphere
+     * Nightside Magnetosphere
+     * Dayside Plasmasphere
+     * Nightside Plasmasphere
+     * Plasma Sheet
+     * Tail Lobe
+     * High Latitude Boundary Layer
+     * Low Latitude Boundary Layer
+
+   Mapped Regions:
+
+     * Northern Cusp
+     * Southern Cusp
+     * Northern Cleft
+     * Southern Cleft
+     * Northern Auroral Oval
+     * Southern Auroral Oval
+     * Northern Polar Cap
+     * Southern Polar Cap
+     * Northern Mid-latitude
+     * Southern Mid-latitude
+     * Low-latitude
+
+   Users may request, independently, information on any of the four region
+   identifier indices:
+    1. spacecraft region
+    2. radially mapped region (i.e. the subsatellite point)
+    3. northern magnetic footprint region
+    4. southern magnetic footprint region. Magnetic field traces are
+       performed using a user-selectable combination of internal and
+       external magnetic field models.
+
+           Regions and Boundaries in the SSC Software: Algorithms
+
+  Spacecraft Regions:
+
+   The Interplanetary Medium, Magnetosheath, and Magnetosphere regions are
+   defined by model boundaries for the magnetopause and bow shock
+   surfaces.
+
+   For the Magnetopause, the Roelof and Sibeck model (JGR, 98, 21421,
+   1993) is employed. The model represents the boundary as a "quadratic
+   function" in aberrated GSE coordinates; namely:
+
+                                [mpause.gif]
+
+   where S1, S2 and S3 are functions of the solar wind dynamicd pressure
+   Psw and the IMF-Bz component.
+
+   For the Bow Shock, a Modified version of Fairfield's 1971 model (JGR,
+   76, 6700, 1971) arranged to move in and out in response to solar wind
+   and IMF changes, in unison with the magnetopause, and constrained to
+   fixed ratio between the subsolar distances to the bow shock and
+   magnetopause, Rbs/Rmp=1.3
+
+                                  [bs.gif]
+
+
+   The Neutral Sheet definition is based on the current sheet model used
+   in new Tsyganenko models (JGR, 100, 5599, 1995). The current sheet
+   surface is described by the expression:
+
+                                  [ns.gif]
+
+   where (x,y, z) are aberrated GSM coordinates, psi is the tilt angle,
+   and the "scaling" parameters are set to: Rh = 8, d = 4, G=10, Ly = 10.
+
+   The Plasma Sheet model, as labelled in the SSC, is meant to include
+   both the plasma sheet (PS) and plasma sheet boundary layer (PSBL) since
+   no community-accepted models exist (as far as we know) to represent
+   these regions independently. The PS region is thus defined as a strip
+   extending 3 Re above and below current sheet surface.
+
+   The High Latitude Boundary Layer (HLBL) and Low Latitude Boundary Layer
+   (LLBL) regions are defined in relation to the magnetopause and neutral
+   sheet. Using GSM coordinates, an anular strip of thickness D = D(X) is
+   defined inside magnetopause; D widens from 0.4 Re at the terminator to
+   4 Re at X=-40 Re, and is held fixed at 4 Re tailward of X=-40 Re.
+   Points inside the strip and within 3 Re of the neutral sheet surface
+   are labelled as LLBL, while those in the strip but more than 3 Re from
+   the neutral sheet are tagged as HLBL.
+
+   The Tail Lobe region is defined as points tailward of the "hinging
+   distance" (Rh = 8), inside the tail but not in PS, HLBL or LLBL.
+
+   The following diagram illustrates graphically, the layout of the
+   regions described above:
+
+                               [tail_reg.gif]
+
+   The Plasmapause is defined according to the model of Gallagher, et al.,
+   (Adv. Space Res. 8, 15, 1988) which represents the plasma density n as
+   a function of the L-parameter, the magnetic local time (MLT) and the
+   height, h, above the Earth's surface.
+
+                                [ppause.gif]
+
+   In the previous expression, lambda is the geomagnetic latitude. We
+   define plasmapause as the surface give by log(n)=1.5 The region
+   labelled Magnetosphere corresponds to points inside magnetopause but
+   not in other s/c regions.
+     __________________________________________________________________
+
+  Mapped Regions:
+
+   The Cusp and Cleft regions are based on "statistical" description by
+   Newell and Meng (JGR, vol. 93, No. A12, pg. 14549, 1988); namely, the
+   Cusp is defined as the region MLAT= 75-76 degrees, MLT=09:00-13:00,
+   while the Cleft is given by MLAT = 74-78 degrees, MLT=08:00-13:30.
+
+   The Auroral Oval boundaries AOHI and AOLOW are described by:
+
+                                  [ao.gif]
+
+   where C=22.5 degrees if MLT¾22:50 and 337.5 degrees if MLT>22:50;
+   S=+/-1 (nightside/dayside).
+
+   Finally, the Mid-latitude and Low-latitude regions are defined in terms
+   of ranges in MLAT according to: Mid-lat from MLAT = 30 degrees up to
+   the equatorward edge of auroral oval, and Low-lat by MLAT = -30 degrees
+   to 30 degrees.
+
+   The various mapped regions are illustrated in the following sketch:
+
+                                [map_reg.gif]
+     __________________________________________________________________
+
+   * SSC Users Guide Table of Contents
+
+   * SSC Home Page
+     __________________________________________________________________
+
+   Responsible NASA official and Curators:
+
+
+    Robert McGuire, Robert.E.McGuire.1@gsfc.nasa.gov, (301) 286-7794
+    Head Space Physics Data Facility
+    Code 632
+    NASA Goddard Space Flight Center
+    Greenbelt, MD 20771
+    SSCWeb Curators

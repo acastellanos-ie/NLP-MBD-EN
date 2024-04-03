@@ -1,0 +1,1611 @@
+http://www.lbl.gov/Publications/Currents/Archive/index.html
+
+   [currents-banner.gif]
+   [clear.gif] [bd15132_.gif] January 25, 2002 [bd15132_.gif] Search the
+   Currents Archive [clear.gif]
+
+
+      Berkeley Lab Gets Top DOE Rating
+      The Disorderly Conduct Of Superconductors
+
+        New Video Service Brings Presentations to Your Desktop
+        Washington Report
+        Catalan Officials Take Interest in Berkeley Lab Science
+        Education News California Must Expand UC Graduate Enrollment
+        New Head of ISS
+        Hand-Held Radiation Detector Could Outsmart Terrorists
+        ALS Researchers Win AAASs Oldest Prize
+        Open House This Fall Volunteers Needed
+        Foreshadowing Granular Superconductivity
+        Breast Cancer Forum Focuses on Bissells Research
+        Be Part of Currents!
+        Bulletin Board
+        Calendar
+        EH&S Classes February 2002
+        AIM Computer Classes: Jan. March
+        Flea Market
+        Flea Market Policy
+        __________________________________________________________________
+
+   Berkeley Lab Gets Top DOE Rating
+
+      By Ron Kolb
+
+
+   [XBD9812_03261_03.jpg]
+
+      For the third consecutive year and with its highest overall grade ever
+      Berkeley Lab has been rated outstanding for both the quality of its
+      science and the level of its support services by the Department of
+      Energy.
+
+      The annual review of Lab performance by the DOE and the University of
+      California Office of the President (UCOP) yielded superior marks in
+      every category of assessment. The overall grade of 92.3 (on a scale of
+      100) for FY01 was the highest ever achieved by Berkeley Lab since the
+      institution of performance-based standards and measures in 1992.
+
+      The report validates the hard work of our scientists and our
+      administrative staff, said Laboratory Director Charles Shank. Every
+      individual at this laboratory should take pride in this rating and
+      accept my personal appreciation for jobs well done.
+
+      Deputy Director for Operations Sally Benson noted that, for the first
+      time, the cumulative administrative and operations scores from DOE
+      reached the outstanding level that science and technology achieved over
+      the past four years. It shows that DOE and UC believe that we are
+      delivering the services that our research needs to maintain a quality
+      enterprise, she added.
+
+      The UCOP figures, developed as part of the contractual obligation for
+      assessment known as Appendix F, were similar to those reported by DOE.
+      Office of the President representative Buck Koonce, the executive
+      director for Laboratory Operations, called it an outstanding story for
+      Berkeley Lab and the culmination of several years of improvements and
+      successes. He referred to the Labs maturing systems and said that, in
+      many areas, it is a model for other labs in the DOE complex.
+
+      In a review last week of the final assessment, Koonce pointed to
+      several highlights that contributed to the Labs high scientific rating.
+      Major initiatives such as the Supernova Acceleration Probe, the
+      Molecular Foundry, and the Energy Efficiency and Electric Reliability
+      Lab were called out for special mention. He also noted facility
+      upgrades at the Advanced Light Source and the National Energy Research
+      Scientific Computing Center.
+
+      Research successes included the confirmation of charge-parity (CP)
+      violation at the B Factory of the Stanford Linear Accelerator Center,
+      the observation of neutrino oscillations at the Sudbury Neutrino
+      Observatory, the world-record resolution below one angstrom at the
+      National Center for Electron Microscopy, and the invention of the
+      energy-efficient Berkeley Lamp.
+
+      Nine different functions were rated on the administration and
+      operations side, with all deemed outstanding or excellent:
+
+      Environmental Restoration and Waste Management was cited for effective
+      operations, reductions in unit costs, and innovative remediation and
+      assessment technologies. Koonce called the completion of all
+      restoration goals as a huge milestone for the site clean-up program.
+
+      Environment, Health and Satefy received major recognition for the
+      successful implementation of the verified Integrated Safety Management
+      (ISM) system and for its record in worker health exposures, accident
+      prevention, and incident tracking. No reportable environmental releases
+      or regulatory violations occurred in FY01.
+        * Facilities Management was rated outstanding for the fifth straight
+          year. Especially noteworthy was the management of three projects
+          radio communication system upgrades, installation of a new electric
+          generator, and the ion accelerator for the Spallation Neutron
+          Source. Maintenance, utility service, and property management were
+          also commended.
+        * Financial Management earned high marks in customer satisfaction,
+          budget tracking, monthly funds controls, and employee skills
+          development. Costs per payroll transaction were among the lowest
+          compared to national benchmarks.
+        * Human Resources showed the greatest improvement over prior years,
+          earning its first outstanding score from UCOP reviewers. Efforts in
+          recruitment, compensation, labor relations, and delivery of
+          benefits information were especially called out.
+        * Information Management earned top grades for cost savings and
+          efficiency in telephone services, customer service in computing
+          support, and regulatory compliance.
+        * Procurement performed admirably within a highly regulated
+          environment, Koonce said, and improved its cycle time for
+          transactions to 6.4 days, one of the best in the contractor
+          complex. Customer satisfaction was also high.
+        * Property Management has improved dramatically over the last two
+          years, said Koonce, and is now rated excellent and features 100
+          percent accuracy of property identification and 100 percent of new
+          property assigned within 60 days.
+        * Laboratory Management was cited for strategic and tactical
+          planning, maintaining strong core competencies, sound cost
+          management, positive community relations and communications
+          efforts, and a commitment to diversity awareness and improvement.
+
+      Koonce also noted several challenges facing the Lab, including the
+      continuing issue of decontaminating the Bevatron for other uses,
+      maintaining an open scientific environment in the context of higher
+      security requirements, and preparing for renewal of the management
+      contract for Berkeley Lab with DOE.
+
+      Benson mentioned one more challenge as a follow-up to the Laboratorys
+      lofty performance grades: What do we do next? What do we need to do to
+      jump to the next level of performance? We have to look at this
+      [assessment process] in different ways. For example, what does it mean
+      to be a location of choice for new scientific opportunities? We need to
+      strive to be the best place in the world to carry out scientific
+      research. We should create a balanced set of measures that evaluates
+      systems-performance and emphasizes efficiency and cost-effectiveness.
+      We need to move to more flexible management approaches that encourage
+      innovation and improvement, while providing the appropriate level of
+      assurance to DOE that we are good stewards of the public resources
+      entrusted to us.
+
+                     DOE Performance Scores for FY 1997 - 2001
+
+                                 [DOE_Scores.jpg]
+
+                                [currents-toc.gif]
+
+   The Disorderly Conduct of Superconductors
+
+   Atom by atom, researchers track down
+   granularity in a high-temp superconductor
+
+      By Paul Preuss
+
+      The high-temperature (high-Tc) superconductors are notable for their
+      many electronic phases, which shift according to the temperature and
+      degree of doping of each material. Phases like superconductivity and
+      insulation have been compared to physical phases like liquid water and
+      ice, or chemical phases like oil and vinegar. But can electronic phases
+      exist side by side on the atomic scale?
+
+      Some theorists say yes. Still, the granular nature of superconductivity
+      in underdoped copper-oxide superconductors is controversial. Now Séamus
+      Davis of Berkeley Labs Materials Sciences Division, a professor of
+      physics at UC Berkeley, has used scanning tunneling microscopy (STM) to
+      make the first-ever nanometer-scale maps of granular superconductivity
+      in a high-Tc superconductor.
+
+      Davis and his colleagues verified their discovery with a second
+      innovative use of STM: employing individual nickel atoms as probes to
+      distinguish superconducting from nonsuperconducting regions in the
+      material, a copper-oxide compound called Bi-2212.
+
+      In underdoped Bi-2212 we found nanoscale grains of apparent
+      superconductivity embedded in an electronically distinct background,
+      says Davis. Although this background state appears to be
+      nonsuperconducting, macroscopic superconductivity may still occur
+      through Josephson tunneling, a quantum-mechanical phenomenon.
+
+      The Davis group showed that even a high-Tc superconductor with
+      essentially perfect crystal structure can exhibit granular
+      superconductivity, its regions of superconductivity spatially separated
+      from one another. Reported this week in Nature, the results may
+      radically change how scientists think about all similar
+      superconductors.
+
+      The difference that doping makes
+
+      All the highest-temperature superconductors found so far are cuprate
+      ceramics, with layers of copper and oxygen sandwiched between layers of
+      other atoms like bismuth. The cuprates are normally insulators, but
+      some become superconducting if they are doped with other atoms. For
+      example, additional oxygen can introduce positive charges or holes into
+      the copper-oxygen layers.
+
+   [XBD200201_00044_02%20.jpg]
+   Séamus Davis is shown with the scanning tunneling microscope he and his
+   group used to create gapmaps of superconducting domains only 3
+   nanometers in diameter (below).
+
+   [nanograins.jpg]
+
+      A cuprate achieves its highest-temperature transition to the
+      superconducting state with just the right amount of doping, different
+      for each compound. When the cuprate is underdoped, theoreticians have
+      predicted that a phenomenon called frustrated electronic phase
+      separation (FEPS) could occur: regions of the sample could develop
+      different electronic phases even though they are separated from each
+      other by mere nanoscale distances.
+
+      One form of FEPS is the proposed stripe phase, in which charge carriers
+      are thought to flow along one-dimensional lines like rivers through
+      insulating regions. Another possibility is that superconducting domains
+      are separated like islands in an insulating sea, says Davis; this could
+      give rise to the kind of electronic granularity his group observed
+      directly.
+
+      Maps of gaps
+
+      Daviss group cleaved perfect single crystals of B-2212, which split
+      cleanly along the bismuth-oxygen plane lying immediately over the
+      copper-oxygen plane. Their scanning tunneling microscope was able to
+      image individual atoms in the plane; in ultra-high vacuum at very low
+      temperature, the electronic states of the underlying copper-oxygen
+      plane could also be sensed.
+
+      As the probe scanned over the plane it measured differences in the
+      current reaching the tip, a function of the voltage between the tip and
+      the surface. Two kinds of regions of different conductance were
+      revealed: alpha regions exhibited relatively small energy gaps, typical
+      of superconductivity; beta regions had larger gaps.
+
+      From these spectral scans, gap-maps were constructed showing that, in
+      the underdoped crystal, the alpha regions were roughly circular areas
+      less than three nanometers (billionths of a meter) across, separated
+      from one another and surrounded by narrow beta regions approximately
+      two nanometers wide.
+
+      One question we couldnt answer with the initial STM spectra was whether
+      the alpha regions really were superconducting, says Davis. But we had
+      recently developed a new atomic-scale tool, one wed already used to
+      study magnetic impurities in superconductors, that could address this
+      question.
+
+      Nickel atoms introduced into the copper-oxygen planes of Bi-2212 stand
+      out because of the orientation of their surrounding clouds of charge:
+      cross shapes reveal the density of negative charges electrons and x
+      shapes that of positive charges holes (see Currents, Sept. 21, 2001).
+      These patterns, or resonances, result when the impurity atom scatters
+      entities known as quasiparticles.
+
+      Quasiparticle symmetry holds the key
+
+      Quasiparticles, which can be thought of as unpaired charge carriers, do
+      not participate directly in superconductivity. Superconductivity is
+      carried by pairs (Cooper pairs) of either electrons or holes;
+      superconductivity in Bi-2212 and most other high-Tc superconductors is
+      carried by holes.
+
+      Quasiparticles too may be either particle-like or hole-like. An overall
+      balance, or symmetry, between the particle-like and hole-like
+      quasiparticle resonances created by impurity atoms is a requirement of
+      local superconductivity.
+
+      Particle-hole symmetry of an impurity resonance indicates the
+      superconducting state, says Davis. It is predicted to decrease in other
+      states and may disappear altogether in nonsuperconducting regions.
+
+      The Davis team surveyed B-2212 crystals a second time with the STM,
+      this time looking not for energy gaps but for the cross- and x-shaped
+      resonances that were signatures of the individual nickel atoms they had
+      introduced into the sample signposts of the superconducting state. They
+      found nickel impurities in alpha regions but none in beta regions.
+
+      A likely explanation is that nickel atoms are indeed present in other
+      regions. But because these are not superconducting, there is no
+      symmetrical particle-hole scattering to reveal the nickel impurities,
+      Davis says.
+
+      Together, these two new STM techniques high-resolution spectral surveys
+      and the use of impurity resonances as local markers of
+      superconductivity not only show that superconductivity is segregated
+      into discrete domains in underdoped B-2212, but also strongly suggest
+      granular superconductivity due to frustrated electronic phase
+      separation.
+
+      Since the domains are so close together, Davis says, quantum-mechanical
+      Josephson tunneling across the nonsuperconducting regions that separate
+      them is probably what supports the long-range superconducting
+      properties of this material.
+
+      Kristine Lang, Vidya Madhavan, and Joan Hoffman are current members of
+      the Davis group. Former member Eric Hudson is a National Research
+      Council fellow at the National Institute of Standards and Technology.
+      Shin-ichi Uchida, Daviss principal collaborator, is professor of
+      physics at Tokyo University; he and his colleague Hiroshi Eisaki made
+      essential materials available. Their article, Using impurity atoms to
+      search for granular superconductivity in underdoped
+      Bi2Sr2CaCu2O8+delta, appears in the Jan. 24, 2002 issue of Nature.
+
+                                [currents-toc.gif]
+
+   New Video Service Brings
+   Presentations to Your Desktop
+
+      By Ron Kolb
+
+   [turchie_video.jpg]
+   Terry Turchies counterterrorism presentation was the first one made
+   available for web viewing using the Labs new video service.
+
+      A new software technology now available at Berkeley Lab allows for the
+      real-time recording of lectures and presentations for easy and
+      high-quality web viewing. Within minutes of the recording, the
+      high-quality audio and video are synchronized with the presenters
+      PowerPoint slides and posted online.
+
+      The system has been designed to make lectures and meeting presentations
+      accessible to a broad audiences in a simulation of live production. The
+      software aligns the video of the speaker with the accompanying slides,
+      which are displayed digitally at high resolution. Each slides text data
+      is then gathered to form an outline of the slide content. The viewer
+      can skip to any point within the presentation, without having to watch
+      the entire streaming video to find a particular segment.
+
+      The service is offered by the Technical and Electronic Information
+      (TEID) and Information Technology Services (ITSD) departments. An
+      example of the systems capabilities is the Jan. 10 lecture by Terry
+      Turchie on How to Catch Terrorists. It can be viewed on TEIDs Video
+      Services website,
+      (http://www-library.lbl.gov/teid/tmVideo/aboutus/VideoDefault.htm;
+      click on Online  Presentations). Within an hour after Turchie completed
+      his talk in the Building 50 auditorium, the entire presentation was
+      posted online.
+
+      The system utilizes RealMedia, the Labs standard streaming player.
+
+      The technology also features a searchable database of keywords from
+      each presentation an alternate route to finding specific content within
+      a talk. Plans are in place to archive presentations by division or
+      project.
+
+      We anticipate this new service will provide a convenient way for Lab
+      users and the public to view educational, institutional and information
+      content conveniently and efficiently, enabling a more effective and
+      far-reaching distribution of Lab resources, said Jane Tierney, TEID
+      department head.
+
+      TEIDs Video Service Group lead, Ellen Seidler (X4237) can provide
+      estimates for recording and web posting of events. Lectures posted on
+      the web are kept online for access by anyone with a web browser
+      configured for RealMedia playback. In addition, TEID can design
+      programs to facilitate the receipt of credit for training, or to
+      provide lists of those who have viewed the presentations online.
+
+      For further information, please contact Jane Tierney at X4400.
+
+                                [currents-toc.gif]
+
+   Foreshadowing Granular Superconductivity
+
+      We had this prediction from looking at clues, like Sherlock Holmes. And
+      then Séamus goes out and actually sees the culprit
+
+      The spectacular electromagnetic effects displayed by superconductors
+      arise because charge carriers (electrons or holes) are bound together
+      in Cooper pairs to form a condensate, with all particles in the same
+      quantum state. Not every particle finds a partner, however. Unpaired
+      particles are described as quasiparticles, whose properties include
+      finite lifetimes.
+
+      The standard picture of superconductor electrodynamics is the two-fluid
+      model, in which the medium behaves as a superconducting fluid a
+      superfluid of Cooper pairs, which is permeated by a normal fluid
+      consisting of quasiparticles, explains Joseph Orenstein, a staff
+      scientist in the Materials Sciences Division and a professor of physics
+      at UC Berkeley.
+
+      Quasiparticles are difficult to study in superconductors; to measure
+      their electrical properties versus that of the condensate, Orenstein
+      used alternating rather than direct current.
+
+      Because the condensate has mass, alternating current repeatedly
+      accelerates and decelerates the charge carriers. There is no
+      resistance, but unlike direct current there is a measurable electric
+      field and voltage. Current contributed by the normal fluid encounters
+      resistance, just as in a normal metal, which is related to
+      quasiparticle lifetimes.
+
+      To set up ac current in a sample of BSCCO, Orenstein used time-domain
+      terahertz spectroscopy, with frequencies between microwaves and the far
+      infrared. He measured the intensity, amplitude, and phase of the wave
+      that passed through the sample.
+
+      The signature of the condensate appears as an out-of-phase component in
+      the waveform, he says, but because quasiparticles respond in phase with
+      the terahertz radiation, they leave a distinct signature in the altered
+      waveform.
+
+      The measurements produced a startling result: the two-fluid model
+      seemed to fail. The two-fluid model suggests that when you cool a
+      superconductor down, you expect the normal charge carriers to convert
+      to superconducting pairs, Orenstein says. Resistance should go down
+      while the screening component, a signature of the condensate, should go
+      up. In BSCCO, both increased.
+
+      The only plausible explanation was that superconducting properties were
+      not uniform throughout the sample. It was an extreme idea, and I never
+      thought anybody would believe it. I spent most of a summer worrying
+      about it.
+
+      When Séamus Davis learned of the results, he set out to look for actual
+      spatial variations in the conductive properties of BSCCOs
+      superconducting layers and found them. Says Orenstein, We had this
+      prediction from looking at clues, like Sherlock Holmes. And then Séamus
+      goes out and actually sees the culprit.
+
+      For details about Orensteins research, visit
+      http://www.lbl.gov/Science-Articles/Archive/MSD-granular-Orenstein.html
+      .
+
+                                [currents-toc.gif]
+
+   Washington Report
+
+   DOE Rebuts Critical GAO Report
+
+      Deputy Energy Secretary Francis Blake has issued a sharp rebuttal to a
+      report from the General Accounting Office that criticized DOEs efforts
+      to reform its operations.
+
+      GAOs identification of DOEs diverse missions as a fundamental cause of
+      past problems is as simplistic as it is wrong, Blake said in a public
+      letter to GAO. The GAO report also fails to understand key facts about
+      the department and Secretary of Energy Spencer Abrahams actions in
+      improving its management.
+
+      The GAO report on DOE management was requested by Rep. Sonny Callahan
+      (R-Ala), chairman of the House Appropriations Subcommittee on Energy
+      and Water Development, and Rep. Pete Visclosky (D-Ind), the
+      subcommittees ranking member. GAO is the investigative arm of Congress.
+      The report was especially critical of DOEs management of its national
+      laboratory system, citing problems with construction delays, cost
+      overruns, and wasted spending, despite the departments pledge in 1995
+      to initiate wide-ranging reforms.
+
+      DOEs management weaknesses and resulting performance problems continue
+      to erode public confidence in the department and its contractors, the
+      report said. DOEs national laboratories are crucial to its mission and
+      performance yet the agency has not been able to develop a single
+      strategic plan that integrates its vast laboratory network. The
+      laboratories, particularly the multi-program ones, operate largely as
+      separate entities. DOE has no central program control over the
+      laboratories, but has instead required that each report to a lead
+      headquarters program office since 1999.
+
+      The report concluded that Certain DOE missions might be managed better
+      if located elsewhere, either combined with other federal agencies that
+      have similar responsibilities or delegated to the private sector.
+
+      In response, Blake said this diverse range of activities, different
+      cultures, and management styles is an advantage.
+
+      To suggest that the entities within a cabinet department must have a
+      common culture is mistaken and would lose the value that a department
+      gains from different perspectives and functions. In fact, DOEs labs
+      benefit from their diversity through their ability to play off each
+      others strengths in tackling scientific challenges.
+
+      What is important, said Blake, is that DOE ensure that its laboratories
+      are performing the right tasks, are executing them properly and are
+      held accountable for the results. This he argued, is now being done and
+      progress is being made towards further improvements.
+
+      The GAO report Department of Energy: Fundamental Reassessment Needed to
+      Address Major Mission, Structure and Accountability Problems can be
+      read at http://www.gao.gov/.  Lynn Yarris
+
+                                [currents-toc.gif]
+
+   Catalan Officials Take Interest in Berkeley Lab Science
+
+
+   [XBD200201_00020_13.jpg]
+
+      Ramon Pascual (right), science advisor to Catalonia President Jordi
+      Pujol (center), talks with Berkeley Lab Deputy Director Pier Oddone
+      during a tour of the Advanced Light Source. The two Catalan leaders
+      were part of an entourage of officials and press representatives from
+      that country who visited the Laboratory on Jan. 15. Their visit was
+      part of a Bay Area swing during which they observed various research
+      and development programs that have been instrumental in building the
+      California economy. Catalonia, an independent state of the nation of
+      Spain, is looking to emulate some of the successful programs here,
+      including some at the Advanced Light Source, in areas such as
+      nanotechnology and energy efficiency.
+
+      In his written welcome to Pujol, Energy Secretary Spencer Abraham
+      encouraged Catalonia to "explore joint research and collaboration
+      initiatives in the near future" with the U.S. He cited Berkeley Lab and
+      the Stanford Linear Accelerator Center as "pioneers" in the development
+      of new technologies and scientific applications.  Photo by Robert
+      Couto
+
+                                [currents-toc.gif]
+
+   Education News
+
+   California Must Expand UC Graduate Enrollment
+
+      To serve the states needs by 2010, the University of California must
+      boost systemwide graduate student enrollment by at least 11,000, or
+      nearly 50 percent, and increase support for individual graduate
+      students, according to the conclusions of a university commission
+      appointed by UC Board of Regents Chairman S. Sue Johnson and UC
+      President Richard C. Atkinson.
+
+      California is one of only five states whose graduate enrollment
+      declined during the last decade, the commission reported, and rated
+      last among the 15 largest states in graduate enrollment.
+
+      In a knowledge-based economy where advanced education is at a premium,
+      the fact that the University of California is lagging so dramatically
+      in graduate enrollments is an issue that simply must be addressed,
+      Atkinson said. If we hope to maintain the states supremacy in such
+      fields as biotechnology and electronics, create new industries not yet
+      imagined, and solve Californias pressing social and environmental
+      problems, we need a highly educated workforce and that means expanded
+      graduate enrollments.
+
+      In order to meet the needs of the huge increase expected in
+      undergraduate enrollment, the commission noted, the state will need to
+      hire an estimated 40,000 new faculty during the coming decade. And
+      Californias colleges will depend on graduates from UCs doctoral
+      programs for many of these positions.
+
+      The commissioners cautioned, however, that to achieve these goals, UC
+      will need to increase funding by about 50 percent, and they estimated
+      that UC will face a $65 million shortfall.
+
+      NSF To Launch New Math and Science Ed Initiative
+
+      The National Science Foundation (NSF) has announced a new $160 million
+      program to improve math and science education in the nations elementary
+      and secondary schools. The program is intended to create partnerships
+      between university scientists and local school districts. It follows
+      the educational views espoused by President Bush that university
+      scientists should help bolster the skills of undergraduates preparing
+      to become teachers and mentor professional school teachers who seek
+      additional training.
+
+      Its going to take years and years for low-scoring U.S. students to
+      become number one in the world, and there are no magic bullets, says
+      Judith Ramaley, who directs NSFs $975 million educational component.
+      This is still a research initiative.
+
+      Ramaley expects this new NSF program to grow significantly over the
+      next several years and become NSFs flagship education effort.
+
+                                [currents-toc.gif]
+
+   New Head of ISS
+
+      Starting Jan. 7, Diana Brown, formerly of UC Berkeley, joined the Lab
+      as the new head of the Information Systems and Services  (ISS)
+      Department in the Information Technologies and Services Division.
+
+      I believe that ITs mission is to deliver information technology
+      solutions that will help its customers succeed in their operations, and
+      that strong partnership between IT and its customers are key to the
+      success of IT projects, she said. To enhance that partnership, I plan
+      to visit the major customers of ISS services, so we can get their
+      feedback. From that, we'll create a baseline on ISS performance so we
+      can further improve our service.
+
+      On campus, Brown served as director of Administrative Systems. She
+      started her career at the Bechtel Group, where she first worked with
+      her new Lab colleagues, Carl Eben and Rosemary Evanoff. She worked for
+      Bank of America briefly before moving on to UC Berkeley, where she
+      spent the last 15 years.
+
+                                [currents-toc.gif]
+
+   Hand-Held Radiation Detector
+   Could Outsmart Terrorists
+
+      By Dan krotz
+
+      Long before September 11, Berkeley Lab engineers, in collaboration with
+      researchers at Lawrence Livermore and Los Alamos National Laboratories,
+      have been working to outsmart terrorists attempting to smuggle
+      radioactive material into the country.
+
+      Their solution is Cryo3, a 10-pound, battery-powered detector that
+      promises to bring state-of-the-art radiation spectrometry anywhere
+      radioactive materials are found.
+
+      The innovation is coupling a germanium radiation detector with a small,
+      low-power cryogenic cooling mechanism originally designed for the
+      aerospace industry, says Lorenzo Fabris of the Labs Engineering
+      Division. This offers extremely high-resolution radiation analysis in a
+      portable package.
+
+      The need for a hand-held radiation detector was first born from a
+      necessity to monitor nuclear weapon stockpiles to ensure nations
+      adhered to treaty obligations. An even more pressing need surfaced
+      after the dissolution of the Soviet Union, when national security
+      experts worried the former superpowers nuclear arsenal could spark a
+      black market in fissile materials. In the wrong hands, these isotopes
+      could be used to build both nuclear bombs and conventional bombs laden
+      with radioactive material a so-called dirty bomb. And rather than being
+      delivered via intercontinental missiles, contraband isotopes can be
+      hidden in backpacks and car trunks, meaning airports, border
+      checkpoints, and shipping terminals provide the last best chance to
+      thwart smuggling.
+
+      To complicate matters, any tool used to screen for isotopes in busy
+      terminals must detect not only the presence of radiation, but also the
+      type. A terrorist could mask radioactive material destined for a dirty
+      bomb in a seemingly benign package of medical isotopes, and therefore
+      sneak past a Geiger counter.
+
+
+   [radiation_detector.jpg]
+
+      Thats where the Cryo3 comes in. At the heart of the unit is a high
+      purity germanium crystal. Energetic photons, X and gamma rays, interact
+      in the germanium crystal to create a corresponding charge. When further
+      processed, this charge depicts both the quantity and type of
+      radioactive isotope present. Although germanium offers higher radiation
+      resolution than other semiconductor detectors, such as silicon and
+      cadmium telluride, it must be deeply cooled, traditionally with liquid
+      nitrogen. And although liquid nitrogen is very common in the
+      laboratory, it is awkward to transport, store, and handle in the field.
+
+      To sidestep this limitation, Berkeley Lab engineers coupled the
+      germanium crystal to an off-the-shelf mechanical cooling device
+      currently used to cool low-noise cell phone antennae. The device, which
+      utilizes the Sterling cycle to reach low temperatures, only requires 15
+      watts to cool the germanium to 87 degrees Kelvin. When the cryogenic
+      mechanical cooler is vacuum sealed to a germanium detector, the result
+      is a lightweight, highly sensitive radiation detector that operates up
+      to six hours on two rechargeable camcorder batteries.
+
+      The mechanical cooler requires 16 hours to cool the detector from room
+      temperature to operating temperature, but because the batteries are hot
+      swappable, a fresh supply guarantees unlimited operational time.
+
+      In the field, the solid-state detector performs much like its lab-based
+      cousins. Incident photons are absorbed by the germanium and converted
+      into electrical signals at a resolution of 3.5 keV at an incident
+      energy of 662 keV.
+
+      To keep the system portable and low power without sacrificing
+      resolution, Fabris and colleagues made additional refinements.
+      Borrowing from lessons learned in satellite-based germanium detector
+      applications, they protected the delicate crystal in a hermetically
+      sealed, nitrogen-filled capsule. The encapsulated germanium detector is
+      suspended with Kevlar fibers in a close-fitting utility vacuum chamber.
+
+      Another obstacle was electronic noise, a byproduct of all electrical
+      systems that is particularly troublesome in radiation detectors because
+      it degrades the electronic readouts depiction of the absorbed
+      radiation. In short, electronic noise softens the readouts sharp spikes
+      into rounded hills, meaning valuable data is lost. Fabris turned to a
+      specially designed small, low-power preamplifier that minimizes
+      electronic noise without sapping battery power a critical component,
+      given that conventional preamplifiers are too power-hungry to be used
+      in a battery-powered device.
+
+      So far, Fabris and colleagues have developed detectors of modest size,
+      or so-called 25 percent efficient detectors. In the future, they hope
+      to increase the detector size and therefore the efficiency to 50 and
+      even 100 percent by using modified mechanical coolers that only cool to
+      105 degrees Kelvin, a temperature still within germaniums operating
+      parameters. The modified mechanical coolers have almost twice the heat
+      lift for the same input power when compared to the conventional
+      mechanical cooler.
+
+      Ultimately, Fabris foresees a time when next-generation iterations of
+      Cryo3 safeguard the nation with lab-quality, portable radiation
+      detection and characterization.
+
+      Whatever you can detect with a germanium crystal, you can detect with
+      the portable system, says Fabris. Ideally, we would be able to place
+      one at any customs port.
+
+                                [currents-toc.gif]
+
+   ALS Researchers Win AAASs Oldest Prize
+
+      Harry Noller and his team of researchers from the University of
+      California at Santa Cruz, with Thomas Earnest of Berkeley Labs Physical
+      Biosciences Division, are winners of the American Association for the
+      Advancement of Sciences Newcomb Cleveland Award for their paper Crystal
+      structure of the ribosome at 5.5 Å resolution, which appeared in the
+      May 4, 2001, issue of Science magazine.
+
+      The prize consists of a bronze medal and $5,000 in cash. Established in
+      1923 and the AAASs oldest, it is awarded to the author or authors of an
+      outstanding paper published in Science, one that constitutes a
+      fundamental contribution to basic knowledge or is a technical
+      achievement of far-reaching consequence. With their high-resolution
+      image of the 70s ribosome, the Noller-Earnest collaboration more than
+      achieved those goals.
+
+      Ribosomes are the molecular machines inside cells that assemble
+      functioning proteins from amino acids, using genetic information
+      brought from genes in the cells DNA by lengths of messenger RNA.
+      Ribosomes themselves are large complexes, some 2.5 million times more
+      massive than a single hydrogen atom, built from three RNA molecules and
+      more than 50 protein molecules. To date, they are the largest
+      asymmetric structures ever solved by crystallography techniques.
+
+      The structure was solved using the crystallography beamline at the
+      Advanced Light Source, designed by Earnest and constructed under his
+      direction. Noller, who is the Robert L. Sinsheimer professor of
+      molecular biology at UC Santa Cruz and helped create the Center for
+      Molecular Biology of RNA there, has long collaborated with Earnest in
+      using the ALSs Macromolecular Crystallography Facility to investigate
+      the ribosome.
+
+      Their work was performed on complete ribosomes from the heat-tolerant
+      microbe Thermus thermophilus, and elucidates not only structure but
+      function, partly because not only the ribosome but transfer RNA chains
+      bound to it were imaged as well.
+
+      Noller, Earnest, and their coauthors share the Newcomb Cleveland prize
+      with Thomas Steitz of Yale University, another longtime ribosome
+      researcher, whose Science paper describes his imaging of the ribosomes
+      50s subunit.
+
+                                [currents-toc.gif]
+
+   Open House This Fall Volunteers Needed
+
+      On Saturday, Oct. 5, Berkeley Lab will once again open its site and
+      scientific facilities to the public for its popular Open House event.
+
+      This will be the fourth time the Lab has invited the community to take
+      part in a day-long series of tours, events and educational activities.
+      The last Open House was held in May of 2000, when close to 5,000 people
+      visited the Lab to peer into the worlds of physics, life sciences,
+      energy, computing and more. The event, which has proven enormously
+      popular with the community, offers a unique opportunity for the Lab to
+      showcase its science and to share the excitement and value of the
+      research that is done here.
+
+      Open House 2002 will once again highlight the broad scope of Berkeley
+      Lab science programs as represented by participating divisions and
+      departments. As in the past, there will be interactive demonstrations,
+      displays of labs and research facilities, numerous hands-on activities
+      for children, as well as music and refreshments.
+
+      A task force to plan the event is now being formed, and Laboratory
+      divisions and employees are encouraged to participate in program
+      development. For more information on ways to contribute, contact Ron
+      Kolb at X7586 or RRKolb@lbl.gov.
+
+                                [currents-toc.gif]
+
+   Breast Cancer Forum Focuses on Bissells Research
+
+
+   [XBD200201_00022_04.jpg]
+
+      Life Sciences Division Director Mina Bissell, who started the Breast
+      Cancer Research Awareness Forum last summer, was back on Jan. 17 to
+      launch this years series with a lively presentation in the Building 50
+      auditorium on Breast Cancer Research: New Models for the Millennium.
+
+      Bissell was recently named one of five recipients of the Innovator
+      Award, a new grant established by the Breast Cancer Research Program of
+      the Department of Defense. The $3 million awarded to Bissell will
+      support her continued research over the next four years into the
+      relationship between malignancy and the microenvironment of epithelial
+      cells.
+
+      In her presentation, Bissell discussed her research and the awards
+      contribution to her future work in understanding breast cancer. Her
+      multidisciplinary team includes collaborators from the Lab and from
+      across the United States.
+
+                                [currents-toc.gif]
+
+   Be Part of Currents!
+
+      Do you have an interesting story or anecdote to tell?
+
+      Did you or one of your colleagues accomplish something that you think
+      others would like to hear about?
+
+      Are you working on some interesting research?
+
+      Do you have a picture you would like to have published?
+
+      Here at Currents we would like to involve as many of you as possible so
+      that the paper truly reflect the entire scope of the Lab community.
+
+      Please send your suggestions to msfriedlander@lbl.gov. We cannot
+      publish every item submitted, but we will consider all your
+      suggestions.
+
+                                [currents-toc.gif]
+
+   Bulletin Board
+
+   Its the Cheesehead . . .
+
+
+   [XBD200201_00019_01.jpg]
+
+      The bet was simple: the loser wears the colors of the winner for one
+      day. The Green Bay Packers, football team of choice for Deputy Division
+      Director Robin Wendt of Environment, Health and Safety, beat the San
+      Francisco 49ers, favorites of EH&S Division office manager June Wong,
+      in a playoff game on Jan. 13. That Monday, June suffered the ignominy
+      of a cheesehead hat and various other Packer paraphernalia which
+      populated her office. But she got the last laugh: Green Bay was
+      eliminated by St. Louis last weekend.   Photo by Robert Couto
+
+   Travel News
+
+      Frequent Flyer Miles
+
+      A travel advisory issued by the General Services Office of
+      Governmentwide Policy has some good news for federal travelers who earn
+      frequent traveler benefits while on official government travel. Thanks
+      to a new law (the National Defense Authorization Act), federal
+      employees and contractors will be allowed to retain frequent flyer
+      miles for their personal use. The law repeals a 1994 act prohibiting
+      such use. For more information contact the Travel Office.
+
+      New Baggage Screening: Prepare for further airport delays
+
+      Starting in January, the nations airlines have to do security
+      inspections on all checked bags under the new Aviation and
+      Transportation Security Act.  Although details have not been discussed
+      yet by most airlines, travelers should expect additional delays at
+      check-in. A variety of screening methods may be used, including
+      cross-checking baggage and passenger lists to make sure no stray bags
+      are on board, bomb sniffing dogs, hand searches and explosive detection
+      machines. The Security Act specifies that all luggage must be screened
+      by the explosive detection machines, which are currently in short
+      supply.
+
+   New Grizzly Gate Schedule
+
+      In order to avoid traffic congestion at the Strawberry gate, the
+      Grizzly Gate is extending its hours of operation in the morning. The
+      gate will now be open from 6:30 to 9:30 a.m. and from 3 to 6:30 p.m.
+
+   Presenters Needed for Daughters and Sons to Work Day
+
+      Organizers for this years Daughters and Sons to Work Day, to be held on
+      April 25, are looking for workshop presenters who can provide engaging
+      activities for children aged 9 to 15.
+
+      The workshops will be held at 10:30 a.m. and again at 1 p.m. and should
+      focus on science, technology and careers at Berkeley Lab. Chaperones
+      are also needed.
+
+      To volunteer, call Rollie Otto (X5325) or Alyce Herrera (X7411) in the
+      Center for Science and Engineering Education.
+
+   Board Members Needed for Science Exploration Camp
+
+      Berkeley Lab's Science Exploration Camp (SEC) is seeking board members
+      to help plan for Summer 2002. SEC is a non-profit organization run by
+      volunteers. The camp provides a mix of recreational and
+      science-oriented activities for school-age children of Lab employees.
+
+      For more information e-mail sciencecamp@ lbl.gov.
+
+   Blood Drive Feb. 56
+
+      Berkeley Lab's two-day Winter Blood Drive, part of an ongoing
+      partnership between the Laboratory and the American Red Cross Blood
+      Services, will be held on Tuesday, Feb. 5 (8 a.m. to 1 p.m.) and
+      Wednesday, Feb. 6 (8 a.m. to 2 p.m.) in Bldg. 70A-3377. Donors are
+      encouraged to schedule appointments online at the BeADonor website
+      (http://www.beadonor.com/). Use company/group code "LBL" on the web
+      form.
+
+      To be eligible to donate blood, donors must be in good health, at least
+      17 years old, weigh at least 110 pounds, and not have donated blood in
+      the last 56 days. Please check the BeADonor website for detailed
+      eligibility requirements, as some of the criteria have changed
+      recently.
+
+      This is a slow time for blood donations and your help is needed to help
+      replenish the blood supply. For more information, contact Charlotte
+      Bochra at X4268.
+
+   Surplus Chemicals
+
+      Surplus chemicals are available free for use by DOE projects. To look
+      up chemicals, see http://www-ia1.lbl.gov/chemx/ or contact Shelley
+      Worsham at X6123.
+
+   Computer Corner
+
+      Easy Shortcuts to Help Desk, E-mail, Software, Calendar
+
+      Tired of remembering or looking up those long URLs? If you need to
+      access the computer Help Desk, the central software download page, or
+      wish to look up information about e-mail and calendar support, all you
+      need to do is add a suffix to the Labs main URL (http://www.lbl.gov/):
+      /mail, /cal, /help or /download.
+
+      Depending on how your computer is configured, you may not even have to
+      do that much. Simply type help in your browsers location field and you
+      will access the computer support page of the Computing Infrastructure
+      Support Department.
+
+      New Calendar Client for Macs Now Available
+
+      The new Steltor CorporateTime client for Macintosh is now available
+      from the Lab's Software Download page. Look for Steltor CorporateTime
+      5.2 for Mac NEW" in the web/E-mail section. This new version fixes
+      several problems with the older Netscape version of the Macintosh
+      calendar client, including a bug in the reminder function.
+
+      Before installing the software, make sure to run the Mac software
+      update from the control panel for the latest version of Carbon
+      Libraries from Apple. After downloading and installing Steltor, read
+      this client configuration information.
+
+      Back Up Your Computer Data
+
+      According to the Lab's Regulations and Procedures Manual,
+      responsibility for protecting data rests with its owner that is, you.
+      And the more we rely on computers for our work, the more important it
+      becomes for each of us to set up a reliable way to back up files. Doing
+      so can prevent the loss of months or even years worth of work.
+
+      To protect against accidentally erasing or deleting a file, its enough
+      to make backup copies on your computer. To protect important files
+      against a system or hard drive failure, copy the more valuable data to
+      a tape or disk. Protecting data against total loss (as could happen in
+      a fire) requires offsite storage of all backed up files.
+
+      The centralized backup services currently provided by CIS for PCs,
+      Macs, UNIX and Linux computers provide regular reliable updating of all
+      data and storage in a protected offsite location. Fewer than 900 onsite
+      computers are currently protected by this service.
+
+      For more information, visit the CIS page at
+      http://www.lbl.gov/ITSD/CIS/Services/backups.html.
+
+      Photo:  help_desk
+
+                                [currents-toc.gif]
+
+   Calendar
+
+   General Interest
+
+   JANUARY 29, Tuesday
+
+      COUNTERTERRORISM AND SCIENCE & TECHNOLOGY
+      Randall Murch, FBI Laboratory
+      12 1:30 p.m., Bldg. 50 auditorium
+
+   JANUARY 31, Thursday
+
+      SHOEMOBILE
+      7:30 a.m. 3:30 p.m., cafeteria parking lot
+
+   FEBRUARY 4, Monday
+
+      TRIPMOBILE
+      12 1 p.m., cafeteria parking lot
+
+   FEBRUARY 5, Tuesday
+
+      WINTER BLOOD DRIVE
+      8 a.m. 1 p.m., Bldg. 70, Room 3377
+
+      Send us your announcements
+
+      Announcements for the General Calendar and Bulletin Board page may be
+      sent to MSFriedlander@lbl.gov. Seminar & Lectures items may be mailed
+      to currents_ calendar@lbl.gov. You may also fax items to X6641 or mail
+      them to Bldg. 65B. The deadline for the Feb. 8 issue is 5 p.m. Monday,
+      Feb. 4.
+
+   Seminars & Lectures
+
+   JANUARY 28, Monday
+
+      DEPARTMENT OF PHYSICS COLLOQUIUM
+      Luminescence from Laser-Induced Bubbles in Water and Cryogenic Liquids
+      Speaker: Gary Williams, University of California at Los Angeles
+      4:30 p.m., 1 Le Conte Hall
+
+   JANUARY 29, Tuesday
+
+      LIFE SCIENCES DIVISION SEMINAR
+      Visual Biochemistry: Watching Enzymes Repair DNA at the Single-Molecule
+      Level
+      Speaker: Stephen C. Kowalczykowski, UC Davis
+      4:00 p.m., Building 66 auditorium
+
+      PHYSICS DIVISION SPECIAL RESEARCH PROGRESS MEETING
+      Counterterrorism and Science and Technology
+      Speaker: Randall Murch, Assistant Director, FBI Laboratory
+      Noon, Building 50 auditorium
+
+   JANUARY 31, Thursday
+
+      PHYSICS DIVISION RESEARCH PROGRESS MEETING
+      Supernova Searches, Dark Energy and the Causal Structure of the
+      Universe
+      Speaker: Glenn Starkmann, Western Reserve University
+      4:00 p.m., Building 50A-5132
+
+   FEBRUARY 4, Monday
+
+      DEPARTMENT OF PHYSICS COLLOQUIUM
+      QCD Under Extreme Conditions at the Relativistic Heavy Ion Collider
+      Speaker: James L. Nagle, Columbia University
+      4:30 p.m., 1 Le Conte Hall
+
+   FEBRUARY 5, Tuesday
+
+      PHYSICS DIVISION RESEARCH PROGRESS MEETING
+      Gamma-Ray Bursts: The Afterglow Revolution
+      Speaker: Titus Galama, Caltech
+      4:00 p.m., Building 50A-5132
+
+   FEBRUARY 6, Wednesday
+
+      NUCLEAR SCIENCE DIVISION COLLOQUIUM
+      Recent Gas-Phase Chemical Studies with Element 108 and
+      Outlook for Chemistry Experiments with Spherical Superheavy Elements
+      Speaker: Heinz Gaeggeler, University of Bern, Switzerland
+      11:00 a.m., Building. 50 auditorium
+
+   FEBRUARY 7, Thursday
+
+      PHYSICS DIVISION RESEARCH PROGRESS MEETING
+      Life After sin^2 beta
+      Speaker: Vasilli Shelkov, Berkeley Lab
+      4:00 p.m., Building 50A-5132
+
+                                [currents-toc.gif]
+
+   EH&S Classes February 2002
+
+
+   Date
+
+       Course
+
+                                                Time
+
+                                                           Building
+
+   2/5
+
+       EHS 275
+
+               Confined Space Hazards
+
+                                                8:30 11:00
+
+                                                           51-201
+
+   2/5
+
+       EHS 274
+
+               Confined Space-Retraining
+
+                                                11:00 12:00
+
+                                                           51-201
+
+   2/5
+
+       EHS 330
+
+               Lead Hazards Awareness
+
+                                                1:00 2:00
+
+                                                           51-201
+
+   2/6
+
+       EHS 116
+
+               First Aid
+
+                                                8:30 12:00
+
+                                                           48-109
+
+   2/6
+
+       EHS 276
+
+               Fall Protection
+
+                                                9:00 11:00
+
+                                                           51-201
+
+   2/7
+
+       EHS 60
+
+               Ergonomics for Computer Users
+
+                                                9:00 10:30
+
+                                                           51-201
+
+   2/7
+
+       EHS 256
+
+               Lockout/Tagout
+
+                                                1:30 3:00
+
+                                                           51-201
+
+   2/12
+
+       EHS 10
+
+               Introduction to EHS at LBNL
+
+                                                8:00 10:15
+
+                                                           50 aud
+
+   2/13
+
+       EHS 123
+
+               Adult CPR
+
+                                                8:30 12:00
+
+                                                           51-201
+
+   2/13
+
+       EHS 210
+
+               Hoist
+
+                                                10:30 12:00
+
+                                                           51-201
+
+   2/14
+
+       EHS 278
+
+               Ladder Safety
+
+                                                9:00 10:00
+
+                                                           51-201
+
+   2/14
+
+       EHS 280
+
+               Laser Safety
+
+                                                1:00 4:00
+
+                                                           51-201
+
+   2/19
+
+       EHS 135
+
+               Earthquake Safety
+
+                                                10:30 11:30
+
+                                                           48-109
+
+   2/20
+
+       EHS 260
+
+               Basic Electric Safety
+
+                                                10:00 11:30
+
+                                                           51-201
+
+   2/20
+
+       EHS 530
+
+               Fire Extinguisher
+
+                                                10:00 11:30
+
+                                                           48-109
+
+   2/20
+
+       EHS 283
+
+               Ultra Violet User Safety
+
+                                                1:30 2:30
+
+                                                           51-201
+
+   2/21
+
+       EHS 60
+
+               Ergonomics for Computer Users
+
+                                                1:00 2:30
+
+                                                           51-201
+
+   2/26
+
+       EHS 604
+
+               Hazardous Waste Generator
+
+                                                9:30 11:00
+
+                                                           51-201
+
+   2/26
+
+       EHS 622
+
+               Radioactive/Mixed Waste Generator
+
+                                                11:00 12:00
+
+                                                           51-201
+
+   2/27
+
+       EHS 210
+
+               Hoist
+
+                                                10:30 12:00
+
+                                                           51-201
+
+   2/27
+
+       EHS 735/
+       738/739
+
+               Biosafety/Bloodborne Pathogen
+
+                                                1:30 2:45
+
+                                                           51-201
+
+   2/28
+
+       EHS 400
+
+               Radiation Safety-Fundamentals
+
+                                                9:00 12:00
+
+                                                           51-201
+
+   2/28
+
+       EHS 432
+
+               Radiation Protection-Lab Safety
+
+                                                1:00 5:00
+
+                                                           51-201
+
+      To enroll, contact Valarie Espinoza at VMEspinoza@lbl.gov or enroll via
+      the web at https://hris.lbl.gov/self_service/training/. Preregistration
+      is required for all courses except EHS 10. For a full, updated
+      schedule, see http://www-ia1.lbl.gov/schedule/.
+
+                                [currents-toc.gif]
+
+   AIM Computer Classes: Jan.  March
+
+      AIM, a Walnut Creek-based computer software training firm, provides
+      onsite PC computer courses to Lab employees.
+
+
+   Date
+
+                      Course
+
+                                            Price
+
+   1/28
+
+            PowerPoint 97 Fundamentals
+
+                                            $150
+
+   1/30
+
+               Word 97 Intermediate
+
+                                            $150
+
+   1/31
+
+               Excel 97 Fundamentals
+
+                                            $150
+
+   2/4
+
+           HTML 4.0 Programming Level I
+
+                                            $225
+
+   2/5
+
+           Dreamweaver 3.0 Fundamentals
+
+                                            $300
+
+   2/6
+
+          FileMaker Pro 5.5 Intermediate
+
+                                            $150
+
+   2/21
+
+               Excel 97 Intermediate
+
+                                            $150
+
+   2/22
+
+        PowerPoint 97 Intermediate/Advanced
+
+                                            $150
+
+   3/6
+
+                 Word 97 Advanced
+
+                                            $150
+
+   3/7
+
+       Dreamweaver 3.0 Intermediate/Advanced
+
+                                            $300
+
+   3/13
+
+                 Excel 97 Advanced
+
+                                            $150
+
+   3/14
+
+            FileMaker Pro 5.5 Advanced
+
+                                            $150
+
+   3/21
+
+           HTML 4.0 Programming Level II
+
+                                            $225
+
+      Classes are held in Bldg. 51L from 9 a.m. to 4 p.m. Class descriptions
+      and registration procedure are available at
+      http://www.lbl.gov/Workplace/EDT/computers/PC_Classes. html. All
+      in-house courses are taught on PCs with Windows 98®. The 97 series
+      programs are used by the newest version of Microsoft Office for Windows
+      98®. Series 6.x programs for the Mac are nearly identical to the
+      Windows 98® versions. For users of a Mac 6.x series or an older Mac or
+      PC version, the material covered in these courses will be applicable.
+
+      Note: The desks in the 51L Computer Training room were recently
+      replaced with ergonomically enhanced workstations.
+
+      For more information contact Heather Pinto at hmpinto@lbl.gov.
+
+                                [currents-toc.gif]
+
+   Flea Market
+
+   AUTOS / SUPPLIES
+
+      '01 HONDA EX, leather w/ wood trim, 7K mi, silver, 4 spd, 4 dr, ac,
+      sunrf, 4-whl ABS, pwr steer/locks, dual airbags, alarm, am/fm/cass/ cd,
+      Chang, X4417, 527-9108
+
+      '99 JEEP GRAND CHEROKEE LARADO, 4 wd, 4.0L 6, blk on slae, 77K mi, ac,
+      sunrf, 10 disc cd, infinity snd sys, dual pwr leather heated seats, pwr
+      win/dr/ locks, 5 alloy wheels, ABS, tow pkg, overhead console, trak lok
+      diff service recs, extra clean, $17,900, Worley, 527-3869
+
+      '95 BMW 325 IS, blk on blk, at, sport pkg, ac, sunrf, am/fm/cass/cd,
+      dual pwr leather seats & air bags, premium wheels, recently serviced,
+      new brakes, very clean, 77K mi, $16,000/bo, June, X2916, Rich, (650)
+      867-8828
+
+      '94 ACURA INTEGRA, 2 dr, 58K, at, ac, pw, ps, radio/cass, airbags, tilt
+      wheel, 1 owner, garaged, $7,500/ bo, Dave, X4506, (925) 691-6081
+
+      '93 ACURA INTEGRA LS, exc cond, 113K mi, gray, 5 spd, 2 dr/hatch, ac,
+      pwr moonrf/steer/win, cruise, alarm, am/fm/cass, tilt wheel, tinted
+      rear win, car cover, new batt, maint recs, 1 owner, extra clean,
+      $5,800, Ken, X6343, (707) 643-4065
+
+      '91 SATURN SL2, blue, ac, all pwr, ABS, 5 spd, 145K mi, good cond, runs
+      well, body & paint good except for paint blemish on hood, $2,100, Dan,
+      758-5584
+
+      '89 ACURA LEGEND L, white, V6, 196K mi, 4 dr, at, leather int
+      (damaged), driver airbag, ac, all pwr, tilt wheel, cruise, am/fm/ cass,
+      moonrf, needs work, $1,000/bo, Heather, 832-3829, X4181
+
+      '87 HONDA CRX, runs/ looks like '97, new engine/ trans, 5 spd, great
+      stereo, $2,395/bo, X7670, 520-1369 cell, (925) 432-2383 home
+
+      '87 CHEVY NOVA, exc cond, $1,600/bo, Jacek, X6254, (707) 425-1828
+
+      '85 MERCEDES BENZ 300, turbo diesel, 160K mi, blue, clean, at, sunrf,
+      pwr locks/win/mirror, alarm, am/fm/cass, cruise, records, well kept,
+      $3,400, George, X7252, 234-5250
+
+      '85 HONDA CIVIC, 199K mi, 1.5L, manual, runs well, $800/bo, Morgan,
+      X6594, 845-1522
+
+      '85 BMW 535i, loaded, looks/runs great, $4,300/ bo, Leslie, 643-2816
+
+      '76 CHEVY NOVA, 4 dr, lt yellow, straight body, never damaged; new V6
+      eng, carpet, upholstery & windshield,all receipts, $2,150/ bo, Janice,
+      235-1767
+
+      '68 LINCOLN CONTINENTAL, 2 dr, ac, all pwr, not running, body is
+      perfect, all chrome intact, nearly new tires, silver w/ blk top, 460 V8
+      w/ 3 spd at, needs new exhaust valves & valve job, rare find, $1,000,
+      Angelic or Kris, 276-6756
+
+      16.5" FORD 8-LUG RIMS & TIRES, set of 4, great shape, $50, Angelic or
+      Kris, X4079, 276-6756
+
+   MOTORCYCLES
+
+      '89 HONDA XR100R dirt bike, looks/runs great, one new engine (lower &
+      upper), X7670, 520-1369 cell, (925) 432-2383 home
+
+   HOUSING
+
+      ALBANY apt, 2 bdrm/2 bth, 555 Pierce St., near Lab, $1,600/ mo, lease
+      until 3/31 (flex), Yang, 205-6995
+
+      ALBANY HILLS home for rent, 2 bdrm/1 bth, hill view, yard, 1+ car
+      garage, storage, walk to Solano Ave stores, w/w carpet, hrdwd flrs,
+      central heat, w/d hookups, laundry chute, fireplace, dw, grbg disposal,
+      large refrig, new paint, no pets/smoking, 1-yr lease, renewable
+      $1,700-$1,800/ mo + $2,000 dep, Miguel, X6443, mafurman@lbl.gov,
+      Margie, 450-2172/msgs
+
+      BERKELEY HILLS, fully furn rm w/ sep entry, full kitchen priv, w/d,
+      quiet neighborhd, lovely backyard, near bus, avail 2/01, $875/mo incl
+      util, Karen, 525-5797, klscott@eecs. berkeley.edu
+
+      BERKELEY HILLS, room in 2 bdrm/1 bth apt, fully furn, lots of closet
+      space, laundry, lge kitchen, liv rm, garden, TV, DSL avail, friendly
+      neighbors, close to bus & Lab, $850/mo, 549-0285
+
+      BERKELEY, furn house avail for March, dates neg, 2 bdrm/1 bth, sm yard,
+      quiet, Allston Way 3 blks east of San Pablo, rent reduced to $950 for
+      taking care of dog (affectionate lab mix), Jan, 843-3171
+
+      BERKELEY, furn rms in 6 bdrm/2 bth House of Scholars, 1425 Ward St. at
+      Sacramento, house phone, w/d, common liv rm & kitchen, house computer
+      w/ DSL access, off-str parking, housecleaning, 2 mo min stay,
+      $670-790/mo + 15% util, Anushka, 486-8153, housintscholar@
+      mindspring.com
+
+      BERKELEY, sm furn room w/ priv bth in home near Claremont, borders
+      Parkland, walk to UC, overlooks garden patio, light cooking allowed,
+      other tenants incl owners & UC faculty, mature researchers/ scholars &
+      long-term visiting faculty pref, rent neg in  exch of light
+      work/house-sitting, 848-4022
+
+      CENTRAL BERKELEY, nice furn rooms, kitchen, laundry, TV, DSL, hardwd
+      flrs, linens, dishes, walk to Lab shuttle, campus, BART, & shops,
+      $950/mo incl util, $350/wk, Jin or Paul, 845-5959, jin.young@juno. com,
+      Paul X7363
+
+      EL CERRITO rm, close to bus, BART, shops, restaurants, housemates are
+      UCB grad students, lge house w/ many amenities, laundry, view, d/w,
+      hardwd flrs, fireplc, off-str parking, $625/ mo, Michael, 236-4916
+
+      EL CERRITO, 1 room avail now in 2 bdrm apt, walk to BART/shops, new
+      complex, big & sunny, 1-1/2 bth, fireplc, balcony, dw, parking,
+      laundry, fitness center & pool, share w/ male grad student, $635/ mo,
+      Igor, swed733@ yahoo.com
+
+      LAKE MERRITT, sublet lge apt, 1/18 to 7/1 (maybe longer), fully furn,
+      phone, cable & DSL, 3 min walk to BART, $1,250/mo, Lorri, X7493, Scott,
+      663-2255
+
+      NORTH BERKELEY, short-term rental, 3/1 to early May, 1 furn bdrm in 2
+      bdrm house, panoramic view, front & back yard, lge liv rm, near Tilden
+      & Lab, quiet & friendly female housemate, $600/mo + util, Heather,
+      X2226, 527-7991
+
+      ORINDA, 15 min drive to Lab, woodsy/rural setting, 2 rms/priv bth in 4
+      bdrm house, $700/mo for both rms, Mary, (925) 254-6940
+
+   HOUSING WANTED
+
+      HOUSING EXCHANGE: 2 artists wish to exch 1800 sq ft Chelsea loft for
+      comparable accomm in Bay Area, late Mar to June 15, loft has 1 lge
+      bdrm, 1 kid's rm, lge liv rm/kitchen/din area, painter's studio, w/d,
+      4th flr, security bldg, elev access, 20th St betw 7th & 8th Aves, walk
+      to galleries, Chelsea Piers, close to subway stops & great shopping,
+      berlind4@ aol.com
+
+      LAB EMPLOYEE seeks 1 bdrm/studio in Berkeley/ Oakland, Steve, X6966
+
+      VISITING FRENCH GRAD STUDENT (male), here for 6 mos starting mid Feb,
+      seeks furn 1 bdrm or shared 2 bdrm close to Lab, djacobs@lbl.gov, X7535
+
+      VISITING GERMAN STUDENT (female) seeks accommodations near Lab 3/1 -
+      8/31, Katja.Thaidigsmann@web.de
+
+   MISC FOR SALE
+
+      FUTON SOFA/BED blk steel frame, qn size, $60; women's bike, 12 gears
+      $50; qn size mattress, $50; Ikea bookshelf, $15; 3 plants w/ pot, $20;
+      tea table, $15; old microwave, $10; BBQ, $10; cooler, $5, Roger, X7709,
+      883-0516
+
+      FUTON, blk metallic frame w/ 6" mattress, $140; TV table, blk, $20;
+      table & 2 padded chairs, $100; all items in exc cond, only a few mos
+      old, Shirin, X5550, 965-0644 eves
+
+      K2 SKIS, sidecut 7.9, Nor-dica boots, size 6 - 6 1/2, like new, $200
+      for all, Norma, (925) 254-1296
+
+      KENMORE ELECTRIC DRYER, exc cond, $75, Angelic or Kris, X4079, 276-6756
+
+      SHARP (19N-M100) TV, $135; JVC stereo video, $100; full sz mattress,
+      box spring & wd frame, $120; sofabed, $50; 2 lamps, $20/pr; Sony
+      cd/tape/radio, $35; lge chest drawers, $20; various chairs, small
+      tables, iron/brd, bookshelf, toaster, phone/answ mach, kitchenware, all
+      neg, Morgan, X6594, 845-1522
+
+      SKIS, dynastar pwrtracs 186 cm, less than 1 yr old, ess-6-14 bindings;
+      squaw valley lift tkts, $47/ea, X7670, 520-1369 cell, (925) 432-2383
+      home
+
+      SOUTHWEST AIRLINES round trip ticket voucher, no restrictions, valid
+      until 3/15, $250/bo, Steve, X7855, (925) 682-6008
+
+      THULE SKI/BIKE RACK w/ locks, '96 model, in storage 3 yrs, $175; dbl
+      bed frame, lt color wood, $60; halogen floor lamp, table lamps, 3
+      ceramic & 2 japanese style paper, call for prices; ab-does exercise
+      mach, new, $25; bun & thigh body mach, new, $50, Worley, 527-3869
+
+      VACUUM CLEANER, Eureka The Boss Smartvac Limited, 12-Amp upright, HEPA
+      filter, unused, $120; Panasonic KXFP155 plain paper fax/phone, digital
+      answ system, caller ID, unused, $80, Dave, X4506
+
+   FREE
+
+      MITSUBISHI (CS-20201) TV in need of repair, Morgan, X6594, 845-1522
+
+      SURPLUS CHEMICALS, for use by DOE projects, http://www-ia1.lbl.gov
+      /chemx/, NACI/PEG Solution, STET-E1 Solution, Shelley, X6123
+
+   WANTED
+
+      FRYING PAN, med or lge, Elisa, X7863, 665-9091
+
+      HARD CASE for acoustic guitar, Morgan, X6594, 845-1522
+
+                                [currents-toc.gif]
+
+   Flea Market Policy
+
+      Ads are accepted only from LBNL employees, retirees, and onsite DOE
+      personnel, and shoud include name, affiliation, extension, and home
+      phone. Ads must be submitted in writing (fleamarket@ lbl.gov, fax:
+      X6641, or mailed to Bldg. 65B.) They run one week only unless
+      resubmitted, and are repeated only as space permits.  The deadline for
+      the Feb. 8 issue is Thursday, Jan. 31.

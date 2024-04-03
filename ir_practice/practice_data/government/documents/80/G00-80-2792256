@@ -1,0 +1,147 @@
+http://wwwneic.cr.usgs.gov/neis/mineblast/index.html
+
+   [LINK]-U.S. Geological Survey Home Page
+
+
+   [NEIC Web Site Contents_________________]
+   Go!
+
+   [Other USGS Earthquake Websites_________]
+   Go!
+
+                   Routine United States Mining Seismicity
+
+   The catalog, "Routine Mining Seismicity in the United States", provides
+   listings of routine explosions and planned roof collapses at mines and
+   quarries in the United States. For the period May 1997 through March
+   2000 the catalog was called "Probable Mining Explosions in the United
+   States". In GOAL AND SCOPE OF THE CATALOG, we explain the seismological
+   context in which the routine explosions and collapses are recorded and
+   their locations calculated: we discuss uncertainties in the magnitudes
+   of the cataloged seismic events and variations in the completeness of
+   the catalog. In EVIDENCE USED IN IDENTIFYING ROUTINE MINING SEISMICITY,
+   we explain the evidence that is used to identify routine explosions or
+   planned collapses, and we note that in some areas a few natural
+   earthquakes or unplanned rockbursts may be listed in the catalogs of
+   routine mining seismicity. EXPLANATION OF CATALOG LISTINGS explains the
+   parameters listed in "Routine Mining Seismicity in the United States".
+   MINING SEISMICITY SOURCE REGIONS summarizes what we know about mining
+   districts from which we have recorded explosions, planned collapses,
+   and rockbursts. Funds for the development of this catalog were provided
+   by the Verification and Compliance Division of the United States Arms
+   Control and Disarmament Agency. Funds for the ongoing cataloging of
+   mining seismicity and improvements to the cataloging process are
+   provided by the U.S. Department of Defense, Defense Threat Reduction
+   Agency.
+
+
+Preliminary Results for the Last 61 days Map of Recent Mining Seismicity
+
+
+   Catalogs
+
+   For the period May - September, 1997, catalogs list epicenters for all
+   mining-associated seismic events for which we had sufficient data to
+   obtain a stable location.
+
+     May, 1997 |June, 1997 | July, 1997 | August, 1997 | September, 1997
+
+   For October - November, 1997, catalogs list principally events for
+   which computed magnitudes are 2.0 or higher and for which stable
+   calculations of the epicenters can be achieved in several computation
+   attempts.
+
+     October, 1997 | November, 1997
+
+   For December, 1997 - April, 1998, we suspended the cataloging of
+   mining-associated seismic events except for a few events of special
+   interest.
+
+     December, 1997 | January, 1998 | February, 1998 | March, 1998 |
+     April, 1998
+
+   May-July, 1998, was a training period for a new analyst ; cataloged
+   events were selected for their usefulness in training, rather than
+   according to a magnitude criterion.
+
+     May, 1998 | June, 1998 | July, 1998 |
+
+   From August, 1998, to June, 1999, and from October, 1999 to the
+   present, mining associated seismic events having magnitude (ML, USGS)
+   2.5 or greater in the western U.S., or having magnitude (mbLg, USGS)
+   3.0 or greater in the eastern U.S., are listed if they are
+   automatically detected and located by the USGS/NEIC near-real time
+   system and if, after examination of the data by the analyst, a stable
+   epicenter can be computed. In addition, smaller events are catalogued
+   if, (1), they provide information on the characteristics of a region's
+   mine-associated seismicity that cannot be obtained with the larger
+   explosions or, (2), their epicenters have been reliably determined in
+   the course of searching for larger events. For the period July --
+   September, 1999, we list only suspected explosions that have been
+   reported in the Reviewed Event Bulletin (REB) of the Prototype
+   International Data Center (PIDC).
+
+     |August 1998 |September 1998 | October 1998 | November 1998 |
+     December 1998 |
+
+     |January 1999 | February 1999 | March 1999 | April 1999 | May 1999 |
+     June 1999 |
+
+     |July -- September, 1999 (REB events only) |
+
+     |October 1999|November, 1999|December 1999 |
+
+     | January 2000 | February 2000 | March 2000 | April 2000 |May 2000
+     |June 2000 |
+
+     | July 2000 | August 2000 | September 2000 | October 2000 | November
+     2000 | December 2000 |
+
+     | January 2001 | February 2001 | March 2001 | April 2001 | May 2001
+     | June 2001 |
+
+     | July 2001 | August 2001 | September 2001 | October 2001 | November
+     2001 |
+
+    Maps of Routine Mining Seismicity, Conterminous United States, May 1997 -
+    March 2000
+
+     Conterminous U.S.
+
+     West Virginia, Maryland, Virginia, eastern Kentucky, southeastern
+     Ohio, southern Pennsylvania
+
+     Northern Minnesota, northern Wisconsin, northern Michigan
+
+     Northern Wyoming, southern Montana, southeastern Idaho
+
+     Southern Wyoming, Colorado, Utah
+
+     Nevada, Utah
+
+     Arizona, New Mexico
+
+     Washington, Oregon, western Idaho
+
+    More data on events listed in catalogs of "Routine Mining Seismicity in the
+    United States"
+
+   Additional data are available by anonymous ftp
+   (ftp://ghtftp.cr.usgs.gov/pub/mineblast/). Bulletins that contain phase
+   arrival-times used to compute mine-event epicenters have the form
+   "mchedrYYMMex.dat". A catalog of the routine mining seismicity in
+   GSE2.0 format is given as "mineevents.gct". These additional data are
+   typically made available within one and two months of the date of the
+   event.
+
+    Mining-induced seismicity listed in the "Preliminary Determination of
+    Epicenters" publications of the USGS/NEIC
+
+   Unusually large mining-induced events that are listed in regular
+   earthquake catalogs of the USGS/NEIC are not listed in the catalogs of
+   "Routine Mining Seismicity in the United States."
+
+     Mining-induced events in the earthquake catalogs of the USGS/NEIC
+
+   Comments and feedback: dewey@usgs.gov
+   http://neic.usgs.gov

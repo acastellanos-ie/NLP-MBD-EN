@@ -1,0 +1,83 @@
+http://poet.lbl.gov/cal-arch/
+
+   [cal-arch.gif]
+   California Building Energy Reference Tool
+
+   ****UNDER CONSTRUCTION****
+
+   For a nationwide comparison go to US Arch, for other comparison see the
+   Links Page. Fore more discussion, Click Here.
+     __________________________________________________________________
+
+   How Does Your Building's Energy Use Compare?
+   How does your building's energy use compare to that of other buildings?
+   Cal-Arch provides a simple way to see how your building's energy use
+   compares to similar buildings. Currently you may compare your building
+   to buildings in one of eighteen activity categories. These can be
+   further filtered to compare only buildings with similar floor area and
+   location.
+
+   You may leave any of the fields blank, except for building activity.
+   Note that providing more information will narrow the buildings in the
+   comparison to those more closely matching your building. Providing less
+   information will result in a greater number of buildings to compare
+   your building to. Note: With the current database size, filtering on
+   both floor area and climate zone is not advised.
+     __________________________________________________________________
+
+   Step One:
+   What is the principle activity of your building?
+   [Office/Professional ________________]
+
+   Step Two:
+   Enter the zipcode of your building. _______
+   If a zip code is entered, only buildings within the same climate zone
+   will be displayed. Use this field only if your building is within PG&E
+   service territory.
+
+   Step Three:
+   Enter the building's floor area. _______ (gross square feet)
+   If both floor area and energy use are entered, an EUI will be
+   calculated for your building and displayed on the graph. To display
+   only buildings with comparable floor area check here [ ] . Buildings
+   are considered to have comparable floor areas if they have between half
+   and twice your area.
+
+   Step Four:
+   If both annual energy use and floor area are entered, your EUI will be
+   calculated and displayed relative to comparison buildings. Enter the
+   annual energy consumption based on the utility bills for your building
+   for each of the following fuels:
+
+   Fuel        Energy Consumption
+   Electricity 0______[kWh/year ]
+   Natural Gas 0______[therms/year _____]
+   Other       0______Million Btu/year
+
+   Step Five:
+   Building energy use can be reported as the actual energy used on site,
+   or as the energy used at the energy source (about 2/3 of the "primary
+   energy" that goes into an electric power plant is lost in the process
+   as waste heat).
+   Select which you want to use: (*) Site  ( ) Source
+
+   Step Six:
+   Data entered on this website is saved and may later be added to our
+   database.
+   If you are entering real data and think they would be useful to add to
+   our database, please check here:  [ ] .
+
+   Step Seven:
+   Do the Comparison
+     __________________________________________________________________
+
+   DISCLAIMER:  LBNL makes no warranties on the data provided; use at your
+   own discretion.
+
+   This database has been funded in part by the California Energy
+   Commission Public Interest Energy Research program.
+
+   We welcome your Comments on this site
+
+   This page last modified May 10, 2001 by SKinney.   |   Back to EETD
+   home page   |  US Arch

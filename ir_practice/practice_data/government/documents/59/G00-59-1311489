@@ -1,0 +1,213 @@
+http://igscb.jpl.nasa.gov/faqs.html
+
+      [USEMAP:nav_faqs.gif]
+        __________________________________________________________________
+
+   Frequently Asked Questions
+
+      This FAQ was compiled from actual queries to the CB, arranged here by
+      category. If you have a specific question not addressed below, please
+      submit your query via e-mail to the Central Bureau.
+        __________________________________________________________________
+
+   Data and Products
+
+      Where can I obtain IGS data/products? From [year]?
+             Tracking data and orbit products are archived at the IGS Data
+             Centers. Access and directory information for each DC is
+             available in the Data & Products area of this site. Products are
+             also available directly from the Central Bureau here.
+
+      Are there costs/restrictions?
+             Data and products are currently available, free of charge, to
+             all users. Although the IGS strives for the highest quality of
+             data and data products, it can not make any warranty, express or
+             implied, or assume any legal liability or responsibility for the
+             accuracy, completeness or usefulness of any information or
+             product. Use of the IGS data and products is the sole
+             responsibility of the user.
+
+      How accurate are they?
+             You can find a table of product accuracies on the Products page.
+
+      What are qualitative/quantitative differences in Analysis Center
+             products?
+             Each of the Analysis Centers employs different software and a
+             unique set of measurement and orbit models to produce weekly
+             solutions, which are then used to generate the IGS orbit
+             combination. Summaries of various AC processing strategies are
+             provided here, along with contact information and technical
+             references for further study. Weekly reports from the ACs and
+             combination reports from the AC Coordinator are distributed via
+             IGS Report. (See a sample combination report for week 1134.)
+
+      Where can I find GPS navigation message files?
+             Both RINEX observation and navigation files are available from
+             most Data Centers. Go to the Data page for more information.
+
+      Meteorological observation files?
+             These are provided in RINEX format by several of the Data
+             Centers (currently CDDIS, GODC, IGN and NRCan). Go to the Data
+             page for more information.
+
+      Specifications for the [...] data format?
+             Information on RINEX, SINEX, SP3 and other data formats used
+             within the IGS can be found here.
+
+      Software for [...]?
+             Look here for data verification and compression tools developed
+             for various platforms. An Analysis Center may be able to offer
+             assistance on more complex needs (data conversion, processing,
+             etc.). Get AC contact information here.
+
+      Information on the GPS constellation status?
+             The Central Bureau maintains current GPS constellation
+             information here.
+
+   Stations
+
+      Where can I find coordinates/velocities for station [...]?
+             Approximate coordinates for each site are listed on the Stations
+             page. Precise coordinates, in the ITRF reference frame, are
+             available here. In addition, station solutions in SINEX format
+             are produced by Analysis Centers and Associate ACs participating
+             in the Densification Project. These weekly SINEX files are
+             available at the CDDIS and IGN Data Centers.
+
+      In the [...] reference frame? At epoch [...]?
+             The IGS is committed to improving and extending the IERS
+             Terrestrial Reference Frame (ITRF). Station coordinates from
+             ITRF92 through ITRF96 are available here, and transformation
+             source and documentation are available at NRCan. The WGS 84
+             reference frame is coincident with the ITRF at a level better
+             than 2 cm.
+
+      What is the status of station [...]?
+             For the most current information -- logs, performance, mail and
+             pictures -- go the Stations page and click on the corresponding
+             site .
+
+      Do you have sites in the vicinity of [...]? Is there one being planned?
+             View the clickable map in the Network area of this site. This
+             map is updated daily and reflects the most current configuration
+             of the network. Ask us regarding stations which are resolving
+             communications and data paths.
+
+      How can my site become an IGS station? What are your implementation
+             procedures and requirements?
+             Read the full procedure here. At some point it will be necessary
+             to fill out and submit a site log to the Central Bureau.
+
+      Whom should I contact with my satellite-, receiver- and
+             antenna-specific questions?
+             Send your questions to the Central Bureau and we'll do our best
+             to answer them. If we can't we will forward your query to the
+             appropriate contacts within the IGS.
+
+      Why does the official IGS igs_01.pcv table differ from the NGS
+             calibration tables? Which one should I use?
+             igs_01.pcv is the official table to be used in IGS analysis. And
+             yes, it does differ from NGS' latest table, and even if you look
+             closely, also from NGS' previous table. The history is that some
+             years back, NGS and other groups doing calibrations collaborated
+             to make a definitive IGS table by averaging the various
+             measurements available. Some time later the NGS table you see
+             now came out. We have not updated the IGS values to NGS' latest
+             in all cases for a few reasons:
+
+             + we want to limit changes in IGS analysis to avoid jumps
+             + need new effort to determine "best" values to use (it is
+               thought now that averaging might mask some information)
+
+             We currently have an ad-hoc committee which is working to obtain
+             quality satellite pcv tables, which would enable use of absolute
+             rather than relative calibrations in a future update of the
+             igs_01.pcv file.
+
+             At present, when we get an antenna not yet in igs_01.pcv, we
+             inquire with a few regional networks such as EUREF whether they
+             have any calibrations for it, and if not, we add the current NGS
+             value.
+
+             In short, if you are doing IGS analysis you should be using
+             igs_01.pcv. If not you should just be certain whatever you
+             choose is consistent with your requirements.
+
+   Mail and Publications
+
+      Do you have regular mailing lists?
+             The Central Bureau maintains several mailing lists: IGS Mail --
+             updates and announcements; IGS Report -- regular Analysis and
+             Data Center reports; IGLOS Mail -- pertaining to the
+             International GLONASS Service Pilot Project; AFREF Mail -- mail
+             for discussion of an African GPS initiative, and SCIGN Mail --
+             mail for the Southern California Integrated GPS Network. Receive
+             them automatically or browse them in the Mail area of this site.
+
+      I am a station operator; when should I send IGS Mails?
+             Please see Standards for IGS Stations and Operational Centers
+             for some guidelines.
+
+      How do I send e-mail to the mailing lists?
+             To send a message to an IGS mailing list, email it to
+             listname@igscb.jpl.nasa.gov , substituting the listname
+             (igsmail, iglosmail, igsleo, or afref) for listname. Please
+             ensure the first line of the body of your message starts with
+             the string "Author: " followed by the names of the author(s) of
+             the message. Also, the Subject field of the email should not be
+             blank.
+
+             + Send plain ASCII text only
+             + Do not send attachments
+             + Do not send HTML mail
+
+             For example, the following text between the horizontal lines
+             meets the format (if not content) requirements for IGS Mail if
+             sent in a plain text email with a non-null Subject field.
+               ___________________________________________________________
+
+             Author: Ptolemy
+
+             Dear IGS Colleagues:
+
+             Please be informed that the Sun and Moon revolve around the
+             Earth immobile.
+
+             Sincerely, Claudius Ptolemy
+               ___________________________________________________________
+
+      How do I contact [...]?
+             Browse the web-version of the IGS Directory.
+
+      Could you include/update me in the IGS Colleague Directory?
+             Yes. Send your current contact information to
+             directory-changes@igscb.jpl.nasa.gov. Include your mailing
+             address, phone, fax, e-mail and website address (URL).
+
+      Do you have a list of other IGS publications?
+             Yes. See the Publications page. Electronic versions (PDF, PS)
+             are available in some cases.
+
+      How do I obtain copies? Is there a cost?
+             The Central Bureau currently provides these publications without
+             charge as a service to the scientific community. Send your
+             request and mailing address to the CB and we will be happy to
+             send you a hardcopy.
+
+   History of this Document
+
+     10 Jan 2002 More mailing list guidelines (ASCII only, etc)
+
+     11 Feb 1999 Answered remaining questions, revised others
+
+     9 Feb 1999 Added question about IGSMail guidelines
+
+     21 Jan 1999 Added how to send IGS Mails
+     __________________________________________________________________
+
+   | HOME || ABOUT IGS || ORGANIZATION || FTP ARCHIVES || FAQs || WEBSITE
+                                   INDEX |
+     __________________________________________________________________
+
+   This page last updated: 10 January, 2002
+   Please send comments about this website to: IGS Central Bureau.

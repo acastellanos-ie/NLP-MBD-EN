@@ -1,0 +1,90 @@
+http://pilc.grc.nasa.gov
+
+           Performance Implications of Link Characteristics (PILC)
+
+   PILC is now a working group within the transport area of the Internet
+   Engineering Task Force (IETF). The WG charter is available.
+
+    PILC Meetings
+
+     * London, England (August 2001):
+          + ARQ Status
+          + ASYM Status
+
+     * Minneapolis WG Meeting (March, 2001):
+          + Meeting Minutes
+          + PILC Status Update
+          + LINK Status
+          + ARQ Status
+          + ASYM Status
+          + 2.5G/3G Status
+
+     * San Diego WG Meeting (December, 2000):
+          + Meeting Minutes
+          + PILC Status Update
+          + ROHC effects on PILC
+          + Presentation on Wireless Network BCP
+          + Status of PEP draft
+          + Status of ERROR draft
+          + ARQ Issues Presentation
+          + Flow Adaptive ARQ Proposal (or, in PDF)
+     * Washington DC WG Meeting (November, 1999):
+          + WG Status Charts
+          + Status of SLOW and ERROR
+          + Overview of Asymmetry Draft
+          + Overview of PEP Draft
+
+     * Oslo WG Meeting (July, 1999):
+          + Status Charts
+          + Progress on SLOW document.
+          + Progress on ERROR document.
+          + Status of PEP document.
+          + Status of LINK document.
+          + Presentation on header compression.
+     * Minneapolis BOF (March, 1999):
+          + Overview Charts
+          + Proposed Charter Charts
+          + Proposed Charter
+          + Meeting Minutes
+     * Orlando BOF (December, 1998):
+          + BOF Description
+          + Minutes and Slides from BOF
+
+    Documents
+
+     * G. Montenegro, S. Dawkins, M. Kojo, V. Magret, N. Vaidya. Long Thin
+       Networks. RFC 2757.
+     * S. Dawkins, G. Montenegro, M. Kojo, V. Magret. End-to-end
+       Performance Implications of Slow Links . Internet-Draft
+       draft-ietf-pilc-slow-05.txt (work in progress).
+     * S. Dawkins, G. Montenegro, M. Kojo, V. Magret, N. Vaidya.
+       End-to-end Performance Implications of Links with Errors .
+       Internet-Draft draft-ietf-pilc-error-06.txt (work in progress).
+     * John Border, Markku Kojo, Jim Griner, Gabriel Montenegro.
+       Performance Enhancing Proxies. Internet-Draft
+       draft-ietf-pilc-pep-05.txt (work in progress).
+     * Phil Karn, Aaron Falk, Joe Touch, Marie-Jose Montpetit, Jamshid
+       Mahdavi, Gabriel Montenegro, Dan Grossman, Gorry Fairhurst. Advice
+       for Internet Subnetwork Designers. Internet-Draft
+       draft-ietf-pilc-link-design-04.txt (work in progress).
+     * Hari Balakrishnan, Venkata N. Padmanabhan. TCP Performance
+       Implications of Network Asymmetry. Internet-Draft
+       draft-ietf-pilc-asym-02.txt (work in progress).
+     * Gorry Fairhurst, Lloyd Wood. Link ARQ issues for IP traffic.
+       Internet-Draft draft-ietf-pilc-link-arq-issues-00.txt (work in
+       progress).
+
+    Mailing List
+
+     * To subscribe to the PILC mailing list send a note to
+       majordomo@grc.nasa.gov with subscribe pilc in the body of the
+       message. To unsubscribe send unsubscribe pilc in the message body.
+     * Notes to the PILC mailing list should be sent to pilc@grc.nasa.gov.
+     * The PILC mailing list archive is available here.
+
+    Other Information
+
+     * TCP Over Satellite WG
+     __________________________________________________________________
+
+                     This page maintained by Mark Allman

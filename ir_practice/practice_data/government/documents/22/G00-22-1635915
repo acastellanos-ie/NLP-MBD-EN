@@ -1,0 +1,252 @@
+http://www-itg.lbl.gov/Frog/
+
+   [frog.skeleton.logo.gif]
+
+  Computer-Enhanced Science Education: The Whole Frog Project
+
+   Computers can't teach everything in anatomy, but they can teach some
+   things better, either by themselves or through synergy with
+   conventional methods. Try out this award-winning virtual frog- as a
+   case in point.
+     * Jump right into the Interactive Frog Dissection Kit. [Interact.gif]
+          + Sample images from the virtual frog dissection kit:
+            Example 1 viewable GIF file..
+            Example 1 printable TIF file..
+            Example 2 viewable GIF file..
+            Example 2 printable TIF file..
+     * Read an introductory lecture on the Whole Frog project that
+       explains its pedagogical and technological basis, or a summary
+       paper that emphasizes its Web aspects.
+     * For live frog lovers .... Sounds of North American Frogs (a CD from
+       Smithsonian Folkways).
+
+  "Whole Frog" Project
+
+     * Introduction
+     * Example Study Outline on 3D Reconstruction
+     * The Technique for Acquiring and Processing the Frog Data
+     * Examples of Reconstructions of Other Organisms
+     * 3D Reconstruction of the Frog's Anatomy
+     * Rotating, Transparent Frog Movie
+     * Available Image Data
+     * Credits
+     * Copyright Notice
+     * Forms-based virtual frog dissection
+     * WWW '94 Paper on virtual frog dissection (html)
+     * IEEE Compcon 1995 Paper: Using the World Wide Web to Provide a
+       Platform Independent Interface to High Performance Computing (html)
+       IEEE Compcon 1995 Paper (Postscript)
+     Back to ITG home page
+     * Visit the Lawrence Berkeley National Laboratory home page
+
+INTRODUCTION The ITG "Whole Frog" project is intended to introduce the concepts
+of modern, computer based 3D visualization, and at the same time to demonstrate
+the power of whole body, 3D imaging of anatomy as a curriculum tool. The goal of
+the Whole Frog Project is to provide high school biology classes the ability to
+explore the anatomy of a frog by using data from high resolution MRI imaging and
+from mechanical sectioning, together with 3D surface and volume rendering
+software to visualize the anatomical structures of the intact animal. Ultimately
+we intend to be able to "enter the heart and fly down blood vessels, poking our
+head out at any point to see the structure of the surrounding anatomy". A
+summary of this may be found in: LBL "Whole Frog" Project Summary .
+
+EXAMPLE STUDY OUTLINE ON 3D RECONSTRUCTION The secondary goal of this project is
+to introduce the concepts of modeling and displaying 3D structures directly from
+3D images obtained, for example, from MRI imaging (biological specimens), X-ray
+CT imaging (industrial imaging of non-biological objects), and direct generation
+from mathematical descriptions. This approach is being developed in conjunction
+with summer programs involving high school teachers and students. For more
+information see Geometric Analysis, Visualization, and Conceptualization of 3D
+Image Data .
+
+THE TECHNIQUE FOR ACQUIRING AND PROCESSING THE FROG DATA For a variety of
+technical reasons relating to differences between mammalian and amphibian
+physiology, the resolution of MRI images of a frog were not good enough to
+clearly separate internal structures. A high resolution data set was obtained by
+a mechanical sectioning technique that gave sufficient resolution to see detail
+down to the level of large nerves. Example of mechanical slice data:
+[frog.mechanical.logo.gif]
+
+   For a report on the mechanical sectioning and associated data
+   collection issues, please see Whole Frog Technical Report.
+
+EXAMPLES OF RECONSTRUCTIONS OF OTHER ORGANISMS High resolution MRI studies of
+several plants were done as part of this project, with an orange forming the
+basis of the 3D reconstruction study unit. Images of reconstructed tomato:
+[tomato-small.gif]
+
+3D RECONSTRUCTION OF THE FROG'S ANATOMY
+
+   Examples of frog reconstructions: [frog.skeleton-small.gif]
+
+   Example 2 of frog reconstruction. (TIF file)
+
+   Example 3 of frog reconstruction. (TIF file)
+
+ROTATING, TRANSPARENT FROG MOVIE
+
+The following are two different encodings of the same sequence.
+
+MPEG movie of frog rotating (769 KBytes)
+
+Quicktime (JPEG compressed) movie of frog rotating (1,862 KBytes)
+
+AVAILABLE IMAGE DATA Two kinds of data are used in the 3D reconstructions: slice
+images (example slice), and masks (example mask). Slice images are a sequence of
+sections through the object of interest. These slices may be obtained directly
+as in mechanical slicing, or by tomographic reconstruction. The masks are a
+geometric representation of objects of interest and are obtained by
+"segmentation" of the images. (This can be done manually, or using image
+processing techniques.)
+
+The following describes how to get all of the data that went into the images and
+reconstructions illustrated in this document.
+
+The "data" behind the 3D models (e.g. of the frog) are images of slices through
+the original object, and "masks" that define various regions of interest
+(anatomical systems, in the case of the frog).
+
+-----
+
+Monochrome slice images:
+
+The slice image data are in two different formats: "raw" (no header) monochrome
+images with a file format: each pixel is an unsigned byte, and the scan lines
+are stored row-wise. For each data set there is a file called *.hd that
+describes the number and size of the images. The slice image files contain all
+slices for a given organism. For example, the frog slice image data set is 470 x
+500 x 1Byte x 136 images. So each 500 bytes from this dataset represents one
+scan line of the slice image.
+
+For example, using PBM:
+
+   Get frame one:
+   rawtopgm 256 256 < tomato.data > frame1
+
+   Get frames one to four into a single image:
+   rawtopgm 256 1024 < tomato.data >frame1-4
+
+   Get frame two (skip over all of frame one):
+   rawtopgm -headerskip 65536 256 256 < tomato.data > frame2
+
+   Get frame three (skip over frames one and two):
+   rawtopgm -headerskip 131072 256 256 < tomato.data > frame3
+
+   etc.
+
+   These files are available via anonymous ftp from www-itg.lbl.gov
+
+   -----
+
+   Color slice images of the frog:
+
+   This is the original data obtained by cryotome slicing of the frog. The
+   images are in Utah Raster Toolkit format,
+
+   and are available via anonymous ftp.
+
+   -----
+
+   MRI data:
+
+   The orange, tomato, pumpkin, and rat data are only available as MRI -
+   the rat dataset is not high quality.
+
+   The MRI data corresponding to the section data for the frog is also
+   included. However, this MRI data is also not very high quality. (The
+   speculation is that iron pigments in the frog's skin interfere with the
+   MRI.) This data are available via anonymous ftp.
+
+   Many of the MRI images (as the tomato is) may require normalization or
+   histogram equalization in order to "see" much in an image displayed on
+   the screen. E.g.:
+   rawtopgm 256 1024 < tomato.data | pgmnorm |
+   your_favorite_display_program
+
+   -----
+
+   Mask data:
+
+   The masks have the same format and size as the "raw" data and are
+   tar-ed in "*.MASK.tar". Both the masks and the data are compressed
+   using the Unix compress utility. (The masks are really one-bit images,
+   but are stored in 8-bit/pixel format. This means that they expand
+   enormously when uncompressed.)
+
+   These files are available via anonymous ftp.
+
+   -----
+
+   Misc:
+
+   Some Sun rasterfile screen dumps of 3D reconstructions done by
+   raycasting are stored in "*.IMAGES.tar". This is available via
+   anonymous ftp.
+
+   -----
+
+   In general, all data may be obtained via anonymous ftp from
+   www-itg.lbl.gov (128.3.196.93).
+
+     * FROG: /pub/Whole.Frog/frog/*
+     * ORANGE: /pub/Whole.Frog/orange/*
+     * TOMATO: /pub/Whole.Frog/tomato/*
+     * PUMPKIN: /pub/Whole.Frog/pumpkin/*
+     * RAT: /pub/Whole.Frog/rat/*
+
+   Note: The orange, tomato, pumpkin, and rat data are only available as
+   MRI - the rat data is not high quality.
+
+CREDITS This work was done at Lawrence Berkeley National Laboratory, and was
+sponsored by the U. S. Dept. of Energy, Energy Research Division, Mathematical,
+Information, and Computational Sciences Division , John Cavallini program
+manager. Lawrence Berkeley National Laboratory is operated by the University of
+California for DOE under contract DE-AC03-76SF00098
+
+   Thanks to the many people that made this project possible:
+
+LBL Center for Science and Engineering Education
+
+     * Rollie Otto, Director
+     * Eileen Engel
+     * Summer teachers (TRAC program)
+          + Darrel Richter
+          + V. Newton
+          + Ana L. Padilla
+          + Bea Alexander
+          + Miguel Rivas
+          + Kris Sahu
+
+LBL Research Medicine Division (now Functional Imaging Group)
+
+     * Dr. Tom Budinger (for showing us the potential of high resolution
+       MRI)
+     * Mark Roos and Sam Wong (who did the MRI imaging)
+     * Katie Brennan (for "Fluffy")
+     * Anat Biegon (for the use of her Cryotome)
+
+University of California, Berkeley, Biology Dept.
+
+     * Dr. Paul Licht (a specialist in amphibian anatomy, for his
+       consulting)
+     * Craig Logan (anatomy student who did most of the frog masks)
+
+Computer Science Students
+
+     * Wing Nip, San Francisco State University (now at Sun Microsystems)
+
+Imaging and Distributed Computing Group Staff
+
+     * David Robertson produced the interactive frog dissection kit
+     * William Johnston conceived and guided the Whole Frog Project.
+
+COPYRIGHT NOTICE Copyright (c) 1994 by Lawrence Berkeley National Laboratory
+
+The images, data, and documents of the "Whole Frog Project" are copyrighted by
+Lawrence Berkeley National Laboratory. These materials are provided for the
+purpose of scientific research and education by Lawrence Berkeley National
+Laboratory. Any commercial use of these materials requires prior permission from
+Lawrence Berkeley National Laboratory. For further information contact
+
+
+    William Johnston (510-486-5014, wejohnston@lbl.gov).

@@ -1,0 +1,140 @@
+http://mcstweb.gsfc.nasa.gov
+
+   [lg_insignia.gif]
+
+
+   MAIN PAGE
+
+   MISSION
+
+   MODIS INFO
+
+   INSTRUMENT OPS
+   Weekly Reports
+   Terra MODIS History
+   Mission Schedule
+
+   CALIBRATION
+
+   L1B PRODUCT INFO &
+   STATUS
+
+   CONTACTS
+
+   MCST STAFF
+
+   ON-LINE DOCS
+
+   FREQUENTLY
+   ASKED QUESTIONS
+
+   OBSERVATION
+   PLANNING TOOLS
+
+   MODARCH
+   SITE MAP | SEARCH
+   RELATED LINKS
+   ACRONYMS
+
+   NASA IT Security Warning Banner
+
+   MODIS Web Organigram (Logo) - Click to Navigate Core MODIS-Related Web
+   Sites
+
+
+                                 [mcst.GIF]
+
+                                [bluebar.GIF]
+   [whatsnew.GIF]
+
+   QuickTime Movie describing MODIS and its mission - both a large,
+   hi-resolution version (34 MB) and a smaller, faster-downloading version
+   (3.5 MB).
+
+   L1B V3.0.0 entered operations on May 29, 2001. For more details, see
+   the "L1B Product Info & Status" page.
+     __________________________________________________________________
+
+   Terra (PFM) Instrument Status
+   On December 13, 2001 (data day 2001347), MODIS closed its Nadir
+   Aperture Door (NAD, i.e., the earth view door) at 14:45 GMT in
+   preparation for a Terra Inclination maneuver. The NAD re-opened at
+   16:29.
+
+   The MODIS instrument experienced a Power Supply 2 (PS2) shutdown
+   anomaly and did not take science data during the time period June 15,
+   2001 to July 2, 2001. The cause of the failure is consistent with an
+   over-voltage shutdown most likely initiated by a high-energy radiation
+   event that caused the Metal-oxide Semiconductor Field Effect Transistor
+   (MOSFET) within the down-regulator of PS2 to fail. Immediately prior to
+   the anomaly, MODIS had been acquiring data using electronics side-B.
+
+   When the MODIS recovered, it was commanded to take science mode data
+   using Power Supply 1 and electronics side A. Science data collected
+   since recovery show that the instrument is performing as expected.
+   However, the then-existing lookup tables used for L1B processing of
+   post-anomaly data were from calibrations using electronics side B, so
+   L1B and downstream products from the post-anomaly period processed in
+   July 2001 were imprecise and will remain so until new lookup tables are
+   constructed and implemented using post-anomaly calibrations. The error
+   introduced can amount to 5% for the reflective solar bands. The thermal
+   emissive bands are less prone to error because they are calibrated with
+   each scan using the on-board blackbody which was turned on at 18:06:50
+   July 3, 2001 (day 2001184).
+
+   MCST delivered the new LUTs (lookup tables) to the DAAC during the last
+   week of July 2001. The current LUT, version 3.0.0.6, is being used to
+   help produce a consistent data set starting from October 30, 2000 (day
+   2000304) forward to the present. Revised L1B code and LUT histories
+   have been installed in the L1B Product Info and Status section.
+
+   The current Terra MODIS Relative Spectral Response (RSR) is available
+   for Terra (PFM). Download the contents of directory. The Readme files
+   contain format information.
+
+   The detailed operations are documented in the Weekly Reports and the
+   Terra MODIS History buttons under the Instrument Ops buttons on this
+   web page.
+
+   For a complete look at the EOS-AM/Terra mission to go
+   http://eos-am.gsfc.nasa.gov/.
+
+   Terra (PFM) Data Products
+   [spacer.gif]
+   MODIS Level 1B data products may be ordered from the Goddard DAAC.
+   Detailed features of the data product are documented in the L1B Product
+   Info
+
+   Aqua (FM1) Mission Status
+   [spacer.gif]
+   MODIS is integrated onto the Aqua spacecraft, which will begin
+   spacecraft thermal vacuum testing in early 2001. The saturation
+   brightness temperatures for Bands 31 and 32 have been reduced to near
+   340 K for this mission. The current launch schedule for this mission is
+   no earlier than March, 2002. The Aqua Mission is described at
+   http://eos-pm.gsfc.nasa.gov.
+
+                                [spacer.gif]
+
+                                [spacer.gif]
+
+                                [earths.gif]
+
+   [spacer.gif]
+
+                                [bluebar.GIF]
+
+   Responsible Civil Servant: William Barnes
+   Webmaster: Sharon Gilchrist
+
+   To report a problem with this page
+   To connect to the Help Desk
+   Change History:
+
+   Last Update: 9 January 2002
+
+   [bluebar.GIF]
+
+                                Return to Top
+
+                        [Count.cgi?df=main_index.dat]

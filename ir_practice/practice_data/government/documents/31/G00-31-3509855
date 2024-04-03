@@ -1,0 +1,118 @@
+http://vis.lbl.gov/overview.html
+
+   Home Overview Gallery Hardware Software Publications Projects What's
+       New? Staff
+     __________________________________________________________________
+
+                                    History
+
+   The Visualization Group was created in 1990 (it was then called the
+   Graphics Group) when Wes Bethel was hired to work under Nancy Johnston
+   to tame, explore and apply to ongoing scientific programs some brand
+   new software (AVS) which was running on some brand new hardware (the
+   Ardent Titan, a multiprocessor graphics machine which is remarkably
+   similar in architecture to the modern-day Onyx..). Prior to this point,
+   all of the graphics work done at the lab was accomplished via making
+   call from within code to subroutine libraries, or using graphics
+   "packages" such as gnuplot. This step marked the lab's first foray into
+   interactive 3d visualization which was supported by some serious
+   graphics hardware.
+
+   The initial success of the graphics program was due in part to the
+   diligence of the researchers involved. They were a tough, tenacious
+   bunch who really wanted this kind of capability, and were willing to
+   work very closely with us. The jointly-developed visualizations helped
+   push the envelope of some scientific programs. For example, using 3d
+   visualization, researchers in Earth Science were able to verify the
+   existance of a deep subduction zone near New Hebrides. One of our
+   awards was given for a compelling visualization from a hydrological
+   study used in modelling nuclear waste storage facilities in Sweden. The
+   theme throughout all of our activities is the symbiotic and synergystic
+   relationship between the visualization technology and the scientific
+   research program.
+
+   Over time our work has begun to branch out to include more research and
+   development. For example, we created the VR Library, which is a suite
+   of AVS modules designed to allow users to easily incorporate VR input
+   devices into the user interface of a visualization network. Another
+   large project has been our input to the Khoros system, which is similar
+   in some ways to AVS. However, as our interests and workload have
+   increased, we have also expanded our staff, so our commitment to
+   collaborating with users on visualization projects has not changed.
+
+                       What is Scientific Visualization?
+
+   The goal of scientific visualization is to help scientists view and
+   better understand their data. This data can come from experiments or
+   numerical simulations. Often the size and complexity of the data makes
+   it difficult to understand by direct inspection. Also, the data may be
+   generated at several times during an experiment or simulation and
+   understanding how the data varies with time may be difficult.
+
+   Scientific visualization can help with these difficulties by
+   representing the data so that it may be viewed in its entirety. In the
+   case of time varying data, animations can be created that show this
+   variation in a natural way. Using virtual reality techniques, the data
+   can be viewed and manipulated naturally in a true three dimensional
+   environment (e.g. depth is explicitly perceived and not just implied).
+
+   All these techniques can allow scientists to better understand their
+   data. Viewing the data in this way can quickly draw the scientist's
+   attention to interesting and/or anomalous portions of the data. Because
+   of this, we encourage scientists to use scientific visualization from
+   the beginning of their experiments and simulations and not just when
+   they think they have everything operating correctly. This also allows
+   the scientists to develop a set of visualization tools and techniques
+   that will help them understand their data as their research matures.
+
+                                 What Do We Do?
+
+   Our mission is to assist researchers in achieving their scientific
+   goals more quickly through visualization while simultaneously advancing
+   the state-of-the-art in visualization through our own research. From
+   the standpoint of a user of NERSC, for example, the Visualization Group
+   provides the expertise and the software and hardware resources
+   necessary to allow that user to visualize his or her data without
+   having to invest the significant amount of time required to learn about
+   visualization tools and techniques. We also make our software and
+   hardware resources available to more experienced or adventurous users
+   to allow them to explore their data at their own pace.
+
+Facilities and Hardware
+
+   Over the years, the Visualization Group has installed a variety of
+   equipment to enhance the researcher's ability to make discoveries using
+   3d visualization. Our pride and joy is the visualization lab, in
+   50B-1232 and 50B-1232A. This lab, which came on-line in May '96,
+   contains our most sophisticated graphics hardware and display
+   technology. The lab's 6'x8' rear projection screen and SGI Onyx
+   workstation provide high resolution, high speed 3D graphical output for
+   our visualization applications. The lab also contains a Dec Alpha
+   workstation, which provides additional graphics horsepower. Both of
+   these machines are capable of displaying in stereo. For more
+   information on the visualization lab and our other hardware please see
+   the Hardware Page.
+
+Software Services
+
+   We provide a large quantity of software tools for visualization and
+   other graphics tasks. The main visualization workhorses are AVS and
+   Khoros, both of which include a visual programming language that makes
+   it easy to build visualization "programs" from standard or customized
+   building blocks ("modules"). We have done a lot of work in extending
+   these packages by writing custom modules that suit a researcher's
+   specific needs, and by doing so we have usually been able to match the
+   computer's output with the researcher's vision.
+
+   We also provide a large number of other graphics libraries and
+   applications such as NCAR, gnuplot, imtools, etc. These are described
+   in great detail on the Software Page.
+     __________________________________________________________________
+
+   We welcome questions and comments on this web page. Please send email
+   to vismaster@lbl.gov.
+
+   Privacy and Security Notice to Users
+   Last Modified: Thursday, 05-Aug-1999 10:18:09 PDT
+
+   home Back to the Visualization Group home page

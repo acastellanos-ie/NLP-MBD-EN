@@ -1,0 +1,369 @@
+http://seawifs.gsfc.nasa.gov/SEAWIFS/TECH_REPORTS/eos_observ_1_2_94_p17.html
+
+
+
+      The Earth Observer--January/February 1994
+
+    MODIS/SeaWiFS Team Deploys Marine Optical Buoy, Continues Marine Optical
+                          Characterization Experiment
+
+  By David Herring (herring@ltpsun.gsfc.nasa.gov), MODIS Administrative Support,
+  Science Systems & Applications, Inc.
+
+   In support of the Earth Observing System (EOS), a Marine Optical Buoy
+   (MOBY) was deployed off the coast of Lanai, Hawaii on Feb. 21, 1994.
+   Funded jointly by NASA and NOAA, MOBY was developed and deployed under
+   the direction of Dennis Clark, a member of both the MODIS and SeaWiFS
+   science teams. The buoy's primary purpose is to measure visible and
+   near-infrared radiation entering and emanating from the ocean. It is
+   the variations of the visible region-reflected radiation that is
+   referred to as ocean color from which other quantities can be derived,
+   such as the abundance of microscopic marine plants (phytoplankton).
+
+   Phytoplankton is critically important to the marine food chain, and it
+   influences the global balance of carbon dioxide within the Earth's
+   atmosphere. It is believed that the abundance of carbon in the
+   atmosphere causes a general increase in global temperature and affects
+   the ocean's productivity. Scientists have learned that the ocean stores
+   vast volumes of carbon from the atmosphere, providing sustenance for
+   phytoplankton. However, researchers don't know whether there will be a
+   corresponding increase in the phytoplankton population to absorb the
+   additional carbon as the volume of carbon dioxide steadily increases in
+   the Earth's atmosphere.
+
+   In its role of measuring ocean color, MOBY provides a time-series
+   database for bio-optical algorithm development. Because the buoy will
+   acquire data 3-5 times per day at the same site, oceanographers can now
+   monitor the daily fluctuations in biomass concentrations at that site
+   and fine tune their algorithms accordingly. Clark also points out that
+   in addition to the oceanographic applications, MOBY will serve another
+   important function as a calibration reference station for satellite
+   instruments--such as SeaWiFS, EOS COLOR, MODIS, MERIS, and ADEOS
+   OCTS--to assist in maintaining those instruments' accuracies.
+
+   [p17fig.gif]
+   Drawing of the prototype MOBY (courtesy of D. Clark).
+
+   "The potential is there for not only calibrating ocean bands, but other
+   low end radiances," Clark explains. "MOBY has science and calibration
+   applications for the atmospheric and land sciences." So MOBY could, for
+   example, support atmospheric correction programs, or radiation budget
+   applications.
+
+   "The goal is to produce a site that has high accuracy and high
+   precision radiometry throughout the spectral range from 380 to 900 nm
+   at approximately 2-4 nm spectral resolution," Clark continues. "MOBY
+   serves as one calibration point at specific levels of ocean radiances.
+   Those spectra can then be convolved to match spectral responses of a
+   variety of visible and near-infrared spaceborne sensors." In short,
+   MOBY will provide data for checking the calibration of different
+   sensors at that particular scene and radiance level for any or all EOS
+   optical instruments.
+
+   In addition to the deployment, the Team also collected data at the MOBY
+   site for the Marine Optical Characterization Experiment, or MOCE. Also
+   under the direction of Clark, MOCE is a series of field experiments
+   that has been in operation since 1992 parallel to the MOBY campaign.
+   MOCE involves conducting experiments at sea at specific sites to obtain
+   a comprehensive set of bio-optical measurements such as radiometry,
+   pigment analysis, total suspended matter, beam transmittance, and
+   physical properties.
+
+   MOBY and MOCE are pre- and post-launch campaigns. Prior to launch,
+   these campaigns are being conducted to help in algorithm development.
+   Post launch, these campaigns will serve as a validation and calibration
+   data source. For MOCE, during the post-launch operations, the shipboard
+   operations are timed to be coincident with satellite overpasses, with
+   the ship moving into different oceanic optical regimes. These data are
+   used to check the calibration of satellite-borne ocean color sensors,
+   as well as validate their derived products.
+
+   [field_program_icon.gif]
+
+      Illustration of the Calibration and Validation Field Program.
+
+  MOBY's Conceptual Design
+
+   MOBY's design is the result of a project Clark began in 1986. The buoy
+   consists of six major components which, because the project was not
+   funded initially, had to be purchased and integrated over time. Those
+   components are a new dual spectrograph, the fiber optic multiplexer,
+   the top-end buoy with solar panels and controlling software, a GOES
+   (Geostationary Operational Environmental Satellite) data relay system
+   with data acquisition software, fiber optic radiance and irradiance
+   collectors, and a dichroic water mirror for the dual spectrograph.
+
+   The optical system uses two spectrographs with a dichroic ("water")
+   mirror to measure radiometric properties with high spectral resolution
+   and stray light rejection. This "water" mirror is designed to transmit
+   the red (630 to 900 nm) and reflect the blue (380 to 600 nm) portions
+   of the spectrum, making the transition from reflectance to
+   transmittance between 590 and 650 nm. Thus potential for stray light is
+   greatly reduced by splitting the visible spectrum at the beginning of
+   the water absorption region since most of the short wavelength energy
+   is diverted from the entrance slit of the long wavelength spectrograph.
+   The splitting also allows the spectrographs (free spectral range and
+   integration times) to be optimized for the two distinctive spectral
+   domains. Internal calibration and ancillary sensors (temperature,
+   inclination, pressure, etc.) are included.
+
+   Approximately 50 feet long, MOBY is the world's largest marine optical
+   device. In the ocean, only its antennae, solar panels, strobe light,
+   and surface buoy (which houses the computer and cellular phone for data
+   transmission) are visible, standing about 7 feet above the waterline. A
+   fiberglass mast extends more than 40 feet directly down beneath the
+   buoy to the instrument bay. At depths of about 6, 16, and 28 feet
+   respectively, 9-foot long booms or "arms" extend outward perpendicular
+   to the mast.
+
+   Optical collectors (irradiance and radiance) have been placed at the
+   ends of the arms, as well as on top of the buoy above the surface to
+   collect light coming into the ocean, and then the light reflected back
+   out of the ocean. The reflected portion of the light has been modified
+   by particles such as phytoplankton suspended at various depths, that
+   modifies the signal available to the satellite sensors. Lenses within
+   these collectors focus the light onto fiber optic cables which then
+   transmit the light to a fiber optic multiplexer housed in the
+   instrument bay. The multiplexer relays the light into a dual
+   spectrograph with detectors that measure the spectral radiant energy.
+   These signals are then digitized and relayed by microprocessors and
+   transmitted up to a main computer housed in the surface buoy. This
+   information is then stored on a disk drive, which may be accessed via
+   cellular phone and downloaded for processing back at the MOBY Team
+   facility.
+
+   Much of the buoy's hardware and acquisition software was engineered by
+   San Jose State University's Moss Landing Marine Laboratory (MLML)
+   personnel. Mark Yarbrough of MLML was responsible for the final
+   integration of MOBY's components. He also oversees the daily operation
+   of the MOBY Lab sites in Monterey and Honolulu. The acquisition and
+   control software was written by Richard Reaves.
+
+  MOBY Funding Sources
+
+   The initial MOBY development phases were funded by NASA, NOAA, and the
+   Office of Naval Research (ONR).
+
+   A formal MOBY project was originally funded by MODIS to help calibrate
+   and validate the satellite sensor. Fabrication of the buoy was
+   accelerated when in 1991 MOBY received additional funding from SeaWiFS
+   to help in its calibration and validation effort. Charles McClain
+   approached Clark with the idea of using MOBY for two purposes:
+
+    1. monitoring the degradation of SeaWiFS over time, and
+    2. providing a time-series data set.
+
+   McClain based the first purpose on his experience with the Nimbus-7
+   Coastal Zone Color Scanner (CZCS). During its first 18 months in space,
+   the CZCS orbital degradation was well-characterized by the Nimbus
+   experiment team and confirmed by measurements taken aboard ships. After
+   that period, there were no more ship measurements and, subsequently,
+   there was no way of knowing how much error was contained in CZCS data.
+   MOBY's second purpose--providing a time-series data set--will help
+   scientists remove temporal biases from SeaWiFS observations.
+   "Additionally," Clark adds, "MOBY is not constrained by when it takes
+   measurements, so we can observe the response of phytoplankton to
+   different light conditions." Whereas satellites can only view certain
+   sites at certain times, MOBY continually takes data at its site,
+   enabling scientists to interpolate between satellite observations.
+
+   MOCE is totally a MODIS-funded endeavor.
+
+  How is MOBY Calibrated?
+
+   MOBY was calibrated before deployment according to NIST- (National
+   Institute of Standards and Technology) traceable standards. The
+   radiance collectors were calibrated using an Optronix integrating
+   sphere and the irradiance collectors were calibrated using a NIST
+   1,000-W FEL. The radiance collectors were calibrated using a lamp with
+   a more diffuse light output, because the light reflected back upward
+   through the water column is diffuse.
+
+   Also, MOBY contains an internal calibration system. Light from two
+   onboard LED (Light Emitting Diode) lamps (green and red) illuminate a
+   Labsphere Spectralon target that absorbs light at certain wavelengths
+   and reflects all others. The Spectralon target reflects onto an
+   internal mirror (when it is in the calibration position), and the light
+   is then reflected into the relay optics of the dual spectrograph. This
+   allows for calibration checks on the spectral and absolute intensity of
+   the system.
+
+   Additionally, every month, divers from MLML and the University of
+   Hawaii will dive at the site with submersible calibration lamps that
+   will be coupled with the collectors in order to monitor system
+   performance.
+
+   In order to implement this operational plan, two advanced versions of
+   the MOBY prototype are now being built. Over the course of 5 years
+   these buoys will be swapped out for general maintenance and calibration
+   testing on a quarterly basis. But, before the prototype is removed from
+   the water, both buoys will operate together at the same site for
+   several measurement cycles to establish a crossover calibration between
+   the two instruments to characterize offsets and biases between the two.
+   During this time, both MOBYs will gather concurrent sets of
+   observations to allow the different systems' offsets and biases to be
+   characterized. These observations will allow the Team to characterize
+   or observe the magnitude of biofouling that may be affecting the
+   measurements. (Presently, the biofouling problem is being addressed by
+   coating the collectors with an optically transparent organo-tin
+   compound.)
+
+  Contributions to Science
+
+   Distinguishing the difference between incoming sunlight and that which
+   is reflected back upward at different depths enables scientists to
+   derive biomass concentrations. Different elements reflect and absorb
+   light in characteristically different ways. For example, scientists
+   have noticed that when there is an abundance of microscopic marine
+   plants, the ocean appears green--phytoplankton absorbs red and blue
+   visible light and reflects green. By measuring this color, scientists
+   can calculate the biomass present.
+
+   According to Stanford Hooker, a member of NASA's SeaWiFS Project,
+   MOBY's data will help scientists better understand the effects of
+   atmospheric CO2 on oceanic biomass concentrations. Hooker says there
+   has been a global increase in atmospheric CO2, resulting from an
+   increase in fossil fuel burning over the last century. Some of that CO2
+   is absorbed into the oceans; however, there is a limit to how much the
+   oceans can store. Scientists don't know what the oceans' saturation
+   limit is, nor do they know how long it will take to reach it.
+
+   "Plants consume CO2 as part of their metabolism," he explains. "But, if
+   you change ocean conditions, will phytoplankton take up more or less
+   CO2? Some scientists argue that the plants are at their saturation
+   level and cannot adapt." One theory holds that if the marine plant
+   community cannot help absorb the additional CO2, then the increase of
+   the gas in the atmosphere will accelerate global warming.
+
+   MOCE and MOBY operations include taking measurements in three broad
+   categories: optical, biological, and physical. According to Hooker,
+   MOBY's data products include water-leaving radiance and absorption and
+   attenuation parameters that enable the Team to derive the following
+   products: phytoplankton pigments, phytoplankton concentration, total
+   suspended matter, chlorophyll a, and fluorescence quantum efficiency.
+
+   The Team has also recently deployed another device for collecting in
+   situ data to complement MOCE and MOBY observations in order to provide
+   higher quality data sets. A device resembling a delta wing--called a
+   paravan--is lowered to different depths of the ocean and towed
+   alongside the ship. The paravane has been modified to house a pumping
+   system (which collects relatively uncontaminated sea water and pumps it
+   via a hose back up to the ship) and an in situ fluorometer. The pumping
+   system delivers sea water to instruments onboard the ship which measure
+   fluorescence, transmissivity, and particle size distribution. These
+   data will be compared to SeaWiFS/MODIS-derived products for validation.
+
+   Initially, MOBY data will be processed by MLML and stored by the
+   SeaWiFS Project, an operation that will ultimately be taken over by
+   EOSDIS. The data processing system software--adapted from CZCS
+   processing software--was engineered by Michael Feinholz, of MLML. MOBY
+   data will be cooperatively analyzed by Clark, MOBY Chief Scientist, and
+   Professor William Broenkow, oceanographer at MLML. These data will
+   eventually be made available to researchers worldwide.
+
+   Already other investigators are becoming involved with the project. For
+   example, researchers at the University of Hawaii will use MOBY data to
+   aid their efforts. Bob Bedigary is developing oceanic primary
+   productivity models, Tony Clark will use MOBY to study atmospheric
+   aerosols, and Dave Karl is monitoring CO2 fluxes in the area.
+
+  MOBY Deployment Sites
+
+   In November of 1992 and 1993 MOBY was temporarily deployed in Monterey
+   Bay, California, for system testing and evaluation. This site was
+   chosen mainly due to its proximity to the lab site where MOBY was
+   fabricated, which is operated by San Jose State University's Moss
+   Landing Marine Laboratories.
+
+   The new, permanent deployment site of MOBY is 20 degree 49.0 sec N
+   Latitude, 157 degree 11.5 sec W Longitude--or about 11 nautical miles
+   west of Lanai, Hawaii. This site was chosen primarily because it meets
+   the MODIS Ocean Team's calibration/validation criteria. Also, the
+   neighboring islands--Molokai, Lanai, and Maui--provide a lee from the
+   wind so conditions there remain relatively calm. Of course, should
+   typhoon conditions threaten, MLML may quickly retrieve the buoy and
+   then re-deploy it after the storm. Finally, the MOBY site is within
+   range of cellular phone coverage, rendering its data easily accessible.
+
+  Hard Work and High Risks
+
+   Placing a highly complex scientific instrument in an environment as
+   hostile as the ocean is risky business. MOBY will be exposed to high
+   wind and waves, corrosive salt, and marine organisms--such as barnacles
+   that may grow on its collectors. Then there is the threat of damage
+   from vandalism or accidents from recreational maritime activities. In
+   Hawaii, commercial and sport fishermen like to fish near buoys, called
+   FADs (Fish Aggregation Devices), around which fish often school. The
+   Team fears fishermen may damage MOBY by accidentally bumping it; or,
+   while trawling, they may entangle and drag the buoy. Any of these
+   threats could result in structural or electrical failure, or drifting.
+
+   Clark readily admits that there are many ways the buoy can fail. "More
+   buoys have been lost due to mooring failure than probably any other
+   reason," he states. "However, nothing is gained unless you push
+   technology to its limits, and that in itself is a high risk." In an age
+   of dwindling funding, pushing technological limits is a tall order.
+   Because funds were not available in 1986 for beginning and developing a
+   complete system, the incremental development approach was used in which
+   the total system concept was developed and then the individual
+   components were built as funds became available. These components were
+   bought in the mid-80s, so many of the components of the MOBY
+   prototype--such as the linear array detectors--consist of old
+   technology, but the new MOBYs will be state-of-the-art. "Since the
+   beginning of this project, most of our resources have gone into
+   hardware," Clark explains, "forcing us to use a small development team
+   (three people). Given the funding profile of the 1980s, this project
+   could never have come to fruition without using an incremental
+   development approach."
+
+   Yet, the integration and testing process greatly accelerated with the
+   infusion of SeaWiFS funds in 1991. "I've never tried to push any system
+   into use as fast as the MOBY system," Yarbrough states. "For economic
+   reasons you want to get things done as fast as possible. Yet for
+   scientific purposes, the longer you use a system, testing it and
+   gaining experience with it, the more reliable it is. It's been a
+   continuous balancing act." The compromise is evident in the Team's work
+   schedule; 14-and 16-hour work days are not uncommon, even on weekends.
+
+   Developing and deploying MOBY in a timely manner probably couldn't have
+   been done without a highly resourceful Team dedicated to the project's
+   success. Each MOBY Team member has had to wear many hats, in addition
+   to their individual areas of expertise. Yet, resourcefulness is simply
+   par for the course to Yarbrough. For example, in 1982 he invented a
+   modified CTD (Conductivity, Temperature, and Depth) device that had an
+   immediate impact on the way oceanography is conducted. His
+   resourcefulness has paid off for the MOBY Project too--he has been
+   responsible for the final integration of all the components in the MOBY
+   system.
+
+   Although there have been setbacks along the way, the MOBY/MOCE Teams
+   now seem poised to begin enjoying the fruits of their labors. "We're
+   making an effort to provide accurate data and analyses of the
+   biological state of the oceans from an optical standpoint," Clark
+   concludes. "If that database isn't there, you can never formulate
+   analyses which accurately evaluate bio-optical processes or the impact
+   of man's intervention on those processes."
+
+   The following is an alphabetical list of the MOBY/MOCE field campaign
+   principal contributors:
+
+   James Brown University of Miami
+
+   Charles Trees RSMAS San Diego State University Center for Hydro-Optics
+   and Remote Sensing
+
+   Dennis Clark NOAA NESDIS
+
+   Ken Voss University of Miami
+
+   Michael Feinholz MLML
+
+   Mark Yarbrough MLML
+
+   Stanford Hooker NASA GSFC
+     __________________________________________________________________
+
+   [tech_memo_icon.gif] SeaWiFS Project Technical Report Series
+     __________________________________________________________________
+
+   [biosphere_globe_icon_clear.gif] SeaWiFS Project Home Page

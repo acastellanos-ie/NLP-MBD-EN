@@ -1,0 +1,132 @@
+http://www-aig.jpl.nasa.gov/public/planning/omp/
+
+   [jpllogo.gif] Projects: OMP Planning and Scheduling, Artificial
+                 Intelligence Group                               [Nasalogo.gif]
+
+   nothing
+
+   artificial intelligence group [_line.gif] planning and scheduling
+   [_line.gif] machine learning systems [_line.gif] jpl [_line.gif]
+   caltech [_line.gif] nasa
+
+   [dot.gif] [earth.gif]
+   nothing
+   background description impact technology status significance problem
+   sponsors moreinfo publications the team contacts
+
+   Background top
+
+   The Deep Space Network (DSN) was established in 1958 and since then it
+   has evolved into the largest and most sensitive scientific
+   telecommunications and radio navigation network in the world. The
+   purpose of the DSN is to support unpiloted interplanetary spacecraft
+   missions and support radio and radar astronomy observations in the
+   exploration of the solar system and the universe.
+
+   AI Technology top
+     * Artificial Intelligence techniques: temporal constraint networks,
+       knowledge-based tactics.
+     * Operation Research techniques: Scheduling dispatch rules, heuristic
+       search.
+     * Metaobject Protocol design.
+     * Object Library of commonly-used resource and job types.
+     * Advanced human machine interface design.
+
+
+   Problem top
+     * The number of projects using the 26-meter subnetwork is increasing.
+     * The current scheduling process is negotiation-based and is
+       therefore expensive, time-consiming, and doesn't necessarily result
+       in the ``best'' schedule.
+     * As the loading increases the complexity of scheduling exponentially
+       increases.
+     * The current manual scheduling process will become prohibitively
+       expensive (basd on predicted future demand for support).
+     * The DSN is not reimbursed for representing the projects in the
+       scheduling negotiations.
+
+
+   Impact top
+     * Hot Button for DSN Operations
+     * Delivered in 3 Months
+     * Immediately Used by Operations
+     * Achieved 30% reduction in workhours while supporting a 100%
+       increase of spacecrafts supported by 26M subnetwork
+     * Agressive insertion of advanced technology into a high pressure
+       operations environment
+
+
+   Status top
+
+   Was delivered to the DSN scheduling group in 1994 and has been in
+   operation for the last 3 years.
+
+   Description top
+
+   The objective of this task is to provide automated, reactive schedule
+   generation and maintenance capabilities to support 26-meter antennas
+   scheduling and Real Time scheduling operations for JPL's Deep Space
+   Network (DSN). The OMP tools has been expanded to incorporate automated
+   scheduling/rescheduling capabiliites.
+
+   Significance top
+     * Generates a conflict-free schedule from the projects' generic
+       requests.
+     * Performs automated schedule maintenance.
+     * Greatly reduces the need for schedule negotiation meetings.
+
+
+   More Information top
+
+   Features:
+     * Table-driven inputs, e.g., Resources, Projects, Activity Types,
+       Requests.
+     * GUI interface to display schedule and resource conflicts.
+     * Uses AI and OR techniques to autonomously produce a schedule.
+     * Minimally perturbs an existing schedule to accommodate new tasks.
+     * Adjusts the schedule to match the most recent generated view
+       periods.
+
+   Related Web Sites:
+     * Deep Space Network Home Page
+
+
+   Publications top
+
+   Please Note:
+   This material is provided for your personal use only and may not be
+   retransmitted or redistributed without permission in writing from the
+   paper's publisher and/or author. You may not upload this material to
+   any public server, on-line service, network, or bulletin board without
+   prior written permission from the publisher and/or author. You may not
+   make copies for any commercial purpose. This material is not public
+   domain. Reproduction or storage of materials retrieved from this web
+   site are subject to the U.S. Copyright Act of 1976, Title 17 U.S.C.
+
+   Currently none available.
+
+   Contacts top
+
+   OMP Project Contact:
+   Dr. Steve Chien, AI Group,
+   Steve.Chien@jpl.nasa.gov, (818) 393-5320
+
+   JPL Technical Contact:
+   Dr. Steve Chien
+   , AI Group
+
+   JPL Program Contact:
+   Dr. Chad Edwards, Advanced Technology Development, Telecommunications
+   and Mission Operations Directorate.
+
+   The Project Team top
+
+   Dr. Steve Chien
+
+   Ray Lam
+
+   Sponsors top
+
+   NASA Code O
+
+   [jpllogo.gif] Questions: www@www-aig.jpl.nasa.gov

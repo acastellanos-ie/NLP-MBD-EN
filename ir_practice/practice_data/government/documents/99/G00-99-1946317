@@ -1,0 +1,711 @@
+http://ahs.volpe.dot.gov/psadocs/psadocs.html
+
+                              Precursor Studies
+
+  I. INTRODUCTION
+
+   The Federal Highway Administration (FHWA) awarded fifteen Precursor
+   Systems Analyses (PSA) research contracts totaling $14.1M to
+   investigate the issues and risks related to the design, development,
+   and implementation of Automated Highway Systems (AHS). These contracts,
+   each of approximately one year duration, were awarded during the period
+   July through September, 1993, based on a Broad Agency Announcement
+   issued by FHWA in November, 1992. The AHS program is part of the major
+   initiative of the US Department of Transportation in Intelligent
+   Vehicle/Highway Systems.
+
+   The purpose of this document is to highlight the research activities
+   performed under the AHS PSA studies. These PSA studies were conducted
+   as part of the early stages of the government's AHS Program. This
+   compendium of AHS PSA research activities serves to highlight the areas
+   of research and the contractor teams working within these areas.
+
+   Included in this compendium is the following:
+
+     * AHS PSA Contracts
+     * Activity Area Summaries
+     * Activity Area Matrices
+     * Research Summaries
+
+  II. AHS PSA CONTRACTS
+
+   These fifteen PSA contracts were focused upon sixteen activity areas
+   which were defined in the original Broad Agency Announcement. These
+   activity areas are described in Table 1. Table 2 provides detail on the
+   individual contractors and the activities they have addressed. Table 3
+   is a list of contractors and subcontractors for each contract team.
+
+   From Table 2, it is evident that several contractors addressed each of
+   the activity areas. This overlap added value to the overall body of
+   research, in that each discrete effort provided a different perspective
+   and emphasis in identifying and analyzing issues and risks. Further,
+   three teams, Calspan, Delco, and MITRE were selected to address all
+   sixteen activity areas. These teams have generated additional insights
+   into the issues because of the extensive interdependencies across the
+   activity areas, which were addressed most effectively within a single
+   contract team. The perspectives and experience of Calspan and Delco are
+   highly complementary, with Calspan providing a broad systems analysis
+   and Delco providing analysis from the perspective of the vehicle
+   industry. Additional vehicle industry insights will be gained by
+   subcontractors on the various teams, notably Ford Motor Company as part
+   of the Raytheon team.
+
+   The perspectives and experience of the highway engineering profession
+   is crucial to this research, and transportation consultants are well
+   represented within the contract teams performing the highway-based
+   analyses. In order to enhance the results of the analyses and maintain
+   a "real-world" perspective, frequent contact was made with state and
+   local highway officials so as to gain feedback on issues such as AHS
+   deployment, operations and maintenance, and network-wide impacts. In
+   particular, the Calspan team included several state level
+   transportation agencies for this purpose.
+
+   These analyses benefited substantially from the experience and
+   expertise of the defense industry, as several of the contractors
+   selected have had extensive involvement with complex defense system on
+   the scale of an AHS. For example, Lockheed Martin is the system
+   integrator for the DOD Demo II project involving autonomous ground
+   vehicles for military applications, which has clear technological
+   similarities to the future AHS.
+
+   There are four efforts shown in the "Other" column in Table 2. The
+   Raytheon team investigated the application of Knowledge Based Systems
+   to AHS requirements. The Rockwell team studied one possible
+   evolutionary scenario for AHS. SRI investigated the application of the
+   Global Positioning System (GPS) Integrated Carrier Phase techniques to
+   vehicle position monitoring for AHS. Finally, TASC performed an
+   analysis of the feasibility of integrating existing models in diverse
+   areas such as vehicle dynamics, sensor characteristics, traffic flow,
+   and environmental factors into a coherent modeling framework, to enable
+   researchers to evaluate high level AHS concept alternatives.
+
+   The PSA analyses were conducted in a highly interactive and
+   collaborative environment. By creating an atmosphere of collegiality
+   among the individuals performing the research. The program benefitted
+   substantially from the resulting synergy. This group of PSA researches
+   has displayed a broad range of perspective and expertise across both
+   industry and government, in order to meet this objective.
+     __________________________________________________________________
+
+   TABLE 1
+
+   Precursor Systems Analyses Activity Areas
+
+   A) Urban and Rural AHS Comparison -- an analysis which defines and
+   contrasts the urban and rural operational environments relative to AHS
+   deployment
+
+   B) Automated Check-In -- issues relating to certifying vehicle
+   equipment is functioning properly for AHS operation, in a manner
+   enabling smooth flow onto the system
+
+   C) Automated Check-Out -- issues relating to transitioning control to
+   the human driver and certifying vehicle equipment in functioning
+   properly for manual operation
+
+   D) Lateral and Longitudinal Control Analysis -- technical analyses
+   relating to automated vehicle control
+
+   E) Malfunction Management and Analysis -- analyses relating to design
+   approaches for an AHS which is highly reliable and fault tolerant
+
+   F) Commercial Transit AHS Analysis -- issues relating to the unique
+   needs of commercial and transit vehicles operating within the AHS
+
+   G) Comparable Systems Analysis -- an effort to derive lessons learned
+   from other system development and deployment efforts with similarities
+   to AHS
+
+   H) AHS Roadway Deployment Analysis -- issues relating to the
+   deployability of possible AHS configurations within existing freeway
+   networks
+
+   I) Impact of AHS on Surrounding Non-AHS Roadways -- analysis of the
+   overall network impact of AHS deployment and development of mitigation
+   strategies
+
+   J) AHS Entry/Exit Implementation -- analysis of highway design issues
+   relating to the efficient flow of vehicles on and off of the AHS
+   facility
+
+   K) AHS Roadway Operational Analysis -- issues relating to the ongoing
+   operation of an AHS
+
+   L) Vehicle Operational Analysis -- issues relating to the operation of
+   an AHS vehicle, including the retrofitting of vehicles for AHS
+   operation
+
+   M) Alternative Propulsion Systems Impact -- analysis of possible
+   impacts alternately propelled vehicles may have on AHS deployment and
+   operation
+
+   N) AHS Safety Issues -- broad analysis of safety issues pertaining to
+   AHS
+
+   O) Institutional and Societal Aspects -- broad analysis of the many
+   non-technical issues which are critical to successful deployment of AHS
+
+   P) Preliminary Cost/Benefit Factors Analysis -- an early assessment of
+   the factors which comprise the costs an benefits of AHS.
+
+   Q) Preliminary Measures of Performance -- an analysis that projects
+   initial system performance specifications milestones for an AHS
+   program.
+
+   R) Other Reports -- additional analyses of various AHS areas.
+
+   S) Summary Reports -- Summaries and assessements of findings.
+     __________________________________________________________________
+
+                                   Table 2
+
+                       PSA Contract Team Activity Area
+
+                               Contractor TASK
+                    A B C D E F G H I J K L M N O P Q R S
+                            Battelle [bullet.gif]
+
+
+
+                                [bullet.gif]
+
+
+             [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+
+
+                          [bullet.gif] [bullet.gif]
+
+
+
+                                [bullet.gif]
+                                     BDM
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+                                [bullet.gif]
+         Calspan [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+      [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+      [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+                   [bullet.gif] [bullet.gif] [bullet.gif]
+
+                                [bullet.gif]
+   Delco [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+      [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+      [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+                                [bullet.gif]
+
+
+                                [bullet.gif]
+                                  Honeywell
+
+
+
+
+                                [bullet.gif]
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+
+
+
+
+
+                               Lockheed Martin
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    MITRE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+                                  Northrop
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                              PATH [bullet.gif]
+
+
+
+
+
+
+                                [bullet.gif]
+
+                                [bullet.gif]
+
+
+
+
+
+                                [bullet.gif]
+
+
+                                [bullet.gif]
+                                  Raytheon
+
+      [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif] [bullet.gif]
+
+
+
+                                [bullet.gif]
+
+                                [bullet.gif]
+
+                                [bullet.gif]
+
+
+
+                          [bullet.gif] [bullet.gif]
+                                  Rockwell
+
+
+
+                          [bullet.gif] [bullet.gif]
+
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+                          [bullet.gif] [bullet.gif]
+                                    SAIC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+
+                                     SRI
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    TASC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+
+                                     TRW
+
+
+
+
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+
+                                  UC Davis
+
+
+
+
+
+
+
+
+
+
+                                [bullet.gif]
+
+
+
+
+
+
+
+     __________________________________________________________________
+
+                                   TABLE 3
+
+                        List of Contract Team Members
+
+    Battelle Team
+
+     Battelle
+     BRW
+     Mass. Institute of Technology
+     Ohio State University
+     Transportation Research Center
+     University of Minnesota
+
+    BDM Team
+
+     BDM
+     Cambridge Systematics, Inc.
+     George Mason University
+     SNV
+
+    Calspan Team
+
+     Calspan
+     BMW
+     Dunn Engineering
+     Farradyne Systems, Inc.
+     Parsons Brinkerhoff
+     Princeton University
+     TRANSCOM
+     Connecticut DOT
+     Massachusetts DOT
+     New Jersey DOT
+     New York State DOT
+     NY State Thruway Authority
+
+    Delco Team
+
+     Delco Systems Operations
+     DMJM
+     Hughes aircraft Company
+     Univ. of Calif. (PATH)
+     General Motors Corporation
+
+    Honeywell Team
+
+     Honeywell Technology Center
+     Purdue University
+     Univ. of Calif. (PATH)
+     University of Minnesota
+     Calif. Polytechnic State Univ.
+
+    Lockheed Martin Team
+
+     Lockheed Martin
+
+    Northrop Team
+
+     Northrop
+     PATH
+
+    PATH Team
+
+     PATH
+     Bechtel
+     California DOT
+     Calif. Polytechnic State Univ.
+     Lawrence Livermore Nat. Lab.
+     Rockwell International
+     Univ. of Southern California
+
+    Raytheon Team
+
+     Raytheon Company
+     Daimler Benz
+     Ford
+     Georgia Institute of Technology
+     Tufts University
+     Univ. of Southern California
+     VHB
+
+    Rockwell Team
+
+     Rockwell International Corp.
+     Univ. of Calif. (PATH)
+     Systems Technology, Inc.
+     SAIC Team
+     SAIC
+     McDermott, Will & Emery
+     McGuire, Woods, Battle & Booth
+
+    SRI Team
+
+     SRI
+
+    TASC Team
+
+     TASC
+
+    TRW Team
+
+     TRW
+
+    UC Davis Team
+
+     Univ. of California, Davis
+     California DOT
+
+  Precursor Systems Analyses & Executive Summaries
+
+   Activities are arranged by Task below. A matrix of the Tasks also
+       exists below containing clickable dots, which will take you to each
+       study.
+
+   A) Urban and Rural AHS Comparison -- an analysis which defines and
+       contrasts the urban and rural operational environments relative to
+       AHS deployment
+
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * PATH Team
+
+   B) Automated Check-In
+   -- issues relating to certifying vehicle equipment is functioning
+   properly for AHS operation, in a manner enabling smooth flow onto the
+   system
+     * Calspan Team
+     * Delco Team
+     * Northrop Team
+     * Raytheon Team
+
+   C) Automated Check-Out
+   -- issues relating to transitioning control to the human driver and
+   certifying vehicle equipment in functioning properly for manual
+   operation
+     * Calspan Team
+     * Delco Team
+     * Raytheon Team
+
+   D) Lateral and Longitudinal Control Analysis
+   -- technical analyses relating to automated vehicle control
+     * Calspan Team
+     * Delco Team
+     * Lockheed Martin Team
+     * Raytheon Team
+     * Rockwell Team
+     * SRI Team
+
+   E) Malfunction Management and Analysis
+   -- analyses relating to design approaches for an AHS which is highly
+   reliable and fault tolerant
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * Honeywell Team
+     * Raytheon Team
+     * Rockwell Team
+
+   F) Commercial Transit AHS Analysis
+   -- issues relating to the unique needs of commercial and transit
+   vehicles operating within the AHS
+     * BDM Team
+     * Calspan Team
+     * Delco Team
+     * Raytheon Team
+
+   G) Comparable Systems Analysis
+   -- an effort to derive "lessons learned" from other system development
+   and deployment efforts with similarities to AHS
+     * Calspan Team
+     * Honeywell Team
+     * Delco Team
+
+   H) AHS Roadway Deployment Analysis
+   -- issues relating to the deployability of possible AHS configurations
+   within existing freeway networks
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * PATH Team
+
+   I) Impact of AHS on Surrounding Non-AHS Roadways
+   -- analysis of the overall network impact of AHS deployment and
+   development of mitigation strategies
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+
+   J) AHS Entry/Exit Implementation
+   -- analysis of highway design issues relating to the efficient flow of
+   vehicles on and off of the AHS facility
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * PATH Team
+     * Raytheon Team
+
+   K) AHS Roadway Operational Analysis
+   -- issues relating to the ongoing operation of an AHS
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * UC Davis Team
+
+   L) Vehicle Operational Analysis
+   -- issues relating to the operation of an AHS vehicle, including the
+   retrofitting of vehicles for AHS operation
+     * Calspan Team
+     * Delco Team
+     * Raytheon Team
+     * Rockwell Team
+
+   M) Alternative Propulsion Systems Impact
+   -- analysis of possible impacts alternately propelled vehicles may have
+   on AHS deployment and operation
+     * Calspan Team
+     * Delco Team
+     * TRW Team
+
+   N) AHS Safety Issues
+   -- broad analysis of safety issues pertaining to AHS
+     * Battelle Team
+     * Calspan Team
+     * Delco Team
+     * Raytheon Team
+
+   O) Institutional and Societal Aspects
+   -- broad analysis of the many non-technical issues which are critical
+   to successful deployment of AHS
+     * Battelle Team
+     * BDM Team
+     * Calspan Team
+     * Delco Team
+     * SAIC Team
+
+   P) Preliminary Cost/Benefit Factors Analysis
+   -- an early assessment of the factors which comprise the costs an
+   benefits of AHS.
+     * Calspan Team
+     * Delco Team
+     * PATH Team
+
+   Q) Preliminary Measures of Performance -- an analysis that projects
+   initial system performance specifications milestones for an AHS
+   program.
+     * Calspan Team
+
+   R) Other Reports -- additional analyses of various AHS areas.
+     * Raytheon Team
+     * Rockwell Team
+     * TASC Team
+
+   S) Summary Reports -- summaries and assessments of findings.
+     * Battelle
+     * BDM
+     * Calspan
+     * Delco
+     * MITRE
+     * PATH
+     * Raytheon
+     * Rockwell
+     __________________________________________________________________
+
+      Home Feedback About AHS Precursor System Analyses AHS Consortium
+                    What's New AVCS Related Sites Human Factors

@@ -1,0 +1,55 @@
+http://ocean1.ncd.noaa.gov/ecda/
+
+            Experimental East Coast Water Level Data Assimilation
+                     Nowcasting/Forecasting Model System
+   _______________________________________________________________________
+
+                       NOAA logo    System Description
+
+   Data Assimilation Procedure    Model System Operational Procedure
+   Model Grid
+     __________________________________________________________________
+
+   Disclaimer: These experimental products are intended for model
+   performance evaluation and are not for navigational use. The user
+   assumes the entire risk related to using these products. NOAA will not
+   be liable for any direct, indirect, incidental, consequential, special
+   or exemplary damages or lost profit resulting from any use or misuse of
+   these products.
+     __________________________________________________________________
+
+   The system is running in an experimentally operational mode for 24
+   hours data assimilation nowcast daily (00Z) and 48 hours forecast.
+     __________________________________________________________________
+
+      Water Level Time Series for Nowcasts/Forecasts, and Observations
+     __________________________________________________________________
+
+     [East Port, ME] [Portland, ME] [Boston, MA] [New London, CT]
+   [Newport, RI] [Bridgeport, CT] [Montauk, NY]
+
+     [Willets Point, NY] [Sand Hook, NJ] [Atlantic City, NJ] [Cape May,
+   NJ] [Lewes, DE] [CBBT, VA] [Duck, NC]
+
+     [Atlantic Beach, NC] [Springmaid, SC] [Charleston, SC] [Ft Pulaski,
+   GA] [Mayport, FL] [St. Augustine, FL] [Trident, FL ]
+     __________________________________________________________________
+
+            Model Performance Statistics (Water Level RMS Errors)
+
+   This Month:    [New England Coast] [New York to North Carolina Coast]
+   [Noth Carolina to Florida Coast]
+   2000:    May    June    July    August    September    October
+   November    December
+   2001:    January
+     __________________________________________________________________
+
+            Wind from EDAS (Eta Data Assimilation System) and ETA
+
+     [Wind Vector SnapShot] [Wind Vector Animation]
+     __________________________________________________________________
+
+   Please send comments to
+   Dr. Eugene Wei : Eugene.Wei@noaa.gov or Aijun Zhang :
+   Aijun.Zhang@noaa.gov
+   _______________________________________________________________________

@@ -1,0 +1,87 @@
+http://txpc1.fnal.gov/tip/index.html
+
+          ________________________________________________________
+
+                        Analysis Tips for TAMU/CDFer
+          ________________________________________________________
+   _______________________________________________________________________
+
+   Run 2 Offline Code and Information
+     * How to Run Edm_ObjectLister
+     * How to Run ac++dump
+     * How to Run Monte Carlo
+     * SUSY Monte Carlo datasets and their specifications
+     * How to Run The Event Display
+     * Local Stntuple Tips/News
+   _______________________________________________________________________
+
+   PAW
+     * PAW Frequently Asked Questions
+     * PAW Contributions
+     * Helpful PAW Macros
+     * Sungwon's PAW Colour Map
+     * Dave's PAW Help: (1) .pawlogon.kumac, (2) save_eps_picture.kumac,
+       (3) save_picture.kumac, (4) percent.kumac
+     * Kumac file to calculate the chi square between two histograms in
+       PAW.
+     * Paw picture of cross sections from minbias to SUSY ps   kumac
+       another plot
+     * PAW to ROOT Conversion Table
+     * Computing and Statistical Data Analysis - containing course
+       information, lecture notes and problem sheets
+     * Simple Events Display using PAW
+     * The command PICTURE/PRINT produces a gif file if the file name is
+       file_name.gif.
+        PAW > pict/print test.gif
+     * Feynman Diagrams with PAW
+        (1) Kumac
+        (2) Example
+     * PAW Example Kumacs
+        (1) CDF Blessed Jet Energy Resolution Plot
+        (2)
+     * feynfig logo
+       Mw-Mtop-Mh; World Average Mw Plots & Kumacs
+       You can make your own variety of plot using the following kumacs :
+     * mw-mtop-mhiggs Kumac
+       which needs the following files with exactly these names ::
+     * higgs_1000_new_bk_mz911884_fj.data ,
+       higgs_100_new_bk_mz911884_fj.data
+     * higgs_250_new_bk_mz911884_fj.data ,
+       higgs_500_new_bk_mz911884_fj.data
+     * mw_mtop_sld_lep1_nutev_m99.dat , mwmtop_fill.for
+     * MW World average Kumac
+   _______________________________________________________________________
+
+   Graphics
+     * Convertor
+        (1) ps2epsi, (2) pdf2ps, (3) a2ps
+     * GIF and jpeg files
+        jpeg2ps -h file.jpg > file.eps
+     * Ripping PS file (by Adam Aurisano)
+        (1) Text document outlining the method of manual ripping
+        (2) Perl script that automatically does the same thing
+     * Linux Screen Capture
+        (1) xwd -root -out myscreen.xwd
+        (2) convert -quality 80 myscreen.xwd myscreen.jpg
+     * feynfig logo
+       FeynFig is a program to generate feynman diagrams in xfig format.
+       It can be used in two ways: one can write an input file describing
+       the feynman diagram to be drawn. FeynFig will then convert this to
+       an xfig file.
+       A second, often more convenient approach, is to use FeynFig to
+       generate a template of gluons, quarks, photons, ... These can then
+       be merged into your xfig file, copied, moved, rotated, chopped
+       etc., in order to produce the final diagram that is desired. Some
+       sample templates are included with the distribution.
+       FeynFig is based on FeynMongo by Paolo Nason and Manfred Lindner.
+       It was adapted for xfig and enhanced by Gavin Salam with further
+       additions and man page by Thomas Pollehn.
+       Download current version: feynfig-1.2b.tar.gz
+   _______________________________________________________________________
+
+   How to submit paper to Los Alamos server or PRL :
+     * A) How to submit to Los Alamos server
+     * B) How to submit paper to PRL
+     __________________________________________________________________
+
+                  Last Update by Sungwon Lee: Aug 27, 2001

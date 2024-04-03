@@ -1,0 +1,375 @@
+http://www.virec.research.med.va.gov/TOPBUTTONS/FAQS.HTM
+
+
+
+   [VIREC_HOME.GIF] Site Index
+
+                                      HSRData Mail
+
+                                           Contact VIReC
+
+                                                        Search the Site
+
+
+                         Frequently Asked Questions (FAQs)
+
+
+                                     Q1
+   How should I estimate the costs (for a proposal budget) of downloading
+   information from the Austin databases (PTF, NPCD, etc.)?
+
+                                     Q2
+   How can I obtain information regarding the size/number of beds on VA
+   and non-VA hospitals?
+
+                                     Q3
+   Why am I getting different outpatient utilization rates (per 1000) for
+   veterans when I use the SF File and Census?
+
+                                     Q4
+   How do I calculate the distance between several hospitals and clinics?
+
+                                     Q5
+   What is a data warehouse?
+
+                                     Q6
+   Are pharmaceutical usage and costs data available on a per patient
+   basis in the VA?
+
+                                     Q7
+   What VistA menus or modules do you recommend using for patient chart
+   reviews in a multi-site study?
+
+                                     Q8
+   What databases and report tools are available to examine costs of VA
+   care?
+
+                                     Q9
+   What are the "Blue Books" on VA data and how can I get a copy?
+
+
+   Q1.    I am a Health Research Scientist and am preparing an IIR
+   proposal that would include accessing nationwide VA databases (PTF,
+   NPCD, dSs).  In general, I plan to download relevant information and
+   then analyze it on PCs or a workstation.  I understand that researchers
+   should now expect to pay for accessing these databases. My primary
+   question is, how do I estimate/determine the costs associated with the
+   information that I plan to download from Austin?
+
+   It is our understanding that HSR&D is currently not being charged for
+   accessing these databases, but that this will be a likely occurrence.
+   Indeed, some Centers of Excellence have received bills for services.
+
+   The Austin Automation Center (AAC) lists the FY 1999 Rate Schedule on
+   their web site at http://www.aac.va.gov/products.htm. This information
+   is useful to those researchers who have a clear understanding of how
+   much CPU time, the number of times they will do tape mounts, and the
+   amount of storage space they will require for their projects.  However,
+   since a very small minority of researchers knows these parameters prior
+   to their investigations, estimating costs for HSR&D research projects
+   to include as a line item on an IIR budget page is somewhat
+   problematic.
+
+   The AAC does have a spreadsheet, by individual user, that contains the
+   cost the user would have incurred based on their usage of the AAC
+   [access the web site http://152.125.190.52/rmtsep.htm, click on the
+   link to view or download cumulative charges by individual for other
+   than HQ Staff,” log on anonymously (leave the password field blank),
+   and cursor over to Column N to obtain total cost].  However, this will
+   only help researchers who have used the AAC, not new users, and assumes
+   that past, current, and future usage will be the same.
+
+   You may want to inquire from your colleagues who do use the AAC for
+   accessing data what their costs were and use these figures as a
+   “guesstimate” for your proposal.  At this time, it is unknown whether
+   the AAC costs will be the responsibility of the individual researcher
+   or HSR&D Service in Washington. If we hear anything more on this
+   subject, we will post the information on our web site as this matter is
+   of interest to all researchers.
+
+   Button: Follow this TOP will link to the top of the page
+
+   Q2.   How can I obtain information regarding the size (i.e., number of
+   beds) of VA and non-VA hospitals?
+
+   This information can be obtained from several different sources:
+
+   1.  The most current data on the number of beds in VA facilities is
+   available from the Bed Control Database.  This database available on
+   the VISN Support Service Center’s KLF Menu system web site is located
+   at (Intranet) http://152.125.190.53/infomgnt/canrpts.htm.  Data can be
+   obtained on actual beds or average beds (i.e., the average number of
+   operating beds from the beginning of the fiscal year [10/1/current
+   year] to the end of whatever month you request).  Reports can be
+   generated for total hospital, internal medicine, intermediate medicine,
+   neurology, blind, psych, rehabilitation medicine, spinal cord, and
+   surgery beds as well as total facility, PRRTP, domiciliary, and nursing
+   home beds.  Reports can be obtained on the national, VISN, or station
+   level and the data can be downloaded into spreadsheet formats.  Bed
+   Control Directive 10-95-009 is also available on the site.  This
+   document provides definitions for some of the various categories of
+   beds within the database and explains how the bed control database
+   works.
+   2.  “The Summary of Medical Programs (SMP) presents facility specific
+   program data for fiscal  year 1997 (October 1996 through September
+   1997) for VA medical centers.   Medical centers are listed
+   alphabetically by State within each Veterans Integrated Service Network
+   (VISN).”  The site located at
+   http://vaww.va.gov/sumedpr/fy97/sumfy97.htm includes VA data covering
+   average number of beds for each facility, (also divided into
+   psychiatric beds, surgical beds, and medical beds), number of
+   applications processed, outpatient visits, and  nursing home care.  In
+   addition, there is some information about non-VA hospital care.) This
+   information is only available to VA Intranet users.
+   3.  A hard copy directory of all VA and DoD health care facilities is
+   issued annually in a special edition of Federal Practitioner published
+   by Quadrant Healthcom, Inc.  This directory contains information not
+   only on the number of beds but on the number of veterans in the primary
+   service area and inpatients, outpatients, and clinic outpatients as
+   well as total health care expenditures and total pharmaceutical
+   expenditures.  A current list of key personnel also is presented for
+   each hospital.  Copies of the directory are available for purchase by
+   calling (973)701-2761.  Federal Practitioner's web site is located at
+   http://www.fedprac.com. The data is not available in computerized
+   formats.
+   4.  U.S. Medicine produces “The U.S. Medicine Directory and Guide to
+   Federal Medicine;” an annual directory of all U.S. Federal Government
+   medical treatment facilities.  Listings include mail, telephone, fax,
+   e-mail and web address information, as well as info on number of
+   operating beds, number of inpatient and outpatient visits.  The
+   directory is available only in hard copy and is not available in
+   machine readable format.  U.S. Medicine can be reached at
+   202-463-6000.  Their web site is located at http://www.usmedicine.com.
+   5.  The American Hospital Association's (AHA) Guide to the Health Care
+   Field is another resource you may want to consult.  AHA is probably the
+   best source for bed information in non-VA hospitals.  According to the
+   AHA, “The AHA Guide is the most comprehensive directory on the health
+   care field.  This annual publication profiles hospitals, health care
+   systems, networks, alliances, and other health care organizations,
+   agencies, and providers.  Hospital-specific data include utilization
+   data, expenses, facilities, and services and more.   The AHA Guide
+   listings include: networks and their hospitals, health care systems and
+   their hospitals, HMOs, and others.  The Guide is available in machine
+   readable format in the form of the AHA Annual Survey Data Base.  “Since
+   1946, AHA has conducted its Annual Survey to assemble one of the most
+   utilized and respected health care provider databases.  This powerful
+   database contains hospital-specific items on more than 6,000 hospitals
+   and health care systems, including utilization, organizational
+   structures, personnel, hospital services, finances, and more.”
+   Information on these and other resources are available by contacting
+   AHA Healthcare InfoSource products at (800)AHA-2626 or visiting their
+   web site at  http://www.aha.org/datasources/default.html.  Data is for
+   VA and non-VA hospitals. One added note for VA researchers, AHA Annual
+   Survey databases are available in flat and SAS data files through the
+   Austin Automation Center (AAC) or through the KLFMenu.   Further
+   information can be obtained through the AAC Helpdesk at (512)326-6780
+   or by contacting the VA Management Science Group (MSG) at
+   (781)687-2678.
+   6.  The Hospital Blue Book published by  Billian Publishing, Inc.
+   “contains listings for over 6,800 hospitals in the U.S., Puerto Rico,
+   and the Virgin Islands.  The listings provide hospital names,
+   addresses, telephone and fax numbers, contact names for over 209,000
+   key personnel with 109 specific titles, and special services in 66
+   categories.  Also included are Healthcare Systems with listings of
+   affiliated hospitals.”  This resource contains hospital bed size
+   information for VA as well as non-VA hospitals and is available in
+   machine readable format.  Additional information is available by
+   calling Billian at (800)533-8484 or viewing the Web site at
+   http://www.billian.com.
+   7.  SMG Marketing Group, a private marketing concern has a wide variety
+   of health care industry products, including databases on the U.S.
+   hospital market, the U.S. hospital market historical, U.S. hospital
+   residency, U.S. hospital personnel, U.S. open-heart surgery facilities,
+   freestanding outpatient surgery centers, multi-hospital systems/group
+   purchasing organizations, center centers, and on solid organ transplant
+   centers.  They also issue a U.S. Hospital Report and Directory and a
+   U.S. hospital market atlas that shows the location of every U.S.
+   hospital over 50 beds.  The U.S. hospital market database contains
+   “detailed individual demographic, utilization, and operations profiles
+   containing more than 300 data elements per hospital on more than 7,000
+   U.S. hospitals.”  The U.S. Hospital Report and Directory “analyzes the
+   hospital market including topics such as demographics, payer data, DRG
+   analysis, surgery trends and financial information for hospitals
+   throughout the United States.  The directory contains operational
+   statistics and geographic listings of more than 7,000 U.S. hospitals.”
+   SMG can be contacted at (800)678-3026 or on the web at
+   http://www.smgusa.com/acute.htm.
+   8.  The Area Resource File (ARF) of the Bureau of Health Professions is
+   maintained by Quality Resource Systems, Inc.  “ARF is a county-specific
+   health resources information system designed to be used by planners,
+   policymakers, researchers, and other professionals interested in the
+   nation's health care delivery system and factors that may impact health
+   status and health care in the U.S.”  Data in the basic file fall into
+   eight categories: 1) codes and classifications, 2) health professions,
+   3) health facilities,  4) utilization, 5) expenditures, 6) population
+   characteristics and economic data, 7) environment, and 8) health
+   professions training.  The information on hospitals is derived from
+   American Hospital Association data.  The data is available for purchase
+   on CD-ROM, magnetic tape, and 3480 cartridge and other formats on a
+   customized basis.  Information on veterans hospitals (and beds) is only
+   available for 1995.  Quality Resource Systems, Inc. can be reached at
+   (703) 352-7393.  Their web site is at http://www.arfsys.com.
+   9.  The Health Care Financing Administration collects  some hospital
+   bed information within their Medicare Cost Provider File, Minimum Data
+   Set, Hospital Cost Report Extract, Public Use Files – Provider of
+   Services File,  and Provider Specific Files.  Information on the data
+   sets can be obtained through the HCFA web site at
+   http://www.hcfa.gov/stats/stats.htm or call Dave Zanardelli at
+   410-786-1882.
+
+   Please remember that bed information from one dataset probably will not
+   match data from any other set due to differences in definitions.  You
+   need to find out if you are dealing with staffed beds, statistical
+   beds, licensed beds, etc. Some additional information can be obtained
+   through state licensure departments (all hospitals), from VISN web
+   sites (VA hospitals by region), and individual institutional web sites.
+
+   Button: Follow this TOP will link to the top of the page
+   Q3.   Why am I getting different outpatient utilization rates (per
+   1,000) for veterans when I use the SF files and census data?
+
+   You need to keep in mind that the PTF and SF files are measuring
+   workload at each facility.  This encompasses all medical care given at
+   the facility including, for example, flu shots to employees.  To
+   calculate utilization rates for veterans, you must be sure that you are
+   looking at only veterans.  There are two variables on the SAS system
+   files that will help you exclude non-veterans from your denominator:
+   MEANS and ELIG (see the resource guide for values that apply).  By
+   excluding non-veterans, you will see utilization rates that are more in
+   line with what you expected.
+
+   Button: Follow this TOP will link to the top of the page
+
+   Q4.   How do I calculate the distance between several hospitals and
+   clinics?
+
+   There are several ways to get the answer you need.  If you know the zip
+   codes for each of the facilities, you can calculate distance between
+   any pair of zip codes.  A web site that will do these calculations for
+   you is http://zip.langenberg.com. Please remember that distances
+   calculated in this manner are straight line or air distances.  Actual
+   travel distances will be somewhat longer. Beside zip code associations,
+   the site also links to Census and other sites containing valuable
+   geographic information.  If you know latitude/longitude coordinates for
+   each of the sites, you should check out
+   http://www.census.gov/cgi-bin/geo/gisfaq?Q5.1.
+
+   Within the VA, the Planning Systems Support Group (PSSG) also conducts
+   distance analyses.  PSSG can provide straight-line distance from any
+   zip code to any location along with a wide range of data including
+   Category A and eligibility.  Visit the PSSG web site at
+   http://vaww.pssg.med.va.gov (VA Intranet only) or call 352-374-6080 for
+   additional information.
+
+   There also are some inexpensive software products such as Tripmaker™
+   put out by Rand McNally that calculate quickest (that which takes the
+   least amount of time), shortest (yields the smallest number of miles),
+   and scenic routes between two cities.  The McNally web site can be
+   found at http://randmcnally.com.
+
+   Finally, the simplest way to calculate distance between two facilities,
+   is to obtain an appropriate map and measure between the two points you
+   are interested in obtaining mileage and apply the appropriate scale
+   (numerical, inch-to-mile, graphical, etc.) Keep in mind that this
+   method works best if the distance between the two points is not very
+   far apart.  Remember that the shortest distance between two points is a
+   Great Circle route that is measured on a three-dimensional globe and
+   not extracted from a two-dimensional map sheet.  (VIReC staff wishes to
+   thank Kevin Clark and Sherri LaVela of the Midwest Center for Health
+   Services and Policy Research for sharing information on some of the
+   aforementioned web links.)
+
+   Button: Follow this TOP will link to the top of the page
+   Q5.    What is a data warehouse?
+
+   One of the best definitions the VIReC has found is available at
+   http://www.cait.wustl.edu/papers/prism/vol1_no1/.
+
+   Button: Follow this TOP will link to the top of the page
+   Q6.  Is information on pharmaceutical usage and costs data available on
+   a per patient basis in the VA?
+
+   Yes, VIReC has been working with the Pharmacy Benefits Management
+   Strategic Health Group (PBMSHG) in an effort to provide researchers
+   with the latest information about such data.  To date, there is nothing
+   currently available to researchers, but you are correct that PBMSHG
+   plan to warehouse data on a per patient basis.  There are plans to
+   accept data requests later this year and access issues regarding the
+   database currently are being discussed.  Additional information on
+   PBMSHG can be found at http://www.dppm.med.va.gov.
+
+   Button: Follow this TOP will link to the top of the page
+   Q7.   What VistA menus do you recommend our site staff using for
+   patient chart reviews for a multi-site study?
+
+   The two best applications, within VA facilities, for seeing
+   comprehensive single patient data are the Computerized Patient Record
+   System (CPRS) and Health Summary (HS). Diagnoses, procedures, labs,
+   radiology, prescriptions and adverse drug reactions are among the
+   visible portions of patient information with either.
+
+   CPRS was developed as a provider tool for decision support and
+   ordering. However, print options are easily exercised. A graphical user
+   interface (GUI) has been developed for CPRS. If not available at your
+   workstation, the functionality will come from the VA's List Manager,
+   which presents full screen views with viewing options presented at the
+   bottom of the screen. Currently being implemented throughout VA, CPRS
+   has an associated end-user training class.
+
+   HS was specifically developed as a report tool. The various component
+   information is appended and so appears sequentially (e.g., labs, then
+   radiology) rather than simultaneously. However, by typing P-MESSAGE (or
+   simply MAIL at many sites) when prompted for a DEVICE (printer), this
+   report will be sent to your e-mail account. From there it can be
+   forwarded to any valid e-mail address and further manipulated.
+
+   Access to these menus is given by IRM (Information Resource Management
+   Service) usually through a simple request which provides user
+   identification and needs.
+
+     See Volume V, Database Resource Guides by Beatty, Swindle, and
+     Tomko.
+
+   Button: Follow this TOP will link to the top of the page
+
+   Q8.   What databases and report tools are available to examine the
+   costs of VA care?
+
+   In Volume IV of the Database Resource Guide
+   (www.va.gov/station/583-indianapolis/resguide/vol4/tabcon.htm)by
+   Beatty, Swindle, and Tomko you will find information on costing
+   databases which may be helpful to you. There is also contact
+   information (i.e., the data steward) in the Database Inventory of the
+   resource guide.
+   (http://www.va.gov/station/583-indianapolis/resguide/dbi.htm)
+
+   If you are looking for local or VISN levels of analysis, you should
+   contact your local, or VISN, VA DSS site manager. DSS financial data
+   are available for departments and groups of departments. Also available
+   through the DSS is an electronic record of patient encounters which
+   contains demographic, clinical descriptive, utilization, cost, and
+   revenue information. This information can be viewed for individual
+   patient encounters or for groups of patients at the hospital and VISN
+   level.
+
+   To access any of the national VA costing databases at Austin, you will
+   need to have an Austin account and the appropriate security level.
+
+   Button: Follow this TOP will link to the top of the page
+   Q9.   How can I get a copy of a resource guide (sometimes called the
+   "Blue Books") produced by someone in HSR&D that documents what data is
+   available and where the data can be located.
+
+   The majority of the Database Resource Guide is available on the
+   internet. If you need additional information not available on the web
+   site please contact the VIREC via e-mail or by calling (708)202-2413.
+
+   Button: Follow this TOP will link to the top of the page
+
+
+
+    Acronyms | FAQs | Information for Veterans | Links | News | Resource
+                                Guides | Home
+
+   VA Privacy Statement | Problems/questions/comments concerning VIReC web
+                site? Please e-mail: VIReC web site developer

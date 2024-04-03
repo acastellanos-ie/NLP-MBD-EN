@@ -1,0 +1,139 @@
+http://nisn.nasa.gov/access_rqst.doc
+
+   Accounts are for the sole use of the owner listed below. NO group use
+   of accounts is allowed. SECTION 1: USER INFORMATION 12. Password Phrase
+   (to validate identity): 13. Password Phrase Hint: 14. Justification: It
+   is understood that I am responsible for the security of assigned UserID
+   and Password and must change the Password during the initial sign on as
+   well as periodically (at least every 90 days). I agree to abide by
+   proprietary software regulations and Information Technology Security
+   regulations (NPG2810.1). 15.USER SIGNATURE/DATE: SECTION 2: ACTION
+   Program Service Level Agreement (PSLA) SECTION 3: AUTHORIZATIONS 18.
+   Supervisor: Date: Signature 19. NISN Home Page Administrator: Date:
+   Signature 20. CSOC Data Owner Date: Signature 21. NASA Data Owner Date:
+   Signature SECTION 4: Account Administrator Use Only Submit a copy of
+   all completed forms to MSFC CSOC IT Security. 22. User Name 23.
+   Expiration Date: 24. Date Account Created 25. Password: 26. Date User
+   Notified of Account 27. Notification Method: NOTE: All users applying
+   for access to any of the web pages or computer applications listed on
+   this form must agree to comply with all Information Security
+   Regulations. Users who are badged through NISN and are U.S. citizens
+   may have their approving NASA manager submit their requests to through
+   their NASA Data Owner or return to Trudy Long, 5021 Bradford Drive,
+   Huntsville, AL 35805. Information in Blocks 1 through 18 must be
+   furnished for all USERID access requests. USERID access requests
+   received that do not furnish this information will not be processed
+   until the requested information has been received by the Accounts
+   Management group. 1. Account Type: Check NASA Employee, CSOC Employee,
+   or NASA/CSOC Customer or Vendor as appropriate. 2. Date: Date of
+   Submittal of Form 3. User Name: Enter First, Middle Initial and Last
+   Name. Note that the Middle Initial is required. If it does not exist,
+   then indicate. NISN Standard for UserID is first five letters of the
+   last name, first name initial, and middle initial. 4. Existing User ID:
+   If the action is a DELETE or a MODIFY, then enter the existing account
+   ID. 5. E:Mail Address: Existing Business Email address. 6. Phone
+   Number: Business Phone Number, including Area code(s). 7. IP Address:
+   This is required only if the Requestor is outside the NISN.NASA.GOV or
+   the CSOCONLINE.COM domain. For NT workstations, the IP address can be
+   found from "My Computer", "Control Panel", "Network" tab Protocols
+   under Network, box Properties on Protocols. 8. Employer/Company: Enter
+   NASA Code or Company. 9. Location : Enter enough information to locate:
+   Country, State, Site, City, Building, Room and Mail Code. 10.
+   Citizenship: Check US Citizen or Foreign National as appropriate. 11.
+   NASA Contact Name and Phone: This contact may be called to validate the
+   identity of the individual. 12. Password Phrase (to validate identity):
+   This Phrase will be used by the Help Desk to validate the identity of
+   the individual. 13. Password Phrase Hint: This phrase can be read by
+   the Help Desk to the individual to help them remember their Password
+   Phrase. 14. Justification: The user must indicate why the access is
+   required. Please indicate specific Project or job function which this
+   access supports. 15. User Signature/Date: Physical signatures are
+   required. 16. Action Required: Check box as appropriate to Add an
+   Account, Modify or Delete an account. If "Modify", then explain what
+   the modification is. I.e., Name Change, Location Change, added access,
+   etc. 17. COMPUTER APPLICATION(S): NISN Service Request System (NSRS)
+   Reporting has several levels of access, I.e., types of reports
+   available to users. Use the following definition to explain the type of
+   reports needed. Ad Hoc --> Has read access to the NSRS Ad Hoc Reports
+   and the Computing and Communications Assets Information System (CCAIMS)
+   Inventory . Funding --> Has read access to the NSRS Ad Hoc Report, the
+   Program Service Level Agreement (PSLA) reports, the Cost and Funding
+   Reports and the CCAIMS Inventory. Performance --> Has read access to
+   the Performance Reports, the NSRS Ad Hoc Reporting and the CCAIMS
+   Inventory. CSR --> Has access to the Approval Screens for authorized
+   NSRS. Has read access to the NSRS Ad Hoc Reports, Program Service Level
+   Agreement (PSLA) reporting and for CCAIMS Inventory. Admin --> Has
+   access to the Approval Screens for authorized NSRs. Has read access to
+   the NSRS Ad Hoc Reporting, Program Service Level Agreements (PSLA)
+   reports, Performance (Metric) reporting, Cost and Funding Reports,
+   Status Overdue Reports and CCAIMS Inventory. This level also has access
+   to the Administrative Screens for Updates. This access is very limited.
+   Engineering --> Has read access to the NSRS Ad Hoc Reporting, Program
+   Service Level Agreements (PSLA) reports, Performance (Metric)
+   reporting, Cost Reports, Status Overdue Reports and CCAIMS Inventory.
+   The Video Conference Request System (VCRS) also has several levels of
+   access to allow users different functionality. If the following does
+   not give enough information, please read the User Guide at the
+   Nisn.Nasa.Gov website or call Tammy Thompson at (256) 961-9461. LEVEL_1
+   --> Allows a user to read all screens and write to (add, change or
+   delete) all records and fields that can be updated. It is reserved for
+   the system administrator. LEVEL_2 --> Allows a services coordinator or
+   room operator to read all screens and write to the video conference
+   requests and site non-availability that they have requested. LEVEL_3
+   --> Allows a user read-only access to the conference request and
+   non-availability forms as well as the capability to modify their user
+   password as needed. LEVEL_4 --> Allows a user to read and print video
+   conference schedules. Currently reserved for nisn gateway technicians.
+   LEVEL_5 --> Allows a generic user to read and print video conference
+   schedules. Currently uses a common user id and password. LEVEL_6 -->
+   Allows a user read-only access to the conference request and
+   non-availability as needed. The Customer Service System has two levels
+   of access: Read --> Others who have an interest and are authorized will
+   be able to view the data only. Write --> For those who require the
+   ability to respond to the user comments, normally Customer Service
+   Representatives. The FTS2001 Call Detail application user must request
+   access just to their site data or indicate ``Admin'' which allows
+   access to all data. Site --> Site limited read of FTS2001 Call Detail,
+   i.e., JSC, SSC, MSFC, etc. Admin --> Unlimited read of FTS2001 Call
+   Detail. The NASA Teleconferencing Usage Application user must request
+   access just to their site data or indicate ``Admin'' which allows
+   access to all data. Admin --> Unlimited read of Audio Teleconferencing
+   data. Site --> Site limited read of Audio Teleconferencing data, i.e.,
+   JSC, SSC, MSFC, etc.. NetPerform ... 18. Requester's
+   Supervisor/Date/Signature: 19. NISN Home Page
+   Administrator/Date/Signature: Currently Sue Young (256) 961-9447. 20.
+   CSOC Data Owner/Date/Signature: Data Owners are defined in the
+   following table. 21. NASA Data Owner/Date/Signature: Data Owners are
+   defined in the following table. Steve Fall 22. User Name: New User ID.
+   23. Expiration Date: All USERIDs "expire" after one year. 24. Date
+   Account Created: 25. Password: Initial password which allows user to
+   log on for the first time only. 26. Date User Notified of Account:
+   Documents that the user was notified. 27. Notification Method: NISN
+   APPLICATION ACCESS REQUEST Form #NISN0001 Rev. 1 PAGE \# "'Page: '#'
+   Assigned by Beth Paschall 8/9/01 PAGE \# "'Page: '#' Updated by Jim on
+   7/26/01 PAGE \# "'Page: '#' Assignment made by Beth on 7/6/01 PAGE \#
+   "'Page: '#' Updated by Jim on 7/26/01 PAGE \# "'Page: '#' Assignment
+   made by Beth on 7/6/01 PAGE \# "'Page: '#' Updated by Jim on 7/26/01
+   PAGE \# "'Page: '#' Assignment made by Beth on 7/6/01 PAGE \# "'Page:
+   '#' Updated by Jim on 7/26/01 PAGE \# "'Page: '#' Confirmed by Kathy on
+   8/27/01 PAGE \# "'Page: '#' Verified by Tammy on 7/26/01 PAGE \#
+   "'Page: '#' Assignment made by Beth on 7/6/01 PAGE \# "'Page: '#'
+   Verified by Mike Dauphinais on 8/7/01 PAGE \# "'Page: '#' Second
+   request for information sent 8/7/01 PAGE \# "'Page: '#' Verified by
+   Linda on 8/13/01, response sent asking for backup PAGE \# "'Page: '#'
+   Confirmed by Kathy on 8/27/01 PAGE \# "'Page: '#' Verified by Mike
+   Dauphinais on 8/7/01 PAGE \# "'Page: '#' Confirmed by Leigh Ann 7/11/01
+   PAGE \# "'Page: '#' Changed to George by Jim Porterfield on 7/26/01
+   PAGE \# "'Page: '#' Verified by George via a message from Dan Brent on
+   7/30/01 PAGE \# "'Page: '#' Confirmed by Kathy on 8/27/01 PAGE \#
+   "'Page: '#' Added 8/8/01 per Leigh Ann Harper. Information is
+   maintained by PrISMS, link will be added to the current NISN site. Need
+   to assign data owners. PAGE \# "'Page: '#' Confirmed by Kathy on
+   8/24/01 PAGE \# "'Page: '#' Confirmed by Kathy on 8/27/01 PAGE \#
+   "'Page: '#' Separate category for Russia Services per Kathy Hatley
+   8/21/01 PAGE \# "'Page: '#' Confirmed by Robby on 8/20/01 PAGE \#
+   "'Page: '#' Assigned by OJ 8/9/01 PAGE \# "'Page: '#' Verified by
+   Kathleen on 7/26/01 PAGE \# "'Page: '#' Assigned by OJ 8/9/01 PAGE \#
+   "'Page: '#' Added by NISN on 7/30/01, Kathleen indicated that all
+   Getronics Apps should have her as the primary data owner and Steve Fall
+   as the backup. PAGE \# "'Page: '#' Verified by Kathleen on 7/26/01

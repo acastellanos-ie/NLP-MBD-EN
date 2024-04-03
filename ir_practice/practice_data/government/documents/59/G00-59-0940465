@@ -1,0 +1,237 @@
+http://rsd.gsfc.nasa.gov/goes/text/goeslstatus.html
+
+             GOES logo GOES-L UPDATE last updated 9 September 2000
+     __________________________________________________________________
+
+NOAA's GOES-11 Science test plans for the first 2 weeks of August 2000
+
+First GOES-11 Images
+
+     * First GOES-11 color poster (0.6 MByte JPEG) 18 June 2000 ...
+     * First GOES-11 infrared test images (1.1 MByte GIF) 10 June 2000 ...
+     * First official GOES-11 full-earth image (0.9 MByte GIF) 17 May 2000
+       ...
+          + First GOES-11 image, with full-res call-outs (0.9 MByte GIF)
+            17 May 2000 ...
+          + First GOES-11 image, 4 km resolution (4.9 MByte GIF) 17 May
+            2000 ...
+          + First GOES-11 image, 2 km resolution (19 MByte GIF) 17 May
+            2000 ...
+          + First GOES-11 image, 1 km resolution (71 MByte GIF) 17 May
+            2000 ...
+     __________________________________________________________________
+
+Status
+
+   GOES-11 is in cold on-orbit storage at 104 W. It will be revived at
+   least once per year for orbit adjustment until it is needed to replace
+   GOES-EAST or GOES-WEST.
+
+   Post-launch testing was more uneventful than any of the previous
+   satellites in the series. There is at least 10 years worth of
+   station-keeping fuel on board. There are no significant concerns with
+   the instruments or spacecraft.
+
+    Public relations stories about the GOES-L launch on 3 May 2000
+
+   Prelaunch photo of the GOES-11 spacecraft (0.4 MByte JPG)
+
+    NOAA Press Release
+
+    SOCC Statement
+
+GOES-11 Status
+
+On August 15, 2000, at approximately 06:16 Z, the GOES-11 spacecraft was
+successfully placed in the Z-Axis Precession (ZAP) storage mode. Flight
+data shows that the actual major axis and desired spin-up rates were
+extremely close to those predicted. The initial maximum nutation cone was
+approximately 2.5 degrees, indicating a good spin maneuver and an accurate
+mass property prediction from the spacecraft manufacturer, SS/L. The
+target angular velocity magnitude was 0.7 deg/sec and 0.698 deg/sec was
+achieved.
+
+Further analysis will reveal long term attitude and thermal stabilization
+performance, but it is expected to be excellent. Ranging results show
+that GOES-11 is now located at 104.2 deg W longitude with a West drift rate
+of 0.01 deg/day. The GOES-11 orbit will turn around at 106.7 deg W
+longitude in July 2001. The event marks the 7th ZAP storage maneuver for
+the GOES constellation and a further validation of the robustness of the
+storage mode design.
+
+Significant Events Timeline
+
+Launch                                                May 3
+
+Circularize Orbit                                     May 3--May 21
+    AMF 1          May 5
+    AMF 2          May 7
+    AMF 3          May 9
+    AAM            May 11
+    Trim 1         May 18
+    Trim 2         May 19
+    Trim 3         May 21
+
+Deployments
+    Mag boom and final SA deployment                  May 12
+    Dipole Estimation                                 May 13
+    Momentum Wheel turn-on and Solar Sail Deployment  May 14-15
+    Cooler Cover deployment                           June 10
+
+GOES-L becomes GOES-11                                May 11
+
+Imager/Sounder Initialization                         May 14
+
+First Official Image                                  May 17 at 1900 UTC
+
+Sounder and Imager Outgassing                         May 12--June 9
+
+Instrument Contamination Avoidance                    May 14-20
+
+Start-ups and functional tests                        May 12--June 9
+    X-Ray Sensor (XRS) Turn on           May 16
+    Safehold Mode Characterization       May 21
+    Communications Testing               May 22--June 7
+    Solar Array Drive stepping tests     May 25-27
+    Earth Sensor Characterization        May 28--June 9
+
+
+System Performance and Operational Testing (SPOT)     June 10--July 23
+
+Station Maneuvers                                     June12-14
+    North/South Stationkeeping Maneuver  June 12
+    East/West Stationkeeping Maneuver    June 14
+
+NOAA Science Testing                                  July 24--August 13
+
+Enter Z-Axis Precession (ZAP) storage mode            August 14-15
+
+Spacecraft Hand-over to NOAA                          August 16
+
+Spacecraft Configuration
+
+As of 21 May 2000:
+
+Sensors
+ AOCE 1 on
+ DIRA 1 (gyros) on
+ Coarse Analog Sun Sensor (CASS) 1 on
+ Digital Sun Sensor (DSS) 1 on
+ Earth Sensor (ES) 1 on
+ Magnetometer 1 on
+ EPS/HEPAD on
+ X-Ray Sensor on
+
+Deployments
+ Magnetometer boom-released-locked
+ Solar Array fully deployed
+ Solar Array Drive Electronics side 1 on
+ Solar Array Run Mode
+ Trim Tab at 10 degrees
+ Solar Sail fully deployed
+
+Control mode and Actuators
+ Normal on-orbit L1Mode (earth pointing)
+ Momentum Wheels 1 and 2 @2900 RPM and Reaction Wheel off
+ Main Spacecraft Thruster Isolated
+
+Telemetry Transmitters
+ CDA A transmitter on
+ DSN A transmitter on
+ DSN B transmitter off
+ Command Units 1 and 2 in secure mode
+
+Communications
+ Power AMPs A and C on (for thermal heating)
+ Sensor data transmitter on
+
+Thermal
+ Imager/Sounder Outgas heaters on High
+
+Payload
+ Imager & Sounder on and scan functional
+
+    ANOMALIES/CONCERNS
+
+   1) Notch Filter 2 Occurred May 12.
+   An upgrade to the attitude control software designed to minimize
+   resonances between the spacecraft and solar panel did not work
+   properly. (It will remain disabled until further notice)
+
+   2) Sounder Filter Wheel Back-EMF anomaly occurred May 18.
+   Sounder FW current and un-powered winding voltage showed YH TLM
+   violation. Sounder FW current and voltage problems were corrected by
+   cycling the Sounder electronics ON. Both current and voltage went back
+   to the nominal values.
+
+   3) AOCS FMT change anomaly occurred May 18.
+   When commanded to switch to FMT 126, FMT 126 was not received. The
+   problem was isolated to the Santiago ground network station and their
+   operation method for energizing the 16 kHz sub-carrier just before a
+   command up-link and dropping it immediately after the command is sent.
+
+   4) Attitude Deviation on June 16.
+   An attitude fluctuation of 0.01 degree was observed in yaw (east-west).
+   The cause is not yet understood.
+
+Spacecraft
+
+   In mid-1998, the GOES-L spacecraft completed thermal-vac testing at
+   Space Systems/Loral in Palo Alto, California. GOES-L was shipped to
+   Cape Canaveral in mid-December 1998. There are no significant issues
+   with the spacecraft and instruments, which were stored at the Cape for
+   18 months.
+
+Imager
+
+   Imager SN06 was constructed and tested at ITT in Fort Wayne, Indiana.
+   It was shipped to SS/L for integration onto the spacecraft in August
+   1997.
+
+Sounder
+
+   Sounder SN06 has been constructed and tested at ITT in Fort Wayne,
+   Indiana. It was shipped to SS/L for integration onto the spacecraft in
+   August 1997.
+
+Launch Saga
+
+   After being assembled and tested during 1997-98, GOES-L was to be
+   launched in the spring of 1999 and used to replace GOES-8 in 2000.
+
+   The expected launch date was 15 March 1999, but then it was moved up to
+   15 May 1999 to accomodate another launch.
+
+   The expected launch date was then moved to 23 May 1999, due to concern
+   about the second stage rocket.
+
+   The GOES-L May launch was then put on hold throughout the summer of
+   1999 due to a spate of rocket failures in similar second stage rockets.
+
+   The rockets were cleared for use in August of 1999, and GOES-L was
+   re-scheduled for mid-November 1999 and then mid-December 1999.
+
+   The late 1999 launches which were both pre-empted by other launches.
+
+   In January 2000, GOES-L was given a firm launch data of 3 May 2000.
+
+   However, a Shuttle launch during the last week of April 2000 was
+   delayed by weather. It could have pre-empted the GOES-L launch in the
+   first week of May. Fortunately, GOES-L was given the green light on
+   April 29th.
+
+   Finally, GOES-L did launch sucessfully on 3 May 2000, at 3:07 am EDT,
+   just 40 minutes after the planned launch time of 2:27 am.
+
+   After about 3 months of post-launch checkout at 104W, NOAA put GOES-11
+   into on-orbit cold storage in mid-August 2000.
+
+   We hoped that NOAA would use GOES-L to perform continuous rapid scans
+   of the south Atlantic and Caribbean during the Y2K hurricane season,
+   before being turned off.
+     __________________________________________________________________
+
+   back to the GOES Project page
+
+
+    Dennis.Chesters@gsfc.nasa.gov (GOES Project Scientist)

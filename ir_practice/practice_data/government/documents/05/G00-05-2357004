@@ -1,0 +1,92 @@
+http://nsdi.usgs.gov
+
+   USGS NSDI Node
+
+About the USGS Geospatial Data Clearinghouse
+     __________________________________________________________________
+
+  Introduction
+
+   The USGS node of the National Geospatial Data Clearinghouse is a
+   component of the National Spatial Data Infrastructure (NSDI). The
+   Clearinghouse provides a pathway to find information about geospatial
+   or spatially referenced data available from USGS. The information is in
+   the form of metadata. Metadata or "data about data" describe the
+   content, quality, condition, and other characteristics of data.
+   Metadata are used to organize and maintain investments in data, to
+   provide information to data catalogs and clearinghouses, and to aid
+   data transfers. This site is maintained by the USGS in cooperation with
+   the U.S. Federal Geographic Data Committee (FGDC).
+
+   The USGS NSDI node actually encompasses a distributed set of sites
+   organized on the basis of the USGS's four principal data themes:
+
+        Biological Resources Information    Geologic Information
+          National Mapping Information   Water Resources Information
+
+  Finding Data
+
+   Browsing is like going to a section of the library and looking at
+   what's on the shelf. It's a good way to get a general idea of the types
+   of information available. The links below will help you become familiar
+   with the wide array geospatial data products produced or maintained by
+   the USGS. When you find a particular data set you want to examine more
+   closely, the pages contain links to let you see its metadata.
+     * "Best Sellers" -- A quick guide to some of the most popular USGS
+       geospatial data products.
+     * Product Category -- An alphabetic listing of all major categories
+       of USGS geospatial data products.
+     * Theme -- USGS geospatial data products organized by topic.
+
+   Searching is the equivalent of using the library's card catalog. It's
+   the most efficient method of examining available online USGS geospatial
+   data holdings to find the information you want. You can search for USGS
+   (and other organizations') geospatial data holdings by keyword or, if
+   you can identify a particular geographic area of interest, by its
+   latitude and longitude boundaries. The capability to search for data
+   online by keyword or area of interest is provided by USGS and other
+   National Geospatial Data Clearinghouse Gateways.
+
+  Obtaining Data
+
+   Once you discover a record of the data you want, you can examine their
+   metadata files which contain instructions for actually obtaining the
+   data.. Some data sets are available online at no cost. For others, you
+   may need to set up an account to pay a distribution fee. Some data sets
+   are not online and you will be instructed how to order a compact disk
+   or a tape.
+
+   Many USGS geospatial data products, such as Digital Elevation Models
+   (DEM's) and Digital Line Graphs (DLG's) are available in the Spatial
+   Data Transfer Standard (SDTS) format, a Federal standard to ensure data
+   compatibility with the software needed to process and use them. Others
+   are in more specialized formats, which are described in their metadata.
+   Whenever you retrieve a data set, it is important to retrieve the
+   associated metadata as well, since the metadata provides important
+   information for using the data set. The browser software you are using
+   to view this page probably is able to view and print the metadata
+   files, or to save them locally on your computer for later use.
+
+  Viewing Data
+
+   USGS digital data products are designed to be read and used by
+   geographic information systems (GIS), image processing systems, or
+   similar computer applications. To use any geospatial data that you
+   purchase or download from the USGS, you will need to obtain appropriate
+   software from commercial or other sources if you do not already have
+   it. More information about geographic information systems can be
+   obtained from the U.S. Geological Survey or the National Center for
+   Geographic Information and Analysis. A comprehensive list of World Wide
+   Web sites serving GIS information can be found at the University of
+   Edinburgh.
+     __________________________________________________________________
+
+   USGS Home | Biological Resources | Geology | Mapping | Water Resources
+                                   | FGDC
+     __________________________________________________________________
+
+
+    U.S. Geological Survey, 508 National Center, Reston, VA 20192, USA
+    URL: http://nsdi.usgs.gov/
+    Maintainer: USGS NSDI Manager
+    Last modified: 15:02:49 Thu 04 Mar 1998

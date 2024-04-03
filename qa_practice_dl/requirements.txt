@@ -1,0 +1,6 @@
+transformers
+googlesearch-python
+beautifulsoup4
+requests
+sentencepiece
+ktrain

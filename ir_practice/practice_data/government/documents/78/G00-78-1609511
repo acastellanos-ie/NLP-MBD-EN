@@ -1,0 +1,105 @@
+http://orpheus.nascom.nasa.gov/cds/cds_homepage.html
+
+                  [uk.gif] Official CDS UK Home Page at RAL
+                      [usa.gif] USA Mirror site at GSFC
+
+      | status | gallery | introduction | science/technical | contact |
+                       software | data | additional |
+
+                           CDS Has Been Recovered!
+                       Check out the recovery journal.
+
+                     The Coronal Diagnostic Spectrometer
+                 for the Solar and Heliospheric Observatory
+
+   Principal Investigator:
+          Richard A. Harrison
+          Space Science Dept., Rutherford Appleton Laboratory,
+          Chilton, Didcot, Oxfordshire OX11 0QX, UK
+
+   The CDS Image and Animation Gallery
+
+   CDS Mission Status (updated weekly)
+     __________________________________________________________________
+
+Introduction
+
+   The Coronal Diagnostic Spectrometer (CDS) is an instrument aboard the
+   ESA/NASA Solar and Heliospheric Observatory (SOHO). It is designed to
+   obtain spectra-spectroheliograms in a number of lines simultaneously in
+   the extreme ultraviolet (EUV) region of the electromagnetic spectrum.
+
+   Resources available from this server can be broken up into the
+   following main categories:
+
+  Scientific and Technical Information
+
+     * A good description of the CDS instrument can be found in the CDS
+       Scientific Report ("Blue Book").
+     * The following diagram shows the CDS optical layout. Shown are both
+       the normal and grazing incidence spectrometers, which are both fed
+       by different angular segments of a Wolter Type II grazing incidence
+       telescope.
+     * CDS-related publications.
+     * CDS science studies which are available to be used on the flight
+       instrument.
+     * The CDS Operations Diary contains information about the technical
+       aspects of the CDS daily operations.
+
+  Contact information
+
+     * List of institutions contributing to CDS.
+     * CDS Email and phone directory.
+
+  Software
+
+     * We maintain a CDS software mailing list that you can subscribe to.
+     * Information about installing the CDS software.
+     * Guide for the CDS scientist.
+     * CDS software notes
+     * CDS required science analysis software
+     * CDS software written in IDL.
+     * One line summaries of all CDS routines.
+     * Search the CDS software library.
+     * Notes on software sharing
+     * Central to the science analysis software is the Atomic Data and
+       Analysis Structure (ADAS)
+     * Another important atomic database and software package is CHIANTI
+       which is available from both a site in the United States and in
+       Europe
+
+  Data
+
+     * Search the CDS catalog of observations.
+     * We now maintain a CDS data analysis discussion mailing list that
+       you can subscribe to.
+
+Additional Information
+
+     * More information about CDS is available from:
+
+        Rutherford Appleton Laboratory
+                The Official CDS Home Page, including the Atlas, the
+                Gallery, and the Image of the Week.
+
+        Mullard Space Science Laboratory
+                Information about the Grazing Incidence Spectrometer (GIS)
+                detectors, the Command and Data Handling System, and the
+                Experiment Power Supply (EPS).
+
+        University of Oslo
+                Information about the CDS Quicklook Software.
+
+     * A SOHO European Data Archive is under development at the Rutherford
+       Appleton Laboratory.
+     * Follow this link to other solar WWW servers, or go to the top-level
+       ORPHEUS home page.
+     __________________________________________________________________
+
+   Back to SOHO home page
+     __________________________________________________________________
+
+
+    Author: William Thompson (William.T.Thompson.1@gsfc.nasa.gov)
+    Responsible Official: Arthur I. Poland, code 682.1
+    Last revised:

@@ -1,0 +1,38 @@
+http://gams.cam.nist.gov/DFTdata/
+
+                          Basic Reference Data for
+
+                      Electronic Structure Calculations
+
+   This page contains links to evaluated reference data for electronic
+   structure calculations, produced by the Physics Laboratory of the
+   National Institute of Standards and Technology.
+     __________________________________________________________________
+
+                                  Data Sets
+
+   DFTdata Logo Atomic Reference Data for Electronic Structure
+          Calculations
+          Contains total energies and orbital eigenvalues for the atoms
+          hydrogen through uranium, as computed in several standard
+          variants of density functional theory.
+
+         1. Documentation
+         2. Access data through periodic table interface
+         3. Retrieve original data files
+         4. Results for all elements in pictorial form
+     __________________________________________________________________
+
+   For atomic and molecular spectral data, see the Physical Reference Data
+   page maintained by the NIST Physics Laboratory.
+     __________________________________________________________________
+
+                                Related links
+
+  GAMS Guide to Available Mathematical Software
+  PADE NIST Parallel Applications Development Environment
+  Physics Lab. NIST Physics Laboratory
+     __________________________________________________________________
+
+   Comments or questions on this document should be directed to Charles
+   Clark at clark@bruce.nist.gov.

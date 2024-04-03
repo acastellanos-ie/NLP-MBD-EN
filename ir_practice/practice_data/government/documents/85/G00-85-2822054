@@ -1,0 +1,104 @@
+http://www.dase.nist.gov/implementation.html
+
+   Group Logo
+
+
+
+   [  Home |  CIS Home  |  ITL Home  |  NIST Home  |  FAQ |  Download |
+   Documentation |  Symposium ]
+
+
+     GENERAL
+    Home
+    Project Slides
+    Disclaimer
+    FAQ
+    DASE Symposium
+    Archive
+     PRODUCTS
+    Download
+    STB Simulation
+    API Implementation
+    DASE Applications
+    Tools
+    Documentation
+     SUPPORT
+    Contact Us
+    Related Sites
+    E-support
+    NIST Information
+     PUBLICATIONS
+
+    DASE 2000 Proceedings
+    DASE 2001 Proceedings
+    DASE 2000 Slides
+    DASE 2001 Slides
+
+   NIST DASE PAE Implementation
+
+                   NIST DASE PAE Prototype Implementation
+
+   The modularization of the DASE architecture allows for stand-alone
+   components to be built independently. The NIST DASE Development
+   Environment takes advantage of this and is implementing the complete
+   infrastructure to develop and test DASE procedural applications. The
+   scope of the NIST platform includes implementation of the Procedural
+   Application Environment (PAE), which includes the DASE API and
+   associated managers. NIST is also developing a STB simulation platform
+   that provides an underlying support environment for the API
+   implementation. Together, the implementation and simulation provide a
+   software development environment where the DASE Java API can be
+   exercised and DASE Applications can be tested. NIST uses the Sun
+   Microsystem's JVM as an implementation of the Application Execution
+   Engine. Currently the NIST platform does not include an implementation
+   of the Declarative Application Environment (DAE).
+
+   Implementation Stack
+
+             Figure 1. NIST/DASE PAE API Implementation Layers.
+
+   An overview of the NIST reference platform implementation stack is
+   shown in the Figure 1. At the top of the stack are Xlets that access
+   the DASE API for receiver services. Implementation classes and the
+   Hardware Abstraction Layer (HAL) fulfill the requirements of the DASE
+   API. The HAL provides an abstraction layer between the implementation
+   and the underlying set-top box environment.
+
+   The NIST DASE PAE API prototype implementation is currently built on
+   top of the NIST STB simulation. A central task of the Java STB
+   simulation classes is to provide the implementation with ATSC data
+   structures and associated data management functions. A key aspect of
+   the API prototype implementation design is the intermediate software
+   HAL. It provides an interface to the STB environment that hides the
+   details of the underlying architecture from the implementation. The HAL
+   assumes no intelligence at the STB interface and accesses the raw
+   MPEG/ATSC table information. At the API interface, the HAL provides a
+   consistent view of the MPEG/ATSC table information in a manner that
+   reflects the API definition. It is envisioned that this multi-layered
+   design will ease the task of porting the implementation to other
+   receiver platforms. Thus a porting effort would be focused on the HAL,
+   which provides a central location where system level dependencies are
+   isolated at the cost of an extra software layer. This may hinder
+   performance in response time sensitive components of the system.
+   However, critical performance locations can be identified and re-coded
+   to achieve performance requirements. This layered approach is a design
+   trade-off in the NIST implementation, which emphasizes clarity and
+   portability.
+
+   PAE Implementation Design
+
+                  Figure 2. NIST PAE Implementation Design.
+     __________________________________________________________________
+     __________________________________________________________________
+
+                      Privacy Statement/Security Notice
+                              Disclaimer | FOIA
+
+                          NIST is an agency of the
+                         U.S. Commerce Department's
+                         Technology Administration.
+
+              Web page comments to: webmaster@cmr.ncsl.nist.gov
+
+                           Date created: 4/18/2001
+                           Last updated: 6/29/2001

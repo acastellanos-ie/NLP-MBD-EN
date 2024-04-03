@@ -1,0 +1,38 @@
+http://helix.nih.gov/services/
+
+                           About the Helix Systems
+
+   As the centralized resource for high performance scientific computing
+   in the Center for Information Technology, the Helix Systems provides a
+   wide variety of services to the NIH scientific community.
+     * General Purpose Scientific Computing Resources
+       These service include:
+          + helix.nih.gov a multiuser/multipurpose shared system (SGI
+            ORIGIN 2400) containing a wide variety of scientific software.
+          + Web servers ( molbio.info.nih.gov, seqweb.nih.gov) providing
+            access to Web-bases applications.
+          + In collaboration with the NIH Library, Helix Systems maintains
+            the literature search services Web of Science and the
+            literature alter service Porpoise
+          + Helix Sytems maintains the Directory and Email Forwarding
+            Service
+          + To enhance access to the Helix Systems compute platforms a
+            NIH-wide site license for PC and Mac X-Windows software has
+            been established.
+     * High Performance Scientific Computing Resources
+       In support of those scientist requiring true high performance
+       computing the Helix Systems maintain a number of multiprocessor
+       shared memory SMP (symmetrical multiprocessor) computers
+       (galaxy.nih.gov, quasar.nih.gov) as well as a Beowulf-class cluster
+       (biowulf.nih.gov). The later contains more than 400 Pentium III
+       class processors in a distributed memory environment. Multiple
+       systems allow different high performance computer architectures to
+       be matched to the applications and programming styles for which
+       they are best suited.
+     * Email
+       Electronic mail can be sent and received from helix.nih.gov
+     * Training
+     * User Suppport
+     __________________________________________________________________
+
+   Helix Systems | National Institutes of Health

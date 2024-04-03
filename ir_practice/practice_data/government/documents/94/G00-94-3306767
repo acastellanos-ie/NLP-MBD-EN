@@ -1,0 +1,31 @@
+http://www-frd.fsl.noaa.gov/mab/soundings/
+
+               Plot sounding from MAPS/RUC Analyses/Forecasts
+     __________________________________________________________________
+
+                  Input Data Source: (*) MAPS or ( ) RUC-2
+
+      Input valid time -- year: [02] month:[Jan] day:[30] hour:[17] UTC
+             Location: Longitude: -104.67_, Latitude: 39.87_ OR:
+         Airport ID: (none)_ (overrides lat/lon) (list of airports)
+
+                                Plot sounding
+     __________________________________________________________________
+
+                                  -- OR --
+     __________________________________________________________________
+
+       Always get the latest MAPS sounding for a particular location.
+   (Bookmark the following page) Input Data Source: (*) MAPS or ( ) RUC-2
+
+             Location: Longitude: -104.67_, Latitude: 39.87_ OR:
+         Airport ID: (none)_ (overrides lat/lon) (list of airports)
+
+                         Generate a page to bookmark
+     __________________________________________________________________
+
+                               navigation bar
+       [ FSL | What's New | Organization | Weather | Data | Projects |
+                     Publications | Software | Search ]
+           Page developed by Bill Moninger, moninger@fsl.noaa.gov
+                   Last modified: Wed Aug 9 09:58:24 2000

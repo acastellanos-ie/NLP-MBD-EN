@@ -1,0 +1,108 @@
+http://seadas.gsfc.nasa.gov
+
+   _______________________________________________________________________
+
+                   Announcement: SeaDAS 4.1 is available!
+   _______________________________________________________________________
+
+                            [seadas_logofull.gif]
+
+
+         [chlorophyll] [truecolor] [biosphere] [cloudfraction] [par]
+
+
+   _______________________________________________________________________
+
+SeaDAS - SeaWiFS Data Analysis System
+
+   SeaDAS is a comprehensive image analysis package for the processing,
+   display, analysis, and quality control of all SeaWiFS data products
+   (L0, L1A, L1B, L2, L3 Binned, L3 SMI, L1A-, L2-, L3-Browse) and
+   ancillary meteorological and ozone data. Capabilities for processing
+   CZCS,  ADEOS / OCTS and MOS data are also included in SeaDAS.
+   Display-only capability is available for MODIS Ocean Products as well
+   as AVHRR SST files. SeaDAS is supported by the NASA ocean biochemistry
+   program under UPN S79-11-03-20 to Gene Feldman (P.I.)
+
+Current Status:
+
+     * SeaDAS 4.1
+
+     * All SeaDAS 4.1 source code and binaries are freely available for
+       download via FTP.
+     * Patch #1 for SeaDAS 4.1 is now available.  If you downloaded prior
+       to 11/30/01 15:00:00 EDT, you need to get this patch to fix a
+       problem with the msl12 program's ability to save and load parameter
+       files, and to submit the job in the background.  If you downloaded
+       after 11/30/01 15:00:00 EDT, you will not need this patch, as the
+       fix is included in the regular tar file distributions.
+     * New features in SeaDAS 4.1 vs. SeaDAS 4.0
+     * A new SeaWiFS calibration table was put into production as of Dec
+       18 2001 00:00:00 (EST).  All level-2 and higher products with a
+       processing time later than "2001352000000" will have used this
+       version of the calibration table.  You can download this new
+       calibration table by clicking here, or you can manually download
+       the file through ftp by going to
+       ftp://samoa.gsfc.nasa.gov/pub/sdps/Cal_Table.  Once you obtain the
+       file, place it in the $SEADAS/data/seawifs/cal directory, and
+       change the soft link so that it points to the new table.  Remember,
+       when downloading the table through your browser, if you left-click
+       on the link, you will get a bunch of indecipherable garbage in your
+       browser window.  Right-click on the SEAWIFS_SENSOR_CAL.TBL-200009
+       link, and select "Save Link As..." in order to save the file to
+       your hard drive.
+
+     Upcoming features
+
+     Contact seadas@seadas.gsfc.nasa.gov to subscribe to the SeaDAS user
+   mailing list.
+
+     History of Events
+
+Index of SeaDAS Topics:
+
+     * Functionalities
+     * Configuration and Requirements
+     * Obtaining SeaDAS
+     * Installation
+     * Directory tree
+     * Programs
+     * Command Mode
+     * Tutorial
+     * FAQ
+     * References
+     * Staff
+
+SeaDAS distribution statistics:
+
+     * Cumulative Summary for SeaDAS 4.0
+     * Cumulative Summary for SeaDAS 4.1
+
+Other Related Web Sites:
+
+     * The SeaWiFS Home Page
+
+     * SeaWiFS Data Formats and Product Specifications
+     * SeaWiFS Two-line element files
+     * SeaWiFS GPS-elements (elements.dat)
+     * SeaWiFS Project current Level-2 processing defaults
+       NOTE: (Look at the bottom of the page under 'ANLY'.)
+
+     * The SIMBIOS Home Page
+     * The SeaBASS Home Page
+     * The ADEOS Home Page
+     * The OCTS Home Page
+     * The SEAPAK Home Page
+     * The Goddard DAAC Home Page
+     * The Ocean Color Scientific Documentation Page
+     * The IDL Home Page
+     * The HDF Home Page
+     __________________________________________________________________
+
+   [seadas_logo.gif] This page maintained by:
+                     The SeaDAS Development Group
+                     Mark Ruebens, Robert Lindsay  and Long Wang
+                     Code 970, NASA/GSFC
+                     seadas@seadas.gsfc.nasa.gov
+                     Last updated 12/01/01.
+   _______________________________________________________________________

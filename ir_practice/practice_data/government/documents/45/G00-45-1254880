@@ -1,0 +1,220 @@
+http://fnpcc.fnal.gov/jfpsci.php
+
+   Header
+
+
+   FPS HomePage
+   Graphs and statistics for FPS resources
+      Graphs and statistics for FPS resources.
+
+   Currently processing datasets and filesets
+      Currently processing datasets and filesets.
+
+   Documentation of FPS and guides for shifters
+      Documentation of FPS and guides for shifters
+
+   Tables for files already processed
+      Files already processed.
+
+   Visualisation of rates
+      Visualisation of rates.
+
+   Current status of stages in FPS
+      Current status of stages in FPS
+
+   Messenger status
+      Messenger logs
+
+   E-log information
+      Farm e-log information.
+
+   Nodes status
+      Nodes performance statistics.
+
+   Event display
+      Real-time randomly selected events.
+
+   Java Farms Processing Interface CI
+      Java Farms Processing System Control and Monitoring Interface.
+
+
+      30 Jan 2002 Wed 11:32:15
+      [jfpsci_short.gif]
+
+   Java Farms Processing System Control Interface
+
+      The jFPSCI v2.3 is now out.
+
+   What's New ?
+
+     changed server to omniORB, improved stability
+
+     just one server module
+
+     plus many bugfixes
+
+Requirements:
+
+     Java Runtime Environment 1.3
+
+     Java Web Start
+
+   After succesfully downloading above packages just click on the links
+   below :
+   [jfpsci_console1.jpg]
+   Launch java Farms Processing Control Interface [v 2.3 for Windows]
+   Launch java Farms Processing Control Interface [v 2.3 for Linux]
+   Launch java Farms Processing Control Interface [v 2.1 for Windows]
+   Launch java Farms Processing Control Interface [v 2.1 for Linux]
+
+   For the users with slow network you can still start the package
+   classical way , please follow the link to download the jFPSCI_2_3.jar.
+   Also if you want to submit a bug ,be sure that it's not already listed
+   below. If you're using Web Start in order to submit a bug you will have
+   to setup a Java Console to be able to view the debug output (please run
+   javaws go to preferrences and check open java console.
+
+   A draft of the help is available here.This help is also accessible
+   using the application menu [Help/Introduction].
+   jFPS Monitoring Interface API [development documentation] is available.
+README:
+Server dependencies :
+PyXML-0.6.3.i386.rpm - XML parser API (SAX,DOM) for python
+ftp://ftp.dstc.edu.au/DSTC/fnorb/fnorb-1.1.tar.gz - CORBA API for python
+[ rpm exists and port to SGI is in place , please mail if you need more
+information]
+
+after installing required packages:
+tar -xzvf jFPSCI-server.0.x.tar.gz
+tar -xzvf jFPSMI-server.xx.tar.gz
+both servers need a FARMS_CONTROL_CONFIG_DIR and FARMS_CONTROL_DIR to be
+setup [ for cdffarm1 this is done by source farms_setup.csh]
+To run the servers:
+cd jFPSCI-server/python server.py --log log_file --OAport=xxxx
+Setting the OAport is necessary to allow reconnection if the server crashes.
+(Must be the same port for every startup)
+cd jFPSMI-server/python MonitorIDaemon.py --log log_file
+
+
+to setup authentication edit the file jfpsci.passwd and then
+type : python passwd.py username(as defined in jfpsci.passwd)  to change user
+password one can also change password using the client ,
+feature.
+
+if you want to change the port for the authentication module use: --port xxxx
+
+The client needs Java Runtime Environment 1.3 or above ,
+http://java.sun.com/j2se/1.3/jre/
+Java Web Start v 1.0 - to enable web start
+http://java.sun.com/cgi-bin/javawebstart-platform.sh?
+
+For the users without Java Web Start please type:
+/usr/java/jdk1.3.0_01/bin/java -jar jFPSCI_xx.jar --host IORserver
+(change the path to your jdk1.3 path)
+
+For the users with Web Start just follow the link : http://fnpcc.fnal.gov/jfpsci
+.php
+
+HISTORY:
+Mon,May 14
+- new messenger , completly rewritten , mySQL cache on server side
+- new post get and getInitial
+- new CORBA model for the message passing
+- added are you sure dialogs (to kill and accept changes to config.)
+- added help introduction
+
+Mon,May 7
+- authentication using jfpsci.passwd
+- new splash screen
+- fixed scroll in main panel
+- added icons and shortcuts
+- added toolbar
+- added shortcut on the toolbar for messenger
+- added status bar
+- added Help menu
+- added Monitor Console  and monitoring interface
+
+Fri,Mar 9
+- fixed fonts and created fontFactory
+- fixed lister close bug
+- added button to the auth screen
+
+Thu,Mar 1
+- changePassword and initial session login
+- using MD5
+- problems with password transfers when using client on Windows
+- error recovery in place
+- fixed select farmlet ...
+
+Tue,Feb 27
+- splash removed , now jFPSCI session splash
+- user authorization in place
+- server side facility to change passwords , passwd.py
+- fixed name and hostname in logging
+- SHA crypting for the passwords
+- changed locations and sizes
+- changed colors for the default inf level
+- fixed status and configure
+- setup jfpsci.passwd and jfpcsi.shadow (binary storage for passwords) ;
+  also added some functions to jfps.idl
+
+Wed,Feb 14
+- stdout/stderr logging for the server side
+- rewritten interpreter.py ; using dictionary to resolve commands
+- now support FARMS_CONTROL_DIR
+- added splash
+
+Mon,Wed 05,07/feb
+- release jFPSCI-0.4
+- fixed and enhanced some logger capabilities (e.g.shutdown)
+- Fnorb-1.1 rpm for python 1.5.2 available
+- fixed memory leak on server side (now using SAX xmlproc parsing)
+  it seems , that it's in a fairy stable state , but needs some testing
+- dynamic menu generation
+- port to PyXML 0.6.3
+- fixed first bug ( no lister window is going to open first time)
+- fixed command line parsing and CORBA init
+
+Mon 22/jan
+- fixed implementation of logger
+- Terminal/postMessage in client,
+  (now we can use the software for the IRC :-)
+- file logging of all events in logger
+
+Fri 19/jan
+- server :interpreter for module execution
+- client :added configuration for FBS and Processing
+- fixed Accept
+- added support for FARMS_CONTROL_CONFIG_DIR
+- added authentification based on IP address , access.conf
+- added loger, client registry , initMessage
+
+Thu 18/jan
+- pre-alpha release , jFPSCI-prealpha.0.1
+- 90% of code rewritten
+- Common Object Request Broker is core network engine
+- dynamic GUI in Swing , parsing DOM XML SAXP
+- MySQL still client based , maybe more reliable
+- server side : multithreaded server , with locking
+- IORprovider
+- CORBAserver
+
+TODO:
+- fix known bugs
+- fix scroll on the JTree
+- FBSng statistics + status
+- create graphics for the existing table model
+- create GUI for the command line of console monitor
+
+
+KNOWN BUGS:
+- cursor doesn't work under console monitor properly
+- resize of status bar is not working upon startup
+- no automatic resize of tabels is implemented , however after manual resize
+the tables won't change it
+- highlighting in menu sometimes doesn't work ( probably Linux Xlib related)
+- shortcuts sometimes doesn't work
+- updateConsole is not a thread yet
+- CORBA doesn't respond , irregulary , probably system bug or related to the
+  CORBA libraries or recent tests on cdffarm1
+- file tail doesn't transfer correct append data

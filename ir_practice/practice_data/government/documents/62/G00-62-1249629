@@ -1,0 +1,31 @@
+http://srmcatalog.nist.gov/nist/home.nsf/search?openform
+
+[welcome2.gif?OpenImageResource]
+
+                                                                                [USEMAP:Nav2.gif?OpenImageResource]
+
+[USEMAP:bottomLinks2.gif?OpenImageResource]
+
+   [AdvSearch.gif?OpenImageResource]
+     __________________________________________________________________
+
+   Use this Advanced Search page to locate related Standard Reference
+   Materials. This form allows you to select the SRM Type (Chemical,
+   Physical or Engineering), Category and Subcategory in order to narrow
+   your search results. This form refreshes after each selection. If Type
+   is selected, the form will refresh to display only the appropriate
+   Categories for the selected Type. The same holds true for
+   Subcategories.
+   Category Search:
+   Type:
+   [___________]
+   Section:
+   [_______________________________________________]
+   SRM Status:
+   (*) Available
+   ( ) In Prep
+   ( ) Superseded
+   ( ) Out of Stock
+   Note: By leaving the Type and Category selections to the left blank,
+   all SRMs are returned for the above Status choice.
+   [BUTTON Input] (not implemented)__

@@ -1,0 +1,142 @@
+http://heasarc.gsfc.nasa.gov/docs/heasarc/fits.html
+
+   Skip navigation and go to page content
+   HEASARC Title HEASARC Archive Interfaces [choose one...]
+   HEASARC Resources/Education [choose one...________]
+   HEASARC Tools & Software [choose one...________________]
+   [USEMAP:software7.gif]
+   javascript image popup
+   [USEMAP:softwarebuttons.gif]
+
+     search
+   __________
+
+                              FITS Data Format
+
+   FITS stands for `Flexible Image Transport System' and is the standard
+   astronomical data format endorsed by both NASA and the IAU. FITS is
+   much more than an image format (such as JPG or GIF) and is primarily
+   designed to store scientific data sets consisting of multi-dimensional
+   arrays (1-D spectra, 2-D images or 3-D data cubes) and 2-dimensional
+   tables containing rows and columns of data.
+
+   The following index lists major sources of FITS information. Send
+   updates to this list to W Pence.
+
+Reference Documents
+
+     * Overview of the FITS format
+     * Fits Introduction from the FITS Support Office at NASA/GSFC
+     * NOST FITS Standard - the official definition of FITS (PDF,
+       Postscript)
+     * FITS Users Guide - good introduction to the history and usage of
+       FITS (Postscript)
+
+FITS Keyword Data Dictionaries
+
+     * Keywords defined in the FITS Standard
+     * Other commonly used keywords
+     * UCO/Lick keyword dictionary
+     * STScI keyword dictionary
+     * NOAO keyword dictionary
+     * ESO keyword dictionary
+
+Proposed FITS Conventions
+
+     * HEASARC conventions - recommended FITS usage, especially for
+       high-energy astrophysics data
+     * Hierarchical Grouping - create hierarchical associations of related
+       FITS files
+     * Checksum - embedded checksum keywords to verify integrity of FITS
+       files (Postscript)
+     * Image Compression - a compressed image format supported by CFITSIO
+     * Table Indexing - proposal for creating indices on FITS tables
+       (Postscript)
+
+General purpose FITS Software
+
+     * CFITSIO - C and Fortran library for reading and writing FITS files
+     * CCfits - object oriented C++ interface to CFITSIO
+     * Perl interface to CFITSIO
+     * FITS I/O libraries - links to other libraries for various
+       programming languages
+     * FITS Utils - portable set of utility programs to manipulate FITS
+       files
+     * fcopy - powerful program to selectively copy parts of FITS file to
+       a new file
+     * fdump - print the contents of FITS headers and tables
+     * fverify - verify that a file conforms to the FITS Standard
+     * FTOOLS - large set of programs for analyzing data in FITS format
+     * ASDS - Astronomical Software and Documentation Service
+     * Astronomical Softare - index of available software packages
+
+FITS Image Viewers
+
+     * fv - graphical FITS file viewer and editor (FITS images and tables)
+     * SAOImage ds9 - astronomical visualization application from SAO
+     * FITSview - FITS image viewer from NRAO
+     * SkyCat - ESO tool combines image visualization and access to
+       catalogs
+
+Image Format Converters - FITS to/from GIF, JPEG, etc
+
+     * ImageMagick - read, write, and manipulate images in over 68 formats
+     * pbmplus - image file format conversion package
+     * gimp - GNU Image Manipulation Package
+
+WCS - FITS World Coordinate System software and documents
+
+     * Lastest Drafts of papers defining the FITS WCS conventions (under
+       development)
+     * WCSTools - Doug Mink's subroutines and utilities to convert between
+       sky and image coordinates
+     * WCSLIB - Mark Calabretta's subroutines for spherical projections
+       and coordinate transformations
+
+Other FITS Resources
+
+     * sci.astro.fits newsgroup official FITS newsgroup (archive of
+       previous messages) Subscribe to the fitsbits mail exploder here.
+     * FITS Support Office at NASA/GSFC - various FITS information
+     * FITS archive at NRAO - documents, FITS newgroup archives, and
+       sample FITS data files.
+     * Sample FITS files collected by NRAO
+     * Sample FITS files produced by the HEASARC
+     * HEASARC FITS Working Group - recommendations and minutes from
+       previous meetings
+     * HEAFITS - archive of messages on High Energy Astrophysics FITS
+       e-mail exploder
+     __________________________________________________________________
+
+   Page Author: William Pence, pence@tetra.gsfc.nasa.gov, (301) 286-4599
+   Last update: Wednesday, 28-Nov-2001 14:07:36 EST
+     __________________________________________________________________
+
+   Information | What's New | Links | Calibration | Images | Site Map ||
+   Dedicated Support Facilities: ASCA | ASTRO-E | BeppoSAX | CGRO |
+   Chandra | EUVE | Integral | ROSAT | RXTE | Spectrum XG | XMM-Newton ||
+   Other NASA Archives: ADS | IRSA | MAST | NED | NSSDC || Other Archives:
+   CDS | Hipparcos | ISO | Preprints
+     __________________________________________________________________
+
+   HEASARC Home | Observatories | Data Archive | Software | Utilities |
+   Helpdesk/FAQ | Education & Outreach
+     __________________________________________________________________
+
+   Part of the NASA OSS
+   Structure and Evolution of the Universe theme.
+
+   Questions/Comments/Feedback
+   Tell me about black holes, astronomy, and more!
+
+   NASA Security and Privacy Statement
+   A service of the Laboratory for High Energy Astrophysics (LHEA) at
+   NASA/ GSFC
+   and the High Energy Astrophysics Division of the Smithsonian
+   Astrophysical Observatory (SAO)
+
+   HEASARC Director: Dr. Nicholas E. White,
+   HEASARC Associate Director: Dr. Steve Murray,
+   Responsible NASA Official: Eunice Eng,
+   eunice.eng@gsfc.nasa.gov
+     __________________________________________________________________

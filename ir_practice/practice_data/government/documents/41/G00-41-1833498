@@ -1,0 +1,27 @@
+http://www-uars.gsfc.nasa.gov/downtime.html
+
+
+
+VAX/AXP Cluster
+----------------------------------------
+SCHEDULED DOWNTIME - Modified 11/01/2001     RMS$DISK:[PAC]DOWNTIME_SCHED.LIS
+----------------------------------------
+
+Date         System  Purpose - Start Time                            Length
+----         ------  --------------------                            ------
+06-NOV-2001  UCSS    UCSS UARSDB Table Specific Compress - 09:00 gmt   3 hrs
+13-NOV-2001  UCSS    UCSS UARSDB Table Specific Compress - 09:00 gmt   3 hrs
+20-NOV-2001  UCSS    UCSS UARSDB Full Table Maintenance  - 09:00 gmt ~10 hrs
+27-NOV-2001  UCSS    UCSS UARSDB Table Specific Compress - 09:00 gmt   3 hrs
++----------------------------------------------------------------------------+
+|  NOTE:  This work does not require that the power be shut-off to the UARS  |
+|         CDHF facility.                                                     |
+|                                                                            |
+|         The routers, and hence the communication links between the         |
+|         RACs and the MPG/CMS, will not be affected during these times.     |
++----------------------------------------------------------------------------+
+
+This schedule is subject to change and changes will be distributed to the
+user community. Please let us know if you have any questions.
+
+UARS CDHF SMG/PAC, pac@cdhf2.gsfc.nasa.gov, 301-286-9202

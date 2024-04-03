@@ -1,0 +1,190 @@
+http://csrc.nist.gov/publications/
+
+   header image with links
+
+   Homepage
+     Advisories
+   List of Acroynms
+
+      Projects
+   Cryptographic Standards
+         & Applications
+    - AES
+    - Cryptographic Toolkit
+    - KRDP
+    - PKI
+    - RNG
+
+   Security Testing
+    - CMVP
+    - IPSec
+    - NIAP
+
+   Security Research &
+         Emerging Technology
+    - AM&AACM
+    - CIPGP
+    - Common Criteria
+    - ICAT Vuln. Database
+    - IPSec
+    - MAID&S
+
+   Security Management
+        & Guidance
+    - CSEAT
+    - Policies
+    - Security Guidance
+
+   Outreach, Awareness
+         & Education
+    - Awareness, Training
+           & Education
+    - CSRC
+    - CSSPAB
+    - FASP
+    - FCSPMF
+    - FISSEA
+    - Archive of NISSC
+
+       News & Events
+    - Federal News
+    - Events
+       Services For the:
+    - Federal Community
+    - Vendor
+    - User
+
+       Links & Organizations
+    - Academic
+    - Government
+    - Professional
+    - Additional Links
+
+       General Information
+    - Virus Information
+     Search CSRC
+      ____________
+      Click here to Search
+     Search Vulnerability
+        Archive
+   Enter vendor, software, or keyword
+   ________________
+   Click here to search
+   Publications Header image
+
+   Organizations in all sectors of the economy depend upon information
+   systems and communications networks, and share common requirements to
+   protect sensitive information. ITL works with industry and government
+   to establish secure information technology systems for protecting the
+   integrity, confidentiality, reliability, and availability of
+   information.
+
+   Under the Computer Security Act of 1987 (P.L. 100-235), the Computer
+   Security Division of the Information Technology Laboratory (ITL)
+   develops computer security prototypes, tests, standards, and procedures
+   to protect sensitive information from unauthorized access or
+   modification. Focus areas include cryptographic technology and
+   applications, advanced authentication, public key infrastructure,
+   internetworking security, criteria and assurance, and security
+   management and support.
+
+   These publications present the results of NIST studies, investigations,
+   and research on information technology security issues.
+
+   The publications are issued as Special Publications (Spec. Pubs.),
+   NISTIRs (Internal Reports), and ITL (formerly CSL) Bulletins. Special
+   Publications series include the Spec. Pub. 500 series (Information
+   Technology) and the Spec. Pub. 800 series (Computer Security). Computer
+   security-related Federal Information Processing Standards (FIPS) are
+   also included.
+     * Search Publications Text to search for: _________
+       List of common searches [All_____] Click here to Search
+     * Drafts
+       This page consists of draft NIST Publications (FIPS, Special
+       Publications) that are either open for public review and to offer
+       comments, or the document is waiting to be approved as a final
+       document by the Secretary of Commerce.
+     * ITL Bulletins
+       ITL Bulletins are published by NIST's Information Technology
+       Laboratory, with most bulletins written by the Computer Security
+       Division. These bulletins are published on the average of six times
+       a year. Each bulletin presents an in-depth discussion of a single
+       topic of significant interest to the information systems community.
+       Not all of ITL Bulletins that are published relate to computer /
+       network security. Only the computer security ITL Bulletins are
+       found here. There is a link provided on this page to get
+       non-computer security ITL Bulletins.
+     * Federal Information Processing Standards Publications (FIPS PUBS)
+       FIPS publications are issued by NIST after approval by the
+       Secretary of Commerce pursuant to Section 5131 of the Information
+       Technology Reform Act of 1996, Public Law 104-106, and the Computer
+       Security Act of 1987 (Public Law 100-235).
+     * Special Publications
+       Special Publications in the 800 series present documents of general
+       interest to the computer security community. The Special
+       Publication 800 series was established in 1990 to provide a
+       separate identity for information technology security publications.
+       This Special Publication 800 series reports on ITL's research,
+       guidance, and outreach efforts in computer security, and its
+       collaborative activities with industry, government, and academic
+       organizations.
+     * Interagency Reports
+       NIST Internal Reports (NISTIRs) describe research of a technical
+       nature of interest to a specialized audience.
+       The series includes interim or final reports on work performed by
+       NIST for outside sponsors (both government and nongovernment).
+       NISTIRs may also report results of NIST projects of transitory or
+       limited interest, including those that will be published
+       subsequently in more comprehensive form.
+     * NIST Publication List 91 & How to order NIST Publications
+       Publication List 91 link - This is a complete list of NIST Computer
+       Security Publications: NISTIR's, Special Publications, FIPS PUBS,
+       ITL Bulletins.
+       Order link - If CSRC does not have an electronic copy of the
+       document you are looking for, this would be the page to go to get
+       the information you need to order a copy.
+     * Other NIST Computer Security Division Publications, Documents, and
+       Papers
+       This page lists publications, papers or documents that the staff of
+       the Computer Security Division has written and are not classified
+       in the publication categories listed above.
+     * History of Computer Security Project: Early Papers
+       This list of papers was initially distributed on CD-ROM at NISSC
+       '98. These papers are unpublished, seminal works in computer
+       security. They are papers every serious student of computer
+       security should read. They are not easy to find. The goal of this
+       collection is to make them widely available. This list was compiled
+       by the Computer Security Laboratory of the Computer Science
+       Department at the University of California, Davis.
+     * Other Security Publications
+       This is a collection of computer security publications that the
+       Computer Security Division received from various sources.
+     * Rainbow Series
+       The rainbow series is a library of about 37 documents that address
+       specific areas of computer security. Each of the documents is a
+       different color, which is how they became to be refereed to as the
+       Rainbow Series. The primary document of the set is the Trusted
+       Computer System Evaluation Criteria (5200.28-STD, Orange Book),
+       dated December 26, 1985. This document defines the seven different
+       levels of trust that a product can achieve under the Trusted
+       Product Evaluation Program (TPEP) within NSA. Some of the titles
+       include, Password Management, Audit, Discretionary Access Control,
+       Trusted Network Interpretation, Configuration Management,
+       Identification and Authentication, Object Reuse and Covert
+       Channels. A new International criteria for system and product
+       evaluation called the International Common Criteria (ICCC) has been
+       developed for product evaluations. The TCSEC has been largely
+       superceded by the International Common Criteria, but is still used
+       for products that require a higher level of assurance in specific
+       operational environments. Most of the rainbow series documents are
+       available on-line.
+
+   NIST Centennial Logo
+     __________________________________________________________________
+
+                       Last updated: October 24, 2001
+                       Page created: February 23, 2001
+           Disclaimer Notice & Privacy Statement / Security Notice
+          Send comments or suggestions to patrick.oreilly@nist.gov
+       NIST is an Agency of the U.S. Commerce Department's Technology
+                               Administration

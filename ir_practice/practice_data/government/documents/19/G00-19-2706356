@@ -1,0 +1,31 @@
+http://brw-stealth.cmdl.noaa.gov/qnxtoc.html
+
+
+
+   NOAH/CMDL  www.qnx.com Data Acquisition Manual
+   Table of Contents
+     * Getting started with QNX -- What is QNX?
+
+     * QNX windows
+     * Essential QNX commands -- cd, cp, ls, man, mkdir, mv, ps, pwd, rm,
+       sin, use
+     * Manual pages for QNX commands
+
+
+     Getting started with STEALTH data acquisition software
+     * Description of Programs
+     * Normal mode of operation -- Is the system working?
+     * Stopping the data acquisition programs
+     * Restarting the software
+     * Shutting down the system
+     * Rebooting the system
+     * Compiling the software
+     * Problems -- What to do?
+
+
+
+     Data Acquisition software manuals
+     * Diagram and overview
+     * TMC
+     * Creating display screens -- Table program and Scrdes
+     * Extraction programs (EDF files)

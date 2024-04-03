@@ -1,0 +1,208 @@
+http://rsd.gsfc.nasa.gov/goes/text/goesnext.html
+
+              netscape icon GOES NEXT last updated 22 January 2002
+
+   panorama
+
+book Public Reports Related to GOES-NEXT
+
+  Official GOES Project Douments
+
+   GOES-R documents are on a restricted web site. You can click around
+   through the "Spacecraft" and "Instruments" sections of the GOES Project
+   web siteto find some materials. The most interesting sections are under
+   "Instruments", for the new Advanced Baseline Imager (ABI) and Advanced
+   Baseline Sounder (ABS) planned for GOES-R.
+
+   Some handy public reference documents can be found here, at
+   http://rsd.gsfc.nasa.gov/pub/goes_scrapbooks/goesref/.
+
+   PDF icon REFERENCE DOCUMENTS IN PDF FORMAT
+     *
+IMAGING FROM NONDEDICATED SATELLITES
+MITRE Corp., 1993
+
+     *
+Multiresolution analysis, entropic information and the performance of atmospheri
+c sounding radiometers
+G. E. PECKHAM
+
+     *
+Region-of-Interest Data Compression with Prioritized Buffer Management
+Sam Dolinar, Gilbert Chinn,
+Jonathan Harel, Aaron Kiely,
+Matt Klimesh, Roberto Manduchi,
+Shervin Shambayati, Melanie Vida;
+Antonio Ortega, Sang-Yong Lee,
+Phoom Sagetong, Hua Xie
+
+     *
+AIRS-Light Instrument Concept and Critical Technology Development
+Kevin R. Maschhoff
+
+     *
+The Spaceborne Infrared Atmospheric Sounder (SIRAS)
+Instrument Incubator Program Demonstration
+Thomas S. Paganoa, Thomas U. Kampeb
+
+     *
+Wavelet Compression of MODIS Satellite Images
+Andrew Lenharth
+Richard E. Ladner
+Scott Hauck
+Eve A. Riskin
+Agnieszka Miguel
+
+     *
+Optimized Compression for Earth Science Data Using JPEG 2000
+Janet C. Rountree, Brian N. Webb, Thomas J. Flohr, Michael W. Marcellin
+
+     *
+A Visually Lossless Data Compression Technique for Real-Time Frame/Pushbroom Spa
+ce Science Imagers
+Pen-Shu Yeh, Jack Venbrux, Prakash Bhatia, Warner H. Miller
+
+     *
+Application of Principal Component Analysis to High-Resolution Infrared Measurem
+ent Compression and Retrieval
+HUNG-LUNG HUANG, PAOLO ANTONELLI
+
+     *
+WIDE-FIELD HIGH-PERFORMANCE GEOSYNCHRONOUS IMAGING
+H. John Wood, Del Jenstrom, Mark Wilson, Sanford Hinkal and Frank Kirchman
+     __________________________________________________________________
+
+  Legacy Documents
+
+    Overviews
+
+     * Lessons Learned from the GOES-I Experience
+     * GAO's 1997 recommendations for GOES-NEXT planning
+     * NASA Administrator's 1998 vision for Earth Sciences and support of
+       the operational spacecraft
+
+    Spacecraft
+
+     * GOES-NOPQ Spacecraft Procurement in 1997
+     * The Hughes Corp. 1998 contract plan for GOES-NOPQ
+
+    Imagers
+
+     * ABI formulation contracts awarded: 30 April 2001
+       NASA has awarded three $8 million contracts to Ball Aerospace and
+       Technologies, Boulder, Co., ITT Industries, Fort Wayne, Ind., and
+       Raytheon Santa Barbara Remote Sensing, Goleta, Calif., for
+       formulation phase work on an advanced imager for the next
+       generation of geostationary weather satellites operated by the
+       National Oceanic and Atmospheric Administration (NOAA).
+       The new advanced sensor, called the Advanced Baseline Imager (ABI),
+       will be the primary instrument on NOAA's future Geostationary
+       Operational Environmental Satellites (GOES) beginning with the
+       GOES-R mission which will be ready to fly in 2008. The ABI will
+       provide the core data that the National Weather Service uses for
+       routine weather forecasting and severe storm forecasting.
+       Under terms of the firm fixed price contracts, each company will
+       develop detailed engineering plans for the future instrument. NASA
+       is expected to select a company in 2003 to build the instrument.
+     * ABI procurement by the GOES project
+     * "WIDE-FIELD HIGH-PERFORMANCE GEOSYNCHRONOUS IMAGING", Wood, H.J.,
+       Jenstrom, D., Wilson, M., Hinkal, S., and Kirchman, F., CP420,
+       SPACE TECHNOLOGY AND APPLICATIONS INTERNATIONAL FORUM-1998, edited
+       by Mohamed S. El-Genk, DOE CONF-980103, The American Institute of
+       Physics, page 76, 1998.
+     * NOAA-NESDIS Request for Information (RFI) about new technology for
+       JPL's Imager design, April 1998.
+
+    Sounders
+
+     * NASA's New Millenium Programs (NMP) Earth Observer-3 (EO3)
+       instrument, the Geosyncronous Infrared Fourier Transform
+       Spectrometer (GIFTS)
+     * GIFTS project reviews at NASA's Langley Research Center (LaRC)
+     * UWisc/SSEC's plan for the GOES High-resolution Infrared Sounder
+       (GHIS)
+     * UWisc/SSEC's simulations of the GOES High-resolution Infrared
+       Sounder (GHIS)
+     * UWisc/SSEC's Observing System Simulation Experiments (OSSEs) with
+       the GOES High-resolution Infrared Sounder (GHIS)
+
+  Instrument of Opportunity (IOO)
+
+   IOO for GOES-R
+
+    Lightning Observations
+
+     * NASA-MSFC's plan for a Lightning Mapping Sensor (LMS)
+
+    Solar Observations
+
+     * Solar X-ray Imager (SXI) at NASA-MSFC
+     * Solar X-ray Imager (SXI) for GOES-NOPQ
+     * SXI archives
+
+    Entire Systems
+
+     * GATES Geosynchronous Advanced Technology Environmental System
+       (GATES), a NASA-GSFC plan presented at the SPIE-96 Denver
+       Conference "GOES-8 and Beyond".
+          + GATES' radiometric requirements, spectrum and table
+          + Movie concept of GATES construction and operation [11 MByte
+            QuickTime]
+     __________________________________________________________________
+
+AGS
+Advanced Geosynchronous Studies (AGS)
+
+     * AGS Management Site
+          + FTP service (password required)
+     * IGARSS-97 preprint, describing AGS
+     * Science
+          + AGS Science Workshop Agenda - March 1998
+          + AGS Science Benefits - draft document, March 1998
+          + AGS Image simulations from the MODIS Airborne Simulator (MAS)
+          + AGS Image simulations using a Synthetic Scene Generation Model
+            (SSGM)
+     * AGS Imager instrument studies in STAAC
+          + AGS Imager instrument studies summary for the 1999 AMS meeting
+            in Dallas (PDF)
+          + AGS Imager science specifications (rough draft - PDF)
+          + Optical Design by Dennis Evans
+     * AGS logo, in various formats and sizes (raw binary data)
+       AGS logo
+       AGS animated logo
+     __________________________________________________________________
+
+Triana Other Concepts
+
+     * Horizon logo New Millenium Program's Earth Observer 3 (NMP-EO3)
+       step-1 proposal by NASA-GSFC for a large aperture imager in
+       geosynchronous orbit, a technology demonstration for earth and
+       space science, aka "HORIZON"
+          + QT icon Horizon concept movie (66 Mbyte QT)
+     * New Millenium Program's Earth Observer 3 (NMP-EO3) concept proposal
+       by NASA-GSFC for a large aperture thermal imager, aka "REDEYE"
+     * New Millenium Program's Earth Observer 3 (NMP-EO3) proposal by
+       NASA-LaRC for a high-resolution infrared sounder, aka "GIFTS"
+     * MITRE's plan for geo-imagers on non-dedicated satellites, 1993
+     * DOE's Multispectral Thermal Imager (MTI)
+     * AVSAT - a color TV camera in a small satellite that could fly in
+       geosynchronous orbit
+     * In the late 1960's and early 1970's, NASA contracted for five
+       Hughes Corp. Applications Technology Satellites (ATS), which flew
+       the first color cameras in geosynchronous orbit. In 1999, JT Young
+       at the University of Wisconsin digitized the ATS-3 color photos
+       from 1967, making possible the first day-long color QuickTime movie
+       of the Earth, taken on 18 November 1967.
+     * Earth On Line (EOL) concept video for methods of making full-earth
+       images to the public on the Web.
+     * Vice-President Gore's Earth-Span proposal, March 1998, and NASA's
+       subsequent Announcement of Opportunity, which eventually became the
+       Triana project.
+     * Apprently, earth-viewing telesopes go far back into history, with
+       the Renaissance model shown at the National Geographic Gallery,
+       item 5 in hall II.
+     __________________________________________________________________
+
+
+    Dennis.Chesters@gsfc.nasa.gov
+    GOES Project

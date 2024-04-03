@@ -1,0 +1,45 @@
+http://wesley.wwb.noaa.gov
+
+   NWS home page   >>   NCEP home page   >>   CPC home page   >>   this
+   page
+
+
+                      What's Available on this Computer
+
+     * AB/CPC Data Page - plot and download data.
+     * wgrib - decode/manipulate GRIB files
+     * gribw - GRIB writer (not ready for prime time but fine for cable
+       access)
+     * ggrib - extract geographic subdomains from lat-long GRIB grids
+       (uses gribw) [new.png]
+     * grib2ctl - tries to make GrADS .ctl files from GRIB files
+     * Some GrADS scripts
+     * GrADS links
+     * copygb and grbindex, copygb regrids GRIB files (Linux/alpha port).
+     * grbpoint, reads grib files and returns point values,
+     * ts2synoptic - reorders GRIB files (once was needed by grib2ctl)
+     * grib0 -> grib1 - experimental program to convert grib0 files to
+       grib1
+     * add_NCEP_gds - adds missing GDS to GRIB file (NCEP grids only)
+     * Random phase significance test for correlations
+     * misc links
+     * cut and paste
+     * Misc. articles
+     * Visitors
+     * Reanalysis Home Page
+     * Reanalysis-2 Home Page
+     * Notes concerning Reanalysis
+     * plots (internal)
+
+   No penguin? Update your browser for png support. penguin
+
+   Official disclaimer, YAD
+
+   Unofficial disclaimer: Any opinions found on this site are not of the
+   US government, RDC, DOC, NCEP, or CPC. All spelling errors are property
+   of the finder.
+     __________________________________________________________________
+
+   comments/questions: Wesley.Ebisuzaki@noaa.gov, (Wesley Ebisuzaki,
+   Climate Prediction Center, National Centers for Environmental
+   Prediction, 5200 Auth Rd, Camp Springs, MD, 20746, USA)

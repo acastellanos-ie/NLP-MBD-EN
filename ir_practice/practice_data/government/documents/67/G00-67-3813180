@@ -1,0 +1,29 @@
+http://lnx70.wwb.noaa.gov/html/prx.html
+
+                          Grid to OBS Verification
+
+    Experiments are:
+
+      MRF (T00Z) ---- Operational
+      PRX (T00Z) ---- Convective Scheme Package
+      UKM (T00Z) ---- UK Met. Off.
+
+    Time series against adpupa (T00Z)
+
+      Geopotential Height
+
+      Temperature
+
+      Relative Humidity
+
+      Wind Vector
+
+    Vertical profile of time average (T00Z)
+
+      Geopotential Height
+
+      Temperature
+
+      Relative Humidity
+
+      Wind Vector

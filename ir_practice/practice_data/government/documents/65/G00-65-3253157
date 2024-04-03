@@ -1,0 +1,43 @@
+http://laps.fsl.noaa.gov/domain_co/fcst3d/cgi/laps_fcst_products.cgi
+
+          LAPS Colorado Forecast Images: RAMS / RAMS (NEM) / MM5 / ETA
+
+Model initialization times:
+
+   ..........RAMS................. UTC
+   ..........RAMS (NEM)..... UTC
+   ..........MM5................... UTC
+   ..........ETA.................... UTC
+
+     * Surface..... RAMS / RAMS (NEM) / MM5 / ETA
+     * Sounding... RAMS / RAMS (NEM) / ETA
+     * Cloud........ RAMS / RAMS (NEM) /
+     * X-section. RAMS / RAMS (NEM) / ETA
+     __________________________________________________________________
+
+                  LAPS CONUS (AFWA t2 Shadow) MM5 Products MM5
+
+Model initialization times:
+
+   ..........MM5................... UTC
+
+     * Surface... MM5
+     * Precip... MM5
+     * Clouds... MM5 CAPE... MM5 700 mb... MM5
+     __________________________________________________________________
+
+   LAPS Range Standardization and Automation (RSA) Forecast 3-D images: RAMS
+
+Model initialization times:
+
+   ..........Kennedy Space Center (KSC)...... UTC
+   ..........Vandenberg (VDB)....................... UTC
+
+     * Surface..... KSC1 / KSC2 / VDB1 / VDB2
+     * Cloud........ KSC1 / KSC2 / VDB1 / VDB2
+     __________________________________________________________________
+
+   FSL Wx | LAPB home | Realtime Colorado Products | 3-D Analyses | 3-D
+   Forecasts
+
+   marroquin@fsl.noaa.gov, albers@fsl.noaa.gov <--comments

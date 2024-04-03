@@ -1,0 +1,461 @@
+http://ssdoo.gsfc.nasa.gov/c630/ISO9001/
+
+                              ISO 9001 Tutorial
+                for the Space Science Data Operations Office
+
+                              February 8, 2001
+     __________________________________________________________________
+
+   GSFC received its ISO Certification from Det Norske Veritas (DNV) on
+   August 27, 1999 in "Science and Engineering Research and Development".
+   Every six months, ISO surveillance audits are held. A surveillance
+   audit is a check on the continued compliance of GSFC's Quality
+   Management System (QMS) with ISO 9001 requirements.
+
+   DNV will visit GSFC the week of February 12-15, 2001 for a surveillance
+   audit.
+
+     __________________________________________________________________
+
+   GSFC Quality Policy
+
+   With customer satisfaction as our primary goal :
+     * GSFC is committed to meeting or exceeding our customer's
+       requirements
+     * We achieve excellence in all of our efforts
+
+   NSSDC's Quality Policy
+     * Preserve data and supporting material entrusted to NSSDC, to
+       benefit customers into the indefinite future;
+     * Enable convenient and rapid access to our data by our scientific
+       and general-public customers, and promote ease of data use.
+
+     __________________________________________________________________
+
+                        Code 630 Division Information
+
+   How Does ISO Affect Your Role Within Code 630?
+   Space science data and documentation materials are the main products
+       that the SSDOO delivers to its customer. Document 600-PG-8730.3.2
+       defines Data Management procedures and guidelines. It defines
+       Project Data Management Plans (PDMPs) as the mechanism to define
+       what data and on what time scale it will be delivered to the
+       National Space Science Data Center (NSSDC). These data are
+       processed by the NSSDC Data Operations staff and made available via
+       ftp-sites and/or via request services. The data sets have had
+       Principal Investigator (PI) scrutiny before they are delivered to
+       the NSSDC. Additionally, the data sets are initially examined by
+       the Acquisition Scientist before the ingest pipeline goes into
+       production. This science checking ensures the quality of the data
+       sets. Data base entries are generated as the data are ingested into
+       the Data Center Permanent Archive function and the Data
+       Distribution function. These databases and metadata bases serve as
+       the quality records for tracking our data. The NSSDC processes are
+       documented in the "Space Science Data Operations Office (SSDOO)
+       Standard Operating Procedures. Dr. Joseph King is the responsible
+       government official for this document.
+       The software and systems and data operations for the Data Center
+       are managed by a Performance Based Contract (PBC). The government
+       defines the requirements for the work along with performance
+       metrics which objectively evaluate the performance. The government
+       staff monitors the metrics, which serve as a quality record of the
+       Data Center work. Additionally, the contractor maintains a Standard
+       Operating Procedure for the data operations activities. The data
+       archive and delivery systems' hardware and software are managed by
+       an SSDOO Configuration Control Board (CCB). Action Requests are the
+       mechanism for defining and evaluating work in this area.
+       The Astrophysics Data Facility processes telemetry data into level
+       0 data for its Principal investigators and Active Archives, e.g.
+       the High Energy Astrophysics Science Archival Research Center
+       (HEASARC). Its databases and metrics and on-line procedures ensure
+       quality data is delivered.
+       For the SSDOO staff who develop web pages and databases, these
+       products are not products delivered to customers, and thus do not
+       require quality records. However, be sure to use sound software
+       development practices and configuration control so that your work
+       is documented and organized for future maintenance. System
+       administrator work would fall into this category as well.
+       Document 600-PG-8730.3.1 is the Space Sciences Directorate
+       Procedure and Guideline about Science Research. It says: "Science
+       research is not amenable to detailed instruction, but is broadly
+       guided by the scientific method. The scientific method is an
+       integral part of advanced education in the physical sciences, so
+       that peer review is the most appropriate mechanism to determine the
+       extent to which research is being performed in accordance with its
+       principles." Therefore, when you perform science research or
+       acquisition scientist functions which require your scientific
+       expertise, your scientific training, the scientific method, and
+       peer review are adequate mechanisms to ensure quality science
+       products. Some science PRODUCTS do fall under the scrutiny of ISO.
+       Papers must be approved before submission for publication or
+       presentation at a conference. Proposals likewise must be approved
+       by management and by the resources staff. So there are associated
+       procedures and quality records associated with these products.
+       For the SSDOO staff who perform Education and Public Outreach
+       activities, your science credentials allow you to work without
+       requiring procedures and quality records.
+
+   Code 630 Web Page URL
+   Code 630 ISO Home Page (accessible from the SSDOO Home Page also),
+       http://ssdoo.gsfc.nasa.gov/c630/ISO9001/
+
+   Code 630 Quality Record Lists (QRLs)
+   Space Science Data Operations Office (SSDOO) Quality Records Master
+       List
+       Astrophysics Data Facility (ADF) Quality Records Master List
+       National Space Science Data Center (NSSDC) Quality Records Master
+       List
+
+   Code 630 Quality Records (QR)
+   If You Write Proposals (Civil Servants)
+
+   Use a route sheet to route the proposal through the proper reviews.
+       Quality Records:
+          + Copy of Proposal, held by proposer.
+          + Original Route Sheets, held by proposer.
+          + Copy of Route Sheets, held by Division Office (Margie Pasini).
+
+   If You Write Proposals (Contractors)
+   Quality Records:
+          + Document Review Check List for Proposals, held by Kathy
+            Starling.
+
+   If You Publish Papers (Civil Servants)
+   Fill out the Publication Approval Form 1676, NASA Scientific and
+       Technical Document Availability Authorization (DAA) and deliver to
+       Division Office.
+       Update your list of publications on your CV.
+
+   If You Publish Papers (Contractors)
+   Quality Records:
+          + Routing Slip for Publications, held by Kathy Starling.
+
+   If You Ship Equipment or Other Items (Civil Servants or Contractors)
+   Fill out Shipping Records and deliver to Linda Resh.
+       Quality Records:
+          + Shipping Records (GSFC 20-4), held by Linda Resh.
+
+   If You Order Equipment, Products or Services Within the Scope of the
+   GSFC Quality Management System, e.g. flight products, ground support
+   computers, and the like:
+   Initiate the RITS RII/WOA.
+       At this time, Code 630 does not order any equipment within the
+       scope of the GSFC QMS.
+
+   If You Receive Equipment with an Attached RITS RII/WOA Form (Civil
+   Servants or Contractors)
+   Fill out RITS RII/WOAs and deliver to Linda Resh.
+       Quality Records:
+          + RITS RII/WOAs, held by Linda Resh.
+
+   If You Receive Bad Batches of Media, or Encounter Other Significant
+   Nonconformances, or Receive Customer Complaints
+   Enter a nonconformance into the NCRCAS system,
+       http://ncr.gsfc.nasa.gov/
+
+   Managers (Civil Servants)
+   Quality Records:
+          + EPCS Job Element and Standards for Science Products, held by
+            Manager
+          + QMS-Required OJT and QMS-Required Task Specific Training Form
+            (GSFC 17-112), held by Manager
+
+   Other SSDOO Quality Records
+          + Publication List, held by Margie Pasini in the Division Office
+          + Publication Approval Form 1676, NASA Scientific and Technical
+            Document Availability Authorization (DAA), held by Margie
+            Pasini in the Division Office
+          + Copy of Final Proposal Review Route Sheet, held by Margie
+            Pasini in the Division Office
+          + Directive Signature Copy (630-PG-8072.1.1) and Form 3-15, held
+            by Margie Pasini in the Division Office
+
+   If You Deliver Space Science Data to Customers, Retain Data Center
+   Quality Records:
+          + ROSAT Distribution Database, held by Maia Good, RITSS.
+          + ASCA Distribution Database, held by Ed Pier, RITSS.
+          + XTE Distribution Database, held by Kirk Borne, RITSS.
+          + NSSDC Logs of arriving media, held by Ralph Post, RITSS.
+          + NSSDC Ingest Completion Date Stamp, held by Ralph Post, RITSS.
+          + NSSDC Transaction Logs for Electronic Data Requests; monthly
+            statistics, held by Ralph Post, RITSS.
+          + NSSDC Receipt Date, Completion Date, Transaction Description
+            for Staff-Involved Data Requests, held by Ralph Post, RITSS.
+          + SSDOO PBC Metrics and Scores which judge quality and
+            timeliness of data products, accuracy of request services and
+            user satisfaction levels, held by George Fleming
+
+   If You Do Science Research or Acquisition Scientist Roles
+   When you perform science research or acquisition scientist functions
+       which require your scientific expertise, your scientific training,
+       the scientific method, and peer review are adequate mechanisms to
+       ensure quality science products. Some science PRODUCTS do fall
+       under the scrutiny of ISO. Papers must be approved before
+       submission for publication or presentation at a conference.
+       Proposals likewise must be approved by management and by the
+       resources staff. So there are associated procedures and quality
+       records associated with these products. Additionally, there are
+       sound practices which are to be followed for interactions with
+       outside data providers. Establishment of a Data Acquisition Folder
+       is recommended. Significant interactions with data providers should
+       be documented here. When possible, documentation should be
+       finalized and saved in specific project locations and delivered to
+       the cognizant manager or ATR.
+
+   If You Create Data Center Value-Added Products, e.g. Data Sets, SSDOO
+   Web Pages or Data Bases, or Provide Infrastructure Support
+   For the SSDOO staff who develop web pages and databases, these products
+       are not products delivered to customers, and thus do not require
+       quality records. However, be sure to use sound software development
+       practices and configuration control so that your work is documented
+       and organized for future maintenance. System administrator work
+       would fall into this category as well.
+
+   NCR/CAS Leads:
+   600: Roger Dilling
+       630: Nancy Laubenthal
+       631: Michael Van Steenberg
+
+   RITS Contact:
+   630: Linda Resh
+     __________________________________________________________________
+
+                      Code 600 Directorate Information
+
+   Be sure to bookmark applicable ISO web pages. It is also recommended
+   that you create a GDMS Working List icon on your Mac or PC desktop.
+
+   Code 600 Web Page URL
+   http://space.gsfc.nasa.gov/ISO9001/
+
+   Code 600 ISO Team
+   600, Roger Dilling, 301-286-6412, Roger.L.Dilling.1@gsfc.nasa.gov
+       630, Nancy Laubenthal, 301-286-5778,
+       Nancy.A.Laubenthal.1@gsfc.nasa.gov
+       660, Andy Dantzler, 301-286-8802, Andrew.A.Dantzler.1@gsfc.nasa.gov
+       680, Ed Sullivan, 301-286-8808, Edward.C.Sullivan.1@gsfc.nasa.gov
+       690, Frank Ottens, 301-286-7794, Franklin.W.Ottens.1@gsfc.nasa.gov
+
+   Code 600 ISO Documents
+   Additional Code 600 Work Instructions (WIs) or Procedures and
+       Guidelines (PGs) may be developed, or the ones below may be
+       updated. Check the GSFC ISO PGs/WIs list for the official versions!
+       http://gdms.gsfc.nasa.gov/gdms/plsql/masterlist.pgwi
+
+   600-PG-1310.1.1 PROPOSAL REVIEW PROCESS (CHANGED)
+       600-PG-1410.2.1 CONFIGURATION MANAGEMENT PLAN (CHANGED)
+       600-PG-8700.4.2 TECHNICAL REVIEW PROGRAM
+       600-PG-8730.3.1 SCIENCE RESEARCH (CHANGED)
+       600-PG-8730.3.2 DATA MANAGEMENT
+       600-PG-8730.3.3 PROJECTS QUALITY SYSTEM (CHANGED)
+       600-WI-1310.1.1 SUBMISSION PROCESS FOR CUSTOMER AGREEMENTS
+       (CHANGED)
+       600-WI-8072.1.1 CLEANROOM MAINTENANCE (CHANGED)
+       600-WI-8730.1.1 DISPOSITION OF TYPE 1 OR 2 IMTE FOUND TO BE OUT OF
+       CALIBRATION
+       600-WI-8730.3.1 COMPUTER ROOMS
+       600-WI-8730.3.2 PROPOSAL SUBMISSION PROCESS
+       600-WI-8730.3.3 SCIENTIFIC PUBLICATION SUBMISSION PROCESS
+       630-PG-8072.1.1 SSDOO PROCESS MANAGEMENT PLAN
+       660-WI-8072.1.1 ASTRO-E X-RAY TELESCOPE FABRICATION PROCESS
+       660-WI-8730.3.1 PUBLICATION SUBMITTAL PROCESS WITHIN THE LHEA,
+       663-WI-5330.1.1 WORK ORDER AUTHORIZATIONS (WOA) FOR THE MARS2001
+       GAMMA RAY SPECTROMETER (GRS) PROJECT,
+       663-WI-5340.2.1 CONTROL OF NONCONFORMING PRODUCT WITHIN THE GRS
+       PROJECT
+       692-WI-5330.1.1 CASSINI/CAPS CPU2/SAM FLIGHT SOFTWARE MAINTENANCE
+
+   ISO Training Materials
+   Code 630 ISO Home Page, http://ssdoo.gsfc.nasa.gov/c630/ISO9001/
+       Code 660 ISO Training Page,
+       http://lheawww.gsfc.nasa.gov/docs/lhea/C660_ISO
+       Code 680 ISO Training Page,
+       http://stars.gsfc.nasa.gov/www/iso_lasp/iso9000.html
+       Code 690 ISO Training Page,
+       http://lep694.gsfc.nasa.gov/ISOinterface.htm
+
+   Table of Contents for this Code 690 ISO Interface Document:
+
+   1. Submitting a P.I. Proposal
+       2. Submitting a Proposal as Co-I
+       3. Publishing a Paper
+       4. Mission Planning Activities
+       5. Developing Instruments and Missions
+       6. Mission Operations, Data Analysis, and Delivery to External
+       "Customers"
+       7. Laboratory and Field Scientific Measurements (non- flight)
+       8. Obtaining Calibration or Repair of Laboratory Equipment
+       9. Scientific Research (theory, data analysis, etc.)
+       10.Serving as a Referee or Reviewer
+       11.Serving as a Project Scientist
+       12.Purchasing Equipment
+       13. Shipping, Transporting, or Storing Equipment
+       14. Requesting or Receiving Training
+       15. Going on Travel
+       16. Safety
+       17. "Non-conformances"
+       18.Serving as Technical Officer on a Grant or Contract
+       19.Serving as Editor for a Journal or Book
+       20.Education and Outreach Activities
+     __________________________________________________________________
+
+                            GSFC ISO Information
+
+   Be sure to bookmark ISO web pages applicable to your job. It is also
+   recommended that you create a GDMS Working List icon on your Mac or PC
+   desktop.
+
+   URLs:
+   GSFC ISO Home Page, http://arioch.gsfc.nasa.gov/iso9000/index.htm
+       GSFC ISO Documentation: GPGs, PGs, WIs,
+       http://gdms.gsfc.nasa.gov/gdms/
+       GSFC ISO Training Modules,
+       http://ohr.gsfc.nasa.gov/DevGuide/ISO/home.htm
+       Nonconformance Report and Corrective Action System (NCRCA),
+       http://ncr.gsfc.nasa.gov/
+
+   How to Use QMS/GDMS
+   ISO Master Documents List: http://gdms.gsfc.nasa.gov/gdms/
+
+   To view approved documents:
+
+   Select "Master Documents and Forms List"
+       Select "GPGs" or "Forms" or "PGs/WIs"
+
+   To log in to the Goddard Document Management System to see GPGs under
+   revision,
+   Select "Log on to GDMS"
+       Enter UserID (First Initial + Last Name, in CAPS)
+       Enter Password
+       Click on the "Log In" button
+       Select the "LibraryReview Documents" in which you are interestedfor
+       GPD/GPGs or for Directorate Documents
+
+   To get help on the GDMS: http://gdms.gsfc.nasa.gov/gdms/instructions/
+
+   Creating Your Own Working Document List
+   For convenience, each GDMS user may create a customized "Working
+       Document" list.
+       This list is unique for each user, and can be accessed directly via
+       a desktop "shortcut". Documents can be added to your list from the
+       Directorate document library, the GPD/GPG library or the Master
+       Document List. Alternatively, document numbers can be entered
+       directly from the "My Working Documents" page. To enter documents
+       from this page, you must enter the complete, properly formatted
+       document number (e.g. 500-PG-8700.2.1 or GPG-1410.1).
+       On the Library pages (and the Master Document List if you are
+       logged in), documents can be added or deleted by clicking the "ADD
+       to My List" link to the right of each document title.
+       If there is no link, the document is already on your Working
+       Document list.
+       When you log in to the GDMS page, you can "Click Here to access
+       Your Working Documents"
+
+   Setting up an Icon on Your Desktop
+   Desktop icons apply to Macs and PCs only. UNIX users will have to
+       bookmark their Working Document List.
+       One advantage to the Working Document List is that you will be
+       automatically notified of GDMS document updates.
+       Mac Users - Add a Bookmark to this page, then "Edit Bookmarks" and
+       drag the bookmark to your desktop.
+       PC Users - right-click on a blank area of this page and select
+       "Create Shortcut" to create a shortcut back to this page.
+       The desktop icon/shortcut will work even if you are NOT logged in
+       to GDMS
+
+   Audit Etiquette
+   - Be familiar with the GSFC quality policy and how your work relates to
+       it (in your own words is OK)
+       - Know how you help GSFC meet its goals
+       - Know where to locate GPG's, PG's, and WI's
+       - Know what procedures and instructions are applicable to what you
+       do
+       - Convince the auditor you follow applicable procedures and
+       instructions
+       - Be professional, courteous and cooperative
+       - Think before answering
+       - Answer truthfully - If you don't know the answer don't be afraid
+       to say "I don't know, but I'll find out"
+       - Answer concisely
+       - Take pride and responsibility for your work
+       - Check with your supervisor if you are unsure about a sensitive
+       issue
+       - Explain terms and concepts (since terms may have a specific
+       meaning here and a different meaning elsewhere
+       - Don't make the auditor wait
+       - Don't answer for work that is not your responsibility. If it is
+       not your responsibility, say so.
+       - Don't use acronyms or terms without explanation.
+       - Don't think your answers don't count
+       - Don't volunteer information not asked for
+       - Don't act like the auditor is wasting your time
+       - Don't guess or bluff
+       - Don't criticize co-workers or the Center
+       - Don't argue with the auditor
+       - Don't say you don't follow the procedures because you "don't have
+       the time" or it can't be done that way.
+
+   Common Audit Questions (adapted from Code 450)
+   Are you familiar with GSFC's quality policy?
+
+   - Yes! You must be able to describe it in your own words.
+
+   How does the quality policy relate to your work?
+   - Describe how your job supports the customer-focused intent of
+       excellence and meeting or exceeding customer requirements.
+
+   Tell me what you do.
+   - Briefly list your primary activities, and know how ISO applies to
+       your work.
+
+   How do you know how to do your job?
+   - Answer with one or more of the following: Procedures (point to them),
+       training, or education/experience.
+
+   Which GPGs, PGs and WIs apply to your work?
+   - Know what procedures apply to your work. Be able to bring up the GSFC
+       Directives Management System (GDMS). It is advisable to have an
+       icon on your desktop with your applicable GPGs, PGs and WIs.
+
+   How do you document your work?
+   - Name the Quality Records (QRs) that apply to your work. It is OK to
+       refer to the Quality Records List (QRL) for your organization.
+
+   May I see your quality records?
+   - Visit QRL Coordinator and refer to Quality Records List (QRL). If you
+       are the QR Custodian, you should be able to show the auditor your
+       file(s) of QRs.
+
+   How do you know that this is the correct version of this procedure?
+   - The only correct version is on-line in the GDMS.
+
+   How do you do document nonconformances?
+   - The NCR/CA system is used to document nonconformances and customer
+       complaints with in-scope work. It can also be used to document
+       purchasing nonconformances, such as bad batches of disks or media.
+
+   May I see the NCR/CA records?
+   - Be able to bring up the NCR/CA system, and to demonstrate how a
+       nonconformance would be entered. Also know your NCR/CA Leads.
+
+   600 - Roger Dilling
+       630 - Nancy Laubenthal
+       631 - Michael Van Steenberg
+       660 - Andy Dantzler
+       663 - Andy Dantzler
+       680 - Ed Sullivan
+       690 - Frank Ottens
+
+   Who is your customer for your in-scope work?
+   - GSFC is the supplier. HQ, collaborators, the science community, the
+       general public and the education community are usually our
+       customers.
+
+   How do you ensure that contractors meet your quality requirements?
+   - Identify how contractors are evaluated, or refer the auditor to the
+       appropriate person or organization.
+     __________________________________________________________________
+
+   Curator: Nancy Laubenthal
+   NASA Goddard Space Flight Center
+   Last Modified on December 14, 2001

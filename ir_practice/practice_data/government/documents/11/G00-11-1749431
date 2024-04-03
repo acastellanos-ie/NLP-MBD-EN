@@ -1,0 +1,111 @@
+http://wheat.pw.usda.gov/cgi-bin/west/best_hits.cgi
+
+Welcome to the wEST best hits database
+database updated 11/28/01 (88,431 ESTs in database)
+
+   est/accession search ________________________________________ search
+   terms
+   [and]
+
+
+     This query page allows detailed searching of a database containing
+   the top BLAST hits for wheat ESTs.
+
+     Searchable parameters are:
+     * est/accession -> official EST name or GenBank accession number,
+       (e.g. WHE0091_G01_M01ZS or BG313044)
+     * species -> (e.g. Triticum)
+     * germplasm -> (e.g. Cheyenne)
+     * library_id -> official library designator, (e.g. TA001E1S)
+     * tissue -> (e.g. Endosperm)
+     * best_dna_id -> BLASTN description
+     * best_pep_id -> BLASTX description
+     __________________________________________________________________
+
+   search instructions
+     * separate search terms with a (space)
+     * . (period) = any character
+     * .+ (period plus) = one or more characters
+     * .* (period asterisk) = zero or more characters
+     * select one/and/or for each search field
+           one = treat search field as one string
+           and = match all search terms for this field
+           or = match any search term for this field
+     * select boolean and/or between each search field
+           and = match in same record
+           (consecutive and's are clustered!)
+           or = match in any record
+     * a search term can be negated by appending a ! to the beginning
+       (i.e. !endosperm)
+     * select the columns that will appear in the results table in the
+       column view select section
+     * select best_dna and best_pep evalue cutoffs
+       (results with evalues less than or equal to these cutoffs will be
+       included)
+     * click restrict results to mapped est's...
+     * NEW click restrict results to est's in contigs...
+     __________________________________________________________________
+
+                        click HERE for a sample query
+                          click HERE to view nohits
+     __________________________________________________________________
+
+   results table information
+     * map, est and accession columns are displayed by default
+     * click on column headings to sort table
+     * click on links (Contig or FASTA) next to the est name to get
+       contig/mapping information or the FASTA-formatted sequence
+       respectively
+     * links to NCBI are provided for all genbank accession numbers
+     * click on the library_id to get info about the library
+     __________________________________________________________________
+
+   download your results
+     * after submitting your query:
+       get a fasta file or a tab-delimited table for this data set by:
+         1. right-clicking on the above links and save as text
+         2. clicking on the above links and save as text after the page
+            loads
+     * this could take a while depending on the number of records in your
+       query
+     * you may also go HERE if you already have a list of ESTs for which
+       you would like a fasta file, or HERE for contigs
+     __________________________________________________________________
+
+               please send mail HERE with suggestions/comments
+
+     [and]
+   species search ________________________________________ search terms
+   [and]
+     [and]
+   germplasm search ________________________________________ search terms
+   [and]
+     [and]
+   library_id search ________________________________________ search terms
+   [and]
+     [and]
+   tissue search ________________________________________ search terms
+   [and]
+     [and]
+   best_dna_id search  ________________________________________ search
+   terms
+   [and]
+     [and]
+   best_pep_id search  ________________________________________ search
+   terms
+   [and]
+   column view select  accession  [ ]  species  [ ]  germplasm  [ ]
+   library  [ ]
+   best_dna_acc  [ ]  best_dna_score  [X]  best_dna_evalue  [X]
+   best_pep_acc  [ ]  best_pep_score  [ ]  best_pep_evalue  [ ]
+   best_dna_id  [X]  best_pep_id  [ ]
+     best_dna_evalue cutoff
+   1e^- [all]
+   best_pep_evalue cutoff
+   1e^- [all] restrict results
+   to est's in contigs
+   [ ]
+   restrict results
+   to mapped est's
+   [ ]
+     submit query reset form start over

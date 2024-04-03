@@ -1,0 +1,880 @@
+http://laps.fsl.noaa.gov/laps-fsl/newcases/casestudy_homepage_wintercases.html
+
+          FSL Modeling and Visualization: A Collection of Case Studies
+
+   Forecast Research Division
+     __________________________________________________________________
+
+  Overview
+
+   On this page is a collection of fairly detailed case studies presented
+   to document how the local model, the SFM in this case, performs in the
+   area of northeastern Colorado for a variety of weather phenomenon.
+
+  Index of cases
+
+   I. Winter snow events.
+   A. Mountain and/or orographically forced events.
+
+   [snowflake_blue.gif] 10-11 February 2000: Mountain snows (also plains
+       and DCVZ event).
+       Description: Main upper level low morning of 10th still over Calif
+       due w of us but minor sht wv ahead of this feature moving across CO
+       with relatively unstable lapse rates in zonal flow producing areas
+       and some banding of snow in mtns. So not a straightforward or
+       simple orographic only case.
+       Quick look at the verification/comparison: SFM 15z/10 Feb run had
+       more snow in zone 34 than in zone 33 (where there was very little
+       predicted), whereas snow model had slightly more in 33 vs. 34. More
+       did tend to fall in 33, and even MORE fell just to the east with
+       Virginia Dale the big winner with 13.5" (this band extended e
+       across the plains, with zones 49/50 getting 6-8" of snow (some of
+       this coming after 12z however). SFM did pick up on an e-w band onto
+       the plains near the CO/WY border, tho also had one e from COS and
+       this srn one did NOT occur. A separate snow max does exist near
+       Virginia Dale in the SFM; R/T model (Rhea/Thaler orographic snow
+       model) had nothing to up to an inch for Virginia Dale/Zone 35.
+       So, mixed results, would say that it appears the 15z SFM did not do
+       quite as well with the mountain snows, since it erroneously favored
+       the more srn over the more nrn mtns.
+
+   [snowflake_red.gif] More info: obs, forecasts, discussions, etc.
+
+   Observations: 1200 through 2100 UTC on 10 Feb
+
+   [snowflake_red.gif] Figure 1: Denver 1200 UTC 10 Feb sounding.
+
+   [snowflake_red.gif] Figure 2: Grand Junction 1200 UTC 10 Feb sounding.
+
+   [snowflake_red.gif] Figure 3: 500 mb analysis from the RUC for 1800 UTC
+       10 Feb, with 1200 UTC RAOB plot and 1800 UTC water vapor image and
+       profiler plot.
+
+   [snowflake_red.gif] Figure 4: 700 mb analysis from the RUC for 1800 UTC
+       10 Feb.
+
+   [snowflake_red.gif] Figure 5: Visible satellite image with METARS and
+       lightning plot for 2100 UTC 10 Feb.
+
+   [snowflake_red.gif] Figure 6: NOWRAD state-scale image with METARS and
+       lightning plot for 2100 UTC 10 Feb.
+
+   Forecasts from the 1500 SFM run and 1200 UTC local 10 km eta run thru
+   0000 UTC/11 Feb.
+
+   [snowflake_blue.gif] Figure 7: SFM 1500 UTC 10 Feb run, 6h forecast of
+       700 mb wind and reflectivity valid 2100 UTC 10 Feb.
+
+   [snowflake_blue.gif] Figure 8: SFM 1500 UTC 10 Feb run, 9h forecast of
+       700 mb wind and reflectivity valid 0000 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 9: 10 km Local Eta 1200 UTC 10 Feb run, 12h
+       forecast of sfc wind/temperature and total precipitation valid 0000
+       UTC 11 Feb.
+
+   Some observations through 0000 UTC on 11 Feb.
+
+   [snowflake_red.gif] Figure 10: 500 mb height analysis from the Eta for
+       0000 UTC 11 Feb, with RAOB plot and IR satellite image.
+
+   [snowflake_red.gif] Figure 11: 700 mb height analysis from the Eta for
+       0000 UTC 11 Feb, with RAOB plot and IR satellite image.
+
+   [snowflake_red.gif] Figure 12: Denver 0000 UTC 11 Feb sounding.
+
+   [snowflake_red.gif] Figure 13: Grand Junction 0000 UTC 11 Feb sounding.
+
+   Another set of forecasts valid thru 1200 UTC/11 Feb.
+
+   First more forecasts from the 1500 UTC 10 Feb SFM run.
+
+   [snowflake_blue.gif] Figure 14: SFM 1500 UTC 10 Feb run, 15h forecast
+       of 700 mb wind and reflectivity valid 0600 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 15: SFM 1500 UTC 10 Feb run, 17h forecast
+       of storm total snowfall through 0800 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 16: SFM 1500 UTC 10 Feb run, 18h forecast
+       of 700 mb wind and reflectivity valid 0900 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 17: SFM 1500 UTC 10 Feb run, 18h forecast
+       of storm total precipitation through 0900 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 18: SFM 1500 UTC 10 Feb run, 18h forecast
+       of storm total snow through 0900 UTC 11 Feb.
+
+   The local 10 km eta run from 0000 UTC 11 Feb:
+
+   [snowflake_blue.gif] Figure 19: 10 km Local Eta 0000 UTC 11 Feb run,
+       12h forecast of sfc wind/temperature and total precipitation valid
+       1200 UTC 11 Feb.
+
+   Forecasts from the 2100 SFM run from 10 Feb.
+
+   [snowflake_blue.gif] Figure 20: SFM 2100 UTC 10 Feb run, 12h forecast
+       of 700 mb wind and reflectivity valid 0900 UTC 11 Feb, with NOWRAD
+       overlaid.
+
+   [snowflake_blue.gif] Figure 21: SFM 2100 UTC 10 Feb run, 12h forecast
+       of surface wind and reflectivity valid 0900 UTC 11 Feb, with NOWRAD
+       and METARS overlaid.
+
+   [snowflake_blue.gif] Figure 22: SFM 2100 UTC 10 Feb run, 12h forecast
+       of storm total snow through 0900 UTC 11 Feb (compare to Figure 14,
+       valid at the same time, from the 1500 UTC run).
+
+   [snowflake_blue.gif] Figure 23: SFM 2100 UTC 10 Feb run, 15h forecast
+       of surface wind and reflectivity valid 1200 UTC 11 Feb, with NOWRAD
+       and METARS and other obs overlaid. Note the good forecast of a
+       strong Denver Cyclone circulation.
+
+   [snowflake_blue.gif] Figure 24: SFM 2100 UTC 10 Feb run, 15h forecast
+       of storm total precipitation through 1200 UTC 11 Feb.
+
+   [snowflake_blue.gif] Figure 25: SFM 2100 UTC 10 Feb run, 15h forecast
+       of storm total snow through 1200 UTC 11 Feb.
+
+   One forecast from the 0300 SFM run from 11 Feb.
+
+   [snowflake_blue.gif] Figure 26: SFM 0300 UTC 11 Feb run, 9h forecast of
+       700 mb wind and reflectivity valid 1200 UTC 11 Feb, with NOWRAD
+       overlaid.
+
+   Here are some observations through 1200 UTC on 11 Feb.
+
+   [snowflake_red.gif] Figure 27: NOWRAD imagery for 0930 UTC 11 Feb with
+       METAR and 1h lightning plot for 0900 UTC.
+
+   [snowflake_red.gif] Figure 28: 500 mb height analysis from the Eta for
+       1200 UTC 11 Feb, with RAOB plot and IR satellite image.
+
+   [snowflake_red.gif] Figure 29: 700 mb height analysis from the Eta for
+       1200 UTC 11 Feb, with RAOB plot and IR satellite image.
+
+   [snowflake_red.gif] Figure 30: Denver 1200 UTC 11 Feb sounding.
+
+   [snowflake_red.gif] Figure 31: Grand Junction 1200 UTC 11 Feb sounding.
+
+
+
+   [snowflake_blue.gif] 14 February 2000: Mountain snows.
+       Description: Mountain snowfall for Feb 14th (0800) to Feb 15th
+       0800. Part of a continuing event. Concentrating here on the
+       evening/overnight snow potential mainly. Turned out to be a
+       surprisingly heavy event that began really after midnight (though
+       snow did fall much of the day in some mtn areas...tough to say how
+       much...Loveland ski area video looked to be at least S-, maybe
+       toward S at times during the day, but think some of the day stuff
+       diminished before dark, then second batch developed) with passage
+       of a sht wave trof (this was actually the remnants of a significant
+       wave that had been off the coast on Sunday). Some lightning near
+       SLC the near WY/CO border overnight. At ski report time many areas
+       were snowing hard, particularly more nrn mtns. This was a pretty
+       sig miss for the forecasters as well as the eta 10km model (note
+       how the 00z run had very little predicted for the mountains). NO
+       SFM for this case, just eta at 10 km.
+        [snowflake_red.gif] More info: obs, forecasts, discussions, etc.
+
+   [snowflake_blue.gif] Figure 1: FSL's 10 km eta (initialized with LAPS),
+       1200 UTC 14 Feb run, 12h wind and total precipitation forecast for
+       0000 UTC 15 Feb.
+
+   [snowflake_blue.gif] Figure 2: 10 km eta 0000 UTC 15 Feb run, 12h wind
+       and total precipitation forecast for 1200 UTC 15 Feb.
+
+
+
+  [snowflake_blue.gif] 17 February 2000: Potential mountain snows.
+
+    Description: Overprediction of snow for the overnight period as an upper
+    level trof advancing on the area. We had consistently predicted snow to
+    begin too early with this one, but question is what did the snow model
+    produce? Eta had snow begining and accumulating overnight but notice 21z sfm
+    did not. NOTE: SFM not available for 21z run after 10z (13h fcst). Also, 21z
+    run was the first SFM run in a couple of days. Note that SFM did not predict
+    much of anything, which was correct for this case. Snow did fall in far wrn
+    CO mtns.
+
+   [snowflake_red.gif] More info: obs, forecasts, discussions, etc.
+
+   [snowflake_blue.gif] Figure 1: SFM 2100 UTC run from 16 Feb, 13h
+       forecast valid 1000 UTC 17 Feb of of 700 mb wind and reflectivity,
+       overlaid with NOWRAD observed reflectivity.
+
+   [snowflake_blue.gif] Figure 2: SFM 2100 UTC run from 16 Feb, storm
+       total snowfall and storm total precipitation for 13h period ending
+       1000 UTC 17 Feb.
+
+   [snowflake_blue.gif] Figure 3: SFM 0300 UTC run from 16 Feb, storm
+       total snowfall and storm total precipitation for 9h period ending
+       1200 UTC 17 Feb, along with 700 mb wind and SFM reflectivity ending
+       at 1200 UTC, overlaid with NOWRAD reflectivity.
+
+   [snowflake_red.gif] Figure 4: 700 mb plot and heights with water vapor
+       satellite image for 1200 UTC 17 Feb.
+
+   [snowflake_red.gif] Figure 5: Grand Junction sounding for 1200 UTC 17
+       Feb.
+
+
+
+  [snowflake_blue.gif] 7 March 2000: Potential mountain snows.
+
+    Description: Snow and blowing snow advisory was issued. Appears the greatest
+    amount of snow fell farther north, or extreme swrn CO. Coop site with the
+    greatest snow was at Gould, near the location of where the SFM had a rather
+    extreme local max. Note that station Gould CSFC2: GOULD 4SE 9200 0809: 40 /
+    4 / 1.03 / 8.2 / 40 reported about 1" of melted, and they are located near
+    the SFM precipitation max. (Gould is on the west side of Cameron Pass).
+    Granted the SFM 09z/7 Mar run did have a whopping 3.8" of melted in this
+    area but it is interesting that this DOES appear to be a favored area for
+    this storm.
+
+   [snowflake_red.gif] More stuff: Text saved data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: RUC 2100 UTC run from 7 March, 6h 500 mb
+       forecast valid 0300 UTC 8 Mar.
+
+   [snowflake_blue.gif] Figure 2: RUC 2100 UTC run from 7 March, 6h 700 mb
+       forecast valid 0300 UTC 8 Mar.
+
+   [snowflake_blue.gif] Figure 3: RUC 2100 UTC run from 7 March, 6h
+       surface forecast valid 0300 UTC 8 Mar.
+
+   [snowflake_blue.gif] Figure 4: RUC 2100 UTC run from 7 March, 12h 700
+       mb forecast valid 0900 UTC 8 Mar.
+
+   [snowflake_blue.gif] Figure 5: RUC 2100 UTC run from 7 March, 12h
+       surface forecast valid 0900 UTC 8 Mar.
+
+   [snowflake_blue.gif] Figure 6: SFM 1500 UTC run from 7 March, storm
+       total precipitation for 9h period ending 0000 UTC 8 Mar, with
+       surface wind and reflectivity at 0000 UTC.
+
+   [snowflake_blue.gif] Figure 7: SFM 1500 UTC run from 7 March, storm
+       total snowfall for 9h period ending 0000 UTC 8 Mar, along with 700
+       mb wind for 0000 UTC.
+
+   [snowflake_blue.gif] Figure 8: SFM 1500 UTC run from 7 March, storm
+       total precipitation for 9h period ending 0000 UTC 8 Mar, with
+       surface wind and reflectivity at 0000 UTC.
+
+   [snowflake_blue.gif] Figure 9: SFM 1500 UTC run from 7 March, storm
+       total precipitation for 12h period ending 0300 UTC 8 Mar, with
+       surface wind and reflectivity at 0300 UTC.
+
+   [snowflake_red.gif] Figure 10: NOWRAD state scale reflectivity with obs
+       for 0300 UTC on 8 March.
+
+   [snowflake_red.gif] Figure 11: NOWRAD state scale reflectivity with obs
+       for 0600 UTC on 8 March.
+
+   [snowflake_blue.gif] Figure 12: SFM 1500 UTC run from 7 March, storm
+       total precipitation for 18h period ending 0900 UTC 8 Mar, with
+       surface wind and reflectivity at 0900 UTC.
+
+   [snowflake_blue.gif] Figure 13: SFM 1500 UTC run from 7 March, storm
+       total snow for 18h period ending 0900 UTC 8 Mar.
+
+   [snowflake_red.gif] Figure 14: NOWRAD state scale reflectivity with obs
+       for 0900 UTC on 8 March.
+
+   [snowflake_red.gif] Figure 15: NOWRAD state scale reflectivity with obs
+       for 1200 UTC on 8 March.
+
+   [snowflake_red.gif] Figure 16: NOWRAD state scale reflectivity with obs
+       for 1500 UTC on 8 March.
+
+
+
+  [snowflake_blue.gif] 10 March 2000: Potential very heavy foothill snows.
+
+    Description: This potential snow followed the end of a period of mountain
+    orographic snows with some SFM output saved, but no gif files. This case was
+    saved because of the very focused heavy foothill snows forecasted for the
+    foothills of western Boulder and northern Jefferson Counties up to and east
+    of the Divide. Very persistent forecast of well over a foot of snow in this
+    area, with snow forecast area spreading east to about I-25 (BOU forecast to
+    get as much as 9" of snow). There was also an area of snow forecast on the
+    west side of the mountains in NWly flow but to a much lesser extent.
+
+    Why the focused snowfall? Surface pattern on the plains was a Longmont
+    Anticyclone in the SFM forecast, so low-level winds were converging into the
+    foothills from the east, whereas there was NWly flow from the west that
+    would serve to enhance the convergence even further. Couple this with a
+    fairly unstable atmosphere, and the ingredients were set (at least in the
+    model) for a persistent area of convective snows. What happened? Need to get
+    more info, but there was never any snow in Boulder, and basically none in
+    the foothills either. The snowfall farther west in the NWly flow was
+    probably a pretty good forecast.
+
+   [snowflake_red.gif] More stuff: Text saved data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: SFM 18h reflectivity forecast from 03z
+       10 Mar run, valid 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 2: SFM 18h total snow forecast from 03z 10
+       Mar run, valid for period ending 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 3: SFM 6h total snow forecast from 09z 10
+       Mar run, valid for period ending 15z 10 Mar.
+
+   [snowflake_blue.gif] Figure 4: SFM 9h reflectivity forecast from 09z 10
+       Mar run, valid 18z 10 Mar.
+
+   [snowflake_blue.gif] Figure 5: SFM 9h total snow forecast from 09z 10
+       Mar run, valid for period ending 18z 10 Mar.
+
+   [snowflake_blue.gif] Figure 6: SFM 9h sounding forecast from 09z 10 Mar
+       run, valid 18z 10 Mar at Boulder.
+
+   [snowflake_blue.gif] Figure 7: SFM 12h reflectivity forecast from 09z
+       10 Mar run, valid 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 8: SFM 12h total snow forecast from 09z 10
+       Mar run, valid for period ending 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 9: SFM 12h sounding forecast from 09z 10
+       Mar run, valid 21z 10 Mar at Boulder.
+
+   [snowflake_blue.gif] Figure 10: SFM 13h total snow forecast from 09z 10
+       Mar run, valid for period ending 22z 10 Mar.
+
+   [snowflake_blue.gif] Figure 11: SFM 15h reflectivity forecast from 09z
+       10 Mar run, valid 00z 11 Mar.
+
+   [snowflake_blue.gif] Figure 12: SFM 15h total snow forecast from 09z 10
+       Mar run, valid for period ending 00z 11 Mar.
+
+   [snowflake_blue.gif] Figure 13: SFM 15h sounding forecast from 09z 10
+       Mar run, valid 00z 11 Mar at Boulder.
+
+   [snowflake_blue.gif] Figure 14: SFM 18h total snow forecast from 09z 10
+       Mar run, valid for period ending 03z 11 Mar.
+
+   [snowflake_blue.gif] Figure 15: Eta 10 km 6h total precipitation and
+       surface wind and temperature forecast from 12z 10 March run, valid
+       18z 10 March.
+
+   [snowflake_blue.gif] Figure 16: Eta 10 km 6h sounding forecast from 12z
+       10 March run, valid 18z 10 March at Boulder.
+
+   [snowflake_blue.gif] Figure 17: Eta 10 km 12h total precipitation and
+       surface wind and temperature forecast from 12z 10 March run, valid
+       00z 11 March.
+
+   [snowflake_blue.gif] Figure 18: Eta 10 km 12h sounding forecast from
+       12z 10 March run, valid 00z 11 March at Boulder.
+
+   [snowflake_blue.gif] Figure 19: Eta (standard resolution) 12h surface
+       forecast from 12z 10 March run, valid 00z 11 March.
+
+   [snowflake_blue.gif] Figure 20: Eta (standard resolution) 12h sounding
+       forecast from 12z 10 March run, valid 00z 11 March at Boulder,
+       overlaid with SFM 15z run 9h forecast sounding.
+
+   [snowflake_blue.gif] Figure 21: SFM 3h reflectivity forecast from 15z
+       10 Mar run, valid 18z 10 Mar.
+
+   [snowflake_blue.gif] Figure 22: SFM 3h total snow forecast from 15z 10
+       Mar run, valid for period ending 18z 10 Mar.
+
+   [snowflake_blue.gif] Figure 23: SFM 3h sounding forecast from 15z 10
+       Mar run, valid 18z 10 Mar at Boulder.
+
+   [snowflake_blue.gif] Figure 24: SFM 6h reflectivity forecast from 15z
+       10 Mar run, valid 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 25: SFM 6h total snow forecast from 15z 10
+       Mar run, valid for period ending 21z 10 Mar.
+
+   [snowflake_blue.gif] Figure 26: SFM 6h sounding forecast from 15z 10
+       Mar run, valid 21z 10 Mar at Boulder.
+
+   [snowflake_blue.gif] Figure 27: SFM 9h reflectivity forecast from 15z
+       10 Mar run, valid 00z 11 Mar.
+
+   [snowflake_blue.gif] Figure 28: SFM 9h total snow forecast from 15z 10
+       Mar run, valid for period ending 00z 11 Mar.
+
+   [snowflake_blue.gif] Figure 29: SFM 9h sounding forecast from 15z 10
+       Mar run, valid 00z 11 Mar at Boulder.
+
+   [snowflake_red.gif] Figure 30: LAPS surface analysis with METARS and
+       visible image for 18z 10 March.
+
+   [snowflake_red.gif] Figure 31: WFO-scale 0.5 deg radar reflectivity
+       with METARS for 00z 11 March.
+
+
+
+  [snowflake_blue.gif] 12 March 2000: Significant but underforecast
+  orographically forced mountain snows.
+
+    Description: A pretty intense period of snow in NWly flow with the passage
+    of an embedded shortwave trough, mostly falling overnight after 02z on 12
+    March. This was a highly orographically forced event where the max is often
+    squeezed out in the springtime. Snow amounts forecast for the event were way
+    underdone, though snow was predicted.
+
+    Unfortunately did not save the critical SFM runs, which would be the 15z or
+    21z runs from 11 March. May try to rerun this case.
+
+   [snowflake_red.gif] More stuff: Text saved data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: SFM 18h total snow forecast from 09z 12
+       Mar run, valid for period ending 03z 13 Mar.
+
+   [snowflake_blue.gif] Figure 2: SFM 9h total snow forecast from 15z 12
+       Mar run, valid for period ending 00z 13 Mar.
+
+   [snowflake_red.gif] Figure 3: 500 mb analysis for 12z 12 March.
+
+   [snowflake_red.gif] Figure 4: 700 mb analysis for 12z 12 March.
+
+   [snowflake_red.gif] Figure 5: GJT 12z 12 March sounding.
+
+   [snowflake_red.gif] Figure 6: State-scale visible satellite image with
+       METARS for 18z 12 March.
+
+   [snowflake_red.gif] Figure 7: PTL profiler time series for 12h ending
+       00z 13 March.
+
+
+
+   -----------------------------------------------------------------------
+   -------------------------------
+
+  [snowflake_blue.gif] 6 November 2000: Potential snow with a Longmont
+  Anticyclone
+
+    Very nice LGM Anticyclone case. Associated with it was a persistent area of
+    light to perhaps moderate low-density snow mainly over the srn/wrn DEN
+    suburbs in the aftn/evening of the 6th.
+
+    Saved the 1800 UTC runs of the hot-start MM5 and the Mesoeta.
+
+   [snowflake_red.gif] More stuff: Text saved data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: MM5 1800 UTC run 0 h surface wind and
+       reflectivity, overlaid with obs and NOWRAD. Notice how the MM5
+       initial wind field nicely matches the observations showing the
+       lighter winds with different directions near Boulder County, as
+       would be expected since it initialized with LAPS.
+
+   [snowflake_blue.gif] Figure 2: Mesoeta 1800 UTC run 0 h surface wind,
+       overlaid with obs and NOWRAD. The match of the winds with the obs
+       is not nearly as good as with MM5 at 0 h.
+
+   [snowflake_blue.gif] Figure 3: 0 h surface winds from MM5 and the
+       Mesoeta overlaid for direct comparison. These are displayed at
+       maximum resolution, which for the AWIPS display is 20 km for the
+       Mesoeta (even though the model's maximum resolution is actually 22
+       km), so there are 2 wind barbs from MM5 for every Mesoeta wind.
+
+   [snowflake_blue.gif] Figure 4: MM5 1800 UTC run 3 h surface wind and
+       reflectivity, overlaid with obs and NOWRAD, valid for 2100 UTC.
+
+   [snowflake_blue.gif] Figure 5: Mesoeta 1800 UTC run 3 h surface wind
+       and 3-h accumulated precipitation, overlaid with obs and NOWRAD,
+       valid for 2100 UTC.
+
+   [snowflake_blue.gif] Figure 6: 3 h surface winds from MM5 and the
+       Mesoeta overlaid for direct comparison.
+
+   [snowflake_blue.gif] Figure 7: MM5 1800 UTC run 6 h surface wind and
+       reflectivity, overlaid with obs and NOWRAD, valid for 0000 UTC on 7
+       November 2000.
+
+   [snowflake_blue.gif] Figure 8: Closeup of Figure 7 zooming in along the
+       Front Range. Neither model turns the winds as much as observed (see
+       the se flow at BJC, for example).
+
+   [snowflake_blue.gif] Figure 9: Mesoeta 1800 UTC run 6 h surface wind
+       and 3-h accumulated precipitation, overlaid with obs and NOWRAD,
+       valid for 0000 UTC on 7 November 2000.
+
+   [snowflake_blue.gif] Figure 10: Comparison of 6 h forecast from Mesoeta
+       and MM5 18z runs for the Longmont Anticyclone.
+
+   [snowflake_blue.gif] Figure 11: MM5 1800 UTC run 7 h surface wind and
+       reflectivity, overlaid with obs and CYS radar, valid for 0100 UTC
+       on 7 November 2000.
+
+   [snowflake_blue.gif] Figure 12: MM5 1800 UTC run 7 h surface wind and
+       reflectivity with storm total precipitation forecast, overlaid with
+       obs and DEN (KFTG) radar, valid for 0100 UTC on 7 November 2000.
+
+   [snowflake_blue.gif] Figure 13: Closeup of Figure 12 (but without
+       winds). Most of the precipitation was forecast for the foothills,
+       especially west of Boulder, whereas it turned out that most fell in
+       the southern and western Denver suburbs.
+
+   [snowflake_blue.gif] Figure 14: Closeup of MM5 1800 UTC run 9 h
+       forecast of reflectivity and storm total precipitation forecast
+       valid for 0300 UTC on 7 November 2000.
+
+   [snowflake_blue.gif] Figure 15: Closeup of MM5 1800 UTC run 12 h
+       forecast of reflectivity and storm total precipitation forecast
+       valid for 0600 UTC on 7 November 2000. Note: a coop site near
+       Nederland, where the max precipitation was forecast, did not record
+       any snowfall for this event.
+
+
+
+  [snowflake_blue.gif] 15 November 2000: Potential plains snowfall associated
+  with a Longmont Anticyclone as well as mountain orographic snowfall.
+
+    Hot start MM5 runs saved from 1200 UTC and 1800 UTC on 15 November.
+
+    Shortwave trough passage with synoptic NWly flow behind it, with potential
+    for a LGM Anticyclone and of course mountain orographic snowfall. In this
+    case the NWlys tended to overwhelm any significant LGM Anticyclone, which
+    was overpredicted by the model runs. A nice snowband did occur on the plains
+    but appeared to be at the leading edge of the trough and surge of NWly low
+    level flow, and proceeded to move from near the foothills at 13-14 UTC to
+    vicinity of AKO by ~1800 UTC. This band was not predicted very well by the
+    1200 UTC MM5 run, while with the hot start the 1800 UTC run nicely captured
+    it and held it together for awhile as it continued east (while diminishing
+    in real life), about as forecast.
+
+   In the mountains good snowfall occurred commencing probably ~1000 UTC
+   on 15 Nov, with most of it probably over by the evening of the 15 Nov.
+   Both runs tended to underforecast the amount of snowfall, but appeared
+   to do a decent job with distribution, with Steamboat (12" for 24 h
+   ending 16 Nov at 1200 UTC) and Vail (10" for similar) getting by far
+   the most.
+
+   [snowflake_red.gif] Overview and data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: MM5 initialization at 1200 UTC for
+       surface wind and reflectivity, overlaid with observations and
+       radar.
+
+   [snowflake_blue.gif] Figure 2: MM5 1200 UTC run 3 h forecast of surface
+       wind and reflectivity, overlaid with observations and radar, valid
+       1500 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 3: MM5 1200 UTC run 6 h forecast of surface
+       wind and reflectivity, overlaid with observations and radar valid
+       1800 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 4: MM5 1200 UTC run 6 h forecast of storm
+       total precipitation and snowfall, for 6 h period ending at 1800 UTC
+       on 15 Nov 00.
+
+   [snowflake_blue.gif] Figure 5: MM5 initialization at 1800 UTC for
+       surface wind and reflectivity, overlaid with observations and
+       radar.
+
+   [snowflake_blue.gif] Figure 6: MM5 1200 UTC run 9 h forecast of surface
+       wind and reflectivity, valid 2100 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 7: MM5 1800 UTC run 3 h forecast of surface
+       wind and reflectivity, overlaid with observations and radar, valid
+       2100 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 8: MM5 1800 UTC run 3 h forecast of storm
+       total precipitation and snowfall, for 3 h period ending at 2100 UTC
+       on 15 Nov 00.
+
+   [snowflake_red.gif] Figure 9: METAR observations and NOWRAD radar valid
+       at 2100 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 10: MM5 1800 UTC run 5 h forecast of
+       surface wind and reflectivity, overlaid with observations and radar
+       valid 2300 UTC 15 Nov.
+
+   [snowflake_blue.gif] Figure 11: MM5 1200 UTC run 5 h forecast of storm
+       total precipitation and snowfall, for 5 h period ending at 2300 UTC
+       on 15 Nov 00.
+
+   [snowflake_blue.gif] Figure 12: MM5 1200 UTC run 12 h forecast of
+       surface wind and reflectivity, valid 0000 UTC 16 Nov.
+
+   [snowflake_blue.gif] Figure 13: MM5 1800 UTC run 6 h forecast of 700 mb
+       wind and storm total precipitation and snowfall, valid at 0000 UTC
+       16 Nov.
+
+   [snowflake_blue.gif] Figure 14: MM5 1200 UTC run 12 h forecast of storm
+       total precipitation and snowfall, for 12 h period ending at 0000
+       UTC on 16 Nov 00.
+
+   [snowflake_red.gif] Figure 15: METAR observations and NOWRAD radar
+       valid at 0000 UTC 16 Nov.
+
+   [snowflake_red.gif] Figure 16: DEN sounding for 0000 UTC 16 Nov.
+
+   [snowflake_blue.gif] Figure 17: MM5 1200 UTC run 15 h forecast of
+       surface wind and reflectivity, valid 0300 UTC 16 Nov.
+
+   [snowflake_blue.gif] Figure 18: MM5 1200 UTC run 24 h forecast of storm
+       total precipitation and snowfall, for 24 h period ending at 1200
+       UTC on 16 Nov 00. Overall, the mountain snowfall was underforecast,
+       while snowfall associated with the Longmont Anticyclone (zone 39,
+       for example) was overforecast.
+
+   [snowflake_blue.gif] Figure 19: MM5 1800 UTC run 18 h forecast of storm
+       total precipitation and snowfall, for 18 h period ending at 1200
+       UTC on 16 Nov 00. Probably a better forecast than the 1200 UTC run
+       farther east on the plains, capturing the area of snow associated
+       with the shortwave trough, but still having a band with the LGM
+       Anticyclone that was not there. While it is not possible to know
+       how much snow fell during the 1200-1800 UTC period on 15 Nov in the
+       mountains, it looks like this run did not do as well as the 1200
+       UTC run, with both underforecasting mountain snowfall for this
+       event.
+
+   [snowflake_blue.gif] Figure 20: Closeup of MM5 1800 UTC run 18 h
+       forecast of storm total precipitation and snowfall, for 18 h period
+       ending at 1200 UTC on 16 Nov 00.
+
+   [snowflake_blue.gif] Figure 21: Closeup with cities overlay of MM5 1800
+       UTC run 18 h forecast of storm total precipitation and snowfall,
+       for 18 h period ending at 1200 UTC on 16 Nov 00. Note there is a
+       max of snowfall near Steamboat, where 12" in 24 h ending at 1200
+       UTC/16 Nov fell. The forecast is only for a max of 1.5", but it may
+       be fair to subtract ~6" from the 24 h snowfall total (based on the
+       ~2 pm snow report on 15 Nov) at Steamboat to get a comparitive ob
+       of ~6". So while still a substantial underforecast, at least the
+       max in location had the right idea.
+
+
+
+  [snowflake_blue.gif] 17 November 2000: Quick snow event with a northerly surge
+  (Longmont Anticyclone) and shortwave trough in the northerly flow; also
+  mountain orographic snowfall.
+
+    Setup was a shortwave moving south in the upper level ~nly flow with an
+    accompanying LGM Anticyclone type surge. A similar type of feature on
+    Wednesday produced a burst of snow more on the eastern plains but pretty
+    much a null event many areas along the Front Range. MM5 run did not predict
+    much with this event except for an area of snow more over zone 35 into zone
+    36, but very little out on the plains or even on the plains near the
+    foothills. This despite a good job of predicting the strong turning (to
+    upslope) winds with the LGM Anticyclone/post-surge flow. Mesoeta forecast
+    also had precipitation predicted, but not nearly focused enough, or enough
+    predicted. At 20 km resolution perhaps the strong e-w gradient away from the
+    foothills would be too much to expect.
+
+    What happened was a burst of snow began ~23z locally and quickly became at
+    least moderate snow here, with a good burst of nely winds producing some
+    blowing snow. By ~715 pm had accumulated ~3.5" here in the parking lot, but
+    when I got home at ~730pm could only measure 1.5", so quite an extreme
+    dropoff with distance east of the foothills. Heaviest accumulations were in
+    fact in the foothills themselves of zone 36, with up to 8" near Tiny Town.
+    Note how Allenspark had less than an inch. One thing about the snow was it
+    had very low liquid water content; at least 20:1 or higher, so in effect
+    some model predictions were not far off from that perspective.
+
+   Saved the 18z run of both the hot-start MM5 and the Mesoeta. Most of
+   the snow fell here in BOU from 23z/17th to 04z/18th.
+
+   In terms of the mountains, both models predicted a rather light event,
+   and generally only an inch or two fell, with Eldora getting 3" (upslope
+   from the east there probably responsible for most of this).
+
+   [snowflake_red.gif] Overview and data (forecasts, obs, etc.).
+
+   [snowflake_blue.gif] Figure 1: MM5 initialization at 1800 UTC for
+       surface wind and reflectivity, overlaid with observations and
+       radar.
+
+   [snowflake_blue.gif] Figure 2: Mesoeta 1800 UTC run, 0 h surface and
+       700 mb wind with observations. While not a "bad" surface wind
+       analysis, the MM5 analysis fits the observations better (as might
+       be expected since it uses LAPS).
+
+   [snowflake_blue.gif] Figure 3: MM5 1800 UTC run 1 h forecast of surface
+       wind and reflectivity valid at 1900 UTC, overlaid with observations
+       and radar.
+
+   [snowflake_blue.gif] Figure 4: MM5 1800 UTC run 2 h forecast of surface
+       wind and reflectivity valid at 2000 UTC, overlaid with observations
+       and radar.
+
+   [snowflake_blue.gif] Figure 5: MM5 1800 UTC run 3 h forecast of surface
+       wind and reflectivity valid at 2100 UTC, overlaid with observations
+       and radar.
+
+   [snowflake_blue.gif] Figure 6: MM5 1800 UTC run 3 h forecast of total
+       precipitation and snowfall, ending 2100 UTC.
+
+   [snowflake_blue.gif] Figure 7: MM5 1800 UTC run 3 h forecast of 700 mb
+       wind and surface reflectivity, overlaid with 700 mb profiler wind
+       plot and NOWRAD, for 2100 UTC.
+
+   [snowflake_blue.gif] Figure 8: Mesoeta 1800 UTC run, 3 h surface and
+       snow accumulation forecast, with observations.
+
+   [snowflake_blue.gif] Figure 9: MM5 1800 UTC run 4 h forecast of surface
+       wind and reflectivity valid at 2200 UTC, overlaid with observations
+       and radar (CYS and DEN radar combined image).
+
+   [snowflake_blue.gif] Figure 9a: Same as Figure 8 but with radar overlay
+       of KFTG (Denver) radar only.
+
+   [snowflake_blue.gif] Figure 10: MM5 1800 UTC run 5 h forecast of
+       surface wind and reflectivity valid at 2300 UTC, overlaid with
+       observations and KFTG radar.
+
+   [snowflake_blue.gif] Figure 11: MM5 1800 UTC run 6 h forecast of
+       surface wind and reflectivity valid at 0000 UTC 18 November,
+       overlaid with observations and KFTG radar.
+
+   [snowflake_blue.gif] Figure 12: MM5 1800 UTC run 6 h forecast of total
+       precipitation and snowfall, for 6 h ending 0000 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 13: MM5 1800 UTC run 6 h forecast of 700 mb
+       wind and surface reflectivity, overlaid with 700 mb profiler wind
+       plot and NOWRAD, for 0000 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 14: Mesoeta 1800 UTC run, 6 h surface and
+       snow accumulation forecast, with observations, ending 0000 UTC 18
+       November.
+
+   [snowflake_blue.gif] Figure 15: MM5 1800 UTC run 7 h forecast of
+       surface wind and reflectivity valid at 0100 UTC 18 November,
+       overlaid with observations and KFTG radar.
+
+   [snowflake_blue.gif] Figure 16: MM5 1800 UTC run 9 h forecast of
+       surface wind and reflectivity valid at 0300 UTC 18 November.
+
+   [snowflake_red.gif] Figure 17: KFTG (Denver) low-level reflectivity
+       image for 0300 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 18: MM5 1800 UTC run 9 h forecast of total
+       precipitation and snowfall, for 9 h ending 0300 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 19: Mesoeta 1800 UTC run, 9 h surface wind,
+       snow and 6-h precipitation accumulation forecast, ending 0300 UTC
+       18 November.
+
+   [snowflake_blue.gif] Figure 20: MM5 1800 UTC run 9 h forecast of 700 mb
+       wind with snow and 6-h precipitation accumulation forecast, valid
+       0300 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 21: MM5 1800 UTC run 12 h forecast of 700
+       mb wind with snow and 6-h precipitation accumulation forecast,
+       valid 0600 UTC 18 November.
+
+   [snowflake_red.gif] Figure 22: KFTG (Denver) low-level reflectivity
+       image for 0400 UTC 18 November.
+
+   [snowflake_red.gif] Figure 23: KFTG (Denver) low-level reflectivity
+       image for 0500 UTC 18 November.
+
+   [snowflake_red.gif] Figure 24: KFTG (Denver) low-level reflectivity
+       image for 0600 UTC 18 November.
+
+   [snowflake_blue.gif] Figure 25: KFTG (Denver) low-level reflectivity
+       image for 1200 UTC 18 November.
+
+   [snowflake_red.gif] Figure 26: PTL profiler time series ending at 0100
+       UTC on 18 November.
+
+   [snowflake_red.gif] Figure 27: DEN sounding for 1200 UTC on 17
+       November.
+
+   [snowflake_red.gif] Figure 28: DEN sounding for 0000 UTC on 18
+       November. Note the steep low-level lapse rate now present.
+
+   -----------------------------------------------------------------------
+   --------------------------
+
+   [snowflake_red.gif] KFTG 2000_09_23_20z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_23_2134z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_23_23z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_00z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_01z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_02z
+
+
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_03z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_04z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_05z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_06z
+
+
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_0645z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_11z
+
+
+
+   [snowflake_red.gif] KFTG 2000_09_24_12z
+
+
+
+   [snowflake_red.gif] snowfall
+
+
+
+  Snow Storm of 9 March, 1992 - Front Range of Colorado
+
+   [Animated image of the Front Range storm - 9 Mar 92] (1.1 MB - 8 Image
+   Animation)
+
+          This model shows a three-dimensional view looking over Colorado
+          from the southeast.
+
+   [bams-sm.gif]
+
+          This figure shows a three-dimensional visualization of numerical
+          model results from the Colorado State University Regional
+          Atmospheric Modeling System (CSU RAMS) for a Colorado Front
+          Range blizzard event.
+     __________________________________________________________________
+
+  Local Analysis and Prediction System (LAPS)
+
+   [fsl93nov12-sm.gif] This figure depicts real-time analyses of a storm
+   that moved through the Colorado area on the morning of 12 November
+   1993. These analyses were developed at the NOAA Forecast Systems
+   Laboratory (FSL) in Boulder, Colorado.
+     __________________________________________________________________
+
+LAPS Series of a Severe Thunderstorm on 12 July 1993, Colorado
+
+   [laps0_tmp-sm.gif] LAPS analysis of a severe thunderstorm which
+   developed in northeastern Colorado on 12 July 1993.
+
+    [These figures were created by Paula McCaslin, Jerome Schmidt, Craig
+    Hartsough, and Phil McDonald of FSL and CIRA.]
+     __________________________________________________________________
+
+   Additional LAPS Information
+
+   Back to the FSL Home Page

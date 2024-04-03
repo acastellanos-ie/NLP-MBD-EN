@@ -1,0 +1,1223 @@
+http://wireless.fcc.gov/releases/020118-Alternate_138-144_Report.pdf
+
+   ALTERNATIVE FREQUENCIES FOR USE BY PUBLIC SAFETY SYSTEMS Response to
+   Title XVII, Section 1705 of the National Defense Authorization Act for
+   FY2001 FEDERAL COMMUNICATIONS COMMISSION ALTERNATIVE FREQUENCIES FOR
+   USE BY PUBLIC SAFETY SYSTEMS Response to Title XVII, Section 1705 of
+   the National Defense Authorization Act for FY2001 FEDERAL
+   COMMUNICATIONS COMMISSION Michael K. Powell, Chairman ii WIRELESS
+   TELECOMMUNICATIONS BUREAU Thomas J. Sugrue Chief Kathleen O. Ham Deputy
+   Chief Barry J. Ohlson Legal Advisor PUBLIC SAFETY AND PRIVATE WIRELESS
+   DIVISION D'wana R. Terry Chief Jeanne Kowalski Deputy Chief (Public
+   Safety) Herbert Zeiler Deputy Chief (Engineering) Ramona E. Melson
+   Deputy Chief (Legal) REPORT AUTHORS Peter J. Daronco Deputy Chief,
+   Policy & Rules Branch Shellie Blakeney Attorney-Advisor, Policy & Rules
+   Branch Brian Marenco Electronics Engineer, Policy & Rules Branch
+   CONTRIBUTORS Office of Engineering and Technology Fred Thomas Kathryn
+   Hosford International Bureau Thomas Tycz Mass Media Bureau Keith Larson
+   iii TABLE OF CONTENTS INTRODUCTION
+   .......................................................................
+   ............................................ 1 I. SECTION 1705(C)
+   ANALYSIS...............................................................
+   ..................... 2 Alternative
+   Frequencies............................................................
+   .................................... 2 Public Safety Systems
+   .......................................................................
+   ........................... 3 Available for
+   Use....................................................................
+   ...................................... 3 II. NON-FEDERAL GOVERNMENT
+   ALTERNATIVE FREQUENCIES FOR PUBLIC SAFETY
+   SYSTEMS............................................... 4 Potential
+   Benefits for Public Safety Systems
+   ............................................................... 4
+   Characteristics of "Alternative Frequencies" Under NDAA-01
+   .................................. 6 III. ANALYSIS OF ALTERNATIVE
+   FREQUENCIES AVAILABLE FOR PUBLIC SAFETY
+   SYSTEMS.................................................... 7 Broadcast
+   Bands (100-108 MHz and 174-216
+   MHz)................................................... 9 Aviation
+   Bands (108-137
+   MHz)...................................................................
+   .............. 10 Satellite Services (137-138 MHz and 148-150.05
+   MHz)........................................... 11 Amateur Bands
+   (144-148 MHz and 222-225
+   MHz)................................................... 12 Mixed
+   Service Bands (150.05-173.4 MHz and 216-220 MHz)
+   ................................. 13 The 220-222 MHz Service (220-222
+   MHz) ............................................................... 16
+   IV. CONCLUSION
+   .......................................................................
+   ..................................... 16 ATTACHMENT A: Summary of
+   Spectrum Currently Used for Public Safety Below 900 MHz ATTACHMENT B: A
+   Summary of Commission Recent Public Safety Actions ATTACHMENT C:
+   Commission Actions Furthering the Development of Public Safety Systems
+   ATTACHMENT D: Analysis of Non-Federal Government Frequencies That Are
+   or Could Be Made Available for Use By Public Safety Systems iv REPORT
+   TO CONGRESS ON ALTERNATIVE FREQUENCIES AVAILABLE FOR USE BY PUBLIC
+   SAFETY SYSTEMS Analysis of Non-Federal Government Spectrum Submitted by
+   the Chairman of the Federal Communications Commission Under the
+   Communications Act of 1934, as amended, the Federal Communications
+   Commission (Commission) has authority to assign frequencies to radio
+   stations in the United States, its territories and possessions, except
+   for those frequencies allocated to the Federal Government.1 As a
+   result, this Report provides the results of the Commission's staff
+   analysis of non-Federal Government spectrum that would constitute
+   alternative frequencies available for use by public safety systems in
+   accordance with the mandate of Section 1705(c) of NDAA-01 as
+   alternatives to the 138-144 MHz band. It should be noted that this
+   Report does not address frequencies allocated exclusively to the
+   Federal Government because such frequencies are not within the
+   Commission's jurisdiction. Federal Government frequencies will be
+   addressed in the companion Report of the National Telecommunications
+   and Information Administration (NTIA). This Report is divided into
+   three sections. The first section provides a framework for an analysis
+   of non-Federal Government spectrum responsive to the reporting
+   requirement by examining the legislative history of Section 1705(c) of
+   the NDAA-01. The second section discusses how to define "alternative
+   frequencies" in the context of Section 1705(c) and identifies specific
+   non-Federal Government spectrum that falls within the scope of such
+   definition. The third section provides the results of an analysis of
+   whether such alternative frequencies are available for use by public
+   safety systems within the meaning of Section 1705(c). Section 1705(c)
+   of the National Defense Authorization Act For Fiscal Year 2001
+   (NDAA-01)2 directs the Secretary of Commerce and the Chairman of the
+   Commission to "jointly submit a report to Congress on alternative
+   frequencies available for use by public safety systems." In this
+   connection, Section 1705(a) of the NDAA-01 directs the Secretary of
+   Defense to conduct an engineering study related to sharing of the
+   138-144 MHz band3 and Section 1705(b) requires the Secretary of Defense
+   to submit an interim report within one year of enactment of the
+   statute.4 The Commission currently authorizes public safety systems in
+   various bands, particularly, the VHF and UHF bands between 30 and 1000
+   MHz. However, as discussed in greater detail herein, Congress intended
+   for the Commission to identify alternative frequencies to the VHF
+   frequencies located between 138 and 144 MHz given its emphasis on this
+   band in subsection (a) of the statute. No other frequencies are
+   mentioned. Thus, in considering frequencies for public safety systems,
+   this Report will primarily focus on VHF frequencies administered by the
+   Commission because these frequencies are most comparable to the 138-144
+   MHz band and are therefore, viable alternatives. 1 47 U.S.C. §§ 151,
+   152, 902(b)(2)(A). 2 Pub. L. No. 106-398; Title XVII, § 1705, 114 Stat.
+   1654 (2000). 3 Id. 4 Id. I. Section 1705(c) Analysis5 In developing a
+   framework for this analysis of non-Federal Government spectrum in
+   response to the Section 1705(c) mandate, it is important to consider
+   Congress's intent with regard to three key terms  namely, "alternative
+   frequencies," "public safety systems" and "available for use." As an
+   initial matter, the NDAA-01 does not define these terms.6 When a
+   statute is silent or ambiguous with respect to particular definitions,
+   the Commission may exercise its reasonable discretion in construing the
+   statute, including referring to the statute's legislative history. The
+   legislative history of Section 1705 of the NDAA-01 is silent regarding
+   the intended meaning of the terms "alternative frequencies" and "public
+   safety systems." With respect to the term "available for use," however,
+   the legislative history does provide some guidance with respect to the
+   intended meaning of this term.7 Alternative Frequencies. The intended
+   meaning of the phrase "alternative frequencies" should not be
+   determined in isolation, but is most appropriately gleaned from reading
+   subsection (c) of Section 1705 in conjunction with the other
+   subsections. Specifically, subsection (a) of Section 1705 discusses an
+   engineering study of the 138144 MHz band conducted by the Secretary of
+   Defense.8 In light of Congress's emphasis on the 138144 MHz band in
+   subsection (a) of the statute, Congress apparently intended for the
+   Commission and Commerce Department to identify alternative frequencies
+   to the 138- 144 MHz band, particularly as no other frequencies are
+   expressly mentioned in Section 1705. 5 Section 1705 is set forth below:
+   "SEC. 1705. REPORT ON PROGRESS ON SPECTRUM SHARING (a) STUDY REQUIRED
+   The Secretary of Defense, in consultation with the Attorney General and
+   the Secretary of Commerce, shall provide for the conduct of an
+   engineering study to identify- (1) any portion of the 138-144 megahertz
+   band that the Department of Defense can share in various geographic
+   regions with public safety radio services; (2) any measures required to
+   prevent harmful interference between Department of Defense systems and
+   the public safety systems proposed for operation on those frequencies;
+   and (3) a reasonable schedule for implementation of such sharing of
+   frequencies. (b) SUBMISSION OF INTERIM REPORT  Within one year after
+   the date of enactment of this Act, the Secretary of Defense shall
+   submit to the Committee on Armed Services of the Senate and the
+   Committee on Armed Services of the House of Representatives an interim
+   report on the progress of the study conducted pursuant to subsection
+   (a). (c) REPORT  Not later than January 1, 2002, the Secretary of
+   Commerce and the Chairman of the Federal Communications Commission
+   shall jointly submit a report to Congress on alternative frequencies
+   available for use by public safety systems." 6 See NDAA-01, § 1705. 7
+   H.R. Conf. Rep. 106-945 ("Chairman of the Federal Communications
+   Commission would also be required to submit a report to Congress on
+   alternative frequencies that are, or could be made, available for use
+   by public safety systems"). 8 Pub. L. No. 106-398; Title XVII, §
+   1705(a). First, the engineering study must identify (1) specific
+   geographic regions in which the Department of Defense (DOD) and "public
+   safety radio services" can share portion(s) of the band. Second, the
+   study must identify measures to prevent harmful interference between
+   DOD systems and public safety systems proposed to operate on the band.
+   Finally, the study must identify a reasonable implementation schedule
+   to share the identified frequencies. 2 In addition, in its 1996 Report,
+   the Public Safety Wireless Advisory Committee concluded that the
+   138-144 MHz band can potentially be used for public safety sharing
+   among federal, state and local public safety service providers while
+   acknowledging that the band was allocated exclusively for federal use.9
+   Congress enacted the Balanced Budget Act of 1997 (BBA-97) which, inter
+   alia, required the Secretary of Commerce to provide at least twenty
+   megahertz of federal spectrum below 3 GHz to the Commission for
+   allocation.10 Pursuant to BBA-97, NTIA published a Spectrum
+   Reallocation Report, which identified three megahertz of spectrum
+   within the 138-144 MHz band (139-140.5 MHz and 141.5- 143 MHz) for
+   reallocation and assignment to non-federal users through the process of
+   competitive bidding.11 On October 5, 1999, Congress mandated that the
+   President shall reclaim the three megahertz of spectrum in the 138-144
+   MHz band, identified in NTIA's Spectrum Allocation Report, for
+   reallocation to exclusive Federal Government use.12 The Conference
+   Report accompanying this Act urged the Secretary of Defense to share
+   such frequencies with state and local government public safety radio
+   services.13 Thus, based on the statute, in conjunction with the
+   previous interest in the 138-144 MHz for public safety, it is concluded
+   that the intended focus of Section 1705(c) is on spectrum administered
+   by the Commission that is or could be considered a realistic
+   alternative to the 138-144 MHz band. Public Safety Systems. For
+   purposes of this Report, the term "public safety systems" is to
+   include, at a minimum, systems that support police, firefighting and
+   emergency medical service (EMS) personnel, given that the underlying
+   purpose of Congress's adoption of Sections 1701-1707 was to provide
+   assistance to firefighters.14 As a result, for purposes of complying
+   with Section 1705(c) of the NDAA-01, the term "public safety systems"
+   will be defined as wireless communications systems operated by State
+   and local governmental entities (e.g., police, fire, highway
+   maintenance, forestry conservation and EMS) and by other
+   non-governmental entities providing firefighting and emergency medical
+   services.15 Available for Use. As noted above, in contrast to the terms
+   "alternative frequencies" and "public safety systems," the legislative
+   history to Section 1705(c) provides some guidance with respect to the
+   meaning of the term "available for use." Specifically, the legislative
+   history indicates that available for 9 Public Safety Wireless Advisory
+   Committee Final Report at 58, Table 4-4-2 (rel. Sept. 11, 1996)(PSWAC
+   Final Report). 10 Pub. L. No. 103-66, Title III, § 3302(d), 111 Stat.
+   251, 262-63 (1997). 11 See Second Spectrum Reallocation Report, NTIA
+   Special Publication 98-36 (rel. February, 1998) (Final Reallocation
+   Report). Pursuant to BBA-97, NTIA recommended several bands of
+   frequencies that span not less than 20 megahertz located below 3 GHz.
+   12 See Pub. L. No. 106-65, Div. A, Title X, § 1052, 113 Stat. 768
+   (1999). National Defense Authorization Act For Fiscal Year 2000
+   (NDAA-00). 13 See Conference Report, H.R. Rep. No. 106-1052. 14 H.R.
+   Conf. Rep. 106-945 (Assistance to Firefighters (secs. 1701-1707). 15
+   BBA-97 modified the definition of public safety to encompass other
+   types of users including, utilities and railroads. See Implementation
+   of Sections 309(j) and 337 of the Communications Act of 1934 as
+   Amended; Promotion of Spectrum Efficient Technologies on Certain Part
+   90 Frequencies; Establishment of Public Service Radio Pool in the
+   Private Mobile Frequencies Below 800 MHz; Petition for Rule Making of
+   the American Mobile Telecommunications Association, Report and Order
+   and Further Notice of Proposed Rule Making, WT Docket No. 99-87,
+   RM-9332, RM-9705, 15 FCC Rcd 22709 (1999). On December 21, 2000,
+   Congress enacted legislation that requires NTIA to submit a report by
+   December 21, 2001 on the current and future spectrum requirements of
+   providers of energy, water and railroad services. See Pub. L. No.
+   106-553, 114 Stat. 2762 (2000). This Act requires the Chairman of the
+   Commission to submit a report within six months after the release of
+   the NTIA study on actions that could be taken by the Commission to
+   address any of the needs identified in the NTIA study. See id. Thus,
+   the spectrum needs of the entities discussed in this statute (e.g.,
+   utilities and railroads) will be explored in an upcoming report. 3 use
+   includes those frequencies that "are or could be made available." In
+   this connection, the clear intent of Congress is for the Commission and
+   the Commerce Department to examine not only those frequencies that are
+   presently available for use by public safety systems, but also those
+   frequencies that could be made available. As a result, this analysis
+   will encompass the entire range of frequencies administered by the
+   Commission that can be characterized as alternative frequencies to the
+   138-144 MHz band and are or could be made available to public safety
+   systems. II. Non-Federal Government Alternative Frequencies for Public
+   Safety Systems A. Potential Benefits for Public Safety Systems This
+   section of the Report focuses on non-Federal Government bands that are
+   or could be alternative frequencies under the NDAA-01. A critical first
+   step in this inquiry is to determine what uses would be made of the
+   138-144 MHz band if non-Federal Government public safety systems were
+   allowed to operate therein. In this regard, the record in the
+   Commission's ongoing public safety proceeding, WT Docket No. 96-86,
+   provides some insight as to what types of uses were envisioned for the
+   band by the public safety community. By way of background, on September
+   29, 1998, the Commission released its Third Notice of Proposed Rule
+   Making in WT Docket No. 96-86, wherein it sought comment on "the
+   establishment of an interoperability16 band in the 138-144 MHz band."17
+   The Commission also sought comment on "the practicality of providers of
+   public safety services acquiring small, inexpensive radios that are
+   capable of communicating in the 138-144 MHz band."18 In response to the
+   Third Notice, commenters stated that in addition to interoperability,
+   the 138-144 MHz band could be used for new technology, shared use wide-
+   area systems and expansion of existing systems operating in the 150-174
+   MHz band.19 In this regard, the Commission's licensing records indicate
+   that public safety entities most intensively use the frequencies lying
+   between 150-174 MHz. By way of reference, surveys indicate that
+   approximately 73% of all law enforcement entities20 and 65-70% of all
+   firefighting and EMS agencies21 operate land mobile radio systems in
+   the 100 to 300 MHz bands, which will be referred to as the "VHF
+   high-band." Based on the information received in response to the Third
+   Notice, there would be two primary benefits associated with the
+   potential operation of public safety systems in the 138-144 MHz band.
+   16 "Interoperability" is defined as "an essential communication link
+   within public safety and public service wireless communications systems
+   which permits units from two or more different entities to interact
+   with one another and to exchange information according to a prescribed
+   method in order to achieve predictable results." 47 C.F.R. § 90.7. 17
+   See Development of Operational, Technical and Spectrum Requirements for
+   Meeting Federal, State and Local Public Safety Agency Communications
+   Requirements through the Year 2010, WT Docket No. 96-86, First Report
+   and Order and Third Notice of Proposed Rulemaking, 14 FCC Rcd 152, 239
+   ¶ 193 (1998) (Public Safety First R&O). 18 Id. 19 See, e.g., National
+   Public Safety Telecommunications Council, Petition for Further
+   Rulemaking to Allocate Spectrum in the 138-144 MHz Band for Public
+   Safety, WT Docket No. 96-86/RM 9274, at 7-10 (Apr. 9, 1998) (NPSTC
+   Petition); NPSTC Comments to the Third Notice of Proposed Rulemaking at
+   8-9, in WT Docket No. 96-86 (January 19, 1999); State of New York,
+   Division of State Police Comments at 6-7, in WT Docket No. 96-86 (June
+   16, 1998); Association of Public-Safety Communications
+   Officials-International, Inc. (APCO) Comments at 3, in WT Docket No.
+   96-86 (June 12, 1998); APCO Comments to the Third Notice of Proposed
+   Rulemaking at 8-9, in WT Docket No. 96-86 (January 19, 1999). 20 See
+   National Law Enforcement and Correction Technology Center, Wireless
+   Communication and Interoperability Among State and Local Law
+   Enforcement Agencies Series, NCJ 168945, released January 1998, at 2.
+   21 See Public Safety Wireless Network Program, Analysis of Fire and EMS
+   Communications Interoperability (rel. April 1999) (PSWN Analysis). See
+   also NPSTC Petition at 7, in WT Docket No. 96-86 (Apr. 9, 1998). 4
+   First, given that numerous public safety systems currently operate in
+   the VHF high-band, other frequencies in the VHF high-band would appear
+   to be ideal candidates that could be used to meet the public safety
+   community's additional interoperability needs. In this connection, the
+   Commission has designated five existing VHF high-band public safety
+   channels for interoperability22 and reallocated two VHF high-band
+   maritime frequencies for public safety use in each of the thirty-three
+   inland VHF Public Coast areas  for interoperability.23 In addition,
+   providing spectrum for interoperability close in proximity to those VHF
+   frequencies currently employed in public safety systems would allow
+   manufacturers to develop broadband radios capable of utilizing both
+   existing and new public safety spectrum allocations.24 Second, the
+   public safety community has expressed a desire to expand and/or upgrade
+   its systems operating in the VHF high-band. As noted previously, the
+   public safety community makes intensive use of the VHF high-band, which
+   has resulted in such frequencies being extremely congested. For
+   example, it has been reported to the Commission that congestion in the
+   VHF high-band throughout the nation impedes efforts to identify and
+   recommend new public safety assignments in the band without causing
+   harmful interference to existing public safety systems.25 In terms of
+   upgrading and/or modernization of public safety systems, these results
+   would most likely be accomplished by adding frequencies, implementing
+   the repeater mode,26 or converting to trunked operations.27 Adding
+   frequencies to current systems would allow public safety entities to
+   implement complex (i.e., using advanced technologies with voice and
+   data capabilities) and/or wide-area systems in an effort to
+   consolidate, enhance or expand their public safety communications. In
+   this regard, the closer such additional frequencies are to those
+   currently used in existing VHF public safety systems, the more likely
+   it is that integration of such frequencies could be done in a
+   cost-effective and expeditious manner. Implementation of the repeater
+   mode in current public safety systems would greatly increase the
+   communications range of mobile and hand-held units. It also would
+   foster maximum operational efficiency by allowing systems to be located
+   closer without resulting in harmful interference. Finally, trunked
+   operations promote efficient spectrum use because idle channels are
+   assigned on an as-needed basis, thus allowing for greater frequency
+   re-use by public safety entities. 22 Development of Operational,
+   Technical and Spectrum Requirements for Meeting Federal, State and
+   Local Public Safety Agency Communications Requirements through the Year
+   2010, WT Docket No. 96-86, Third Memorandum Opinion and Order and Third
+   Report and Order, 15 FCC Rcd 19844, 19883 ¶ 86 (2000). 23 See Amendment
+   of the Commission's Rules Concerning Maritime Communications, PR Docket
+   No. 92-257, Third Report and Order and Memorandum Opinion and Order, 13
+   FCC Rcd 19853, 19868 ¶ 31 (1998) (Maritime Third R&O). 24 See PSWAC
+   Final Report; NPSTC Petition at 3, in WT Docket No. 96-86 (Apr. 9,
+   1998). 25 See NPSTC Comments in WT Docket No. 96-86 (Apr. 9, 1998). 26
+   See e.g., National Law Enforcement and Corrections Technology Center,
+   Understanding Wireless Communications in Public Safety, NCJ 180211,
+   released August 2000, at 60-62 (August 2000 NLECTC Guidebook).
+   "Repeater mode" refers to systems that operate with frequency pairs
+   rather than using a single frequency. A repeater functions as an
+   amplified relay station for base stations, mobile or hand-held units.
+   Mobile units and hand-held units transmit on a repeater input
+   frequency. The repeater retransmits the transmission from the mobile or
+   hand-held unit on a repeater output frequency. 27 When a radio system
+   operates in the trunked mode it employs technology that provides the
+   ability to search two or more available channels and automatically
+   assign a user an open channel. See, e.g., 47 C.F.R. § 90.7. 5 B.
+   Characteristics of "Alternative Frequencies" Under the NDAA-01 Below is
+   a discussion of the specific characteristics of frequencies that would
+   constitute meaningful alternatives to the 138-144 MHz band. As an
+   initial matter, the non-Federal Government radio spectrum administered
+   by the Commission spans from 9 kHz to 300 GHz.28 Radio waves exhibit
+   very different propagation characteristics depending on their frequency
+   band. Consequently, engineers design radio systems to take advantage of
+   the unique propagation characteristics of a given frequency band. Thus,
+   based on the potential benefits described in Section II.A above, it
+   appears that any spectrum identified as alternative frequencies must
+   have the same or comparable propagation characteristics to that of the
+   138-144 MHz band. The 138-144 MHz band is located in the higher portion
+   of the VHF band. As a general matter, the propagation characteristics
+   of VHF frequencies permit effective coverage of large geographic areas,
+   in part because they are less susceptible to attenuation from trees and
+   foliage. However, VHF frequencies are susceptible to natural and
+   manmade noise, as well as, to the phenomenon known as "skip." "Skip"
+   occurs when a radio wave reflects off the ionosphere during the height
+   of the sunspot cycle. Radio waves experiencing "skip" can travel a much
+   greater distance than they would travel under normal propagation
+   conditions.29 There are certain propagation distinctions between the
+   VHF low-band frequencies (i.e., 30 MHz to 100 MHz) and the VHF
+   high-band frequencies. For example, VHF high-band frequencies are less
+   susceptible to "skip" and manmade and natural noise. In addition, VHF
+   high-band frequencies have the ability to diffract over hills and
+   around other obstacles to reduce "dead" spots within the service areas.
+   Moreover, VHF high-band frequencies are generally more effective at
+   building penetration than VHF low-band frequencies. Due to their unique
+   propagation characteristics, VHF high-band frequencies are often used
+   for operations that require a single station to cover a large
+   geographic area. In addition, it appears that any spectrum identified
+   as alternative frequencies should be in close proximity to the
+   frequencies most intensely used in order to facilitate their
+   integration into existing public safety systems and radio equipment in
+   the most cost-effective, practicable, expeditious and technically
+   feasible manner possible. Such an approach will foster realization of
+   and mirror the potential public safety benefits associated with the
+   operation of public safety systems in the 138-144 MHz band. After
+   consideration of the aforementioned characteristics of alternative
+   frequencies for the 138- 144 MHz band, it can be concluded that those
+   alternative frequencies available for use by public safety systems
+   should be limited to non-Federal Government frequencies in the VHF
+   high-band. In reaching this view, all of the frequencies administered
+   by the Commission were taken into consideration. The 9 kHz to 25 MHz
+   bands, are not meaningful alternatives because there are no public
+   safety allocations contained therein and the propagation
+   characteristics of such frequencies vary significantly from those of
+   the 138-144 MHz band. As indicated earlier in this Section II.B, radio
+   systems must be designed to take advantage of the unique propagation
+   characteristics of a given frequency band. For instance, the lower the
+   frequency, the longer its wavelength. Thus, in order to maximize signal
+   reception below 25 MHz, antennas must be designed relatively large in
+   length.30 These types of antennas are difficult to incorporate on a
+   portable/mobile unit. Consequently, frequencies below 25 MHz are
+   impracticable for land mobile operations. 28 See 47 C.F.R. § 2.101. 29
+   In this regard, the phenomenon of skip can create interference problems
+   between co-channel radio systems located many miles apart. As a result,
+   the ability to re-use frequencies in different geographic areas is
+   limited due to potential or actual skipping. See generally, August 2000
+   NLECTC Guidebook at 44-45. 30 See, August 2000 NLECTC Guidebook at
+   44-45. 6 With respect to the frequencies in the 25 MHz to 30 MHz band,
+   while there are public safety allocations contained therein, this band
+   is not where the majority of public safety systems are located and it
+   too has different propagation characteristics from those of the 138-144
+   MHz band.31 These frequencies are less effective at penetrating
+   buildings and more susceptible to skip interference, as well as,
+   manmade and natural noise than frequencies ranging from 100 MHz to 300
+   MHz.32 Thus, these frequencies also would not constitute alternative
+   frequencies. The VHF low-band frequencies,33 which include some public
+   safety allocations, have better propagation and lower loss to foliage
+   than the 138-144 MHz band. However, compared to the 138-144 MHz band,
+   they are generally worse at building penetration, are very susceptible
+   to skip interference and experience a high level of manmade and natural
+   noise. With respect to frequencies in the 300 MHz to 3000 MHz bands,
+   while they contain public safety allocations,34 compared to the 138-144
+   MHz band, they experience the most loss due to trees and forests.
+   Nonetheless, these frequencies have the best building penetration, no
+   skip and the lowest level of manmade and natural noise. However, these
+   frequencies are not in close proximity to the frequencies on which the
+   majority of public safety systems currently operate. Hence, frequencies
+   outside the 100 MHz to 300 MHz range do not exhibit the same or
+   comparable characteristics of the 138-144 MHz band. Therefore,
+   frequencies below 100 MHz and above 300 MHz are excluded from
+   consideration as alternative frequencies to the 138-144 MHz band for
+   the reasons stated herein. III. Analysis of Alternative Frequencies
+   Available for Public Safety Systems This section of the Report
+   considers whether VHF high-band frequencies are or could be made
+   available for public safety system use. The following chart (not to
+   scale) is a general outline of the current non-Federal Government
+   primary VHF high-band allocations.35 As stated earlier, the NTIA Report
+   will examine the spectrum allocated to the Federal Government. 31 Id.
+   32 Id. 33 The VHF low-band includes frequencies ranging from 30 MHz to
+   100 MHz. 34 Public safety systems currently operate on frequencies
+   outside the VHF band such as those contained in the 700 MHz and 800 MHz
+   bands. As stated previously, Congress intended for the Commission to
+   identify realistic alternatives to the 138-144 MHz band (i.e.,
+   frequencies that are most analogous to those identified in the
+   statute). The propagation characteristics of the 700 MHz and 800 MHz
+   frequencies are not comparable to those contained between 138 and 144
+   MHz. Thus, it appears that identifying alternative frequencies in the
+   700 and 800 MHz band was not intended for purposes of this Report. In
+   addition, the Commission reallocated 24 megahertz of spectrum in the
+   700 MHz band pursuant to 47 U.S.C. § 337 in 1998. Congress's decision
+   not to note this directive in the NDAA-01 or accompanying conference
+   report as a possible source of alternative frequencies to the 138-144
+   MHz band lends additional support to the conclusion that Congress
+   intended for the Commission to seek possible alternative frequencies in
+   spectrum with similar properties and characteristics, such as those
+   located between 100 and 300 MHz. 35 Attachment D contains a
+   comprehensive table of frequency usage in the VHF high-band. 7
+   Broadcasting Aeronautical Aeronautical Satellite * Amateur Satellite FM
+   Radionavigation Mobile Communications 100 MHz 108 117.975 137 138 144
+   148 150.05 Mixture of * Broadcast Mixture of Part 90 Land Amateur *
+   Services36 TV Ch 7-13 Services37 Mobile 150.05 MHz 173.4 174 216 220
+   222 225 300 MHz * Federal Government spectrum This analysis begins with
+   an examination of the VHF high-band frequencies that are available for
+   use by public safety systems. There are 3.6 megahertz of spectrum
+   allocated for operation of public safety systems in the 150.05-173.4
+   MHz bands. Specifically, public safety entities currently operate land
+   mobile radio systems in this band at 153.74-154.47875 MHz,
+   154.650-156.32475 MHz, 158.7225- 159.4725 MHz, and 172-173.4 MHz. As
+   noted herein, this spectrum is intensively used by public safety
+   entities. Thus, it appears that there is not a sufficient amount of
+   vacant spectrum in these bands to accommodate new and/or modernized
+   public safety systems. Nonetheless, there may be some pockets of vacant
+   spectrum in these bands, particularly in rural areas, that possibly
+   could accommodate limited system expansion and modernization in these
+   geographic areas. However, it appears that large-scale accommodation of
+   new, expanded or upgraded public safety systems would not be possible
+   in these bands, particularly in major urban areas. Generally, VHF
+   high-band frequencies are very congested in the major urban areas where
+   public safety systems are most needed. Furthermore, the remaining VHF
+   high- band frequencies (i.e., 150.05-173.4 MHz) are not currently
+   available for use by public safety systems because, as indicated by the
+   above chart, the frequencies are allocated or designated for different
+   uses. Consistent with the construction of the meaning of the term
+   "available for use" in NDAA-01's Section 1705(c), this analysis is
+   completed by examining which, if any, VHF high-band frequencies could
+   be made available for use by public safety systems. This analysis will
+   consist of examining the non- Federal Government VHF high-band
+   frequencies on a service-by-service basis to determine whether they
+   could be made available for use to public safety systems. Arguably, the
+   Commission has two options with regard to accommodating public safety
+   systems on spectrum currently designated for other purposes. The
+   Commission could: (1) reallocate spectrum and designate it for use by
+   public safety systems either on a nationwide or geographic area basis;
+   or (2) adopt rules to provide for frequency sharing between public
+   safety services and incumbent non-public safety services. The following
+   is an analysis of each of the VHF high-band frequencies and the
+   incumbent services. In the discussion of each service, the feasibility
+   of implementing both of these options in the subject VHF high-band
+   frequencies is addressed. In the context of the discussion, the Report
+   considers a variety of factors including the state of the current use
+   of the band, relevant ongoing Commission proceedings, applicable
+   statutory mandates, compatibility of current uses with traditional
+   public safety communications, and impact on current licensee operations
+   (including capital investments already made). 36 Non-Federal Government
+   services on these frequencies include Private Land Mobile (Part 90),
+   Public Mobile (Part 22), Auxiliary Broadcasting (Part 74) and Maritime
+   (Part 80). Parts of this band are also available to the Federal
+   Government. See 47 C.F.R. § 2.106. 37 The services on these frequencies
+   include Maritime (Part 80), Private Land Mobile (Part 90), Personal
+   Radio (Part 95) and Amateur (Part 97). 8 Broadcast Bands (100-108 MHz
+   and 174-216 MHz) The frequencies 100-108 MHz and 174-216 MHz are
+   allocated internationally and domestically on a primary basis to the
+   Broadcasting Service.38 Domestically, the frequencies 100-108 MHz are
+   used for FM broadcast,39 while the frequencies 174-216 MHz are used for
+   TV broadcast.40 Internationally, these bands are allocated on a
+   secondary basis for fixed and mobile services.41 These bands are
+   encumbered with both full power and low power FM and TV broadcast
+   stations. Reallocation. The reallocation of this spectrum to public
+   safety use on a nationwide or certain geographic area basis would be
+   extremely difficult and problematic. First, such reallocation would be
+   inconsistent with the primary international allocation. The
+   international allocations are designed to take into consideration
+   several factors relating to the technical needs and characteristics of
+   adjacent channel systems. Reallocating spectrum in a manner that is
+   inconsistent with the primary international allocation may promote
+   instances of harmful interference thereby jeopardizing border areas.
+   Although the Commission is engaged in negotiations with other countries
+   concerning the reallocation of spectrum at border areas, such efforts
+   involve the development of extensive coordination procedures which is
+   oftentimes a lengthy process that spans over the course of several
+   years. Second, a nationwide reallocation would entail identifying a new
+   home for the displaced FM and TV broadcast stations. Comparable
+   spectrum is not available to accommodate such a relocation. Third,
+   there has been considerable investment by both the FM and TV broadcast
+   licensees operating in these bands and the general public in the
+   facilities and equipment associated with existing broadcast operations.
+   Arguably, any reallocation and associated relocation of the broadcast
+   operations would result in increased costs to the public. In addition
+   to the additional cash outlays that would be required for equipment
+   replacement, reallocation of broadcast operations would interfere with
+   the public's television and radio viewing and listening choices.
+   Fourth, reallocating the TV and FM bands would be difficult due to the
+   significant number of incumbents. For example, congestion in the TV
+   band has increased because the TV broadcast band was reduced in size as
+   a result of the transition from analog to digital television.
+   Specifically, all TV stations must eventually operate on the "core"42
+   TV channels 2-51. Congestion in the TV "core" is further aggravated
+   because every full power station operates with a second digital channel
+   and low power TV stations fill in areas where a higher power station
+   cannot be accommodated. Sharing with Public Safety Systems. Given the
+   nature of the broadcast operations on the VHF high-band frequencies
+   that are designated for such use (i.e., 100-108 MHz and 174-216 MHz),
+   particularly the power levels associated with these operations, sharing
+   with public safety systems would not be feasible. The maximum power
+   levels of these systems are as high as 316 kW.43 This power level will
+   serve a large geographic area from a single site and thereby affect
+   adjacent channel operations. Moreover, as a general matter, these
+   operations are incompatible. For example, broadcast transmissions are
+   intended for direct public reception whereas public safety
+   communications are intended to be internal to public safety personnel.
+   38 47 C.F.R. § 2.106. The Broadcasting Service is a radio communication
+   service in which the transmissions are intended for direct reception by
+   the general public. This service may include sound transmissions,
+   television (TV) transmission or other types of transmissions. See 47
+   C.F.R. § 2.1. These frequencies are used for television, FM radio and
+   auxiliary broadcasting. 39 FM Channels 261-300. See 47 C.F.R. § 73.201.
+   40 TV Channels 7-13. See 47 C.F.R. § 73.603. 41 See 47 C.F.R. § 2.106.
+   42 "Core" channels refer to the channels that will remain available for
+   TV broadcasting after the reallocation of TV channels 52-69 for other
+   wireless communications services. 43 See, e.g., 47 C.F.R. § 73.614. 9
+   Further, based on past experience in other broadcast bands where
+   broadcast and land mobile radio operations share frequencies, such
+   sharing has been accommodated by identifying specific areas in which
+   one type of operation would be primary and entitled to interference
+   protection vis-à-vis the other type of operation.44 This type of public
+   safety sharing would be difficult in FM and TV frequencies because both
+   bands are extremely congested in major metropolitan areas where public
+   safety systems are most needed. For example, in the FM band, the
+   Commission informs potential applicants for the low power FM service
+   that certain urban areas such as New York, Los Angeles and Chicago are
+   already so congested with full powered FM stations that there may be no
+   room for additional stations.45 In the TV band, congestion exists today
+   because every full power TV station is assigned two TV channels. A
+   second channel is assigned to each full-service television licensee in
+   the country to facilitate the transition from analog to digital
+   television. In addition, primary lower powered TV stations fill in
+   areas where a higher power station cannot be accommodated.46 Public
+   safety entities currently share, on a geographic basis, TV Channels
+   14-20 (470-512 MHz).47 Pursuant to a sharing arrangement, developed in
+   1970, certain TV channels are assigned for exclusive land mobile use to
+   major metropolitan cities.48 Nonetheless, it would be difficult to
+   extend this sharing arrangement to VHF high-band TV frequencies due to
+   the transition from analog to digital TV. The possibility of sharing is
+   essentially eliminated in the TV broadcast bands. In addition, in light
+   of the incompatibility of broadcast and public safety operations, it is
+   unlikely that accommodating public safety systems by allowing them to
+   operate on a secondary basis would be meaningful because there would be
+   a significant likelihood that such systems would experience harmful
+   interference.49 Aviation Bands (108-137 MHz) The frequencies 108-137
+   MHz are allocated internationally and domestically on a primary basis
+   for the Aviation Radio Service. Specifically, the frequencies
+   108-117.975 MHz are used for aeronautical radionavigation50 and the
+   frequencies 117.975-137 MHz are used for aeronautical mobile
+   operations.51 Reallocation. Similar to the analysis of the broadcast
+   bands, it appears that reallocation would be 44 See 47 C.F.R. Part 90,
+   Subpart L (frequencies 470-512 which include TV channels 14-20). 45 See
+   Low Power FM Radio: An Applicant's Guide at
+   http://www.fcc.gov/mmb/prd/lpfm/lpfmguide.pdf. 46 Low power TV stations
+   operating on a primary basis are known as Class A TV stations. See 47
+   C.F.R. Part 74, Subpart G. 47 47 C.F.R. § 90.301. 48 For example, TV
+   Channels 14 and 15 are assigned to the New York/Northeast New Jersey
+   area. See 47 C.F.R. § 90.303. 49 For instance, the Commission's rules
+   require low power TV stations to protect land mobile stations on
+   certain channels in specific geographic areas from potential harmful
+   interference. See 47 C.F.R. § 74.709. In addition, the Commission's
+   rules require full power TV stations and land mobile stations to
+   protect one another from harmful interference. See Further Sharing of
+   the UHF Television Band by Private Land Mobile Radio Services, Notice
+   of Proposed Rulemaking, Gen. Docket No. 85-172, 101 FCC 2d 852 (1985),
+   cited in Application of Goosetown Enterprises, Memorandum Opinion and
+   Order, 16 FCC Rcd 12792 (2001); see also 47 C.F.R. §§ 90.305(a), (b),
+   307, 309. 50 Radionavigation is the use of radiodetermination for the
+   purpose of navigation, including obstruction warning. See 47 C.F.R. §
+   87.5. 51 The Aeronautical Mobile Service is a mobile service between
+   aeronautical stations and aircraft stations, or between aircraft
+   stations, in which survival craft stations may participate; emergency
+   position-indicating radiobeacon stations may also participate in this
+   service on designated distress and emergency frequencies. See 47 C.F.R.
+   § 87.5. 10 extremely problematic for the aviation bands and is not a
+   viable option. First, such reallocation would appear to conflict with
+   the primary international allocation. As discussed previously, this
+   Report finds that reallocating spectrum in a manner that is
+   inconsistent with primary international allocations may jeopardize
+   transmissions at the border areas. Second, there is the concern that
+   reallocation of this spectrum could adversely affect air safety, both
+   internationally and domestically. For instance, aviation frequencies
+   generally are used for communications with aircraft in flight and such
+   communications can be received over a wide geographic area due to the
+   height of the aircraft's receive antenna above ground. Further,
+   transcontinental air travel requires that spectrum be allocated
+   consistent with international allocations to avoid endangering air
+   travel safety. In light of the September 11, 2001 terrorist attacks, it
+   is important to recognize the integrity of aviation communications. In
+   this connection, land mobile radio operation on such frequencies could
+   cause harmful interference to such aviation-related communications and
+   thus compromise the safety of air travel. Third, given the use of the
+   aviation bands on an international and nationwide basis, discrete
+   geographic areas to accommodate use by public safety systems do not
+   appear to exist, particularly given the wide area over which aviation
+   communications travel and are potentially received by aircraft. Fourth,
+   reallocation would entail identification of replacement spectrum and
+   reconfiguration and/or replacement of aircraft radio equipment.
+   Finally, reallocation would disrupt and jeopardize these essential
+   services. Moreover, reallocation would require current aviation
+   communications operators to modify their systems and to incur the costs
+   associated with disruption resulting from relocation. In this regard,
+   this Report finds that reallocation is not in the public interest.
+   Sharing with Public Safety Systems. Sharing between the aviation radio
+   communications being conducted in this band and the envisioned public
+   safety communications would not be feasible. Specifically, the two
+   types of communications do not appear to be sufficiently compatible to
+   occur on the same frequencies in the same frequency bands. In addition,
+   given the wide area requirements of the aviation radio communications
+   occurring in this band, discrete geographic areas where there would not
+   be a potential for harmful interference either to the aviation-related
+   communications or the public safety communications do not appear to
+   exist. Thus, it appears that such sharing would adversely affect
+   aviation radio communications and/or public safety communications.
+   Satellite Services (137-138 MHz and 148-150.05 MHz) The frequencies
+   137-138 MHz and 148-150.05 MHz are allocated domestically and
+   internationally for Satellite Services. The 137-138 MHz and 148-150.05
+   MHz bands are used by the Low-Earth Orbit ("Little LEO") Non-Voice,
+   Non-Geostationary Mobile Satellite Service (NVNG MSS).52 Little LEOs
+   use small satellites at approximately 600 miles altitude to provide
+   data communications.53 Reallocation. The reallocation of these bands is
+   not a viable option. Again, such reallocation would be inconsistent
+   with the international allocation of these frequencies and, thus, may
+   adversely affect international operations. Further, international
+   agreements would allow satellites licensed by other countries to
+   transmit while in the United States, thus potentially causing
+   interference to terrestrial services in this band. Additionally, a
+   domestic reallocation of these spectrum bands may potentially adversely
+   affect efforts of Little LEO licensees and applicants to pursue
+   development of new services. 52 "Little LEO" is a non-voice,
+   non-geostationary mobile-satellite service. See 47 C.F.R. §§ 2.106,
+   25.202(a)(3). In addition, the National Aeronautics and Space
+   Administration operates two geostationary weather satellites and one
+   non-geostationary (NGSO) weather satellite in both bands. A second NGSO
+   weather satellite operates in the 137- 138 MHz band. Also, the Federal
+   Government operates five NGSO satellite systems at 137-138 MHz. 53 NVNG
+   MSS applications include vehicle tracking and monitoring, environmental
+   data collection, maritime safety communications, electronic mail, meter
+   reading, and security alerting. 11 Sharing with Public Safety Systems.
+   Similarly, sharing between the satellite services in this band and
+   public safety systems would not be feasible. As a general matter,
+   sharing between non-stationary low orbiting satellite systems and
+   public safety land mobile radio systems likely could be implemented in
+   this band only if the two types of systems were confined to separate
+   geographic areas or if there is some form of band segmentation. In this
+   connection, land mobile radio transmitters are typically
+   omni-directional and thus would desensitize any satellite receivers in
+   the near vicinity. Additionally, the satellites would be a potential
+   source of harmful interference to the receivers for public safety land
+   mobile radio systems, either at the base stations, the mobile units or
+   remote locations. Hence, the sharing option is further complicated by
+   the ubiquitous fly-over nature of the multi-satellite systems operating
+   in the bands. A further concern is the unlimited operational area of
+   associated Little LEO earth stations combined with the roaming ability
+   of the mobiles associated with public safety systems. Given the nature
+   of both of these operations, the coordination of the two diverse types
+   of systems would be both very difficult and costly to achieve without
+   substantial concomitant public interest benefits.54 Amateur Bands
+   (144-148 MHz and 222-225 MHz) The frequencies 144-148 MHz band
+   (commonly referred to as the 2 Meter (m) band) and the 222- 225 MHz
+   band (commonly referred to as the 1.25m band) are allocated
+   domestically and internationally for the Amateur Radio Service. Over
+   600,000 amateur service licensees are authorized to transmit any of
+   1300 emission types in these bands. Under the Commission's licensing
+   approach for the Amateur Radio Service, licensees are assigned specific
+   frequencies but are authorized to use any available channel in the
+   amateur bands if they have met the requisite eligibility requirements.
+   The 2m band is the most heavily used Amateur Radio Service band. It is
+   used extensively for digital (packet radio) communication networks and
+   systems, repeaters, and satellite uplinks and downlinks, in part
+   because these frequencies are allocated to the Amateur Radio Service on
+   a primary exclusive basis in the international Radio Regulations.
+   Almost all amateur service VHF transceivers include this band as a
+   standard feature. The 1.25m band is authorized to all 700,000 Amateur
+   Radio Service licensees. It is used for single band and cross-band
+   repeaters, control links for 2m repeaters, weak signal communications,
+   meteor communications, satellite uplinks and downlinks and digital
+   communications. In 2001, amateur radio equipment manufacturers began
+   marketing tri-band amateur radio equipment that includes the 1.25m
+   band. Reallocation. Upon reviewing the nature and extent of the amateur
+   radio operations in the 2m and 1.25m bands, reallocation of this
+   spectrum for public safety systems does not appear to be practical.
+   Such reallocation would be inconsistent with international spectrum
+   allocations and, as a result, would potentially cause significant
+   disruption to amateur radio operations not only domestically but also
+   internationally. Similarly, these amateur frequencies cannot be
+   reallocated in specific geographic areas for public safety systems
+   because, as noted above, the Amateur Radio Service is not licensed on a
+   site- specific basis and amateur radio licensees, both domestically and
+   internationally, use the frequencies throughout the United States.
+   Therefore, there are not many, if any, locations to find that the 2m
+   and 1.25m bands are sufficiently underutilized to warrant reallocating
+   such spectrum for public safety systems on a geographic basis without
+   fear of adversely affecting amateur radio communications. 54 While in
+   certain circumstances it may be possible to incorporate and share with
+   point-to-point microwave public safety facilities, given the inherent
+   shielding from satellites and general nature of such fixed operations,
+   effective and successful coordination with ubiquitous earth stations
+   would still be difficult. Public safety systems that are the subject of
+   this Report would be land mobile radio systems rather than
+   point-to-point fixed microwave systems. 12 Sharing with Public Safety
+   Systems. Similarly, public safety systems could not share this band
+   with the amateur radio community, primarily due to the nature and
+   licensing of amateur radio communications. Sharing would be problematic
+   given the current international spectrum allocation for these bands. In
+   addition, the public safety community already derives certain indirect
+   benefits from the amateur radio community's use of these bands. For
+   example, amateur radio operators often use the frequencies to transmit
+   messages for and/or to public safety entities during emergencies,
+   including but not limited to, hurricanes, earthquakes, tornadoes,
+   floods, motorist accidents, fires, chemical spills, and search and
+   rescue missions. Mixed Service Bands (150.05-173.4 MHz and 216-220 MHz)
+   The frequencies 150.05-173.4 MHz are allocated internationally and
+   domestically for fixed and mobile terrestrial services. The 216-220 MHz
+   band is allocated internationally and domestically for fixed, maritime,
+   mobile and radiolocation services. The Commission currently
+   accommodates a variety of services in these bands, on the frequencies
+   available for non-Federal Government use. What follows is an
+   examination of the non-Federal Government 150.05-173.4 MHz, and the
+   216-220 MHz bands individually. 150.05-173.4 MHz Band55 The
+   150.05-173.4 MHz band is used for private land mobile radio services,56
+   public mobile radio services,57 maritime radio services58 and auxiliary
+   broadcasting.59 As an initial matter, the Commission already has
+   conducted auctions for licenses for some of the services accommodated
+   in this band. For instance, on October 30, 2001, the Commission
+   conducted an auction for the nationwide licensing of the public mobile
+   radio services frequencies in this band. These authorizations will
+   allow licensees to provide public mobile radio services in
+   Commission-defined geographic areas. In addition, on December 3, 1998
+   and June 6, 2001, the Commission conducted auctions for the nationwide
+   licensing of the maritime radio services in the 150.05-173.4 MHz band.
+   These authorizations allow licensees to provide maritime radio services
+   in Commission-defined geographic areas. To date, the Commission has
+   granted 37 geographic area public coast station licenses in this band.
+   Reallocation. Reallocation of these frequencies to accommodate public
+   safety systems would not appear to comport with efficient and effective
+   spectrum management in light of the current licensing and operations in
+   the band. First, a reallocation of frequencies that have been assigned
+   by competitive bidding would result in the displacement of the auction
+   winners. Specifically, such displacement would, at a minimum, require
+   identification and licensing of replacement spectrum as well as impact
+   the business and operational plans of the auction winners. These
+   consequences would cause significant disruption to and increased costs
+   on both licensees and their customers without substantial concomitant
+   public interest benefits. Second, the same reasons discussed in the
+   context of the broadcast bands supra60 apply equally to this band with
+   respect to the auxiliary broadcasting operations in this band. Third,
+   there are numerous non-public safety systems operating in this band and
+   a reallocation would entail a massive relocation of such operations
+   that are currently done on a shared basis. Given the nature and
+   quantity of these 55 As noted and discussed previously herein (see
+   supra, page 8), public safety systems currently operate in this band as
+   private land mobile radio services. 56 Frequencies 150-170 MHz. See 47
+   C.F.R. §§ 90.20 and 90.35. 57 Frequencies 152-159 MHz. See 47 C.F.R. §§
+   22.561 and 22.725. 58 Frequencies 156-162 MHz. See 47 C.F.R. § 80,
+   Subpart H. 59 Frequencies 152-162 MHz. FM and TV stations use these
+   frequencies to broadcast from remote locations away from the main
+   studio. See 47 C.F.R. § 74.402. 60 See supra, pages 9-10. 13
+   operations, and the unavailability of alternative spectral resources,
+   such allocation would not be feasible given the significant burdens and
+   costs associated with this action. Rather, the public interest would be
+   better served by continuing to promote the efficient and effective use
+   of the band for private land mobile radio systems. Further, the
+   reallocation of the bands to public safety systems in certain
+   geographic areas should not be pursued for the same reasons that a
+   nationwide reallocation of the subject bands is not feasible.61 Sharing
+   with Public Safety Systems. Upon reviewing the variety of services
+   currently present in this band, the most viable candidate for sharing
+   with public safety systems is on the frequencies used for private land
+   mobile radio systems. In this connection, the Commission's rules
+   already provide a mechanism by which public safety entities could gain
+   access to these frequencies. As a general matter, applicants seeking to
+   obtain a license for these frequencies must satisfy certain eligibility
+   requirements. If an applicant does not meet the requisite eligibility
+   requirements, it can then seek a waiver of the Commission's rules as
+   part of its application. In addition, Part 90 of the Commission's rules
+   provides that public safety entities can be users on non-public safety
+   systems, even if the public safety entities are not independently
+   eligible for licensing on such frequencies.62 Although this is an
+   option, frequency sharing between public-safety and non-public safety
+   systems will not adequately supplement the spectrum that is currently
+   assigned to public safety systems. First, as noted previously, these
+   frequencies are intensively used by non-public safety entities; thus,
+   there is a limited amount of vacant spectrum, particularly in the urban
+   areas. Second, when there is sharing between public safety and
+   non-public safety systems, such arrangements often support restricted
+   and/or less critical public safety operations.63 It appears that
+   Congress intended for the "alternative frequencies" to have the
+   capability to support a full-range of public safety applications.
+   Furthermore, the limited sharing that could and would take place
+   between public safety and non-public safety systems would not allow for
+   the requisite operational flexibility needed to support a broad range
+   of public safety operations that permit voice and data transmissions.64
+   61 Prior to the auction of the public coast geographic area licenses in
+   the band, the Commission reallocated certain maritime frequencies for
+   public safety use at inland areas. See Maritime Third R&O, 13 FCC Rcd
+   at 19899-19900 (Appendix E). The Commission ultimately designated these
+   frequencies for interoperability use. See Public Safety First R&O, 14
+   FCC Rcd at 236 ¶ 189. 62 See 47 C.F.R. § 90.179(h). Some public safety
+   entities have elected to enter into such arrangements with non- public
+   safety systems and that such arrangements do not have to be confined to
+   the VHF high-band. 63 For instance, the VHF high-band contains a few
+   locations where public safety and non-public safety service providers
+   have access to the same frequencies, such as the 173.2-173.4 MHz bands.
+   However, the operation parameters are highly restricted. The
+   173.2-173.4 MHz band is restricted to remote control and telemetry
+   (mainly data) transmissions. Because public safety operations involve a
+   variety of operational modes (e.g., voice and data), and need reliable
+   spectral resources, additional channel sharing among public safety and
+   non-public safety services would not necessarily serve the public
+   interest. Hence, such instances should remain isolated. 64 See, e.g.,
+   PSWN Analysis at 11. A survey posed to the fire and EMS communities
+   reveals an increase in demand to implement non-voice land mobile radio
+   capabilities, such as mobile data computing, imagery (still photos and
+   live video), and geographic information systems. 14 216-220 MHz Band
+   Frequencies in the 216-220 MHz band are allocated under Part 95 to the
+   Low Power Radio Service (LPRS)(216-217 MHz),65 Automated Maritime
+   Telecommunications Systems (217-218 MHz and 219-220 MHz);66 the Low
+   Power Radio Service (LPRS); and the 218-219 MHz Service.67 The band is
+   also available on a secondary basis under Part 90 for telemetry68 and
+   wildlife/ocean buoy tracking69 and under Part 97.70 Reallocation. The
+   Commission recently considered allocations in the 216-220 MHz band and
+   it appears that there is little room for new capacity in this band
+   because it is heavily encumbered, thus limiting opportunities for new
+   licensing.71 Based on a review of the comments received by the
+   Commission in the proceeding, the public safety community has not
+   expressed an interest in operating public safety systems in this band.
+   One reason public safety entities may not be interested in this band is
+   the fact that TV channel 13 (210-216 MHz) is allocated in spectrum
+   adjacent to this band. The lower portion of the 216-220 MHz band,
+   particularly the 216-217 MHz, requires operation at lower power levels
+   to avoid causing interference to operations to TV channel 13. While the
+   216-220 MHz band does not directly support public safety services, some
+   of the services in the band, in particular LPRS, serve important public
+   needs. For instance, LPRS supports auditory assistance devices, as well
+   as currency tracking.72 Sharing with Public Safety Systems. As noted
+   previously, having to operate in a shared environment (public safety
+   sharing with non-public safety) often drastically limits the type of
+   communication systems that can be used by public safety entities
+   (restricts operational flexibility).73 For example, it would be
+   difficult to use the spectrum for interoperability. Also, public safety
+   entities tend to put less critical communications on spectrum that is
+   shared with non-public safety entities. 65 47 C.F.R. § 95.1001. LPRS is
+   a private, short-distance communication service operating in the
+   216-217 MHz portion of the band. LPRS provides auditory assistance to
+   persons with disabilities, health care assistance for the ill, law
+   enforcement tracking services in cooperation with law enforcement and
+   point-to-point network control for AMTS coast stations. 66 See 47
+   C.F.R. § 80.475. AMTS is an integrated and interconnected maritime
+   communications system operating in the 217-218 MHz and 219-220 MHz
+   portions of the band. 67 See 47 C.F.R. § 95.801. The 218-219 MHz
+   Service (formerly Interactive Video Data Service) is a two-way radio
+   service that allows licensees to provide communications services to
+   subscribers in specific areas. 68 47 C.F.R. § 90.259. 69 47 C.F.R. §
+   90.248. 70 47 C.F.R § 97.303. The Amateur Radio Service is authorized
+   to operate in the 219-220 MHz segment of the band secondary to AMTS.
+   Amateur use of the 219-220 MHz segment is limited to stations
+   participating as forwarding stations in point-to-point fixed digital
+   message forwarding systems. 71 See Reallocation of the 216-220 MHz,
+   1390-1395 MHz, 1427-1429 MHz, 1429-1432 MHz, 1432-1435 MHz, 1670-1675
+   MHz, and 2385-2390 MHz Government Transfer Bands, ET Docket No. 00-221,
+   Report and Order and Memorandum Opinion and Order, FCC 01-382 (rel.
+   Jan. 2, 2002), at 10 ¶ 18 citing Principles for Reallocation of
+   Spectrum to Encourage the Development of Telecommunications
+   Technologies for the New Millennium, Policy Statement, 14 FCC Rcd 19868
+   (1999). 72 See Amendment of the Commission's Rules Concerning Low Power
+   Radio and Automated Maritime Telecommunications System Operations in
+   the 216-217 MHz Band, WT Docket No. 96-56, Report and Order, 11 FCC Rcd
+   18517 (1996). 73 See supra, page 14. 15 The 220-222 MHz Service
+   (220-222 MHz) In the VHF high-band, the frequencies 220-222 MHz are
+   allocated domestically for fixed and land mobile services. The 220-222
+   MHz Service, which provides for dispatch of vehicle fleets and business
+   and maintenance communications, operates in this band.74 The Commission
+   first established this service in 1988. The 220-222 MHz Service was
+   somewhat lightly used until 1998, when the Commission auctioned
+   licenses on a national, regional and local basis. Reallocation.
+   Nationwide reallocation of 220-222 MHz Service frequencies for
+   exclusive use by public safety entities is not a viable option. For the
+   same reason indicated in previous sections, licensees have invested a
+   great deal of capital in this service. For instance, bidders invested
+   $21 million at the 1998 auction to obtain 220-222 MHz Service licenses.
+   In addition, the reallocation of 220-222 MHz Service frequencies in
+   specific geographic areas for public safety use is not a viable option.
+   The 1998 auction filled in underserved areas with 220-222 MHz licensees
+   particularly in major urban areas.75 It is not necessarily in the
+   public interest to reallocate these frequencies for exclusive use by
+   public safety entities so soon after an auction. Licensees have made
+   considerable investments and are currently developing systems for use
+   in this spectrum. In light of this, reallocation and associated
+   relocation of these operations would be very difficult as well as
+   inequitable to the current licensees. Sharing with Public Safety
+   Systems. As noted above, this band was the subject of a Commission
+   auction.76 Generally, making auctioned spectrum available to others
+   after the competitive bidding process has been completed and licenses
+   granted could drastically impact the auction winners and adversely
+   affect the integrity of the Commission's auction process. Further, as
+   noted above, public safety sharing with non-public safety restricts the
+   operational flexibility of public safety communication systems.
+   Consequently, this band would not be a good candidate for an
+   alternative to the 138-144 MHz band. IV. Conclusion In analyzing the
+   non-Federal Government spectrum administered by the Commission
+   consistent with the NDAA-01, the Report concludes that the VHF
+   high-band constitutes alternative frequencies to the 138-144 MHz band
+   for public safety systems because it offers propagation and other
+   technical characteristics most analogous to those of the 138-144 MHz
+   band. After reviewing the specific allocations of and current
+   operations present in the VHF high-band, the Report determines that
+   reallocating spectrum from the VHF high-band would disrupt incumbent
+   services. Moreover, the Report finds that the spectrum is intensively
+   used, some already by public safety systems, and that there are no
+   additional frequencies therein that are available for use by public
+   safety systems. 74 The 220-222 MHz Service is a narrowband voice and
+   data service. 75 See Phase II - 220 MHz Service Auction Closes, Public
+   Notice 98-2143 (rel. Oct. 23, 1998). 76 Id. 16 ATTACHMENT A Summary of
+   Spectrum Currently Used for Public Safety Below 900 MHz Frequency Band
+   (MHz) Megahertz (Approximate) 25-50 6.3 (VHF Low Band) 150-174 3.6 (VHF
+   High Band) 220-222 0.1 (220 Band) 450-470 3.7 (UHF Band)
+   764-776/794-806 24 (700 Band) 806-821/851-866 3.5 (800 Bands)
+   821-824/866-869 6 (NPSPAC Band) TOTAL 47.2 Note: Two VHF Public Coast
+   channel pairs are available in each Inland VHF Public Coast area for
+   interoperability communications. Spectrum in the 421-430 MHz band is
+   available for public safety operations in three urban areas. See
+   90.273. Spectrum in the 470-512 MHz band (UHF-TV sharing) is available
+   for public safety operations in eleven urban areas. See 47 C.F.R.
+   90.303. ATTACHMENT B A Summary of Commission Recent Public Safety
+   Actions New Public Safety Spectrum Designations In the First Report and
+   Order in WT Docket No. 96-86 the Commission allocated 24 megahertz of
+   spectrum in the 700 MHz band exclusively for public safety operations.
+   In Report and Order in WT Docket No. 97-81 the Commission designated
+   five 12.5 kHz channel pairs in the 932/941 MHz band for exclusive
+   public safety use. In the Third Report and Order in PR Docket No.
+   92-257 the Commission designated two VHF public coast channel pairs in
+   each Inland VHF Public Coast areas for interoperability communications.
+   Other Actions In the Public Safety 700 MHz proceeding (WT Docket No.
+   96-86), the Commission adopted a number of rules to provide for a
+   number of public safety requests such as interoperability, high speed
+   data, equipment standards and low power on-scene communications. In the
+   Second Report and Order in WT Docket No. 96-86, the Commission
+   permitted commercial mobile radio service providers to offer Priority
+   Access (PAS) to public safety entities. In the Commission's "Refarming
+   Proceeding" (PR Docket No. 92-235) the Commission adopted an overall
+   strategy to improve the efficiency of spectrum use in the private land
+   mobile radio service allocations below 512 MHz (which includes public
+   safety) to help meet future communication requirements. The Commission
+   has granted five Section 337 waiver requests since the year 2000, to
+   allow public safety entities to use spectrum that is not specifically
+   allocated for public safety operations. See, e.g., Du Page Public
+   Safety Communications, Memorandum Opinion and Order, 16 FCC Rcd 12394
+   (WTB PSPWD 2001). In the Report and Order in WT Docket No. 98-182, the
+   Commission adopted rules to allow, under certain conditions, public
+   safety licensees to share their radio facilities with Federal
+   Government entities and for Industrial/Business licensees (e.g.,
+   utility companies) to share their radio facilities with public safety
+   entities. The Commission has commenced an audit of the construction and
+   operational status of private land mobile stations operating on
+   frequencies below 512 MHz, which includes public safety. Completion of
+   this audit will lead to recovery of underutilized public safety
+   channels for other public safety use. The Wireless Telecommunications
+   Bureau organized an industry/public safety working group to tackle
+   interference problems in the 800 MHz band between commercial and public
+   safety users. The group developed a "Best Practices Guide" for the 800
+   MHz band. Nextel recently submitted a "white paper" on the problem
+   which is under review. ATTACHMENT C Commission Actions Furthering The
+   Development of Public Safety Systems 2001 The Development of
+   Operational, Technical and Spectrum Requirements for Meeting Federal,
+   State and Local Public Safety Communications Requirements Through the
+   Year 2010, WT Docket No. 96-86, Fourth Report and Order and Fifth
+   Notice of Proposed Rulemaking, 16 FCC Rcd 2020 (2001). 4th R&O adopts
+   most of the NCC's recommendations regarding use of Interoperability
+   channels. Establishes a "safe harbor" so that public safety entities in
+   vast geographic areas of the Nation unencumbered by television
+   broadcasters can enter the 700 MHz band immediately. 5th NPPM seeks
+   comments on the appropriate migration path to 6.25 kHz spectrally
+   efficient technology on the 700 MHz General Use channels. Amendment of
+   Part 90 of the Commission's Rules and Policies for Applications and
+   Licensing of Low Power Operations in the Private Land Mobile Radio
+   450-470 MHz Band, Notice of Proposed Rulemaking, WT Docket No. 01-146,
+   16 FCC Rcd 14946 (2001). Seeks comment on proposals related to low
+   power operations in the 450-470 MHz band. Amendment of Section
+   90.20(e)(6) of the Commission's Rules to Revise the Authorized Duty
+   Cycle on 173.075 MHz, WT Docket No. 01-97, Notice of Proposed
+   Rulemaking, 16 FCC Rcd 9998 (2001). Seeks comment on revising the
+   authorized duty cycle for stolen vehicle recovery system (SVRS)
+   operations on 173.075 MHz. Wireless Telecommunications Bureau Seeks
+   Comment Regarding Intelligent Transportation System Applications Using
+   Dedicated Short Range Communications, Public Notice, 16 FCC Rcd 6764
+   (WTB 2001). The item sought comment on a report filed by ITS America
+   concerning service rules for the 75 MHz that were allotted to
+   Intelligent Transportation Systems. ITS intends to make the highways
+   safer, to send emergency information faster and more reliably after an
+   accident happens, to prevent collisions, and to collect and distribute
+   other transportation related data for more efficient and safer
+   transportation of people and goods. State of Florida, Memorandum
+   Opinion and Order, 16 FCC Rcd 2174 (WTB 2001). Waives freeze on
+   applications for 800 MHz General Category frequencies to permit Florida
+   to obtain licenses on 19 "off-set" channels associated with twenty
+   contiguous 800 MHz General Category channels previously licensed to
+   Florida. Du Page Public Safety Communications, Memorandum Opinion and
+   Order, 16 FCC Rcd 12394 (WTB PSPWD 2001). Grants waiver pursuant to
+   Section 337(c) of the Act to permit public safety use of paging control
+   channels. C-1 Federal Government Spectrum Available for Public Safety
+   Interoperability Communications, Public Notice, 16 FCC Rcd 13662 (WTB
+   PSPWD 2001). Reminds public safety community that the NTIA has
+   specified 40 Federal Government frequencies that can be used by non-
+   Federal government public safety entities for communications involving
+   coordination and cooperation with Federal Government agencies. Also, in
+   late 2001, the Commission received white papers from Motorola and
+   Nextel concerning public safety communications in the 4.9 GHz band and
+   800 MHz band, respectively. The Commission is considering those white
+   papers in the appropriate proceedings. 2000 1998 Biennial Regulatory
+   Review -- 47 C.F.R. Part 90 - Private Land Mobile Radio Services;
+   Replacement of Part 90 by Part 88 to Revise the Private Land Mobile
+   Radio Services and Modify the Policies Governing Them and Examination
+   of Exclusivity and Frequency Assignment Policies of the Private Land
+   Mobile Services, WT Docket No. 98-182, PR Docket No. 92-235, Report &
+   Order and Further Notice of Proposed Rulemaking, 15 FCC Rcd 16673
+   (2000). The R&O adopted rules intended to further consolidate and
+   streamline Part 90 rules. In this connection the Commission amended its
+   rules to allow, on a cost- shared, non-profit basis, (1) Public Safety
+   licensees to share their land mobile radio facilities with Federal
+   government entities and (2) Industrial/Business licensees to share
+   their land mobile radio facilities with Public Safety and Federal
+   Government entities. The NPRM proposed to extend the eligibility for
+   licensing in the Public Safety Pool to school and park districts and
+   authorities, and to extend eligibility for licensing on certain
+   channels to include State highway maintenance radio systems. The
+   Development of Operational, Technical and Spectrum Requirements for
+   Meeting Federal, State and Local Public Safety Communications
+   Requirements Through the Year 2010, WT Docket No. 96-86, Second Report
+   and Order, 15 FCC Rcd 16720 (2000). The 2nd R&O permitted, but did not
+   require, commercial mobile radio service providers to offer Priority
+   Access ("PAS") to public safety providers. PAS offerings allow national
+   security and emergency preparedness ("NSEP") personnel and permitted
+   authorized NSEP users in emergencies to gain access to the next
+   available wireless channel but preemption of calls-in- progress is not
+   required. The 2nd R&O required that carriers offering PAS must adhere
+   to uniform operating protocols regarding the number of priority levels
+   and the priority level for particular NSEP users, adopted 5 priority
+   levels, limited access to key personnel, established the National
+   Communications System as the day-to-day administrator of PAS,
+   established oversight responsibilities with the FCC, and indicated that
+   providing PAS in accordance with FCC rules will be prima facie lawful
+   under federal law. The Development of Operational, Technical and
+   Spectrum Requirements for Meeting Federal, State and Local Public
+   Safety Communications Requirements Through the Year 2010, WT Docket No.
+   96-86, Second Memorandum Opinion and Order, 15 FCC Rcd 16844 (2000).
+   The 2nd MO&O addressed portions of the reconsideration petition filed
+   in response to the 1st R&O (1998). The 2nd MO&O addressed technical
+   issues concerning Public Safety 700 MHz band radios. The 2nd MO&O
+   affirmed/clarified eligibility criteria for licensing in the 700 MHz
+   band (including regional planning, frequency coordination), and the
+   validity of Federal use of the band pursuant to 47 C.F.R. § 2.103(b)
+   agreements with state/local governments. C-2 The Development of
+   Operational, Technical and Spectrum Requirements for Meeting Federal,
+   State and Local Public Safety Communications Requirements Through the
+   Year 2010, WT Docket No. 96-86, Fourth Notice of Proposed Rulemaking,
+   15 FCC Rcd 16899 (2000). The 4th NPRM sought comment on issues raised
+   by the recommendations of the Public Safety National Coordination
+   Committee (NCC) relative to technical and operational issues regarding
+   the use of interoperability frequencies in the 700 MHz Public Safety
+   band. For example, the 4th NPRM tentatively concluded that the NCC's
+   recommended Project 25 Phase I standard should be the standard for the
+   interoperability channels. The 4th NPRM also sought comment on
+   interoperability issues concerning permissive trunking, channel
+   aggregation, administration of interoperability plan, regional planning
+   committee technical review, blanket licensing of mobile portables, use
+   of memorandums of understanding, channel designations and labeling,
+   channel efficiency requirements, and equipment requirements
+   (interoperability capability, encryption, receiver standards). The
+   Development of Operational, Technical and Spectrum Requirements for
+   Meeting Federal, State and Local Public Safety Communications
+   Requirements Through the Year 2010, WT Docket No. 96-86, Third
+   Memorandum Opinion & Order and Third Report & Order, 15 FCC Rcd 19844
+   (2000). The 3rd MO&O resolved reconsideration petitions related to the
+   1st R&O (1998) concerning 700 MHz Public Safety band frequencies. The
+   3rd R&O, which addressed comments to the 3rd NPRM (D96-86, 1998),
+   created a new state license to streamline administrative procedures and
+   to enhance spectrum efficiency. Under this decision, each
+   state/district/territory has the option to receive a single, geographic
+   license for up to 2.4 MHz of spectrum to use for public safety
+   services. The 3rd R&O also adopted technical solutions to protect
+   certain global navigation satellite systems and designated channels in
+   existing public safety bands for mutual aid purposes. Amendment of the
+   Commission's Rules Regarding Multiple Address Systems, WT Docket No.
+   97-81, Report and Order, 15 FCC Rcd 11956 (2000). Designated five -
+   (12.5 kHz) - channel pairs in the 932/941 MHz bands for public safety
+   use. Reorganization and Revision of Parts 1, 2, 21, and 94 of the Rules
+   to Establish a New Part 101 Governing Terrestrial Microwave Fixed Radio
+   Services, et al., WT Docket No. 94-148, Memorandum Opinion and Order
+   and Notice of Proposed Rulemaking, 15 FCC Rcd 3129 (2000). NPRM seeks
+   comment on the interplay between Part 101 and the Balanced Budget Act
+   of 1997's definition of public safety radio services, including whether
+   Part 101 spectrum should be designated for public safety radio
+   services, and, if so, how much spectrum should be set aside. City of
+   Denton, Texas, Order, 15 FCC Rcd 23643 (WTB 2000). Waived freeze on
+   filing of applications to permit relocation of 800 MHz General Category
+   station licensed to public safety entity. State of Wisconsin, Order, 15
+   FCC Rcd 4312 (WTB PSPWD 2000). Granted the State of Wisconsin a waiver
+   to permit licensing of a four-site VHF trunked public safety
+   communications system using federal/military frequencies between
+   Federal, State, and local agencies on a routine basis. Granting this
+   system represented a unique partnership between the Federal and State
+   government and was the first multi-agency, multi-jurisdiction public
+   safety VHF trunking system in the United States. C-3 In addition, the
+   Wireless Telecommunications Bureau and the Public Safety and Private
+   Wireless Division granted 4 waiver requests filed by public safety
+   entities pursuant to Section 337(c) of the Act. C-4 ATTACHMENT D
+   Analysis of Non-Federal Government Frequencies That Are or Could Be
+   Made Available for Use By Public Safety Systems Lower Upper Region 2
+   FCC Use Rule Part Viable Freq. Freq. Alternative to (MHz) (MHz) 138-144
+   MHz? 88 108 BROADCASTING BROADCASTING Broadcast Radio (FM) (73) Not
+   Viable (FM Channels 201-300) Auxiliary Broadcasting (74) 108 117.975
+   AERONAUTICAL AERONAUTICAL Aviation (87) Not Viable RADIONAVIGATION
+   RADIONAVIGATION 117.975 137 AERONAUTICAL AERONAUTICAL Aviation (87) Not
+   Viable MOBILE MOBILE 137 137.025 SPACE OPERATION SPACE OPERATION
+   Satellite Communications Not Viable (space-to-Earth) (space-to-Earth)
+   (25) METEOROLOGICAL- METEOROLOGICAL- SATELLITE SATELLITE
+   (space-to-Earth) (space-to-Earth) MOBILE-SATELLITE MOBILE-SATELLITE
+   (space-to-Earth) (space-to-Earth) SPACE RESEARCH SPACE RESEARCH
+   (space-to-Earth) (space-to-Earth) Fixed Mobile except aeronautical
+   mobile 137.025 137.175 SPACE OPERATION SPACE OPERATION Satellite
+   Communications Not Viable (space-to-Earth) (space-to-Earth) (25)
+   METEOROLOGICAL- METEOROLOGICAL- SATELLITE SATELLITE (space-to-Earth)
+   (space-to-Earth) SPACE RESEARCH SPACE RESEARCH (space-to-Earth)
+   (space-to-Earth) Fixed Mobile-satellite Mobile-satellite
+   (space-to-Earth) (space-to-Earth) Mobile except aeronautical mobile D-1
+   Lower Upper Region 2 FCC Use Rule Part Viable Freq. Freq. Alternative
+   to (MHz) (MHz) 138-144 MHz? 137.175 137.825 SPACE OPERATION SPACE
+   OPERATION Satellite Communications Not Viable (space-to-Earth)
+   (space-to-Earth) (25) METEOROLOGICAL- METEOROLOGICAL- SATELLITE
+   SATELLITE (space-to-Earth) (space-to-Earth) MOBILE-SATELLITE
+   MOBILE-SATELLITE (space-to-Earth) (space-to-Earth) SPACE RESEARCH SPACE
+   RESEARCH (space-to-Earth) (space-to-Earth) Fixed Mobile except
+   aeronautical mobile 137.825 138 SPACE OPERATION SPACE OPERATION
+   Satellite Communications Not Viable (space-to-Earth) (space-to-Earth)
+   (25) METEOROLOGICAL- METEOROLOGICAL- SATELLITE SATELLITE
+   (space-to-Earth) (space-to-Earth) SPACE RESEARCH SPACE RESEARCH
+   (space-to-Earth) (space-to-Earth) Fixed Mobile-satellite
+   Mobile-satellite (space-to-Earth) (space-to-Earth) Mobile except
+   aeronautical mobile 144 146 AMATEUR AMATEUR Amateur (97) Not Viable
+   AMATEUR- AMATEUR- SATELLITE SATELLITE 146 148 AMATEUR AMATEUR Amateur
+   (97) Not Viable 148 149.9 FIXED MOBILE-SATELLITE Satellite
+   Communications Not Viable MOBILE except (Earth-to-space) (25)
+   aeronautical mobile MOBILE-SATELLITE (Earth-to-space) 149.9 150.05
+   MOBILE-SATELLITE MOBILE-SATELLITE Satellite Communications Not Viable
+   (Earth-to-space) (Earth-to-space) (25) RADIONAVIGATION-
+   RADIONAVIGATION- SATELLITE SATELLITE 150.05 152.855 FIXED FIXED Public
+   Mobile (22) Not Viable MOBILE LAND MOBILE Private Land Mobile (90)
+   152.855 154 FIXED LAND MOBILE Auxiliary Broadcasting (74) Not Viable
+   MOBILE Private Land Mobile (90) 154 156.2475 FIXED FIXED Maritime (80)
+   Not Viable MOBILE LAND MOBILE Private Land Mobile (90) 157.0375
+   157.1875 FIXED Private Land Mobile (90) Not Viable MOBILE D-2 Lower
+   Upper Region 2 FCC Use Rule Part Viable Freq. Freq. Alternative to
+   (MHz) (MHz) 138-144 MHz? 157.1875 157.45 FIXED LAND MOBILE Maritime
+   (80) Not Viable MOBILE MARITIME MOBILE Private Land Mobile (90) 157.45
+   161.575 FIXED FIXED Public Mobile (22) Not Viable MOBILE LAND MOBILE
+   Maritime (80) Private Land Mobile (90) 161.575 161.625 FIXED MARITIME
+   MOBILE Public Mobile (22) Not viable MOBILE Maritime (80) 161.625
+   161.775 FIXED LAND MOBILE Public Mobile (22) Not Viable MOBILE
+   Auxiliary Broadcasting (74) 161.775 162.0125 FIXED LAND MOBILE Public
+   Mobile (22) Not Viable MOBILE MARITIME MOBILE Maritime (80) Private
+   Land Mobile (90) 162.0125 173.2 FIXED Auxiliary Broadcasting (74) Not
+   Viable MOBILE * Private Land Mobile (90) 173.2 173.4 FIXED FIXED
+   Private Land Mobile (90) Not Viable MOBILE Land mobile 174 216
+   BROADCASTING BROADCASTING Broadcast Radio (TV) (73) Not Viable Fixed
+   Mobile (TV Channels 7-13) Auxiliary Broadcasting (74) 216 220 FIXED
+   MARITIME MOBILE Maritime (80) Not Viable MARITIME MOBILE Fixed Private
+   Land Mobile (90) Radiolocation Aeronautical mobile Personal Radio (95)
+   Land mobile Amateur (97) 220 222 AMATEUR FIXED Private Land Mobile (90)
+   Not Viable FIXED LAND MOBILE MOBILE Radiolocation 222 225 AMATEUR
+   AMATEUR Amateur (97) Not Viable FIXED MOBILE Radiolocation * The
+   162.0125-173.2 MHz band is allocated and used on a primary basis by
+   Federal Government FIXED and MOBILE services, however, footnotes to the
+   Table of Frequency Allocations (International footnote S.5225 and
+   United States footnotes 8, 11, 13, 216, 223, 300 and 312, make certain
+   frequencies in this band available for non- Federal use under certain
+   conditions within specific geographic areas. D-3

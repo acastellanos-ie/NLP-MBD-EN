@@ -1,0 +1,818 @@
+http://www.itl.nist.gov/VolStdsList.htm
+
+     Graphic header and navigational bar for the ITL Voluntary Standards
+     page
+
+                 NIST ITL Voluntary Standards Participation
+   (Key: Highlighted activities represent areas which are international in
+   scope.)
+
+   Technical Groups
+
+   Participants & Division Number
+
+   ACM
+
+   Role Based Access Control
+
+   J. Barkley
+
+   897
+
+   AIIM International
+
+   Committee C21 Advanced Data Storage Subsystems
+
+   F. Podio
+
+   895
+
+   AIIM International
+
+   Subcommittee C21.1 FSMS
+
+   F. Podio
+
+   895
+
+   AIIM International
+
+   Subcommittee C21.3 Optical Tape
+
+   F. Podio
+
+   895
+
+   ASTM
+
+   E-11 Quality and Statistics
+
+   N. F. Zhang
+
+   898
+
+   ATSC
+
+   Advanced Television Systems Committee (ATSC) T3/S17 - Digital TV
+   Applications Software Environment (DASE) Application Programming
+   Interface (API)
+
+   A. Mink
+   R. Snelick
+   W. Salamon
+   A. Goldfine
+   L. Rosenthal
+
+   895 895 895 897 897
+
+   BioAPI Consortium
+
+   Biometric Application Programming Interface (API)
+
+   F. Podio
+
+   895
+
+   BLAS Technical Forum
+
+   Sparse Subcommittee
+
+   R. Pozo
+
+   891
+
+   CCMC
+
+   Common Criteria Management Committee
+
+   S. Katzke
+
+   893
+
+   DVD Forum
+
+   Working Group On Data Format
+
+   X. Tang
+
+   895
+
+   EBX
+
+   Electronic Book Exchange
+
+   V. McCrary
+
+   895
+
+   FPSH
+
+   Forum on Privacy and Security in Healthcare
+
+   A. Johnson
+
+   893
+
+   FSTC
+
+   Financial Services Technology Consortium FAST Working Group
+
+   G. Lyon
+
+   895
+
+   HDSA
+
+   High Density Storage Association
+
+   X. Tang
+
+   895
+
+   IEEE
+
+   Software Engineering Body of Knowledge (SWEBOK)
+
+   L. Reeker
+
+   890
+
+   IEEE
+
+   P2001, Web Best Practices Working Group
+
+   S. Laskowski
+
+   894
+
+   IEEE 802.15
+
+   Working Group for Wireless Personal Area Networks
+
+   D. Cypher
+   R. Van Dyck
+   N. Golmie
+   N. Moayeri
+
+   892 892 892 892
+
+   IEEE 802.16
+
+   Working Group on Broadband Wireless Access Standards
+
+   N. Moayeri
+
+   892
+
+   IETF-INTNET
+
+   Internet Area (DNS Extensions, IP Next Generation, Service Location,
+   Zero Configuration)
+
+   D. Montgomery
+   S. Rose
+   S. Frankel
+
+   892 892 893
+
+   IETF-SUB-IP
+
+   SUB-IP Area (CCAMP, IPO, MPLS, TEWS)
+
+   D. Griffith
+
+   892
+
+   IETF-RTG
+
+   Routing Area (Intra/Inter Domain Routing, Mobile IP, MANETS)
+
+   M. Carson
+   L. Miller
+   D. Montgomery
+   N. Moayeri
+
+   892 892 892 892
+
+   IETF-SEC
+
+   Security Area (IP Security Protocol, IP Security Policy, S/MIMIE, PKI
+   Using X.509)
+
+   O. Kim
+   D. Montgomery
+   S. Frankel
+   N. Hastings
+   T. Polk
+
+   892 892 893 893 893
+
+   IETF-TP
+
+   Transport Area (Differentiated Services, Performance Metrics, IP
+   Telephony, Session Initiation Protocol)
+
+   D. Montgomery
+   M. Ranganathan
+
+   892
+   892
+
+   IFIP
+
+   Working Group 2.5 Numerical Software
+
+   R. Boisvert - chairman
+
+   891
+
+   IMPI
+
+   Interoperable Message Passing Interface
+
+   W. George
+   J. Hagedorn
+   J. Devaney
+
+   891 891 891
+
+   IMPI Testing
+
+   Conformance Testing of the Interoperable Message Passing Interface
+
+   W. George
+   J. Hagedorn
+   J. Devaney
+
+   891 891 891
+
+   ISO REMCO
+
+   Committee on Reference Materials WG1 for ISO Guide 35
+
+   N. F. Zhang
+
+   898
+
+   Java
+
+   Real-Time Java Expert Group
+
+   A. Dima
+
+   897
+
+   Java Grande Forum
+
+   Numerics Working Group
+
+   R. Pozo
+   R. Boisvert
+
+   891 891
+
+   Micromagnetic Modeling Activity Group
+
+   M. Donahue
+   D. Porter
+
+   891
+   891
+
+   NAOMI
+
+   North American Open Math Initiative
+
+   B. Miller
+
+   891
+
+   NCITS TC L3
+
+   Coding of Audio, Picture, Multimedia and Hypermedia Information
+   (JTC1/SC29)
+
+   M. Rubinfeld - chairman
+   M. McCabe
+
+   894 894
+
+   NCITS TG L3.1
+
+   MPEG Development Activity (JTC1/SC29/WG11)
+
+   W. Chang
+   M. Rubinfeld
+
+   894 894
+
+   NCITS TG L3.2
+
+   Still Image Coding (JTC1/SC29/WG1)
+
+   M. Rubinfeld
+   M. McCabe
+
+   894 894
+
+   NCITS TC L8
+
+   Data Representation (JTC1/SC32/WG2)
+
+   J. Newton
+
+   897
+
+   NCITS TC T3
+
+   Open Distributed Processing (ODP) (JTC1/SC6/WG7)
+
+   D. Cooper
+
+   893
+
+   NCITS TC T4
+
+   Information Technology Security Techniques (JTC1/SC27)
+
+   A. Clay
+
+   893
+
+   NCITS TC V2
+
+   Information Technology Access Interfaces
+
+   S. Laskowski
+   C. Sheppard
+
+   894
+   894
+
+   NCITS TC V3
+
+   eCommerce
+
+   E. Fong
+
+   897
+
+   NIST
+
+   ANSI Data Format for the Interchange of Fingerprint, Facial & SMT
+   Information
+
+   M. McCabe
+
+   894
+
+   NIST
+
+   Industry Usability Reporting Project (I-USR)
+
+   J. Scholtz
+   S. Laskowski
+   E. Morse
+
+   894 894 894
+
+   OASIS
+
+   Organization for the Advancement of Structured Information Standards
+
+   L. Rosenthal
+   L. Carnahan
+   M. Brady
+   M. Skall
+
+   897 897 897 897
+
+   OIF
+
+   Optical Internetworking Forum Architecture, Internetworking and
+   Management
+
+   D. Su
+   D. Griffith
+
+   892 892
+
+   OMG
+
+   Business Object Management
+
+   E. Fong
+
+   897
+
+   Open Electronic Book Forum
+
+   V. McCrary
+
+   895
+
+   Open Math Society
+
+   B.Miller
+
+   891
+
+   OPEN GROUP (formerly X/Open) Security Group
+
+   S. Chang
+
+   893
+
+   OSTA
+
+   Optical Storage Technology Association
+
+   X. Tang
+
+   895
+
+   PTools
+
+   Parallel Tools Consortium
+
+   G. Lyon
+
+   895
+
+   RosettaNet
+
+   RosettaNet eBusiness Standards Consortium
+
+   T. Rhodes
+
+   897
+
+   SCSUG
+
+   Smart Card Security Users Group
+
+   S. Katzke
+
+   893
+
+   SMPTE
+
+   Society of Motion Picture and Television Engineers - Committee on Data
+   Essence Technology
+
+   J. Barkley
+   A. McCaffrey
+   M. Koo
+
+   897 897 897
+
+   SMPTE
+
+   Society of Motion Picture and Television Engineers - Study Group on
+   Conditional Access for Digital Cinema
+
+   R. Easter
+
+   893
+
+   SMPTE
+
+   Society of Motion Picture and Television Engineers - Video Quality
+   Experts Group
+
+   C. Fenimore
+
+   895
+
+   T1X1
+
+   Digital Hierarchy and Synchronization
+
+   D. Su
+
+   892
+
+   U.S. Biometric Consortium
+
+   Common Biometric Exchange File Format
+
+   F. Podio
+
+   895
+
+   VESA
+
+   Video Electronics Standards Association Display Committee
+
+   J. Roberts
+
+   895
+
+   VESA
+
+   Video Electronics Standards Association Display Metrology Committee
+
+   J. Roberts
+
+   895
+
+   VESA
+
+   Video Electronics Standards Association Flat Panel Display Interface
+   Committee
+
+   J. Roberts
+
+   895
+
+   VESA
+
+   Video Electronics Standards Association Micro-display Committee
+
+   J. Roberts
+
+   895
+
+   W3C-QA
+
+   World Wide Web Consortium Quality Assurance (QA) Activity
+
+   L. Rosenthal
+   M. Skall
+   S. Martinez
+
+   897 897 897
+
+   W3C-DOM
+
+   World Wide Web Consortium Document Object Model (DOM) WG
+
+   M. Brady
+   R. Rivello
+
+   897 897
+
+   W3C-Schema
+
+   World Wide Web Consortium
+   Schema WG
+
+   J. Tebbutt
+   M. Brady
+
+   897
+   897
+
+   W3C- XSL
+
+   World Wide Web Consortium
+   Extensible Stylesheet Language (XSL) WG
+
+   C. Montanez-Rivera
+
+   897
+
+   W3C-CSS
+
+   World Wide Web Consortium
+   Cascading Stylesheets (CSS) WG
+
+   F. Boland
+
+   897
+
+   W3C-XML
+
+   World Wide Web Consortium XML WG
+
+   F. Boland
+   M. Brady
+
+   897 897
+
+   W3C-SYMM
+
+   World Wide Web Consortium SYMM WG
+
+   W. Chang
+
+   894
+
+   Web3D
+
+   Web3D Consortium
+
+   S. Ressler
+
+   894
+
+   X.9F.5
+
+   Digital Signature & Certificate Policy
+
+   A. Lee
+
+   893
+
+   X9F
+
+   Data and Financial Information Security
+
+   M. Dworkin
+
+   893
+
+   X9F.1
+
+   Cryptographic Tool Standards and Guidelines
+
+   M. Dworkin
+   E. Barker - editor
+   L. Bassham - editor
+   S. Keller - editor
+   A. Lee - editor
+
+   893 893 893 893 893
+
+   X9F.3
+
+   Cryptographic Protocols
+
+   E. Barker
+
+   893
+
+   Management Groups
+
+   Participants & Division Number
+
+   ACM
+
+   Publications Board
+
+   R. Boisvert
+
+   891
+
+   AIIM International
+
+   Standards Board
+
+   F. Podio
+
+   895
+
+   ANSI
+
+   Information Infrastructure Standards Panel (IISP)
+
+   M. Hogan
+
+   890
+
+   ANSI
+
+   IISP Steering Committee
+
+   M. Hogan
+
+   890
+
+   ANSI
+
+   Information Systems Standards Board (ISSB)
+
+   M. Hogan
+
+   890
+
+   BioAPI Consortium
+
+   Steering Committee
+
+   F. Podio
+
+   895
+
+   BioAPI Consortium
+
+   External Liaisons Working Group
+
+   F. Podio
+
+   895
+
+   ISO TC 69
+
+   Statistical Methods
+
+   N. F. Zhang
+   N. Sedransk
+
+   898
+   898
+
+   ISOC
+
+   Internet Society
+
+   D. Montgomery
+
+   892
+
+   Japanese Electronic Book Consortium Steering Committee
+
+   V. McCrary
+
+   895
+
+   JTC1 TAG
+
+   U.S. TAG to ISO/IEC JTC1 (ISO/IEC JTC 1 on Information Technology)
+
+   M. Hogan
+
+   890
+
+   Micromagnetic Modeling Activity Group - Steering Committee
+
+   M. Donahue
+   D. Porter
+
+   891
+   891
+
+   NAIPC
+
+   North American Interoperability Policy Council
+
+   M. Hogan
+
+   890
+
+   NCITS
+
+   National Committee for Information Technology Standards
+
+   M. Hogan
+
+   890
+
+   NCITS/PPC
+
+   Policy and Procedures Committee
+
+   M. Hogan
+
+   890
+
+   NIAP
+
+   National Information Assurance Partnership
+
+   R. Ross (Director)
+
+   893
+
+   OMG
+
+   Object Management Group
+
+   J. Barkley
+
+   897
+
+   T1
+
+   Telecommunications
+
+   D. Cypher
+   D. Su
+
+   892
+   892
+
+   VESA
+
+   Video Electronics Standards Association
+
+   J. Roberts
+
+   895
+
+   W3C
+
+   World Wide Web Consortium Advisory Committee
+
+   M. Skall
+
+   897
+
+   XIWT
+
+   Cross Industry Working Team
+   Executive Committee
+
+   D. Montgomery
+
+   892

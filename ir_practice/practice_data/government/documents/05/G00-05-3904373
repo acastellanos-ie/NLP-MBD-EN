@@ -1,0 +1,133 @@
+http://fits.gsfc.nasa.gov
+
+   [ADF logo]
+
+                         FITS Support Office Home Page
+
+   NASA Website Privacy Statement now available.
+   The Flexible Image Transport System, or FITS, is the format adopted by
+   the astronomical community for data interchange and archival storage.
+   The FITS Support Office is responsible for documenting the FITS
+   standard, participating in its evolution, and advising NASA
+   astrophysics missions on how to present their data in FITS format. For
+   further information about the FITS community and FITS announcements,
+   click here .
+
+   [line.gif]
+
+What's New
+
+     * Two new papers on the proposed World Coordinate System are now
+       available.
+     * FITS Support Office Software retired on April 9, 1999.
+     * The new FITS Standard 100-2.0 has been approved by the NOST.
+
+   [line.gif]
+   Four types of FITS material are available from this site:
+     * General information
+     * Documents
+     * Software
+     * Links to Other Network Resources
+
+Documents
+
+   Detailed information
+
+  Definition of Current FITS Standard - NOST 100-2.0
+
+   (NOST is the NASA/Science Office of Standards and Technology.)
+
+     * Description
+     * Retrieve document
+          + PDF file (386K)
+          + HTML version [Via STScI]
+          + uncompressed Postscript (597K)
+          + gz-compressed Postscript (239K)
+          + LaTeX (205K)
+               o LaTeX style file (8K)
+               o LaTeX index file (7K)
+                 You will also need the following 2 eps files:
+               o ieee1.eps (4K)
+               o ieee2.eps (4K)
+     * List of changes between FITS Standard 100-2.0 and FITS Standard
+       100-1.2 (17K)
+     * Printed copies
+
+  A User's Guide for FITS
+
+     * Description
+     * Retrieve document
+          + uncompressed Postscript(900K)
+          + gzipped Postscript(250K)
+          + LaTeX(348K)
+          + style file for LaTeX
+     * Printed copies
+
+  List of FITS extensions registered with IAU
+
+     * Discussion
+     * Document (hypertext form)
+
+  Rules for physical block size on FITS files
+
+     * Discussion
+     * Document (plain text)
+
+  Redefinition of DATE-OBS keyword encompassing the millennium
+
+     * announcement of approval by IAU FITS Working Group
+     * text of agreement
+     * appendix suggesting conventions for time scale specification (not
+       part of formal agreement)
+
+   On November 10, the IAU FITS Working Group approved a definition for
+   the format of the value field of DATE-OBS and other keywords beginning
+   with the string DATE that contain date and possible time information.
+   This format provides four digits for the year number, thus providing an
+   explicit specification of the century in all dates.
+
+  Obtaining Printed Copies of Documents
+
+   Contact the National Space Science Data Center Coordinated Request and
+   User Support Office (CRUSO). Specify the document you wish.
+
+Software and Sample Data
+
+     * Information
+
+Other Network Resources
+
+     * Discussion
+     * FITS Resources
+          + National Radio Astronomy Observatory (NRAO) FITS Archive
+          + High Energy Astrophysics Science Archive Research Center
+          + European Southern Observatory FTP Server
+          + Reports from FITS committees
+          + FITS-related newsgroup and mailing list traffic
+          + Astronomical Data Analysis Software and Systems (ADASS)
+            Conferences
+          + NRAO FITSview FITS viewers for Mac/Windows/Unix
+          + heafits mailing list archive
+          + sci.astro.fits newsgroup
+     * Astronomy Links
+          + International Astronomical Union (IAU)
+          + American Astronomical Society (AAS)
+     * GSFC and NASA Links
+          + Astrophysics Data Facility (ADF) Home Page
+          + Space Science Data Operations Office (SSDOO) Home Page
+          + GSFC Projects and Organizations
+          + GSFC Home Page
+          + NASA Home Page
+     __________________________________________________________________
+
+Contacting the FITS Support Office
+
+   (Electronic Mail) fits@fits.gsfc.nasa.gov
+   (Telephone) +1-301-286-6695
+     __________________________________________________________________
+
+   Last revised: 4 Jan. 2001
+
+
+    Responsible NASA representative: Dr. Cynthia Y. Cheung
+    (cynthia.cheung@gsfc.nasa.gov)

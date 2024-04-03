@@ -1,0 +1,128 @@
+http://www.dase.nist.gov
+
+   Group Logo
+
+
+
+   [ Home |  CIS Home |  ITL Home |  NIST_Home |  FAQ |  Download |
+   Documentation |  Symposium ]
+
+
+     GENERAL
+    Home
+    Project Slides
+    Disclaimer
+    FAQ
+    DASE Symposium
+    Archive
+     PRODUCTS
+    Download
+    STB Simulation
+    API Implementation
+    DASE Applications
+    Tools
+    Documentation
+     SUPPORT
+    Contact Us
+    Related Sites
+    E-Support
+    NIST Information
+     PUBLICATIONS
+
+    DASE 2000 Proceedings
+    DASE 2001 Proceedings
+    NIST 2000 Slides
+    NIST 2001 Slides
+
+   [cislogo.jpg]
+
+   [itl.gif]
+
+   NIST DASE Development Environment DASE 2001 Symposium News
+
+   The NIST DASE Development Environment is a collaboration effort of the
+   National Institute of Standards and Technology (NIST) and the Advanced
+   Television Systems Committee (ATSC) T3/S17 industry consortium for the
+   proposed Digital TV Applications Software Environment (DASE) standard.
+   The Distributed Systems Technology group is directing their efforts
+   towards the development of an ATSC Set-top Box simulation, a prototype
+   implementation of the DASE Procedural Application Environment (PAE)
+   Application Programming Interface (API) and reference applications. A
+   working prototype of the NIST DASE Development Environment is available
+   at this site. The environment can be used to test the core
+   functionality provided by the DASE specification for Xlets. NIST has
+   written and tested example STB native applications and DASE Xlets using
+   the NIST DASE prototype implementation. All NIST produced source code,
+   documents, and associated products are in the public domain and are
+   available at this site.
+
+   The NIST DASE PAE API prototype implementation is intended as a tool to
+   (1) demonstrate proof of concept of the DASE standard, (2) provide the
+   impetus for conformance testing, (3) aid the design and development of
+   other DASE implementations, and (4) provide an environment for
+   developing and testing DASE contents/applications.
+
+   The NIST PAE API implementation is a prototype, as such, not all
+   functionality is implemented and the completed sections of the
+   implementation may not reflect the intended semantics of the DASE
+   specification.
+
+     View an example DASE StockTicker Xlet.
+
+     Browse the org.atsc.* APIs (Part 4) javadoc  [ZIP File].
+
+     Download the source code for the NIST prototype implementation.
+
+     Download the ATSC DASE specification.
+
+     I want to see the NIST DASE Development Environment Architecture.
+
+   The DASE 2001 Symposium was held June 19-20, 2001 at the National
+   Institute of Standards and Technology (NIST) in Gaithersburg, MD. The
+   event is co-sponsored by the Advanced Television Systems Committee
+   (ATSC) and NIST.
+
+   DASE 2001 Poster
+
+                                                       DASE SYMPOSIUM 2001
+     __________________________________________________________________
+
+   NIST Presentation - View the slides NIST presented at DASE Symposium.
+   DASE 2001 Slides
+     __________________________________________________________________
+
+   DASE Symposium Proceedings - View the proceedings for the DASE 2001
+   Symposium.
+
+                                                View DASE 2001 Proceedings
+   Upcoming ATSC DTV Seminar
+   The ATSC in cooperation with the Society of Broadcast Engineers and
+   NIST presents Charting the Future of DTV, sponsored by Tandberg
+   Television, Harmonic & Decisionmark. The seminar will be held in St.
+   Louis, Missouri, February 20-21, 2002.
+   Developer Tools
+   The NIST DASE Development Environment provides industry with tools to
+   aid in the development of implementations and applications.
+
+   STB Simulation
+   PAE API Implementation
+   Example DASE Xlets
+   Development Tools
+   Documentation
+     __________________________________________________________________
+
+     __________________________________________________________________
+
+                      Privacy Statement/Security Notice
+                              Disclaimer | FOIA
+
+                          NIST is an agency of the
+                         U.S. Commerce Department's
+                         Technology Administration.
+
+              Web page comments to: webmaster@cmr.ncsl.nist.gov
+
+                           Date created: 5/15/2001
+                          Last updated: 01/11/2002
+
+                           [index.html&increase=1]

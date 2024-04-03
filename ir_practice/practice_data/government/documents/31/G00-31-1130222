@@ -1,0 +1,187 @@
+http://earthobservatory.nasa.gov/Study/Landslide/
+
+          NASA's Earth Observatory
+   Earth Observatory Navigation Bar
+   DAACs Features
+
+     When Land Slides   by Laurie J. Schmidt
+   December 21, 2001
+
+   Summer of 2001 was a season of devastating landslides. During June and
+   July, landslides and floods throughout China's southern provinces left
+   thousands dead or homeless. At least 35 people died in a landslide west
+   of Kathmandu, Nepal, and intense rain triggered severe flooding and
+   landslides in 20 counties in West Virginia. In August, a landslide
+   caused Ecuador's Sote oil pipeline to break, spilling some 1,000
+   barrels of crude oil and halting oil transport for a week.
+       Title graphic: Slope failure near McClure Pass, Colorado, destroys
+   a two-lane highway and leaves a car stranded in the debris. (Image
+   courtesy of the USGS)
+   Slumgullion landslide
+   The Slumgullion landslide in Hinsdale County, Colorado, probably dammed
+   Lake Fork between 800 and 900 years ago. Based on photogeologic
+   analysis, it appears to be the only landslide in the area with
+   continuously moving material. (Image courtesy of the USGS Slumgullion
+   Field Trip. A new browser window will open.)
+   For more information, visit the Alaska SAR Facility and the EROS Data
+   Center. (A new browser window will open.)
+   Mass wasting, the downward gravitation of rock, debris, and dirt,
+   continually sculpts Earth's landscapes. Research indicates that on most
+   slopes, a certain amount of downhill movement is occurring constantly,
+   although it may often be imperceptible.
+
+   Landslides  sudden, short-lived geomorphic events that involve the
+   rapid-to-slow descent of soil or rock in sloping terrains  occur
+   worldwide, often in conjunction with natural hazards like earthquakes,
+   floods, or volcanic eruptions. Landslides can also be caused by
+   excessive precipitation or human activities, such as deforestation or
+   development, that disturb natural slope stability.
+
+   On average, landslides in the United States cause $1 to $2 billion in
+   property damage and more than 25 fatalities per year. Posing threats to
+   settlements and structures, landslides often result in catastrophic
+   damage to highways, railways, waterways, and pipelines. According to
+   the U.S. Transportation Research Board, annual costs for the repair of
+   minor slope failures by state departments of transportation exceed $100
+   million.
+
+   Golden landslide
+   In a landslide triggered by the 1994 Northridge, California,
+   earthquake, this house crumbled near Golden, Colorado. (Image courtesy
+   of the USGS Open-file Report 95-213. A new browser window will open.)
+
+   To determine where protective measures are necessary, scientists
+   produce landslide inventory and risk assessment maps for many areas in
+   the United States and Canada. But because landslides do not display a
+   clear relationship between magnitude and frequency, as do earthquakes
+   and floods, landslide studies are challenging to scientists. "It is
+   very difficult to represent landslide hazards in quantitative terms
+   over large areas," said Vernon Singhroy, Senior Research Scientist at
+   the Canada Centre for Remote Sensing.
+
+   Although aerial photography has been used extensively to produce
+   landslide inventory maps, air photos are not readily available in all
+   areas. Scientists increasingly rely on global satellite data to help
+   assess the risk for potential landslides.
+
+   The Thematic Mapper (TM), an Earth observing instrument aboard NASA's
+   Landsat 4 and 5 satellites, measures solar radiation reflected or
+   emitted by the Earth's surface, providing high-resolution images of the
+   Earth's surface. Its large-area mapping capabilities make it a useful
+   tool for land cover mapping and assessment. But the TM's spatial
+   resolution is generally considered too coarse to accurately identify
+   landslide features  unless the data are merged with higher resolution
+   radar images.
+
+   Synthetic aperture radar (SAR) instruments transmit radar signals and
+   then measure how strongly the signals are scattered back. Because SAR
+   produces its own radar signal which can penetrate cloud cover, the
+   sensor generates images with greater detail at a higher spatial
+   resolution, and making it especially useful for mapping the
+   geomorphology of landslides.
+
+   "SAR images provide information on the terrain roughness and texture,
+   while TM images provide an infrared reflection of the object," said
+   Singhroy.
+
+   By combining two images from different instruments, Singhroy and
+   colleagues found they could produce a third image containing
+   topographic details essential to producing high-quality landslide maps.
+   The process, known as image fusion, combines radar terrain information
+   with Landsat spectral land cover images. "Fused images are now used
+   frequently in geologic mapping and geohazard assessment, such as
+   landslide mapping," said Singhroy.
+
+   The researchers are also experimenting with another technique, known as
+   radar interferometry, to produce slope maps that will aid in slope
+   stability studies in mountainous terrains prone to landslides. SAR
+   interferometry (INSAR) operates on the premise that if the
+   backscattered signal differs between two images of the same object,
+   taken at two different times, then the object has moved or changed.
+   INSAR imagery is used to monitor landslide motion and produce detailed
+   contour maps, which help characterize hazardous areas.
+
+   "SAR interferometry is a useful tool for detecting and monitoring mass
+   movement and, therefore, contributes to the assessment and mitigation
+   of landslide hazards," said Singhroy. "Major geomorphic features, such
+   as slides, ridges, and faults, are well-defined and easily interpreted
+   in InSAR images. These features provide clues that help us map
+   potential slide areas."
+
+   Radarsat-1, an advanced Earth observation satellite launched by the
+   Canadian Space Agency in 1995, produces InSAR images for landslide
+   assessment. Other radar systems, such as the European Remote Sensing
+   Satellite (ERS) 1 and 2 and NASA's Shuttle Radar Topography Mission
+   (SRTM), also have potential for geohazard assessment.
+
+   Singhroy, along with colleagues K. Mattar and L. Gray, used InSAR and
+   high-resolution SAR images to map the geomorphic features of landslide
+   areas in the Fraser Valley, located in British Columbia, Canada.
+   Landslides in the Fraser Valley, which links the resource-rich prairie
+   provinces with metropolitan Vancouver, have caused serious damage to
+   major transportation links. In 1997, landslides caused the derailment
+   of the Canadian National Railway, resulting in two deaths and $20
+   million in damage. To date, 35 landslides, ranging in size from 1
+   million to 500 million cubic meters, have been identified in the Fraser
+   Valley.
+
+   Airborne-SAR Image caption
+   Airborne-SAR Image
+   Legend
+   Integrated Landsat-TM/SAR Image (IHS) caption
+   Integrated Landsat-TM/SAR Image (IHS)
+
+   These two images show a landslide area along the North Saskatchewan
+   River, Saskatchewan, Canada: High-resolution SAR image (top), and
+   combined Landsat-TM/SAR image (bottom). (Images courtesy of Vernon
+   Singhroy, CCRS)
+
+   Singhroy said that, although the role of Earth observation data in
+   producing landslide maps is still in its infancy, developing new remote
+   sensing techniques to identify landslides and debris flows will assist
+   in the current national landslide inventory and hazard mapping in
+   mountainous terrains.
+
+   "The integration of SAR and TM images, along with SAR interferometric
+   techniques, are extremely useful in characterizing landslides and will
+   supplement the air photo methods currently being used," said Singhroy
+   in an article published in Advances in Space Research.
+
+   According to Singhroy, fused data images create image perspectives that
+   can help civil defense workers know where potentially hazardous areas
+   are. "In the case of volcanoes, they help us map dangerous terrains and
+   potential lava paths," he said.
+
+   The 1985 volcanic eruption of Nevado del Ruiz in the Columbian Andes
+   Mountains proved just how invaluable accurate hazard maps are in
+   identifying at-risk communities. When the volcano erupted, glacier melt
+   spawned massive mudflows that buried 20,000 people in the town of
+   Armero overnight. "The hazard zone was actually much larger than the
+   risk maps had indicated," said Singhroy. (See Life on the Brink for
+   information about population centers on or near volcanoes.)
+
+   "Image fusion and perspective views will help us mitigate these risks.
+   We need to learn how to live in hazardous areas and use these tools to
+   minimize damage," he said.
+     __________________________________________________________________
+
+   Singhroy, V., K.E. Mattar, and A.L. Gray. 1998. Landslide
+   Characterisation in Canada Using Interferometric SAR and Combined SAR
+   and TM Images. Advances in Space Research. 21(3). pp. 465-476.
+
+   Singhroy, V. and K.E. Mattar. 2000. SAR Image Techniques for Mapping
+   Areas of Landslides. Proceedings ISPRS Congress, Amsterdam, 2000. pp.
+   1395-1402.
+
+   USGS National Landslides Hazards Program Accessed September 6, 2001.
+
+   CEOS Landslide Management Accessed September 6, 2001.
+
+     The NASA Distributed Active Archive Centers (DAACs) provide data and
+     user services in support of the Earth observing sciences.
+
+
+     Subscribe to the Earth Observatory
+     About the Earth Observatory
+     Please send comments or questions to: eobweb@eob.gsfc.nasa.gov
+     Responsible NASA official: Yoram Kaufman

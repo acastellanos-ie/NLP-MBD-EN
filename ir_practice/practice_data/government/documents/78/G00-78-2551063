@@ -1,0 +1,905 @@
+http://isc.gsfc.nasa.gov/AnnReport2000/ISCHighlights2000.pdf
+
+   IInnffoorr m maattiioonn S Syysstteem mss C Ceenntteerr H
+   Hiigghhlliigghhttss 22000000  A A Y Yeeaarr IInn R Reevviieew w Applied
+   Engineering and Technology Directorate (AETD) Information Systems
+   Center (ISC) Code 580 h ttp: //isc.gsfc .n asa.go v EXECUTIVE
+   SUMMARY................................................................
+   .......................................................................
+   ............... 3 MISSION AND STRATEGY
+   .......................................................................
+   .......................................................................
+   ........... 5 ORGANIZATIONAL STRUCTURE
+   .......................................................................
+   .......................................................................
+   6 SYSTEMS INTEGRATION AND ENGINEERING  CODE 581
+   .......................................................................
+   ........................... 7 FLIGHT SOFTWARE  CODE
+   582....................................................................
+   .......................................................................
+   . 11 MISSION APPLICATIONS  CODE
+   583....................................................................
+   ................................................................ 16
+   REAL-TIME SOFTWARE ENGINEERING  CODE 584
+   .......................................................................
+   .................................... 19 COMPUTING ENVIRONMENTS AND
+   TECHNOLOGY - CODE
+   585....................................................................
+   .................... 25 SCIENCE DATA SYSTEMS - CODE 586
+   .......................................................................
+   ........................................................... 31 ADVANCED
+   DATA MANAGEMENT AND ANALYSIS - CODE
+   587....................................................................
+   ...................... 40 ADVANCED ARCHITECTURES AND AUTOMATION - CODE
+   588
+   .......................................................................
+   .................. 43 AWARDS AND
+   RECOGNITION............................................................
+   .......................................................................
+   .............. 46 FUN RUN 2000
+   .......................................................................
+   .......................................................................
+   ............................ 51 PUBLICATIONS
+   .......................................................................
+   .......................................................................
+   ........................... 52 ACRONYMS AND ABBREVIATIONS
+   .......................................................................
+   ................................................................. 55
+   The Information Systems Center (ISC) had a very productive and
+   challenging calendar year 2000. With over 300 information technology
+   (IT) and engineering professionals, the ISC continued to provide
+   crucial support to the Flight Projects Directorate as well as both the
+   Earth and space science communities on a wide range of missions,
+   initiatives, technologies and formulation activities. This year saw the
+   launch of the Image/Magnetopause to Aurora Global Explorer (IMAGE) on
+   March 25 and the Earth Observing-1 (EO-1)/SAC-C spacecraft on November
+   21. The Imager for the IMAGE mission was the first in a series of
+   medium class Explorers dedicated to imaging the Earth's magnetosphere,
+   a region of space controlled by the Earth's magnetic field and
+   containing extremely tenuous plasmas of both solar and terrestrial
+   origin. The ISC provided significant support to the development of the
+   ground systems and the science data processing system for the Low
+   Energy Neutral Atom (LENA) instrument, as well as support to the
+   Coordinated Data Analysis Web (CDAWeb) system that is part of the
+   National Space Science Data Center (NSSDC). The IMAGE mission is one of
+   the first missions to embrace the open data policy where data is
+   available to the space science community and general public at the same
+   time it is available to mission scientists. EO-1 was the first Earth
+   looking mission in the New Millennium Program, designed to validate
+   advanced land imaging instrument technologies for space-based Earth
+   observation. EO-1 is flying in formation with Landsat-7 and collects
+   over 50 calibration and land images weekly. The ISC provided major
+   support to EO-1 in the area of ground system development, flight
+   software technical (recovery) management, instrument integration and
+   test, and data processing and development of the Enhanced Formation
+   Flying software with Landsat-7. The ISC also provided leadership in the
+   technical direction in recovering the EO-1 flight software. The ISC
+   also provided major support to many other missions. The details in the
+   following pages demonstrate the breadth and depth of the ISC team
+   skills and the wide range of supported projects. In addition to
+   missions that are in formulation and development, the ISC played a
+   major role in the operations management and sustaining engineering and
+   operation of GSFC's many on-orbit missions. GSFC operates 18 on-orbit
+   missions. Particular note is made for the success of the Hubble Space
+   Telescope (HST) and Terra operations over this past year, employing a
+   new Vision 2000 control center system and 486 support system flight
+   software for HST and the new mission and science ground systems for
+   Terra. ISC personnel provide expertise in anomaly resolution, special
+   maneuvers, and overall mission planning. Year 2000 saw the successful
+   de-orbit of the Compton Gamma Ray Observatory (CGRO) on June 4 and
+   maneuvers conducted for WIND orbit change and the continued successful
+   operation of the SOHO spacecraft without gyros. For EO-1, there were
+   several important on-orbit changes that greatly improved the science
+   output and operational performance of the spacecraft: (1) development
+   of operational procedures to improve the performance of the X-Band
+   downlink and; (2) flight software patches to allow the Short Wave
+   Infrared (SWIR) instrument to operate at a greater duty cycle (80
+   percent vs. 50 percent) by bypassing the Hyperion cryocooler sensor
+   failure. 3 Our skilled and dedicated efforts also focused on
+   development of future missions. In particular, the year 2000 saw
+   progress in the development of the ground system and flight software
+   for Aqua, Aura, Gamma-ray Large Aperture Space Telescope (GLAST),
+   Microwave Anisotropy Probe (MAP), National Polar Orbiting Environmental
+   Satellite System (NPOESS), Net Primary Production (NPP), Space
+   Technology-5 (ST-5), Ice, Clouds, and Land Elevation Satellite (ICESat)
+   and Triana. Support to the science labs continued with the development
+   of application specific software for the purpose of analysis and
+   display of mission science data, for example, the development of the
+   Space Weather View (SWV) for the Community Coordinated Modeling Center
+   (CCMC). The ISC is committed to GSFC's goals of technology investment.
+   This commitment was evidenced in the ISC's major strides in developing
+   and winning technology proposals, holding workshops to encourage
+   collaborative thinking and idea generation; and developing processes
+   and procedures to better facilitate the approval of papers and
+   proposals. Winning proposals were submitted to various NASA Research
+   Announcement (NRA) and Independent Research and Development (IRAD)
+   calls. The ISC also submitted over 30 papers to various technical and
+   special interest conferences. The ISC held it's yearly Software
+   Engineering Workshop (SEW) in November, which had an attendance of over
+   230. The ISC also held its first Science Data Processing Workshop (over
+   200 attendees) that invited both the space and Earth science
+   communities to explore areas of common concern. This was considered a
+   great success and planning has already started for a follow-on workshop
+   in 2001. Even with many great success stories, the year 2000 was not
+   without its challenges. Declining and erratic budgets caused
+   disruptions in workflow and created an environment that continually had
+   the management team replanning. The loss of key personnel created
+   mission concerns and necessitated reassignments of personnel to cover
+   critical areas, sometimes leaving other areas thinner than desired.
+   Hiring continued to be a major challenge as the ISC Management Team
+   worked diligently to attract recent graduates in the IT area, even
+   developing a brochure that describes the many great reasons for working
+   at GSFC. With our many successes and the challenges of our future
+   missions, the ISC looks forward to 2001 and beyond to lead in providing
+   our customers and partners in enabling information systems to explore
+   and advance scientific knowledge. Just look at what we have
+   accomplished! 4 To provide high value information systems products,
+   services, and expertise, and to advance information technologies, which
+   are aligned with customer needs. The ISC is an innovative center of
+   expertise in the formulation and implementation of information systems
+   in support of National Aeronautical and Space Administration (NASA)
+   programs and projects, specifically the GSFC Earth Sciences, Space
+   Sciences, and Technology focus area. The ISC collaborates with the
+   science community, projects and other customers to meet their
+   information systems and technology needs through the design,
+   implementation, and integration of information systems and data system
+   components. The ISC provides technology, capability and products in
+   design, development, implementation, test, integration and operations.
+   Additionally, the ISC provides leadership and vision in identifying and
+   sponsoring new and emerging information systems technologies. The ISC
+   has five primary strategy objectives: * Deliver high value products and
+   services that satisfy customer needs * Advance leading edge information
+   systems technology * Build a diverse, talented, innovative, energized,
+   sought after workforce of employees and managers * Establish open,
+   flexible, collaborative relationships with customers and partners *
+   Build a cohesive, "no walls" organization with effective inter and
+   intra branch communication and collaboration 5 NATIONAL AERONAUTICS AND
+   SPACE ADMINISTRATION GODDARD SPACE FLIGHT CENTER Applied Engineering
+   and Technology Acting Chief, Arthur F. Obenschain INFORMATION Associate
+   Chief, Joseph F. Hennessy SYSYEMS Associate Chief, Mary Ann Esfandiari
+   CENTER Assistant for Technology, Peter Hughes 580 TECHNOLOGY 580
+   Systems Flight Software Mission Real-Time Integration & Branch
+   Applications Software Engineering Branch Engineering Branch Branch 581
+   582 583 584 Head, Margaret Caulfield Head, Elaine Shell Head, Henry
+   Murray Head, Barbara Pfarr Associate, Howard Kea Associate, Raymond
+   Whitely Associate, Scott Green Associate, John Donohue Associate,
+   Vacant Associate, Lisa Shears Associate, Jay Pittman Computing Science
+   Data Advanced Data Advanced Environments & Systems Branch Management &
+   Architectures Technology Analysis Branch & Automation Branch Branch 585
+   586 587 588 Head:, Howard Eiserike Head, M.A. Esafandiari Acting Head,
+   M.A. Esfandiari Head, Julie Breed 587 Associate, Steve Naus Associate,
+   Mary Reph Associate, Jim Byrnes Associate, Barbie Medina 6 The Systems
+   Integration and Engineering (SIE) Branch provides expert advice and
+   technical consultation to Principle Investigators and Mission Study
+   Managers on operational concepts, data systems architectures and life
+   cycle costing. It provides end-to-end engineering of ISC mission
+   systems development activities, including software development and
+   flight operations. It provides expert consultation on software process
+   improvements, technology assessments and product evaluation. Management
+   Team: Branch Head Associate Branch Heads Margaret Caulfield Howard Kea
+   Vacant (301) 286-1048 (301) 286-5252 SEW25 - 25th Anniversary of the
+   attendees represented 7 foreign Software Engineering countries: Canada,
+   Brazil, the United Workshop (SEW) Kingdom, Germany, Spain, Russia, and
+   On November 29 and 30 2000, the Japan. Thirty-eight percent of all
+   Software Engineering Laboratory attendees described themselves as
+   (SEL)-a consortium composed of the government employees, 16 percent as
+   ISC, Goddard, the University of academics, and 48 percent as members
+   Maryland (UMD), and Computer of industry. The 38 percent from Sciences
+   Corporation (CSC)- government consisted of 13 percent presented the
+   25th Annual SEW. from the ISC, 3 percent from other parts Although
+   registrations (263) and of GSFC, 3 percent from other NASA attendance
+   (232) for the two-day Centers, and 19 percent from other conference
+   were slightly lower than the government agencies. preceding year, the
+   199 registrations for the tutorials-a new SEW feature- The first day of
+   papers began with a made up for the shortfall many times session
+   entitled, "The Software over. The three tutorials- Engineering
+   Laboratory." SEL Director Requirements, Reading and Reliability Mike
+   Stark presented "Supporting (53 registrants), Understanding Development
+   of Satellite's Guidance Software for Project Management Navigation and
+   Control Software: A (52 registrants), and Software Process Product Line
+   Approach." CSC's Dave Improvement (94 registrants) were held Schultz
+   presented the paper on November 28. "A Matrix Approach to Software
+   Process Definition." Vic Basili, a SEL founding Two Europeans presented
+   papers at member from the University of Maryland SEW25, one from the
+   University of (UMD), presented "CeBaSE: The Rome and the other from
+   Linkoeping Center for Empirically-Based Software University in Sweden.
+   In addition 19 Engineering." 7 Laboratory (JPL) and Charles Vanek from
+   NASA's Goddard. The final paper session was "Reusable Architecture."
+   From left to right: Vic Basili (UMD SEL Founding Member), David Schulz
+   (CSC), and Mike Stark (GSFC SEL Director) This session was followed by
+   the Empirical Models session. After the NASA's Deputy Chief Engineer
+   for Systems Engineering, Orlando Figueroa lunch break the audience was
+   treated to three papers on Modeling Processes. One hundred of the 232
+   attendees The first day concluded with a panel completed the SEW25
+   questionnaire, a session on the Earth Observing System 43 percent
+   sample. The SEW received (EOS) Data and Information System high marks
+   for the quality of the (EOSDIS). Dawn Lowe of Goddard presentations and
+   the environment. moderated and panelists Mike Moore Ninety-two percent
+   stated that the (Goddard), Curt Shroeder (Goddard), general content was
+   either very good and Steve Fox (Raytheon) discussed (the highest of the
+   five ratings) or good. lessons learned from EOSDIS. This Eighty-eight
+   percent rated the level of panel session was extremely well interest as
+   either very good or good. received by the audience. Afterwards
+   Sixty-five percent rated the level of attendees were invited to the
+   Goddard academic rigor as either very good or Visitors Center for the
+   SEW25 good. Visual presentation, verbal/audio reception. This usually
+   tranquil museum presentation, logistical support, and came alive with
+   the sounds of the physical comfort received respectively Goddard
+   quartet "On the Rocks" and the 81 percent, 74 percent, 92 percent, and
+   tastes of abundant delicious hors 73 percent in the very good or good
+   d'oeuvres. categories. The second day of papers opened with When asked
+   what features they would an excellent keynote speech, "The like to see
+   at SEW26, respondents most Future of Software at NASA" given by
+   frequently asked for handouts of slides Orlando Figueroa, the NASA
+   Deputy (71 percent), which were a new SEW Chief Engineer for Systems
+   item this year. This request was Engineering. This was followed by a
+   followed by requests for keynote paper session entitled, "Experience."
+   speakers (68 percent), tutorials The Quality Mission Software panel (66
+   percent), traditional talks discussion, which kicked off the (64
+   percent) and panels (56 percent). afternoon session, featured Rich
+   Doyle and John Kelly, from the Jet Propulsion 8 The SEL has debated
+   whether to move CGRO had a diverse scientific agenda, the SEW off site
+   in order to provide which included studies of some of the better
+   accommodations. Attendees universe's most energetic celestial were
+   asked if they would attend SEW26 phenomena: solar flares, gamma-ray if
+   it were held off site for this reason and bursts, pulsars, nova and
+   supernova if the registration fee were raised to explosions, accreting
+   black holes of $150 - $200. The response was nearly stellar mass,
+   quasar emission, and evenly split. Forty-seven percent replied
+   interactions of cosmic rays with the that they would attend SEW26 under
+   interstellar medium. these circumstances. Fifty-three percent replied
+   "no." CGRO carried a collection of four instruments that together could
+   detect an unprecedented range of high-energy radiation called gamma
+   rays. These instruments were the Burst and Transient Source Experiment
+   (BATSE), the Oriented Scintillation Spectrometer Experiment (OSSE), the
+   Imaging Compton Telescope (COMPTEL), and the Energetic Gamma Ray
+   Experiment Telescope (EGRET). Covering an unprecedented six decades of
+   the electromagnetic spectrum (from 30 keV From left to Right: Howard
+   Kea (NASA's GSFC), Mary to 30 GeV), CGRO's four instruments Ann
+   Esfandiari (NASA's GSFC), Trisha Jansma (JPL), and John Kelly (JPL)
+   were ten times more sensitive than any predecessors flown on previous
+   Highlights from the missions. Compton Gamma Ray Observatory (CGRO)
+   Mission CGRO detected more than 400 gamma The CGRO was the second of
+   NASA's ray sources, ten times more than what Great Observatories
+   following the was previously known. It recorded more Hubble Space
+   Telescope (HST). than 2,500 bursts-before CGRO, only Named in honor of
+   Dr. Arthur Holly about 300 had been detected. CGRO Compton, CGRO made
+   invaluable discovered that gamma-ray bursts come contributions to the
+   field of high- uniformly from all directions in the sky. energy
+   astrophysics during its 9-year This indicates that the bursts are not
+   mission. confined to our galaxy, but are probably due to huge
+   explosions in the distant At 17 tons, CGRO was the heaviest reaches of
+   the universe. Using data astrophysical payload ever flown at the from
+   CGRO, scientists were able to time of its launch on April 5, 1991,
+   determine that half of the previously aboard the space shuttle
+   Atlantis. After unidentified high-energy gamma ray exceeding its
+   mission life by more than sources in our galaxy actually comprise 4
+   years, CGRO was safely de-orbited a new class of mysterious objects.
+   and reentered the Earth's atmosphere Other major accomplishments of
+   CGRO on June 4, 2000. were: 9 CGRO detected five new black hole *
+   emission from jets of particles systems in our galaxy with transient
+   emanating from massive black holes. gamma-ray emission from in falling
+   gas. * CGRO measured the distribution of * Using gamma radiation from
+   26-Al positron antimatter in our galaxy. decay, CGRO created a map of
+   the sites of nucleosynthesis in our galaxy over the past million years.
+   * CGRO detected gamma-ray quasars with high-energy gamma-ray 10 The
+   Flight Software (FSW) Branch provides end-to- end life cycle products
+   associated with embedded software for spacecraft, scientific
+   instruments, and flight components. Management Team: Branch Head
+   Associate Branch Heads Elaine Shell Raymond Whitley Lisa Shears (301)
+   286-2628 (301) 286-6404 (301) 286-3975 The year 2000 was a very good
+   year for the Branch. FSW at GSFC is a growing the FSW Branch in terms
+   of specialty. well-deserved staff recognitions, highly effective
+   mission FSW support, and FSW Branch Mission Branch initiatives. We also
+   demonstrated, via crisis recoveries on Development Highlights the Earth
+   Observing (EO-1) and The astonishing performance of the InfraRed Array
+   Camera (IRAC) FSW entirely new Hubble Space Telescope efforts, the
+   essential end-to-end (HST) 486 FSW system was installed systems
+   engineering and development on-orbit during Servicing Mission 3A in
+   "non-negotiables" of FSW. These last December 1999. Full HST science
+   efforts represent the predictable results operations were resumed
+   immediately of inadequate engineering, testbeds, following orbital
+   verification during staff, processes, controls and January. The goals,
+   to exceed the organizational visibility during FSW previous on-orbit
+   performance while developments. Ray Whitley was the taking advantage of
+   the more powerful driving force during recovery of both flight computer
+   to provide new EO-1 and IRAC, with Ken Rehm, Louise functionality, were
+   completely achieved. Bashar and a dedicated set of excellent The team
+   met each major milestone of FSW contractors supporting them. The the
+   original 5-year development IRAC effort continues to be a challenge.
+   schedule with absolutely no delays! The newly obsolete DF224 flight
+   computer FSW is now fully recognized as a very from our FSW testbed was
+   given to high risk, mission critical product. The Dave Simpson for 10
+   years of ISC and AETD have both stated the supporting hundreds of
+   updates and criticality of strong civil servant (and on-orbit events.
+   contractor) FSW talent at GSFC. In response to this the FSW Branch was
+   The Microwave Anisotropy Probe (MAP) authorized to hire a third
+   Associate FSW Team completed acceptance Branch Head as well as a Senior
+   FSW testing of the FSW on all six-flight Systems Engineer as technical
+   staff to computers a full year prior to launch. The team, led by Jane
+   Marquart with Maureen Bartholomew responsible for 11 the overall FSW
+   Test Program, was risk area deserving of the highest levels
+   acknowledged by the Red Team for the of project visibility. quality of
+   their processes and people. During the last year the team developed The
+   Ice, Clouds, and Land Elevation and tested a contingency build to
+   Satellite (ICESat) Geoscience Laser accommodate alternate star
+   trackers, Altimeter Systems (GLAS) Instrument tested the flight
+   telemetry monitors and FSW represents our first experience command
+   sequences, and supported with an Rapid Spacecraft Development numerous
+   simulations and integration Office (RSDO) (i.e., "off the shelf" and
+   test (I&T) activities. spacecraft) contractor relationship. The fixed
+   instrument interfaces to the spacecraft made for some difficult
+   interface negotiations, and the sharing of the Engineering Test Unit
+   (ETU) with the I&T effort has delayed FSW testing beyond the desired
+   schedule. However, the FSW led by Manuel Maldonado has been delivered
+   to I&T with full functionality on both the Mongoose V and the Digital
+   Signal Processing (DSP) FSW systems. While we were enthusiastic about
+   Microwave Anisotropy Probe (MAP) supporting the NGST Nexus The Next
+   Generation Space Telescope demonstration mission, its cancellation
+   (NGST) FSW Team, led by Leslye during November will give us Boyce and
+   Ken Rehm, made terrific considerably more flexibility to staff progress
+   in defining the flight hardware continuing Branch commitments. and
+   software architectures for the common Command and Data Handling FSW
+   Development Systems (C&DH) elements for NGST. They have Management
+   Oversight and worked with the Science Institute in FSW "Independent
+   Verification Baltimore and two competing and Validation" (IV&V)
+   contractors, both working mission designs, to establish mission
+   operability Earth Observing System (EOS) Terra, strategies and FSW
+   subsystem interface Aqua and Aura requirements. Supporting parallel The
+   highly successful on-orbit designs of the instrument module performance
+   of the Terra mission FSW, enabling us to accommodate each following the
+   December 1999 launch, contractor's proposal has been quite a results
+   from the outstanding FSW challenge. The down select of prime leadership
+   of Lisa Shears during the contractors will occur during the fall of
+   6-year Lockheed Martin development 2001. They have chosen Rational Rose
+   effort. It also represents the quality of as the integrated development
+   tool for the independent FSW Test Program FSW. The FSW on NGST is
+   provided by Tom Clement's Verification appropriately recognized as a
+   significant and Validation (V&V) Team. Tom's 12 team has taken over the
+   on-orbit RFO package for Study #2, which maintenance of the Terra FSW
+   with includes the Statement of Work (SOW), several important updates
+   already to developing the Level 3 Requirements for their credit. the
+   NPP Satellite software, and supporting the Level 3 Operations With the
+   designation of the West Concept development. Referring to Virginia
+   (WVA) IV&V organization as the work done on EOS Terra and the EOS sole
+   NASA group doing "IV&V", we've Common Spacecraft, and taking into had
+   to change the name of our EOS account lessons-learned has helped V&V
+   Program to "Project V&V". Tom define Study #2 SOW activities and
+   Clement's team is actively working the hone the requirements and
+   Operations EOS Aqua Project V&V in preparation (Ops) Concept definition
+   for NPP. for a summer 2001 launch, and the memorandum of understanding
+   (MOU) HST Payload for the EOS Aura Project V&V is ready In 2001, The
+   HST Flight Software Team for signature. Barbara Scott and will be
+   preparing for the 2nd half of the Carver Audain, Aqua and Aura FSW 3rd
+   Servicing Mission (i.e., SM3B), which Systems Managers, have led is
+   scheduled for November 2001. resolutions of many interface, delivery,
+   During the SM3B Servicing Mission, performance and contractor staffing
+   several power system components issues with project level appreciation
+   for including new solar arrays, Diode their significant contributions.
+   Boxes, and Power Control Units will be installed. The FSW Team will
+   provide National Polar Orbiting new Diode Box Software Charge
+   Environmental Satellite System Control--to control the Solar Array
+   Panel (NPOESS) Preparatory Project (NPP) connection AND disconnection
+   to the The main activity for NPP for FY00 was batteries-which will
+   enhance the HST the December release of the RSDO power subsystem
+   operations. Request for Offer (RFO) Study #2. The main objectives of
+   this study activity Flight Software Branch were to establish a refined
+   base-line of NPP satellite requirements, and to Hands-on Technology
+   Initiatives develop a preliminary design of the In order to take
+   advantage of new integrated RSDO catalog Core Bus and software and
+   standards technologies mission-unique modifications required with low
+   risk to a mission, the FSW for the NPP satellite. Proposals were Branch
+   prefers to evaluate options for due by 01/19/01. An evaluation team the
+   future in the safety of ground (for which Lisa Shears was a member)
+   prototypes. The activities are being reviewed the proposals selecting
+   two to pursued by the FSW Branch using the three contractors to proceed
+   with the Branch FSW Technologies Lab in development of NPP satellite
+   Building 14, Room N287. The lab is set Preliminary Design Reviews
+   (PDRs) in up with three flight environments the November 2001
+   timeframe. including Mongoose-V, PowerPC750 and UT69R000
+   processor-based data The main contributions have been systems. Todd
+   Miller/582 leads these coordinating the development of the Branch
+   activities. 13 Portable Operating System Interface evaluate Linux
+   performance on a flight (POSIX) Flight Software Initiative platform in
+   a heritage flight software The goal of this initiative is to
+   investigate environment. the IEEE POSIX standards for future explorer
+   class missions. POSIX is a set Flight Consultative Committee for of
+   standards, which promotes portability Space Data Systems (CCSDS) File
+   across the multiple operating systems. Delivery Protocol (CFDP)
+   Initiative Using a POSIX compatible operating In collaboration with
+   Code 588, the FSW system has many benefits including: Branch has
+   defined a prototype of the portability across the full spectrum of CFDP
+   to be implemented in the 582 hardware platforms, a standard
+   technologies lab and will be tested using development and test
+   platform, and an simulated link delays. The prototype enhanced set of
+   operating system implementation will utilize the Rational services for
+   supporting new embedded Rose toolset and will be a pathfinder for
+   flight software technologies. the development of future flight software
+   using Rose. The CFDP options are This investigation will focus on being
+   defined to closely represent the determining if POSIX is viable for
+   flight intended requirements of the NGST software. The activities
+   include porting mission. an actual flight data system (MAP) to the
+   POSIX Application Programming Flight Common Object Request Interface
+   (API), characterizing the Broker Architecture (CORBA) performance
+   impact of the port, and Initiative characterizing the practical
+   portability of In collaboration with Code 588, we will the resulting
+   system between several study the usefulness of CORBA in a POSIX
+   operating systems. flight data system for implementing communications
+   between both onboard Flight Mongoose-V Real-Time subsystems and the
+   spacecraft and Executive for Multi-Processor ground controllers. CORBA
+   provides a Systems (RTEMS) Initiative potential mechanism for
+   implementing The Mongoose-V RTEMS initiative is a interfaces
+   distributed across an onboard spin-off of the POSIX Flight Software
+   Local Area Network (LAN) without Project. The near term goal is to
+   requiring explicit communications develop a Board Support Package
+   routing, buffering, and bandwidth which meets POSIX interfaces for the
+   allocation. CORBA may also prove free Open Source Real-Time Operating
+   suitable for implementing ground to System (RTOS), RTEMS and the core
+   spacecraft subsystem command flight data system derived from the
+   interfaces, by providing remote access Medium-Class Explorer (MIDEX)
+   MAP to subsystem command functions and data system. The ultimate goal
+   is to fly implicit command acknowledgement. RTEMS on Space Technology
+   (ST-5). Internet Protocol (IP) in CCSDS Flight Linux Initiative
+   Initiative With the many seeming advantages to The purpose of the IP in
+   CCSDS using the open source Linux operating initiative is to develop
+   software system for flight systems, we will supporting IP network
+   connectivity in 14 conjunction with a traditional CCSDS flight data
+   system. The IP tunnel can be used to demonstrate technologies relying
+   on Internet protocols without giving up the tried and true practices of
+   CCSDS flight data systems. "De-CCSDS-tification" Initiative Past flight
+   data systems built using CCSDS standards have typically interwoven
+   CCSDS concepts and data formats throughout the flight data system
+   source code. The De-CCSDS-tification initiative defines a higher-level
+   interface intended to hide the communication protocols being used by
+   the data system, facilitating ports to newer protocols. Highlights of
+   Branch-internal Initiatives and Plans for the Future Lou Hallock
+   completed and presented the full 12 training sessions of "Attitude
+   Control Subsystem Concepts without an Attitude." His series was
+   followed by an introduction to "Developing ACS FSW with an Attitude",
+   by Dave McComas. Lou and Dave hope to mature both topics and repeat the
+   training in the future. 15 The Mission Applications (MA) Branch
+   provides for the development of off-line systems and applications to
+   support Earth and space science missions. It develops operational
+   mission data systems that include functions such as science planning
+   and scheduling aids, guidance navigation and control software, and
+   Network Control Center (NCC) data systems. Management Team: Branch Head
+   Associate Branch Head Henry Murray Scott Green (301) 286-6347 (301)
+   286-5076 During 2000, the MA Branch continued software scripts were
+   later replaced by its software engineering support with a Interactive
+   Data Language (IDL) variety of development activities that software for
+   operations, they were support Goddard's mission and instrumental in
+   producing necessary test technology needs. files during prelaunch
+   verification. Flight Projects The FDS for Earth Observing-1 (EO-1)
+   After development and delivery of the was developed by the MA Branch
+   and is Earth Observing System (EOS) Terra successfully supporting all
+   early mission Flight Dynamics System (FDS) in activities following the
+   November 2000 support of the mission's December 1999 launch. The FDS
+   includes subsystems launch, the MA Branch continued and utilities for
+   attitude and orbit sustaining engineering support until May
+   determination and prediction, of 2000. This support involved
+   calibration, attitude slews, momentum development and testing of
+   software management, planning product updates to incorporate new
+   generation and mission-unique science requirements and correctly
+   identified utilities. anomalies, as well as participation on
+   operational shifts during critical flight The MA Branch also continued
+   in its dynamic events. prelaunch support of the Triana and EOS Aqua
+   missions, scheduled for The MA Branch supported the Imager launch in
+   2001 and 2002 respectively. for Magnetopause-to-Aurora Global For
+   Triana, Branch personnel are Explorer (IMAGE) Project testing activity
+   developing ground data processing through the development of Science
+   software for the Solar Plasma and Data Pipeline functions, which ingest
+   Magnetic Field Investigation (PlasMag) science telemetry data and
+   convert it to instrument cluster, while Aqua support Universal Data
+   Format (UDF), a generic involves the development of the structure
+   optimized for use with time mission's FDS. ordered data sets. Although
+   these Perl 16 Mission Services specifying and forecasting conditions in
+   The Space Network (SN) Web Services the space environment. Presently,
+   the Interface (SWSI) will provide a CCMC Web site provides information
+   on Java-based cross-platform customer the activity's mission, goals,
+   and status interface for performing Tracking and and features several
+   space weather Data Relay Satellite (TDRS) scheduling models related to
+   ionospheric, and real-time service monitoring and magnetospheric and
+   solar heliospheric control. The development team, led by physics, as
+   well as a movie of the latest MA Branch personnel, completed Sun-Earth
+   connection events. design and early prototyping work, and held its
+   Requirements/Design Review in Technology October. SWSI is currently
+   scheduled In response to several Year 2000 to become operational in
+   early 2002. technology proposal calls, the MA Branch developed a set of
+   proposals The MA Branch also developed the that describe an innovative
+   concept for Spacecraft Explorer (SE) managing constellation operations.
+   applet/application for Goddard's Rapid Focusing on the theme of "An
+   Spacecraft Development Office (RSDO). Architecture for Constellation
+   This Java application provides a Management Automation", proposals
+   platform-independent tool for searching were submitted to the NASA
+   Research and comparing RSDO vendor Announcement (NRA) for the Advanced
+   spacecraft data. Cross-Enterprise Technology Development Program
+   (CETDP) and to Science Community the Space Operations Management The MA
+   Branch provided software Office (SOMO) Technology Program. engineering
+   support to the Space Physics Data Facility (SPDF) in the development of
+   the SKTEditor tool. The SKTEditor is a Java application for creating
+   and editing International Solar-Terrestrial Physics/ Interagency
+   Consultative Group (ISTP/IACG) guideline compliant skeleton Common Data
+   Format (CDF) files. This cross-platform utility will enable the science
+   community to organize data in a standardized fashion for easier access
+   and analysis. As part of the Community Coordinated Automated Mission
+   Planning and Scheduling System Modeling Center (CCMC) Team, Branch
+   Technology Infusion personnel developed the CCMC Web site as an
+   interface to the space science The MA Branch was selected by both
+   research community. The goal of the programs to receive funds totaling
+   $2M CCMC is to both aid in and participate in dollars over the next 3
+   years to develop the development of models for a constellation
+   architecture capable of 17 handling a variety of spacecraft autonomy
+   levels for distributed spacecraft missions. Guidance Navigation &
+   Control In support of the Guidance, Navigation and Control Center's
+   (GNCC's) Formation Flying Testbed (FFTB), Branch personnel assumed the
+   leadership role in Simulation and Display Software. The FFTB is a
+   modular, hybrid, dynamic simulation facility being developed as a
+   platform for Trajectory Design Tool Output Display end-to-end guidance,
+   navigation, control analysis and design of formation flying Software
+   Engineering clusters and satellite constellations. As As a result of
+   their recognized software the Simulation and Display Lead, MA
+   engineering expertise, MA Branch Branch personnel demonstrated a
+   personnel provided general software variety of FFTB capabilities,
+   including process support to various GSFC and the performance of
+   integrated analysis NASA-wide activities. The MA Branch with existing
+   Commercial Off-The-Shelf was instrumental in the development of (COTS)
+   tools and standalone functional the draft Goddard Procedure and
+   components and simulators. Additional Guideline for Development and
+   testbed verification has focused on Maintenance of Software Products
+   multiple satellite real-time relative (GPG 8700.5), and provided
+   internal navigation simulation, closed loop auditor support to GSFC
+   organizations control analysis and dissemination of and the NASA
+   Independent Verification real-time displays of simulated satellites and
+   Validation (IV&V) Facility as part of through the Internet. NASA's ISO
+   9000 activities. The MA Branch provides GSFC membership in The
+   Trajectory Design Tool (TDT) was the NASA Software Working Group, and
+   developed by the MA Branch to assist provides support to the ISC
+   Software flight dynamics analysts in planning Engineering Laboratory
+   (SEL). transfer trajectories, such as those from Earth orbit to a
+   libration point. Developed in the Mission Applications Technology Lab
+   (MATLAB), the tool eliminates the reliance on an iterative
+   guess-and-analyze process, reducing trajectory design time in some
+   cases from days to less than an hour. Flight dynamics analysts are
+   using the TDT in support of the Triana mission. 18 The Real-Time
+   Software Engineering (RTSE) Branch develops ground data systems for
+   integration and test and on-orbit operations of Earth and space science
+   missions. Management Team: Branch Head Associate Branch Heads Barbara
+   Pfarr John Donohue Jay Pittman (301) 286-5076 (301) 286-6149 (757)
+   824-1506 Wearable Voice-Activated cameras and head mounted displays.
+   Computers (WEVAC) While writing funding proposals, we considered a wide
+   range of NASA crosscutting space applications that would benefit from
+   having instant Internet, network and computer access with complete
+   mobility and hands-free operations. These applications include
+   spacecraft fabrication, integration and testing, and astronaut on-orbit
+   control and monitoring of experiments with ground based experimenters.
+   584 Summer Student Danny Green Sensor Web Adaptive Resource with first
+   WEVAC Prototype. Management (SWARM) Members of the RTSE Branch,
+   including two college summer students and a Cooperative Education
+   Program (CO-OP) student, developed a pair of wearable, wireless,
+   voice-activated computer integrating off-the-shelf software and
+   hardware components. Audiences were impressed by the C2 SWA SW SW SW R
+   A A A M RM RM RM RM show-and-tell presentations provided by the
+   students. The prototype demonstrated wireless communications and voice
+   recognition technologies. We evaluated several speech recognition and
+   collaboration software packages and researched the latest in
+   lightweight and portable microphones, computer With Ohio University,
+   Code 584 won a central processing units (CPUs), 2-year joint proposal
+   to the Earth Science Advanced Information Systems 19 Technology
+   Program. The goal is to Maintenance. evolve the Defense Advanced
+   Research Projects Agency (DARPA)-funded AETD Career Mentoring
+   DeSiDeRaTa adaptive resource Program approach to a sensor Web. The
+   approach uses middleware to adapt Code 584 continued to develop and
+   resource allocations and a framework to coordinate the AETD Minority
+   Career reason with Quality of Service objectives Mentoring Program
+   (MCMP) as it about real-time performance of completed a successful
+   first year and distributed application systems. The began a second. The
+   program has effectiveness of adaptive resource been well received by
+   AETD management will be demonstrated in a management and the results of
+   the Goddard-developed, ground-based program thus far have been very
+   real-time system called Integrated Test positive. Branch members host
+   and Operations System (ITOS). At the information sessions and training
+   end of the year, we won funding for a classes for mentors and protégés
+   and second effort with Ohio University to maintain the program's Web
+   site with prototype real-time resource up-to-date information.
+   management using real-time adaptive agents. Earth Science Data and
+   Information Systems (ESDIS) Real-Time Software Engineering Code 584
+   continues to support the Earth Lab Observing System (EOS) PM/Aqua, The
+   Real-Time Software Engineering Chemistry Mission (CHEM)/Aura Lab
+   continues to evolve. Current mission, and Ice, Clouds, and Land
+   projects in the Lab include: Triana, Elevation Satellite (ICESat) in
+   the roles Integration and Test (I&T), Rapid of Control Center
+   management and Application Development (RAD) Lab, Earth Observing
+   System Mission WEVAC, Mission Operations Center Operations System
+   (EMOS) Integration (MOC) Technology Exploration and and Test Manager.
+   Earth Orbiter-1 (EO-1) Code 584 supported the successful control center
+   and mission Development Space Operations operations Directive Agreement
+   (SODA) Task, preparations Simulators Center of Excellence, for the EO-1
+   Operating Missions as Nodes on the launch in Internet (OMNI), Nexus
+   Product November Evaluation Team, and 2000. WIND/POLAR/SOHO Software
+   EO-1 Launch, Nov 2000 20 Advanced System for Space Operations
+   Management Integration and Spacecraft Test Office (SOMO)/ Consolidated
+   (ASIST) Development Team Space Operations Contract The ASIST Team
+   supported a number (CSOC) of missions and instruments including Code
+   584 continued to support Geoscience Laser Altimeter System SOMO/CSOC
+   efforts, serving on the (GLAS), Tropical Rainfall Measuring Front End
+   Processor (FEP) Mission (TRMM), EO-1, Microwave Consolidation Vertical
+   Integration Team, Anisotropy Probe (MAP), Imager for and supporting
+   Space Network Magnetopause-to-Aurora Global customers in network
+   operations and Explorer (IMAGE), Space Technology-5 planning including
+   Earth Radiation (ST-5), Nexus in I&T and preparing for Budget Satellite
+   (ERBS), TRMM, Upper operations. The ASIST Consultative Atmosphere
+   Research Satellite (UARS), Committee for Space Data Systems Land Remote
+   Sensing Satellite (CCSDS) Ground Telecommanding (Landsat-7), Compton
+   Gamma-Ray software continues to be used for I&T Observatory (CGRO) (and
+   the CGRO and (pre-launch) Control Center deboost), pro Small Expendable
+   operations of the EO-1, IMAGE, and Deployer System (SEDS), and Hubble
+   MAP spacecraft, as well as several Space Telescope (HST). Code 584 also
+   instruments in development. Code 584 continued to manage two CSOC SODA
+   continued to support other on-going Tasks, the Simulators task and the
+   MOC missions with system administration Technology Development Task.
+   The support, supported ground system Simulators task delivered their
+   formulation for the ST-5 Mission (which Scaleable Integrated Modular
+   has chosen ASIST for I&T and mission Simulation Suite (SIMSS) to Aqua
+   and operations), and set up evaluation EO-1 this year. The team also
+   demos for Nexus. They continued to evaluated and developed a simulator
+   support the international CCSDS prototype using the Department of
+   standards at meetings and conferences. Defense (DOD)/Institute for
+   Electrical and Electronic Engineers (IEEE) standard "High Level
+   Architecture" (HLA) that allows for distributed simulations across a
+   wide area network. The MOC Technology Development and Exploration Task
+   implemented a task-developed product, named Jswitch into X-Ray Timinig
+   Explorer (XTE) operations for secure, remote access to engineering data
+   and events in near real-time. The task also began investigating
+   technologies, such as Image satellite, Pre-launch Biometric
+   authentication that can be applied to secure mission operations. 21 HST
+   began development for the next The HST continued to operate nominally
+   generation avionics system to support after the re-servicing mission
+   3A, and upcoming Hitchhiker programs and plans continued for servicing
+   mission missions. The team is also supporting 3B. Code 584 supported
+   the project in a some new Hitchhiker-related projects variety of roles
+   including lead Control such as Expedited Processing of Center Systems
+   (CCS) Systems Experiments for Space Station Engineer, CCS Developers,
+   Operations (EXPRESS) Palet Adapter Module Configuration, International
+   Standards (EPAM). EPAM is a new flight avionics Organization (ISO)
+   Compliance design intended to provide Hitchhiker- Manager, and
+   Instrument Lab like service to small payloads flying on Programmer. the
+   International Space Station (ISS). The team is also preparing for the
+   Nexus/ Next Generation Space STS-105 launch in June 2001. This
+   Telescope (NGST) launch will be supported by the new Code 584 supported
+   the Nexus and Hitchhiker design. The team is also NGST in the
+   compilation of cost supporting the Triana mission as part of estimates
+   for the ground system and the Triana Airborne Support Electronics.
+   simulation systems, and a detailed The next Hitchhiker mission is
+   evaluation of available existing scheduled for March 2001. Acceptance
+   Commercial Off-The-Shelf (COTS) or testing for the new design began in
+   Government Off-The-Shelf (GOTS) September. ground systems. Science
+   Visualization Lab Code 584 continued to support the Science
+   Visualization Lab, which included the development of animations of
+   Greenland ice density. These animations were used in a July 20th Press
+   Release, the Aug. 7 issue of Space Ops, and appeared on CNN and MSNBC.
+   Web pages were developed showing images of the Mozambique floods (shown
+   on CBS and ABC evening 584 supporting ACE thermal vacuum testing,
+   November 2000 news), Mars Orbiter Laser Altimeter (MOLA), Significant
+   Artic Ozone Loss, Triana and TRMM/Geostationary Operational The
+   Integrated Test and Operations Environmental Satellite (GOES) Data,
+   System (ITOS) Group continued to which is used to improve hurricane
+   support Triana I&T including supplying predictions. the Data Trending
+   and Analysis System (DTAS) for Triana. Hitchhiker The Hitchhiker
+   Development Group completed the design of the next generation
+   Hitchhiker Control Unit and 22 Ultra Long Duration Balloon Autonomous
+   File Server (SAFS), an (ULDB) automated data delivery and archive The
+   year 2000 was characterized by system that allows confirmed delivery of
+   much success and visibility for 584 at spacecraft science data products
+   Wallops. Major deliveries for the year directly to the science user's
+   desktop or included flight software and ground processing system.
+   control center systems for NASA's ULDB Project. Slated to fly a space
+   Advanced Earth Observing science mission in 2001, the ULDB is a
+   Satellite 2 (ADEOS2) next generation balloon capable of Support for
+   on-orbit science missions staying aloft for up to 100 days. The was not
+   confined strictly to NASA flight software was developed in-house
+   missions, however. ADEOS2, a joint and is designed to be highly
+   reusable NASA/National Space Development from mission to mission. The
+   new Agency of Japan (NASDA)/National control center systems are based
+   on Oceanic and Atmospheric existing GOTS software that were
+   Administration (NOAA) mission, is also extended and tailored for
+   balloon- counting on 584 for ground specific use. implementation. Code
+   584 personnel traveled to Japan to work with NASDA scientists and
+   engineers to manage implementation and testing of flight to ground
+   interfaces and operations concepts for this mission. 584 supporting
+   ULDB integration NASA Tracking Station Support Code 584 also provided
+   support for standard on-orbit missions. The final transition of
+   automated tracking sites at ADEOS-2 Mission Operations Meeting #7, held
+   in Alaska Wallops, Fairbanks, AK and Svalbard, in June 2000 Norway was
+   completed this year. These sites support the Space Advanced Range
+   Technology Operations Control Board (SOCB) Initiative (ARTI) Mission
+   set and the completion of their Technology development also played a
+   automation software marks a milestone large role in the activities of
+   Code 584. in their ability to support more missions One major
+   technology thrust is in the at a lower cost to NASA and its area of
+   ARTI. ARTI is an effort to focus customers. As a part of the
+   automation, on technology challenges that will 584 completed work on
+   the Standard benefit spaceport, launch range, and range safety
+   functions performed by 23 NASA at numerous sites and Centers. Karen
+   Keadle-Calvert and Sharon One effort in particular showed much Orsborne
+   won funding for their promise  the Flight Modem. Initiated Commercial
+   Technology Development as a GSFC Internal Research and proposal, "A
+   Multi-function PCI Digital Development (IRAD) activity, the Flight Data
+   Board for Spacecraft Modem will allow two-way Internet Communications."
+   Protocol (IP) based data transfer between an in-flight launch vehicle
+   and John Donohue's proposal titled, " Risk a launch control center
+   using no ground Analysis for Operating Spacecraft as infrastructure.
+   Initial tests of the Internet Nodes" was funded by SOMO technologies
+   involved a prototype for FY01. system developed by 584 at the Wallops
+   campus, which were flown on aircraft Tim Ray was awarded funds from and
+   balloons over the Western United SOMO after submitting his winning
+   States and off the coast of Florida. The proposal on CCSDS File
+   Delivery success of these early tests led to a Protocol (CFDP), which
+   is a file transfer proposed test aboard a Sounding protocol that can
+   run directly over Rocket to be conducted in January of CCSDS
+   Telecommand links. 2001. Other ARTI-related efforts have focused on
+   Launch Safety Knowledge Barb Pfarr (GSFC Co-Principal Engineering
+   efforts, Autonomous Flight Investigator (Co-PI)), Dr. Lonnie Welch
+   Termination Systems, and air and sea (Ohio University Principal
+   Investigator surveillance systems. (PI)) and Dr. Brett Tjaden (Ohio
+   University Co-PI) authored a winning proposal titled, "Adaptive
+   Resource Management for Distributed Real-Time Systems." Code 584 is
+   teaming with Ohio University in accomplishing the work defined in the
+   proposal. Ryan Detter (GSFC Cooperative Education Program (Co-Op))
+   supports this work at GSFC using ITOS as the prototype system. Ryan is
+   supporting this work, which involves integrating the ITOS system with
+   Ohio's algorithms for real-time resource management of Flight Modem
+   Front Panel distributed systems without timing constraints. Proposals
+   Steve Bailey recently submitted a winning proposal to the GSFC IRAD
+   proposal call titled, "Flight Hardware Methods for Ocean Color
+   Inversion." 24 The Computing Environments and Technology (CET) Branch
+   provides infrastructure support to scientific, project, administrative
+   and outreach activities across the GSFC. Management Team: Branch Head
+   Associate Branch Head Howard Eiserike Steve Naus (301) 286-7784 (301)
+   286-5640 Overall, Code 585 had a productive year documenting NASA's
+   "Best Practices" in in 2000. Our staff was engaged in KM and
+   researching industry and numerous leadership activities and external to
+   NASA best practices in KM. technical projects that support the ISC,
+   During the CY99 NASA CIO GSFC and NASA. The majority of these
+   Agency-wide IT Pilot Proposal call, activities focused on our primary
+   Steve Naus' proposal "Expert Directory strengths, Information and
+   Knowledge Service" was accepted and funded. Management, Information
+   Technology This proposal was one component in the (IT) Security, and
+   Networking and Federated KM Architecture Prototype Communications.
+   Representative of our Project with the Jet Propulsion involvement in
+   Information and Laboratory (JPL) and Langley Research Knowledge
+   Management was our work Center (LaRC). Code 585 collaborated on the
+   Agency Knowledge Management with the Goddard Earth Sciences and Team,
+   the completion of a multi-center Technology (GEST) Center/Code 930,
+   NASA Chief Information Officer (CIO) Florida International University
+   (FIU) pilot proposal titled "Expert Directory and University of
+   Maryland Baltimore Service", Resume Management and the County (UMBC) to
+   investigate advanced Brio Pilot supporting the Integrated Web-based
+   technologies. The major Financial Management Program (IFMP),
+   accomplishment during CY00 was that and our work on the Agency
+   standards, processes and tools for the Accessibility Team. For IT
+   Security a capture, retention and dissemination of NASA CIO pilot
+   proposal was awarded information that establishes the to facilitate
+   "remote control of foundation of an expertise/project-based
+   vulnerability scanning devices." For directory service were piloted.
+   Networking and Communications, our team supported the Global Legal Code
+   585 investigated various Information Network (GLIN) demo and commercial
+   offerings in knowledge the Internet2 initiative. portal technology,
+   selecting Autonomy's knowledge server and update to provide Knowledge
+   Management (KM) Web mining capabilities and KM Steve Naus of Code 585
+   represented solutions. The information captured GSFC on the Agency-wide
+   KM Team through Autonomy will become the developing a draft strategic
+   plan and foundation of knowledge that could be road map for KM
+   initiatives within NASA. used in next generation Intranet for the
+   Accomplishments during CY00 included Center. 25 Code 585 performed an
+   in-depth During CY01, the Resume Management internal study of the ISC's
+   current system will be implemented across the knowledge environment to
+   aid in Agency. developing a knowledge environment roadmap. Knowledge
+   gained from this For accessing the Agency's FACS data study was
+   critical in establishing through a Brio environment, requirements for
+   selecting the accomplishments include: knowledge portal solution
+   identified * establishing the Agency's above. requirements, system
+   architecture, and data warehouse design for this IFMP capability Code
+   585 has provided system * conducting a design review with engineering
+   support to the IFMP Office/ Agency participation Code 400.2 at GSFC for
+   the past * installing the Prototype S/W at several years. During CY00
+   there was a Marshall Space Flight Center major change in focus in the
+   IFM (MSFC) (the IFM Integration Center) Program directed by NASA *
+   providing training for individuals to Headquarters and the 585 support
+   be performing usability testing provided was reduced to meet the *
+   conducting usability testing redefined need. The two technical *
+   Presenting status, plans, and a areas that Code 585 became
+   demonstration to the Agency responsible for were establishing an
+   financial community as a prerequisite Agency-wide Resume Management to
+   rollout system led by Tom Weber and accessing the Agency's Financial
+   and During CY01, the Brio environment for Contractual System (FACS)
+   data accessing Agency FACS data will be through a Brio environment led
+   by rolled out to each NASA Center for use Debbie Sharpe, as a
+   pathfinder activity and evaluation and all end users will be for the
+   IFM reporting environment. trained. For the Resume Management activity,
+   accomplishments include: Accessibility * establishing the Agency's In
+   June 2000, Lee Holcomb, NASA CIO, requirements for this capability
+   nominated Tom Weber of Code 585 to represent NASA as the Section 508 IT
+   * developing the statement of work (SOW), releasing a Request for
+   coordinator on the government-wide Proposal (RFP), evaluating Federal
+   IT Accessibility Initiative. Tom proposals, and selecting a reports
+   status and progress directly to Commercial Off-The-Shelf (COTS) the
+   NASA CIO while he chairs a team of product (Resumix) representatives
+   from across the NASA Centers. Section 508 is a part of the *
+   establishing the Agency's Rehabilitation Act of 1973, which
+   requirements and schedule for requires that electronic and information
+   implementation as well as technology developed, procured, developing
+   the SOW for the maintained or used by the Federal implementation RFP
+   government be accessible to people with disabilities. 26 There were
+   three major control the scanning process. The accomplishments during
+   CY00. The accomplishments of this proposal will first accomplishment
+   was to ensure that enable both the manual and automated the top 20 NASA
+   Web-sites were made control of in situ subnet/supernet accessible. The
+   second vulnerability scanning devices running a accomplishment was to
+   ensure that the specific COTS software scanning Federal IT
+   Accessibility Initiative product. proposed standard was reviewed and
+   commented on by NASA. The third The major accomplishment during CY00
+   accomplishment was to ensure that a was the development of more robust
+   set of Web development guidelines was reporting to enhance the
+   information produced with the goal of assisting value to management.
+   Currently, the Webmasters in making all NASA COTS tool has limited
+   high-level Web sites accessible to persons with reporting capability
+   and this disabilities. enhancement provides management a clearer snap
+   shot of network regions of In CY01 it is anticipated there would be, IT
+   security concern. under Tom's direction, a significant effort to
+   educate the GSFC Webmasters During CY01, the full remote control of
+   community and other IT areas about vulnerability scanning devices pilot
+   will Section 508 and their responsibilities to be implemented and
+   checked out at ensure compliance. GSFC. IT Security GLIN Demo During
+   the CY00 NASA CIO Code 585 provided network-engineering Agency-wide IT
+   Pilot Proposal call, Dick expertise in support of the satellite
+   Schneider's proposal "Remote Control communications demonstration for
+   GLIN of Vulnerability Scanning Devices Pilot" held on September 6, 2000
+   at GSFC. was accepted and funded. Because This international program
+   successfully there is now an Agency requirement that utilized
+   PanAmSat's Galaxy satellite, each NASA Center perform vulnerability two
+   terminals and modulation and scans each quarter on all computers,
+   coding equipment as well as terrestrial this proposal provides an
+   opportunity to links and the computer hardware and investigate an
+   important aspect of IT software. The audience, which included security
+   at GSFC that could be applied representatives from NASA, the to other
+   NASA Centers. Currently it is National Institute of Health's (NIH's)
+   very time and labor consuming to "scan" National Library of Medicine
+   (NLM), the an entire Center's computers. It has Library of Congress,
+   and twelve foreign been recognized that there must be countries were
+   impressed with the better, more automated means of potential of
+   satellite communications to vulnerability scanning and associated serve
+   effectively in a global digital library data collection and
+   vulnerability report network. The demonstration consisted
+   dissemination. The proposed solution to of remotely (over the satellite
+   link) this problem is the implementation of a accessing an Oracle
+   database (GLIN) remote control scanning system that and video
+   conferencing using would provide a capability to centrally Netmeeting.
+   The two members of 27 Code 585 who played a significant role that this
+   technology promises for GLIN in the activity were Kevin Kranacs and
+   members." Below is a diagram of the Freemon Johnson. Kevin was the GLIN
+   architecture. overall technical configuration and operations leader for
+   the entire Internet2 Initiative: demonstration. Kevin oversaw the Code
+   585 provided network engineering application demo's planning, arranged
+   to the Earth Science Data and nominal satellite time schedules with
+   Information System (ESDIS) Project at PanAmSat prior to and during the
+   demo, GSFC. A significant focus of this and enabled the first
+   end-to-end setup support during CY00 was to more cost and check out of
+   all the GSFC-based effectively transfer data at higher rates equipment.
+   Freemon performed to the NASA funded scientists and technical
+   configuration and setup of the researchers. Over 200 Earth Observing
+   Comsat Internet Protocol (IP) router, System (EOS) researchers are at
+   assisted in conducting end-to-end check universities that are members
+   of the out of the ground system configuration, University Corporation
+   for Advance and performed pre-demo end-to-end Internet Development
+   (UCAID), and are performance testing of the applications. connected to
+   the Abilene Network. NASA and UCAID researchers are also Dr. Rubens
+   Medina, Law Librarian and participating in developing the network
+   Director General of GLIN, wrote a letter technologies of the future.
+   Recognizing to GSFC acknowledging all the the commonality of goals
+   between the arrangements that were made for the entities, Jeff Smith of
+   Code 585 demonstration. He cited that "the facilitated the membership
+   of the Earth demonstrations given by you and Observing System Data and
+   Information members of your staff utilizing the live System (EOSDIS) in
+   the UCAID satellite connections were extraordinary, organization to
+   collaborate on the and vividly conveyed the advantages development of
+   these network LOC - NASA GSFC GLIN Demo Setup Pan Am Sat

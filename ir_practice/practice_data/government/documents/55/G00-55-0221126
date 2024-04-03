@@ -1,0 +1,255 @@
+http://fire.pppl.gov/IAEA_Paper2_093000.pdf
+
+   INTERNATIONAL ATOMIC ENERGY AGENCY 18th IAEA Fusion Energy Conference
+   Sorrento, Italy, 4  10 October 2000 IAEA-CN-77/FTP2/16 Mission and
+   Design of the Fusion Ignition Research Experiment (FIRE) D. M. Meade
+   1), S. C. Jardin 1), J. A. Schmidt 1), R. J. Thome 2), N. R. Sauthoff
+   1), P. Heitzenroeder 1), B. E. Nelson 3), M. A. Ulrickson 4), C. E.
+   Kessel 1), J. Mandrekas 5), C. L. Neumeyer 1), J. H. Schultz 2), P. H.
+   Rutherford 1), J. C. Wesley 6), K. M. Young 1), W. M. Nevins 7), W.A.
+   Houlberg 3), N. A. Uckan 3), R. W. Woolley 1) and C. C. Baker 8) 1)
+   Princeton Plasma Physics Laboratory, Princeton, NJ 08543, USA 2)
+   Massachusetts Institute of Technology, Cambridge, MA 02139, USA 3) Oak
+   Ridge National Laboratory, Oak Ridge, TN 37831, USA 4) Sandia National
+   Laboratory, Albuquerque, NM 87185, USA 5) Georgia Institute of
+   Technology, Atlanta, GA 30332, USA 6) General Atomics, San Diego, CA
+   92186, USA 7) Lawrence Livermore National Laboratory, Livermore, CA
+   94551, USA 8) University of California at San Diego, San Diego, CA
+   92093, USA email contact of main author: dmeade@pppl.gov This is a
+   preprint of a paper intended for presentation at a scientific meeting.
+   Because of the provisional nature of its content and since changes of
+   substance or detail may have to be made before publication, the
+   preprint is made available with the understanding that it not be cited
+   in the literature or in any way be reproduced in its present form. The
+   views expressed and the statements made remain the responsibility of
+   the named author(s); the views do not necessarily reflect those of the
+   government of the designating Member States(s) or of the designating
+   organization(s). In particular, neither the IAEA nor any other
+   organization or body sponsoring this meeting can be held responsible
+   for any material reproduced in this preprint. IAEA-CN-77/FTP2/16
+   Mission and Design of the Fusion Ignition Research Experiment (FIRE) D.
+   M. Meade 1), S. C. Jardin 1), J. A. Schmidt 1), R. J. Thome 2), N. R.
+   Sauthoff 1), P. Heitzenroeder 1), B. E. Nelson 3), M. A. Ulrickson 4),
+   C. E. Kessel 1), J. Mandrekas 5), C. L. Neumeyer 1), J. H. Schultz 2),
+   P. H. Rutherford 1), J. C. Wesley 6), K. M. Young 1), W. M. Nevins 7),
+   W.A. Houlberg 3), N. A. Uckan 3), R. W. Woolley 1) and C. C. Baker 8)
+   1) Princeton Plasma Physics Laboratory, Princeton, NJ 08543, USA 2)
+   Massachusetts Institute of Technology, Cambridge, MA 02139, USA 3) Oak
+   Ridge National Laboratory, Oak Ridge, TN 37831, USA 4) Sandia National
+   Laboratory, Albuquerque, NM 87185, USA 5) Georgia Institute of
+   Technology, Atlanta, GA 30332, USA 6) General Atomics, San Diego, CA
+   92186, USA 7) Lawrence Livermore National Laboratory, Livermore, CA
+   94551, USA 8) University of California at San Diego, San Diego, CA
+   92093, USA email contact of main author: dmeade@pppl.gov Abstract.
+   Experiments are needed to test and extend present understanding of
+   confinement, macroscopic stability, alpha-driven instabilities, and
+   particle/power exhaust in plasmas dominated by alpha heating. A key
+   issue is to what extent pressure profile evolution driven by strong
+   alpha heating will act to self-organize advanced configurations with
+   large bootstrap current fractions and internal transport barriers. A
+   design study of a Fusion Ignition Research Experiment (FIRE) is
+   underway to assess near term opportunities for advancing the scientific
+   understanding of self-heated fusion plasmas. The emphasis is on
+   understanding the behavior of fusion plasmas dominated by alpha heating
+   (Q 5) that are sustained for durations comparable to the characteristic
+   plasma time scales ( 20 E and ~ skin, where skin is the time for the
+   plasma current profile to redistribute at fixed current). The
+   programmatic mission of FIRE is to attain, explore, understand and
+   optimize alpha- dominated plasmas to provide knowledge for the design
+   of attractive magnetic fusion energy systems. The programmatic strategy
+   is to access the alpha-heating-dominated regime with confidence using
+   the present advanced tokamak data base (e.g., Elmy-H-mode, 0.75
+   Greenwald density) while maintaining the flexibility for accessing and
+   exploring other advanced tokamak modes (e. g., reversed shear, pellet
+   enhanced performance) at lower magnetic fields and fusion power for
+   longer durations in later stages of the experimental program. A major
+   goal is to develop a design concept that could meet these physics
+   objectives with a construction cost in the range of $1B. 1.
+   Introduction TABLE I. DESIGN GOALS FOR FIRE FIRE is envisioned as an
+   extension of the R (m), a (m) 2.0, 0.525 existing advanced tokamak
+   program leading to 95 , 95 1.8, 0.4 an attractive magnetic fusion
+   reactor. The q95 > 3 configuration chosen for FIRE is similar to that
+   Bt(Ro) (T) 10(12)* of ARIES-RS [1], namely a highly shaped Wmag TF (GJ)
+   3.7 plasma, with double-null divertor and aspect Ip (MA) 6.44(7.7)*
+   ratio 4. The FIRE design activities have flattop time (s) ~20(12)*
+   focused on the physics and engineering alpha heating fraction >0.5
+   evaluation of a compact, high-field tokamak E, skin (s) ~ 0.6, ~ 13
+   with the parameters shown in Table I. The key Zeff (3% Be + He (5 E))
+   1.4 "advanced tokamak" features are: strong plasma Fusion Power (MW)
+   100 - 200 shaping, double null poloidal divertors, low ICRF Power (MW)
+   30 toroidal field ripple (< 0.34%), internal control Tokamak Cost ($B)
+   ~ 0.3 coils and space for wall stabilization Project Cost ($B) ~1
+   capabilities. The magnets and structure are also * Higher Field Mode
+   capable of operation at Bt(Ro) = 12T and Ip = 7.7 MA with a flat top
+   time of 12 s at 200 MW of fusion power. Recently, an improved physics
+   performance design point, FIRE*, has been identified with slightly
+   lower aspect ratio (3.6 vs. 3.81), slightly increased triangularity
+   (0.5 vs 0.4), Ro = 2m, a = 0.565m, Bt(Ro) = 10T, and Ip = 7.7 MA with a
+   flat top time ~ 15 to 20s at 125 MW of fusion power. The engineering
+   feasibility of FIRE* is being evaluated. 2. Physics Performance
+   Projections for FIRE The physics design guidelines for FIRE are similar
+   to those developed for ITER-FEAT [2] from analysis of the H-Mode
+   confinement database DB03v5(9) [3]; * Confinement is assumed to scale
+   as ITER98(y,2) with an H-factor determined by matching JET H-Mode data
+   for FIRE-like conditions * Operating density from 0.3 < n/nGW < 0.85
+   where nGW is the Greenwald density * H-mode power threshold is given by
+   P 0.58 th = 2.84 n20 B0.82Ra0.81M-1 * N = (%) / (Ip/aB) < 2.5 * Helium
+   ash confinement He* = 5 E, with 3% Be impurities in the plasma core.
+   2.0 The operating regime for FIRE is well matched ASDEX AUG FIRE CMOD
+   to the existing H-mode database from 0.3 < D3D JET n/nGW < 1.0 as shown
+   in Fig. 1. The 1.5 JFT2M JT60U performance of FIRE was projected by
+   PBXM PDX selecting JET data from DB03v5(9) [4] with H(y,2) parameters
+   similar to FIRE, namely N 1.7, 1.0 Zeff < 2.0, > 1.7 and 2.7 < q95 <
+   3.5. The average density profile peaking, n(0)/V for 0.5 these
+   FIRE-like JET points was found to be 1.2. Modeling of standard pellet
+   injection DB03v5 H-Mode scenarios indicates peaking factors of 1.2. 0.0
+   Guided high field side pellet launch will be 0.0 0.2 0.40.6 0.8 1.0 1.2
+   incorporated with the goal of providing n/nGW additional density
+   profile peaking. The FIG. 1. H-Mode Database and FIRE impurity level
+   for these analyses was chosen to be 3% Be, where Be is the plasma
+   facing material of the first wall, giving a Zeff (imp) = 1.36. This
+   assumption is consistent with the trend toward lower Zeff as the
+   density is increased in Alcator C-Mod [5]. The tungsten concentration
+   in the plasma core must be below ~10-5 to avoid significant radiation
+   loss. It is assumed that tungsten from the divertor plate and any other
+   impurities present in the divertor do not migrate to the plasma core.
+   The use of tungsten coated tiles in the baffle region of the divertor
+   of ASDEX Upgrade [6] is encouraging with regard to maintaining
+   acceptably low levels of tungsten in the plasma core. A 0-D power
+   balance code was used to calculate the H factor required to achieve a
+   given Q- value as shown in Fig. 2. The density profile was assumed to
+   have n(0)/V = 1.2 with 3% Be and self-consistent alpha ash
+   accumulation. The required H-factor increases at high density where the
+   plasma temperature decreases thereby reducing fusion reactivity. At low
+   density the H-factor increases because E must increase to maintain n E
+   approximately constant. The uncertainty in the projections of FIRE
+   performance can be expressed as a fraction of the 1.4 JET Data 100 10
+   90 1.3 Q = 50, U ITER98(y,2) Q = 30, U 80 n(0)/ = 1.2 Q = 20, U 1.2 Q =
+   10, U 70 20 10 Q = 5, U 1.1 60 5 Q = 20, F* Base 10T FIRE* Base 12T
+   H(y,2) Q = 10, F* % 50 1 10 Q = 5, F* 40 5 5 Q = 10, B 0.9 Q = 7.5, B
+   30 Q = 5, B 20 0.8 Q = 5 N > 1.7, 2.7 < q95 < 3.5, U = Base 12T 10 20
+   50 10 > 1.7, Zeff < 2.0 F* = FIRE* 0.7 B = Base 10T 0 0.40.5 0.6 0.7
+   0.8 0.9 0.3 0.40.5 0.6 0.7 0.8 0.9 1 n/n Alpha Heating Fraction GW FIG.
+   2. FIRE Performance Projections FIG. 3. Per Cent of Projected Points
+   achieving a specific alpha heating fraction FIRE-like JET data points
+   that would achieve a specific alpha-heating fraction f = Palpha/Pheat =
+   Q/(Q + 5) as shown in Fig. 3. The baseline configuration is projected
+   to achieve the FIRE Mission requirement of f 0.5 (Q > 5) for 53% of the
+   FIRE-like JET points and would achieve f > 0.67 (Q 10) for 4% of the
+   data set. Operation of FIRE at 12T/7.7 MA or FIRE* the candidate design
+   point (7.7 MA) have significantly higher performance with > 90% of the
+   FIRE-like JET data projected to achieve Q 5, > 50% projected to achieve
+   Q 10 and > 25% projected to achieve Q 20. The operating space for FIRE
+   can also be described using the PopCon plot as shown in Fig. 4 for
+   cases similar to those described above with H98(y,2) = 1.1 and n(0)/V =
+   1.2. The FIG. 4a Operating Space for FIRE (10T) FIG. 4b. Operating
+   Space for FIRE (12T) transported power exceeds the H-mode threshold by
+   a factor of at least 1.3 to the right of the P/Pthr = 1.3 curve. The
+   baseline FIRE (10T) attains alpha-dominated conditions but only over a
+   limited range. The operating range for FIRE* and FIRE (12T) are
+   similar, and achieve alpha-dominated conditions, Q > 5, over a large
+   range and Q > 10 over a significant range. A Tokamak Simulation Code
+   (TSC) simulation of this regime with H(y,2) = 1.03 and n(0)/V = 1.2
+   indicates that FIRE can access the H-Mode and sustain alpha-dominated
+   plasmas for 30 E, > 6 He and ~ 1.5 skin as shown in Fig. 5. In
+   addition, sufficient time is provided for plasma startup and a
+   controlled shutdown to avoid plasma disruptions. The burn phase can
+   study plasma profile evolution, alpha ash accumulation and techniques
+   for burn control and begin studies of plasma current evolution due to
+   alpha heating. Power (MW) 10 T, 6.44 MA, ~20 s FT A longer term goal of
+   FIRE is to 60 B explore advanced tokamak regimes t using pellet
+   injection and current ramps 50 Bt to create reversed shear plasmas
+   (e.g., Q = 5 40 PEP modes) for durations of 1 to 3 Alpha Power current
+   redistribution times. This AT 30 Ip Ip capability is expected to
+   produce 20 Auxiliary Power modestly enhanced confinement and beta as
+   observed in present large 10 Ohmic Power tokamak experiments, and would
+   0 provide a continuous transition from H- 0 4 8 12 16 20 24 28 32 Time
+   (seconds) mode operation to advanced tokamak Startup Sustained Burn
+   Shutdown operation. An important feature of the FIG. 5. Evolution of a
+   fusion-dominated plasma. FIRE cryogenic copper alloy magnets is that
+   the pulse length increases rapidly as the field is reduced with
+   flattops of ~ 40 s at 8 T and ~90 s at 6 T. If confinement and are
+   increased by 20 and 40% respectively, then the fields could be reduced
+   by 20% and FIRE would have the capability to explore fusion- dominated
+   plasmas for 40 s (~ 3 skin). Physics scenarios and engineering
+   solutions for power handling are not yet developed for the longer pulse
+   (~ 40 s) scenarios. 3. Technology Considerations for FIRE The baseline
+   magnetic fields and pulse lengths can be provided with BeCu/OFHC
+   toroidal field (TF) coils and OFHC poloidal field (PF) coils that are
+   pre-cooled to 77 °K prior to the pulse and allowed to warm up to 373
+   Wedged TF Coils (16) °K at the end of the pulse [7]. The cross-section
+   of FIRE is shown Compression Ring schematically in Fig. 6. The 16 TF
+   Double Wall Vacuum Vessel coil system is wedged with a compression ring
+   to resist de-wedging at the top and bottom of the inner TF leg.
+   Shielding is added between the Internal Shielding walls of a double
+   wall vacuum vessel to reduce nuclear heating of the coils, Control Coil
+   limit insulation dose and allow hands- on maintenance outside the
+   envelope Passive Stabilizers of the TF coils within a few hours W-pin
+   Outer Plate after a full power D-T shot. Large actively cooled (1.3 m
+   by 0.7 m) midplane ports provide access for heating, FIG. 6. FIRE
+   Configuration diagnostics and remote manipulators, while 32 angled
+   ports provide access to the divertor regions for utilities and
+   diagnostics. FIRE is being designed mechanically to accommodate 3,000
+   full field, full power pulses and 30,000 pulses at 2/3 field. The
+   repetition time at full field and full pulse length will be < 3 hr,
+   with shorter times at reduced field or pulse length. The fusion energy
+   production of 5 TJ (similar to BPX) produces a lifetime neutron dose to
+   the TF insulating material at the inboard midplane of 1.5 x 1010 Rads
+   which is consistent with the polyimide insulation being considered. The
+   power densities on the divertor plates are ~6 MWm-2 for detached
+   operation and ~25 MWm-2 for attached operation [8]. Carbon is not
+   allowed in the vessel due to tritium inventory build-up by
+   co-deposition. The divertor plasma-facing components are tungsten
+   "brush" targets mounted on copper backing plates, similar to a concept
+   developed by the ITER R&D activity. The outer divertor plates and
+   baffle are water-cooled, while the inner divertor targets and first
+   wall are cooled by mechanical attachment to water-cooled copper plates
+   inside the vacuum vessel. The first wall is comprised of Be
+   plasma-sprayed onto copper tiles. The high neutron wall loading (3MWm2)
+   at full fusion power of 200 MW contributes significantly to the first
+   wall and vacuum vessel heating. The water-cooled copper plates inside
+   the vessel alleviate excess heating of the stainless steel vessel due
+   to neutrons. Sixteen cryo-pumps  closely coupled to the divertor
+   chambers, but behind sufficient neutron shielding  provide pumping (
+   100 Pa m3/s) for D-T and He ash during the pulse. Pellet injection
+   scenarios will help minimize tritium throughput. The in-device tritium
+   inventory will be determined primarily by the cycle time of the
+   divertor cryo-pumps, and can range from < 2 g for regeneration
+   overnight to ~20 g for monthly regeneration. The confinement analysis
+   based on ITER98(y,2) scaling indicates the importance of increasing the
+   plasma current in FIRE to ~ 8 MA. This could be accomplished in the
+   baseline design operated at 12 T for 12 s flattop. The design
+   refinement of increasing the plasma shaping factor as in FIRE* is being
+   evaluated along with the possibility of using only high conductivity
+   (OFHC) copper in the TF coil. This lower strength material would
+   require the addition of TF coil bucking on the central solenoid coils
+   near the midplane. Initial results suggest that 11.5T could be produced
+   with a flattop of 25 s using about 1/2 the electrical power required by
+   the baseline BeCu TF coil. The limitation on burn time for both BeCu
+   and OFHC TF coil designs is the power handling capability of plasma
+   facing components and the vacuum vessel. A number of other important
+   physics and engineering issues remain to be addressed during the
+   remainder of the design study including generic issues such as:
+   mitigation and avoidance of disruptions and vertical displacement
+   events, effects of neoclassical tearing modes, detached divertor
+   operation with good confinement, and divertor/edge plasma modeling
+   under high power conditions. The FIRE design study is a U. S. national
+   activity managed through the Virtual Laboratory for Technology and is
+   supported by DOE. PPPL work is supported by DOE Contract #
+   DE-AC02-76CHO3073. References [1] Najmabadi,F., et al., Fusion Eng.
+   Design 38 (1997) 1-218 [2] Shimada, M., et al., "Physics Basis of
+   ITER-FEAT" ITERP/05, Fusion Energy 2000 (Proc. 18th Int. Conf.
+   Sorrento, 2000), IAEA, Vienna (2000) [3] Kardun, O. J., et al., "Next
+   Step Tokamak Physics: Confinement Oriented Global Database Analysis"
+   ITERP/04, Fusion Energy 2000 (Proc. 18th Int. Conf. Sorrento, 2000),
+   IAEA, Vienna (2000) [4] Horton, L. D., et al., "Pellet Fueling and ELMy
+   H-mode Physics at JET" EX2/1, Fusion Energy 2000 (Proc. 18th Int. Conf.
+   Sorrento, 2000), IAEA, Vienna (2000) [5] Greenwald, M., Phys. Plasmas 2
+   (6), (1995) 2308-2313 [6] Neu, R. et al., "Plasma Operation with
+   Tungsten Tiles in ASDEX Upgrade, 14th Plasma Surface Interactions in
+   Controlled Fusion Devices Conference, Rosenheim (2000) [7] Thome, R. J.
+   et al., "Engineering Features of the Fusion Ignition Research
+   Experiment (FIRE)", 21st Symp. on Fusion Tech., Madrid (2000) [8]
+   Ulrickson, M. A. et al., "Physics Basis for the Fusion Ignition
+   Experiment (FIRE) Plasma Facing Components", 21st Symp. on Fusion
+   Tech., Madrid (2000)

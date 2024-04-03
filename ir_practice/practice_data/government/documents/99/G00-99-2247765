@@ -1,0 +1,66 @@
+http://w3.antd.nist.gov/wire_tel.shtml
+
+   [USEMAP:wire_te.gif]
+
+
+   Goals
+   Horizontal
+   To help the US cellular communications industry test the wideband CDMA
+   components (cdma2000 and W-CDMA systems) of the IMT-2000 family of
+   standards for third-generation wireless systems over different traffic
+   and wireless channel quality conditions
+   To facilitate transmission of video signals over 3G wireless systems.
+
+   Technical Approach
+   Horizontal
+     * Develop SPW models for the forward link, reverse link, and
+       multi-carrier mode of the cdma2000 system
+     * Measure the performance of the cdma2000 system over different ITU
+       channel models and in face of interference from other users
+       communicating multimedia information
+     * Develop a partitioning method and a multi-priority transmission
+       method to send video over 3G wireless systems
+
+   FY02 Plans
+   Horizontal
+     * Provide industry customers with as needed consulting to understand
+       and use the SPW cdma2000 models distributed on our web site.
+     * Wrap this project up
+     * Investigate, evaluate, and (if indicated) plan a future project
+       related to cellular mobile telephony.
+
+   Related Publications
+   Horizontal
+     * H. Gharavi, R. Wyatt-Millington, and F. Chin,"CDMA2000 Reverse Link
+       Simulation Model Design and Evaluation," Proc. 2001 International
+       Conference on Third Generation Wireless and Beyond, San Francisco,
+       CA, May 2001.
+
+     * H. Gharavi, R. Wyatt-Millington, and F. Chin, Report on "Design,
+       Model Implementation, and Evaluations of the cdma2000 Reverse-Link"
+
+     * H. Gharavi and S. M. Alamouti, "Video Transmission for Third
+       Generation Wireless Communication Systems," Journal of Research of
+       the National Institute of Standards and Technology, Vol. 106, No.
+       2, pp. 455-469,March-April 2001.
+
+   External Relationships
+   Horizontal
+     * Our SPW cdma2000 models are distributed by Cadence to all its SPW
+       customers
+     * 3G wireless major equipment manufacturers such as Philips
+       Semiconductor, Ericsson, and Nokia
+
+   Back arrow forward arrow
+   Horizontal rule
+   Back to NIST Home
+
+           Disclaimer Notice & Privacy Statement | Security Notice
+           Send comments or suggestions to webmaster@antd.nist.gov
+        NISTis an Agency of the U.S. Commerce Department's Technology
+                               Administration
+
+
+                           Date Created: May 2001
+                         Created by: Stan Morehouse
+                       Last updated: September 6, 2001

@@ -1,0 +1,118 @@
+http://robotics.jpl.nasa.gov/infrastructure/marsyard/homepage.html
+
+   [probe03.jpg]
+
+                                  JPL MarsYard
+
+    Simulated Mars landscape developed by JPL Robotics and Mars Exploration
+    Technology Programs for testing and evaluation of rovers and robotics
+    technology for future Mars surface exploration.
+     __________________________________________________________________
+
+Overview
+
+   An important part of rover and robotic development is testing of
+   prototype systems in relevant environments. Outdoor evaluation is
+   particularly important as it provides natural lighting conditions and
+   large test areas. In the past, rover testing has been done in the Arryo
+   Seco East of JPL but this was less than ideal as the terrain was not
+   representative of Mars and excessive time was spent in setting up and
+   breaking down the equipment each day. Development of a large outdoor
+   test area within the bounds of JPL therefore made perfect sense.
+     __________________________________________________________________
+
+  MARSYARD 2
+
+   [MarsYard2_Panorama.jpg]
+
+   The second MarsYard was created in 1998 after loss of the land for the
+   first one, due to construction of a new JPL Fire Station. This current
+   test area is about 20m square and located in the northeast corner of
+   JPL. It is bordered on the west by an office trailer for researchers
+   work areas and rover storage, on the north and east by walls, and open
+   on the south where there is a drop down a hill. The terrain consists of
+   about 250 tons of washed sand, top by 25 tons of decomposed granite
+   (DG), 10 tons of brick dust, 5 tons of small red cinders, and all the
+   rocks from the previous MarsYard. Again Long Beach artst Joseph Giri
+   was commission to provide a mural, this time influenced by recent
+   imagery from the Pathfinder Mission. A webcam is available at:
+   http://marscam.jpl.nasa.gov/cam/default.html
+     __________________________________________________________________
+
+  MARSYARD 1
+
+Construction
+
+   The original MarsYard was located at the corners of Explorer and
+   Surveyor roads near the center of JPL grounds. This approximately 5000
+   sqft area (~80' * ~60') was formerly power substation C but has been
+   empty for a number of years. An existing fence around the area enable
+   the area to be secured and its central location provides good
+   visibility of our work to other JPLers.
+
+   [marsyard-3.gif]
+
+   Decomposed granite (DG) fines (sand) was selected as ground cover as
+   its spectral qualities are similar to those expected on Mars. 200 tons
+   of DG were used to provide approximately 8" of cover over the entire
+   area. A hill or sand dune was developed in the middle of the area to
+   add variety (as well as to cover an existing concrete pier). 20 tons of
+   volcanic rocks of different types (color, texture, density) were
+   brought in th populate the area. The rocks were placed by hand by
+   robotic researchers during lunch hours, evenings, and weekends.
+
+   A concrete retaining wall along the West, North, and East sides
+   provided the perfect opportunity for a mural depicting Mars. Long Beach
+   California artist Joseph Giri was commissioned to do the painting. The
+   view is based on Viking Lander 1 (VL1) and Viking Lander 2 (VL2)
+   imagery showing a rocky plain extending off to the horizon.
+
+Rock Distribution
+
+   [rockdist.gif]
+
+   One of the most important features of the MarsYard is the distribution
+   of rocks based on actual Viking lander data. The Moore's model, a
+   probablistic rock density for a given rock size based on VL1 and VL2
+   imagery, was used to generate the rock distribution map above. This map
+   was then used to lay out nearly 20 tons of volcanic rock in the
+   MarsYard to recreate areas like the very rocky VL2 (shown in red), VL1
+   (shown in yellow), and Mars nominal (theoretical average Mars rock
+   density shown in green). Having good models of the rock distribution is
+   critical for testing rovers of all sizes to ensure they are able to
+   effectively maneuver and carry out scientific exploration.
+     __________________________________________________________________
+
+MarsYard Events
+
+     * JPL Open House 2000 - (6/4/2000) Here's a rover's eye view of the
+       crowd taken with Rocky 7's mast cameras.
+     * Birth of MarsYard II, demise of MarsYard I (4/20/98) - We had to
+       move to another part of JPL to make way for a new firehouse.
+     * Life on Mars TV Broadcasts (8/7/96) - Seven local television
+       stations performed live broadcasts to talk about the NASA
+       announcement of fossilized life found in meteors from Mars.
+     * JPL Open House '95 and '96- The first major event for the MarsYard
+       was its grand opening during the JPL Open House on July 22nd and
+       23rd, 1995. A repetition of this event occurred in summer 1996 as
+       well. Approximately 30,000 people came to visit JPL and see many
+       displays including the MarsYard with several prototype rovers.
+     * Pathfinder Air Bag Tests - The air bag retraction system for the
+       Mars Pathfinder lander were tested in MarsYard to test their
+       performance in a rocky mars like terrain during November 1995. A
+       picture of these test appeared as part of a February 1995 article
+       in Life Magazine about the Pathfinder Rover.
+     * NASA Teaching From Space - The Marsyard, along with the University
+       of Maryland neutral buoyancy tank, was used to host a live NASA
+       Select Teaching From Space special on Robotics. Student were able
+       to drive a rover in the MarsYard as well as a robot in the tank.
+       November 7, 1995.
+     __________________________________________________________________
+
+   Back to Long Range Science Rover homepage.
+     __________________________________________________________________
+
+   Maintained by: Richard Volpe
+   Last updated 3 May 01
+
+   How many Ph.D.s does it take to roll a boulder?

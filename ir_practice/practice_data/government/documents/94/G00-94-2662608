@@ -1,0 +1,107 @@
+http://pilc.grc.nasa.gov/meetings/oslo/header-comp.pdf
+
+   Header Compression for IP-Telephony over Cellular Links Lars-Erik
+   Jonsson (Ericsson Research) Mikael Degermark (Luleå University of
+   Technology) Hans Hannu (Ericsson Research) Krister Svanbro (Ericsson
+   Research) Header Compression over Cellular Links 1 Lars-Erik Jonsson,
+   1999-07-12 Introduction l Goal: Providing IP to cellular phones and
+   making IP- telephony as speech service economical feasible compared to
+   the traditional circuit switched solution. Mobile Base Base Mobile
+   Terminal Station Station Terminal Cellular Cellular Link Link Wired
+   Network Header Compression over Cellular Links 2 Lars-Erik Jonsson,
+   1999-07-12 Characteristics of cellular links l High bit-error-rate
+   (BER). A BER of 10 -3 -10-2 is not uncommon. l Large round-trip time
+   (RTT). In today's systems, RTTs may be as large as 200 ms. l Expensive
+   bandwidth, meaning that every saved octet per packet is important.
+   Header Compression over Cellular Links 3 Lars-Erik Jonsson, 1999-07-12
+   CRTP evaluation - simulation results: CRTP header sizes Header
+   Compression over Cellular Links 4 Lars-Erik Jonsson, 1999-07-12 CRTP
+   evaluation - simulation results: Packet loss rates Header Compression
+   over Cellular Links 5 Lars-Erik Jonsson, 1999-07-12 CRTP evaluation -
+   simulation results: Loss distribution No loss before HC 10% loss before
+   HC Header Compression over Cellular Links 6 Lars-Erik Jonsson,
+   1999-07-12 CRTP evaluation - Conclusions: l CRTP performs very well for
+   BERs less than 10 -5, but not so well for BERs higher than 10 -4. l The
+   major cause of CRTPs bad performance is that many packets are discarded
+   due to context damage while waiting a link round-trip time for the
+   repair mechanism. l The losses induced by CRTP is problematic not only
+   because they are high. Also the loss patterns are inappropriate and
+   will certainly cause noticeable voice degradation. l If only packets
+   with errors in the header part are discarded by the link layer, the
+   loss rate will decrease by 40%. Header Compression over Cellular Links
+   7 Lars-Erik Jonsson, 1999-07-12 Requirements for a new header
+   compression scheme l Compressed headers must not be larger than with
+   CRTP, and compression should be optimized as much as possible. l The
+   scheme must be robust against loss before as well as after the
+   compression point. l Implementation and computation simplicity are less
+   important. Summarizing: The scheme must have highest possible
+   COMPRESSION EFFICIENCY while still providing a certain amount of
+   ROBUSTNESS against link errors. Header Compression over Cellular Links
+   8 Lars-Erik Jonsson, 1999-07-12 RObust Checksum-based header
+   COmpression , ROCCO: Main principles l Heavily geared towards local
+   de-compressor context repairs. l Can reliably detect successful repairs
+   through a header compression CRC computed over the header before
+   compression. l A basic framework is specialized for specific kinds of
+   links and packet streams through the use of "profiles". uRequires
+   mechanisms for Separation, Identification and Classification of
+   different flows. Header Compression over Cellular Links 9 Lars-Erik
+   Jonsson, 1999-07-12 RObust Checksum-based header COmpression , ROCCO:
+   An IP-telephony profile for cellular links l Additional compressed
+   header information is included in a way maximizing the compression
+   efficiency based on the assumed IP-telephony usage of RTP. l Our
+   profile for IP telephony expects steady increments in the RTP sequence
+   number and has a robust encoding of the differences from that behavior
+   in the compressed header. l Compressed header format: 0 9 10 14 15
+   Header Compresion CRC Sequence Code X Extension Payload uHeader
+   Compression CRC is a 10-bit CRC computed over the original packet
+   header. uThe Sequence-Code corresponds to the robust encoding mentioned
+   above. Header Compression over Cellular Links 10 Lars-Erik Jonsson,
+   1999-07-12 Performance results of ROCCO: Header sizes Header
+   Compression over Cellular Links 11 Lars-Erik Jonsson, 1999-07-12
+   Performance results of ROCCO: Packet loss rate Header Compression over
+   Cellular Links 12 Lars-Erik Jonsson, 1999-07-12 Performance results of
+   ROCCO: Loss distribution Header Compression over Cellular Links 13
+   Lars-Erik Jonsson, 1999-07-12 Conclusions l CRTP is an appropriate and
+   general header compression scheme over reliable links and when many
+   different RTP streams are intermixed. l ROCCO-based solutions on the
+   other hand can outperform CRTP and may be needed to make IP telephony
+   economically feasible over cellular links. Header Compression over
+   Cellular Links 14 Lars-Erik Jonsson, 1999-07-12 Documentation and
+   contacts l Internet-Drafts udraft-degermark-crtp-cellular-00.txt/ps
+   udraft-jonsson-robust-hc-00.txt/ps l Authors uLars-Erik Jonsson lars
+   -erik .jonsson@ ericsson .com uMikael Degermark micke @sm.luth .se
+   uHans Hannu hans .hannu @lu.erisoft .se uKrister Svanbro krister
+   .svanbro @lu.erisoft .se Header Compression over Cellular Links 15
+   Lars-Erik Jonsson, 1999-07-12 An ideal header compression scheme l
+   Introduced and defined for comparison purposes. l Performs like CRTP
+   would do if used over error-free links to compress input data without
+   irregular changes in its header fields. l Characteristics of the scheme
+   are: uThe compressed header is always two octets. uNo packets are lost
+   due to context damage. uDe-compressor context do not need to be
+   initialized. Header Compression over Cellular Links 16 Lars-Erik
+   Jonsson, 1999-07-12 Used link layers l PPP in HDLC-like framing (HDLC)
+   uFCS (checksum) covers protocol and the entire information field uAny
+   errors anywhere in the frame will cause the FCS to fail and the frame
+   will be discarded 1 1 2 Flag Protocol Information FCS Flag 01111110 8
+   bits X bits 16 bits 01111110 l Link layer with partial checksum (LLPC)
+   uFCS (checksum) covers an optional part of the Information field,
+   indicated by the length field. uErrors in the remaining part of the
+   Information field will not cause the frame to be discarded 1 1 1 2 Flag
+   Length Protocol Information FCS Flag 01111110 8 bits 8 bits X bits 16
+   bits 01111110 Header Compression over Cellular Links 17 Lars-Erik
+   Jonsson, 1999-07-12 Simulated scenario End System Back Channel Source
+   HC HC-1 Internet path Cellular link l Source uGenerates RTP packets
+   containing speech data. l Speech Source uPayload: 16 octets, 20 ms of
+   sound data. uExponentially distributed talk spurts and silence
+   intervals with expected lengths of 1 second. l Cellular Link uWCDMA
+   channel. l Back channel uGives an RTT of approximately 120 ms. l
+   Resulting frame-error-rate = Packet loss rate due to link-layer loss
+   and header de-compressor loss. Header Compression over Cellular Links
+   18 Lars-Erik Jonsson, 1999-07-12 Further work l More precisely define
+   the scopes of the header compression framework and the compression
+   profiles. l Improve the IP-telephony profile for cellular links with
+   for instance a more efficient way to handle CSRC lists. l Study how
+   separation and characterization of flows can be done. l Find suitable
+   ways to negotiate the use of compression profiles. l Specify a
+   compression profile for video. Header Compression over Cellular Links
+   19 Lars-Erik Jonsson, 1999-07-12

@@ -1,0 +1,92 @@
+http://orbit.jpl.nasa.gov/data.html
+
+                [nasa_flat.gif] [jpllogo.gif] [airsea_s.gif]
+
+
+   [a2.gif] HOME
+
+   [a2.gif] SEAFLUX
+
+   [a2.gif] OBJECTIVES
+
+   [a2.gif] PROJECTS
+
+   [a2.gif] SCIENCES
+
+   [a2.gif] PUBLICATIONS
+
+   [a2.gif] DATA
+
+   [a2.gif] PEOPLE
+
+   [a2.gif] MISSIONS
+
+   [a2.gif] LINKS
+
+   [a2.gif] INTERNAL
+
+     __________________________________________________________________
+
+                                    DATA
+     __________________________________________________________________
+
+   [grab.gif] Access to our data sets here.
+
+   [seawinds.gif] About scatterometer.
+
+                            QuikSCAT Ocean Winds
+   At near-real-time, twice-daily maps of ocean surface winds over global
+   oceans, derived from the observations by the scatterometer SeaWinds on
+   space mission QuikSCAT, of the National Aeronautics and Space
+   Administration (NASA). Get the real-time QuikSCAT data here.
+                              NSCAT Ocean Winds
+   More than 9 months of surface wind field, stress, and curl of stress
+   derived from observations of the NASA Scatterometer (NSCAT),starting
+   September 15, 1996, at 0.5 degree latitude by 0.5 degree longitude
+   resolution, every 12 hours, are available on-line. The NSCAT winds are
+   objectively interplated by successive correction and the methodology is
+   described in W.T. Liu, W. Tang and P.S. Polito, 1998: NASA
+   Scatterometert provides global ocean-surface wind fields with more
+   structures than numerical weather prediction (Geophys. Res. Lett., Vol
+   25, No. 6, 761-764). The NSCAT data sets was produced by Wenqing Tang
+   and W. Timothy Liu with supports from the NASA Earth Observing System
+   (EOS) Interdiscipline Science Program, the NASA Scatterometer (NSCAT)
+   Project, and the NASA/NOAA Enhanced Data Set Program. Another set of
+   NSCAT gridded data using Correlation-Based Interpolation (CBI) method
+   is also available (Polito, P.S., W.T. Liu, and W. Tang, 2000:
+   Correlation-based interpolation of NSCAT wind data. J. Atmos. and Ocean
+   Tech. 17, 1016-1026.)
+                              ERS Ocean Winds
+   Ocean surface winds from ERS are also available upon request, starting
+   from 1992 to 1996, at 1 degree latitude by 1 degree longitude
+   resolution, every 12 hours. For the gridding method, please refer the
+   article by Tang and Liu [JPL Publication 96-19,1996]. The ERS data set
+   was produced by Wenqing Tang and W. Timothy Liu with supports from the
+   NASA Earth Observing System (EOS) Interdiscipline Science Program, the
+   NASA Scatterometer (NSCAT) Project, and the NASA/NOAA Enhanced Data Set
+   Program.
+                    Hourly NDBC Equivalent Neutral Wind
+   All data between 9/96 and 10/96 accessible to us are converted to
+   equivalent neutral winds (ENW) at both 10 m and 19.5 m height. There
+   are different kinds of buoy mixed together, not all of which are
+   suitable for evaluating NSCAt winds; see station identifier. The
+   definition and method of computing ENW is described in Liu and Tang
+   [JPL Publication 96-17, 1996]. Conditions under which ENW is derived
+   are indicated by Flag.
+                     Hourly TAO Equivalent Neutral Wind
+   Hourly TAO buoy data coincident with NSCAT observations provided
+   through the courtesy of Mike Caruso are converted to equivalent neutral
+   winds (ENW) at both 10 m and 19.5 reference height. The definition and
+   method of computing ENW are described by Liu and Tang [JPL Publication
+   96-17, 1996], the text of which is displayed in this homepage.
+   Conditions under which ENW is derived are indicated by a Flag (see
+   definition below). The colocated TAO buoy and NSCAT data are accessible
+   through Mike Caruso's homepage
+   http://rsag.whoi.edu/nscat/tao/nscat_tao.html. The TAO buoys and
+   instrument were deployed and the data collected by the NOAA Pacific
+   Marine Environmental Laboratory.
+                     Equivalent Neutral Wind Calculation
+   Computer Codes and hardcopy of the paper Equivalent Neutral Wind by W.
+   Timothy Liu and Wenqing Tang is published by JPL Publication 96-17,
+   August 1, 1996.
+   Get the ascii code (LKB code) here.

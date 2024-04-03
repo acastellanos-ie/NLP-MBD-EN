@@ -1,0 +1,65 @@
+http://pr.water.usgs.gov/rt-cgi/gen_tbl_pg?page=2
+
+   USGS home page.
+   USGS Water Resources of the Caribbean
+     __________________________________________________________________
+
+      Realtime Streamflow Data for the U.S. Virgin Islands
+      Updated Wed Jan 30, 2002 13:30
+        __________________________________________________________________
+
+      Provisional Data Subject to Revision
+      Select a station number to view graph(s) and other data for the
+      station.
+      A table of recent rainfall is also available.
+                                           Long-term  |----- Most Recent -----|
+   Station                               median flow
+   Number     Station Name                     01/30   Flow  Stage  Date  Time
+     ___________________________________________________________________________
+
+    #### <>   St. Thomas, USVI>
+   50252000   Bonne Resolution Gut               0.0    0.0   1.00  01/30 12:55
+   50274000   Turpentine Run at Mount Zion       0.5    0.3   1.91  01/30 11:35
+    #### <>   St. John, USVI>
+   50295000   Guinea Gut at Bethany              0.0    0.2   1.27  01/25 18:30
+     ___________________________________________________________________________
+
+   Definitions:
+
+        "Flow" defined as the volume of water that passes a given point
+        within a given period of time.
+
+        "Stage" defined as the height of the water surface above an
+        established datum plane; not necessarily referenced to mean
+        sea-level nor NGVD
+
+        "Long-term median flow" defined as the median of the daily-mean
+        flows on this date for the period of record (in cubic feet per
+        second)
+
+   Abbreviations:
+
+
+   abv above
+   blw below Gde Grande nr near Queb Quebrada R Río
+
+      Units:
+
+        Streamflow in cubic feet per second Stage (gage height) in feet
+
+      Symbols:
+
+        -- Parameter unavailable
+
+      Explanation of terms:
+        __________________________________________________________________
+
+        * National index of USGS sites with current streamflow conditions
+          data
+        * Caribbean District Home Page
+        __________________________________________________________________
+
+      U.S. Department of the Interior, U.S. Geological Survey
+      Maintainer: Caribbean District Webmaster
+      USGS Privacy Statement || Disclaimer
+   rt_www -- (rev 2.30) -- Acknowledgements

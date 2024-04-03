@@ -1,0 +1,76 @@
+http://liftoff.msfc.nasa.gov/HostOurContent.asp
+
+   NASA Logo
+
+
+                                  Host NASA Content on Your Website
+
+
+
+ For you experts, include our content from this XML feed as well, giving
+                            you full control over the look on your page.
+
+    Do you have a NASA- or Space-related web site?  Or just your own home
+    page?  Make your page impressive with the latest news from NASA.  All
+    you have to do is set it up, and your page will automatically update
+    daily with the latest NASA news.  All that is required is a few simple
+    HTML JavaScript tags that work with Internet Explorer and Netscape
+    browsers, version 4.0 and later.
+
+    See a sample of what your page source and the results would look like.
+
+ STEP 1   Add this between your page's <HEAD> tags.  Note: this
+          capability works on all the 4.0 and later browsers.
+
+          <SCRIPT LANGUAGE="JavaScript"
+          SRC="http://liftoff.msfc.nasa.gov/content.js"></SCRIPT>
+ STEP 2   Choose the information you want to show on your page.
+            * LIFTOFF NEWS - latest science and space related stories updated
+              weekly. Written to be understood by everyone -- see our home page
+              for a sample (5 latest included by script) .
+            * SCIENCE @ NASA - latest science stories written for the science
+              literate (5 latest included by script).
+            * SPACE Calendar - today's events from the Space Calendar.
+            * Check back here often as we may add more headlines.
+
+ STEP 3   Add the desired script code to your page wherever you wish.
+
+          Sample 1: Include Story Title and Introduction Text
+
+            <SCRIPT LANGUAGE="Javascript"><!--
+            nasaShowLeadIn("Liftoff", 1, 5);
+            //--></SCRIPT>
+
+            You can select how many stories to show.  In this sample, you are
+            selecting all 5.  If you only wanted the first story, you would have
+            1, 1.  For the Science @ NASA Stories, put "Science" as the first
+            field instead of "Liftoff".
+
+          Sample 2: Include Just the Story Title
+
+            <SCRIPT LANGUAGE="Javascript"><!--
+            nasaShowHeadline("Liftoff", 1, 5);
+            //--></SCRIPT>
+
+            You can select how many stories to show.  In this sample, you are
+            selecting all 5.  If you only wanted the first story, you would have
+            1, 1.  For the Science @ NASA Stories, put "Science" as the first
+            field instead of "Liftoff".
+
+          Sample 3: Include the Space Calendar
+
+            <SCRIPT LANGUAGE="Javascript"><!--
+            nasaShowCal();
+            //--></SCRIPT>
+
+ Extra    You can change the way the included headlines look by putting a
+          <SPAN> tags around your calls:
+
+            <SPAN STYLE="font-size: 11px; font-family: Arial; color: red">
+            <!-- your calls here -->
+            </SPAN>
+
+
+
+    That's it!  Here is a sample page that we created to show you how it
+    would look.

@@ -1,0 +1,72 @@
+http://rems.eh.doe.gov/reportin.htm
+
+  Reporting Occupational Radiation Exposure Data
+     __________________________________________________________________
+
+   DOE sites are required to submit the results of occupational radiation
+   exposure monitoring to DOE Headquarters on an annual basis in
+   accordance with DOE Order 231-1. The format and content of the reports
+   are specified in DOE Manual 231-1.1 Appendix G.
+     __________________________________________________________________
+
+   REMedit Validation
+
+   DOE M 231.1-1 is applicable for the 1999 monitoring data. One of the
+   changes from the previous reporting specifications is the Monitoring
+   Status codes. The codes are:
+     * E - Employee (contractor or subcontractor)
+     * G - Government, regulatory agency personnel
+     * P - Member of the public
+     * T - Terminated employee
+
+   The REMedit software contains the old "employment status" codes from
+   DOE Order 5484.1. REMedit will generate an error message for each
+   record that contains an E, G, or P monitoring status code. At this
+   time, a new REMedit code will not be generated to address this one
+   change in reporting requirements. Sites that use REMedit are directed
+   to ignore the monitoring status error messages once it has been
+   determined that the proper codes are being used in accordance with M
+   231.1-1.
+
+   Sites are encouraged to continue using REMedit to validate the data and
+   check for other errors or problems with the data submittals.
+     __________________________________________________________________
+
+   To Download REMedit
+
+   To download the zip file containing the REMedit program, click here,
+   and save the zip file. Unzip the file and run REMedit.bat. Instructions
+   are included.
+     __________________________________________________________________
+
+   Where To Send Reports:
+
+   The mailing address for these reports is:
+    Derek A. Hagemeyer
+    DOE REMS Radiation Records
+    Science Applications International Corporation
+    P.O. Box 2501
+    301 Laboratory Road
+    Oak Ridge, TN   37830-2501
+     __________________________________________________________________
+
+   Other Notes
+
+   Please include a cover letter that provides any additional information
+   concerning the content of the data submittal. Also include the name and
+   phone number of a technical point of contact for questions concerning
+   the data. It is helpful to note the number of records and total dose
+   (TEDE) included in the submittal for verification purposes.
+
+   The envelope should be marked "Proprietary", "Confidential", or similar
+   nomenclature to denote that the information contained in the submittal
+   is subject to the Privacy Act of 1974.
+
+   Please use protective mailing evelopes for diskettes to minimize the
+   potential for the diskettes to be damaged in transit.
+     __________________________________________________________________
+
+
+    Updated 7/00
+
+   back home

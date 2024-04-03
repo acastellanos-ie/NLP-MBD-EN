@@ -1,0 +1,60 @@
+http://mapping.usgs.gov/www/partners/java.js
+
+   var netscape = false; var iexplore = false; browserName =
+   navigator.appName.substring(0,8); browserVer =
+   parseFloat(navigator.appVersion); if(browserName == "Netscape" &&
+   browserVer >= 3) { netscape = true; } else if(browserName == "Microsof"
+   && browserVer >= 4) { iexplore = true; } if(netscape || iexplore) {
+   btn0on = new Image(); btn1on = new Image(); btn2on = new Image();
+   btn3on = new Image(); btn4on = new Image(); btn5on = new Image();
+   btn6on = new Image(); btn7on = new Image(); btn8on = new Image();
+   btn9on = new Image(); btn0off = new Image(); btn1off = new Image();
+   btn2off = new Image(); btn3off = new Image(); btn4off = new Image();
+   btn5off = new Image(); btn6off = new Image(); btn7off = new Image();
+   btn8off = new Image(); btn9off = new Image();
+   btn0off.src="http://mapping.usgs.gov/www/partners/images/btnFindOff.gif
+   ";
+   btn0on.src="http://mapping.usgs.gov/www/partners/images/btnFindOn.gif";
+   btn1off.src="http://mapping.usgs.gov/www/partners/images/btnNewsOff.gif
+   ";
+   btn1on.src="http://mapping.usgs.gov/www/partners/images/btnNewsOn.gif";
+   btn2off.src="http://mapping.usgs.gov/www/partners/images/btnProdOff.gif
+   ";
+   btn2on.src="http://mapping.usgs.gov/www/partners/images/btnProdOn.gif";
+   btn3off.src="http://mapping.usgs.gov/www/partners/images/btnAgreeOff.gi
+   f";
+   btn3on.src="http://mapping.usgs.gov/www/partners/images/btnAgreeOn.gif"
+   ;
+   btn4off.src="http://mapping.usgs.gov/www/partners/images/btnContOff.gif
+   ";
+   btn4on.src="http://mapping.usgs.gov/www/partners/images/btnContOn.gif";
+   btn5off.src="http://mapping.usgs.gov/www/partners/images/btnProgOff.gif
+   ";
+   btn5on.src="http://mapping.usgs.gov/www/partners/images/btnProgOn.gif";
+   btn6off.src="http://mapping.usgs.gov/www/partners/images/btnProfOff.gif
+   ";
+   btn6on.src="http://mapping.usgs.gov/www/partners/images/btnProfOn.gif";
+   btn7off.src="http://mapping.usgs.gov/www/partners/images/btnOptOff.gif"
+   ;
+   btn7on.src="http://mapping.usgs.gov/www/partners/images/btnOptOn.gif";
+   btn8off.src="http://mapping.usgs.gov/www/partners/images/btnCovOff.gif"
+   ;
+   btn8on.src="http://mapping.usgs.gov/www/partners/images/btnCovOn.gif";
+   btn9off.src="http://mapping.usgs.gov/www/partners/images/btnLogOff.gif"
+   ;
+   btn9on.src="http://mapping.usgs.gov/www/partners/images/btnLogOn.gif";
+   } function swap(name, flag) { if (netscape || iexplore) {
+   document[name].src=eval(name + flag + ".src"); return true; } }
+   function checkAll(id, start, end) { if(document.form [id].checked) {
+   var state = true; }else { var state = false; } for(var i = start+2; i <
+   end+2; i++) { var e = document.form.elements[i]; if (e.name != id &&
+   e.type == 'checkbox') { e.checked = state; }else{} } } function
+   checkColumnAll(id, col, row, theCol) { if(document.form [id].checked) {
+   var state = true; }else { var state = false; } for(var i = 0; i <= row
+   + 5; i++) { for(var j = 0; j <= col; j++) { var x = j; x += col * i;
+   var control = (theCol) + (col * i); if(x == control) { var e =
+   document.form.elements[x]; if (e.name != id && e.type == 'checkbox') {
+   e.checked = state; }else {} }else {} } } } function define(url) { var
+   fullurl = "querypartner.cgi?define=" + url; var Win =
+   window.open(fullurl,"define",'width=640,height=60,resizable=0,scrollbar
+   s=0,menubar=0,status=0'); }

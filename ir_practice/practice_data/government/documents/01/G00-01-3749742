@@ -1,0 +1,108 @@
+http://www-hifar.lbl.gov
+
+                                [hiflogo.jpg]
+
+
+                               Research at the
+
+              Virtual National Laboratory for Heavy-Ion Fusion
+
+   The Virtual National Laboratory for Heavy-Ion Fusion (HIF-VNL) was
+   established in 1999 to develop heavy-ion accelerators capable of
+   igniting inertial-fusion targets for electric-power production.  The
+   collaboration, which presently involves Lawrence Berkeley National
+   Laboratory (LBNL), Lawrence Livermore National Laboratory (LLNL), and
+   Princeton Plasma Physics Laboratory, is funded through the Office of
+   Fusion Energy at the US Department of Energy.  According the memorandum
+   creating the partnership, the HIF-VNL is chartered with "promoting more
+   rapid progress in the development of heavy ion drivers through
+   technical management integration of the laboratories scientific staff,
+   equipment, and experimental facilities."  The current focus of HIF-VNL
+   research is the design of an Integrated Research Experiment (IRE), a
+   multiple-beam induction accelerator that would address, at a smaller
+   scale, many of the critical technological and physics issues of a
+   inertial-fusion driver.  Induction accelerators are used for several
+   reasons.  They can handle much higher currents than the radio-frequency
+   (rf) accelerators used for high-energy physics, and they allow a beam
+   to be beam to be compressed during acceleration, eliminating the need
+   for storage rings.  Also, induction accelerators have a lower-cost
+   development path than rf accelerators because the critical physics
+   questions occur a low energies, allowing them to be studied on
+   small-scale experiments.  Initial studies have shown that this approach
+   should have significant cost advantages over designs based on rf
+   accelerators.
+
+   The IRE is intended as an integrated experiment to test simultaneously
+   all aspects of a driver-scale accelerator, the injecting, transport
+   through electrostatic and magnetic quadrupole lattices, final focusing,
+   and transport through a reactor chamber.  Together with the
+   target-physics database from laser-based  National Ignition Facility,
+   the IRE should provide the scientific and technological basis for an
+   Engineering Test Facility, the final step toward an inertial-fusion
+   demonstration power plant.  To a large extent, this goal determines the
+   scale of the experiment.  A hundred or more lattice periods are needed
+   to demonstrate an understanding of beam dynamics in a transport
+   lattice.  In order for beam loading to resemble that in a driver, the
+   total current at the end of the IRE must be about 100 A, and tens of
+   parallel beamlets are needed to carry this amount of current.  To allow
+   useful focusing experiments, the ion energy must be 100 MeV or greater,
+   the final perveance must be in the range 10^-5 to 10^-4, and the
+   normalize emittance must be less than about 15 mm-mrad.  Finally, to
+   validate beam-target interaction physics, the target temperature must
+   reach about 50 eV, requiring a flux of 3 x 10^12 W/cm and a total beam
+   energy exceeding 1 kJ.   The precise accelerator requirements will, of
+   course, emerge as design work proceeds.
+
+   A wide range of HIF-VNL research is currently underway to develop the
+   physics and technological understanding needed to design the IRE.  This
+   research falls into three general categories.
+
+        [redball.gif]
+                Small-scale experiments to study aspects accelerator
+                physics of an IRE.  These experiments include the
+                High-Current Transport Experiment (HCX) and
+                Multiple-Beamlet Injector Experiment, both currently being
+                planned, as well as recent projects like the Scaled
+                Final-Focus Experiment, the  Beam-Combiner Experiment, and
+                the  Plasma-Lens Experiments.
+
+        [redball.gif]
+                Theory and simulation using analysis and a variety of
+                numerical models, ranging from zero-dimensional systems
+                codes to 3-D particle-in-cell simulations.  The numerical
+                tools are able to model all parts of an accelerator from
+                source to target at an appropriate level of detail, and
+                they are used now both to design the IRE and supporting
+                experiments and to help understand experimental results.
+                In the accelerator, the areas presently being studied
+                include beam matching, emittance growth, lattice-error
+                tolerances, beam-halo formation, and bunch compression.
+                Beam transport in the reactor chamber is also being
+                examined to determine the best ways to neutralize the beam
+                and to minimize the focal spot.
+
+        [redball.gif]
+                Engineering research and development work to develop the
+                innovative approaches to fabricating affordable and
+                reliable accelerator components.  The evaluation of
+                low-cost magnetic-core materials and the design of
+                superconducting magnetic-quadrupole arrays are active
+                areas of IRE reasearch.
+
+   Work in these areas is co-ordinated through frequent teleconferences
+          involving the HIV-VNL partners and through frequent internal
+          reviews.  It is expected that conceptual-design work on the IRE
+          will begin early in 2002.
+            ___________________________________________________________
+
+          [redstar.gif] Return to the US Heavy-Ion Fusion Program Homepage
+            ___________________________________________________________
+
+          This document was written by W. M. Sharp and D. P. Grote, and
+          has been reviewed and approved by HIF-VNL Director Roger
+          Bangerter and by the AFRD Director William Barletta.  For
+          comments or questions contact WMSharp@lbl.gov or
+          DPGrote@lbl.gov.  Work described here was supported by the
+          Office of Fusion Energy at the U.S. Department of Energy under
+          contracts  DE-AC03-76SF00098 and W-7405-ENG-48.  This document
+          was last revised February, 2000.

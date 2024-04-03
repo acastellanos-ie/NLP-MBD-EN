@@ -1,0 +1,753 @@
+http://www.cwc.anl.gov
+
+                                              Security notice | Disclaimer
+
+                             [USEMAP:banner.jpg]
+
+
+       [justice.jpg]
+
+                                                   MANUAL FOR
+                                             NATIONAL IMPLEMENTATION
+                                                     OF THE
+                                           CHEMICAL WEAPONS CONVENTION
+
+                                                  (Web Edition)
+
+                                   prepared by:
+
+
+   Professor Barry Kellman, J.D.
+   Director, International Criminal Justice and Weapons Control Center
+   DePaul University College of Law
+   25 East Jackson Boulevard, Room 725
+   Chicago, Illinois, USA 60604
+   Tel: (312) 362-5258
+   Fax: (312) 362-5448
+   E-Mail: bkellman@wppost.depaul.edu
+   Edward A. Tanzman, J.D.
+   Argonne National Laboratory
+   9700 South Cass Avenue, DIS-900
+   Argonne, Illinois, USA 60439-4832
+   Tel: (630) 252-3263
+   Fax: (630) 252-5327
+   E-Mail: tanzman@anl.gov
+
+                                   November 1999
+
+                                   published by:
+
+             International Criminal Justice and Weapons Control Center
+                                 _________________
+
+                            PREFACE TO THE WEB EDITION
+
+      Welcome to the Web Edition of the Manual for National Implementation of
+      the Chemical Weapons Convention. This version of the Manual is intended
+      to build on the two previous editions to make it easier to understand
+      the legal issues created by the Chemical Weapons Convention (CWC), as
+      well as options for addressing them. The philosophy that guided
+      development of the Web Edition remains the same as for the earlier
+      versions the legal obligations created by the CWC for States Parties
+      can be addressed through national implementing measures and need not
+      become an obstacle to signature, ratification, or compliance.
+
+      The Web Edition of the Manual continues a progression begun with the
+      first edition. That document, written in 1993 immediately after the CWC
+      was opened for signature, explained the various national implementation
+      obligations contained in the Convention, presenting the authors
+      analysis of various national implementation options. The second
+      edition, published in 1998, clarified the national implementation
+      options to reflect post-entry-into-force thinking, added extensive
+      references to national implementing measures that had been enacted by
+      various States Parties, and included a prototype national implementing
+      statute developed by the authors to provide a starting point for those
+      whose national implementing measures were still under development. The
+      Web Edition of the Manual makes it possible for readers to consult the
+      actual text of these implementing measures and of the CWC itself.
+
+      This new feature offers several advantages. First, it permits readers
+      to place references cited in the Manual in the context contained in the
+      original source. Second, it permits readers to examine related
+      provisions to those cited in the Manual from within the original source
+      material. Finally, where the cited reference is itself a web page, it
+      enables exploration of other related topics.
+
+      In order to use the Web Edition of the Manual to its maximum extent,
+      readers must understand the different categories of cited sources, as
+      well as how the hypertext hotlinks to those sources operate. The
+      sources cited in the Manual can be grouped into three categories.
+      First, the CWC itself is linked to the Manual from the official web
+      page of the Organization for the Prohibition of Chemical Weapons
+      (OPCW), which is the international implementing organization
+      established by the CWC. The sophisticated technology of the OPCW web
+      page and the cooperation of its staff permit the Manuals links to the
+      CWC to refer directly to the cited section of the Convention. Second,
+      where the authors were aware of national CWC web pages in English that
+      include the text of national implementing measures cited in the Manual,
+      those citations in the Manual contain hypertext hotlinks to the
+      corresponding national web page. This enables readers to consult the
+      official current text of these measures, which may change over time. In
+      addition, these links give readers access to other CWC-related
+      resources provided on those national web pages. Currently, such links
+      are available to Australia and the United Kingdom directly and to Czech
+      Republic and Denmark through the OPCW web site; the Manual also
+      provides links to national CWC web sites maintained by Canada and
+      Finland, which provide useful CWC-related resources.   Third, where the
+      authors had available only a hard copy of referenced national
+      implementing measures, the hypertext hotlinks are to digitized images
+      of the hard copy that the authors used as the reference. Because of the
+      nature of such scanned images, it is only possible to link the
+      reference in the Manual to the beginning of the corresponding document;
+      unlike the CWC links, these links cannot bring readers directly to a
+      referenced section. Furthermore, while it is possible to block and copy
+      an entire digitized document to ones hard drive, it is not possible to
+      copy only a portion.
+
+      Regardless of the type of document referenced, all of the links work
+      the same way. In each case, the titles of referenced documents (which
+      are usually found in foonotes) are highlighted in blue. By pointing a
+      computer cursor to the highlighted title and clicking once with the
+      left button of a mouse, a readers internet browser will switch its
+      display to the corresponding referenced document or website. In order
+      to return to the page containing the referenced, readers must point
+      their cursors at the "back" button on their web browser.
+
+      In addition to the referenced documents, the Web Edition of the Manual
+      also contains extensive internal hotlinks to facilitate its use.
+      Readers can scroll through the entire document, or else can use their
+      mice to click to any chapter or subchapter using the blue chapter
+      headings in the Table of Contents, which is located below following the
+      Introduction. All footnotes, which are indicated using superscripted,
+      underlined numbers in parantheses, are highlighted in order to permit
+      readers to switch to the text of any footnote. From within footnotes,
+      readers may either switch back to the text where a given footnote is
+      located, or else scroll to preceding or following footnotes. Thus, the
+      Web Edition of the Manual allows readers maximum flexibility to best
+      use it to meet their needs. Readers are encouraged to e-mail their
+      questions, comments, or suggestions to the authors by clicking on
+      either of their e-mail address, listed in blue above, and sending a
+      message.
+
+      Creating the Web Edition of the Manual required extraordinary effort by
+      a number of dedicated professionals. The authors are especially
+      grateful to Robert Baker, Banchoice Bonner, and Joel Davisson of
+      Argonne National Laboratory and to Johan Santesson of the OPCW for
+      their creativity and dedication. Of course, the authors remain
+      responsible for any errors or omissions.
+                                 _________________
+
+                            INTRODUCTION TO THE MANUAL
+
+      The Chemical Weapons Convention (CWC)^(1) is an unprecedented
+      multilateral effort to eradicate an entire category of weapons of mass
+      destruction and assure their continued absence through international
+      verification. With its comprehensive regulatory regime to verify
+      compliance, the CWC presages a new foundation for international
+      security based neither on fear nor on trust, but on the rule of law.
+
+      The CWC absolutely prohibits the possession or use of chemical weapons.
+      No State Party may use chemical weapons nor engage in any military
+      preparations for such use; nor may a State Party develop, acquire,
+      stockpile or retain chemical weapons, nor transfer them or assist
+      anyone to engage in prohibited conduct.^(2) The CWC further mandates
+      that chemical weapons stockpiles and production facilities be
+      declared and destroyed.^(3) Significantly, the CWC seeks to verify that
+      States Parties do not initiate or resume chemical weapons production or
+      storage. Verifying nonproduction of chemical weapons is the core of the
+      CWC, and even States Parties with no chemical weapons to destroy must
+      comply with the verification measures.
+
+      To carry out its goals, the CWC creates the Organization for the
+      Prohibition of Chemical Weapons (OPCW), an independent international
+      body to monitor CWC States Parties' activities to ensure that the CWC's
+      requirements are met. The OPCW is vested with extensive rule-making,
+      investigative, and dispute resolution responsibilities. It comprises
+      three organs: (1) the Conference of States Parties oversees the
+      operation of the CWC, enacts rules of procedure, and resolves issues as
+      to the CWC's scope and State Party compliance; (2) the Executive
+      Council, with a rotating membership of 41 States Parties based on
+      equitable geographical distribution, oversees day-to-day activities
+      including supervising verification; and (3) the Technical Secretariat,
+      consisting of a Director-General appointed for a four-year term as well
+      as inspectors and other personnel, carries out the CWC verification
+      measures and performs functions delegated to it by the Conference and
+      the Council.
+
+      A central feature of the CWC is that it requires each State Party to
+      adopt implementing measures to make the Convention operative. The CWC
+      goes beyond all prior weapons control treaties in this regard. This
+      Manual for National Implementation of the Chemical Weapons Convention
+      is designed to foster this approach by assisting States Parties in
+      maximizing CWC enforcement consistent with their national legal
+      obligations.
+
+      1 Purposes
+
+      This Manual is intended to focus governmental attention on the legal
+      issues concerning CWC implementation. It acknowledges areas of
+      ambiguity that States Parties should address, and it analyzes legal
+      initiatives that may be undertaken to strengthen the Convention's
+      enforcement. It is intended to build confidence that the legal issues
+      identified are finite and addressable. States Parties need not be
+      alarmed by a seeming endless array of legal problems.
+
+      This Manual is not a supplement to or revision of the CWC itself. The
+      many political, economic, and technical decisions that comprise the
+      final treaty are not re-visited or second-guessed. Nor does it
+      prescribe a uniform approach for all States Parties that would ignore
+      the vast differences among national legal traditions. The composition
+      and distribution of the Manual is an effort to promote a valuable
+      exchange of ideas that each State Party may adapt as it deems suitable.
+      The Manual is, therefore, a tool to increase understanding of the
+      Convention, to identify its obligations, and to suggest national
+      implementing measures to meet them.
+
+      The CWC presents a challenge to nations around the world to implement
+      complicated and far-reaching tasks. Global peace and security depend on
+      the success of their efforts. This Manual's success will be measured by
+      its contribution to that effort.
+
+      2 Background of The MANUAL
+
+      The first edition of the Manual, published in December 1993, was
+      designed to assist states in bringing the CWC into force. The project
+      was initiated at the suggestion of the Provisional Technical
+      Secretariat (PTS) in order to help focus attention on legal issues
+      surrounding CWC implementation. The work was supported and funded
+      through Argonne National Laboratory, by a grant from the John D. and
+      Catherine T. MacArthur Foundation, and by DePaul University College of
+      Law.
+
+      A Committee of Legal Experts on National Implementation of the Chemical
+      Weapons Convention made up of jurists, law professors, legally-trained
+      diplomats, government officials and Parliamentarians from every region
+      of the world reviewed and commented on the early drafts. A Conference
+      of the Committee of Legal Experts was held in late 1993 to critique the
+      penultimate draft. After the Conference, the authors revised that draft
+      in light of the many contributions that the Committee made to its
+      format and content. The Manual was intially distributed at the Fifth
+      Plenary Session of the Conference of States Parties on December 18,
+      1993 to delegates of signatory states. Since then, it has been
+      distributed worldwide.
+
+      Entry into force is an appropriate time to update the Manual. States
+      Parties must soon enact implementing measures that establish national
+      authorities and that prepare government agents and citizens to meet CWC
+      obligations. Decision-makers will need the most up-to-date and thorough
+      treatment of pertinent issues. This second edition of the Manual,
+      responds by: (1) incorporating new information, both national
+      implementing legislation and OPCW guidance documents, and (2)
+      addressing tangible implementation issues.
+
+      The authors would like to acknowledge the support and funding of
+      Argonne National Laboratory and the International Criminal Justice and
+      Weapons Control Center of DePaul University Law School. Also deserving
+      of immense gratitude are the exceptional contributions of Jonathan Fox,
+      Esq., Lisa Tucker, Esq., Rebecca Haffenden, Esq., and Ken Lerner, Esq.
+
+      3 Structure of The MANUAL
+
+      The many tasks that States Parties must implement are organized into
+      two Parts, each comprised of six chapters. Part I considers how each
+      State Party can establish administrative authority in its government
+      and legal system to carry out its CWC obligations. This material
+      concentrates on the issues that States Parties face concerning the
+      allocation of CWC-relevant authority within and among governmental
+      agencies. Part II considers legal issues relevant to verification
+      activities at private facilities, concentrating on how to enable the
+      state to comply with the CWC while effectively protecting private legal
+      rights. Appendix A is prototype CWC implementing statute assembled from
+      the texts of already-enacted statutes of States Parties. Appendix B is
+      a bibliography of the CWC national implementing measures used in
+      preparation of this Manual.
+
+      Detailed Table of Contents
+
+
+                 PART I: ESTABLISHMENT OF ADMINISTRATIVE AUTHORITY
+
+      Chapter 1 -- Giving The CWC Force and Effect:
+
+      Each State Party must give the CWC legal force and effect, typically
+      through a ratification process that is unique to its national law.
+      Moreover, each State Party must give the CWC internal effect by
+      incorporation into domestic law. Incorporation may be automatic upon
+      ratification, or may require enactment of legislation. Finally, each
+      State Party must determine the scope of its jurisdiction over
+      CWC-related activities. At minimum, each State Party's legal authority
+      must extend to activities and persons within its jurisdiction and
+      control as defined by the Convention.
+
+      Chapter 2 -- National Authority:
+
+      Each State Party must designate or establish a National Authority to be
+      the focal point for effective liaison with the OPCW and other States
+      Parties. The CWC neither explicitly requires that all CWC-related
+      powers and duties be delegated to the National Authority nor specifies
+      a particular structure within the national bureaucracy. Various issues
+      pertinent to assigning tasks and empowering the National Authority
+      should be considered.
+
+      Chapter 3 -- Destruction of Chemical Weapons and Production Facilities:
+
+      Each State Party having chemical weapons or their production facilities
+      must destroy those items. Destruction must be carried out in accordance
+      with extensive and complex CWC provisions. For the vast majority of
+      States Parties, these obligations will impose no implementation
+      obligations, but States Parties may want to address the possibility
+      that criminals might develop or acquire chemical weapons.
+
+      Chapter 4 -- Restrictions on Chemicals:
+
+      Each State Party must restrict the production and transfer of certain
+      chemicals. The CWC stipulates strict limits concerning the production,
+      acquisition, retention, use, or transfer of chemicals listed on
+      Schedule 1. In addition, the CWC requires strict control of transfers
+      of various chemicals. Depending on the extent and sophistication of the
+      domestic chemical industry, this could entail significant regulation.
+
+      Chapter 5 -- Penal Legislation:
+
+      Each State Party must enact penal legislation to prohibit persons
+      within its jurisdiction from undertaking CWC-prohibited activities.
+      Most CWC-prohibited activities relate to chemical weapons, but States
+      Parties may extend penal legislation to apply to activities that
+      undermine the CWC's verification regime. In this regard, States Parties
+      should consider how best to integrate penalization of CWC-prohibited
+      activities with constitutional and statutory protections that apply to
+      persons accused of an offense.
+
+      Chapter 6 -- Legal Assistance and Cooperation:
+
+      Each State Party must provide other States Parties with the appropriate
+      form of legal assistance as to CWC activities. Each State Party must
+      define the extent of this requirement according to its domestic law,
+      its other international obligations, and the CWC's purposes. States
+      Parties may have to implement necessary measures to make or fulfill a
+      request for assistance.
+
+
+              PART II: VERIFICATION ACTIVITIES AT PRIVATE FACILITIES
+
+      Chapter 7 -- Declarations:
+
+      Each State Party must make declarations regarding items and activities
+      relevant to chemical weapons and precursor chemicals. States Parties
+      should consider what government agency will take responsibility for
+      compiling this information and submitting it to the OPCW. In addition,
+      each State Party should consider how best to gather the information
+      that will enable it to make the required declarations, including
+      establishing reporting requirements for the chemical industry and
+      providing penalties for failing to report.
+
+      Chapter 8 -- Routine Inspections I - Selection of Sites and
+      Arrangements for Inspectors:
+
+      Each State Party must understand which aspects of the complex and
+      extensive CWC routine inspection scheme are applicable to it and must
+      undertake several tasks with regard to the selection/treatment of
+      inspectors. Fulfillment of these obligations should not raise complex
+      legal issues; States Parties have numerous implementation options that
+      can help make CWC inspections consistent with national law.
+
+      Chapter 9 -- Routine Inspections II - Access To Facilities and Conduct
+      of Inspections:
+
+      Each State Party must enable CWC inspections at private facilities to
+      be conducted consistent with the legal rights of facility owners and
+      personnel. Accordingly, each State Party must: (1) enable inspectors to
+      gain access to facilities, (2) perform inspection-related tasks; (3)
+      require persons at facilities to perform specific tasks; and (4)
+      protect public safety and the environment. Implementation of these
+      inspections should correspond to other forms of important government
+      regulation that impact on individual rights and liberties.
+
+      Chapter 10 -- Challenge Inspections:
+
+      Each State Party must implement measures so that challenge inspections
+      may proceed, if necessary, without violating legal rights. Most
+      implementation measures will be consistent with those undertaken
+      regarding routine inspections and will not require duplicative
+      measures. However, gaining access to facilities and exit monitoring may
+      raise unique legal issues concerning the privacy of persons. Moreover,
+      each State Party must delegate authority to its agents to perform
+      various tasks and must implement measures to require that citizens
+      perform certain tasks, notably with respect to managed access
+      procedures.
+
+      Chapter 11 -- Protection of Confidential Information:
+
+      Each State Party must give effect to the CWC's measures to protect
+      confidential information. Confidentiality may be jeopardized by CWC
+      activities, including required declarations and inspections. States
+      Parties cannot withhold required national security or confidential
+      business information, but may take steps to protect these types of
+      information. States Parties should consider, in light of domestic law,
+      implementation of appropriate procedures to protect against
+      unauthorized disclosure of information.
+
+      Chapter 12 -- Remedies:
+
+      Each State Party may consider providing remedies if CWC activities
+      contravene persons' legal rights. However, States Parties could
+      consider denying injunctive relief that would prevent CWC compliance
+      efforts and could instead provide a means to award monetary damages in
+      the event that a loss is incurred. Furthermore, States Parties should
+      consider the appropriate categories of potentially liable parties and
+      may set up procedures to simplify recovery.
+          _______________________________________________________________
+
+                                 TABLE OF CONTENTS
+
+                            INTRODUCTION TO THE MANUAL
+
+                                      PART I
+                     ESTABLISHMENT OF ADMINISTRATIVE AUTHORITY
+
+                   CHAPTER 1 -- GIVING THE CWC FORCE AND EFFECT
+
+      1.1 Ratification Process
+
+      1.1.1 Who Is Responsible for Ratification
+          1.1.2 Method of Ratification
+          1.1.3 Role of the Judiciary Prior to Ratification
+          1.1.4 Reservations
+
+      1.2 State Obligations Following Ratification
+      1.2.1 Giving the CWC Force under Domestic Law
+          1.2.2 Assessing the Authority of Treaties under National Law
+
+      1.3 Jurisdiction
+   Conclusions
+
+                     CHAPTER 2 -- THE NATIONAL AUTHORITY
+
+   2.1 Mandatory Obligations for the National Authority
+
+   2.1.1 National Authority as Liaison
+       2.1.2 Handling of Confidential Information
+       2.1.3 Inspection-Related Tasks Expressly Assigned to the National
+       Authority
+
+   2.2 Functions That Could be Assigned to the National Authority
+
+   2.2.1 Control Scheduled Chemicals
+       2.2.2 Oversee CWC Verification
+
+   2.3 Functions Within the Field of Competence of Other Governmental
+   Agencies
+   2.3.1 Control of Chemical Weapons and Chemical Weapons Production
+       Facilities
+       2.3.2 Penal Enforcement/Legal Assistance
+       2.3.3 Privileges and Immunities
+       2.3.4 Regulating Trade in Chemicals and Exchanges of Technical
+       Information
+
+   Conclusions
+
+              CHAPTER 3 -- DESTRUCTION OF CHEMICAL WEAPONS AND
+                            PRODUCTION FACILITIES
+
+   3.1 Chemical Weapons
+
+   3.1.1 Principles and Methods for Destruction
+
+   3.1.1.1 Order of Destruction and
+       3.1.1.2 Destruction Plans
+       3.1.1.3 Verification of Chemical Weapons
+
+   3.1.2 CWC Provisions on Abandoned Chemical Weapons
+   3.1.3 CWC Provisions Regarding Old Chemical Weapons
+   3.1.4 Chemical Weapons Production Facilities
+   3.1.4.1 Closure of Chemical Weapons Production Facilities
+       3.1.4.2 Principles and Methods for Destruction
+       3.1.4.3 Order of Destruction and Deadlines
+       3.1.4.4 Plans for Destruction
+       3.1.4.5 Verification of Destruction
+       3.1.4.6 Conversion of Chemical Weapons Production Facilities
+
+   3.2 Measures to Respond to Discovered Chemical Weapons
+
+   3.2.1 Illicit Chemical Weapons or Facilities
+
+   3.2.1.1 Gathering Information About Illicit Chemical Weapons
+       3.2.1.2 Confiscating Chemical Weapons
+       3.2.1.3 Destroying Confiscated Chemical Weapons
+       3.2.1.4 National Measures in Anticipation of Discovering Unknown
+       ChemicalWeapons Production Facilities
+
+   3.2.2 Abandoned Chemical Weapons Conclusions
+
+                   CHAPTER 4 -- RESTRICTIONS ON CHEMICALS
+
+   4.1 Restricting Production of Schedule 1 Chemicals
+
+   4.1.1 Restrictions on Production
+       4.1.2 Options for Implementation
+
+   4.2 Restrictions on Transfers of Chemicals
+   4.2.1 CWC Import/Export Provisions
+
+   4.2.1.1 Schedule 1 Chemicals
+       4.2.1.2 Schedule 2 Chemicals
+       4.2.1.3 Schedule 3 Chemicals and Other Chemicals
+
+   4.2.2 Options for Implementation 4.3 Economic and Technological
+   Development
+   4.3.1. Relevant CWC Provisions
+       4.3.2. Options for Implementation
+
+   Conclusions
+
+                       CHAPTER 5 -- PENAL LEGISLATION
+
+   5.1 "Enact Penal Legislation"
+       5.2 Defining "Activity Prohibited"
+
+   5.2.1 Article I Prohibitions
+       5.2.2 Specified Activities with Regard to Destruction or Securing
+       ofChemical Weapons and Production Facilities
+       5.2.3 Restricted Activities with Regard to Schedule 1 Chemicals
+       5.2.4 Restricted Activities with Regard to Transfers of Scheduled
+       Chemicals
+       5.2.5 Verification Obligations
+
+   5.3 Legal Implications of Penal Law Enforcement
+   5.3.1 Potential Legal Problems of Penal Enforcement
+
+   5.3.1.1 Penal Consequences of Searches
+       5.3.1.2 Property Confiscations May Raise Due Process Concerns
+       5.3.1.3 Culpability of Corporations and Corporate Officers
+
+   5.3.2 Minimizing Penal Implications of CWC Inspections
+   5.3.2.1 Deny CWC-Responsible Agency Criminal Law Enforcement Powers
+       5.3.2.2 Protection from Self-Incrimination
+       5.3.2.4 Protection of Procedural Due Process
+
+   Conclusions
+
+                CHAPTER 6 -- LEGAL ASSISTANCE AND COOPERATION
+
+   6.1 Purpose of the Legal Assistance Obligation
+
+   6.1.1 Law Enforcement Objective
+       6.1.2 Scope of Obligation to Provide Legal Assistance
+
+   6.2 Introduction To The Forms of Legal Assistance
+   6.2.1 Mutual Legal Assistance
+       6.2.2 Immobilization and Forfeiture of Illicit Proceeds
+
+   6.2.2.1 Obligation to Confiscate
+       6.2.2.2 Grounds for Refusal
+
+   6.2.3 Extradition
+   6.2.4 Transfer of Proceedings
+   6.2.5 Recognition and Enforcement of Foreign Judgments
+   6.2.6 Transfer of Prisoners 6.3 Suggested Implementing Measures
+   6.3.1 Define the Powers of a Government Agency
+       6.3.2 Enumerate Individual Rights Affected by a Request for Legal
+       Assistance
+       6.3.3 Specify Grounds for Refusing or Postponing a Request for
+       Assistance
+
+   Conclusions
+
+                                   PART II
+                VERIFICATION ACTIVITIES AT PRIVATE FACILITIES
+
+                          CHAPTER 7 -- DECLARATIONS
+
+   7.1 Relevant CWC Provisions
+
+   7.1.1 Declarations Regarding Chemical Weapons and Production Facilities
+       7.1.2 Declarations Regarding Scheduled Chemicals and Facilities
+       Usedfor Purposes Not Prohibited
+
+   7.1.2.1 Declarations for Schedule 1 Chemicals and Related Facilities
+       7.1.2.2 Declarations for Schedule 2 Chemicals and Related
+       Facilities
+       7.1.2.3 Declarations for Schedule 3 Chemicals and Related
+       Facilities
+       7.1.2.4 Declarations for Other Chemical Production Facilities
+
+   7.2 State Party Implementation Options: Collecting Information for
+   Declarations
+   7.2.1 Inter-Governmental Transfers of Information
+       7.2.2 Chemical Industry Reporting
+
+   7.2.2.1 Options to Require Reporting
+       7.2.2.2 Options to Penalize Non-Compliance with Reporting
+       Requirements
+
+   Conclusions
+
+             CHAPTER 8 -- ROUTINE INSPECTIONS I -- SELECTION OF
+                    SITES AND ARRANGEMENTS FOR INSPECTORS
+
+   8.1 Purposes and Characteristics of CWC Inspections
+
+   8.1.1 Schedule 1 Facilities
+       8.1.2 Schedule 2 Facilities
+       8.1.3 Schedule 3 Facilities
+       8.1.4 Other Chemical Production Facilities
+
+   8.2. State Party Implementation Options: Selection and Treatment of
+   Inspectors
+   8.2.1 Designation of and Objection to Inspectors
+       8.2.2 Visas
+       8.2.3 Privileges and Immunities
+       8.2.4 Approved Equipment
+       8.2.5 Entry and Transit
+
+   8.2.5.1 Designating Points of Entry
+       8.2.5.2 Transit to Inspection Site
+       8.2.5.3 Use of Non-Scheduled Aircraft
+
+   8.2.6 Amenities Conclusions
+
+              CHAPTER 9 -- ROUTINE INSPECTIONS II -- ACCESS TO
+                    FACILITIES AND CONDUCT OF INSPECTIONS
+
+   9.1 Characteristics of Inspections
+
+   9.1.1 Notification
+       9.1.2 Pre-Inspection Briefing
+       9.1.3 Inspectable Items
+       9.1.4 Interviews of Personnel
+       9.1.5 Photographs
+       9.1.6 Sampling
+       9.1.7 Safety and Environmental Protection
+       9.1.8 Addressing Ambiguities
+       9.1.9 Debriefing
+       9.1.10 Ending the Inspection
+       9.1.11 Reports
+
+   9.2 State Party Implementation Options: Gaining Access To Inspect
+   Facilities
+   9.2.1 Harmonizing Inspections with Citizens' Rights
+
+   9.2.1.1 Notification and Timing Requirements
+       9.2.1.2 Gaining Access with Search Warrants; Consent from
+       GovernmentLicensees
+       9.2.1.3 Compel Access
+       9.2.1.4 Conduct of Inspections
+
+   9.2.2 State Party Performance of Required Tasks
+   9.2.2.1 Negotiation of Facility Agreements
+       9.2.2.2 Pre-inspection Activities
+       9.2.2.3 Assisting Inspections
+       9.2.2.4 Concluding Inspections and Departure
+
+   9.2.3 Obligating Persons to Perform CWC Tasks
+   9.2.3.1 Tasks for Facility Owners and Operators
+       9.2.3.2 Tasks for Facility Personnel
+
+   9.2.4 Protecting Health and the Environment
+   9.2.4.1 CWC Sampling Obligations
+       9.2.4.2. Environmental and Safety Concerns During Sampling
+       9.2.4.3 Options to Protect the Environment and Safety
+
+
+   9.2.4.3.1 Environmental/Safety Assessments and Data Disclosure
+       9.2.4.3.2 Regulation of Emissions/Discharges
+       9.2.4.3.3 Management of Wastes Generated During Inspections
+       9.2.4.3.4 Public and Occupational Safety Requirements
+       9.2.4.3.5 Hazardous Materials Transportation Requirements
+
+   Conclusions
+
+                     CHAPTER 10 -- CHALLENGE INSPECTIONS
+
+   10.1 Article IX Procedures
+
+   10.1.1 Clarification from States Parties
+       10.1.2 Requesting Challenge Inspections
+       10.1.3 Participants in a Challenge Inspection
+
+   10.1.3.1 Designation of and Objection to Inspectors
+       10.1.3.2 Requesting State Party's Observer
+
+   10.1.4 Determining the Site Perimeter and Inspection Team Arrival
+   10.1.5 Securing the Perimeter
+   10.1.6 Pre-Inspection Briefing and Inspection Plan
+   10.1.7 Conduct of Challenge Inspections
+   10.1.8 Managed Access
+   10.1.9 Reports 10.2 Investigations of Alleged Use
+
+   10.3 State Party Implementation Options for Challenge Inspections
+   (andInvestigations of Alleged Use)
+   10.3.1 Enabling Inspectors to Perform Required Tasks
+
+   10.3.1.1 Gaining Access to Facilities
+       10.3.1.2 Exit Monitoring
+
+   10.3.2 Performance of Tasks by the State Party
+   10.3.3 Requiring Private Persons To Perform Tasks Conclusions
+
+                   CHAPTER 11 -- CONFIDENTIAL INFORMATION
+
+   11.3 CWC Provisions to Protect Confidential Information
+
+   11.3.1 Responsibilities of the OPCW
+       11.3.2 States Parties' Responsibilities in Handling Confidential
+       Information
+       11.3.3 Protection of Confidential Information During On-Site
+       Inspections,Generally
+       11.3.4 Protection of Confidential Information During Challenge
+       Inspections
+       11.3.5 Confidentiality of Samples
+       11.3.6 Procedures in Case of a Breach of Confidentiality
+
+
+   11.4 Legal Protection of National Security Information
+       11.5 State Party Implementation Options Relating to Confidential
+       BusinessInformation
+
+   11.3.1 Threat to CBI Posed by CWC Procedures
+
+   11.3.1.1 Loss through Declarations
+       11.3.1.2 Loss through Inspections
+
+   11.3.2 Legal Protection of CBI
+   11.3.3 Implementing Measures to Protect Confidential Business
+   Information
+   11.3.3.1 Preparation and Preventive Measures
+
+   11.3.3.1.1 Formalize System of Marking CBI
+       11.3.3.1.2 Preparation for CWC Inspections
+       11.3.3.1.3 Preparation of a CBI-Protection Manual
+       11.3.3.1.4 Government-Assisted Training and Education
+
+   11.3.3.2 Regulate CBI Handling and Prohibit Its Disclosure
+   11.3.3.3 Penalties for Wrongful Disclosure Conclusions
+
+                           CHAPTER 12 -- REMEDIES
+
+   12.1 Types of Relief
+
+   12.1.1 Pre-inspection Relief
+       12.1.2 Damages
+
+   12.2 Liable Parties
+   12.2.1 Liability of States Parties
+       12.2.2 Liability of Government Officials
+       12.2.3 Liability of the OPCW and OPCW Personnel
+
+   Conclusions
+
+                                 APPENDICES
+
+   Appendix A -- Chemical Weapons Convention Prototype Implementing
+   Statute
+
+   Appendix B -- Table of CWC Implementing Legislation
+
+     __________________________________________________________________
+
+
+   [opcwlogo.gif] Organisation for the Prohibition of Chemical Weapons
+                  (OPCW) Home Page
+                               ______________
+
+                         Security notice | Disclaimer

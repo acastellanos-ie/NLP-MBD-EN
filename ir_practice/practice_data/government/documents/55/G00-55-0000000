@@ -1,0 +1,267 @@
+http://sscweb.gsfc.nasa.gov/users_guide/Users_Guide_pt1.html
+
+
+1.0 INTRODUCTION
+
+1.1 Satellite Situation Center (SSC)
+
+   This center is an operational unit of the National Space Science Data
+   Center (NSSDC), and NSSDC's international counterpart, World Data
+   Center A for Rockets and Satellites (WDC-A-R&S). SSC personnel and
+   software systems support NASA and international space physics
+   activities by maintaining an ephemeris data base for scientific
+   satellites in geocentric or heliocentric orbits which can be used to
+   plan and support analysis of coordinated science observations by
+   multiple satellites. NSSDC and the Space Physics Data Facility (SPDF),
+   which now provide software development support for SSC, are jointly
+   managed by the Space Science Data Operations Office (SSDOO) at NASA
+   Goddard Space Flight Center with primary contractor support from
+   Raytheon STX Corporation.
+
+   The SSC was established in the mid-1970's to support and coordinate
+   multi-mission planning for the International Magnetospheric Study (IMS)
+   [Teague et al., 1982]. SSC software resources developed during the IMS
+   era continued to be used in mission and science planning for missions
+   such as Dynamics Explorer 1 and 2 (DE 1/2), the International Sun-Earth
+   Explorer series (ISEE 1, 2, and 3), and the Interplanetary Monitoring
+   Platform series (IMP 7 and 8). The SSC supported the on-going series of
+   Coordinated Data Analysis Workshop studies that began in 1978. In 1986
+   SSC played a major planning and coordination role during the
+   multi-mission Polar Region and Outer Magnetospheric International
+   Studies (PROMIS) program. Later SSC similarly supported a joint mission
+   of NASA (U.S.A), IKI (former Soviet Union), and ISAS (Japan) during
+   1989-90 for coordinated observations with IKI's Active satellite under
+   the aegis of the Inter-Agency Consultative Group (IACG), and the Solar
+   Terrestrial Energy Program (STEP) during 1990-1994.
+
+   Among the projects now supported by SSC are the NASA's Global Geospace
+   Science (GGS)program, the International Solar Terrestrial Physics
+   (ISTP)program, and the International Heliospheric Study (IHS).
+   Precomputed state vector information, predictive or definitive, for the
+   Geotail spacecraft is being provided by SSC to the IACG-WG3 (Working
+   Group 3) satellite facility, called SPIN, at ISAS. Similar data will be
+   provided to the Joint Science Operations Centre (JSOC) in the United
+   Kingdom Rutherford-Appleton Laboratory for the Cluster mission and at
+   the Experimenters Operations Facility (EOF) at GSFC for the SOHO
+   mission.
+
+   Updated orbital elements for many active satellites are routinely
+   received electronically by SSC from the United States Space Command
+   (USSPACECOM), previously known as NORAD. Elements for active satellites
+   of interest to NASA-supported missions and international programs are
+   processed by SSC staff into time-ordered Cartesian (X-Y-Z) coordinates,
+   by using the Goddard Trajectory Determination System (GTDS) code
+   maintained at NASA Goddard's Flight Dynamics Division, and stored in a
+   data base within the SSC Software System in NSSDC's Common Data Format
+   (CDF) [Treinish and Gough, 1987]. The Cartesian data points are stored
+   at maximum time resolution of one minute in geocentric inertial
+   coordinates. The orbital element data can be accessed electronically
+   through NASA Science Internet (NSI) at an anonymous FTP directory
+   called ACTIVE. The Cartesian data are available via the SSC Software
+   System as described below.
+
+   The software and hardware capabilities of SSC have evolved over many
+   years since the first generation of SSC programs was written in FORTRAN
+   to run on a MODCOMP IV/25 computer for production of simple reports and
+   data listings. In 1975, an interactive graphics system was added for
+   preconfigured plots of key orbital parameters. In 1985, the software
+   was ported to a MODCOMP Classic II/45 computer after previous updates
+   and additions in 1980 in support of the Dynamics Explorer mission. More
+   recent upgrades have included ports to more powerful computers in the
+   SUN/UNIX environments and the addition of new magnetic field models
+   [Peredo et al., 1992] and the revision of definitions for
+   magnetospheric regions. Whereas user queries were exclusively handled
+   by SSC staff prior to spring 1993, the emergence of the SSC Software
+   System into the NSI network environment now makes possible direct
+   access to SSC software and data by the space science community. The
+   lastest development in this area has been the creation of a World Wide
+   Web interface to the SSC. Now anyone with access to the internet and a
+   browser can utilize the user friendly Graphical User Interface of their
+   browser to access the SSC database.
+
+   REFERENCES
+
+   Teague, M. J., D. M. Sawyer, and J. I. Vette, The Satellite Situation
+   Center, in The IMS Source Book. Guide to the International
+   Magnetospheric Study Data Analysis, edited by C.T. Russell and D. J.
+   Southwood, pp. 112-116, American Geophysical Union, Washington, D. C.,
+   1982.
+
+   Treinish, L., and M. Gough, A software package for the data-independent
+   management of multidimensional data, EOS, 68, 633-635, 1987.
+
+1.2 SSCWeb Software System
+
+   The SSC Software System is based on models of the Earth's
+   magnetospheric regions and magnetic field, and programs generate
+   information listings and trajectory plots for purposes of planning
+   spacecraft instrument operations and/or data analysis. These programs
+   identify the time periods during which a specified spacecraft is in a
+   particular magnetospheric region or is in magnetic conjunction with
+   other spacecraft or ground stations; allow a choice of internal and
+   external magnetic field models for field-line tracing options
+   (Internal, IGRF; External, Tsyganenko); plot spacecraft trajectories,
+   illustrating spacecraft position relative to various magnetospheric
+   regions; and perform conversions among geocentric and magnetic
+   coordinate systems.
+
+   An easy-to-use World Wide Web interface allows the user to quickly move
+   from one part of the system to another, and to easily specify input
+   parameters and options. The SSC software provides the user three (3)
+   options for querying and viewing data available in an extensive
+   database. These options, Query, Locator, and the database itself are
+   described in the following sections.
+
+   The main section of this User's Guide is organized to match the items
+   presented to the user by the SSCWeb interface. Technical descriptions
+   of the magnetic field models, magnetospheric region definitions, and
+   coordinate systems used, as well as a list of usable ground stations,
+   are given in Appendices A, B, C and D, respectively. Appendix E
+   contains a glossary of terms used throughout the system itself and the
+   documentation.
+
+   User comments, suggestions and problem reports would be greatly
+   appreciated. Please forward them to:
+
+   SSC@sscweb.gsfc.nasa.gov
+
+1.3 Locator
+
+   The Locator component of the SSC system allows the user to obtain
+   location data in a tabular format. The user may request the
+   spacecraft's location converted into a variety of coordinate systems
+   (see section 5.0), as well as the following coordinate related items:
+     * Latitude and longitude values of magnetic field line traces from
+       the spacecraft location
+     * The magnetospheric region in which the spacecraft resides
+     * Radial distances from the Earth's center to the spacecraft (in Km
+       or in RE, where RE=6378.16 Km)
+     * Distances from the spacecraft to the:
+          + bow shock
+          + magnetopause
+          + Fairfield's neutral sheet
+     * The spacecraft's corresponding:
+          + L value
+          + magnetic field strength
+          + invariant latitude.
+
+1.4 Query
+
+   The Query processor provides two query matching options, magnetospheric
+   region occupancy and magnetic field line tracing. The region setup
+   option provides magnetospheric region occupancy by listing the entry
+   and exit times in which specified satellite(s) were in particular
+   magnetospheric regions. The trace setup option provides the means to
+   perform field line tracing queries to identify either periods when one
+   or more spacecraft are on the same magnetic flux tube of force as a
+   specified lead spacecraft, or periods when one or more spacecraft
+   occupy a field line which traces down to a specified ground station.
+
+   At intervals equal to the time between successive ephemeris data
+   points, the ephemeris information of each spacecraft is used to
+   evaluate the magnetic field vector at the position of the spacecraft.
+   Next, the sampling point is moved in the direction of the vector to
+   reach a neighboring point along the tube where the local field vector
+   specifies the direction of the next step. This process is then iterated
+   until finally the footpoint of the tube is reached. The magnetospheric
+   models available for field line tracing are listed in Appendix A.
+
+   To facilitate complex queries, the user can specify up to nine
+   conditions under which a single query may be made. A condition consists
+   of satellite selections, region specifications, and field line tracing
+   options. PLEASE NOTE that the condition number is located at the top of
+   the screen. The trace model selection, as well as the start and stop
+   times, are used throughout all conditions.
+
+   The main screen of the Query Interface requires selection of at least
+   one satellite for processing from a scrolling list of available
+   satellites, and entry of the start and stop times for satellite
+   processing.
+
+   Query also contains fields for specifying whether the satellites, time
+   ranges and setups will apply to the current condition, to all of the
+   conditions, or to any of the conditions. These conditions may be
+   queried independently, or together.
+
+   Several models are available to independently specify the terrestrial
+   (internal) magnetic field and the magnetospheric (external) magnetic
+   field. The size of the magnetic flux tube can also be specified as
+   either a bin of x-deg latitude by y-deg longitude or a circular tube of
+   a specified radius.
+
+1.5 Extensive Database
+
+   Updated predictive and definitive ephemeris for approximately
+   fourty-five (45) satellites are maintained at the Satellite Situation
+   Center. The ephemeris data is calculated from orbital elements using
+   software provided by the Flight Dynamics Division at Goddard Space
+   Flight Center. Time and position over specific time periods at varying
+   resolutions are stored for each satellite. The orbital elements
+   themselves are not currently stored in the database. This database is
+   updated periodically with ephemeris for new satellites or revised
+   ephemeris for existing satellites.
+
+1.6 Navigation Help for SSCWeb
+
+   What follows below are some hints for using you're browser effectively
+   to navigate through the SSCWeb.
+     * DO NOT USE the browsers back and forward commands. The proper way
+       to navigate these pages is to utilize the command menu located at
+       the bottom of each page. As you enter information and move from
+       page to page the information is stored in "hidden" fields that are
+       part of the document but not displayed. Using the back and forward
+       command supplied by your browser will result in these hidden fields
+       not being updated and your input will be lost and/or your results
+       incorrect!
+
+     * Selecting multiple items in a scrolling list varies depending on
+       the platform.
+          + On Macintosh:
+               o Holding down the Shift key will select everything between
+                 the item selected and the previous item selected.
+               o Holding down the Command key will allow you to select
+                 several items that are not adjacent to one another.
+          + On Windows:
+               o Holding down the Shift key will select everything between
+                 the item selected and the previous item selected.
+               o Holding down the Alt key will allow you to select several
+                 items that are notadjacent to one another.
+          + On Unix:
+               o Select multiple items by selecting them one at a time.
+     * Using the Help Window
+          + It is best to use a frames enable version of a browser. With
+            frames there will be a small portion of the screen where help
+            text will be displayed. You will be able to get help on any
+            item that is marked as a link on the SSCWeb Form. Please be
+            aware of the following to make using help easier.
+               o You can modify the size of the help window by "grabbing"
+                 the bar between the frames and moving it in the desired
+                 direction.
+               o Using the browsers"Back" command has different result
+                 from browser to browser and even between the same browser
+                 on different platforms. So once again we advise, Do Not
+                 Use the browsers"Back" and "Forward" commands.
+     * If you switch to the ADVANCED interface your input from the
+       STANDARD interface will still be valid. We have tried to
+       accommodate switching from the Advanced to the Standard interface
+       but the results may not be what you expect. Any options you
+       selected in ADVANCED interface will still apply to any query you
+       submit but will not be editable from the STANDARD interface.
+     __________________________________________________________________
+
+   * SSC Users Guide Table of Contents
+
+   * SSC Home Page
+     __________________________________________________________________
+
+   Responsible NASA official and Curators:
+
+
+    Robert McGuire, Robert.E.McGuire.1@gsfc.nasa.gov, (301) 286-7794
+    Head Space Physics Data Facility
+    Code 632
+    NASA Goddard Space Flight Center
+    Greenbelt, MD 20771
+    SSCWeb Curators
+
+   Last Modified:Tuesday, 20-Nov-2001 13:41:49 EST

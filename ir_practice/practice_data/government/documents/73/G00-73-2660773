@@ -1,0 +1,466 @@
+http://cbdnet.access.gpo.gov/cbdhints.html
+
+                           Commerce Business Daily
+
+                Instructions for Searching the CBD Databases
+
+   -----------------------------------------------------------------------
+                                  ---------
+
+       CBDNet Simple-Search Fielded-Search Extract Browse Search-Help
+
+   GENERAL GPO ACCESS SEARCH INSTRUCTIONS
+
+        BOOLEAN OPERATORS
+                Default Operator (OR)
+                Available Boolean Operators
+                Searching for Phrases; Using the ADJ Operator
+                Complex Queries Using More Than One Boolean Operator
+                Query Report
+
+        STOPWORD LIST
+        RELEVANCE RANKING
+
+   SAMPLE SEARCHES AND SEARCH TECHNIQUES FOR THE CBD
+          Content and file format
+          Identification Code
+          Maximum Responses
+          Fields
+          Sample Searches
+
+                Subject
+                Cite Number
+                Solicitation Number
+                Part and Subpart
+                Award Number
+                Restricting by Date
+                Posted Date
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+          ________________________________________________________
+
+  GENERAL INSTRUCTIONS:
+
+   These instruction provided below are general and apply to all of the
+   GPO Access databases. For specific information on each database, use
+   the Helpful Hints and Database Contents.
+
+   Each database use an identifier code before the title in the results
+   lists to assist the user in recognizing the type of document retrieved.
+   These identifiers are explained in the Helpful Hints for each database.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+  BOOLEAN OPERATORS:
+
+    Default Operator (OR):
+
+   The default operator for the WAIS service is OR, so a series of words
+   searched without any boolean operators will be treated as if an OR had
+   been inserted between each word. The relevance ranking feature will
+   give a higher ranking to documents containing all of the requested
+   words, but all documents contain any of the words will be retrieved.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+    Available Boolean Operators:
+
+   The boolean operators AND, OR, NOT, and ADJ can be used to establish
+   logical relationships between concepts expressed in natural language in
+   a query. The boolean operators are used to narrow searches and make
+   them more specific. The boolean operators must be capitalized or they
+   are considered stopwords and ignored. When this occurs, the default
+   operator (OR) is used. For example, a search for lyme and disease will
+   be treated as if it had been entered as lyme OR disease.
+
+   AND - The AND operator is helpful in restricting a search when a
+   particular pair of terms is known. For instance, a query such as
+   weather and aviation returns only those documents that contain both
+   words.
+
+   OR - The OR operator is often used to join two different phrases of a
+   boolean search. A question such as "transportation OR highway" results
+   in documents containing wither the word "transportation," or the word
+   "highway," or both. A natural language question is much like having an
+   implicit OR between the words, except that natural language does more
+   work to determine the relevance of words and their relationships in
+   phrases.
+
+   NOT - The NOT operator is used to reject any documents that contain
+   certain words. For instance, the query education NOT "secondary
+   education" retrieves documents containing the word "education" that do
+   not contain the phrase "secondary education".
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+    Searching for Phrases; Using the ADJ Operator:
+
+   ADJ - The ADJ operator is used to ensure that one word is adjacent to
+   another in the returned document. The ADJ operator retrieves not only
+   documents where the words are immediately adjacent , but also those
+   where one word follows the other by up to 20 characters. For example, a
+   search for lead ADJ paint returns documents with the phrase "lead
+   paint" and also documents with the phrase "lead-based paint", but will
+   not return other documents that contains both the words "lead" and
+   "paint" separately. The documents with the exact phrase "lead paint"
+   will be assigned a higher relevance ranking than those with the phrase
+   "lead-based paint".
+
+   Quotation marks can be used instead of the boolean operator ADJ when
+   searching for a phrase. For example, the query "Government Printing
+   Office" can be used instead of Government ADJ Printing ADJ Office.
+   Phrase searching using quotation marks retrieves the same results as a
+   search including the boolean operator ADJ.
+
+   Quotation marks can be used in combination with other boolean
+   operators; for example, "Department of Education" AND "bilingual
+   education" will retrieve documents that mention the Department of
+   Education and also include the phrase "bilingual education". Stopwords
+   that are included in queries are ignored, so a search for "department
+   of education" will retrieve the same results as a search for
+   "department education" or department ADJ education.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+    Complex Queries Using More Than One Boolean Operator:
+
+   Complex queries can be constructed using multiple boolean operators.
+   For clarity, parentheses should be used to group sections of the query
+   and ensure that the WAIS server parses the query as intended; for
+   example: "Department of Education" AND ("bilingual education" OR
+   "foreign language") AND (grants OR "cooperative agreements"). Without
+   the parentheses, the WAIS server will first process the phrases, then
+   the AND operators and then the OR operators, resulting in a query that
+   would read as follows: ("Department of Education" AND "bilingual
+   education") OR ("foreign language" AND grants) OR "cooperative
+   agreements". A test of these searches in the Federal Register database
+   in June 1995, retrieved 39 documents from the first search and 399 from
+   the second search. In this instance, the relevance ranking feature
+   assigned the highest ranking to the same two documents from each search
+   since they contain all of the requested phrases; however, it is best
+   not to rely on the relevance ranking to interpret the intention of a
+   query.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+    Query Report:
+
+   Each search results list includes as the final document a Query Report.
+   This document can be viewed to determine how a query was parsed, the
+   speed of the retrieval, and the number of words in the database that
+   conformed to the search request and the total number of relevant
+   documents identified.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+  STOPWORD LIST:
+
+   The following words make up the default stopword list used for all GPO
+   Access databases, except the User Guide. Stopwords are words which
+   occur so frequently that they are not useful for distinguishing one
+   document from another. Since they are not useful for searching, they
+   are not indexed. Stop words that are included in queries are ignored,
+   so a search for "department of education" will retrieve the same
+   results as a search for "department education" or department ADJ
+   education.
+
+adj             all             also            an              and
+any
+are             as              at              be              because
+been
+could           did             do              does            e.g.
+ever
+from            had             hardly          has             have
+having
+hence           her             here            hereby          herein
+hereof
+heron           hereto          herewith        him             his
+however
+i.e.            if              into            is              it
+its
+me              not             of              on              onto
+or
+our             really          nor             she             should
+so
+some            such            than            that            the
+their
+them            then            there           thereby         therefore
+therefrom
+therein         thereof         thereon         thereto         therewith
+these
+they            this            those           thus            to
+too
+unto            us              very            viz.            was
+we
+were            what            where           when            whereby
+whether
+which           who             whom            whose           why
+with
+would           you
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+  RELEVANCE RANKING:
+
+   The WAIS server automatically display the results from each search
+   using relevance ranking. The most relevant document will appear first
+   with a rank of 1,000. Other documents will have a lower rank. Relevance
+   is computed based on several factors, including the occurrence of the
+   search terms in the document title, the frequency of the terms as a
+   percentage of the total document size and conformance with the exact
+   search phrasing.
+
+   When searching multiple databases with the same query, the results from
+   each database will be merged and ranked.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+  SAMPLE SEARCHES AND SEARCH TECHNIQUES FOR THE CBD:
+
+   The following searches will help you familiarize yourself with various
+   methods of searching for information in the GPO Access databases. For
+   specific information on searching other GPO Access databases, use the
+   Helpful Hints.
+
+   Each of these searches can be used in more than one database. As a
+   result, the search results presented may differ slightly. These
+   searches only serve to guide you when constructing search strings and
+   should not restrict your searching strategies. Please note: Some
+   searches may be more appropriate for one database than another. For
+   example, a bill search is more useful when searching the Congressional
+   Bills or Congressional Record databases than the Federal Register
+   database.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Content and file format: The Commerce Business Daily (CBD) lists
+   notices of proposed government procurement actions, contract awards,
+   sales of government property, and other procurement information. Each
+   notice appears in the print CBD only once. Notices stay "active" in the
+   CBD database online via GPO Access for 15 days and are then moved to an
+   "archived" database. Each notice is available as an ASCII text file and
+   HTML file. The database is updated continuously.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Identification Code: Each CBD notice in the database will display in
+   the results list with the identification code followed by the subject
+   of the notice. The identification code for the Commerce Business Daily
+   database is "CBD". For example: CBD: 51--SCREW THREADING SET.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Maximum Responses: The default setting for SWAIS and the
+   WinWAIS/MacWAIS client software is to return a maximum of 40 responses
+   to a query. The default for the Web interface is to return a maximim of
+   40 documents to a CBD query. To locate a larger number of documents,
+   (maximum 350) you will need to change the setting. In SWAIS type a
+   lower case o at the Source Selection menu to change your options. In
+   WinWAIS, select Edit and then Preferences from the pull-down menu. In
+   MacWAIS, select File and then Preferences from the pull-down menu. On
+   the GPO Access Web Searching Pages a box is provided in which you may
+   change the number of documents returned.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Fields: Fields in the Commerce Business Daily online via GPO Access
+   are:
+
+classcod       Classification Code
+offadd         Office Address
+subject        Subject
+sol            Solicitation Number
+due            Response Date
+poc            Point of Contact
+cnt            Award Number
+amt            Award Amount
+line           Line Number
+dtd            Award Date
+awardee        Awardee
+desc           Description
+linkurl        Link URL
+linkdesc       Link Description
+emailadd       EMAIL Address
+emaildesc      EMAIL Description
+part           Part
+subpart        Subpart
+cite           Submission No.
+posted         Posted Date
+
+   When searching via SWAIS (dial-in or telnet session) or a WAIS client,
+   a field can be searched by typing the field name, followed by an equals
+   sign (=), followed by the term or terms that are sought. Similarly,
+   when searching via the World Wide Web, you may type in the field name,
+   followed by an equals sign (=), followed by the search term(s) sought
+   or link to the ADVANCED searching pages which contain established
+   fields. All queries that do not specify a field search the entire
+   database.
+
+                                 [cbd1.gif]
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Sample Searches {1}
+
+   If you perform these sample searches you may have to use the "archive
+   of expired notices". This is due to the fact that notices in the CBD
+   database are only "active" for 15 days. These samples are meant to
+   serve as examples for creating your own searches in both the "active
+   notices" and "archive of expired notices" database.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Subject
+Query:    "preventive maintenance"
+Results: CBD: R- DESIGN OF PREVENTIVE MAINTENANCE PROGRAMS
+
+   This search demonstrates how to search the CBD by subject matter.
+   Because you would like the words "preventive maintenance" next to each
+   other, you surround the phrase by quotation marks. No fields were
+   designated in this search, therefore it is a full text search and
+   searches every field for the phrase "preventive maintenance". To search
+   specifically the subject field simply type in: subject= "preventive
+   maintenance"
+
+                                 [cbd2.gif]
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Cite number
+Query:    cite="I-338 SN00788"
+Result:   CBD: 99-DIGITAL TAPE RECORDING SYSTEM
+
+   This search demonstrates how agencies submitting notices can search for
+   a notice by cite number. The cite number is the number provided as a
+   reference after an electronic submission has been accepted. It is best
+   to enclose the entire cite in quotation marks and include hyphens and
+   spaces.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Solicitation number
+Query:    sol="N0010498T1276"
+Result:   CBD: 58--COMMUNICATION SUBSY
+
+   When searching for a specific solicitation number in the CBD, enclose
+   the entire number in quotation marks. Remember to include all dashes
+   and do NOT add any spaces.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Part and Subpart
+Query:    part="contract awards" AND subpart=services
+Result:   CBD: A--TURBINE ENGINE SYSTEM TECHNOLOGY (TEST)
+          CBD: A - TURBINE ENGINE SYTEM TECHNOLOGY
+
+   This search demonstrates how to restrict your search to a specific type
+   of notice. In this example, you are searching only contract awards for
+   services. You can choose to limit your search to any type of CBD
+   notice.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Award Number
+Query:    cnt="C109-S"
+Result:   CBD: T-BOOKS
+
+   This search demonstrates how to restrict your query to a specific award
+   number. Remember to enclose the award number in quotation marks, do NOT
+   add spaces and remember to include hyphens.
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Restricting by date
+Query:    due=12/30/97
+Result:   CBD: G--VOCATIONAL COUNSELING
+          CBD: 70--VIDEO CONFERENCING UNITS
+
+   This demonstrates how to restrict your search by date. In this case you
+   are searching for all notices with a response date of 12/30/97. You can
+   also use greater or less signs (< or >) , as well as search for date
+   ranges using the word "TO"(uppercase). Examples: due>12/30/97 or
+   due=12/1/97 TO 12/30/97 The same technique can be used for the field
+   award date. Example: dtd=12/02/96
+
+                                 [cbd3.gif]
+
+   [TOP] [SIMPLE SEARCH] [FIELDED SEARCH]
+
+   Date Posted
+Query:    posted=12/29/97
+Result:   CBD: 48--VALVE REGULATIONS
+          CBD: Z- DREDGE MOORING BASIN, JONES BEACH
+
+   Posted date is the date the notice was placed in the database, not the
+   date the notice was printed. Notices usually appear in the printed copy
+   2 business days after their posted date (as long as they were submitted
+   prior to 4 pm EST.) To search by posted date, use the fielded search
+   page or enter the field name posted followed by the equal (=) sign:
+   posted=2/29/97.
+
+   [cbd4.gif]
+
+   [cbd5.gif]
+
+   Additional GPO Access Materials:
+
+   GPO Access User's Guide & Helpful Hints - Available via:
+
+   Dial-in: 202-512-1387- From the Main Menu type B for GPO Access; type 4
+   GPO Access WAIS User Documentation & Helpful Hints; select 2 for
+   Helpful Hints. The guide is available in sections or in its entirety &
+   hints are listed by database name. Files are available in ASCII and PDF
+   formats.
+
+   FTP: fedbbs.access.gpo.gov or point your browser to
+   http://fedbbs.access.gpo.gov. The file is in the HELP directory. Check
+   00INDEX.txt for the file descriptions.
+
+   Online via GPO Access: The User's Guide is available as a database
+   online via GPO Access and can be accessed through the Web, WAIS and
+   SWAIS. Documents are available in ASCII and PDF formats. The Helpful
+   Hints are available online by searching for the word hints in each
+   database.
+
+   The Superintendent of Document's World Wide Web Home Page: The User's
+   Guide and Helpful Hints are available at:
+   http://www.access.gpo.gov/su_docs/aces/desc004.html.
+
+   GPO Access Training Booklet: Electronic copies of the training booklet
+   are available on the Federal Bulletin Board via:
+
+   Dial-in: 202-512-1387- From the Main Menu select B for GPO Access;
+   select # 4 GPO Access WAIS User Documentation and Helpful Hints; select
+   1 for User Documentation. The self-executing file names are
+   traintxt.exe for the text version and trainpdf.exe for the Adobe
+   Acrobat PDF version (traintxt.sea or trainpdf.sea for Macintosh).
+
+   Web/FTP: fedbbs.access.gpo.gov or point your browser to
+   http://fedbbs.access.gpo.gov The file is in the HELP directory. Check
+   00INDEX.txt for file descriptions.
+
+    ENDNOTES:
+
+   {1} The results of these sample searches are described as they will
+   appear using SWAIS or the WAIS or Web client software customized for
+   use with GPO Access. The searches can be performed with other WAIS
+   client software, but the display of the results may vary.
+
+   [TOP]
+
+   -----------------------------------------------------------------------
+                                  ---------
+
+   CBDNet is provided through an alliance of the United States Department
+        of Commerce and the United States Government Printing Office.
+
+    Questions or comments regarding this service? Contact the GPO Access
+       User Support Team by Internet e-mail at cbd-support@gpo.gov; by
+    telephone at 1-202-512-1530 (locally in the D.C.-Metro area) or toll
+          free at 1-888-293-6498 (outside the D.C. area); by fax at
+                               1-202-512-1262.
+
+   [ CBD HOME ] [ GPO HOME ] [ SUP DOCS HOME ] [ GPO INET Services ]
+
+   URL: http://cbdnet.gpo.gov/cbdhints.html
+   LAST MODIFIED: September 17, 1999 by LLL

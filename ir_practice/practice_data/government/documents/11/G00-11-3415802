@@ -1,0 +1,36 @@
+http://mcnpx.lanl.gov/main.html
+
+                     Welcome to the home of the MCNPX code!
+
+   MCNPX is a general-purpose Monte Carlo N-Particle code that extends the
+   capabilities of the Los Alamos MCNP code. Among other new capabilities,
+   MCNPX extends MCNP with support for additional particle types, new
+   cross section libraries, and the ability to use physics models for
+   energies where tabular data are not available.
+
+News and Announcements
+
+   A new section for MCNPX classes has been added. There is a new Classes
+   button over at your left.
+
+   We have removed the access to the Data section from the beta test code
+   page. It was redundant as there is a perfectly good Data button over at
+   your left...
+
+   A white paper discussing our thoughts on future directions for MCNPX
+   version 3 is available in the Documents section. Comments are welcome.
+
+   The Manual button that used to be on your left has been removed. It was
+   redundant as the same information is reached from the Documents
+   section.
+
+   The MCNPX code is developed by the Accelerator Production of Tritium
+   Project and Advanced Accelerator Applications at Los Alamos National
+   Laboratory.
+     __________________________________________________________________
+
+   Last modified: Fri Sep 21 13:08:56 EDT 2001
+
+
+    To report errors on the web page, or make other comments, contact the
+    Webmaster

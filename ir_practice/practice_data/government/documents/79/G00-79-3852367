@@ -1,0 +1,71 @@
+http://pioneer.gsfc.nasa.gov/public/irc/
+
+
+   Home Instrument Markup Language
+   » AIML | XML for Astronomy Instruments
+   » HAWC | SAFIRE | SPIRE Related Sites Presentations
+
+      BOTI Winner   National Aeronautics and Space Administration Logo
+
+   Instrument Remote Control
+
+   Background
+
+      Goddard Space Flight Center's Instrument Remote Control (IRC) project
+      is an ongoing effort led by the Advanced Architectures and Automations
+      Branch (Code 588). IRC supports NASA's mission by defining an adaptive
+      framework that provides robust interactive and distributed control and
+      monitoring of remote instruments. IRC will eventually enable trusted
+      astronomers from around the world to easily access infrared instruments
+      (e.g., telescopes, cameras, and spectrometers) located in remote,
+      inhospitable environments, such as the South Pole, a high mountaintop,
+      or an airborne observatory. The IRC framework will ultimately enable
+      astronomers, instrument designers, hardware engineers, and other
+      scientists to define onboard instruments, to control the instruments
+      remotely, and to monitor vital instrument telemetry over an intranet
+      or, for trusted users, possibly the Internet.
+
+      IRC technology will be making its debut as an operational solution on
+      an actual twenty-year NASA mission. The initial effort is targeted for
+      the SOFIA (Stratospheric Observatory for Infrared Astronomy) project, a
+      Boeing 747-SP aircraft modified to accommodate a 2.5 meter reflecting
+      telescope. In 2001, SOFIA will be the largest airborne telescope in the
+      world. One of the first light instruments named HAWC (High Resolution
+      Airborne Wideband Camera), is the first focus of our technology.
+
+   Goals
+
+        * Enabling access of infrared astronomical instruments located in
+          remote, inhospitable environments.
+        * Configurable software architecture supporting instrument remote
+          control.
+        * Easy to develop, modify, maintain, extend.
+        * Distributed - assign processes to different computers, regardless
+          of operating system.
+
+   History
+
+        * Instrument Remote Control (IRC) began as a small prototyping effort
+          for CARA at the South Pole in 1997.
+        * Developed a distributed architecture and Graphical User Inteface to
+          remotely control heaters attached to a telescope located at the
+          South Pole.
+        * Early 1998: Idea to describe instrument control via XML (Extensible
+          Markup Language).
+        * Mid 1998: Began SOFIA HAWC effort.
+        * Feb. 1999: Completed HAWC prototype.
+        * Feb. 1999: Began ESA SPIRE effort.
+     __________________________________________________________________
+
+        Responsible NASA Official:
+        » Julie Breed (Julia.D.Breed.1@gsfc.nasa.gov)
+                Advanced Architectures and Automation Branch (Code 588)
+
+        Curators:
+        » Troy Ames (Troy.J.Ames.1@gsfc.nasa.gov)
+                Advanced Architectures and Automation Branch (Code 588)
+        » Lynne Case (Lynne.Case@commerceone.com)
+                Commerce One eGovernment Solutions, Inc.
+
+        Please read the NASA Website Privacy Statement.
+        Site design by Commerce One

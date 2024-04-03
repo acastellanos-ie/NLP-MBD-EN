@@ -1,0 +1,212 @@
+http://edcdaac.usgs.gov/modis/dataprod.html
+
+   Your browser is not JavaScript-enabled, these buttons will not work.
+   Your browser is not JavaScript-enabled, These buttons will not work.
+
+MODIS Data Products
+
+      Currently released MODIS Land data products represent provisional data
+      sets. The quality of these products may not be optimal as incremental
+      product improvements are still occurring. Users are advised that
+      scientific claims based solely on the validity of MODIS data is
+      discouraged, but comparisons with validated techniques and data sets
+      are welcomed. Users also are encouraged to examine the Science Quality
+      Flag/Explanation metadata in each product's .hdf and .met files.
+
+      New Item NEW VERSION OF MODIS DATA AVAILABLE COMMENCING JULY 6, 2001
+
+      The release of several products in the MODIS V003 land data set began
+      on July 6, 2001. Based on multi-level processing refinements, the V003
+      data accommodate instrument and calibration stabilization. Additional
+      V003 product releases will occur as data become available. The
+      confidence and significance of this processing evolution has prompted
+      MODIS to close V001 and begin populating a V003 data set. It is
+      anticipated that by the end of 2001 V003 will contain a continuous year
+      of data with consistent science quality. Please be aware that although
+      V003 will eventually replace V001, both will appear on the EDG for at
+      least six months following V003 production of any data granule. 250
+      meter data will only appear as V003.
+
+
+   MODIS Science Quality Explanations
+   MODIS Data Availability
+   MODIS bands, spectral ranges
+
+   CAPTION:
+
+   EDAAC DISTRIBUTED MODIS DATA PRODUCTS
+   Known MODIS Product Issues
+   CMG Climate Model Grid 0.5 ^.Lat/Long = 56000 m, 0.25 ^.Lat/Long =
+   28000 m
+   PRODUCT NAME ACQUISITION PERIOD SCIENCE QUALITY
+   STATUS
+   Surface Reflectances
+   MOD09A1 Surface Reflectance 8-Day L3 Global 500m ISIN Grid V001 Jun
+   09,2000 (JDay2000161) -
+   Mar 4, 2001 (JDay2001063) Beta as of Jun 9, 2000
+   Provisional as of Nov 24, 2000
+   MOD09A1 Surface Reflectance 8-Day L3 Global 500m ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD09GHK Surface Reflectance Daily L2G Global 500m ISIN Grid V001 Jun
+   09,2000 (JDay2000161) -
+   Mar 4, 2001 (JDay2001063) Beta as of Jun 09,2000
+   Provisional as of Oct 7, 2000
+   MOD09GHK Surface Reflectance Daily L2G Global 500m ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD09GQK Surface Reflectance Daily L2G Global 250m ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD09GST Surface Reflectance Quality Daily L2G Global 1km ISIN Grid
+   V001 Jun 09,2000 (JDay2000161) -
+   Mar 4, 2001 (JDay2001063) Beta as of Jun 09,2000
+   Provisional as of Oct 7, 2000
+   MOD09GST Surface Reflectance Quality Daily L2G Global 1km ISIN Grid
+   V003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD09Q1 Surface Reflectance 8-Day L3 Global 250m ISIN Grid V003 May 27,
+   2001 (JDay 2001147) Provisional as of Nov 1, 2000
+   Land Surface Temperature and Emissivity
+   MOD11_L2 Land Surface Temperature/Emissivity 5-Min L2 Swath 1km V001
+   Jun 25, 2000 (JDay2000177)
+   May 26, 2001 (JDay2001146) Beta as of Jun 25, 2000
+   MOD11_L2 Land Surface Temperature/Emissivity 5-Min L2 Swath 1km V003
+   Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD11A1 Land Surface Temperature/Emissivity Daily L3 Global 1km ISIN
+   Grid V001 Jun 25, 2000 (JDay2000177)
+   May 26, 2001 (JDay2001146) Beta as of Jun 25, 2000
+   MOD11A1 Land Surface Temperature/Emissivity Daily L3 Global 1km ISIN
+   Grid V003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD11A2 Land Surface Temperature/Emissivity 8-Day L3 Global 1km ISIN
+   Grid V001 Aug 28, 2000 (JDay2000241)
+   Feb 10, 2001 (JDay2001041) Beta as of Aug 28, 2000
+   MOD11A2 Land Surface Temperature/Emissivity 8-Day L3 Global 1km ISIN
+   Grid V003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD11B1 Land Surface Temperature/Emissivity Daily L3 Global 5km ISIN
+   Grid V003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   Land Cover/Change
+   MOD12Q1 Land Cover Type 96-Day L3 Global 1km ISIN Grid V001 Oct 15,
+   2000 (JDay2000289) Beta as of Oct 15, 2000
+   MOD12Q1 Land Cover Type 96-Day L3 Global 1km ISIN Grid V003 Jan 1, 2001
+   (JDay2001001) Provisional as of Jun 11, 2000
+   Vegetation Indices
+   MOD13A1 Vegetation Indices 16-Day L3 Global 500m ISIN Grid V001 Jun
+   09,2000 (JDay2000161)
+   Feb 18, 2001 (JDay2001049) Beta as of Jun 09,2000
+   Provisional as of Nov 24, 2000
+   MOD13A1 Vegetation Indices 16-Day L3 Global 500m ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD13A2 Vegetation Indices 16-Day L3 Global 1km ISIN Grid V001 Jun
+   09,2000 (JDay2000161)
+   Feb 18, 2001 (JDay2001049) Beta as of Jun 09,2000
+   Provisional as of Nov 24, 2000
+   MOD13A2 Vegetation Indices 16-Day L3 Global 1km ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD13Q1 Vegetation Indices 16-Day L3 Global 250m ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   Thermal Anomalies/Fire
+   MOD14 Thermal Anomalies/Fire 5-Min L2 Swath 1km V001 Oct 31, 2000
+   (JDay2000305)
+   Mar 4, 2001 (JDay2001063) Provisional as of Nov 1, 2000
+   MOD14 Thermal Anomalies/Fire 5-Min L2 Swath 1km V003 Nov 1, 2000
+   (JDay2000306) Provisional as of Nov 1, 2000
+   MOD14A1 Thermal Anomalies/Fire Daily L3 Global 1km ISIN Grid V001 Oct
+   31, 2000 (JDay2000305)
+   Mar 4, 2001 (JDay2001063) Provisional as of Nov 1, 2000
+   MOD14A1 Thermal Anomalies/Fire Daily L3 Global 1km ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD14A2 Thermal Anomalies/Fire 8-Day L3 Global 1km ISIN Grid V001 Aug
+   20, 2000 (JDay2000233)
+   Feb 2, 2001 (JDay2001033) Beta as of Aug 20, 2000
+   Provisional as of Nov 24, 2000
+   MOD14A2 Thermal Anomalies/Fire 8-Day L3 Global 1km ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD14GD Thermal Anomalies/Fire Daily L2G Global 1km ISIN Grid Day V001
+   Oct 31, 2000 (JDay2000305) -
+   Mar 3, 2001 (JDay2001062) Provisional as of Nov 1, 2000
+   MOD14GD Thermal Anomalies/Fire Daily L2G Global 1km ISIN Grid Day V003
+   Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD14GN Thermal Anomalies/Fire Daily L2G Global 1km ISIN Grid Night
+   V001 Oct 31, 2000 (JDay2000305) -
+   Mar 3, 2001 (JDay2001062) Provisional as of Nov 1, 2000
+   MOD14GN Thermal Anomalies/Fire Daily L2G Global 1km ISIN Grid Night
+   V003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   Leaf Area Index / Fraction of Photosynthetically Active Radiation
+   (LAI/FPAR)
+   MOD15A2 Leaf Area Index/FPAR 8-Day L4 Global 1km ISIN Grid V001 Jun 09,
+   2000 (JDay2000161)
+   Feb 3, 2001 (JDay2001033) Provisional as of Feb 26, 2000
+   MOD15A2 Leaf Area Index/FPAR 8-Day L4 Global 1km ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD17A2 Net Photosynthesis 8-Day L4 Global 1km ISIN Grid V001 Dec 2,
+   2000 (JDay2000353)
+   Feb 3, 2001 (JDay2001033) Beta as of Dec 2, 2000
+   Provisional as of Dec 19, 2000
+   MOD17A2 Net Photosynthesis 8-Day L4 Global 1km ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Mar 6, 2001
+   Bidirectional Reflectance Distribution Function and Albedo
+   MOD43B1 BRDF/Albedo Model-1 16-Day L3 Global 1km ISIN Grid V001 Oct 31,
+   2000 (JDay2000305)
+   Feb 18, 2001 (JDay2001049) Provisional as of Nov 1, 2000
+   MOD43B1 BRDF/Albedo Model-1 16-Day L3 Global 1km ISIN Grid V003 Nov 1,
+   2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MOD43B3 Albedo 16-Day L3 Global 1km ISIN Grid V.001 Jul 11, 2000
+   (JDay2000193)
+   Feb 18, 2001 (JDay2001049) Beta as of Jul 11, 2000
+   Provisional as of Nov 24, 2000
+   MOD43B3 Albedo 16-Day L3 Global 1km ISIN Grid V003 Nov 1, 2000
+   (JDay2000306) Provisional as of Nov 1, 2000
+   MOD43B4 Nadir BRDF-Adjusted Reflectance 16-Day L3 Global 1km ISIN Grid
+   V001 Jul 11, 2000 (JDay2000193)
+   Feb 18, 2001 (JDay2001049) Beta as of Jul 11, 2000
+   Provisional as of Nov 24, 2000
+   MOD43B4 Nadir BRDF-Adjusted Reflectance 16-Day L3 Global 1km ISIN Grid
+   V.003 Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   Pointer Files
+   MODPT1KD Observation Pointers Daily L2G Global 1km ISIN Grid Day V001
+   Jun 9, 2000 (JDay2000161) -
+   Mar 3, 2001 (JDay2001062) Beta as of Jun 9, 2000
+   Provisional as of Sep 21, 2000
+   MODPT1KD Observation Pointers Daily L2G Global 1km ISIN Grid Day V003
+   Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MODPT1KN Observation Pointers Daily L2G Global 1km ISIN Grid Night V001
+   Jun 9, 2000 (JDay2000161) -
+   Mar 3, 2001 (JDay2001062) Beta as of Jun 9, 2000
+   Provisional as of Sep 21, 2000
+   MODPT1KN Observation Pointers Daily L2G Global 1km ISIN Grid Night V003
+   Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MODPTHKM Observation Pointers Daily L2G Global 500m ISIN Grid V001 Jun
+   9, 2000 (JDay2000161) -
+   Mar 3, 2001 (JDay2001062) Beta as of Jun 9, 2000
+   Provisional as of Sep 21, 2000
+   MODPTHKM Observation Pointers Daily L2G Global 500m ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MODPTQKM Observation Pointers Daily L2G Global 250m ISIN Grid V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   Geolocation Angles
+   MODMGGAD Geolocation Angles Daily L2G Global 1km ISIN Grid Day V001 Jun
+   9, 2000 (JDay2000161) -
+   Mar 3, 2001 (JDay2001062) Beta as of Jun 9, 2000
+   Provisional as of Sep 21, 2000
+   MODMGGAD Geolocation Angles Daily L2G Global 1km ISIN Grid Day V003 Nov
+   1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+   MODMGGAN Geolocation Angles Daily L2G Global 1km ISIN Grid Night V001
+   Jun 9, 2000 (JDay2000161) -
+   Mar 3, 2001 (JDay2001062) Beta as of Jun 9, 2000
+   Provisional as of Sep 21, 2000
+   MODMGGAN Geolocation Angles Daily L2G Global 1km ISIN Grid Night V003
+   Nov 1, 2000 (JDay2000306) Provisional as of Nov 1, 2000
+
+   Skip past Navigational Links
+   __________________________________________________________________
+
+   EDC DAAC EDC Home Page About Products Order Data News Help/FAQ/Edu
+   Links Contact Us
+   __________________________________________________________________
+
+
+    This site is hosted by the USGS - NASA Distributed Active Archive
+    Center
+    Disclaimers, Statements and Accessibility
+    URL: http://edcdaac.usgs.gov/modis/dataprod.html
+    Technical Contact:  edc@eos.nasa.gov
+    Last Update: Monday, January 28, 2002.
+
+   Link to FirstGov.gov

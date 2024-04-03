@@ -1,0 +1,45 @@
+http://search.sc.egov.usda.gov/searchhelp.htm
+
+   USDA logo   United States Department of Agriculture
+               Search Help
+
+   The following table shows the search options you can use to get more
+   accurate results.
+
+   Search Type Description/Example
+   Whole phrase Type natural resources in the Keywords field to find the
+   exact phrase "natural resources." The search is not case-sensitive, so
+   you'd get the same results if you typed Natural Resources.
+   AND,
+   AND NOT Type contract AND approval to find pages that have both the
+   word "contract" and the word "approval" anywhere.
+   Type contract AND NOT approval to find all pages with "contract," as
+   long as it isn't followed by the word "approval."
+   OR Type "contract OR agreement to find all pages that have the word
+   "contract" or the word "agreement," but not necessarily both.
+   NEAR Type contract NEAR approved to find all pages where the word
+   "contract" is within 50 words of the word "approved." When you use
+   NEAR, the closer together the words are, the higher the page is in your
+   list of search results.
+
+                                      *
+
+   Look for words that begin with the same letter by using a single
+   asterisk (*). For example, type mile* to find all pages with "mile,"
+   "milestone," "mileage," etc.
+
+                                     **
+
+   Look for all forms of the word by using a double asterisk (**). For
+   example, type educate** to find all pages with "educates," "educated,"
+   "educating," "education," etc.
+   Literal
+   AND, OR, NOT, or NEAR To find pages with a phrase that uses the word
+   "and," "or," "not," or "near," put the whole phrase in quotes. For
+   example, if you type
+      operations and maintenance
+   you'll get all pages with the word "operations" and the word
+   "maintenance" anywhere in the document. If you type
+      "operations and maintenance"
+   you'll only get pages that have the phrase "operations and maintenance"
+   somewhere in the document.

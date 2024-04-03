@@ -1,0 +1,76 @@
+http://tsdis.gsfc.nasa.gov/tsdis/PredictOrbit.html
+
+                           [OverflightFinder.gif]
+     __________________________________________________________________
+
+   The "TRMM Overflight Finder" page allows users to search for passes of
+   the TRMM satellite near any location on the Earth. To run the TRMM
+   Overflight Finder just enter a location (latitude and longitude), a
+   start and end date, and a search radius, and then hit the "Search for
+   Orbit(s)" button.
+
+   Note that this site is now updated to provide predicted overflights at
+   the new operating altitude of 402.5 kilometers. As of 8/24/01 a final
+   fine tuning of the orbit was completed to arrive at the "top of the
+   box" for the new target operating altitude (402.5 +/- 1.0 kilometer
+   based on the mean semi-major axis relative to the Earth equatorial
+   radius). Note the geodetic altitude above the oblate Earth varies
+   between about 397 to 408 kilometers for this orbit.
+
+   On 10/11/01, we updated our predicted fit for future orbits and we now
+   expect our overflight prediction accuracy to be good for at least a few
+   weeks into the future, although we are aware of miscellaneous
+   fine-tuning to our model that should be accomplished (time permitting,
+   pending other post-boost data quality assurance efforts). The accuracy
+   discussion will be brought up to date to reflect our expected
+   accuracies after further analysis.
+
+   Note that the instrument swath sizes increase by about 15 percent with
+   the altitude increase. This is implemented for the purpose of plotting
+   by including a new swath shape model that is good for orbits around
+   402.5 kilometers. This is applied for illustrating all orbits after
+   midway through the boosts. Thus the swath edges drawn during the boost
+   period have additional inaccuracy. These swath models are currently
+   considered perhaps accurate to only 20 kilometers for the TMI edges
+   (pending further review), but this accuracy is consistent with the aims
+   of our overflight estimates, which is just for identification of orbit
+   numbers where TRMM passes pass roughly within a given distance ranges
+   of selected sites, and illustration of the approximate swath overlay.
+   The geolocation in actual TRMM products is much finer, generally to one
+   image pixel. Although pixel geolocation errors greater than one VIRS
+   pixel (about 2.2 km) were encountered in the fifth week after the boost
+   (and in rare brief events pre-boost), the pointing has since been
+   improved and is expected to generally remain within a pixel in TRMM
+   products.
+
+   For past overflights, accuracy in the plots and tables at this web site
+   are expected to be better than 20 kilometers, but for future overflight
+   locations will be less accurate, as described with the overflight
+   prediction accuracy discussion, which includes plots showing the latest
+   trends and the date when historical data has been most recently
+   updated.
+
+   Some discussion of the patterns for the times of day of overflights is
+   available to explain why the local times of overflight roughly change
+   with a 46 day cycle. Also available is some discussion of how to use
+   this information to find TRMM Overflights coincident with TERRA (EOS
+   A.M.) or any other sun synchronous satellites.
+
+   This page was developed by the TRMM Science and Data Information System
+   (TSDIS). Questions about this web site and the overflight predictions
+   can be directed by e-mail to Steve Bilanow or to Michael Hensley.
+     __________________________________________________________________
+
+         |------ Position for which to identify overflights ------|
+         Latitude:  ______ Degrees (+/-40 with positive North)
+        Longitude: _______ Degrees (+/-180 with positive East)
+
+              |----- Start Date -----|  |----- Stop Date -----|
+              Month: [January__]        Month: [January__]
+                Day: [1_]                 Day: [28]
+               Year: [2002]              Year: [2002]
+
+     Search Radius (maximum distance to subsatellite track):    [200]km
+     __________________________________________________________________
+
+                             Search for Orbit(s)

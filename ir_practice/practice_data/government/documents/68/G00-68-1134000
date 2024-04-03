@@ -1,0 +1,202 @@
+http://hn.usatlas.bnl.gov/doc/mysqlc++/
+
+   #next
+
+   next up previous contents
+   Next: Contents   Contents
+
+                                   Mysql++
+                             A C++ API for Mysql
+                                   ver 1.7
+
+                               Kevin Atkinson
+                             <kevinatk@home.com>
+                             Sinisa Milivojevic
+                             <sinisa@mysql.com>
+                              Michael Widenius
+                              <monty@mysql.com>
+     __________________________________________________________________
+
+     * Contents
+     * Introductory Material
+          + 1. Introduction
+               o 1.1 What is Mysql++
+               o 1.2 Getting Mysql++
+               o 1.3 Mysql++ Mailing List
+          + 2. Overview
+               o The Main Database Handle
+               o The Query Object
+               o The Result Sets
+                    # The Dramatic Result Set
+                    # The Static Result Sets
+                    # The Dynamic Fully Mutable Sets
+               o In addition
+          + 3. Important Changes
+               o 3.1 Current Changes
+               o 3.2 Future Changes
+     * Usage
+          + 4. Tutorial by Example
+               o 4.1 Introduction
+               o 4.2 Assumptions
+               o 4.3 Running the Examples
+               o 4.4 The Basics
+                    # 4.4.1 A Simple Example
+                    # 4.4.2 A slightly more complicated example
+                    # 4.4.3 Getting Info about the Fields
+               o 4.5 Specialized SQL Structures
+                    # 4.5.1 Retrieving Data
+                    # 4.5.2 Adding Data
+                    # 4.5.3 Modifying Data
+                    # 4.5.4 Less-Than-Comparable
+               o 4.6 Let us be usefull
+                    # 4.6.1 Loading binary file in a BLOB column
+                    # 4.6.1 Displaying images in HTML from BLOB column
+                    # 4.6.2 Delete or Update from Select
+                    # 4.6.2 And There's More
+               o 4.7 Template Queries
+          + 5. Class Reference
+               o 5.1 BadConversion
+                    # 5.1.1 Synopses
+               o 5.2 BadNullConversion
+                    # 5.2.1 Synopses
+               o 5.3 Connection
+                    # 5.3.1 Synopses
+                    # 5.3.2 storein(TYPE &con, const string &s)
+               o 5.4 Date
+                    # 5.4.1 Synopses
+               o 5.5 DateTime
+                    # 5.5.1 Synopses
+               o 5.6 FieldNames
+                    # 5.6.1 Synopses
+               o 5.7 FieldTypes
+                    # 5.7.1 Synopses
+               o 5.8 Fields
+                    # 5.8.1 Synopses
+               o 5.9 MutableRes
+                    # 5.9.1 Synopses
+                    # 5.9.2 field_names() const
+               o 5.10 MutableRow
+                    # 5.10.1 Synopses
+               o 5.11 MutableRow_base
+                    # 5.11.1 Synopses
+                    # 5.11.2 operator [](const string &i)
+                    # 5.11.3 operator [](const string &i) const
+               o 5.12 Null
+                    # 5.12.1 Synopses
+                    # 5.12.2 Null(const null_type &n)
+               o 5.13 NullisBlank
+                    # 5.13.1 Synopses
+               o 5.14 NullisNull
+                    # 5.14.1 Synopses
+               o 5.15 NullisZero
+                    # 5.15.1 Synopses
+               o 5.16 Query
+                    # 5.16.1 Synopses
+                    # 5.16.2 success()
+                    # 5.16.3 execute(...)
+                    # 5.16.4 store(...)
+                    # 5.16.5 use(...)
+               o 5.17 ResNSel
+                    # 5.17.1 Synopses
+               o 5.18 ResUse
+                    # 5.18.1 Synopses
+               o 5.19 Result
+                    # 5.19.1 Synopses
+                    # 5.19.2 Result(const Result &other)
+               o 5.20 Row
+                    # 5.20.1 Synopses
+                    # 5.20.2 operator [](const char *) const
+                    # 5.20.3 operator [](const string &i) const
+               o 5.21 SQLQuery
+                    # 5.21.1 Synopses
+                    # 5.21.2 str(query_reset r = DONT_RESET)
+                    # 5.21.3 str(const SQLString &parm0, ...,const
+                      SQLString &parm11)
+                    # 5.21.4 str(const SQLQueryParms & p, query_reset r =
+                      DONT_RESET)
+                    # 5.21.5 reset()
+               o 5.22 SQLQueryNEParms
+                    # 5.22.1 Synopses
+               o 5.23 SQLQueryParms
+                    # 5.23.1 Synopses
+                    # 5.23.2 set(ss a, [ss b] ,... , [ss l])
+               o 5.24 SQLString
+                    # 5.24.1 Synopses
+               o 5.25 Set
+                    # 5.25.1 Synopses
+               o 5.26 Time
+                    # 5.26.1 Synopses
+               o 5.27 const_string
+                    # 5.27.1 Synopses
+               o 5.28 const_subscript_container
+                    # 5.28.1 Synopses
+               o 5.29 mysql_ColData
+                    # 5.29.1 Synopses
+                    # 5.29.2 operator TYPE()
+               o 5.30 mysql_type_info
+                    # 5.30.1 Synopses
+                    # 5.30.2 name() const
+                    # 5.30.3 base_type() const
+                    # 5.30.4 id() const
+               o 5.31 subscript_iterator
+                    # 5.31.1 Synopses
+               o 5.32 Misc Non Members
+                    # 5.32.1 mysql_cmp
+                    # 5.32.2 mysql_cmp_cstr
+               o 5.33 Manipulators
+          + 6. Template Queries
+               o 6.1 Setting Them Up
+               o 6.2 Template Format
+               o 6.3 Setting the Parameters
+                    # 6.3.1 At Execution Time
+                    # 6.3.2 Using Defaults
+                    # 6.3.3 Combining the Two
+                    # 6.3.4 Error Handling
+                    # 6.3.5 More Advanced Stuff
+          + 7. Specialized SQL Structures
+               o 7.1 sql_create_basic
+               o 7.2 sql_create_basic with compare
+               o 7.3 sql_create_basic with Additional Constructor
+               o 7.4 sql_create_basic General Format
+               o 7.5 sql_create_basic_c_order
+               o 7.6 sql_create_basic_c_order General Format
+               o 7.7 sql_create
+               o 7.8 sql_create_c_names
+               o 7.9 sql_create_c_names General Format
+               o 7.10 sql_create_c_order
+               o 7.11 sql_create_complete
+               o 7.12 Changing the table name
+               o 7.13 Seeing the actual code
+               o 7.14 Adding functionality
+               o 7.15 Other notes
+          + 8. Long Names
+     * Appendices
+          + A. Changelog
+               o 1.7 (May17 2000) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.6 (Feb 3 2000) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.5 (Dec 1 1999) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.4 (Nov 25 1999) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.3 (Nov 10 1999) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.2 (Oct 15 1999) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.1 (Aug 2 1999) Sinisa Milivojevic <sinisa@mysql.com>
+               o 1.0 (June 9 1999) Michael Widenius
+                 <monty@monty.pp.sci.fi>
+               o .64.1.1a (Sep 27 1998)
+               o .64.1a (Aug 1 1998)
+               o .64.0.1a (July 31 1998)
+               o .64.a (July 24 1998)
+               o .63.1.a
+               o .62.a (May 3 1998)
+               o .61.1.a (April 28 1998)
+               o .61.0.a
+               o .60.3a (April 24 1998)
+          + B. To Do
+          + C. Credits
+          + D. Copyright
+               o D.1 LGPL
+          + E. Feedback
+     * About this document ...
+     __________________________________________________________________
+
+
+    2000-05-16

@@ -1,0 +1,55 @@
+http://cdspecialproj.fnal.gov
+
+   CD Special Projects
+
+   Review Guide
+   Talks
+   CDF Projects
+   D0 Projects
+   MINOS Projects
+   C++ and Design References
+   Jim Kowalkowski
+   Marc Paterno
+
+   The CD/SA Department is involved with both the CDF and DØ experiments.
+   We are involved with various software development efforts, working
+   towards the beginning of data collection for Run II of the Tevatron.
+
+   Our group is part of the Fermilab Computing Division, and consists of
+   two members, Jim Kowalkowski and Marc Paterno.
+
+   At the left is a navigation bar to help you find your way around our
+   web site.
+     * Software Review Guidelines leads to the description of the review
+       process, for the reviews we conduct.
+     * CDF Projects leads to the projects we are involved with that are
+       specific to the CDF experiment. This includes the CDF software
+       reviews we have conducted.
+     * DØ Projects leads to the projects we are involved with that are
+       specific to the DØ experiment. This includes the DØ software
+       reviews we have conducted.
+     * MINOS Projects leads to projects we are involved with that are
+       specific to the MINOS experiment. For now, this includes only the
+       first MINOS software review.
+     * Examples leads to some examples of OOAD or C++ techniques with
+       think will be of interest to the Fermilab community.
+     * Useful Links leads to a page with a links to a few useful online
+       resources concerning C++ programming.
+     * Talks leads to a page with links to online versions of some of the
+       talks we have presented.
+
+   Another group with significant contributions to the Run II projects is
+   the Physics Class Library Task Force (the ZOOM group).
+
+
+                    GodzillaWilsonHall.gif (14876 bytes)
+
+                  Jim and Marc visited by a recent reviewee
+                       artwork courtesy of Norman Graf
+
+             Click here to hear the Big G's response (37 kb WAV)
+
+     __________________________________________________________________
+
+      This page last updated: January 16, 2001 09:13 AM
+      Send comments or questions to Marc Paterno and Jim Kowalkowski

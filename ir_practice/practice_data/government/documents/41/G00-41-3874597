@@ -1,0 +1,41 @@
+http://atlassw1.phy.bnl.gov/examples/servlets/
+
+   Servlet Examples with Code
+
+   This is a collection of examples which demonstrate some of the more
+   frequently used parts of the Servlet API. Familiarity with the Java(tm)
+   Programming Language is assumed.
+
+   These examples will only work when viewed via an http URL. They will
+   not work if you are viewing these pages via a "file://..." URL. Please
+   refer to the README file provide with this Tomcat release regarding how
+   to configure and start the provided web server.
+
+   Wherever you see a form, enter some data and see how the servlet
+   reacts. When playing with the Cookie and Session Examples, jump back to
+   the Headers Example to see exactly what your browser is sending the
+   server.
+
+   To navigate your way through the examples, the following icons will
+   help:
+
+   [execute.gif] Execute the example
+   [code.gif]    Look at the source code for the example
+   [return.gif]  Return to this screen
+
+   Tip: To see the cookie interactions with your browser, try turning on
+   the "notify when setting a cookie" option in your browser preferences.
+   This will let you see when a session is created and give some feedback
+   when looking at the cookie demo.
+
+   Hello World        [execute.gif] Execute [code.gif] Source
+   Request Info       [execute.gif] Execute [code.gif] Source
+   Request Headers    [execute.gif] Execute [code.gif] Source
+   Request Parameters [execute.gif] Execute [code.gif] Source
+   Cookies            [execute.gif] Execute [code.gif] Source
+   Sessions           [execute.gif] Execute [code.gif] Source
+
+   Note: The source code for these examples does not contain all of the
+   source code that is actually in the example, only the important
+   sections of code. Code not important to understand the example has been
+   removed for clarity.

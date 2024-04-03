@@ -1,0 +1,63 @@
+http://mi.waterdata.usgs.gov/nwis/current/?type=gw
+
+   USGS Science for a changing world
+
+     Water Resources
+
+     skip navigation
+
+   Data Category:
+   [Real-time_______]
+
+   Geographic Area:
+   [Michigan_________]
+   GO
+
+Real-Time Data for Michigan: Ground Water -- 4 site(s) found
+
+   PROVISIONAL DATA SUBJECT TO REVISION
+   Updated 2002-01-30 12:57:03 US/Michigan
+   --- Predefined displays ---
+   [Michigan Ground-Water Table__________] Group table by
+   [County___________] Select sites by number or name
+   _________________________    GO
+
+   Station
+   number Station name Date/time Depth
+   below
+   land
+   surface
+   (water
+   level)
+   (feet) Elev-
+   ation
+   above
+   ngvd
+   (feet)
+   [greendot.gif] Cheboygan County
+    454427084424002  39N 03W 29CBCB02 CHEBOYGAN CO (STIMPSON RD S)   01/30
+                                                           12:30  2.59  --
+   [greendot.gif] Monroe County
+        415206083414401  07S 06E 15ACAA01 MONROE CO (PETERSBURG D)   01/30
+                                                          12:15  51.77  --
+   [greendot.gif] Saginaw County
+   431457084194401  10N 01E 22DADA01 SAGINAW CO (MARION SPRINGS 1)   01/30
+                                                           12:30  9.87  --
+     432206084194801  11N 01E 11CBBB01 SAGINAW CO (LDS OW 1)   01/30 12:30
+                                                                  6.92  --
+     __________________________________________________________________
+
+   Questions about data     gs-w-mi_NWISWeb_Data_Inquiries@usgs.gov   Return to
+                                                                    top of page
+   Feedback on this website gs-w-mi_NWISWeb_Maintainer@usgs.gov
+
+
+    Real-Time Data for Michigan
+    http://mi.water.usgs.gov/nwis/current?
+    PARAmeter_cd=STATION_NM,DATETIME,72019,72020
+    Retrieved on 2002-01-30 13:00:52 EST
+    Department of the Interior, U.S. Geological Survey
+    USGS Water Resources of Michigan
+    Privacy Statement || Disclaimer || Accessibility
+
+   1.97   1.96

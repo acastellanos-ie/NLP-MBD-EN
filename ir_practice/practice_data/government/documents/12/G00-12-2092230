@@ -1,0 +1,710 @@
+http://nmp-techval-reports.jpl.nasa.gov/DS1/MFS_Integrated_Report.pdf
+
+   Multifunctional Structures Technology Demonstration on New Millennium
+   Program (NMP) Deep Space 1 (DS1) DS1 Technology Validation Report David
+   M. Barnett Dr. Suraj P. Rawal L O C K H E E D M A R T I N Astronautics
+   Division Denver, CO Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   Table of Contents Section Page
+   Acronyms...............................................................
+   .......................................................................
+   ...........................iv Abstract
+   .......................................................................
+   .......................................................................
+   .......................v Fact Sheet
+   .......................................................................
+   .......................................................................
+   .................vii 1.0
+   Introduction...........................................................
+   .......................................................................
+   ......................1 2.0 Technology Description
+   .......................................................................
+   ............................................................1 2.1 MFS
+   Functionality and DS1
+   Demonstration..........................................................
+   ...........................................................1 2.2 Key
+   Technology-Validation Objectives at Launch
+   .......................................................................
+   ....................................1 2.3 Expected Performance Envelope
+   .......................................................................
+   ...............................................................2 2.4
+   Detailed Description
+   .......................................................................
+   .......................................................................
+   ...........2 2.4.1 Interconnect Systems
+   .......................................................................
+   .......................................................................
+   ...3 2.4.2 Multi-chip Module Interface Characteristics
+   .......................................................................
+   ......................................3 2.4.3 MFS Flight Experiment and
+   Data-Collection Descriptions
+   .......................................................................
+   ................3 2.4.4 Circuit
+   Description............................................................
+   .......................................................................
+   ..................4 2.4.5 Data Collection
+   .......................................................................
+   .......................................................................
+   ............4 2.5 Technology
+   Interdependencies......................................................
+   .......................................................................
+   .............4 2.6 Test
+   Program................................................................
+   .......................................................................
+   ..............................4 2.6.1 Ground
+   Test...................................................................
+   .......................................................................
+   ......................4 2.6.2 Flight Test
+   .......................................................................
+   .......................................................................
+   ....................6 2.7 Comparison between Ground Test and Flight
+   Test...................................................................
+   ........................................6 3.0 Technology-Validation
+   Summary
+   .......................................................................
+   .............................................7 4.0 Technology
+   Application for Future Missions
+   .......................................................................
+   ..........................7 5.0
+   Acknowledgments........................................................
+   .......................................................................
+   ..............7 6.0 List of References
+   .......................................................................
+   ......................................................................8
+   Figures Figure Page Figure 1. Exploded Assembly View of a
+   Multi-Functional Structure Panel Incorporating Structure, Thermal and
+   Electrical
+   Elements...............................................................
+   .......................................................................
+   ..................2 Figure 2. Multi-Functional Structures Experiment
+   Installed on a NMP DS1 Flight Panel
+   ..........................................................3 Figure 3.
+   Block Diagram of the MFS Experiment Electronics on the NMP DS1 Flight
+   .............................................................4 Figure
+   4. Vibration Levels Used in the Testing of the NMP DS1 MFS Engineering
+   Development Unit....................................5 Tables Table Page
+   Table 1. Description of the Continuity-Measurement Collection-System
+   Output.................................................................
+   ......5 Table 2. Flight-Continuity Measurement Data
+   .......................................................................
+   .....................................................6 Table 3.
+   Flight-Temperature Measurement Data (all in °C)
+   .......................................................................
+   .................................7 Appendices Appendix Page Appendix A.
+   DS1 Technology Validation Telemetry Channels
+   .......................................................................
+   ....9 Appendix B. DS1 Technology Validation Power On Times
+   .......................................................................
+   ........10 iii Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   Acronyms AFRL AirForce Research Laboratory BMDO Ballistic Missile
+   Defense Office C&DH Command and Data Handling Cu/PI Copper/Polyimide
+   DARPA Defense Advanced Research Project Agency DOD Department of
+   Defense DS1 Deep Space 1 EDU Engineering Development Unit EMI/EMC
+   Electromagnetic Interference/Electromagnetic Compatibility GFE
+   Government Furnished Equipment HDI High-Density Interconnect HiLowPDM
+   High-side/Low-side Power Distribution Module IC Integrated Circuit I/O
+   Input/Output I&T Integration and Test LMA Lockheed Martin Astronautics
+   LSB Least Significant Bit LTCC Low-Temperature Co-fired Ceramic MCM
+   Multi-chip Modules MFS Multifunctional Structures NMP New Millennium
+   Program PL Phillips Laboratory PWB Printed Wiring Board SIES Spacecraft
+   Integrated Electronics Systems iv Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   ABSTRACT jumpers serve as electrical interconnects for power
+   distribution and data transmission. The thermal management devices The
+   future microspacecraft vision will only be realized embedded in the MFS
+   may include miniature heat pipes and through revolutionary changes in
+   current spacecraft various types of high-conductivity thermal doublers
+   and architecture coupled with the development of new straps.
+   technologies. This paradigm shift will bring a dramatic cultural change
+   that can only be implemented using a In an Air Force Research
+   Laboratory/Philips Laboratory truly concurrent-engineering approach
+   that incorporates (AFRL/PL), Ballistic Missile Defense Office (BMDO)
+   and advances in structural, thermal, microelectronics, micro- Defense
+   Advanced Research Project Agency (DARPA)- instruments, sensor, power,
+   and propulsion systems. sponsored program, LMA has successfully
+   developed and demonstrated the design, integration, assembly, and
+   functional Addressing technology needs of future microspacecraft,
+   performance of the MFS technology and its elements. Lockheed Martin
+   Astronautics (LMA) has developed an innovative multifunctional
+   structures (MFS) design that is LMA has successfully integrated an MFS
+   experiment on the a new approach to electronics packaging,
+   interconnection, NASA New Millennium Program (NMP) Deep Space 1 (DS1)
+   and data and power distribution. MFS integrates these spacecraft and
+   validated key technology features of MFS functions with
+   bearing-mechanical loads and provides design. thermal control.
+   Technology and integration risks associated with the MFS- In
+   particular, the MFS concept involves embedding packaging system
+   include: passive-electronic components within the actual volume * The
+   electrical performance of the flex circuit, including the of composite
+   materials, new approaches to attaching anisotropic electrical
+   interconnects to the flex-circuit active-electronic components directly
+   to mechanical jumpers. surfaces, and using surface areas for mounting
+   sensors and transducers. * The use of socketed MCMs in a flight
+   environment. * Connections between the flex circuitry and heritage The
+   ultimate goal for MFS technology is to maximize the connectors. ratio
+   of the volume of the fundamental electronic parts to * Integration and
+   test, rework, and repair issues associated the total packaging volume.
+   Multi-functional structure with the direct installation of electronics
+   on spacecraft technology is a revolutionary design approach that will
+   structure without a chassis. provide nearly an order-of-magnitude
+   reduction in future spacecraft mass and volume. Significant cost
+   savings are The validation objectives include the successful
+   demonstration also expected through eliminating touch labor, reuse of
+   of the MFS technology elements (integrating flex flex-circuitry designs
+   for multiple-spacecraft missions, interconnect, circuit patches, flex
+   jumpers, thermal doublers, and launch-cost reductions through reduced
+   payload size. rad-hard composite spot shield, and structural
+   substrate). In MFS is an enabling technology for future microspacecraft
+   the electrical circuit performance area, conductivity missions
+   envisioned by the Department of Defense measurements were taken during
+   each experiment cycle to (DOD) and NASA. independently verify the
+   nominal-trace conductivity, the performance of the anisotropic bonds in
+   a jumper configured The MFS design approach uniquely combines the for
+   multiple serpentined connections, and a set of daisy- advances in the
+   area of electronics (e.g., 2-D/3-D multi- chained connections to the
+   thermal-simulator MCM through a chip modules [MCM]) and flex-circuit
+   interconnects), socketed-lead system. A set of temperature measurements
+   advanced composites (for structures), and thermal were collected to
+   evaluate the thermal performance of the management. MFS eliminates the
+   bulky components panel underneath the thermal-simulator MCM by using an
+   (chassis, cables, and connectors) of current spacecraft and array of
+   sensors mounted on a flex-circuit tether. Finally, enables the
+   integration of electronic subsystems, such as routine health- and
+   status-data were collected to verify proper the data-transmission and
+   power-distribution networks, controller operation during the data
+   collection. command and data handling (C&DH) subsystem, thermal
+   management, and load handling. Given the novel nature of the MFS
+   design, extensive development testing was performed prior to any DS1
+   design The baseline MFS design consists of a structural- effort. This
+   testing included vibe, thermal, x-ray, and electrical composite panel
+   that has multi-layer copper/polyimide performance of a variety of test
+   panels with different (Cu/PI) patches bonded to one side,
+   heat-transferring configurations of hardware. The technology was fairly
+   well devices embedded, and an outer surface acting as a documented
+   leading into the DS1 experiment design. The DS1 radiator. Electrical
+   interconnects are designed in the Cu/PI components were tested both
+   individually and as a system. layers, circuitry is implemented in MCMs,
+   and flex The controller board for the flight experiment was tested for
+   v Deep Space 1 Technology Validation Report-Multifunctional Structures
+   Technology Demonstration on NMP DS1 workmanship and the completed panel
+   was tested with the * Takes full advantage of MCM devices without
+   adding full-up spacecraft assembly. packaging mass due to printed
+   wiring board (PWB) mounting. During the DS1 mission, the MFS experiment
+   was powered up once every two weeks and two experiment * Frees up
+   spacecraft design from traditional form factors. cycles were carried
+   out to ensure that a full set of data was * Flex circuitry is an
+   enabling technology for wiring density collected. The experiment
+   sequence provided a data set in microspacecraft. containing health and
+   status information, the electrical- * The technology will readily
+   support mass production of conductivity test data, and last (following
+   a warming time spacecraft for constellations. period of the panel)
+   thermal-gradient measurements. The * The techniques easily transfer to
+   inflatable structures. experiment was an unqualified success based on
+   the data returned. All health and status data was correct and within
+   Overall, the NMP-DS1-MFS experiment has been very normal limits. The
+   electrical-conductivity data never successful in demonstrating the
+   majority of key features and varied by more than one Least Significant
+   Bit (LSB) from showing that there are no major roadblocks. Even a minor
+   the preflight data set. The thermal-gradient data was rework was
+   performed smoothly with the panel in place on the appropriate for the
+   position of the sensors versus the heat spacecraft bus. The MFS
+   experiment was integrated quite source in the MCM. easily on the
+   spacecraft-bus panel and was the first technology experiment to be
+   delivered to DS1. MFS technology is eminently suited to use in many
+   missions for the following reasons: Based on the successful
+   technology-validation experiment, the * Offers significant mass (>50%)
+   and volume (>2×) MFS technology should be considered fairly mature.
+   savings over traditional packaging systems. vi Deep Space 1 Technology
+   Validation Report-Multifunctional Structures Technology Demonstration
+   on NMP DS1 FACT SHEET MULTIFUNCTIONAL STRUCTURES Strategic Vision
+   Establish modular multifunctional structures (MFS) technology,
+   integrating electronic, thermal, and structural functions for
+   Next-Generation, Cable -Free Spacecraft SATELLITE MANUFACTURING TODAY:
+   * 1000s of heavy individual cables * Costly * Complex * Bulky
+   electronic enclosures * Wasted space SATELLITE MANUFACTURING TOMORROW:
+   * Eliminate cables and connectors * >10× reduction in mass and volume *
+   > 2× reduction in cost * Enabling technology for satellites, launch
+   vehicles, and missiles * Revolutionary modular design MFS Concept
+   Description Multifunctional Structure Panel with * Flex
+   copper/polyimide circuit patch and interconnects Integral Electronic,
+   Structural, and Thermal Control Formed Cover  for power and data
+   distribution Shielding and Protection * Flex material directly bonded
+   to thermal-structural composite panel Multichip Modules Copper
+   Polyimide Jumpers: * Applicable to intersubsystem cabling
+   Patch-to-Patch * Revolutionary modular design Copper Polyimide Jumper
+   to Next Panel Copper Polyimide Circuitry with Multichip Module Sockets
+   and Surface Mount Parts Who Needs It? Contact: * All LEO platforms and
+   GEO satellites David Barnett (303-971-8061) or Dr. Suraj Rawal *
+   High-density instruments, sensors, and microassemblies (303-971-9378)
+   Lockheed Martin Astronautics Denver, CO 80201 * Nearly all rigid and
+   inflatable structures Dr. Alok Das (505-846-8250) Air Force Research
+   Lab, Kirtland Air Force Base, NM L O C K H E E D M A R T I N vii Deep
+   Space 1 Technology Validation Report-Multifunctional Structures
+   Technology Demonstration on NMP DS1 Multifunctional Structures (MFS)
+   Technology Demonstration on New Millennium Program (NMP) Deep Space 1
+   (DS1) DS1 Technology Validation Report David M. Barnett and Dr. Suraj
+   P. Rawal Lockhhed Martin, Astronautics Division, Denver, Colorado 1.0
+   INTRODUCTION multiple configurations, and a temperature-gradient
+   measurement following a 30-minute panel-heating The MFS technology is a
+   revolutionary development in operation. The data set was collected
+   twice in succession to spacecraft packaging that eliminates chassis and
+   cabling by increase the odds of obtaining full data sets. This was in
+   lieu integrating the electronics, thermal control, and structure of
+   having any spacecraft data checking to look for dropouts. into a single
+   element. A new system such as this carries the burden of proving itself
+   before it can be considered as a The high-level goals for the
+   experiment included successful viable design option for flight usage.
+   During the early installation, proper operation of the circuitry over
+   the life of development of the MFS concept, extensive environmental the
+   mission, good thermal performance of the thermal- and electrical
+   testing was performed to demonstrate the simulator multi-chip module
+   (MCM) mounting system, and robustness of this system. The next step was
+   a flight minimal problems dealing with the unique features of the
+   demonstration; this was accomplished on the NMP DS1 packaging.
+   spacecraft. 2.2 Key Technology-Validation Objectives at Launch The
+   following sections describe the MFS system, the The primary validation
+   objectives included: validation objectives, potential risks and risk
+   amelioration, * Demonstrate proper electrical performance for the flex-
+   the testing program and results, and the future use of MFS circuitry
+   conductors. in spacecraft design. As a new system, it may take a little
+   * Monitor the anisotropic flex-to-flex sample bonds for while for the
+   design concept to "sink in"; however, the any sign of degradation.
+   ramifications of this technology for future designs at all levels, but
+   especially in microspacecraft, will be apparent in * Verify the
+   stability of MCM electrical connections made the description below.
+   using a separable connector attached to the device leads. * Collect
+   thermal-gradient data that demonstrates proper 2.0 TECHNOLOGY
+   DESCRIPTION heat removal from the thermal-simulator MCM. 2.1 MFS
+   Functionality and DS1 Demonstration Given the novel nature of this
+   technology, a variety of The multifunctional structure technology is a
+   new method intrinsic objectives were also indicated as follows: for
+   constructing spacecraft. An MFS demonstration was * Demonstrate a
+   concurrent engineering effort on the proposed for the DS1 spacecraft to
+   incorporate the key experiment layout and design. design features.
+   Eventually, it is envisioned that entire * Demonstrate successful
+   installation of the hardware on spacecraft will be fabricated using the
+   MFS system; the DS1 another subcontractor's flight panel. mission
+   provided a starting point. The experiment was * Show that rework/repair
+   operations are straight forward designed to demonstrate several
+   features of the technology, even if performed with the panel on the
+   bus. including design methods, integration and test (I&T) impacts,
+   functional routing of signals and power, use of flex * Verify the
+   flightworthiness of a new MCM socket that circuitry in novel ways, and
+   the elimination of chassis and permits rapid removal and replacement of
+   MCMs. cabling. * Demonstrate an instrumentation tether by collecting
+   data from the opposite side of the panel using a flex-circuit The
+   experiment was designed with a spacecraft-interface element with a
+   linear array of temperature sensors. card to support data gathering,
+   formatting, and transmittal to * Demonstrate a cover that provides
+   mechanical protec- the main spacecraft computer. The interface card
+   followed tion, EMI/EMC shielding, and radiation shielding. an
+   experiment sequence in collecting health and status data * Demonstrate
+   the use of filled-composite materials for (voltages, check sums,
+   initial temperatures, and a subset of localized radiation shielding of
+   the printed-wiring board electrical conductivity measurements), a full
+   set of (PWB). conductivity data on a variety of circuit conductors in 1
+   Deep Space 1 Technology Validation Report-Multifunctional Structures
+   Technology Demonstration on NMP DS1 2.3 Expected Performance Envelope
+   control elements forms the basis for the MFS. For typical- The
+   conductivity measurements of the flex circuitry and spacecraft
+   construction, clips will be used on the edge of the MCM socket system
+   follow standard analytical techniques panel for mechanical attachment
+   to adjacent panels. Flex- for resistance in copper conductors. The
+   criteria for the circuit patches are then installed on the panel using
+   returned flight measurements primarily centers on the adhesive. These
+   circuit patches provide local interconnects repeatability from
+   ground-to-flight measurements within a and can accommodate
+   surface-mount devices. MCM sockets specified tolerance: i.e., the
+   launch and flight environment developed in this effort are also
+   installed at this time. Flex- do not cause any degradation that would
+   either increase the circuit jumpers are added for patch-to-patch and
+   panel-to- resistance or result in a completely open circuit. The panel
+   interconnection and are connected using an in-place allowable tolerance
+   was 20% from ground to flight. A bonding system. These jumpers provide
+   signal paths and variety of circuit-trace and socket configurations
+   were shielding as required. In the MFS system, it should be noted
+   created to permit testing of traces, anisotropic bonds, and that
+   traditional chassis, mother boards, cabling, and the MCM socket
+   interconnects. Each configuration connectors have all been replaced
+   with the flex-interconnect permitted independently testing for a single
+   type of system. The PWB electronics are reduced to MCMs. interface,
+   thereby avoiding contamination between different interconnect systems.
+   Formed Cover Shielding and Protection The thermal-gradient part of the
+   experiment measured the temperature distribution over a small area of
+   the spacecraft MCMs panel before and after a 30-minute heating cycle.
+   The Copper Polyimide predicted-maximum rise for safety purposes was
+   Jumpers: Patch- approximately 5º C regardless of total heating time.
+   The Copper to-Patch Polyimide heat source was a thick-film resistor
+   screen printed in the Jumper to Copper Polyimide thermal-simulator MCM
+   package. The resistor footprint was Next Panel Circuitry with MCM sized
+   to simulate the dissipation from an integrated circuit. Sockets and
+   Surface Mount Parts The expected performance of the thermal-bonding
+   system from the MCM to the panel was to produce a maximum rise
+   Spacecraft Structural Panel with Integral Thermal Control of about 5º C
+   directly under the MCM "hot spot" with an Figure 1. Exploded Assembly
+   View of a Multi- appropriate falling off over near distance from the
+   hot spot. functional Structure Panel Incorporating Structure, Thermal
+   and Electrical Elements Secondary performance expectations included no
+   significant degradation in the performance of the spacecraft-interface
+   The next step is the installation of leaded MCMs into the electronics,
+   no loss of measurements or measurement data, sockets with a clamping
+   assembly to secure the part and the and successful power-up and
+   communication sequences leads. The clamp also ensures that adequate
+   thermal circuit with the spacecraft interface. Also, the survival of
+   the would normally have functional testing. Test jumpers can be
+   packaging system through the launch phase was obviously a added for
+   testing and then removed or stowed. Finally, a strict criterion given
+   the focus of multifunctional structures. cover is installed that can
+   provide the following protection: physical protection during assembly,
+   electromagnetic 2.4 Detailed Description
+   interference/electromagnetic-compatibility (EMI / EMC) Driven by a
+   spacecraft requirement on a flight program to shielding, and radiation
+   shielding. The entire MFS system is incorporate a reworkable MCM stack
+   processor on a designed to readily support repair/rework with a
+   composite panel, the Spacecraft Integrated Electronics fundamental
+   requirement that in all cases the MCMs shall Systems (SIES) program was
+   funded by Air Force Research be easily removed for reuse with no risk
+   of damage. Laboratory (AFRL)/Phillips Laboratory (PL) to develop
+   methods for efficiently incorporating MCMs into spacecraft The SIES
+   contract provided for several demonstrations, without losing the
+   volumetric and mass advantages. The including a flight demonstration on
+   NASA's NMP DS1 MFS efforts have produced a system that incorporates
+   mission. This provided an ideal opportunity to validate the structure,
+   thermal control, and electronics into a single technology in terms of
+   produceability and long-term flight packaging system while permitting
+   efficient rework and test. worthiness during a multi-year mission. An
+   experiment was Chassis, PWBs, connectors, and cabling have all been
+   designed to apply and test the following features of the MFS eliminated
+   in this system. system: Circuit patches, in-place jumpers, socketed
+   MCM, soldered MCM, flex tether with embedded sensors, and flex The MFS
+   assembly concept is shown in Figure 1. A interfaces to traditional
+   connectors. The MFS DS1 composite panel with embedded or laminated
+   thermal- experiment is shown in Figure 2. 2 Deep Space 1 Technology
+   Validation Report-Multifunctional Structures Technology Demonstration
+   on NMP DS1 connector left is a prototype MCM socket that has been
+   qualified in extreme vibration environments and is being demonstrated
+   on NMP DS1. The MCM leads are clamped into the connector; the MCM
+   package is then clamped to the panel. This approach supports the easy
+   removal and reinstallation of MCMs during re-work and minimizes the
+   loss of expensive parts. 2.4.2 Multi-chip Module Interface
+   Characteristics Primary interface considerations for the use of MCMs
+   with MFS are the electrical interconnects and the thermal interface.
+   These are linked in various MCM packages because some lead styles are
+   in the normal-thermal path through the base of the package. Electrical
+   interconnects fall into four categories: leaded packages, pin grids,
+   ball grids Figure 2. Multifunctional Structures Experiment (and column
+   grids), and flex-circuit extensions. The best Installed on a NMP DS1
+   Flight Panel. The PWB performance is obtained from the leaded and
+   flex-extension carries the spacecraft interface circuitry and con-
+   packages since they can have the base of the package in tains the
+   controller for managing the experiment. good thermal contact with the
+   panel when mounted. The package can either be directly in contact with
+   the panel The MCMs used in the experiment require close attention to
+   facesheet or additional heat spreaders/doublers can be used detail in
+   terms of electrical interconnections, thermal and for higher
+   dissipation levels. Ball-grid-array attachment structural interfaces,
+   and compatibility with the remainder presents greater challenges in
+   thermal-dissipation of the MFS concepts. The remainder of the paper
+   will management. discuss these aspects of MCM usage in the system in
+   greater detail and outline the development, limitations, and In the DS1
+   experiment, two MCMs are used. One MCM is a hardware testing.
+   high-density interconnect (HDI) type of device; the other unit is
+   fabricated in low-temperature, co-fired ceramic 2.4.1 Interconnect
+   Systems-In their most basic form, inter- (LTCC). The HDI device is
+   fabricated using integrated connects provide an insulated electrical
+   path from a source circuit (IC) dice mounted in a ceramic carrier, with
+   the local circuit to a destination. Enhancements include shielding and
+   interconnects made using multiple layers of flex circuit that
+   connectors or, in the case of local circuitry, circuit traces, is
+   repeatedly laser drilled to the IC die-bonding pads, and electrical
+   joints, such as solder. metallized, and then etched to leave traces.
+   External connections can be made with a flex interposer or Flexible
+   circuitry was selected for the MFS concept for a conventional lead
+   frames (used in the DS1 part). The HDI variety of reasons: device
+   functions as a high-side/low-side switching power- * Replaces both PWBs
+   and cabling. distribution module (HiLoPDM). * Local electrical-bonding
+   systems can eliminate all connectors. The LTCC device has a number of
+   thick-film resistors of * Lightweight/low volume. different geometries
+   simulating the dissipation from different IC dice. The interconnects
+   are formed with a * Standard product. conventional lead frame whose
+   pitch matches the MCM * Conductors can be sized/added to meet
+   voltage-drop, socket strips. The HiLoPDM device is soldered in using
+   shielding, and isolation requirements. conventional methods. Both of
+   these devices are shown in Figure 2 (although the LTCC device is
+   concealed under a It is very desirable to eliminate connectors for
+   several clamping plate). reasons. They are bulky compared to the
+   conductors and add significant weight. They are usually labor intensive
+   between 2.4.3 MFS Flight Experiment and DataCollection assembly,
+   calibration of assembly tools, inspections, and Descriptions The MFS
+   experiment on NMP DS1 is the test. They can be the source of many
+   additional failure first flight demonstration of the MFS technology.
+   The modes. experiment met several guidelines, including: not flight
+   critical, minimal data set collected once per two-week cycle, In a pure
+   implementation of the MFS design, all connectors basic RS232 interface,
+   basic command protocol, low power, are eliminated. In situ flex-to-flex
+   bonding is performed to and no failure modes that could either cause
+   excessive link circuit patches and flex cabling. The only routine
+   thermal dissipation or cause electrical-bus faults. The electronics
+   block diagram is shown in Figure 3. 3 Deep Space 1 Technology
+   Validation Report-Multifunctional Structures Technology Demonstration
+   on NMP DS1 S/C Interface Conn. 2.4.5 Data Collection Data collection is
+   initiated by the Test +28VDC Input Points spacecraft through the
+   following sequence: Power on, +5 command #1 to MFS, response with
+   health-and-status ctor Power Filtering/ ±15 On Back information
+   including software version and checksums, ne Conditioning of Panel RTN
+   on Thermal command #2 to MFS, response with conductance measure- st C
+   Simulator MCM T T T T ments and 30-minute heating cycle when the
+   thermal Te simulator MCM is started, pause approximately 30 minutes,
+   Serial I/O n Misc. command #3 to MFS, response with thermal-gradient
+   data, Sensors Microcontroller Serial T Test power is turned off. This
+   cycle is repeated twice in Temp Points Sensor succession to ensure a
+   complete data set. The sequence will +5 I/O HiLoPDM MCM be repeated
+   every two weeks during the mission until the Contin- (MOSFET Switching)
+   uity link efficiency starts to fall off; thereafter, the sequence will
+   Watchdog n Loop Timer Control Msmt. be repeated at larger time
+   intervals. Figure 3. Block Diagram of the MFS Experiment 2.5 Technology
+   Interdependencies Electronics on the NMP DS1 Flight. The basic There
+   are no interdependencies between MFS and other experiment verifies the
+   electrical performance spacecraft subsystems. of the various
+   interconnect systems used in MFS and demonstrates distributed sensors
+   measuring 2.6 Test Program an induced-thermal gradient in the panel.
+   2.6.1 Ground Test- 2.4.4 Circuit Description A microcontroller PWB was
+   2.6.1.1 Development and Protoflight Testing Thermal and provided for
+   the spacecraft and test interfaces. The interface vibration testing was
+   performed during the MFS board provides the Input/Output (I/O) for the
+   experiment development efforts to verify performance and electrical
+   operations, including conductivity measurements of flex- integrity. The
+   MCM socket was felt to be especially critical circuit traces and
+   MCMsocket contacts, control of the to the value of the MFS system and
+   was therefore subjected HiLoPDM power switch for the thermal-gradient
+   to extreme levels of vibration while being monitored by experiment, and
+   the temperature sensors that measure the "chatter" detectors for
+   intermittents on the connections. gradient. Basically, the MCMs and
+   socket assembly satisfied the typical vibration environment.
+   Subsequently, the vibration The conductivity measurements cover the
+   following: copper levels were increased to test to failure. While the
+   imposed "control" traces for nominal conductor performance, traces
+   vibration levels generated localized delamination in the through the
+   flex jumpers, which includes the anisotropic panel, the MCM's socketing
+   approach was robust, with no bonds at each end, and the socket
+   contacts, which are daisy indication of degradation. chained in and out
+   of the thermal-simulator MCM contacts. The original design only
+   included an open/connected The NMP DS1 engineering development unit
+   (EDU) panel determination; however, this was modified to a regular was
+   subjected to much lower levels since there was a PWB measurement with a
+   high and low range to determine if the mounted on standoffs with
+   potential resonances. During the conductors are degrading. The three
+   types of conductors design phase, the board was analyzed against the
+   flight have been designed to keep the types of connections requirements
+   and the design was adjusted to ensure survival. independent: i.e.,
+   there are no anisotropic bonds in the Figure 4 is a graph of the
+   flight-environment envelope for MCM socket-pin path, etc. This avoids
+   confusion in data the protoflight vibration testing. The panel did not
+   have any interpretation if there is a systematic failure in one type of
+   failures. interconnect. Thermal testing was performed during the
+   development In the diagram, a series of temperature sensors are shown
+   phases of the MFS designs. The primary goal was to passing beneath the
+   thermal-simulator MCM. There are 12 determine if there were anticipated
+   MCM-dissipation levels sensors in a 4 × 3 array on the back of the
+   panel under the that exceeded the capability of a well-designed
+   composite footprint of the MCM. These devices use a three-wire panel
+   with associated thermal controls. The conclusion was interface with
+   serial communications and unique addressing. that there is probably not
+   a heat load for which design They are mounted on a serpentine-flex
+   circuit that passes techniques cannot keep the baseplate temperature
+   within the from the front of the panel to the rear and is then attached
+   limits necessary to meet junction-temperature requirements. with film
+   adhesive. Several sensors are also used for other The ultimate
+   limitation is the capability of the spacecraft to measurements on the
+   front of the panel, including the PWB. dissipate the total heat load. 4
+   Deep Space 1 Technology Validation Report-Multifunctional Structures
+   Technology Demonstration on NMP DS1 10 1 Table 1. It should be noted
+   that digitized measurements have a built-in error of ±1/2 LSB;
+   therefore, there are cases z) in the flight data where a change in one
+   LSB will be seen /H2 10 0 between different samples. In addition, every
+   measurement (GD was taken on both a unity-gain scale and a ×10 scale.
+   Given S the low values of the resistances measured, the ×10 scale is n
+   P 10 -1 io more representative of the measurements. The continuity ater
+   measurement is non-linear due to the electronics; therefore, the
+   corresponding resistance ranges are also listed for ccel 10 -2 A
+   reference. There are three types of continuity measurement:
+   flex-circuit trace only, anisotropic bond, and MCM socket. These are
+   also distinguished below. Layout variations on the 10 -3 10 2 10 3
+   flex-circuit patch are responsible for the variations in similar
+   Frequency (Hz) measurements. Figure 4. Vibration Levels Used in the
+   Testing of the NMP DS1 MFS Engineering Development Unit. The
+   temperature sensors were commercial devices that are designed for a
+   resolution of 0.01° C. The devices were 2.6.1.2 Continuity and Thermal
+   Gradient Measurements attached to the flex-circuit tether and placed in
+   a The continuity measurements were the primary temperature chamber to
+   obtain linearity curves. The part-to- measurements for meeting the MFS
+   demonstration goals. part variation was on the order of ±0.2° C. The
+   original During ground tests, measurements were taken and were intent
+   was to fabricate the panel in house. However, the found to comply with
+   the analytical predictions listed in panel ended up being Government
+   Furnished Equipment Table 1. Description of the Continuity-Measurement
+   Collection-System Output BYTE NAME DESCRIPTION VALUE (DEC) NOTES 1
+   LOOPCAL1 CALIBRATION MSMT 17+/-3 Rcal = 49.9 OHM 2 LOOP1 GAIN = 1
+   RESISTANCE MSMT 0+3-0 FLEX TEST 3 LOOP2 GAIN = 1 RESISTANCE MSMT 0+3-0
+   JUMPER/BONDING 4 LOOP3 GAIN = 1 RESISTANCE MSMT 0+3-0 JUMPER/BONDING 5
+   LOOP4 GAIN = 1 RESISTANCE MSMT 0+3-0 JUMPER/BONDING 6 LOOP5 GAIN = 1
+   RESISTANCE MSMT 0+3-0 JUMPER/BONDING 7 LOOP6 GAIN = 1 RESISTANCE MSMT
+   0+3-0 JUMPER/BONDING 8 LOOP7 GAIN = 1 RESISTANCE MSMT 0+3-0 MCM SOCKET
+   9 LOOP8 GAIN = 1 RESISTANCE MSMT 0+3-0 MCM SOCKET 10 LOOP9 GAIN = 1
+   RESISTANCE MSMT 1+3-1 MCM SOCKET 11 LOOP10 GAIN = 1 RESISTANCE MSMT
+   1+3-1 MCM SOCKET 12 LOOP11 GAIN = 1 RESISTANCE MSMT 1+3-1 MCM SOCKET 13
+   LOOP12 GAIN = 1 RESISTANCE MSMT 1+3-1 MCM SOCKET 14 LOOP13 GAIN = 1
+   RESISTANCE MSMT 0+3-0 FLEX TEST 15 LOOP14 GAIN = 1 RESISTANCE MSMT
+   0+3-0 FLEX TEST 16 LOOPCAL2 NOT USED 0 17 LOOPCAL1 NOT USED 0 18 VER1
+   GAIN = 10 RESISTANCE MSMT 2+/-2 FLEX TEST 19 VER2 GAIN = 10 RESISTANCE
+   MSMT 3+/-2 JUMPER/BONDING 20 VER3 GAIN = 10 RESISTANCE MSMT 3+/-2
+   JUMPER/BONDING 21 VER4 GAIN = 10 RESISTANCE MSMT 3+/-2 JUMPER/BONDING
+   22 VER5 GAIN = 10 RESISTANCE MSMT 4+/-2 JUMPER/BONDING 23 VER6 GAIN =
+   10 RESISTANCE MSMT 4+/-2 JUMPER/BONDING 24 VER7 GAIN = 10 RESISTANCE
+   MSMT 4+/-2 MCM SOCKET 25 VER8 GAIN = 10 RESISTANCE MSMT 4+/-2 MCM
+   SOCKET 26 VER9 GAIN = 10 RESISTANCE MSMT 6+/-2 MCM SOCKET 27 VER10 GAIN
+   = 10 RESISTANCE MSMT 6+/-2 MCM SOCKET 28 VER11 GAIN = 10 RESISTANCE
+   MSMT 7+/-2 MCM SOCKET 29 VER12 GAIN = 10 RESISTANCE MSMT 9+/-2 MCM
+   SOCKET 30 VER13 GAIN = 10 RESISTANCE MSMT 3+/-2 FLEX TEST 31 VER14 GAIN
+   = 10 RESISTANCE MSMT 3+/-2 FLEX TEST 32 LOOPCAL2 GAIN = 10 RESISTANCE
+   MSMT 169+/-5 Rcal = 49.9 OHM 5 Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   (GFE); this impacted the analytical accuracy of the thermal- heating
+   set of measurements as described earlier. The larger gradient
+   predictions. The normal experiment sequence for temperature variations
+   in the post-heating data sets reflect the thermal gradient was as
+   follows: collect a subset of five the effect of having a concentrated
+   heat source placed in the temperatures during initialization, energize
+   the resistance middle of a field of temperature sensors with varying
+   heater in the thermal simulator MCM for 30 minutes, collect horizontal
+   distances from the heating source on the reverse all temperature
+   measurements, power down the experiment side of the panel. for several
+   minutes, power up the experiment, and repeat the data-collection
+   sequence. The flight data clearly reflects the 2.7 Comparison Between
+   Ground Test and Flight Test soak temperature, the first rise, the cool
+   down, and the First, it should be noted that the health and status data
+   second heat rise. The data also supported the analytical collected in
+   each measurement cycle was within normal prediction that the maximum
+   heat rise under any condition limits, with power-supply outputs always
+   coming in within including faults was <10° C. tolerance and the check
+   sum for the first data set being correct. The conductivity flight data
+   in Table 1 is 2.6.2 Flight Test-Flight data collected during two
+   representative of all further data sets collected. The data did
+   experiment sequences on 26 February 1999 are shown in not vary by more
+   than one least significant bit (LSB); this Table 2. Data was similarly
+   collected approximately every would be a good indication of the
+   stability of the two weeks from February through September and the
+   results interconnect system used in MFS for this flight. never varied
+   by more than one LSB. The thermal data was well within normal limits
+   and varied Thermal-gradient temperature measurements are shown
+   appropriately in such a fashion to show all temperature from the same
+   date in Table 3. The first column is the pre- sensors working
+   correctly. Varying ambient conditions due Table 2. Flight-Continuity
+   Measurement Data BYTE NAME DESCRIPTION VALUE (DEC) DATA SET 1 DATA SET
+   2 1 LOOPCAL1 CALIBRATION MSMT 17+/-3 17 17 2 LOOP1 GAIN = 1 RESISTANCE
+   MSMT 0+3-0 0 0 3 LOOP2 GAIN = 1 RESISTANCE MSMT 0+3-0 1 0 4 LOOP3 GAIN
+   = 1 RESISTANCE MSMT 0+3-0 0 0 5 LOOP4 GAIN = 1 RESISTANCE MSMT 0+3-0 0
+   0 6 LOOP5 GAIN = 1 RESISTANCE MSMT 0+3-0 0 0 7 LOOP6 GAIN = 1
+   RESISTANCE MSMT 0+3-0 0 0 8 LOOP7 GAIN = 1 RESISTANCE MSMT 0+3-0 0 0 9
+   LOOP8 GAIN = 1 RESISTANCE MSMT 0+3-0 1 0 10 LOOP9 GAIN = 1 RESISTANCE
+   MSMT 1+3-1 1 1 11 LOOP10 GAIN = 1 RESISTANCE MSMT 1+3-1 1 0 12 LOOP11
+   GAIN = 1 RESISTANCE MSMT 1+3-1 1 1 13 LOOP12 GAIN = 1 RESISTANCE MSMT
+   1+3-1 1 1 14 LOOP13 GAIN = 1 RESISTANCE MSMT 0+3-0 0 0 15 LOOP14 GAIN =
+   1 RESISTANCE MSMT 0+3-0 0 0 16 LOOPCAL2 NOT USED 0 0 0 17 LOOPCAL1 NOT
+   USED 0 0 0 18 VER1 GAIN = 10 RESISTANCE MSMT 2+/-2 1 1 19 VER2 GAIN =
+   10 RESISTANCE MSMT 3+/-2 3 3 20 VER3 GAIN = 10 RESISTANCE MSMT 3+/-2 3
+   3 21 VER4 GAIN = 10 RESISTANCE MSMT 3+/-2 3 3 22 VER5 GAIN = 10
+   RESISTANCE MSMT 4+/-2 3 3 23 VER6 GAIN = 10 RESISTANCE MSMT 4+/-2 3 3
+   24 VER7 GAIN = 10 RESISTANCE MSMT 4+/-2 3 3 25 VER8 GAIN = 10
+   RESISTANCE MSMT 4+/-2 3 3 26 VER9 GAIN = 10 RESISTANCE MSMT 6+/-2 5 5
+   27 VER10 GAIN = 10 RESISTANCE MSMT 6+/-2 5 5 28 VER11 GAIN = 10
+   RESISTANCE MSMT 7+/-2 5 5 29 VER12 GAIN = 10 RESISTANCE MSMT 9+/-2 7 7
+   30 VER13 GAIN = 10 RESISTANCE MSMT 3+/-2 2 2 31 VER14 GAIN = 10
+   RESISTANCE MSMT 3+/-2 2 2 32 LOOPCAL2 GAIN = 10 RESISTANCE MSMT 169+/-5
+   176 174 6 Deep Space 1 Technology Validation Report-Multifunctional
+   Structures Technology Demonstration on NMP DS1 Table 3.
+   Flight-Temperature Measurement Data (all in °C) TEMP SENSOR NO. MSMT 1
+   MSMT 2 POST-HEATING MSMT 3 MSMT 4 POST-HEATING TEMP1 13.21 16.51 15.79
+   17.18 TEMP2 16.54 17.66 TEMP3 12.82 16.50 15.58 17.66 TEMP4 17.11 18.25
+   TEMP5 13.18 17.02 15.95 18.09 TEMP6 17.16 18.23 TEMP7 13.11 17.52 16.06
+   18.66 TEMP8 17.66 18.83 TEMP9 12.96 17.57 16.06 18.75 TEMP10 17.44
+   18.53 TEMP11 17.13 18.19 TEMP12 17.38 18.53 TEMP13 17.46 18.65 TEMP14
+   16.39 17.72 TEMP15 17.17 18.53 to different spacecraft attitudes and
+   flight away from the * The design, fabrication, rework/repair, and test
+   of Sun were reflected in the data with a general trend towards a
+   spacecraft panels built without chassis and cabling. colder ambient
+   condition. There was no indication of any failed or degraded sensors. *
+   Hybrid approaches that mix traditional spacecraft chassis/cabling with
+   the MFS design approach. 3.0 T ECHNOLOGYVALIDATION SUMMARY 4.0 T
+   ECHNOLOGY APPLICATION The following risks were retired with the DS1 MFS
+   demo FOR FUTURE MISSIONS experiment: * Use of flex-circuit patches and
+   interconnecting jumpers In the few short years since the MFS experiment
+   was applied directly to spacecraft panels as an electrical- conceived,
+   a number of applications and further demon- interconnect system.
+   strations of the MFS technology have been produced. Hardware using the
+   MFS concepts and "lessons learned" * Use of sockets for flight MCMs
+   without risk of opens, has been supplied to NMP Deep Space Two
+   (flex-circuit shorts, or degradation with time. interconnects and the
+   tether system), MightySat II Sindri * Use of distributed sensors
+   interconnected with flex (solar-array interconnect), Space Test
+   Research Vehicle circuitry to collect data from remote parts of the
+   (STRV) IIc, d (experiment and radiation sensor spacecraft.
+   interconnects and entire top panel), Advanced Technology * Use of a
+   protective cover that provides an optimum mix Demonstration Satellite
+   (ATDS) (AFRL/PL demonstration of EMI/EMC shielding, radiation shielding
+   and physical spacecraft), NMP ST5 (in planning), and a variety of
+   further protection. applications in large inflatable structures and
+   nanosats. All identified risks that were addressed in the DS1 LMA is
+   pursuing several enhancements in the MFS demonstration were retired. At
+   the time of the experiment technology. These include: demonstration of
+   radio- conception, the MFS approach was a distinct-paradigm shift
+   frequency (RF) pathways in the flex circuitry using from traditional
+   packaging methods to a new system that alternative dielectrics, optical
+   pathways, production- eliminated the majority of secondary and tertiary
+   packaging optimized flex-bonding systems, and integration with to take
+   advantage of the advances in MCM usage. The flight inflatable elements.
+   data returned from the experiment did not identify any anomalies and
+   readily met all analytical predictions. 5.0 ACKNOWLEDGMENTS This
+   technology continues to evolve and several organiza- The financial
+   support for the MFS development effort was tions are pursuing and/or
+   supporting further improvements provided by Lockheed Martin
+   Astronautics Independent and enhancements. Lockheed Martin Corporation
+   (LMA) Research and Development project Lightweight Spacecraft would be
+   pleased to enter into further efforts to use the MFS Technology
+   (D-90D), and Air Force-Phillips Laboratory packaging system with any
+   interested parties. This would sponsored contract (#F29601-94-C-0167)
+   "Spacecraft involve the following concerns: Integrated Electronics
+   Structure." The authors sincerely 7 Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   thank Dr. Alok Das (AF/PL) for his technical guidance and [3] D. M.
+   Barnett and S. P. Rawal, "Multi-functional encouragement. The authors
+   would like to thank their Structures Technology Experiment on Deep
+   Space 1 colleagues including Long Nguyen, Keith Sarris, Dan Mission,"
+   IEEE Aerospace and Electronic Systems, Morgenthaler, and Nathan Harris
+   for their technical January 1999. contributions. [4] S. P. Rawal, D. M.
+   Barnett, and F. M. Kustas, "Multi- functional Composite Structures
+   Designs," submitted 6.0 LIST OF REFERENCES for publication, 31st
+   International SAMPE Technical Conference, October 1999. [1] Michael
+   Obal and Janet Sater, "Multi-functional [5] S. P. Rawal, D. M. Barnett,
+   and D. E. Martin, "Thermal Structures: The Future of Spacecraft
+   Design?" 5th Management for Multi-functional Structures," IEEE
+   International Conference on Adaptive Structures, Transactions on
+   Advanced Packaging, Vol 22, No. 3, Sendai, Japan, December 5 to 7,
+   1994. August 1999. [2] Joel Sercel et al., "Modular and
+   Multi-functional [6] James Lyke, AFRL/PRS/VSSE, Personal Communi-
+   System in the New Millennium Program," AIAA 34th cations 1995 to 1999.
+   Aerospace Sciences Meeting and Exhibit, Reno, NV, January 15 to 18,
+   1996, paper #AIAA96-0702. 8 Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   Appendix A. DS1 Technology Validation Telemetry Channels
+   MULTI-FUNCTIONAL STRUCTURE Channel Mnemonic O-0051 MFS_mgr_stat O-0052
+   MFS_last_cmd O-0053 MFS_wrds_snt O-0054 strt_cmd_cnt D-0192 last_pkt_12
+   D-0193 buf_typ_12 D-0194 buf_min_12 D-0195 buf_max_12 D-0196 pkt_age_12
+   D-0197 buf_pkt_12 D-0198 sent_pkt_12 D-0199 spac_used_12 D-0200
+   bytes_ack_12 D-0201 byte_dump_12 9 Deep Space 1 Technology Validation
+   Report-Multifunctional Structures Technology Demonstration on NMP DS1
+   Appendix B. DS1 Technology Validation Power On Times MULTI-FUNCTIONAL
+   STRUCTURE MFS initial turn-on was 02/25/99. Experiment was then
+   conducted bi-weekly from power-off. Experiment was also conducted
+   weekly with LPE/PASM starting 05/26/99. 10

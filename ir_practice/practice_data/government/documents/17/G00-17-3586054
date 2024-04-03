@@ -1,0 +1,90 @@
+http://nssdc.gsfc.nasa.gov/space/cgm/cgm.html
+
+   [Logo]
+
+      IGRF/DGRF Model Parameters and Corrected Geomagnetic Coordinates
+            _____________________________________________________
+
+   This service enables computation of a set of the main geomagnetic field
+   model parameters and transformation from the GEOcentric (geographic)
+   coordinates to the Corrected GeoMagnetic (CGM) coordinates and vice
+   versa. The algorithm is solely based on the DGRF/IGRF geomagnetic field
+   models for Epochs 1945-2005. The B-min approach is applied to calculate
+   CGM coordinates through the near-equator area where the definition of
+   CGM coordinates is invalid. However, GEO <--> GGM transformations are
+   not performed at certain regions where the CGM equator cannot be
+   defined at all.
+
+   The input parameter are:
+
+     * Geocentric or Corrected GeoMagnetic Latitude and Longitude
+     * Altitude above the 1-Re (6371.2 km) surface: 40,000 km limit
+     * Year for Definitive/International Geomagnetic Reference Field
+       (DGRF/IGRF) models from 1945 to 2005
+
+   The following output parameters are calculated:
+     * GEOCENTRIC, CGM, and AACGM coordinates of a given point (see
+       JHU/APL Web site for definition of the Altitude Adjusted CGM
+       coordinates)
+     * DGRF/IGRF magnetic field components H (nT), D (deg.), and Z (nT) at
+       this point
+     * Geocentric and CGM coordinates of the magnetically conjugate point
+       and the magnetic field line footprint
+     * Apex of the magnetic field line: the point at a maximum distance
+     * Magnetic local time (MLT) midnight in UT (hh:mm) at the given point
+     * Meridian_angle: the azimuth along a great-circle arc to the North
+       (South) CGM pole measured from the geographic North (South)
+       meridian; positive to East (West)
+     * Oval_angle: the angle between local tangents to the CGM and
+       geographic (geocentric) latitudes; this angle is presented as the
+       azimuth to the local "magnetic north" ("magnetic south") if the
+       eastward (westward) tangent to the CGM latitude points southward
+       (northward) from local East (West); measured positive to East
+       (West)
+
+   * Brief Description of CGM and Associated MLT Definition
+                          ________________________
+
+                         Use Form 1 OR Form 2 Below
+                          ________________________
+
+  Query Form 1: Latitude/Longitude
+
+   Latitude/Longitude below specified in: [Geocentric]
+   Year (from 1945 to 2005): 2001
+   Altitude above the 1-Re surface (km) [from 0. to 40000.]: 100.__
+   Latitude (degrees) [from -90. to -20. or from 20. to 90.]: 45.00_
+   Longitude (degrees) [from 0. to 360.]: 270.0_
+
+   Submit Query Clear Form
+     __________________________________________________________________
+
+  Query Form 2: Image Map (only GEO ==> CGM)
+
+   Year (from 1945 to 2005): 2001
+   Altitude above the 1-Re surface (km) [0. - 40000.]: 100.__
+   Click on the map to specify location and submit query:
+   [world.gif]-Submit
+
+   Clear Form
+     __________________________________________________________________
+
+   * Go to the NSSDC Home Page
+     __________________________________________________________________
+
+
+    If you have any questions/comments about this algorithm or computer
+    code, contact:
+    Dr. Vladimir Papitashvili, E-mail: papita@umich.edu, Space Physics
+    Research Laboratory, The University of Michigan, 2455 Hayward St.,
+    Ann Arbor, MI 48109-2143
+
+   [Logo]
+   Dr. Natalia Papitashvili, FAX: (301) 286-1771, E-mail:
+   natasha@nssdca.gsfc.nasa.gov, National Space Science Data Center, Mail
+   Code 633, NASA/Goddard Space Flight Center, Greenbelt, MD 20771
+
+     __________________________________________________________________
+
+        NASA Official: J. H. King, king@nssdca.gsfc.nasa.gov
+        Last Updated: 02 February, 2001, NEP

@@ -1,0 +1,1296 @@
+http://www-phys.llnl.gov/Research/Tokamak/
+
+                     Tokamak Plasma Spectroscopy at LLNL
+
+  Table of contents
+
+   Introduction
+   Calculation of Ionization and Recombination Rate Coefficients
+   Calculation of the Charge State Distribution
+   Measured Impurity Ion Emission Profiles
+   Calculations of Radiative Cooling Coefficients
+   Bolometric Measurement of Impurity Radiative Cooling
+   Resonance Enhancement of DWA Impact Excitation Rate Coefficients
+   L-shell x-rays in Zr, Nb, Mo, and Pd
+   M-shell x-rays in highly charged W ions
+   XUV observations of N-shell W ions
+   Direct Measurement of Impurity Fluxes
+   Transport Profiles during auxiliary heating
+   References and bibliography
+
+  Introduction
+
+   Non-LTE atomic modeling is crucial for understanding scaled laboratory
+   experiments for Stockpile Stewardship.  Above ground experiments (AGEX)
+   require detailed atomic physics data.   One way that these atomic data
+   are benchmarked is in their application to tokamak plasma
+   spectroscopy.  The tokamak plasma is a long lived, well characterized
+   and well diagnosed source containing high-Z ions.  Tokamaks field a
+   large compliment of diagnostics; independent (non-spectroscopic)
+   measurements of the plasma electron temperature and density can be
+   made.  Bolometric and high resolution spectroscopy measurements
+   directly reflect ionization balance and excitation processes.   The
+   x-ray and XUV observations of emission from highly charged high-Z ions
+   made in tokamaks compliment experiments with laser-produced high-Z
+   plasmas, holraum and gasbag experiments on the Nova laser and the
+   development of spectroscopic diagnostics in ICF fuel capsules.
+
+  This cartoon shows many of the non-LTE physics issues of interest to AGEX
+              that are tested directly in our tokamak campaigns
+
+                                  [003.gif]
+
+
+
+   Tokamak plasma spectroscopy research in V-Division is led by Dr. Kevin
+   B. Fournier.   The principal tokamak plasma spectroscopy activities
+   carried out in V-Division are studies of ionization and recombination
+   rate coefficients, and impurity radiative cooling.  These activities
+   validate atomic data and collisional-radiative models for emission from
+   highly charged ions of high-Z elements.  We also have an extensive
+   program of high resolution x-ray and XUV spectroscopy of highly charged
+   ions.  This program is used to validate contributions to detailed
+   atomic structure calculations from such terms in the Hamiltonian as
+   vacuum polarization, Lamb shifts and Breit interactions.  We also
+   support ongoing investigations of anomalous impurity transport at other
+   research facilities.  These activities apply our spectroscopic models
+   to a phenomenological understanding of the relationship between
+   electrostatic turbulence in the background plasma and impurity ion
+   transport.  Finally, other activities include XUV and VUV studies of
+   astrophysically abundant elements (Ne, Si, S, Ar, Ca, Ti, Fe and Ni)
+   and the benchmarking of basic atomic data needed for models of highly
+   charged high-Z ions.  Measurements of radiative power loss and
+   spectroscopy test non-LTE models and contribute to the design of future
+   magnetic fusion energy (MFE) facilities.
+
+  Dr. Kevin B. Fournier with a XUV spectrometer built at the Johns Hopkins
+           University and mounted on the Frascati Tokamak Upgrade
+
+                               [kbf.ftu.jpeg]
+
+
+
+   Tokamak plasma spectroscopy is carried out in V-Division in
+   collaboration with the  Plasma Fusion Science Center  at the
+   Massachusetts Institute of Technology, the  Plasma Spectroscopy Group
+   at the Johns Hopkins University, the Frascati Tokamak Upgrade at the
+   Ente Per Le Nuove Tecnologie L'Energia E L'Ambiente (ENEA) research
+   center in Frascati, Italy, and the ASDEX Upgrade Tokamak at the Max
+   Planck Institut für Plasmaphysik in Garching, Germany.   Our recent
+   publications are listed here.
+
+ The inside of the Frascati Tokamak Upgrade vessel.  Note, the inner limiter
+  is made of molybdenum tiles, the rest of the vessel is inconel stainless
+                                    steel
+
+                              [FTU.torlim.gif]
+
+
+
+
+
+One of our collaborators (Dr. Mark May of JHU) in the Alcator C-Mod Tokamak.
+    All plasma facing components in the Alcator C-Mod Tokamak are made of
+                                 molybdenum
+
+                              [MM_in_C_Mod.GIF]
+
+
+
+  Calculation of Ionization and Recombination Rate Coefficients
+
+   One of the basic goals of our tokamak spectroscopy program is the
+   benchmarking of ionization and recombination rate coefficients for the
+   many charge states of mid- and high-Z impurity ions in the plasma.
+   V-Division has for years held leadership in the field of calculating
+   the rates of multistep processes such as dielectronic recombination
+   (DR) and excitation autoionization (EA).  The techniques that we employ
+   will be discussed below.  First, however, some of the basic details
+   about our calculations are presented.
+
+   The presence of impurities in a magnetically confined fusion plasma is
+   unavoidable; vacuum vessel facing components and limiters contribute to
+   the total concentration of high-Z (Z > 20) impurities.  We have
+   observed significant differences between measured radial molybdenum ion
+   distributions in the Alcator C-Mod tokamak (Plasma Fusion Center,
+   Massachusetts Institute of Technology) [1] and in the Frascati Tokamak
+   Upgrade (ENEA research center, Frascati, Rome, Italy) [2] and
+   predictions made with a plasma modeling code that relies on an average
+   atom model [3] for atomic data such as ionization and recombination
+   rate coefficients.  The reason for the observed discrepancies is the
+   poor quality of the recombination data used as well as the neglect of
+   the indirect ionization process, excitation autoionization in the
+   plasma modeling code.  Using the HULLAC package [4] of fully
+   relativistic atomic structure codes we have computed the level to level
+   rates of ionization and recombination for nearly all the ions of argon
+   (Z=18) [5], krypton (Z=36) [6] and molybdenum (Z=42) [7].  The cartoon
+   below shows some of the ionization and recombination processes that we
+   investigate;  autoionization and its inverse, radiationless capture
+   (leading to recombination) are the channels coupling adjacent charge
+   states that receive our principal efforts.
+
+The processes of dielectronic recombination and excitation autoionization are
+    the primary focus of our rate coefficients computations [augtype.gif]
+
+   In the high temperature conditions that exist in the bulk plasma of a
+   tokamak, DR is the dominant recombination mechanism.  The rate
+   coefficient for DR is given by
+
+                               [Image5.gif] ,
+
+   where V[ij](T[e])  represents the rate of radiationless capture of a
+   free electron by level i of ion (q+1)+ to a level j of ion q+ in the
+   continuum, the energy of the capture going into the promotion of a
+   bound electron, and B^R[j] is the branching ratio for radiative
+   stabilization of level j (discussed below).  The rate of electron
+   capture is given by
+
+                                [Image6.gif]
+
+   where g[i] represents the statistical weight of level i, A^A[ji] is the
+   autoionization rate from level j of ion q+ to level i of ion (q+1)+, R
+   is the Rydberg unit of energy, a[0] is the Bohr radius, and DE[ji] is
+   the energy difference between the initial level of ion (q+1)+ and the
+   doubly excited energy level of ion q+ (a.k.a. the capture energy).  The
+   branching ratio for radiative stabilization from a doubly excited level
+   j of ion q+ has the form
+
+                                [Image7.gif]
+
+   where G^rad and  G^A represent sums over all levels reachable from j by
+   radiative and autoionizing transitions, respectively,
+
+                                [Image8.gif]
+
+                                     and
+
+                                [Image9.gif]
+
+   where A^R[jf] is the radiative transition rate from level j to a level
+   f of ion q+, A^R[jj'] is the radiative transition rate from level j to
+   some other level j' which also lies in the continuum, and G^stab[j]
+   represents a sum of radiative transition rates from level j of ion q+
+   to all levels f' below the continuum
+
+                               [Image10.gif] .
+
+   The second term in the parenthesis of the branching ratio represents
+   the contribution to recombination from subsequent stabilization
+   following radiative transitions between energy levels in the continuum
+   (cascades).  This contribution is generally found to be quite small.
+
+
+   For certain iso-electronic sequences, particularly those near to
+   iso-electronic sequences with filled shell ground configurations (He-,
+   Ne-, Ni-like ions), EA is the dominant ionization mechanism.  The cross
+   section for EA from a level i of ion q+ to all possible levels of ion
+   (q+1)+ is given by
+
+                                [Image12.gif]
+
+   where s^ex(i->j) is the electron impact excitation cross section from
+   level i to level j (an energy level in the continuum of ion q+) and
+   B^A[j] is the branching ratio for autoionization from level j to all
+   possible levels of the next ion.  In the present work, B^A[j] has the
+   form
+
+                                [Image16.gif]
+
+   where G^rad and  G^A and A^R[jj'] are as above.  The second term in the
+   parenthesis in the branching ratio represents the contribution to the
+   total EA rate from autoionization following radiative transitions
+   between energy levels in the continuum.  This contribution is found to
+   be small to negligible for all ions studied here.  The rate coefficient
+   for the EA process from a specific level i is
+
+                                [Image17.gif]
+
+   where Q[ij]^ex is the impact excitation rate coefficient from level i
+   to level j, found by averaging the electron impact excitation cross
+   section over a Maxwellian distribution of free electron velocities
+
+                                [Image18.gif]
+
+   where v is the electron velocity and f(v) is the electron velocity
+   distribution.  The figure below shows the contribution that
+   excitation-autoionization makes to the total ionization rate from the
+   ground level of certain ions.  The plotted quantity is the ratio of the
+   sum of direct electron impact ionization (DI) plus EA over the rate of
+   DI alone.
+
+The enhancement of total ionization rates due to the presence of EA channels
+          in certain M-shell charge states of argon and molybdenum
+
+                                  [017.gif]
+
+
+
+
+  Calculation of the Charge State Distribution
+
+   At a given temperature, the rates of EA and DR, along with the rates
+   for direct electron impact ionization (including contributions from
+   ionization from both the valence and inner subshells) and radiative
+   radiative recombination are used to compute the charge state
+   distribution (CSD) for a given element.  In the low density limit that
+   obtains in tokamak plasmas, the ratio of the densities of two adjacent
+   charge states is given by
+
+                                [Image19.gif]
+
+   where S^q(T[e]) and a^q+1(T[e]) are the total rates for ionization and
+   recombination from the ground levels of ions q+ and (q+1)+,
+   respectively.  The quantity f[q]^CE(T[e]), the relative fraction of a
+   charge state in the plasma is given in coronal equilibrium by
+
+                                [Image20.gif]
+
+   where n[Z]^q is the number density of ion q+, and n[Z] is the number
+   density of all ions of atom Z.  The equation for the relative densities
+   of two charge states, along with the condition
+
+                                [Image22.gif]
+
+   provides a complete set of equations for the ions of impurity Z.  The
+   CSDs for Ar, Kr and Mo are compared below to calculations that neglect
+   EA in the total rate of ionization.  For Ar, one sees a modest
+   perturbation to the Na- to S-like charge states.  The L- and K-shell
+   ions are unaffected.
+
+                                  [008.gif]
+
+   In the case of Kr, the same near Ne-like charge states are strongly
+   perturbed by the presence of EA in the CSD calculation.  The
+   enhancement of the total ionization rate for the near filled shell ions
+   means they are "burned through" much more quickly than they would be in
+   a calculation without EA.  The filled shell Ne-like ion, due to the
+   large step in ionization energies going from the M- to the L-shell does
+   not have strong EA channels; the greater stability of the Ne-like ion
+   relative to the adjacent M-shell ions means its abundance is greatly
+   enhanced.
+
+                                  [009.gif]
+
+
+
+   The same phenomenon is observed near Ne-like Mo, and also near the
+   filled shell Ni-like Mo ion.  That is, the large step in ionization
+   energies going from the N- to the M-shell means that the Cu-, Zn-, Ga-
+   and Ge-like ions are "burned through" much more quickly than is the
+   filled shell Ni-like ion.
+
+                                  [010.gif]
+
+
+
+
+  Measured Impurity Ion Emission Profiles
+
+   Now that we have predicted the CSD, we'd like to test the
+   calculations.  This is carried out by observing the equilibrium
+   distribution of ions in a tokamak plasma.  For this, we have an array
+   of photometrically calibrated, time resolving, spatially scannable
+   spectrometers at the various tokamak facilities with which we
+   collaborate.   Using these x-ray and X/VUV spectrometers, along with
+   independent diagnostics of temperature (Thomson scattering, electron
+   cyclotron emission) and electron density (near IR interferometry,
+   microwave reflectometery) the brightness of different transitions can
+   be measured along several lines of sight, each of which samples a
+   different peak temperature.  These data can then be Abel inverted to
+   yield the emissivity profile for the given transition as a function of
+   radius in the plasma (which is equivalent to temperature).   Shown
+   below is a photo of one of our spectrometers mounted on the Frascati
+   Tokamak Upgrade.  In every case, the spectrometers have been
+   photometrically calibrated, and thus an absolute signal can be
+   measured.  This allows us to determine the absolute concentration of an
+   impurity in the plasma.
+
+ Grazing Incidence, Time Resolving spectrometer, built at the Johns Hopkins
+University and mounted on the Frascati Tokamak Upgrade.  Show is the pre-slit
+before the grating, housing for filters and the multi-channel plate detector.
+
+                              [grits.ftu.jpeg]
+
+
+
+   An example of our data as measured at the Alcator C-Mod tokamak at MIT
+   is shown below.  In this figure, strong resonance lines from Na- and
+   Mg-like molybdenum, Mo^31+ and Mo^30+, along with a weaker line from
+   Al-like Mo^29+ and lines from intrinsic impurities (C, O and F) are
+   seen.  One notices immediately that the molybdenum features dominate.
+   As the line of sight changes from frame (a) to frame (c), the absolute
+   signal level drops because the peak plasma temperature along the line
+   of sight is dropping.  Frame (b) shows a simulated molybdenum spectrum
+   for the central line of sight.  The agreement with the absolute signal
+   is excellent.
+
+M-shell Dn=0 (3-3) transitions in highly ionized molybdenum as measured with
+a 2.2m grazing incidence spectrometer along two lines of sight at the Alcator
+                                C-Mod tokamak
+
+                                  [007.gif]
+
+
+   Shown below is another example of the kind of data we acquire.  For
+   this spectrum, Kr gas was introduced through a pizo-electric valve to
+   the Frascati Tokamak Upgrade plasma [8].  This M-shell Kr spectrum has
+   more lines in it than do the molybdenum spectra above.  This is because
+   there are more emitting charge states (KrXVIII to KrXXIII) most of
+   which have a more complicated ground configuration than the (simple)
+   Na- and Mg-like charge states above.  The strong line at 93.35 Å is due
+   to Ar-like Kr^18+, which has a simple ground configuration (3p^6) but
+   which has many more excitation channel than do the Na- or Mg-like ions.
+
+ M-shell Kr emission spectrum recorded from a ~ 2keV plasma at the Frascati
+                              Tokamak Upgrade.
+
+                                  [006.gif]
+
+   To interpret the observed emission from a single ion, a
+   collisional-radiative (CR) model is constructed that provides
+   information on the net excitation rate for a given line.  In the case
+   of emission from a single charge state, the CR level populations are
+   found by solving the set of rate equations
+
+                                [Image24.gif]
+
+   where n[j] is the relative population of level j, Q[ji] is the
+   collisional rate coefficient from level j to level i for excitation (e)
+   or de-excitation (d), A[ji] is the radiative transition probability
+   from level j to level i and M is the number of levels used in the
+   model.  All electric and magnetic dipole and quadrupole radiative
+   transitions (E1, M1, E2 and M2) as computed by HULLAC [4] are taken
+   into account.  The CR model includes relativistic calculations of fine
+   structure energy levels, radiative decay and (semi-relativistic) Auger
+   decay rates.  For the densities that obtain in tokamak plasmas,
+   forbidden radiative channels (M1, E2 and M2) can give lines that are
+   quite bright in an ion's spectrum.  Direct electron impact excitation
+   rate coefficients are computed (semi-relativistically) in the distorted
+   wave approximation.  The contribution to a level's population from
+   ionization and recombination from adjacent charge states can also be
+   included.  In that case the ionization and recombination channels enter
+   the set of rate equations as additional source and sink terms.   The
+   cartoon below shows the CR processes coupling the He- and Li-like
+   aluminum atoms.  The forward ionization processes (autoionization and
+   direct impact ionization) are computed using HULLAC; data for the
+   inverse processes (dielectronic attachment and three-body
+   recombination) are computed by enforcing the principle of detailed
+   balance.  The more general form of the CR rate equations is shown in
+   the insert in the figure.
+
+ Cartoon of Collisional-Radiative processes joining He- and Li-like Al ions
+
+                                  [005.gif]
+
+   The CR model (neglecting ionization and recombination) is adequate for
+   interpreting the emission from a single charge state.  However, to
+   interpret the spectrum from a hot plasma where many charge states are
+   present requires the weighting of the emission from each charge state
+   by the relative ion abundances.  If the plasma were truly iso-thermal,
+   this would be a direct test of the computed CSD's.  However, the
+   emission that is observed from the tokamak plasma is integrated along
+   the line of sight of the spectrometer and may sample a large range of
+   temperature and density conditions.
+
+   Since our spectrometers are spatially scannable, the brightness of
+   different transitions can be measured along several lines of sight,
+   each of which samples a different peak temperature.  These data can
+   then be Abel inverted to yield the emissivity profile for the given
+   transition as a function of radius in the plasma (which is equivalent
+   to temperature).  The measured data are shown below, along with two
+   simulations for the line of sight integrated brightness of each
+   transition.  The two simulations have the same CR excitation model
+   embedded in a plasma transport model and the different charge state
+   distributions that are contrasted above.   The first figure shows XUV
+   emission profiles from six transitions in four L-shell argon ions as
+   measured at the Frascati Tokamak Upgrade (left) and the x-ray emission
+   profile from the  He[a] line  in Ar^16+ (right).  The brightness
+   profile computed using the HULLAC CSD is shown in green, the profile
+   computed without EA and approximate DR rate coefficients is shown in
+   red.  As already stated above, the effect of EA on the argon CSD is
+   small, and the L- and K-shell ions are generally unperturbed.  This is
+   seen to be the case in the simulations below; both simulations
+   reproduce the XUV and x-ray data well.
+
+                                  [011.gif]
+
+
+   In the case of Kr, brightness profiles for XUV transitions in five ions
+   are shown below.  These are all M-shell Dn=0 (3-3) transitions.   The
+   simulations for the Na- and Mg-like ions show the greatest difference
+   due to the presence of EA in the HULLAC CSD calculation.  The measured
+   data support the simulation that includes EA.  For the other charge
+   states, Cl-, Ar- and K-like, the simulations show smaller differences,
+   however, the data still support the HULLAC calculations.
+
+                                  [012.gif]
+
+   The figure below shows five x-ray emission profiles for three Mo ions,
+   the Na-, Ne- and F-like charge states.  (The XUV spectra of the Na- and
+   Mg-like ions have been shown above.)  In the figure below, in the panel
+   on the left is the spectrum of three of the x-ray lines [9] as measured
+   along a central line of sight with a Von Hammos type crystal
+   spectrograph.  The lines are from 2p<-4d transitions in the three
+   charge states.  Below the data is the simulated spectrum with the
+   HULLAC CR model and the HULLAC CSD (middle) and the simulation with the
+   HULLAC CR model and the old CSD (bottom).  The agreement for the HULLAC
+   CSD simulation is very good.  The radiative brightness profiles for all
+   five 2p<-4d transitions are shown in the panel on the right.  The
+   simulations agree well with the data for the central (higher
+   temperature) observations, but less well for the outer parts of the
+   profile.  This may be due to less signal (due to colder plasma
+   temperatures) and effects due to anomalous transport that are not
+   included in our model.
+
+                                  [013.gif]
+
+
+
+
+  Calculations of Radiative Cooling Coefficients
+
+   Copious impurity radiation from the core of an tokamak plasma will be
+   deleterious to energy and particle confinement, and can quench the
+   fusion reaction.  On the other hand, exhausting an adequate fraction of
+   an ignited plasma's power over the surface area of the vessel's entire
+   first wall, rather than onto a small area of the divertor strike plates
+   is crucial to the successful, sustained operation of the divertor in a
+   fusion reactor.  Impurity ion radiative processes are the most likely
+   mechanism for achieving this operating condition; robust, quantitative
+   predictions of impurity radiative loss rates are therefore essential.
+   Recent work has suggested that the controlled introduction of a
+   recycling impurity such as krypton (Z = 36) may be the best solution
+   for enhancing radiative power losses [10] in the outer part (mantle) of
+   a fusion plasma.
+
+   Power losses via collisionally fed line radiation, dielectronic
+   recombination line emission and radiative recombination and
+   bremsstrahlung continuum emission have been evaluated.  The power loss
+   coefficient for line radiation from an ion (with charge q+) at a fixed
+   temperature is given by
+
+                                [Image25.gif]
+
+   where J[jf](T[e]) (in units of photon cm^3 sec^-1) is found from the
+   collisional-radiative model and the sum is taken over all possible
+   radiative transitions.  Because J[jf](T[e]) comes from the CR model,
+   emission due to "forbidden" transitions (non-electric dipole
+   transitions) and emission fed by excitation from levels other than the
+   ground level (metastable levels and other excited levels) are included
+   in the sum.  The amount of power radiated per unit volume by
+   collisional-radiative line emission from an impurity atom (with atomic
+   number Z) in a fusion plasma is given by
+
+                                [Image26.gif]
+
+   where n[q] is the number density of an impurity ion of charge q+ and
+   the sum is taken over all charge states of the atom.  The sum in the
+   equation above can be expressed as
+
+                                [Image27.gif]
+
+   where n[Z] is the total number density of atom Z and f[q]^CE(T[e]) is
+   given by calculated charge state distribution.   The radiative cooling
+   coefficient has the units of ergs s^-1 cm^-3 (impurity density)^-1.
+   For the range of densities encountered in our tokamak experiments, the
+   radiative cooling coefficient is found to scale linearly with density.
+   Thus, by dividing the cooling coefficient by the electron density used
+   in the CR model, the resulting units are ergs s^-1 cm^-3 (impurity
+   density)^-1 (electron density)^-1.  The power loss coefficient for
+   nearly all molybdenum ions as computed at six different temperatures is
+   shown (for an electron density of 5.0x10^13 cm^-3) in the left panel of
+   the  figure below, the power loss coefficient computed at six different
+   electron densities is shown (for a temperature equal to each ion's
+   ionization potential) in the right panel of the figure below [11].  The
+   fact that all six traces scale linearly with increasing electron
+   density in the right panel means that the power loss coefficient is
+   independent of density in this range.  For much lower densities (N[e] ~
+   10^8 cm^-3) , the contribution to the power loss by lines excited from
+   metastable levels falls off quickly.  For higher densities (N[e] ~
+   10^16 cm^-3), forbidden radiative transitions are quenched by electron
+   collisions.
+
+                           [P01225-kbf-u-001.gif]
+
+   Impurity ions in a tokamak plasma can also radiate through channels
+   other than electron impact excitation of line emission; we also compute
+   the rate of power loss through line emission fed by dielectronic
+   recombination and continuum emission via radiative recombination and
+   bremsstrahlung.  The resulting cooling coefficient for all radiative
+   channels, and the sum over all channels, the total cooling coefficient
+   is shown below for Ar, Kr and Mo.  It is clear from the plots that the
+   CR line emission dominates the total cooling rate.  Also shown in each
+   plot is the ADPAK cooling coefficient [12] for each element.  In the
+   case of Ar, the ADPAK cooling coefficient has been updated by
+   researchers at the Los Alamos National Laboratory [13] using CR models
+   similar to those used here.  The Ar cooling coefficient computed here
+   [14] and that given by the updated ADPAK agree very well for
+   temperatures between 200 and 2000 eV.  For lower temperatures the
+   calculations show differences of factors of a few.  In the case of Kr
+   [15] and Mo [11], the two calculations diverge strongly at low
+   temperatures, with the differences reaching orders of magnitude.
+   Overall, at higher temperatures, there is general agreement to within a
+   factor of two.
+
+    Calculated radiative cooling rate coefficients for Ar, Kr and Mo as a
+                      function of electron temperature
+
+                                  [014.gif]
+
+
+
+  Bolometric Measurements of Impurity Radiative Cooling
+
+   The contribution of each ion to the total radiative cooling rate for an
+   impurity in a tokamak plasma is benchmarked against spectroscopic
+   observations as described above.  The total cooling coefficient is
+   tested by simulating bolometric profiles measured at FT-U and C-Mod.
+   The data are collected with a bolometer array with up to 13 viewing
+   chords through the plasma.  These multiple channels allow us to perform
+   Abel inversion on the measured signals and get the volumetric radiative
+   emissivity for the plasma.  (A small correction is made for the
+   contribution of neutral particles to the bolometer's signal.)   Below
+   is a cartoon of the bolometric arrays used for the present work.
+
+                                  [019.gif]
+
+   In the case where there has been a controlled introduction of the
+   impurity species, or in the case where the plasma impurity content is
+   dominated by a single species, we measure directly that impurity's
+   radiative losses.  The inverted bolometric profile as measured in the
+   Frascati Tokamak Upgrade is shown below.  The large bump in the
+   experimental data at the outermost radii (coldest temperatures) is due
+   to radiative losses from intrinsic oxygen; aside from oxygen,
+   molybdenum is the overwhelmingly dominant impurity species in the
+   plasma.  Also shown are simulations made using the cooling coefficient
+   computed here (HULLAC) and using the ADPAK cooling coefficient.  The
+   two experimental traces (labeled m=4 and m=6) are the inverted signals
+   from the bolometer array.  The two numbers, m=4 and m=6, are the orders
+   of the polynomial to which the data is fit before Abel inversion is
+   carried out.  The difference between the two fits is an indication of
+   the uncertainty in the experimental data.  The measured data confirm
+   the HULLAC cooling coefficient for temperatures between 300 and 2000
+   eV.
+
+                                  [015.gif]
+
+
+
+   Shown below are preliminary simulations of the bolometer measurements
+   made during a Kr and Ar injections at FTU.  The inverted bolometer data
+   is given by the squares, and has (at best) a 2 cm spatial resolution.
+   The simulation made with the cooling curves shown above are given by
+   the dash-dot traces (labeled HULLAC, new CSD).  In both the case of Ar
+   and Kr, these simulation give the best agreement with the data.  In the
+   case of Kr (the figure immediately below) the ADPAK simulation from
+   Ref. [12] is shown along with a simulation using the HULLAC
+   collisional-radiative line emission models and the old CSD without EA.
+   In both cases, the data for higher temperatures do not favor these
+   simulations.  The bolometer measurements do not have the necessary
+   spatial resolution to map out features such as the notch near 18 cm in
+   the case of Kr and 21 cm in the case of Ar.
+
+               Simulation of the Kr bolometric profile in FTU
+
+                                  [kr2.GIF]
+
+
+
+               Simulation of the Ar bolometric profile in FTU
+
+                                  [ar1.GIF]
+
+  Resonance Enhancement of DWA Impact Excitation Rate Coefficients
+
+   At energies below the threshold for direct electron impact excitation,
+   resonant excitations can make a significant contribution to the total
+   excitation rate of a given energy level.  The resonant excitation
+   process is nearly the same as the dielectronic recombination process
+   described above, however, in this case, instead of multiplying the rate
+   of capture of a free electron by the branching ratio for radiative
+   stabilization, the rate is now multiplied by the branching ratio for
+   autoionization back to excited levels of the initial ion [16] .   The
+   distorted wave approximation collisional excitation rate coefficients
+   computed by HULLAC [4] do not account for this multistep excitation
+   mechanism; for nearly all highly charged, high-Z ions, neglecting
+   resonant enhancement of direct electron impact excitation is a good
+   approximation.  However, for certain electric quadrupole transitions in
+   Ni-like Mo^14+, the large manifold of autoionizing resonances in
+   Cu-like Mo^13+ enables an enhancement of the direct impact excitation
+   rates that is not negligible.  This process is laid out in a cartoon in
+   the panel on the right of the figure below.
+
+   The use of non-electric dipole ("forbidden") transitions as diagnostics
+   of plasma density has been a standard technique in spectroscopy for
+   many years.  The slow rate of the forbidden decays relative to E1 decay
+   rates means that as the density of the plasma increases, the forbidden
+   decays are quenched due to collisional destruction of their upper
+   levels much earlier than are E1 decays.  The ratio of the forbidden to
+   E1 decays is thus an indication of the local plasma density.  In the
+   case of Ni-like Mo^14+, for the low densities that obtain in tokamaks,
+   the 3d - 4s electric quadrupole (E2) transitions can be brighter than
+   the nearby 3d - 4p E1 decays.  This is the case in the figure below
+   (left panel).  This spectrum was measured by Sugar, Reader and Rowan in
+   the TEXT tokamak [17]; also seen in the spectrum are several 3d - 4s E2
+   lines from Co-like Mo^15+.   The reason the the E2 lines are bright,
+   despite their relatively slow decay rates, is that the levels from
+   which the transitions proceed are highly populated.  In order to
+   calculate the level populations, it is necessary to include the
+   enhancement due to resonance excitation that is shown in the panel on
+   the right.
+
+                                  [018.gif]
+
+
+
+   The factor by which the resonance contribution enhances the direct
+   excitation rate coefficient is shown in the the figure below.  This
+   figure is similar to what is shown above for the case of excitation
+   autoionization enhancement of direct ionization.  That is, the figure
+   shows the ratio of the resonant plus direct excitation rate coefficient
+   over the direct excitation rate coefficient alone.  The ratios shown
+   here are for the two upper levels giving rise to the 3d - 4s E2
+   transitions, and the two upper levels giving rise to the 3d - 4p E1
+   transitions.   The levels are indicated by two jj-coupled orbitals, the
+   first being the 3d hole from which the excitation took place, and the
+   second being the n=4 orbital to which the electron was promoted.  The
+   enhancement is seen to be a strong function of temperature, with the
+   greatest enhancement coming at the lower temperatures.  Investigations
+   in the Alcator C-Mod tokamak [16] have shown that the MoXV ion achieves
+   equilibrium in a plasma with an electron temperature near 100 eV, thus
+   the contribution of the resonances to the excitation of the E2
+   transitions must be taken into account.
+
+                              [rx.enhance.GIF]
+
+   We have injected Mo (Z=42), Nb (Z=41) and Zr (Z=40) into the Alcator
+   C-Mod tokamak in order to measure the ratio of the brightness of the
+   Ni-like 3d^10 - 3d^94s E2 lines to the 3d^10 - 3d^94p E1 lines at
+   different densities.  We have used an absolutely calibrated 2.2 m
+   grazing incidence spectrometer with approximately 1 cm spatial
+   resolution and a 4 msec integration time for each frame.  The detector
+   was a microchannel plate coupled to a 1024 element self-scanning
+   Reticon linear array.  A Zr injection is shown below.  The background
+   subtracted data is shown in frame (c) and the line of sight for which
+   the Zr^13+ emission is maximal is shown in the insert on the right.
+   The Ni-like Zr ion exists in a low temperature plasma region near the
+   plasma x-point.
+
+                                 [Zr.E2.GIF]
+
+   We have computed the ratio of  the brightness of the two 3d - 4s E2 to
+   the two 3d - 4p E1 transitions in MoXV as a function of electron
+   temperature and density.  This result is shown in the figure below.
+   The sensitivity of the ratio to density is due to the collisional
+   quenching of the upper levels of the E2 decays as described above.  The
+   sensitivity to temperature is greatly enhanced by the presence of the
+   strong resonance enhancement channels at low temperatures.  The figure
+   also has two experimental measurements made with photometrically
+   calibrated instruments in the Alcator C-Mod tokamak and a calibrated
+   measurement by Klapisch et al. in the TFR tokamak [18].  The density in
+   the Alcator C-Mod tokamak is much higher than in either the TEXT
+   tokamak or TFR.  Still, even so, we could not reach the density where
+   strong collisional quenching is observed.  The measured electron
+   density (using microwave reflectometry) is used to place the points
+   from C-Mod on the curve.  The resulting electron temperatures suggested
+   by the data for the two shots are consistent with the measured bulk
+   plasma temperature profile and the divertor temperature profile.  The
+   spatial location of the emitting lines is known only to within ~ 1 cm.
+
+                                [018b.gif%201]
+
+
+  L-shell x-rays in Zr, Nb, Mo and Pd
+
+
+   We have conducted a large campaign of impurity injection experiments at
+   the Alcator C-Mod tokamak with the aim of observing the level structure
+   of the Ne-like (and adjacent) charge states of Kr (Z=36), Zr (Z=40), Nb
+   (Z=41), Mo (Z=42) and Pd (Z=46) [19].   The observations are made with
+   an array of five spatially scannable, high resolution Von Hammos type
+   spectrometers.  The radial profiles of x-ray transitions in argon and
+   molybdenum recorded with this instrument are shown above.   The very
+   high spectral resolution of this instrument (l/Dl ~ 4000) allows us to
+   test higher order terms in our basic atomic structure calculations,
+   such as the contributions of vacuum polarization, the Lamb shift and
+   the Breit interaction to a level's total energy.  Shown in the frame
+   below is a spectrum from a zirconium injection in the range of the
+   Ne-like Zr^30+ 2p^6 - 2p^5(3/2)7d(5/2) J=1 and 2p^6 - 2p^5(1/2)6d(3/2)
+   J=1 transitions.  Also shown, but not labeled are transitions from Na-
+   and F-like zirconium.  Theoretical calculations of transition energies
+   and oscillator strengths are plotted under the data.  The agreement is
+   excellent.
+
+                                 [ne.zr.GIF]
+
+   In the frame below, x-ray transitions in four palladium ions are
+   shown.  The strongest line is the Ne-like 2p^5(1/2)3d(3/2) J=1
+   transition at 3731.7 mÅ.  Also shown are 2p - 3d transitions in Na-,
+   Mg- and Al-like Pd.   Again, theoretical calculations for transition
+   energies and oscillator strengths are plotted under the data.
+
+                                 [ne.pd.GIF]
+
+   One result from this campaign is a study of the transfer of strength
+   from one transition to another as the upper levels of those transitions
+   approach each other in energy.  The Ne-like ions of Zr, Nb, Mo and Pd
+   are ideal for this task.  In the figure below, the 2p(3/2) - 7d(5/2)
+   and 2p(1/2) - 6d(3/2) neonlike transitions in Mo, Nb and Zr are shown;
+   as Z increases, the emission features are seen to be moving closer
+   together.  (In every case, there is a small sodiumlike feature that is
+   close to the 2p(1/2) - 6d(3/2) neonlike line.)  As the 2p(1/2) -
+   6d(3/2) upper level moves closer to the upper level of the 2p(3/2) -
+   7d(5/2) transition, the strength of the 2p(1/2) - 6d(3/2) is seen to
+   diminish relative to that of the 2p(3/2) - 7d(5/2) transition [19]; the
+   reason for the transfer of strength is due to the configuration
+   interaction between the upper levels.
+
+                                [ne.6-7.gif]
+
+   In the figure below, the calculated oscillator strengths are plotted
+   for the four 2p(1/2,3/2) - 6d(3/2,5/2) and 2p(1/2,3/2) - 7d(3/2,5/2)
+   transitions for all elements from Y (Z=39) to Pd (Z=46).  In the lower
+   frame of the figure is plotted the calculated energy difference between
+   the 2p(1/2) - 6d(3/2) and 2p(3/2) - 7d(5/2) upper levels; between Mo
+   and Tc (Z=43) the order of the levels switches and the 2p5(1/2)6d(3/2)
+   level becomes higher in energy than the 2p5(3/2)7d(5/2) level.  As the
+   levels approach, the higher energy 2p(3/2) - 7d(5/2) transition
+   oscillator strength is seen to be strengthened at the expense of the
+   2p(1/2) - 6d(3/2) transition.  After the levels cross, the transfer of
+   strength is in the other direction.  The data shown above confirm this
+   result.
+
+                               [ne.scale.gif]
+
+  M-shell x-rays in highly charged W ions
+
+   Shown below are two spectra recorded by Dr. Rudolf Neu during tungsten
+   (Z=74) injections into ASDEX Upgrade tokamak plasmas [20].  The
+   tungsten injections into the ASDEX plasma are made by laser ablation of
+   tungsten from a glass slide at a rate of 20 Hz, resulting in a nearly
+   constant tungsten inventory during the discharge.  The central
+   temperature in the two cases differs by nearly 30%.  The strong
+   emission near 7Å is due to transitions of the form 3d - 4p, the higher
+   energy features near 5.5Å are due to 3d - 4f transitions [21].  The
+   spectra are acquired with a rotating crystal Bragg spectrometer; the
+   constancy of the plasma conditions and the tungsten inventory with time
+   are important considerations.  The relative strength of the 3d - 4p
+   transitions to the 3d - 4f transitions is at odds with
+   collisional-radiative predictions.  Understanding the origin of this
+   discrepancy is an ongoing part of our research program.  In the upper
+   frame, the strongest emission features are from charge states with
+   ground configurations iso-electronic to ions in the middle of the 4p^k
+   subshell (W^41+, As-like 4p^3, W^40+, Se-like 4p^4).  In the lower
+   frame, the emission has shifted to lines from higher charge states,
+   including the last of the N-shell ions, Zn- and Cu-like W^44+ and W^45+
+   (4s^2 and 4s^1).  In the lower frame, the emission from the M-shell
+   Ni-like W^46+ is seen to be strongly enhanced due to the increased
+   temperature.
+
+                              [w.spec.5.8.gif]
+
+  XUV observations of N-shell W ions
+
+   The Dn=0 (4-4) counterparts to the Dn=1 (3-4) x-ray lines discussed
+   above have been measured with an absolutely calibrated McPherson type
+   spectrometer by Dr. Knut Asmussen at the ASDEX Upgrade tokamak [22].
+   These Dn=0 spectra have been developed into a sensitive diagnostic of
+   the tungsten concentration in the plasma, the details of that
+   development are given elsewhere [22].  The tungsten injections into the
+   ASDEX plasma are made by laser ablation of tungsten from a glass slide
+   at a rate of 20 Hz.  The spectrum in the 120 to 140Å range is shown in
+   the figure below.  The digitized data from the multichannel plate is
+   shown in the top frame, the time of the first tungsten injection is
+   clear in the data.  A background subtracted line-out of the data is
+   shown in the middle frame.  The CR calculations done with HULLAC are
+   shown in the bottom frame [21].  Nearly all of the transitions in this
+   range are 4s - 4p transitions; there is a much larger discrepancy
+   between the HULLAC wavelengths and the observed wavelengths for these
+   transitions than for the x-ray transitions modeled above.
+
+                               [vuv_spec2.GIF]
+
+   The 4p-4d transitions in the N-shell W ions are shown in the figure
+   below.  The transitions near 60Å are nearly coincident with 4d-4f
+   transition arrays from lower charge states.  These transition arrays
+   make a quasi-continuum whose shape evolves strongly with increasing
+   temperature.  By monitoring the time history of the tungsten
+   injections, we can see the quasi-continuum burn through and these
+   unambiguous emission lines [22] emerge.  The calculated wavelengths in
+   this spectral region agree better with the observations than do those
+   in the figure above.  Precise observations of radiative transitions in
+   highly charged high-Z ions help us to test directly the methods
+   employed by our atomic structure codes.
+
+                               [vuv_spec1.GIF]
+
+
+
+  Direct Measurement of Impurity Fluxes
+
+    Often the ions in a tokamak plasma are seen to be distributed in a way
+   that is different than what the coronal equilibrium would predict.
+   Tokamak plasma spectroscopy in V-Division supports investigations into
+   anomalous transport, the cause of this departure from equilibrium.  One
+   way research in V-Division has made an impact in this field is by
+   providing highly detailed models for the emissivity of x-ray
+   transitions in molybdenum ions near the neonlike charge state [2].
+   With these models, researchers at the Frascati Tokamak Upgrade (FTU)
+   have been able to use the measured x-ray emission profiles for three
+   adjacent molybdenum ions to construct the impurity flux profile across
+   the plasma [23].  With this profile, the strength of the transport
+   effects on individual ions, at nearly all radii in the plasma, can be
+   determined; this is a major step forward in the understanding of the
+   phenomena that drive anomalous impurity transport.
+
+
+   The x-ray profiles measured at  FTU have been recorded with a rotating
+   crystal Bragg spectrometer coupled to a multi-wire proportional counter
+   detector [24] that were designed and built by researchers at FTU.  The
+   spectrometer has mountings for six crystals, which allows for
+   sensitivity to different energy regions during the discharge.  The
+   detector provides a fast count rate, good energy resolution, and, by
+   exploiting differences in sensitivity to different orders of
+   diffraction, discrimination of the different orders that appear in the
+   spectrum.  A photograph of the spectrometer and the housing for the six
+   crystals is shown in the figure below.  A cartoon showing the
+   principles by which the spectrometer and detector work is shown below
+   the photograph.
+
+               Rotating Crystal Bragg Spectrometer (RCS) at FTU
+
+                               [rcs.ftu.jpeg]
+
+
+               Rotating Crystal Bragg Spectrometer (RCS) at FTU
+
+   [rcs.lay.out.JPG]
+
+   A spectrum covering the full energy range of the RCS at FTU is shown
+   below.  The n=2 to n=1 Hea transitions in Ti (Z=22), Cr (Z=24), Mn
+   (Z=25), Fe (Z=26) and Ni (Z=28) are visible at the highest energies.
+   The n=3 to n=2 transitions from the F-like Mo^33+ to the Mg-like Mo^30+
+   ions are seen at the lower energy side of the spectrum.  There is a
+   sharp edge in the detector efficiency near 3.8 Å due to an absorption
+   edge in argon, the detector fill gas [24].
+
+              Full range spectrum recorded with the RCS at FTU
+
+                               [FTU.8001.gif]
+
+   The two panels below show a blow up of the molybdenum emission between
+   4.2 and 5.4 Å (top), and a synthetic spectrum for the line of sight of
+   the spectrometer on this discharge, #8001 (bottom).  The dominant
+   Ne-like Mo^32+ emission features are labeled in the bottom panel with
+   the conventional notation.  The bottom panel shows a very high spectral
+   resolution simulation as well as the same simulation degraded to the
+   resolution of the spectrometer and detector.  The blending of the weak
+   lines from Mo^31+ and Mo^30+ with the strong neonlike transitions
+   accounts for nearly all the features seen in the data in the top
+   panel.  With an assumed smoothly increasing background level (shown by
+   the dashed line in the top panel), the relative integrated areas under
+   the experimental and synthetic peaks agree very well [2].
+
+
+
+                             [FTU.8001.comp.GIF]
+
+   Given our knowledge of the emission spectra of near neonlike molybdenum
+   ions, the brightness of specific lines in Mo^32+, Mo^31+ and Mo^30+
+   have been measured by Dr. Danilo Pacella at FTU in a series of
+   reproducible discharges [23].  The measured brightnesses for the three
+   lines have been Able inverted to yield the emissivity profile for the
+   lines as a function of radius in the plasma.  The spectrometer has been
+   absolutely calibrated, so the measurement can be converted into an
+   absolute emissivity.  The raw data (before inversion) for the
+   observations are shown in the three panels below.
+
+                             [ftu.profiles.GIF]
+
+   Given that the absolute emissivity of the transition in each ion is
+   measured as a function of radius, and that the electron temperature and
+   density profiles are independently measured, the densities of the
+   specific ions can then be found.  The collisional-radiaitive model
+   developed by Dr. Kevin Fournier in V-Division confirms that the three
+   transitions chosen for this experiment are fed overwhelmingly by direct
+   excitations from the ground level of the respective charge state.  The
+   excitation rates are computed using HULLAC for several temperatures in
+   the FTU, and the ion densities are derived.  The results are shown in
+   the figure below.  Also shown are the predicted ion density profiles
+   for the case of coronal equilibrium.  The experimental profiles extend
+   much further out in the plasma and are less sharply peaked than in the
+   coronal equilibrium case.
+
+                              [FTU.iondens.GIF]
+
+   Given that we know the absolute density for three adjacent charge
+   states, and we know the rates of ionization and recombination between
+   the charge states, we can use the equation of continuity
+
+                                [Image28.gif]
+
+   to derive the absolute flux of Mo^31+ across the plasma.  In steady
+   state, the explicit time derivative is zero and the divergence of the
+   flux can be derived from the knowledge of the source terms,
+
+                                [Image29.gif]
+
+   where S and a represent the total ionization and recombination rates
+   for each ion and are functions of the local electron temperature,
+   T[e](r), and N[e] is the electron density.  The flux is derived by
+   radial integration of the equation above,
+
+                               [Image30.gif] .
+
+   In the present case, the flux G[31+] of Mo^31+ can be derived using the
+   density profiles N[32+], N[31+] and N[30+] that have been obtained from
+   the soft x-ray spectra.  Thus [23],  [Image31.gif] .
+   The result is shown in the figure below.
+
+                             [FTU.mo31flux.GIF]
+
+   The resulting Mo^31+ flux represents the transport effect of the plasma
+   on this impurity ion.  We can then define a radial drift velocity
+   associated with the flux G[31+],
+
+                               [Image32.gif] .
+
+   This quantity is plotted for Mo^31+ in the figure below, along with the
+   electron temperature and density profiles, as measured with electron
+   cyclotron emission and DCN interferometery, respectively.  The radial
+   drift velocity has the advantage that it does not depend on the
+   absolute amount of Mo^31+ present and thus is independent of the
+   absolute calibration of the RCS.  The result of the present analysis
+   is, as expected, that the transport effect is small in the central
+   region and very large in the intermediate region of the plasma.  In
+   fact, the transport effect is more than one order of magnitude greater
+   than the neoclassical prediction in the intermediate region of the
+   plasma (well outside the error bars on the radial drift velocity due to
+   the inversion of the ion density profiles).
+
+                                [FTU.v_r.GIF]
+
+   Near the maximum of V[r] in the figure below, the thermal drift
+   velocity for Mo^31+ is approximately 5 x 10^6 cm s^-1, so the drift
+   velocity is about 0.4% of the thermal one.  Starting from the measured
+   V[r], we can estimate the order of magnitude of the impurity
+   confinement time along the radius,
+
+                               [Image33.gif] .
+
+   The result is that t[t] is of the order of tens of ms in the central
+   region (having taken for V[r] the maximum value given by the error
+   bars) and it falls to about 1 ms at r = 15cm, where the transport is
+   very large.  As can be seen, the radial outgoing velocity V[r] is
+   negligible in the central region and indicates a large anomalous
+   transport effect in the region around the plasma's half radius, a
+   region where many of the plasma parameters exhibit strong radial
+   gradients (see the figure above).
+
+  Transport profiles during auxiliary heating
+
+   Progress in magnetic confinement fusion research has produced plasmas
+   with continuously higher temperatures.  Moreover, interest in advanced
+   tokamak scenarios is continuously growing, requiring more refined
+   diagnostic tools to investigate particle transport processes.  All this
+   has stimulated the study of the atomic physics of highly ionized medium
+   Z elements, like molybdenum (Z=42).  On one hand, the tokamak plasma
+   provides a "laboratory" where atomic calculations, relevant in many
+   others fields, can be experimentally validated and, on the other hand,
+   these models allow the understanding of many plasma processes.
+
+   Atomic calculations performed at LLNL have been used to understand the
+   molybdenum x-ray emission from the FTU plasma in two different
+   scenarios with electron cyclotron resonance heating (ECRH), providing
+   important information about the plasma impurity content [25].  In the
+   first case, with on axis heating and a central electron temperature of
+   8 keV [26],  the analysis is performed during the current ramp up when
+   the magnetic shear is still negative or zero [27].  In a toroidal
+   configuration with nested magnetic surfaces, the magnetic shear s is a
+   measure of the radial variation of the safety factor q, i.e. of the
+   field lines winding index. The magnetic shear is defined by s = (1/r)
+   dq/dr so that shear reversal (i.e. negative shear in the plasma core)
+   implies the presence of an off-axis minimum in the q profile.  In the
+   second case, with off axis heating and a peak temperature of 7 keV,
+   spectra are analyzed when the current reaches the plateau and sawtooth
+   activity occurs.  These results will be discussed and compared in the
+   following sections.  The radial profiles of the electron temperature
+   (Te) are shown for both discharges, as measured by ECE, in the figure
+   below.
+
+                              [ECRH.Teprof.GIF]
+
+   Two molybdenum spectra from shot #12658, one during ECRH and one after,
+   are compared in the figure below.  Since the wavelengths are scanned in
+   approximately 5 ms, a time shorter than the time evolution of the
+   density and temperature, the plasma can be assumed stationary on this
+   time scale.  It is seen that the three features that we label a, b and
+   g, which are dominated by transitions from Mo^35+, Mo^36+ and Mo^37+
+   respectively, decrease strongly when the temperature drops, while the
+   remaining spectrum (dominated by Mo^32+ transitions) is less affected.
+   The detailed modeling of these transitions is discussed below.
+
+                            [ECRH.spectcomp.GIF]
+
+
+
+   High resolution synthetic spectra for Te = 3.8, 5.5 and 8.0 keV are
+   shown in the three panels below; it should be noted that even if
+   Gaussian shapes with a fwhm of 1.0 mÅ are assumed, blending still
+   persists.  As can be seen, the spectra are sensitive to the
+   temperature, both because of changing ionization state distribution
+   and, to a lesser extent, due to the temperature dependence of the
+   intensity of individual lines.  Each ion (from Mo^30+ to Mo^39+)
+   carries information from the radial layer where it exists; studying
+   these x-ray spectra we obtain spatial information over a large fraction
+   of the minor radius (0<r/a<0.7 and T[e](0)=1-8 keV).  In particular,
+   the features labeled a, b and g are typical of the higher temperature
+   regime (T[e] > 3keV) and drop in intensity when the ECRH is switched
+   off (see the spectra above); g is dominated by B-like Mo^37+ which
+   exists in appreciable amounts only in plasmas with Te > 5 keV, while a
+   and b are dominated by lines from N-like Mo^35+ and C-like Mo^36+,
+   respectively.
+
+                           [ECRH.synth.spect.GIF]
+
+   The collisional-radiative model described above is used to reconstruct
+   the measured molybdenum spectra knowing the electron temperature and
+   density profiles. This is possible since the typical times, t, required
+   for these ions to reach ionization equilibrium in this temperature and
+   density range are a few milliseconds.  Since the central electron
+   temperature reaches nearly its  peak value 20 ms (Dt) before the
+   spectrum above is recorded (t ~ 0.1 s), the ions have enough time (Dt
+   >> t) to reach  equilibrium.  Our goal is to simulate the full
+   spectrum, and in particular the relative ratio of these features (a, b
+   and g) with respect to the resonant lines at 4.8-4.9 Å from Mo^32+,
+   Mo^31+ and Mo^30+.  (These features are better understood than those at
+   4.5 - 4.6Å from Mo^34+ and Mo^33+.)  This ratio depends strongly on the
+   total impurity profile, N[mo] (r).  The synthetic and experimental
+   spectra are shown in the frames below for a peaked impurity profile
+   (top) and for a flat one (bottom).  In the figure the continuous line
+   represents the experimental spectrum, while the shadowed areas are the
+   contributions of Mn and Cr K[a] in second order.
+
+                           [ECRH.moprofs.comp.GIF]
+
+   The (normalized) peaked impurity profile, N[mo] (r), is shown in the
+   figure below together with the electron density profile.  The peaked
+   profile produces a much better fit to the experimental spectrum.  This
+   assessment of the impurity radial density profile is robust because it
+   relies on agreement from all the emitting ions (Mo^39+ to Mo^30+), over
+   the entire radial range 0 < r/a < 0.7 and not just on the "high
+   temperature" features.  The calculated feature b in the spectra above
+   is narrower and higher with respect to the measured one, but the
+   integral is the same; this is due to spurious blending of several of
+   the weak lines making up this feature.
+
+                           [ECRH.Mo.Ne.profs.GIF]
+
+   There are two results from this analysis that should be emphasized.  We
+   find an impurity transport level much lower with respect to that one
+   usually measured at FTU in the steady state.  For the spectra measured
+   early in the discharge, the derived molybdenum charge state
+   distribution is close to that given by coronal equilibrium.  Also, we
+   find a central impurity accumulation early in the discharge.  These two
+   results taken together are compatible with a neoclassical transport
+   regime.  The absence in the core of impurity anomalous transport is an
+   important result for this plasma regime of strong auxiliary heating.
+   This result should be taken together with the good energy confinement
+   property observed in previous work [27] studying the energy balance and
+   the thermal conduction for the same shot, #12658.
+
+   In contradistinction to the case above, a second discharge was studied
+   in a different transport regime.  In this shot (#15505) ECRH heating
+   off axis was used with double power (800 kW) on the same plasma
+   target.  The Mo emission was analyzed at a later time (t=0.135 s) after
+   the current flat top had been reached and the onset of the sawtooth
+   instability (t=0.120 s).  The off axis heating and the presence of the
+   sawtooth crashes produce a plateau in the central electron temperature
+   (the temperature profile is shown above) and a much broader region
+   emitting at high temperature.  We have applied the same method to
+   simulate the experimental spectrum (thick pink line in the figure
+   below).  The features a, b and g are well simulated with the emitting
+   ions (Mo^35+ to Mo^39+) in coronal equilibrium.  Further, the relative
+   ratio of these high temperature features with the line of Mo^32+ at 4.8
+   Å is well reproduced with a flat total molybdenum profile, N[mo] (r).
+   However, the features between 4.6 and 4.9 Å are not well simulated with
+   the assumption of coronal equilibrium, in particular the lines emitted
+   by Mo^31+ and Mo^30+ are underestimated. This implies that in the
+   radial region where these two ions exist (r/a>0.3) anomalous transport
+   is now present, reducing the degree of ionization.  Unlike the previous
+   case, in this phase of the discharge the shear has become positive and
+   the anomalous transport is growing, particularly in the half radius
+   region.  This observation is in agreement with the results found above
+   by deriving the impurity flux for Mo^31+.  In other work not reported
+   upon here, the impurity transport is modeled as being driven by
+   electrostatic turbulence [28] during the current flat top phase.
+
+                             [ECRH.bestfit.GIF]
+
+   We remark that molybdenum is an excellent diagnostic tool because it
+   has several ions that emit strongly and have appropriate ionization
+   times ( t ~ ms) in the temperature range up to 20 keV.  In particular
+   the resonant lines of the B-, Be- and Li -like ions are bright and can
+   be used as diagnostics of very high temperature plasmas in the same way
+   the N-, C- and B-like ions have been used in the present work.  A
+   synthetic spectrum for Mo^40+ to Mo^37+, both at high and low spectral
+   resolution, is shown in the figure below.  The present experiments at
+   FTU were performed with one and two gyrotrons; the installation of 4
+   tubes with a total effective full power of 1.6 MW is now in progress.
+   Consequently, in future experiments temperatures greatly in excess of 8
+   keV are expected and other plasma scenarios will be accessible; these
+   ions will provide an excellent diagnostic tool to study these plasmas.
+
+                              [ECRH.highTe.GIF]
+
+   _______________________________________________________________________
+   _
+
+  references
+
+   [1] J.E. Rice, J.L. Terry, K.B. Fournier, M.A. Graf, M. Finkenthal,
+   M.J. May, E.S. Marmar, W.H. Goldstein and F. Bombarda, X-ray and VUV
+   Observations of Mo^23+ - Mo^33+ Brightness Profiles. Journal of Physics
+   B: Atomic and Molecular Physics , 29, N. 11, p. 2191 (1996).
+
+   [2] K.B. Fournier, W.H. Goldstein, D. Pacella, R. Bartiromo, M. May and
+   M. Finkenthal, Collisional-Radiative Modeling Of The L-Shell Emission
+   Of Mo30+ To Mo33+ Emitted From A High-Temperature Low-Density Tokamak
+   Plasma. Physical Review E, 53, N. 1, p. 1084 (1996).
+
+   [3] R. Hulse, Nuc. Tech./Fus., 3, 259 (1983).  D. Post, R. Jensen, C.B.
+   Tarter, W. Grasberger and W. Lockke, Atomic Dat. and Nucl. Data Tables,
+   20, 5, 397-439 (1977).
+
+   [4] Bar-Shalom, A. and Klapisch, M., Computer Phys. Comm. 50,  375
+   (1988).  Klapisch, M., Computer Phys. Comm. 2,  239  (1971).  Klapisch,
+   M., Schwob, J., Fraenkel, B. and Oreg, J., J. Opt. Soc. Am. 67,  148
+   (1977).  Oreg, J., Goldstein, W. H., Klapisch, M. and Bar-Shalom, A.,
+   Phys. Rev. A 44,  1750  (1991).  Bar-Shalom, A., Klapisch, M. and Oreg,
+   J., Phys. Rev. A 38,  1773 (1988).
+
+   [5] M. Cohen , K.B. Fournier, W.H. Goldstein, Excitation Autoionization
+   Rates in Li-like Ar^15+ to S-like Ar^2+, Physical Review A, 57, N. 4,
+   p. 2651 (1998).   K.B. Fournier, M. Cohen, W.H. Goldstein, Dielectronic
+   Recombination Rates in H-like Ar^17+ to Ne-like Ar^8+, Physical Review
+   A, 56, N. 6, p. 4715-4732 (1997).
+
+   [6] K.B. Fournier, M.J. May, D. Pacella, B. Gregory, M. Finkenthal and
+   W.H. Goldstein, Calculated Radiative Power Losses from Mid- and High-Z
+   Impurities in Tokamak Plasmas, AIP Conference Proceedings 443: Atomic
+   Processes in Plasmas 11th Topical Conference, E. Oks and M. Pindzola,
+   editors, AIP, Woodbury, NY, p 73 (1998).
+
+   [7] K.B. Fournier, M. Cohen, W.H. Goldstein, A.L. Osterheld, M.J. May,
+   M. Finkenthal, J.L. Terry, J. Rice and M.A. Graf, Dielectronic
+   Recombination and Excitation-Autoionization Rates for Potassiumlike
+   Mo^23+ to Fluorinelike Mo^33+. Physical Review A 54, N. 5, p. 3870
+   (1996).
+
+   [8] M. J. May, M. Finkenthal, V. Soukhanovskii, D. Stutman, H. W. Moos,
+   D. Pacella, G. Mazzitelli, K. Fournier, W. Goldstein, Benchmarking
+   Atomic Physics Models for MCF Plasma Physics Experiments, Rev.
+   Scientific Instruments, 70, No. 1, 375 (1999).
+
+   [9] J.E. Rice, K.B. Fournier, M.A. Graf, J.L. Terry, M. Finkenthal, F.
+   Bombarda, E.S. Marmar and W.H. Goldstein, X-Ray Observations of 2l-nl'
+   Transitions in Mo^30+ to Mo^33+ from Tokamak Plasmas. Physical Review
+   A, 51, N. 5, p. 3551 (1995).
+
+   [10] J. Mandrekas, W. M. Stacey, and F. Kelly. Nucl. Fusion,
+   36:917--926, (1996).
+
+   [11]K.B. Fournier, D. Pacella, M.J. May, M. Finkenthal and W.H.
+   Goldstein, Calculation of the Radiative Cooling Coefficient for
+   Molybdenum in a Low Density Plasma. Nuclear Fusion, 37, N. 6, p. 825
+   (1997). (Corrigium 38, N. 4, 639 ó 640.)
+
+   [12] D. E. Post, R. Jensen, C. B. Tarter, W. Grasberger, and W. Lockke.
+   At. Data Nucl. Data Tables, 20:397--439, (1977).
+
+   [13] R. Clark, J. Abdallah, and D. E. Post, J. of Nuclear Materials
+   220-222, 1028  (1995).
+
+   [14]K.B. Fournier, M. Cohen, M.J. May, W.H. Goldstein, Radiative
+   Cooling Rate and Charge State Distribution for Argon in a Low Density
+   Plasma, At. Dat. Nucl. Dat. Tables, 70, N. 2, 231-254 (Nov.,1998).
+
+   [15]K.B. Fournier, M.J. May, D. Pacella, B. Gregory, M. Finkenthal and
+   W.H. Goldstein, Calculated Radiative Power Losses from Mid- and High-Z
+   Impurities in Tokamak Plasmas, AIP Conference Proceedings 443: Atomic
+   Processes in Plasmas 11th Topical Conference, E. Oks and M. Pindzola,
+   editors, AIP, Woodbury, NY, p 73 (1998).  D. Pacella, B.C. Gregory, L.
+   Gabellieri, G. Mazzitelli, M. Leigheb, G. Pizzicaroli, K.B. Fournier,
+   W.H. Goldstein, M. May, M. Finkenthal, Measurement of the Radiative
+   Cooling Rate for Krypton and Argon and their Profiles in the FTU
+   Plasma, Proceedings of the 25th European Conference on Controlled
+   Fusion and Plasma Physics, Praha, Czech Republic (June 1998), P. Pavlo,
+   editor, Europ. Phys. Soc., Geneva, ECA 22C, p. 858-861.
+
+   [16] K.B. Fournier, W.H. Goldstein, M. May, M. Finkenthal and J.L.
+   Terry, A Model for the Resonant Excitation Channels in the 3d^10-3d^94s
+   and 3d^10-3d^94p Transitions of Nickellike Mo^14+ and Zr^12+. Physical
+   Review A, 53, N. 5, p. 3110 (1996).
+
+   [17] J. Sugar, J. Reader and W. Rowan, Phys. Rev A, 51, 835 (1995).
+
+   [18] M. Klapisch, J. Schwob, M. Finkenthal, B. Fraenkel, S. Egert, A.
+   Bar-Shalom, C. Breton, C. DeMichelis and M. Mattioli, Phys. Rev. Lett.,
+   41, 403 (1978).
+
+   [19] J.E. Rice, K.B. Fournier, J.L. Terry, M.A. Graf, M. Finkenthal,
+   E.S. Marmar and W.H. Goldstein, X-ray Observations of 2l-nl'
+   Transitions from Zr, Nb, Mo and Pd in Near Neonlike Charge States.
+   Physical Review A, 53, N. 6, p. 3953 (1996).  J.E. Rice, K.B. Fournier,
+   M.A. Graf, J.L. Terry, M. Finkenthal, F. Bombarda, E.S. Marmar and W.H.
+   Goldstein, X-Ray Observations of 2l-nl' Transitions in Mo^30+ to Mo^33+
+   from Tokamak Plasmas. Physical Review A, 51, N. 5, p. 3551 (1995).
+
+   [20] R. Neu, K.B. Fournier, D. Schlögl and J. Rice Observations Of
+   X-Ray Spectra From Highly Charged Tungsten Ion In Tokamak Plasmas, J.
+   Phys. B: At. and Mol. Phys., 30, p. 5057-5067 (1997).
+
+   [21] K.B. Fournier, Atomic Data and Spectral Line Intensities for
+   Highly Ionized Tungsten (Co-like W^47+ to Rb-like W^37+) in a High
+   Temperature, Low Density Plasma Atomic Data and Nuclear Data Tables,
+   68, N. 1, p. 1-48 (1998).
+
+   [22] K. Asmussen, K.B. Fournier, J.M. Laming, R. Neu, J.F. Seely, R.
+   Dux, W. Engelhardt, J.C. Fuchs and the ASDEX Upgrade Team,
+   Spectroscopic Investigations of Tungsten in the EUV Region and the
+   Determination of its Concentration in Tokamaks. Nuclear Fusion, 38, N.
+   7, 967-986 (1998).
+
+   [23] D. Pacella, M. Mattioli, L. Gabellieri, G. Mazzitelli, K.B.
+   Fournier, M. Finkenthal, Direct Measurement of the Impurity Radial Flux
+   in the FTU Plasma Core, Plasma Physics and Controlled Fusion, 39, p.
+   1501-1508 (1997).
+
+   [24] R Bartiromo, F. Bombarda, L. Gabellieri, G. Pizzicaroli, A.
+   Tuccillo and R. Zagarella, Nucl. Instrum. Methods Phys. Res. B, 95, 537
+   (1995).
+
+   [25] D. Pacella, K.B. Fournier, M. Zerbini, M. Finkenthal, M. Mattioli,
+   M.J. May, W.H. Goldstein, S. Cirant, G. Granucci, A. Bruschi, A.
+   Simonetto, C. Sozzi, Temperature and Impurity Transport Studies of
+   Heated FTU Tokamak Plasmas By Means of a Collisional-Radiative Model of
+   X-ray Emission from Mo^30+ to Mo^39+, submitted to Phys. Rev. E (April
+   1999).
+
+   [26] M. Zerbini, P. Buratti, O. Tudisco, G. Giruzzi, A. Bruschi, S.
+   Cirant, G. Granucci, A. Simonetto, C. Sozzi, F. Gandini, D. Pacella,
+   K.B. Fournier, M. Finkenthal, ECE Diagnostic of High Temperature ECRH
+   Heated Plasmas on FTU, Rev. Scientific Instruments, 70, No. 1, 1007
+   (1999).
+
+   [27] P. Buratti et al., Phys. Rev Letters, 82, 569 (1999).
+
+   [28] D. Pacella, F. Romanelli, B. Gregory, M. Leigheb, G. Mazzitelli,
+   L. Gabellieri, R. deAngelis, M. Finkenthal, M. May, K.B. Fournier, W.H.
+   Goldstein, Impurity Transport Studies on the FTU Tokamak, Int. Atomic
+   Energy Agency meeting, Oct. 1998, Yokahama, Japan.
+     __________________________________________________________________
+
+   Physics and Space Technology home page LLNL Home Page LLNL Disclaimers
+
+   UCRL: MI-135159

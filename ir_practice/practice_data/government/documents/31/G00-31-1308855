@@ -1,0 +1,528 @@
+http://nmp-techval-reports.jpl.nasa.gov/DS1/PASM_Integrated_Report.pdf
+
+   L LL O C O C L O C O C K H E K H E K H E K H E E E E E D D D D M M M M
+   A A A A R R R R T T T I I T I I N N N N Power Actuation and Switching
+   Module DS1 Technology Validation Report Abbas Salim PASM Program
+   Manager Lockheed Martin Space Systems Company L2-30, Bldg. 551 1272
+   Borregas Avenue Sunnyvale, Ca. 94089 408-742-9568
+   abbas.a.salim@lmco.com Deep Space 1 Technology Validation Report-Power
+   Actuation and Switching Module Table of Contents Section Page Extended
+   Abstract
+   .......................................................................
+   .......................................................................
+   .... iv Power Actuation and Switching Module Design and Development
+   Flight Validation Report ......................... 1 1.0 Introduction
+   .......................................................................
+   .......................................................................
+   .......... 1 2.0 Technology Description
+   .......................................................................
+   ............................................................. 1 2.1
+   What It Is; What It Is Supposed To
+   Do.....................................................................
+   ........................................................ 1 2.2 Key
+   Technology Validation Objectives at
+   Launch.................................................................
+   ........................................... 1 2.3 Expected Performance
+   Envelope...............................................................
+   .......................................................................
+   . 2 2.4 Detailed
+   Description............................................................
+   .......................................................................
+   ....................... 2 2.5 Technology
+   Interdependencies......................................................
+   .......................................................................
+   ............. 6 2.6 Test Program
+   .......................................................................
+   .......................................................................
+   ....................... 6 3.0 Technology Validation Summary
+   .......................................................................
+   .............................................. 6 4.0 Technology
+   Application For Future
+   Missions...............................................................
+   .................................. 8 5.0 Acknowledgments
+   .......................................................................
+   ......................................................................
+   8 6.0 List of
+   References.............................................................
+   .......................................................................
+   .......... 8 Appendix A. DS1 Technology Validation Telemetry Channels
+   .......................................................................
+   .... 9 Appendix B. DS1 Technology Validation Power on/off Times
+   .......................................................................
+   ..... 9 Figures Figure Page Figure 1. PASM Module (1.525 × 1.525 ×
+   0.250 in.)
+   .......................................................................
+   ......................................... 1 Figure 2. PASM Switch
+   Configuration
+   .......................................................................
+   ................................................................ 2
+   Figure 3. Switch Current vs. Time
+   .......................................................................
+   .......................................................................
+   2 Figure 4. Detailed Functional Block Diagram (One of Four PASM
+   Switches)
+   .......................................................................
+   ... 3 Figure 5. Ceramic Substrate Milling
+   .......................................................................
+   .................................................................... 4
+   Figure 6. Substrate Masking and
+   Metallization..........................................................
+   ................................................................. 4
+   Figure 7. Populating and Bonding
+   Parts..................................................................
+   .................................................................... 4
+   Figure 8. HDI Laminating and
+   Etching................................................................
+   .......................................................................
+   5 Figure 9. Attaching Surface-Mounted
+   Parts..................................................................
+   .............................................................. 5 Figure
+   10. Wire-Bonding I/O
+   Leads..................................................................
+   .......................................................................
+   ... 5 Figure 11. PASM DS1 Flight
+   Configuration..........................................................
+   ..................................................................... 6
+   Figure 12. PASM Flight Performance (Switched Current vs. Time)
+   .......................................................................
+   ................... 7 Figure 13. PASM Flight Performance (Switched
+   Voltage vs.
+   Time)..................................................................
+   ........................ 7 Figure 14. Future HDI Technology Product
+   Road
+   Map....................................................................
+   .......................................... 8 Tables Table Page Table 1.
+   PASM Specifications
+   .......................................................................
+   .......................................................................
+   ...... 3 Table 2. Transient Thermal Analysis
+   .......................................................................
+   ................................................................... 6
+   iii Deep Space 1 Technology Validation Report-Power Actuation and
+   Switching Module EXTENDED ABSTRACT technologies. These are strong
+   product risk-mitigation steps that not only have helped to make PASM a
+   successful In a unique JPL, Lockheed Martin, and Boeing product, but
+   also have resulted in the successful government/industry partnership a
+   "state of the art" power development of credit card size dc-dc
+   converters at actuation and switching module (PASM) has been Lockheed
+   Martin. developed, designed, and fabricated for flight qualification on
+   NASA's Deep Space 1 (DS1) mission in the third quarter The key purpose
+   of the validation program was to validate of 1998. The features
+   associated with the development of the design and production processes
+   for mixed signal ASICs the PASM combine NASA/JPL's desire to advance
+   the art and the HDI packaging technique and materials by of power
+   electronics packaging, Lockheed Martin's exercising the electrical
+   functions of the switches in the proprietary high-density interconnect
+   (HDI) technology, and space environment. The validation program
+   included flying Boeing Company's expertise in the application specific
+   two PASM modules as a Category 3 experiment on DS1. integrated circuit
+   (ASIC) design and layout. The PASM The test program included switching
+   5-V power to a 1-A development project was organized under JPL's New
+   resistive load through each of the eight switches (four per Millennium
+   Program (NMP) Microelectronics Integrated module). The switches were
+   also operated in parallel (two at Product Development Team (IPDT) and
+   was cost-shared by a time) to switch 5-V power to the same 1-A
+   resistive load. both the government and industry. The industry assumed
+   the Certain electrical design flaws in the switch control ASICs cost of
+   developing the product, and the government paid for prevented them from
+   operating completely. As a result, the its fabrication and test.
+   in-rush and fault isolation features of the PASM switches were not
+   tested. The PASM is a quad-switch device. Each of its four stand- alone
+   switches provides the capability to switch power, to The PASM switches
+   were successfully exercised several isolate faults, and to limit
+   in-rush and fault currents, and times during the mission and showed no
+   performance supplies voltage and current telemetry. Additionally, it
+   degradation or inability to function. offers the capability for trip
+   time control, di/dt and dv/dt control, and remote on/off control. Each
+   switch can switch NASA/JPL has recently awarded a second contract to
+   the anywhere from 3 to 40 V at 3 A maximum and, as a result, Boeing
+   Company to produce a second-generation ASIC to can be used in switching
+   the primary as well as the correct the previous design flaws and
+   simplify the design. secondary side (conditioned) power. The use of HDI
+   These second-generation ASICs will be used in PASMs technology for
+   packaging and ASICs for switch control being procured by JPL for the
+   X2000 program. electronics gives PASM a 4 to 1 weight, volume, and
+   footprint advantage over existing hybrid products. It is the The PASM,
+   as well as the technologies used in building it, advanced packaging
+   technology and utilization of ASICs have succeeded to a large extent in
+   satisfying NASA's goal that makes the PASM unique. It retains, with
+   certain to miniaturize power electronics and provide wide-ranging
+   enhancements, all the electrical functions offered in a applicability
+   to future NASA science missions as well as single-switch hybrid module.
+   other LEO and GEO spacecraft. Additional HDI products in development at
+   Lockheed Martin include a second- Both HDI and mixed-signal ASIC
+   technologies are rapidly generation PASM, dc-dc converters, shunt
+   regulator maturing due to their applications in other power and non-
+   modules, and lithium-ion battery chargers using PASM power products as
+   well as NASA's and the Air Force's technologies. Many of these modules
+   are slated to be commitment to continue to promote and enhance these
+   delivered to JPL for NASA's X2000 programs in the near future. iv Deep
+   Space 1 Technology Validation Report-Power Actuation and Switching
+   Module L LL O C K H E O C K H E L O C K H E O C K H E E E E E D D D D M
+   M M M A A A A R T R T R T R T IIII N N N N Power Actuation and
+   Switching Module (PASM) Fact Sheet Contact for additional product
+   information: Lockheed Martin Commercial Space Systems Communications
+   and Power Center Newtown, PA 18940 215-497-1581
+   http://www.cpc.lmms.lmco.com S1 Vin_1 Vout_1 S2 Vin_2 Vout_2 S3 Vin_3
+   Vout_3 S4 Vin_4 Vout_4 PASM Switch Configuration PASM Module (1.525" x
+   1.525" x 0.250") High speed current limit What is it? < 100 usec The
+   power actuation and switching module (PASM) is a quad-switch module.
+   Each of the four switches in the Current Limit dV/dt controlled module
+   operates as a circuit breaker by combining both the turn OFF relay and
+   fusing functions into a single device to safely Overload threshold
+   switch electrical power to the spacecraft loads and to protect Load
+   fault and isolate the power source from any load faults. Trip delay
+   Current controlled turn ON Why is it exciting technology? Switch turns
+   ON * Lower power hardware manufacturing and test costs Normal load *
+   >4× reduction in weight, volume, and footprint current * Enabling
+   technology for small and large satellites Switch Current vs. Time *
+   Enabling technology for miniaturization of spacecraft power management
+   and distribution modules PASM Specifications When will it be
+   demonstrated? Parameter Specification * The flight demonstration on DS1
+   was completed in Number of switches four August 1999. Switched dc input
+   voltage range (Vin) 3 V to 40 V (28 V nominal) * The technology is
+   being adopted by NASA/JPL X2000 Housekeeping ± 15 V power (all switches
+   off) 80 mW max. program. Housekeeping ± 15 V power * The same packaging
+   technique as well as the PASM are (all switches on) 600 mW max. being
+   used to produce other power modules such as dc-dc Rated switch current
+   3 A max. converters, shunt regulators, battery chargers, etc. Total
+   switch current per module 12 A max. (sum of all four switches) Who
+   needs it? Switch on resistance (Vin to Vout) 85 m (at 100 °C junction
+   temperature) * All space missions, as well as commercial consumer
+   Overload trip current 3.5 A ± 7% electronics and power supplies
+   Overload trip delay 500 µs min; 500 ms max. * High-density power
+   supplies, instruments, sensors, and Current limit 4.5 A ± 7%
+   micro-power systems or avionics modules. Turn on time into full rated
+   load 300 µs min; user select max. Operational temperature range -40 °C
+   to +100 °C Storage temperature range -55 °C to +125 °C v Deep Space 1
+   Technology Validation Report-Power Actuation and Switching Module Power
+   Actuation and Switching Module Design and Development Flight Validation
+   Report Abbas Salim Lockheed Martin Space Systems Company, Sunnyvale
+   Operations 1272 Borregas Ave. L230, Bldg. 551 Sunnyvale, CA. 94089
+   (408) 742-9568 1.0 INTRODUCTION The Power Activation and Switching
+   Module (PASM) development project came about following the organization
+   of the first two New Millennium Program (NMP) Microelectronics
+   Integrated Product Development Team (IPDT) workshops in early 1996,
+   where a road map for the development of multiple chip modules (MCMs)
+   for power management and distribution (PMAD) electronics was
+   identified. The IPDT industry members proposed various integration and
+   packaging technologies to be developed or advanced jointly with the
+   government, toward the goal of fabricating the MCMs for validation on
+   various deep-space flights. The PMAD MCMs included the dc-dc
+   converters, power regulation and control, and power-switching and
+   distribution electronics. The PASM was conceived to be, and approved
+   for development as the very first product toward fulfilling the NMP
+   roadmap objectives. The Lockheed Martin Corporation's Missile and Space
+   Division and the Boeing Company (the two key members of the Figure 1.
+   PASM Module microelectronics IPDT) put forth two separate proposals for
+   (1.525 ×××× 1.525 ×××× 0.250 in.) the development of the PASM. The
+   government (NASA/JPL) opted to combine the best parts of both 2.0
+   TECHNOLOGY DESCRIPTION proposals, thus forming a joint NASA/JPL,
+   Lockheed Martin, and Boeing team for the development of the PASM. 2.1
+   What It Is; What It Is Supposed To Do Lockheed Martin Corporation was
+   given the overall The heart of each PASM is a switch control ASIC
+   fabricated program responsibility along with the fabrication of the in
+   Harris Semiconductor's Radiation-Hard Silicon Gate flight-validation
+   modules using their proprietary HDI (high- (RSG) process, which is
+   radiation-total-dose tolerant and density interconnect) packaging
+   technology. The Boeing capable of sustaining high voltages. The PASM is
+   a quad- Company was given responsibility for the development and switch
+   device. Each of the four standalone switches fabrication of the
+   application specific integrated circuits provides the capability to
+   switch power, isolate faults, and (ASICs) for the PASM. Most design and
+   development effort limit in-rush and fault currents. Each switch can
+   switch was funded by the corporations' internal research and anywhere
+   from 3 to 40 V at 3 A maximum and, as a result, development funds,
+   while the government paid for can be used in switching the primary as
+   well as the fabricating and testing modules, including the ASICs. The
+   conditioned (secondary) power. The PASM also includes overall design
+   and performance requirements for the PASM trip-time control, di/dt
+   control, and provides remote on/off were defined by the Lockheed Martin
+   Corporation. The capability and current and voltage telemetry. The use
+   of Boeing Company was primarily responsible for the design HDI
+   technology for packaging and of ASICs for switch of the control
+   circuitry for the switch. Work on the control electronics gives the
+   PASM a four-to-one weight, production phase started in April 1997 and
+   the flight- volume, and footprint advantage over existing products.
+   validation modules were delivered to JPL in September 1997. A picture
+   of the fully finished de-lidded module is 2.2 Key Technology Validation
+   Objectives at Launch shown in Figure 1. The key purpose of the
+   validation program was to validate the design and production processes
+   for mixed signal ASICs and the HDI packaging technique and materials by
+   1 Deep Space 1 Technology Validation Report-Power Actuation and
+   Switching Module exercising the electrical functions of the switches in
+   the externally for power switching. Each switch primarily space
+   environment. The validation program included flying functions as a
+   fault isolation device or a circuit breaker and two PASM modules as a
+   Category 3 experiment on DS1. performs both power switching and fusing
+   functions. It The test program included switching 5-V power to a 1-A
+   offers current controlled turn on (in-rush current limiting), resistive
+   load through each of the eight switches (four per fault current
+   limiting, trip-time control, and voltage- module). The switches were
+   also operated in parallel (two at controlled turn off. These features
+   are graphically depicted a time) to switch 5-V power to the same 1-A
+   resistive load. in Figure 3. Certain electrical design flaws in the
+   switch control ASICs prevented them from operating completely. As a
+   result, the in-rush and fault isolation features of the PASM switches
+   S1 were not tested. Vin_1 Vout_1 S2 2.3 Expected Performance Envelope
+   Vin_2 Vout_2 The PASM switches were successfully exercised several S3
+   times during the mission and showed no performance Vin_3 Vout_3
+   degradation or inability to function. Both the load voltage S4 and
+   current telemetry were monitored to assess the Vin_4 Vout_4 performance
+   of each of the eight PASM switches and to ensure that the switch turn
+   on voltage drop is not excessive. 2.4 Detailed Description Figure 2.
+   PASM Switch Configuration Electrical Design-A simplified functional
+   block diagram of the PASM switch configuration is shown in Figure 2.
+   The key performance parameters of the PASM are listed in Table 1. A
+   more detailed functional diagram of a single The module includes four
+   independently configurable switch in the PASM is shown in Figure 4,
+   which shows the switches with independent command, telemetry, and
+   power-switch FET along with its SCA, various timing housekeeping power
+   lines. The only common node in the capacitors, current sense resistor,
+   output clamp diode and module is the ground. The switches either can be
+   used associated input/output functions. Each of the four switches
+   individually or can be connected in series or in parallel in the module
+   includes a total of nine discrete components interconnected using the
+   HDI technology. High speed current limit <100 µsec Current limit dV/dt
+   controlled turn OFF Overload threshold Load fault Trip delay Current
+   controlled turn ON (In-rush current limiting Switch turns ON Normal
+   load current Figure 3. Switch Current vs. Time 2 Deep Space 1
+   Technology Validation Report-Power Actuation and Switching Module Table
+   1. PASM Specifications Parameter Specifications Number of switches Four
+   Switched dc input voltage range (Vin) 3 V to 40 V (28 V nominal)
+   Housekeeping ±15 V power (all switches off) 80 mW max. Housekeeping ±15
+   V power (all switches on) 600 mW max. Rated switch current 3 A max.
+   Total switch current per module 12 A max. (sum of all four switches)
+   Switch on resistance (Vin to Vout) 85 m (at 100 °C junction
+   temperature) Overload trip current 3.5 A ±7% Overload trip delay 500
+   µsec min/500 msec max. Current limit 4.5 A ±7% Turn on time into full
+   rated load 300 µsec min; user select max. Operational temperature range
+   40 °C to +100 °C Storage temperature range 55 °C to +125 °C Figure 4.
+   Detailed Functional Block Diagram (One of Four PASM Switches) ASIC
+   Design-The switch control ASIC (SCA) was custom SCA is 252 by 216 mils
+   with 19 I/O and 6 power/ground designed by Boeing and fabricated in
+   Harris leads. Also included were 27 test pads for prototype debug.
+   Semiconductor's RSG process. The RSG process is thick- The power
+   consumption is 150 mW when enabled, and 20 film SOI BICMOS with process
+   enhancements to mitigate mW when sleeping. Its primary function is to
+   turn on and the threshold voltage shift post-radiation total dose. The
+   off a power metallic oxide semiconductor field-effect 3 Deep Space 1
+   Technology Validation Report-Power Actuation and Switching Module
+   transistor (MOSFET) in such a way that load current di/dt is
+   controlled, and the MOSFET is protected from destructive fault
+   conditions. Its secondary functions are to provide load voltage and
+   load-current telemetry, overload status signals, and overload shut down
+   for load fault current. The SCA requires five external capacitors,
+   three of which are selectable for control of turn-off delay, current
+   ramp rate, and overload delay. In Figure 1 there are four SCAs located
+   in the center of the module, underneath the eight capacitors. PASM
+   Packaging Overview-The PASM uses the Lockheed Martin HDI packaging
+   technology to fabricate a KAPTONTM (polyimide) -based multi-layer
+   interconnect Figure 6. Substrate Masking and Metallization structure.
+   The KAPTONTM structure is laminated one layer at a time to the top
+   surface of the bare die, packaged parts and other active and passive
+   components. Components may be mounted to the topmost layer of the HDI
+   interconnect using standard surface-mount techniques. Components used
+   in HDI are first characterized, which is the physical measurement of
+   components and the mapping of component I/O locations for use during
+   the generation of pads and traces. Pockets to accept the parts are
+   machined into an alumina ceramic substrate (See Figure 5). Pockets are
+   sized to ensure that the topmost surface of the part is coplanar to the
+   surface of the substrate. The substrate is patterned by sputter
+   deposition, photolithography, and etching to form the required elements
+   prior to component Figure 7. Populating and Bonding Parts placement
+   (See Figure 6). The interconnect layer is fabricated upon the populated
+   The die is attached with thermoplastic resin, thermosetting substrate
+   as follows: epoxies (conductive and non-conductive) and various high
+   temperature solders (See Figure 7). Using a combination of vacuum,
+   heat, and pressure a KAPTONTM film is laminated onto the populated
+   substrate using thermoplastic adhesive. The interconnect bond pads are
+   located using an image processing system. A direct- write laser forms
+   vias through the KAPTONTM to the interconnect bond pads and to I/O pads
+   on the substrate metallization. The first interconnect layer is formed
+   by sputtering films of titanium, copper, and titanium again. The metals
+   are patterned by exposing a negative photo-resist with a direct- write,
+   computer-controlled laser. The metal is then chemically etched leaving
+   the desired circuit pattern (See Figure 8). Subsequent layers are
+   formed by laminating additional layers of KAPTONTM onto the substrate
+   using a thermosetting adhesive and repeating the drill, metallization,
+   pattern, and etch process. The module is then populated with
+   surface-mounted components (See Figure 9). Figure 5. Ceramic Substrate
+   Milling 4 Deep Space 1 Technology Validation Report-Power Actuation and
+   Switching Module resistance of the switch. The minimization of "ON"
+   resistance was a critical performance characteristic, if the switch was
+   to perform properly as a primary as well as a secondary side or
+   conditioned power switch. The trace size required to carry the
+   specified current with a maximum 10° C rise using 15-µm copper is
+   approximately 0.3-in. wide. The switch FET die is 0.366 by 0.266 in.,
+   which means the trace-width requirement is nearly the length of the FET
+   die. The required trace width indicated that the switch FET must lie
+   parallel to the package interconnect to provide adequate trace access
+   to package input/output pins. The FET die must also be physically next
+   to package output to limit total interconnect length (i.e., lead
+   length, package I/O wire bonds, and HDI interconnect). Figure 8. HDI
+   Laminating and Etching Thermal dissipation in the PASM for normal
+   steady state conditions at 3-A maximum-rated current on all four
+   switches was not a significant design driver due to the thermally
+   efficient "chips first" HDI packaging as well as physically large FET
+   die used for switching. The normal operation of the PASM with all four
+   switches in use results in the FET die temperature approximately 4.0° C
+   above ambient. The real design concern was "failure" operation of the
+   PASM. The PASM is designed to be a smart switch: that is, respond to a
+   current over a specified limit. If a load controlled by the PASM
+   exceeds a preset current for a specified time, the PASM quickly shuts
+   off. The affected load is protected and the failure is prevented from
+   Figure 9. Attaching Surface-Mounted Parts propagating. The PASM is
+   designed to handle large transient currents, shut off, and be available
+   to be The completed HDI module is epoxy-bonded into a standard
+   commanded back on when required. KOVARTM package and the I/O is
+   wire-bonded (See Figure 10). The package is seam-sealed to complete the
+   module The current available from most spacecraft power sub- assembly.
+   systems in short circuit condition is extremely large. PASM is designed
+   to survive large current transients and turn off without being damaged
+   or damaging the surrounding switches contained in the module. Thermal
+   analysis of the PASM switch components was performed using SINDA 87TM
+   assuming an ambient temperature of 75° C. Electrical power applied to
+   each junction in the switch was modeled as a square wave pulse of
+   100-µsec duration. Only the FET had a significant junction temperature
+   increase from the initial 75° C ambient. Results of the transient model
+   are tabulated in Table 2. The CTE differences between the large FET and
+   the 96% Figure 10. Wire-Bonding I/O Leads alumina substrate typically
+   used for HDI was evaluated to insure the product would meet mission
+   requirements. The Multi-chip module packaging issues-PASM presented
+   large size of the FET die in the PASM required the use of three major
+   design issues: current handling capacity of gold-clad-molybdenum tabs
+   (molytab) or interposers multi-layer thin-film HDI structure, heat
+   dissipation, and between the base of the FET and the alumina substrate
+   [4]. CTE (coefficient of thermal expansion) mismatch of large The
+   FET-die-to-molytab attachment used gold/germanium power
+   die-to-substrate. The current handling capacity of eutectic; the
+   molytab-to-substrate attachment used HDI in this application was less
+   of a concern than the "ON" IndalloyTM 165 eutectic. The use of the
+   molytab in this 5 Deep Space 1 Technology Validation Report-Power
+   Actuation and Switching Module application was dictated by (1) the
+   physical size of the die, in-rush and fault isolation features of the
+   PASM switches (2) the large number of possible thermal and power cycles
+   were not tested. the module would be exposed to in normal operation,
+   and (3) the inability to use a silver-loaded epoxy. Table 2. Transient
+   Thermal Analysis* Component Power (W) T junction (C ) Q1 (FET) 3500
+   96.2 CR1 0 77.0 U1 (ASIC) 0.151 75.0 R1 (Current Sense) 290 75.6 Q31
+   0.370 75.7** * One Switch circuit consists of Q,CR,U, and R (Capacitors
+   not shown). ** Q31 is an Adjacent FET, Normal Operation (Shown for
+   Comparison). The design of power electronics is constantly under
+   pressure to reduce size and weight and increase interconnect density to
+   better integrate power products with the end users they Figure 11. PASM
+   DS1 Flight Configuration serve. The drive to integrate power
+   electronics generally requires technologies that do not easily lend
+   themselves to 2.7 Comparison Between Ground Test and Flight Test
+   carrying large currents. The Lockheed Martin HDI Figures 12 and 13 show
+   the PASM in-orbit performance technology provides a unique blend of
+   capabilities for over time. Figure 12 shows the load current supplied
+   by power packaging. HDI technology has historically been each of the
+   eight PASM switches, and Figure 13 shows the used for digital or RF
+   applications and has only been voltage at the load supplied by the
+   individual switches. applied to power packaging in the last few years.
+   The These figures show that over a period of nearly 8 months, standard
+   HDI process has been modified to allow use of up all eight switches
+   performed satisfactorily and did not to 24 µm (0.001 in.) copper layers
+   for power applications. exhibit any degradation in the performance,
+   primarily in Processing temperatures have been decreased to allow the
+   terms of the excessive voltage drop in the switch itself. No use of
+   magnetic as well as packaged parts. difference was seen in the PASM
+   ground and in-orbit performance. Accommodation of PASM on DS1-A set of
+   PASMs was launched on DS1 in October 1998 for flight-performance 3.0
+   TECHNOLOGY VALIDATION SUMMARY verification and validation. The DS1
+   PASMs are mounted on a printed circuit board (see Figure 11) and housed
+   in a A state-of-the-art PASM using HDI and mixed signal ASIC VME cage.
+   The outputs of the modules are connected to technologies has been
+   developed. This program has dummy loads for on/off characterization of
+   the PASM significantly contributed in validating several production
+   switches and their performance evaluation during various processes
+   which are key to the development and production phases of the mission.
+   The first set of PASM performance of future high-density lightweight
+   power electronics. The test data from DS1 was received in February
+   1999. eventual goal is a self-contained, three-dimensional avionics
+   module for both space and commercial applications. 2.5 Technology
+   Interdependencies PASMs were flown on DS1 as Category 3 electronics The
+   PASM performance test data received from the DS1 experiment and
+   therefore had no direct impact on the flight and incorporation of
+   various lessons learned from the performance of other technologies
+   tested on DS1 or on other design and fabrication phase of this module
+   should help in subsystems of the spacecraft. enhancing the performance
+   of the second generation PASM currently under development. 2.6 Test
+   Program The test program included switching 5-V power to a 1-A NASA/JPL
+   has recently awarded a second contract to the resistive load through
+   each of the eight switches (four per Boeing Company to produce a
+   second-generation ASIC to module). The switches were also operated in
+   parallel (two at correct the previous design flaws and simplify the
+   design. a time) to switch 5-V power to the same 1-A resistive load.
+   These second-generation ASICs will be used in PASMs Certain electrical
+   design flaws in the switch control ASICs being procured for the X2000
+   program. prevented them from operating completely. As a result, the 6
+   Deep Space 1 Technology Validation Report-Power Actuation and Switching
+   Module 56 62 63 1800 67 1600 68 69 1400 71 72 1200 73 75 1000 Current
+   Count 103 800 110 116 193 600 151 116 163 400 187 73 Day 200 193 68 221
+   0 228 1 2 3 56 242 4 5 6 7 8 Switch No. Figure 12. PASM Flight
+   Performance (Switched Current vs. Time) 56 62 63 800 67 68 700 69 71
+   600 72 73 500 75 103 Voltage Count 400 110 116 300 193 151 200 163 116
+   187 73 100 Day 193 68 221 0 228 1 2 3 56 4 242 5 6 7 8 Switch No.
+   Figure 13. PASM Flight Performance (Switched Voltage vs. Time) 7 Deep
+   Space 1 Technology Validation Report-Power Actuation and Switching
+   Module 4.0 TECHNOLOGY APPLICATION FOR FUTURE Electronics, Morrestown,
+   New Jersey; and at the Boeing MISSIONS Company, Seattle, Washington.
+   The financial support for the design and development of the PASM and
+   its ASICs The PASM, as well as the technologies used in building the
+   was provided by Lockheed Martin and the Boeing PASM, have succeeded to
+   a large extent in satisfying Company. The program to develop the PASM
+   was NASA's goal of miniaturizing power electronics and have a organized
+   by JPL for the National Aeronautics and Space added wide-ranging
+   applicability to future NASA science Administration, which also paid
+   for its fabrication, test and missions as well as other LEO and GEO
+   spacecraft. flight validation on DS1. Lockheed Martin was recently
+   awarded a $16 million contract to design and build multiple dc-dc
+   converters, shunt Several organizations and individuals have
+   contributed regulator modules, and lithium-ion battery chargers using
+   significantly to the successful development of the PASM. PASM
+   technologies. Supply of a large number of second- They include Dr. Leon
+   Alkalai, Karla Clark, John Treichler generation PASMs is also included
+   in the same contract for and Greg Carr of JPL; Gary Nelson and David
+   Hogue of NASA's X2000 programs. Figure 14 shows the technology Boeing
+   Company; and Jim Jud, James Mulvey, Gerhard road map for the recently
+   awarded contract and the future Franz and Lynn Melino of Lockheed
+   Martin Corporation. product development possibilities. Our sincere
+   thanks and recognition are extended to the DS1 Program Office for their
+   willingness to fly the PASM on The PASM design and its technologies are
+   also applicable DS1 as an experiment for flight validation. Chuck
+   Minning to consumer electronics-power-switching applications that of
+   JPL (NMP Microelectronics IPDT Lead) deserves special always emphasize
+   miniaturization and lightweight products. thanks for his encouragement
+   and support. 6.0 LIST OF REFERENCES PASM [1] "Development of a
+   State-of-the-Art Power Actuation Shunt and Switching Module," IEEE
+   International Workshop Regulator on Integrated Power Packaging,
+   Chicago, Ill. Sep. 17 Power 19, 1998. Battery DC-DC Mgmt & Distribution
+   Charger Converter [2] "PASM, The Advanced Power Actuation and Module
+   Switching Module as the Building Block for Space Micropower Systems,"
+   Govt. Microcircuit Applications Conference, Monterey, CA, Mar. 811,
+   1999. Power System Avionics Module [3] "Power Electronics for the Next
+   Century-First Step," Module 2000 IEEE Aerospace Conference, Big Sky,
+   Montana, Other March 1825, 2000. Technology [4] Sergent, J. and C.A
+   Harper, Hybrid Microelectronics Development Handbook, McGraw-Hill,
+   Inc., 1995. [5] Fillion, R., R. Wojnarowski, R. Saia, and D. Kuk,
+   "Demonstration of a Chip Scale Chip-on-Flex Figure 14. Future HDI
+   Technology Product Technology," ICEMCM Proceedings, 1996. Road Map [6]
+   Lockheed Martin Government Electronic Systems Microwave Hign Density
+   Interconnect Design Guide, Revision A, October 17, 1995. 5.0
+   ACKNOWLEDGMENTS [7] Burdick, W. and R. Fillion, "Extension of the
+   Chip-on- Flex-Technology to Known Good Die," Microcircuits The work
+   described in this report was carried out at & Electronic Packaging,
+   Vol. 19, Number 4, 4th Qtr., Lockheed Martin Communications and Power
+   Center, 1996. Newtown, Pennsylvania; Lockheed Martin Government 8 Deep
+   Space 1 Technology Validation Report-Power Actuation and Switching
+   Module Appendix A. DS1 Technology Validation Telemetry Channels Below
+   is a list of all of the telemetry channels that the PASM team collects
+   and uses. (Kirk Fleming, 10/14/99.) Channel Mnemonic P-0315
+   PASMdataQual P-0316 PASMdataWord P-0317 PASM_t_stam; B-0032
+   bmPASMgdcdct B-0033 bmPASMbdcdct B-0034 bmPASMbdtlct Appendix B. DS1
+   Technology Validation Power on/off Times LPE/PASM initial turn-on was
+   February 25, 1999. The experiment was then conducted weekly from
+   power-off. (Kirk Fleming, 10/29/99) 9

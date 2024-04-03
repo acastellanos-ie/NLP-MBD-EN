@@ -1,0 +1,81 @@
+http://www.ghcc.msfc.nasa.gov/overview/wind.html
+
+                          [USEMAP:overview_nav.gif]
+
+   Measuring Winds with Lasers   [ SPARCLE Home ]   [ MACAWS Home ]
+
+   A large gap in our understanding of the world's weather and climate is
+   knowledge of wind speeds and directions in clear air. Instruments on
+   the ground or on balloons and satellite instruments are limited with
+   respect to measuring winds. In fact, direct measurements of global
+   winds are the single most important missing data set at the present
+   time with respect to weather forecasts and climate analyses. A laser
+   wind sensor aboard an Earth observing platform is the strongest
+   candidate to fill this gap.
+
+   [sparcle.jpg] To demonstrate technologies for such an instrument,
+   NASA/Marshall and the GHCC were authorized in 1997 to develop the SPAce
+   Readiness Coherent Lidar Experiment (SPARCLE), a low-cost demonstration
+   sponsored by NASA's New Millennium Program. In operation, SPARCLE scans
+   a circular pattern across the Space Shuttle's ground track, aiming
+   pulses of eye-safe laser light into the atmosphere and measuring the
+   light that is reflected back to it by dust and aerosols in the
+   atmosphere. The time between pulse and echo will (like radar) determine
+   the distance to an object. The shift in the color of the light will
+   tell how fast the particles are moving along the laser's line of sight.
+   Combining measurements from viewing ahead to viewing aft will provide
+   two velocity components, from which the true wind speed and direction
+   can be calculated in a column from the surface of the Earth to an
+   altitude of 10 to 20 km. For all its ambition, SPARCLE will start with
+   a modest size; two "Getaway Specials," cans the size of a large
+   wastepaper basket, will contain a laser with output power of only 0.6
+   watts, the optical system, and the appropriate electronics. Using a
+   "GAS can" will allow scientists to put SPARCLE's optical and electronic
+   systems in a pressurized environment without having to ruggedize them
+   for space. Although it will operate for only about 24 hours, SPARCLE
+   will demonstrate technologies for an operational laser sounder aboard a
+   future Earth observing platform. The Shuttle mission is scheduled to
+   fly in 2001.
+
+   [dc8.gif] The technology chosen for SPARCLE has been amply demonstrated
+   on aircraft in meteorological studies. The GHCC-led Multi-center
+   Airborne Coherent Atmospheric Wind Sensor (MACAWS) flies on the NASA
+   DC-8 research aircraft. MACAWS has a world-class capability to measure
+   fields of winds at several vertical levels by scanning the laser beam
+   during flight. This permits the study of atmospheric processes and
+   features that may be inadequately resolved or missed completely by more
+   conventional techniques, such as ground-based radar. For example,
+   measurements of the multi-level wind field near Point Arena,
+   California, in June 1996 (figure below), readily show the northerly
+   flow in the marine layer, the strong variability in the cross-shore
+   direction within the marine boundary layer (especially at 150 m above
+   sea level), and the structural changes in the vertical components.
+   MACAWS is well-suited to study coastal meteorological processes,
+   especially in regions where complex terrain may affect the siting and
+   operation of other sensors. Several field experiments with be conducted
+   with MACAWS in the future, including study of the intensification and
+   tracking of Atlantic hurricanes in summer 1998, and simulation and
+   validation of SPARCLE.
+
+                             [bams_ptarena.gif]
+
+   More information on SPARCLE and MACAWS
+
+   GHCC Contacts:
+   Dr. Michael J. Kavaya
+   Dr. Tim Miller
+   Dr. Jeffry Rothermel
+   __________________________________________________________________
+
+   Comments regarding our web service may be e-mailed to:
+
+     paul.meyer@msfc.nasa.gov
+   __________________________________________________________________
+
+   Responsible Official:
+   Dr. James E. Arnold (jim.arnold@msfc.nasa.gov)
+   Page Curator:
+   Diane Samuelson (diane.samuelson@msfc.nasa.gov)
+   __________________________________________________________________
+
+   Last Updated: October 9, 1998

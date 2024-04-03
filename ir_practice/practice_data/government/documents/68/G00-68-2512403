@@ -1,0 +1,117 @@
+http://www.awc-kc.noaa.gov/awc/aviation_weather_center.html
+
+   STANDARD BRIEFING
+     __________________________________________________________________
+
+    (The intent of the 'Standard Briefing' is for the pilot to get a good
+       look at the weather, call the FSS, and then follow along on the
+   computer screen in an orderly and informed fashion. Call 1.800.WXBRIEF,
+                             for a Legal Brief)
+
+     1. Adverse Conditions:
+
+   Blue Button Convective SIGMETs (WST) Blue Button Domestic SIGMETs (WS)
+   Blue Button AIRMETs
+   Blue Button NCWF Blue Button U.S. Offshore SIGMETs (graphical)
+   Black Dot CCFP (Will resume 01MAR02) gray ball Oceanic FIR SIGMETs
+   (text)
+   [otlkf.gif] SPC Convective Watches (WW) gray ball International SIGMETs
+   (text)
+
+     2. VFR Flight:
+
+                       Recommended? - Pilot Discretion
+
+     3. Synopsis:
+
+   green Surface Analysis Chart * plug-in viewer Constant Pressure
+   Analysis Charts * plug-in viewer
+   green Weather Depiction Chart green 850MB green 500MB green 200MB
+   green Radar Summary Chart green 700MB green 300MB
+
+     4. Current Conditions:
+
+   green ball METARs (by ICAO identifier) blue Temperature/Dewpoint
+   (graphics) green ball Current PIREPs (graphics) | new banner
+   green ball METARs (Plain English)   green ball Interactive PIREPs
+   (ADDS) | new banner
+
+   Satellite
+   [right.gif] Visible/Fog [right.gif] Water Vapor [right.gif] Infrared
+   Blue Button GOES 8 (310k) Blue Button North Atlantic (195k) Blue Button
+   North Atlantic (250k)
+   Blue Button GOES 10 (260k) Blue Button Pacific (240k) Blue Button
+   Pacific (270k)
+   Blue Button EUR-AFR-ASIA (260k)
+   Blue Button North Atlantic Polar (280k)
+   Blue Button North Pacific Polar (267k)
+   Blue Button South America (215k)
+
+   Radar
+     [right.gif] National Radar w/Tops
+   green ball NWS Radar Site blue Single Image (39k) green ball Radar
+   Observations (ROB) (text)
+   green ball Alternate NWS Radar Site blue Image Loop (234k java applet)
+
+     5. En Route Forecast:
+
+            blue Area Forecasts (FA) blue Low Level SIGWX Progs
+            green ball TWEB routes   blue High Level SIGWX Progs
+
+     6. Destination Forecast: TAF decoder
+
+   green ball Individual TAFs (text)
+      (by ICAO identifier)          blue Regional TAFs (text)
+                                       (menu)                blue TAF Graphics
+                                                                (menu)
+
+     7. Winds Aloft:
+
+                green ball Winds and Temperatures Aloft (FD)
+
+     8. Notices to Airmen:
+
+   gray ball U.S. NOTAM Office
+      (by ICAO identifier) gray ball Notices to Airmen Publication gray
+   ball UK NOTAMS
+
+     9. ATC Delays:
+
+                  gray ball National Airspace System Status
+
+     10. Additional Information:
+
+   User Customized Graphical Weather Center Weather Advisories and
+   Meteorological Impact Statements
+   Blue Button AWC Product Overlays green ball CWSU Corner
+
+   Convective Outlook from SPC Historical PIREP Images
+   [otlkf.gif] Day 1 Blue Button PIREPs from yesterday and previous months
+   [otlkf.gif] Day 2
+     __________________________________________________________________
+
+    Miscellaneous AVIATION PRODUCTS
+
+   Blue Button International Flight Folder Documentation Program green
+   ball WAFS FAX products (TIFF images)
+     green ball NWS FAX products (TIFF images)
+     __________________________________________________________________
+
+   Blue Button AWC original or value-added products [otlkf.gif] Storm
+                                                    Prediction Center products
+   [greenbal.gif] National Weather Service products gray ball Other
+                                                    products
+     __________________________________________________________________
+
+   disclaimer FAQs feedback home
+
+   Aviation Weather Center U.S. Department of Commerce National Oceanic
+   and Atmospheric Administration National Weather Service National
+   Centers for Environmental Prediction
+
+                                          Page Author: P. Kennedy 02.17.00
+                                           Updated by: P. Kennedy 12.31.01
+                                                   webawc@awc.kc.noaa.gov
+
+
+    Aviation Weather Center, Kansas City, Missouri

@@ -1,0 +1,868 @@
+http://wsom.nws.noaa.gov/manual/CHAPTERC/NC109208.HTML
+
+   commerce logo        UNITED STATES DEPARTMENT OF COMMERCE
+                                                       National Oceanic
+   and Atmospheric Administration
+                                                       NATIONAL WEATHER
+   SERVICE
+                                                       Silver Spring, Md.
+   20910
+
+                                                       August 31, 1992
+                                            W/OM11
+
+   TO: All Holders of Operations Manual
+
+    SUBJECT: Transmittal Memorandum for Operations Manual Issuance 92-8
+
+   1. Material Transmitted:
+
+   WSOM Chapter C-10, State Forecasts.
+
+   2. Summary:
+
+   a. The entire chapter has been extensively revised and should be
+   considered as an entirely new issuance.
+
+   b. The state forecast (SFP) is now a 1- to 5-day discreet period
+   forecast, incorporating the former 3- to 5-day extended forecast
+   product (EFP).
+
+   c. The EFP as a separate product issuance is hereby eliminated.
+
+   d. All SFPs now use some form of the Universal Generic Code
+
+   e. The guidelines in this chapter are in force through Stage 1 of the
+   National Weather Service's modernization and associated restructuring
+   as referenced in section 1.
+
+   3. Effects on Other Instructions:
+
+   Supersedes WSOM Chapter C-10, State and Extended Forecasts, Transmittal
+   Issuance 79-15,
+   December 5, 1979; and revisions contained in Operations Manual Letter
+   9-86, September 22, 1986;
+   and Operations Manual Letter 10-88, December 1, 1988.
+
+   Elbert W. Friday, Jr.
+   Assistant Administrator
+     for Weather Services
+     __________________________________________________________________
+
+   Issue Date Org. Code                               NATIONAL WEATHER
+   SERVICE       Part Chap.
+   8/31/92      W/OM11                                          Operations
+   Manual                           C     10
+
+   This WSOM Chapter is Effective Immediately
+
+                               STATE FORECASTS
+
+    Table of Contents:
+
+                  1. Purpose
+
+                  2. Organizational Responsibilities
+
+                       2.1 Weather Service Headquarters (WSH)
+                       2.2 Regional Headquarters (RH)
+                       2.3 Weather Service Forecast Office (WSFO)/NEXRAD
+   Weather
+                              Service Forecast Office (NWSFO)
+
+                  3. State Forecast Product (SFP) Definition
+
+                       3.1   SFP Issuance Times
+                       3.2   SFP Format
+                       3.3  General SFP Content
+                       3.4  1- and 2-Day Forecast Content
+                       3.5  3- to 5-Day Extended Forecast Content
+
+                  4. SFP Wording and Writing Style Guidelines
+
+                        4.1  General
+                        4.2  Stress Important Elements
+                        4.3  Highlight Significant Changes
+                        4.4  Warning, Watch and Advisory Situation
+                        4.5  Emphasize Unusual Weather
+
+                  5.  Wording Individual Elements
+
+                       5.1  Precipitation
+                       5.2  Temperature
+                              5.2.1  Temperature Presentation
+                              5.2.2  Falling Daytime, Rising Nighttime, or
+   Steady Temperatures
+
+                       5.3   Wind
+                       5.4   Sky Condition
+                       5.5   Other Elements
+
+                  6.  Updates
+
+                       6.1  Definition and Formats
+                       6.2  Update Criteria
+
+
+     __________________________________________________________________
+
+    1.   Purpose. This Weather Service Operations Manual (WSOM) chapter
+   describes the state forecast program, assigns responsibilities and
+   establishes guidelines on the wording, content and format of the State
+   Forecast Product (Automation of Field Operations and Services product
+   category SFP). Written instructions cannot cover every situation.
+   Operational personnel must use initiative and good professional
+   judgment to minimize the risk to public safety and property in those
+   conditions or events not covered by these or other instructions.
+
+    Guidelines outlined in this chapter will be valid for offices through
+   Stage 1 of the National Weather Service's (NWS) modernization and
+   associated restructuring. This stage is characterized by the
+   introduction of the Weather Surveillance Radar 1988 Doppler, which was
+   developed by the Next Generation Radar (NEXRAD) program, and the
+   Automated Surface Observing System.
+
+    2. Organizational Responsibilities.
+
+    2.1  Weather Service Headquarters (WSH). Overall responsibility for
+   the state forecast program rests with the Assistant Administrator for
+   Weather Services. Staff assistance is provided by the Director, Office
+   of Meteorology (OM) and its Warning and Forecast Branch.
+
+    2.2  Regional Headquarters. Provides regional instructions based on
+   guidelines found in this WSOM chapter and submits them to OM for
+   approval before issuance. Ensures that the products are of high quality
+   and adequately provide the information required by NWS users and the
+   general public.
+
+    2.3  Weather Service Forecast Office (WSFO)/NEXRAD Weather Service
+   Forecast Office (NWSFO). Prepares, issues and maintains quality control
+   of state/area forecasts and updates as required. Also coordinates
+   forecasts and warnings, as necessary, with Weather Service
+   Office/NEXRAD Weather Service Offices within its area of forecast
+   responsibility and with WSFO/NWSFOs having adjacent areas of forecast
+   responsibility.
+
+    3.  State Forecast Product (SFP) Definition. The SFP provides a
+   general public forecast of hydrometeorological conditions over a
+   WSFO/NWSFO's forecast area of responsibility for the next 5 days. The
+   forecast area typically includes an entire state or part of one or more
+   states. The 5-day SFP uses the discrete period format (see section 3.2)
+   that is separated into a 1- and 2-day forecast section and a 3- to
+   5-day extended forecast section.
+
+    Zone forecasts are issued in the Alaska Region and island forecasts in
+   the Pacific Region in lieu of state forecasts. The Alaska Region issues
+   modified 3- to 5-day extended forecasts for certain population areas.
+
+    3.1  SFP Issuance Times. The SFP shall be issued twice daily within
+   the flexible window period allowed for the early morning and early
+   evening zone forecast releases, typically 4 to 6 a.m./p.m. local time.
+
+    3.2  SFP Format. The SFP should be in the discrete period format
+   (except as noted in Guideline ^4 in this section) and use appropriate
+   Universal Generic Codes (UGC) containing public zones. For the morning
+   issuance, the periods begin with ".TODAY..." and for the evening
+   issuance the periods begin with ".TONIGHT..." (see format examples in
+   this section). For complete details on the UGC, see WSOM Chapter C-63,
+   NOAA Weather Wire Service Dissemination.
+
+    The format for the SFP shall occur in two versions.
+
+    a. For SFPs that contain only one geographic forecast segment, the UGC
+   shall be on the line immediately after the World Meteorological
+   Organization (TTAA00 XXXX DDHHMM) line (see general format a).
+
+    Offices using one geographic segment for their entire forecast area
+   are the following.
+
+   (1) Those that issue the SFP for their entire state (or an adjoining
+   entire state). For these cases, the UGC takes the form SSZALL-DDHHMM-.
+
+   (2) Those that issue the SFP for part of their state (in multiple
+   WSFO/NWSFO states, such as New York, Pennsylvania, Texas, California)
+   or part of an adjoining state. The UGC uses the appropriate public
+   zones to differentiate areas.
+
+   b. For regionally approved SFPs that contain two or more geographic
+   forecast segments, the UGC and a suitable geographic name shall appear
+   immediately before each separate geographic forecast segment followed
+   by a double dollar ($$) delimiter after each segment (see general
+   format b). The UGC uses the appropriate public zones to differentiate
+   areas.
+
+   At regional discretion, offices may use either format to provide the
+   clearest and most understandable depiction of the forecast conditions.
+   This option would be especially useful when weather conditions are
+   significantly different across the forecast area. For example, an
+   office that normally issues the SFP for its entire state (format a) may
+   choose to break the area into two or m
+
+   Format a. One Geographic Forecast Segment. This example uses a morning
+   issuance.
+
+   CCCSFPXX
+   TTAA00 KCCC DDHHMM
+   SSZNNN-NNN>NNN-SSZNNN-DDHHMM- (^1 - see guideline)
+   STATE FORECAST FOR (STATE/AREA) (^2 - see guideline)
+   NATIONAL WEATHER SERVICE (FORECAST OFFICE, STATE)
+   DATE/TIME
+
+    ...HEADLINE... (as appropriate)
+   .TODAY... (day 1) (^4 - see guideline)
+   .TONIGHT... (day 2)
+   .TOMORROW... (day 2)
+    .EXTENDED FORECAST... (line separator/delimiter)
+   .NEXT DAY... (day 3)
+   .NEXT DAY... (day 4)
+   .NEXT DAY... (day 5)
+
+    Format b. Multiple Geographic Forecast Segments. This example uses an
+   evening issuance.
+    CCCSFPXX
+   TTAA00 KCCC DDHHMM
+
+   STATE FORECAST FOR (STATE/AREA) (^2 - see guideline)
+   NATIONAL WEATHER SERVICE (FORECAST OFFICE, STATE)
+   DATE/TIME
+    SSZNNN-NNN>NNN-SSZNNN-DDHHMM- (^1 - see guideline)
+   STATE FORECAST FOR (part of STATE/AREA) (^3 - see guideline)
+   DATE/TIME
+
+   ...HEADLINE... (as appropriate)
+   .TONIGHT... (day 1) (^4 - see guideline)
+   .TOMORROW... (day 1)
+   .TOMORROW NIGHT... (day 2)
+   .NEXT DAY... (day 2)
+
+   .EXTENDED FORECAST... (line separator/delimiter)
+   .NEXT DAY... (day 3)
+   NEXT DAY... (day 4)
+   .NEXT DAY... (day 5)
+
+    $$
+
+   SSZNNN-NNN>NNN-SSZNNN-DDHHMM- (^1 - see guideline)
+   STATE FORECAST FOR (part of STATE/AREA) (^3 - see guideline)
+   DATE/TIME
+
+   ...HEADLINE... (as appropriate)
+   .TONIGHT... (day 1) (^4 - see guideline)
+   .TOMORROW... (day 1)
+   .TOMORROW NIGHT... (day 2).NEXT DAY... (day 2)
+
+    .EXTENDED FORECAST... (line separator/delimiter)
+   .NEXT DAY... (day 3)
+   .NEXT DAY... (day 4)
+   .NEXT DAY... (day 5)
+
+   $$
+
+    GUIDELINES:
+
+    ^1 If the forecast area includes all zones in one or more states, use
+   the "SSZALL-DDHHMM-" form of the UGC for each state. For example, if
+   the states in the southern New England SFP were not subdivided, the UGC
+   would be "MAZALL-CTZALL-RIZALL-DDHHMM-." The expiration time of the UGC
+   in Coordinated Universal Time (UTC) should be for the next scheduled
+   issuance or approximately 12 hours later.
+
+    ^2 For consistency, the SFP product title should take the form: "STATE
+   FORECAST FOR COLORADO." See section 6.1 for a discussion on the use and
+   placement of the terms "UPDATED" and "CORRECTED."
+
+    ^3 Place the plain language identification of the forecast segment
+   immediately after the UGC line, e.g.,
+
+    FLZ001>004-DDHHMM-
+   STATE FORECAST FOR NORTHWEST FLORIDA
+
+   As in guideline ^2, the product title for each geographic part should
+   take the form: "STATE FORECAST FOR (AREA)."
+
+   ^4 The first 12-hour period (day 1) of any forecast segment shall not
+   be combined with other periods in the 1- and 2-day section. Strive to
+   keep the other periods of the SFP separate. You may combine the other
+   periods within each forecast section--only when the significant weather
+   elements are similar. Do not combine periods inappropriately just to
+   keep the SFP short. Periods in the extended forecast section shall not
+   be combined with periods in the 1- and 2-day forecast section.
+
+   3.3  General SFP Content. The SFP should concentrate on the most
+   significant hydrometeorological conditions expected to affect major
+   parts or all of the forecast area to keep the forecast from becoming
+   unnecessarily complicated. In general, more detail should be found in
+   the 1- and 2-day section than in the 3- to 5-day section of the
+   forecast.
+
+   When significant conditions are expected in only part of the forecast
+   area, this should be clearly specified. If the weather distribution is
+   caused by topography, generally accepted topographic divisions, such as
+   mountains, valleys, coast, shore, Plains, etc., should be used. In
+   other cases, commonly understood subdivision terms, such as
+   "panhandle," or general phrases, such as "northwest Iowa" or "southeast
+   Texas" may be used. Long and/or confusing combinations should be
+   avoided.
+
+   3.4  1- and 2-Day Forecast Section Content. The 1- and 2-day forecast
+   section provides less detail than that found in zone and local
+   forecasts (see WSOM Chapter C-11, Zone and Local Forecasts) but more
+   than in the 3- to 5-day extended forecast section. The 1- and 2-day
+   forecast section consists of 12-hour forecast periods (up to 48 hours).
+   The day period extends from about 6 a.m. to 6 p.m. local time, and the
+   night period extends from about 6 p.m. to 6 a.m. local time. These
+   periods should normally include the following weather elements.
+
+   a. Headline(s) of long lead time warnings (tornado, severe
+   thunderstorm, and flood/flash flood warnings normally excluded) and
+   watches and advisories.
+
+   In general, headlines for SFPs should be very brief and held to one
+   sentence and no more than two lines if possible. They are used by
+   broadcasters to catch users' attention. Typically, headlines should
+   provide summary information of the "what," "where," and "when" of the
+   event(s), especially when multiple warnings, watches, or advisories are
+   in effect, e.g., "...WINTER STORM WARNINGS...WATCHES AND ADVISORIES ARE
+   IN EFFECT TODAY FOR MOST OF NORTH DAKOTA...". Specific details of the
+   events would be found in relevant warnings, watches, advisories, and
+   other products.
+
+   b. Precipitation, if any.
+
+   c. Maximum or minimum temperature as appropriate and, if significant,
+   temperature trend.
+
+   d. State of the sky but should be omitted if it can be inferred from
+   the forecast of precipitation.
+
+   e. Wind, if significant (generally sustained 25 mph or greater).
+
+   f. Other elements, if considered significant, e.g., wind chill, heat
+   and humidity, frost, fog, other obstructions to visibility, etc.
+
+   3.5  3- to 5-Day Extended Forecast Content. The 3- to 5-day forecast
+   section consists of 24-hour forecast periods. These periods provide
+   predominant weather and temperature generally for the calendar day
+   (midnight to midnight--see NOTE below) and should be a coherent
+   extension of the 1- and 2-day forecast section. Specifically, these
+   periods should normally include the following weather elements.
+
+   a. Precipitation, if any, or indication of no precipitation.
+
+   b. Early morning low temperature should be mentioned first followed by
+   the daytime high and, if significant, temperature trend.
+
+   c. State of the sky may be mentioned but should be omitted if it can be
+   inferred from the forecast of precipitation.
+
+   NOTE: Although extended forecast periods emphasize weather elements
+   generally for the calendar day, forecasters should note that the valid
+   times for National Meteorological Center extended forecast guidance
+   include: minimum temperature from 0000 UTC to 1200 UTC; maximum
+   temperature from 1200 UTC to 0000 UTC; and the probability of
+   precipitation from 0000 UTC to 0000 UTC.
+
+   Because the last 12-hour period (day 2) of the 1- and 2-day forecast
+   section nominally ends about 6 p.m. local time and the first period
+   (day 3) of the extended forecast section nominally begins about
+   midnight local time, there is a resultant 6-hour gap. Normally, weather
+   during this time can be accounted for in either day 2 or day 3.
+
+   At regional discretion, however, offices may begin the 3- to 5-day
+   extended forecast section with a separate 12-hour nighttime period that
+   follows the 1- and 2-day forecast section. This separate period
+   optionally can be used to highlight important events, such as the
+   beginning or ending of precipitation, sharply rising or falling
+   temperatures, etc.
+
+   Example:
+
+   TOPSFPKS
+   TTAA00 KTOP 111020
+   KSZALL-112230-
+
+   STATE FORECAST FOR KANSAS
+   NATIONAL WEATHER SERVICE TOPEKA KS
+   430 AM CST WED MAR 11 1992
+
+   .TODAY...(text)
+   .TONIGHT...(text)
+   .THURSDAY...RAIN CHANGING TO SNOW. HIGHS 35 TO 40.
+
+   .EXTENDED FORECAST...
+   .THURSDAY NIGHT...SNOW ENDING. LOWS IN THE UPPER 20S. .FRIDAY...COLD
+   AND HIGHS IN THE LOWER 30S.
+
+   .SATURDAY AND SUNDAY...PARTLY CLOUDY AND NOT AS COLD. LOWS IN THE 30S
+   AND HIGHS IN THE UPPER 40S.
+
+   4.  SFP Wording and Writing Style Guidelines.
+
+   4.1  General. Effective wording of forecasts is a difficult but
+   essential part of the forecaster's job. As with all NWS messages
+   intended for the public, forecasters should strive for clarity and
+   brevity in the SFP. This may mean sacrificing technical purity or
+   eliminating certain details to produce the most easily understood text.
+   Use plain language, not abbreviations and contractions except for wind
+   speed (mph).
+
+   In fast-breaking or hazardous situations, the forecaster should use a
+   writing style that conveys a sense of immediacy or urgency.
+   Appropriately, the forecaster is encouraged to use more descriptive
+   phrasing or more definitive timing of events (especially) in the first
+   period as long as the forecast remains clear and easily understood. For
+   further guidelines on writing style, see WSOM Chapter C-11.
+
+   While the guidelines in the sections below apply broadly to all periods
+   of the SFP, they are most applicable to the 1- and 2-day forecast
+   section. For further guidelines on forecast content and wording, see
+   WSOM Chapter C-11.
+
+   4.2  Stress Important Elements. Emphasize the most significant elements
+   first, e.g., precipitation, high winds, heat or cold, etc. Eliminate
+   less important elements if that aids in a clear and easily
+   understandable message, e.g., state of the sky if it can be inferred
+   from the forecast text.
+
+   4.3  Highlight Significant Changes. Emphasize significant changes in
+   important elements of the forecast first, e.g., "MUCH COLDER," "SNOW
+   ENDING," "FREEZING RAIN BEGINNING," etc. Do not overlook the
+   opportunity to highlight the resumption of pleasant weather after a
+   duration of inclement or uncomfortable weather.
+
+   Example:
+
+   LITSFPAR
+   TTAA00 KLIT 211057
+   ARZALL-212300-
+
+   STATE FORECAST FOR ARKANSAS
+   NATIONAL WEATHER SERVICE LITTLE ROCK AR
+   500 AM CST TUE JAN 21 1992
+
+   .TODAY...TURNING WINDY AND MUCH COLDER NORTH WITH AFTERNOON
+   TEMPERATURES FALLING INTO THE 30S. SHOWERS AND OCCASIONAL THUNDERSTORMS
+   SOUTH ENDING LATE IN THE DAY. HIGHS IN THE 60S BUT TURNING SHARPLY
+   COLDER IN THE EVENING.
+
+    .TONIGHT...WINDY AND VERY COLD STATEWIDE WITH LOWS NEAR 10 ABOVE IN
+   THE NORTH TO THE 20S SOUTH.
+
+   .WEDNESDAY...SUNNY AND VERY COLD. HIGHS IN THE TEENS EXCEPT 20S SOUTH.
+
+   .EXTENDED FORECAST...
+   .THURSDAY...INCREASING CLOUDS AND NOT AS COLD. LOWS IN THE 20S AND
+   HIGHS IN THE 30S.
+   .FRIDAY...CHANCE OF RAIN EXCEPT POSSIBLE SNOW NORTH. LOWS IN THE 30S.
+   HIGHS IN THE 30S NORTH AND 40S SOUTH.
+   .SATURDAY...PARTLY CLOUDY AND COOL. LOWS IN THE 30S AND HIGHS IN THE
+   40S.
+
+   4.4  Warning, Watch and Advisory Situations. Place longer lead-time
+   warnings, watches, and advisories in a headline preceding and separate
+   from the forecast text. Include the period and the area covered by the
+   warning, watch, or advisory in the headline. If only a part of the
+   forecast area is affected, include it in the headline, e.g., "...WINTER
+   STORM WARNING IN EFFECT FOR THE NORTHEAST TONIGHT...", "...TORNADO
+   WATCH IN EFFECT FOR EASTERN (STATE/AREA/COUNTIES) THIS MORNING...",
+   "...COASTAL FLOOD WARNING IN EFFECT FOR (AREA) TODAY...". Further
+   details on the use of warnings, watches, and advisories in SFPs are in
+   WSOM Chapters C-40, Severe Local Storm Warnings; C-41, Hurricane
+   Warnings; C-42, Winter Weather Warnings; C-43, Coastal Flood Warnings;
+   C-44, Non-precipitation Weather Hazards; and E-20, Flood/Flash Flood
+   and Warning Program. Also, see section 3.4 for further guidelines on
+   the use of headlines.
+
+   4.5  Emphasize Unusual Weather. Dangerous or unusual
+   hydrometeorological conditions should be emphasized by mentioning the
+   appropriate elements first. Less important elements can be eliminated.
+   Most importantly, use wording that effectively highlights the event.
+
+   Example:
+
+   NEWSFPLA
+   TTAA00 KNEW 162057
+   LAZALL-170900-
+
+   STATE FORECAST FOR LOUISIANA
+   NATIONAL WEATHER SERVICE NEW ORLEANS LA
+   400 PM CDT WED SEP 16 1992
+
+   ...HURRICANE WARNINGS AND WATCHES IN EFFECT TONIGHT FOR MOST OF COASTAL
+   LOUISIANA...
+   .TONIGHT...FLOODING...HURRICANE WINDS...AND HEAVY RAINS ALONG COASTAL
+   SECTIONS. WINDS AND RAIN SLOWLY DECREASING BY DAYBREAK. OCCASIONAL
+   THUNDERSTORMS WITH WIND GUSTS TO 40 MPH ACROSS THE REST OF THE STATE.
+   LOWS IN THE 70S.
+   .THURSDAY...WINDY WITH OCCASIONAL GUSTS TO 40 MPH. SCATTERED SHOWERS
+   AND THUNDERSTORMS WITH HIGHS IN THE MID 70S TO LOWER 80S.
+    .THURSDAY NIGHT...PARTLY CLOUDY...WARM AND HUMID. LOWS IN THE 70S.
+   .FRIDAY...SUNNY...VERY WARM AND HUMID. HIGHS IN THE UPPER 80S TO LOWER
+   90S.
+
+   .EXTENDED FORECAST...
+
+   .SATURDAY AND SUNDAY...WARM AND HUMID NIGHTS AND SUNNY HOT DAYS. LOWS
+   IN THE 70S AND HIGHS IN THE 90S.
+   .MONDAY...CHANCE OF SHOWERS AND COOLER. LOWS IN THE 60S AND HIGHS IN
+   THE 70S.
+
+   5.  Wording Individual Elements.
+
+   5.1  Precipitation. "1- and 2-day forecast section"--when precipitation
+   is forecast, specify and, if necessary, qualify its type and intensity,
+   e.g., "LIGHT RAIN," "HEAVY SNOW," etc. "SPRINKLES," "DRIZZLE," or "SNOW
+   FLURRIES" may be used for very light precipitation. The approximate
+   time for the beginning and ending of precipitation should be mentioned.
+   The percent categories of probability of precipitation (POP) at points
+   within the state/area shall not be used. In its place, include the
+   following: POP qualifying terms of uncertainty, e.g., "CHANCE,"
+   "LIKELY," etc.; appropriate modifying terms to describe the amount of
+   area to be affected, e.g., for convective situations, "FEW,"
+   "WIDESPREAD," etc.; and for stratiform precipitation, terms of
+   duration, e.g., "BRIEF," "OCCASIONAL," "FREQUENT," etc. To avoid the
+   appearance of hedging, do not use statements, such as "FEW BRIEF LIGHT
+   SHOWERS" or "A FEW SCATTERED SHOWERS." Instead use "A FEW LIGHT
+   SHOWERS" or "A FEW SHOWERS" or "SCATTERED LIGHT SHOWERS" or "SCATTERED
+   SHOWERS."
+
+   For definitions of freezing and frozen precipitation (and related)
+   terms, undesirable precipitation terms, mixed and multiple
+   precipitation events, and snow accumulation, see WSOM Chapter C-11.
+
+   "3- to 5-day forecast sections"-- because of the decreasing levels of
+   skill inherent in forecasts for the extended periods, a general
+   statement of precipitation type should be provided, including
+   appropriate uncertainty. For example, in most situations "CHANCE OF
+   RAIN" (or "SNOW") should suffice. Forecasters normally should not use
+   "LIKELY" or categorical terms of absolute certainty, such as "RAIN,"
+   "SNOW," "OCCASIONAL," "INTERMITTENT," etc. The time of occurrence of
+   precipitation normally should be specified only to the nearest day.
+
+   Examples:
+
+   a. WBCSFPMD
+   TTAA00 KWBC 110928
+   MDZALL-DEZALL-DCZALL-WVZ010-011-112200-
+
+    STATE FORECAST FOR MARYLAND...DELAWARE AND THE EASTERN PANHANDLE OF
+   WEST VIRGINIA
+   NATIONAL WEATHER SERVICE WASHINGTON DC
+   430 AM EST WED MAR 11 1992
+
+    ...WINTER STORM WARNINGS AND ADVISORIES IN EFFECT TODAY FOR WESTERN
+   MARYLAND AND THE EASTERN WEST VIRGINIA PANHANDLE...
+   .TODAY...HEAVY SNOW SHOWERS WEST AND FLURRIES EAST. TOTAL SNOW OF 8 TO
+   12 INCHES FAR WESTERN MARYLAND AND THE POTOMAC HIGHLANDS OF WEST
+   VIRGINIA AND 3 TO 5 INCHES THROUGH THE REST OF WESTERN MARYLAND AND
+   EASTERN WEST VIRGINIA PANHANDLE. WINDY AND COLD WITH TEMPERATURES IN
+   THE 20S WEST AND 30S EAST.
+   .TONIGHT AND THURSDAY...SNOW SHOWERS IN WESTERN MARYLAND WITH LITTLE
+   FURTHER ACCUMULATION. PARTLY CLOUDY AND COLD OVER THE REST OF THE AREA.
+   LOWS 15 TO 25 AND HIGHS IN THE MID 30S TO THE LOWER 40S.
+
+   .EXTENDED FORECAST...
+   .FRIDAY...CHANCE OF SNOW SHOWERS FAR WEST OTHERWISE PARTLY CLOUDY AND
+   COLD. LOWS IN THE 20S EXCEPT TEENS FAR WESTERN MARYLAND. HIGHS MID 30S
+   TO MID 40S.
+   .SATURDAY AND SUNDAY...MOSTLY CLEAR AND COOL. LOWS IN THE 20S TO LOWER
+   30S AND HIGHS IN THE 40S TO LOWER 50S.
+
+   b. STLSFPMO
+   TTAA00 KSTL 181030
+   MOZALL-182230-
+
+   MISSOURI STATE FORECAST
+   NATIONAL WEATHER SERVICE ST LOUIS MO
+   430 AM CST WED MAR 18 1992
+
+   .TODAY...RAIN WITH THUNDERSTORMS SOUTH. HIGHS IN THE 40S NORTH TO THE
+   60S SOUTH.
+   .TONIGHT...THUNDERSTORMS SOUTHEAST...SOME POSSIBLY SEVERE WITH WINDS
+   AND LARGE HAIL. OCCASIONAL RAIN OVER THE REST OF THE STATE. RAIN
+   CHANGING TO SNOW NORTHWEST AND CENTRAL. COLDER WITH LOWS FROM THE UPPER
+   20S NORTHWEST TO THE 40S CENTRAL AND MID 50S SOUTHEAST.
+   .THURSDAY...RAIN AND SNOW ENDING EAST...AND CLEARING WEST. COLDER WITH
+   HIGHS 40 NORTHWEST TO UPPER 50S SOUTHEAST.
+
+   .EXTENDED FORECAST...
+   .FRIDAY...INCREASING CLOUDS LATE. COLD WITH LOWS IN THE 20S AND HIGHS
+   IN THE 30S EXCEPT 40S SOUTH.
+   .SATURDAY...CHANCE OF SHOWERS. LOWS IN THE 30S AND HIGHS IN THE 40S
+   EXCEPT LOWER 50S SOUTH.
+   .SUNDAY...CHANCE OF RAIN EXCEPT POSSIBLE SNOW AND RAIN NORTH. LOWS IN
+   THE 30S AND HIGHS IN THE 40S.
+
+   5.2  Temperature. For each day and night period (in the 1- and 2-day
+   forecast section), include the expected maximum and minimum
+   temperature, respectively (see 5.2.2 for variations because of rising
+   nighttime or falling daytime temperatures). For each 24-hour period (in
+   the 3- to 5-day extended forecast section), include a general statement
+   of expected maximum and minimum temperatures. To improve user
+   comprehension, you may include descriptive words or phrases of
+   temperature along with the numerical values, such as "SUNNY AND COLD
+   WITH HIGHS IN THE 20S," etc. In addition, include a statement of the
+   temperature change (trend), when considered significant (i.e., highs or
+   lows varying by about 10 degrees or more than previous highs or lows)
+   or informative, e.g., "MUCH WARMER WITH LOWS IN THE 70S AND HIGHS IN
+   THE 80S," etc.
+
+   The statement on forecast temperatures should be as simple as possible,
+   yet it should note the extremes that exist. It is not intended that
+   every variance in temperature be covered; in some mountainous, coastal,
+   or hilly areas, the full delineation of temperature extremes in
+   impractical.
+
+   5.2.1  Temperature Presentation. Numerical temperature values should be
+   presented in either of the following two ways.
+
+   a. A general range where the terms are defined as follows.
+
+   "LOWER 50S" (50, 51, 52, 53)
+   "MID 50S" (54, 55, 56)
+   "UPPER 50S" (57, 58, 59)
+   "60S" (60 through 69)
+
+   b. A specific range--rounded to the nearest 5 or zero. For ranges below
+   10 or above 100, any numbers may be used.
+
+   "40 TO 45"
+   "5 BELOW TO 15 BELOW"
+   "102 TO 108"
+
+   NOTES:
+
+   1. Care must be taken when using a specific range; too many numbers can
+   confuse users.
+
+   2. The range should be kept as small as possible.
+
+   3. Do not use such expressions as "LOWS IN THE 50S TO AROUND 60" or
+   "MOSTLY IN THE 50S." Instead, say "LOWS IN THE 50S" or "LOWS 50 TO 60."
+
+   4. Do not use the narrative form in expressions, such as "HIGHS IN THE
+   LOW ONE HUNDREDS" or "HIGHS ABOVE ONE HUNDRED." Instead, use a specific
+   number, such as "HIGHS NEAR 108," or a specific range, such as "HIGHS
+   107 TO 112."
+
+   5. Do not use potentially confusing expressions, such as "HIGHS IN THE
+   LOW 70S." Instead, say "HIGHS IN THE LOWER 70S" or "HIGHS 70 TO 75."
+
+   5.2.2  Falling Daytime, Rising Nighttime, or Steady Temperatures. If
+   the temperature is expected to fall throughout the day or rise
+   throughout the night or remain steady, indicate the temperature
+   expected at the end of that specified time (primarily in the
+   appropriate periods in the 1- and 2-day forecast section). Use phrases
+   such as the following.
+
+   o ".TODAY...MUCH COOLER WITH TEMPERATURES FALLING INTO THE 40S THIS
+   AFTERNOON."
+
+   o ".TOMORROW...TEMPERATURES REMAINING IN THE 60S."
+
+   o ".TONIGHT...SLOWLY RISING TEMPERATURES REACHING THE 30S BY MORNING."
+
+   Example:
+
+   SEASFPWA
+   TTAA00 KSEA 312254
+
+   STATE FORECAST FOR WASHINGTON
+   NATIONAL WEATHER SERVICE SEATTLE WA
+   400 PM PDT WED JUL 31 1991
+
+   WAZ001>005-011-012-011100-
+   WESTERN WASHINGTON
+   400 PM PDT WED JUL 31 1991
+
+   .TONIGHT...MOSTLY CLOUDY AND COOL...DRIZZLE AND FOG IN COASTAL AREAS
+   LATE NIGHT AND EARLY MORNING. LOWS IN THE 50S.
+   .THURSDAY...BECOMING PARTLY SUNNY IN THE AFTERNOON AND A LITTLE WARMER.
+   HIGHS FROM THE 60S ALONG THE COAST TO MID 70S SOUTH INTERIOR.
+   .THURSDAY NIGHT...FAIR EXCEPT COASTAL FOG LATE. LOWS IN THE 50S.
+   .FRIDAY...MUCH WARMER. SUNNY EXCEPT PARTLY CLOUDY COASTAL AREAS. HIGHS
+   IN THE MID 80S SOUTH INTERIOR TO THE LOWER 70S ALONG THE COAST.
+
+   .EXTENDED FORECAST...
+   .SATURDAY AND SUNDAY...SUNNY DAYS AFTER AREAS OF LATE NIGHT AND MORNING
+   LOW CLOUDS AND FOG. LOWS IN THE 50S. HIGHS 65 TO 75 COAST...75 TO 85
+   INLAND.
+    .MONDAY...MOSTLY CLOUDY AND COOLER. LOWS IN THE 50S. HIGHS IN THE 60S
+   COAST TO 70S INLAND.
+
+   $$
+
+   WAZ006>010-013-011100-
+   EASTERN WASHINGTON
+   400 PM PDT WED JUL 31 1991
+
+   .TONIGHT...THUNDERSTORMS ENDING THIS EVENING EAST PART OTHERWISE
+   PARTIAL CLEARING AND WINDY. COOL WITH LOWS IN THE 50S.
+   .THURSDAY THROUGH FRIDAY...WARMER WITH SUNNY DAYS AND CLEAR NIGHTS.
+   HIGHS IN THE 80S THURSDAY AND MID 80S TO LOWER 90S FRIDAY. LOWS IN THE
+   50S TO LOWER 60S.
+
+   .EXTENDED FORECAST...
+   .SATURDAY AND SUNDAY...MOSTLY CLEAR NIGHTS AND SUNNY VERY WARM DAYS.
+   LOWS IN THE 60S. HIGHS UPPER 80S EXCEPT NEAR 100 SOUTH.
+   .MONDAY...BECOMING COOLER. LOWS IN THE 50S. HIGHS IN THE 70S EXCEPT
+   LOWER 80S SOUTH.
+
+   $$
+
+   5.3  Wind. Generally, wind is not mentioned in the SFP unless
+   considered significant. Significant wind will vary from state to state,
+   but as a general rule, sustained speeds should be at or above 25 mph.
+   The following are suggested terms to use when sustained speeds are:
+   20-30 mph, "WINDY;" 30-40 mph, "VERY WINDY;" 40 mph or more, "STRONG,"
+   "DAMAGING," "DANGEROUS" or "HIGH." When above 40 mph, a high wind
+   warning is required in the headline (see WSOM Chapter C-44). When wind
+   is mentioned in the SFP, specific wind speed and direction may be
+   included, e.g., ".TODAY...BECOMING MUCH COLDER AND WINDY. TEMPERATURES
+   FALLING INTO THE 20S AND NORTHWEST WINDS TO 30 MPH." Lighter wind
+   speeds may be used if a particular situation warrants.
+
+   5.4  Sky Condition. At regional discretion, the SFP may include
+   information about the state of the sky in any period. State of the sky
+   should be omitted, however, if its inclusion would unnecessarily
+   complicate or lengthen the forecast or if it can readily be inferred
+   from the precipitation or other forecast wording. See WSOM Chapter C-11
+   for basic terms used to define sky condition, e.g., "MOSTLY CLOUDY"
+   means 7/10 to 8/10 opaque clouds; and terms that can be construed as
+   hedging and should not be used, e.g., "FAIR TO PARTLY CLOUDY," etc.
+
+   5.5  Other Elements. Include fog, other visibility restrictions, frost,
+   freeze conditions, humidity, etc., with appropriate emphasis whenever
+   these elements are important features of the weather story. For
+   example, include fog whenever it is dense enough to contribute to
+   hazardous driving conditions. Mention frost if it is expected to affect
+   a large part of the forecast area.
+
+   6.  Updates. In general, update the SFP when developing weather events
+   are not adequately reflected in the forecast. This would most likely
+   occur for changes in the 1- and 2-day forecast section. While some
+   update criteria are listed below, they are not all inclusive. There
+   ultimately is no substitute for good forecaster judgment in deciding
+   when to update.
+
+   6.1  Definitions and Formats. The terms "UPDATED" and "CORRECTED" shall
+   be appended to SFPs according to the following definitions.
+
+    o UPDATED shall be used on all nonroutine SFP issuances to indicate
+   either some forecast element(s) and/or some wording has been changed to
+   reflect more accurately changing weather conditions (see update
+   criteria in section 6.2).
+
+   o CORRECTED shall be used on all routine or nonroutine SFP issuances to
+   indicate an error (typographic, mislabeling, etc., not forecaster
+   judgment) was made in the previously issued forecast. The forecaster
+   should review the SFP carefully before issuance to reduce the number of
+   products needing correction.
+
+   When an update or correction is needed, reissue the entire SFP. The
+   terms "UPDATED" or "CORRECTED," preceded by three dots (...) shall be
+   appended to the product identification line in the mass news
+   disseminator header as shown in the examples below. As an important aid
+   to users, a brief (usually one line) reason for the update or
+   correction should also be added as shown in the examples. Note that for
+   either format a or b, the reason for the update or correction occurs in
+   the same place.
+
+   Examples:
+
+   Format a.
+
+   CAESFPSC
+   TTAA00 KCAE DDHHMM
+   SCZALL-DDHHMM-
+
+   STATE FORECAST FOR SOUTH CAROLINA...UPDATED
+   NATIONAL WEATHER SERVICE COLUMBIA SC
+   DATE/TIME
+
+   SHOWERS ADDED TO TODAY PERIOD
+
+   .TODAY...
+   .TONIGHT...
+   etc.
+
+   Format b
+
+   SFOSFPCA
+   TTAA00 KSFO DDHHMM
+
+
+   NORTHERN AND CENTRAL CALIFORNIA STATE FORECASTS...CORRECTED
+   NATIONAL WEATHER SERVICE SAN FRANCISCO CA
+   DATE/TIME
+
+
+   CORRECTED ERROR IN NORTHERN CALIFORNIA LOW TEMPERATURE FOR TONIGHT
+   PERIOD
+
+   CAZ001-002-006>008-NVZ001-DDHHMM-
+   STATE FORECAST FOR NORTHERN CALIFORNIA
+   DATE/TIME
+
+   .TONIGHT...
+   .TOMORROW...
+   etc.
+
+   $$
+
+   CAZ003>005-009-010-NVZ002-DDHHMM-
+   STATE FORECAST FOR CENTRAL CALIFORNIA
+   DATE/TIME
+
+   .TONIGHT...
+   .TOMORROW...
+   etc.
+
+   $$
+
+   6.2 Update Criteria. Updates should be issued as soon as practical
+   under the following circumstances.
+
+   a. A winter weather watch or warning is issued for all or part of the
+   forecast area (see WSOM Chapter C-42).
+
+   b. A hurricane watch or warning is issued for all or part of the
+   forecast area (see WSOM Chapter C-41).
+
+   c. A coastal flood watch or warning and/or high surf advisory is issued
+   for part of the forecast area (see WSOM Chapter C-43).
+
+   d. Beginning or ending of widespread precipitation over all or part of
+   the forecast area does not match current forecast.
+
+   e. Type of widespread precipitation changes from that indicated in the
+   current forecast, e.g., rain to snow, liquid to freezing, etc.
+
+   f. Temperatures or winds vary significantly from those in the forecast.
+
+   g. For tornado, severe thunderstorm, and flash flood situations, use
+   the following guidelines. Generally, SFPs need not be updated to
+   include short-fuse warnings (tornado, severe thunderstorm, or flash
+   flood).
+
+
+                                         Update at forecaster's
+   If forecast includes:                          Always update for:
+                       discretion for:
+   Severe thunderstorms*                   Flash Flood Watch
+               Severe Thunderstorm/
+
+                                        Tornado Watch
+   Thunderstorms                               Tornado/Flash Flood
+                  Severe Thunderstorm Watch
+                                                        Watch
+
+   Heavy rains with                             Severe Thunderstorm/
+                  Flash Flood Watch
+   possible flooding                            Tornado Watch
+
+   ______________
+
+   * Offices are strongly encouraged to add the phrase "WITH LARGE HAIL
+   AND DAMAGING WINDS" to the term "SEVERE THUNDERSTORMS" when used in
+   forecasts.

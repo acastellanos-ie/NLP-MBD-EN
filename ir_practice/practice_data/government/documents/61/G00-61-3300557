@@ -1,0 +1,32 @@
+http://vabenefits.vba.va.gov/vonapp/
+
+   VONAPP Banner
+   JAVASCRIPT
+   VONAPP JavaScript Alert: We have automatically detected that you have
+   your computer set to not accept "JavaScript". You must have your
+   computer set to accept JavaScript before you can begin using Veterans
+   On-Line Applications (VONAPP).
+   What is "JavaScript"? JavaScript is the name for a type of computer
+   programming developed by Netscape Communications which we use to design
+   Internet applications.
+   What must I do to allow my computer to accept JavaScript? You must
+   change settings on your Internet browser to accept JavaScript. VONAPP
+   allows use of two types of web browsers: Internet Explorer (IE), and
+   Netscape. Each browser requires a different procedure to change
+   settings. Also, IE and Netscape exist in different versions requiring
+   slightly different steps to change settings.
+   How do I know which version of IE is on my computer? At the top of your
+   screen in the toolbar, click on Help, then click About Internet
+   Explorer. The screen that pops up will show the version number.
+   The following instructions are for changing IE versions 5.01 and 5.5,
+   the most popular browser and versions currently selected by VONAPP
+   users.
+
+   To view and modify session cookie settings, follow these steps:
+         1. In Internet Explorer 5.01 and 5.5, click on Tools, then
+   Internet Options, and then click on the Security tab.
+         2. Then click Custom Level
+         3. Under Scripting/Active Scripting options select Enable, click
+   OK, and then click OK.
+   You may now reenter VONAPP by closing this browser window and opening a
+   new window.

@@ -1,0 +1,1019 @@
+http://nmp-techval-reports.jpl.nasa.gov/DS1/SDST_Integrated_Report.pdf
+
+   Small Deep Space Transponder (SDST) DS1 Technology Validation Report
+   Chien-Chung Chen, Shervin Shambayati, Andrew Makovsky, F. H. Taylor,
+   Martin I. Herman, Samuel H. Zingales Jet Propulsion Laboratory
+   California Institute of Technology Pasadena, California 91109 Carl
+   Nuckolls, Keith Siemsen Motorola Government Space Systems 8201 E.
+   McDowell Road MD: H2242 P.O. Box 1417 i Deep Space 1 Technology
+   Validation Report-Small Deep Space Transponder (SDST) Table of Contents
+   Section Page Extended Abstract
+   .......................................................................
+   .......................................................................
+   .... iv Small Deep Space Transponder (SDST) DS1 Technology Validation
+   Report ................................................... 1
+   Abstract...............................................................
+   .......................................................................
+   ............................... 1 1.0 Introduction
+   .......................................................................
+   .......................................................................
+   .......... 1 2.0 Key SDST
+   Functions..............................................................
+   .......................................................................
+   ..... 2 3.0 SDST Validation Objectives
+   .......................................................................
+   ....................................................... 3 3.1 Uplink
+   Functions..............................................................
+   .......................................................................
+   ...........................3 3.2 Downlink Functions
+   .......................................................................
+   .......................................................................
+   .............3 3.3 Radio
+   Metrics................................................................
+   .......................................................................
+   ..............................4 3.4 Analog Engineering Telemetry
+   Collection.............................................................
+   ............................................................4 3.5
+   Ka-band Readiness Demonstration
+   .......................................................................
+   .............................................................4 4.0 SDST
+   Validation Process
+   .......................................................................
+   ........................................................... 4 4.1
+   Receiver Best Lock
+   Frequency..............................................................
+   .......................................................................
+   ......5 4.2 Signal Acquisition Range and
+   Rate...................................................................
+   .................................................................5 4.3
+   Self and False
+   Lock...................................................................
+   .......................................................................
+   ..................5 4.4 Uplink Command
+   Reception..............................................................
+   .......................................................................
+   .........7 4.5 Uplink Power Measurements
+   .......................................................................
+   ......................................................................7
+   4.6 Telemetry Encoding and
+   Modulation.............................................................
+   ....................................................................8
+   4.7 Noncoherent Mode
+   Operation..............................................................
+   .......................................................................
+   .......9 4.8 Nonlinear Phase Modulator Performance
+   .......................................................................
+   .................................................10 4.9 Coherent
+   Doppler
+   Tracking...............................................................
+   .......................................................................
+   ........11 4.10 Noncoherent Downlink Frequency Stability
+   .......................................................................
+   ...........................................12 4.11 Ranging Functional
+   Verification...........................................................
+   .......................................................................
+   ..12 4.12 Beacon Tone Generation and Tone
+   Tracking...............................................................
+   ..................................................16 4.13 External
+   Telemetry Sampling
+   Functions..............................................................
+   ..........................................................16 5.0 DSN
+   Ka-band Readiness Verification
+   .......................................................................
+   ..................................... 16 5.1 34-m Antenna Pointing
+   Performance
+   .......................................................................
+   ........................................................19 5.2 Ka-band
+   System Noise Temperature and Link Capacity Projection
+   .......................................................................
+   .........19 5.3 Ka-band Performance
+   Threshold..............................................................
+   .......................................................................
+   .22 5.4 X/Ka-band Radio Science
+   .......................................................................
+   .......................................................................
+   ..23 5.5 Ka-band Link Threshold at Low Bit Rate
+   .......................................................................
+   .................................................23 5.6 Ka-band Antenna
+   Pointing and Gravity Compensation at 70 m
+   .......................................................................
+   ...............23 6.0 Summary and
+   Conclusion.............................................................
+   .................................................................. 24
+   7.0 List of
+   References.............................................................
+   .......................................................................
+   ........ 25 8.0 Acknowledgments
+   .......................................................................
+   .................................................................... 25
+   Appendix A. List of Telemetry Channels and
+   Names..................................................................
+   ....................... 26 Appendix B. Date of Turn-on/off and
+   Frequency of Data
+   Capture................................................................
+   .... 26 ii Deep Space 1 Technology Validation Report-Small Deep Space
+   Transponder (SDST) Figures Figure Page Figure 1. (a) Receiver Best Lock
+   Frequency (BLF) Variation as a Function of Voltage-Controlled
+   Oscillator (VCO) and Baseplate Temperature During Ground Testing, and
+   (b) Measured In Flight
+   ...................................................... 6 Figure 2.
+   Measured SDST Sweep Rate at KSC
+   Testing................................................................
+   .............................................. 7 Figure 3. Measured X-
+   and Ka-band Carrier Power as a Function of Time During DOY 1998-344,
+   Showing Various Ranging Carrier Suppression Values (Note: ERT =
+   Earth-Received Time)............................................... 11
+   Figure 4. (a) Measured Coherent Frequency Stability at X-band and (b)
+   at Ka-band; and (c) Relative Stability of X/Ka-bands
+   .......................................................................
+   ........................................... 13 Figure 5. (a) Measured
+   Allan Deviations for X-band and (b) Ka-band Downlinks, and (c) Measured
+   X/Ka-band Relative Stability
+   .......................................................................
+   ................................ 14 Figure 6. (a) Measured Noncoherent
+   Downlink Carrier Stability at X-band and (b) at
+   Ka-band.............................................. 15 Figure 7.
+   Predicted Versus Actual Pr/No for DOY
+   1999-035...............................................................
+   .................................... 16 Figure 8 (ac) Ranging Residuals
+   for DOY 1999-096 (4/6/99): (a) DSS 25, (b) DSS 34, and (c) DSS
+   46............................ 17 Figure 8 (d) Ka-band Ranging
+   Residuals for DOY 1999-096
+   (4/6/99)...............................................................
+   ..................... 18 Figure 9. Ranging Residuals (Measurement
+   Errors) After Accounting for Station and Spacecraft
+   Motions............................ 18 Figure 10. DSS-25 Conscan
+   Pointing Residuals, Showing that Pointing Error is Generally Less than
+   4 millirads.................. 20 Figure 11. DOY 1998-344 Ka-band
+   Measured SNT and 50% Weather-Predicted SNT
+   .......................................................... 21 Figure
+   12. Ka-band G/T Advantage Over X-band, DOY 1998-344, DS1 Track at
+   DSS-25..................................................... 21 Figure
+   13. Ka-band G/T Advantage Over X-band, DS1 Track, DOY 1999-035, DSS-25
+   ....................................................... 22 Figure 14.
+   Ka-band Threshold Measurement Data
+   .......................................................................
+   ............................................ 23 Tables Page Page Table
+   1. Comparison of SDST Mass and Power Consumption with those of Mars
+   Pathfinder (MPF) Telecom Components with Equivalent
+   Functions..............................................................
+   ......................................... 1 Table 2. SDST Technologies
+   and their Design
+   Heritage...............................................................
+   ............................................ 1 Table 3. SDST Validation
+   Objectives.............................................................
+   .......................................................................
+   ... 5 Table 4. SDST Command Rates Verified In Flight to
+   Date...................................................................
+   ................................... 7 Table 5. Command Threshold Table
+   as Predicted
+   .......................................................................
+   ............................................. 8 Table 6. Uplink
+   Residuals as Measured In Flight
+   .......................................................................
+   .............................................. 8 Table 7. Telemetry
+   Data Rates verified In
+   Flight.................................................................
+   ..................................................... 9 Table 8.
+   Measured Downlink Telemetry Residuals In Flight
+   .......................................................................
+   .......................... 10 Table 9. Encoding Modes/Data Rates
+   Verified in Noncoherent Downlink Mode
+   .................................................................. 10
+   Table 10. X-band Ranging Suppression Due to Nonlinear Phase Modulator,
+   Measured Versus Predicted on the Basis of Pre-flight Data
+   .......................................................................
+   ........................................................... 12 Table
+   11. Measured Ranging Suppression at Ka-band
+   .......................................................................
+   ...................................... 12 iii Deep Space 1 Technology
+   Validation Report-Small Deep Space Transponder (SDST) EXTENDED ABSTRACT
+   designs may dictate slightly different control interfaces. Transponder
+   modes, such as the telemetry and ranging The small deep space
+   transponder (SDST) is a Level-1 modulation indices, telemetry
+   subcarrier frequency, and technology validation objective of the New
+   Millennium convolutional coding type, are user-controllable during Deep
+   Space 1 (DS1) mission. The SDST was developed as a mission operation.
+   Other functions, such as the carrier- replacement for the Cassini deep
+   space transponder (DST) tracking loop bandwidth and automatic uplink
+   acquisition, and supports the radio frequency transmit, receive, and
+   radio are firmware options. Furthermore, the SDST design metric
+   functions, as did previous transponders. Additionally, accommodates
+   interface with the spacecraft avionics via the SDST provides
+   significantly greater functional either a MIL-STD-1553, MIL-STD-1773,
+   or RS422 serial integration by combining the command detection unit
+   bus, using the 1553 protocol. This design allows future (CDU) and
+   telemetry modulation unit (TMU) in one flight users maximum flexibility
+   in selecting the system assembly. The integrated design allows for
+   smaller size, architecture. mass, and power consumption of the telecom
+   subsystem compared to the previous generation of hardware. This report
+   summarizes the results of DS1's in-flight Furthermore, the SDST is the
+   first Ka-band capable deep technology validation activities related to
+   the SDST. These space transponder. Previous Ka-band capable missions,
+   such activities were designed to show that the intended functions as
+   Mars Observer (MO), Mars Global Surveyor (MGS), and of the transponder
+   can be achieved under the operating Cassini, have relied on either an
+   external frequency environment in space. Specific in-flight checkout
+   activities translator or a frequency multiplier to provide the Ka-band
+   were designed to exercise the transponder through different downlink.
+   The SDST provides full support of Ka-band operating modes. Relevant
+   performance data were collected downlink functions, including telemetry
+   modulation, and both onboard by the flight system and on the ground by
+   radio metrics (coherent Doppler, ranging, and differential monitoring
+   Deep Space Network (DSN) stations. Additional one-way ranging [DOR]).
+   validation data were obtained through routine operations of the
+   spacecraft by thoroughly monitoring the telecom-link The development of
+   the SDST was performed by Motorola performance and relevant SDST
+   performance data. All Inc., Scottsdale, AZ, under funding from a JPL
+   multimission SDST functions for uplink, downlink, and radio metric
+   consortium. Developed over a 3-year span at a cost of measurements were
+   successfully validated, including the $10.4 million (including
+   non-recurring engineering and optional Ka-band downlink. In some cases,
+   such as flight unit costs), the SDST development process is a model
+   frequency stability measurements, the in-flight checkout for the
+   better-faster-cheaper development paradigm. Key activity also provided
+   measurements of SDST performance technologies enabling the SDST design
+   include: radio in the actual operating environment not achievable with
+   frequency integrated circuit (RFIC), advanced high ground-based
+   testing. Specifically, the in-flight technology frequency multichip
+   modules (MCMs), and 70,000-gate validation activities focused on the
+   following performance complimentary metal oxide semiconductor (CMOS)
+   criteria: application specific integrated circuits (ASICs), that
+   implement the bulk of the receiver and telemetry Uplink: modulation
+   functions. Some of the design (down-conversion * Uplink carrier
+   receiver acquisition. frequency scheme, dialectic resonator oscillators
+   [DROs]) * Command data rate and command threshold. were derived
+   directly from the Cassini DST, while others, * Carrier-tracking and
+   uplink power measurements. such as the MCMs and ASICs, were new
+   developments. The mixture of inherited technology and new development
+   Downlink: shortened the design cycle and lowered the development *
+   Verification of telemetry encoding and carrier cost. modulation. *
+   Verification of the transition between two-way coherent A high firmware
+   content was implemented in the SDST's and one-way modes. digital signal
+   processing module, which was designed to * Validation of the
+   phase-modulator performance model. work in X-band deep space, S-band
+   Spaceflight Tracking * Validation of the Ka-band exciter technology and
+   its and Data Network (STDN) facilities, and S-band Space associated
+   performance characteristics. Ground Link System (SGLS) transponders.
+   The high * Validation of beacon tone generation. firmware content
+   enables many optional capabilities to be provided with only firmware
+   changes, and allows specific Radio metrics: tailoring for each mission.
+   Particular attention was paid during development to ensure that the
+   SDST provides * Measurement of the frequency stability of the DS1
+   flexible control in software. This feature was important for auxiliary
+   oscillator under in-flight temperature the multimission consortium,
+   where different spacecraft conditions. * Verification of coherent
+   carrier-tracking performance. iv Deep Space 1 Technology Validation
+   Report-Small Deep Space Transponder (SDST) * Verification of the
+   X/Ka-band relative carrier-tracking The in-flight checkout activities
+   and ongoing flight performance. validation of the SDST provided
+   confidence in the * Verification of the X/Ka-band ranging functions.
+   transponder design. With successful flight validation and experience
+   gained through mission operations, the risk of Although not strictly an
+   SDST validation objective, the using the transponder design for future
+   missions has been availability of a stable Ka-band downlink signal from
+   DS1 substantially reduced. permitted a direct verification of the Deep
+   Space Network's operational readiness at Ka-band. The DS1 Ka-band
+   Subsequent to a successful DS1 flight validation, the design downlink
+   was used to: of the SDST has been enhanced to remove some of the *
+   Demonstrate dual-band (X/Ka) end-to-end telemetry operational
+   idiosyncrasies due to the nonlinearity of the flow from a spacecraft to
+   the DS1 Mission Support phase modulator and the changes in the receiver
+   best-lock Area (MSA). frequency. The current generation of SDST,
+   scheduled to be * Demonstrate the capability to generate necessary
+   station flown on the Mars 01 and Space Infrared Telescope Facility
+   predicts for Ka-band tracking. (SIRTF) missions, has incorporated these
+   changes. * Demonstrate station capability to perform radio metric
+   Furthermore, unlike the DS1 SDST, which functioned only tracking
+   (Doppler and ranging) on the Ka-band with single-string command and
+   data handing (C&DH), the downlink. Mars 01 SDST supports dual-string
+   cross strapping with the * Verify X/Ka-band radio metrics performance.
+   C&DH subsystem. These performance improvements and * Measure Ka-band
+   system noise temperature, which this added functionality, together with
+   DS1's in-flight compares favorably with the model. validation, make use
+   of the SDST truly low-risk for future * Demonstrate DSS-25 capability
+   to accurately point the flights. 34-m antenna using blind pointing. v
+   Deep Space 1 Technology Validation Report-Small Deep Space Transponder
+   (SDST) Small Deep Space Transponder Fact Sheet Key Features * Deep
+   Space Network Compatible * 3 ns Maximum Carrier Delay Variation *
+   X-band Receiver, X-band and Ka-band Exciters * Bus Interface - Mil-Std
+   1553/1773 Options * 2.5 dB Noise Figure (Nominal @25 o C) * External
+   Power Converter Synchronization Capability * -156 dBm Receiver
+   Threshold * Operates Under Launch Environments * Temperature
+   Compensated Receiver VCO * Radiation and SEU Resistant * Low Exciter
+   Spurious, Phase Noise and Allan Deviation * Internal Telemetry
+   Modulation Encoder * Radio Science Mode (USO Input Available) *
+   Internal Command Detector * 40 ns Maximum Ranging Delay Vairation *
+   Mounting in Either of Two Axes Performance Characteristics Transponder
+   Exciters (X- and Ka-band) X-band Uplink Frequency Range 7.1457.235 GHz
+   X-band Output Power +12 dBm @ 25º C X-band Downlink Frequency Range
+   8.4008.450 GHz X-band Residual Phase Noise 20 dBc/Hz at 1 Hz offset
+   X-band Tx/Rx Ratio 880/749 80 dBc/Hz at 100-100 kHz Ka-band Downlink
+   Frequency Range 31.80032.300 GHz Ka-band Output Power +4.0 dBm @ 25º C
+   Ka-band Tx/Rx Ratio 3360/749 Frequency Stability, 0 to +50º C 5.0 ppm
+   Carrier Delay Variation < 3ns p-p Spurious and Harmonic Outputs 200 kHz
+   about f0 Direct Modulation Mode Available Cmd Subcarrier Frequency 16
+   kHz Bi- =-L Coding Available Cmd Subcarrier Mod Index 0.21.3 rad pk.
+   Ranging Filter Type 3-pole Chebychev Ranging Filter BW 1700 kHz nominal
+   Temperature Stability +/- 6.5 ppm (40 to +50º C) SDST Mars Pathfinder
+   Equivalent Mass 3 kg TMU: 0.435 kg DST: 4.000 kg CDU: 0.365 kg Ka-band
+   Exciter: N/A Power 12.9 W TMU: 1.4 W DST+CDU: 13.1 W vi Deep Space 1
+   Technology Validation Report-Small Deep Space Transponder (SDST) Small
+   Deep Space Transponder (SDST) DS1 Technology Validation Report
+   Chien-Chung Chen, Andrew Makovsky, Shervin Shambayati, F. H. Taylor,
+   Martin I. Herman, Sam H. Zingales, Keith Siemsen (Motorola), Carl
+   Nuckolls (Motorola) Jet Propulsion Laboratory, California Institute of
+   Technology, Pasadena, California ABSTRACT The development of the SDST
+   was performed by Motorola Inc., Scottsdale, AZ, under funding from a
+   JPL multimission This report summarizes the in-flight technology
+   validation consortium. Developed over a three-year span at a cost of
+   results for the small deep space transponder (SDST). less than $10.4
+   million (including nonrecurring engineering Specific in-flight checkout
+   activities were designed to (NRE) and flight unit costs), the SDST
+   development process exercise the transponder through different
+   operating modes; is a model for the better-faster-cheaper development
+   relevant performance data were collected both onboard by paradigm. the
+   flight system and on the ground by monitoring Deep Space Network (DSN)
+   stations. Additional validation data Key technologies enabling the SDST
+   design include the were obtained through routine operations of the
+   spacecraft radio frequency integrated circuit (RFIC), advanced high- by
+   thoroughly monitoring the telecom-link performance and frequency
+   multichip modules (MCMs), and 70,000-gate relevant SDST performance
+   data. All SDST functions for complimentary metal-oxide semiconductor
+   (CMOS) appli- uplink, downlink, and radio metric measurements were
+   cation specific integrated circuits (ASICs), that implement
+   successfully validated under the intended operating the bulk of the
+   receiver and telemetry modulation functions. environment, including the
+   optional Ka-band downlink. Some of the designs (downconversion
+   frequency scheme, dielectric resonator oscillators (DROs)) were derived
+   1.0 INTRODUCTION directly from the Cassini DST, while others, such as
+   the MCMs and ASICs, were new developments. This mixture The small deep
+   space transponder (SDST) is a Level-1 of inherited technologies and new
+   developments shortened technology validation objective of the New
+   Millennium the design cycle and lowered development costs. A Deep Space
+   1 mission (DS1). The SDST was developed as a summary of key SDST
+   technologies and their design replacement for the Cassini deep space
+   transponder (DST) heritage is shown in Table 2. and supports the radio
+   frequency transmit, receive, and radiometric functions, as did previous
+   transponders. A high firmware content was implemented in the SDST's
+   Additionally, the SDST provides a significantly greater digital signal
+   processing module, which was designed to functional integration by
+   combining the command detection work in X-band deep space, S-band NASA
+   Spaceflight unit (CDU) and telemetry modulation unit (TMU) in one
+   Tracking and Data Network (STDN) facilities, and S-band assembly. The
+   integrated design allows for smaller size, USAF Space Ground Link
+   System (SGLS) transponders. mass, and power consumption of the telecom
+   subsystem The high firmware content enables many optional compared to
+   the previous generation of hardware. A capabilities to be provided with
+   only firmware changes, and comparison of mass and power consumption of
+   the SDST allows specific tailoring for each mission. Particular with
+   the Mars Pathfinder (MPF) telecom subsystem is attention was paid
+   during development to ensure that the shown in Table 1. SDST provides
+   flexible control in software. This feature was important for the
+   multimission consortium, where Table 1. Comparison of SDST Mass and
+   Power different spacecraft designs may dictate slightly different
+   Consumption with those of Mars Pathfinder control interfaces.
+   Transponder modes, such as the telemetry (MPF) Telecom Components with
+   and ranging modulation indices, telemetry subcarrier Equivalent
+   Functions frequency, and convolutional coding type, are user-
+   controllable during mission operation. Other functions, such DS1 Mars
+   Pathfinder (equivalent function) as the carrier-tracking loop bandwidth
+   and automatic uplink acquisition, are firmware options. Furthermore,
+   the SDST Mass 3 kg TMU: 0.435 kg design accommodates interface with the
+   spacecraft avionics DST: 4.000 kg via either a MIL-STD-1553,
+   MIL-STD-1773, or RS422 CDU: 0.365 kg serial bus, using the 1553
+   protocol. This design allows Power 12.9 W TMU: 1.4 W future flight
+   users maximum flexibility in selecting the DST+CDU: 13.1 W system
+   architecture. 1 Deep Space 1 Technology Validation Report-Small Deep
+   Space Transponder (SDST) Table 2. SDST Technologies and their Design
+   SDST is currently in full production for the Mars 2001 and Heritage
+   Space Infrared Telescope Facility (SIRTF) missions. Key Technologies
+   SDST Heritage Frequency scheme Cassini 2.0 KEY SDST FUNCTIONS
+   Dielectric resonator Cassini (smaller) oscillators (DROs) The SDST is
+   the first deep space transponder using digital DRO lock technique New
+   (sampling phase receiver technology. The use of digital technology
+   allows detectors (SPDs)) for tighter integration of functions and more
+   flexibility in Ceramic first intermediate Cassini their control.
+   Additionally, the SDST is the first Ka-band- frequency filter capable
+   deep space transponder. Previous Ka-band-capable Preselector Cassini
+   missions, such as Mars Observer (MO), Mars Global Voltage-controlled
+   oscillator Cassini Surveyor (MGS) and Cassini, rely on either an
+   external (VCO) and Auxiliary frequency translator or frequency
+   multiplier to provide the Oscillator (AuxOsc) Ka-band downlink. The
+   SDST provides full support of Ka- Ka-band multiplier JPL heritage band
+   downlink functions, including telemetry modulation Low-noise RFIC
+   Motorola heritage and radio metrics (coherent Doppler, ranging, and
+   DOR). Power supply design Cassini The design of SDST supports the
+   following functions: RFIC phase modulator New (JPL small business
+   innovative research (SBIR)) 1. Uplink-related functions: RF board
+   manufacturing Duroid boards bonded (not * Receive and demodulate the
+   X-band uplink carrier. technique fused) Low-temp cofired ceramic
+   Motorola heritage * Monitor for self or false lock. MCMs * Provide an
+   uplink automatic gain control (AGC) Command and control 1553, 422, 1773
+   for receiver power measurement. interface * Receive and demodulate the
+   command subcarrier Uplink/downlink interface Cassini and data stream.
+   Mechanical packaging Cassini 2. Downlink-related functions: The
+   capabilities of the SDST include: * Provide the capability of an
+   noncoherent downlink * X-band receiver/downconverter capable of carrier
+   with auxiliary oscillator or ultrastable oscillator tracking at or
+   below -156 dBm. (USO). * Command detector unit function. * Perform
+   convolutional encoding and subcarrier modulation of downlink telemetry.
+   * Telemetry modulation function. * Perform X- and Ka-band carrier
+   modulation of * X- and Ka-band exciters. downlink with variable
+   modulation indices. * Beacon mode operation. * Provide independent
+   control of X- and Ka-band * Coherent and noncoherent operation choice.
+   downlinks. * X- and Ka-band ranging. * Provide differential one-way
+   ranging (DOR) * Differential one-way ranging (DOR) for both X-band
+   modulation on downlink. and Ka-band. * Generate a beacon tone. *
+   Command and Data Handling (C&DH) communication via 1553. 3. Radio
+   metrics: * Data interface via RS422. * Provide stable one-way downlink
+   for use when the * External ports for temperature sensors. transponder
+   is not in lock with the uplink. * External port for an analog signal. *
+   Support two-way coherent operations by phase locking downlink with the
+   uplink signal carrier. All SDST functional capabilities were verified
+   on the DS1 * Demodulate uplink ranging modulation and mission,
+   including the optional Ka-band downlink. This remodulate ranging
+   signals on the downlink. report summarizes the results of DS1's
+   technology validation activities related to the SDST. With successful
+   4. Collect analog engineering status within the subsystem flight
+   validation and experience gained through mission operations, the risk
+   of using the transponder design for A summary of SDST functions and
+   relevant requirements future missions has been substantially reduced.
+   Indeed, the can be found in the SDST detailed functional specifications
+   [1]. 2 Deep Space 1 Technology Validation Report-Small Deep Space
+   Transponder (SDST) 3.0 SDST VALIDATION OBJECTIVES narrow-band AGC, the
+   carrier demodulation, and the command data demodulation functions. The
+   digital receiver The SDST design has been subjected to a series of also
+   derives the phase error between the receiver voltage- verification and
+   validation tests before and after launch. controlled oscillator (VCO)
+   and the incoming radio Before launch, the SDST was subjected to a
+   series of frequency (RF) carrier. This error signal is then filtered
+   and functional verification tests. These tests were intended to used to
+   drive the VCO to close the carrier phase-tracking verify functional
+   specifications and performance require- loop. ments. Additionally,
+   continuous checkout and monitoring of transponder performance
+   throughout the integration and test Once the carrier signal is
+   demodulated, the command (I&T) process ensured that the performance and
+   functional subcarrier synchronization and demodulation is performed
+   specifications of the transponder were met. by the command detector
+   unit (CDU) within the digital ASIC. The SDST CDU uses a digital
+   implementation In contrast to the verification tests, the technology
+   validation similar to the Cassini/Mars Observer CDU. The CDU activities
+   were designed to ensure that the intended outputs the command data,
+   clock, and a lock-detect functions of the transponder could be achieved
+   by the indicator to allow for subsequent decoding of the command
+   design. This was achieved through a series of Deep Space uplink by the
+   spacecraft avionics. Network (DSN) compatibility tests on the ground,
+   several planned in-flight checkout (IC) activities, and monitoring of
+   In-flight validation objectives related to the uplink functions
+   transponder/downlink performance throughout normal include validation
+   of the following functions: mission operations. The DSN compatibility
+   tests were * Uplink carrier receiver acquisition. conducted using the
+   Compatibility Test Trailer (CTT) at * Command data rate and command
+   threshold. Motorola and at the Kennedy Space Center (KSC). *
+   Carrier-tracking and uplink power measurements. Additional
+   compatibility tests were conducted at JPL using the DSN Development and
+   Test Facility. These tests 3.2 Downlink Functions validated the Level-3
+   system requirements to ensure flight- The SDST contains two
+   independently controllable exciters: ground compatibility and key
+   functions of the one for X-band downlink and one for Ka-band downlink.
+   telecommunications subsystem. The results of the testing These two
+   downlinks are provided with independent are summarized in a DSN
+   compatibility test report [2]. subcarrier generator and convolutional
+   encoder and can be configured to transmit independent downlinks. For
+   the DS1 After launch, the technology validation activities were SDST,
+   the X-band and Ka-band share common telemetry designed to show that the
+   intended functions of the and clock inputs (since there is only a
+   single-string avionics) transponder could be achieved by the design
+   under a and the two streams are configured for the same encoding
+   relevant operating environment. To that end, several in- rate. flight
+   checkout (IC) activities were planned specifically to verify and
+   validate that the SDST reliably performed its In-flight validation
+   objectives for the downlink functions required uplink, downlink, and
+   radio metric functions with include: the tracking stations. In some
+   cases, such as frequency * Verification of telemetry encoding and
+   carrier stability measurements, the in-flight checkout activity also
+   modulation. provided measurements of SDST performance in the actual *
+   Verification of the transition between two-way coherent operating
+   environment, measurements not obtainable and one-way modes. through
+   ground-based testing. * Validation of the phase modulator performance
+   model. * Validation of the Ka-band exciter technology and its The
+   objectives of flight validation tests for each of the associated
+   performance characteristics. uplink, downlink, and radio metric
+   functions are * Validation of beacon tone generation. summarized below.
+   The phase modulator performance model is particular to the 3.1 Uplink
+   Functions DS1 SDST, which exhibited nonlinear phase modulation The
+   receiver receives and demodulates X-band uplink. The characteristics
+   under test. The nonlinearity results in a large SDST implements a
+   hybrid analog-digital receiver. The intermodulation loss when both
+   ranging and telemetry uplink signal is first passed through the
+   downconverter modulations are applied. A nonlinear loss model was
+   stages. The receiver also performs the wide-band AGC constructed prior
+   to launch using ground-test data; in-flight function. The downconverted
+   intermediate-frequency signal validation of the phase modulator
+   performance model is then digitized at a rate of 4/3 F1 (approximately
+   12.6 verified the validity of the performance model. megahertz). The
+   rest of the receiver functions are implemented in the digital ASIC,
+   which includes the 3 Deep Space 1 Technology Validation Report-Small
+   Deep Space Transponder (SDST) 3.3 Radio Metrics * Demonstrate the
+   capability to generate necessary station The SDST supports radio metric
+   functions by providing predicts for Ka-band tracking. two-way coherent
+   transponding of the uplink carrier and by * Demonstrate the station
+   capability to perform radio providing the turn-around ranging
+   capability. These metric tracking (Doppler and ranging) on the Ka-band
+   functions are similar to previous deep space transponders downlink.
+   except, of course, that the SDST supports radio metric * Verify
+   X/Ka-band radio metrics performance. measurements in both the X-band
+   and the Ka-band. * Demonstrate the Deep Space Network Station 25 (DSS-
+   25) capability to accurately point the 34-m antenna In-flight
+   validation objectives for the radio metric functions using blind
+   pointing. include: * Measure the Ka-band system noise temperature,
+   which * Measurement of the frequency stability of the DS1 compares
+   favorably with the model. auxiliary oscillator under in-flight
+   temperature conditions. Additionally, the DS1 Ka-band downlink was used
+   to * Verification of coherent carrier-tracking performance. support
+   characterization of 70-m antenna pointing accuracy * Verification of
+   the X/Ka-band relative carrier-tracking at the Ka-band. performance. *
+   Verification of the X/Ka-band ranging functions. 4.0 SDST VALIDATION
+   PROCESS 3.4 Analog Engineering Telemetry Collection For in-flight
+   checkout of the transponder, a series of In addition to reporting the
+   internal status of the SDST, the validation objectives were identified.
+   Each SDST validation external analog telemetry interface built into the
+   SDST is objective, summarized individually in Table 3, requires the
+   also used to collect external analog engineering status from active
+   participation of the ground tracking station. the telecom subsystem.
+   Four (4) analog voltages and four Depending on the purpose of the
+   activity, the station (4) external temperature sensor interfaces are
+   provided by provided an X-band uplink carrier and received either an X-
+   the SDST. For the DS1 radio frequency subsystem (RFS), band downlink or
+   simultaneous X-band and Ka-band signals these input channels are mapped
+   to the following SDST from the spacecraft. analog measurement channel
+   assignments: Ext channel Measurements In most SDST flight-validation
+   activities, the power level of 1 Ka-band power amplifier (KAPA) input
+   the carrier or the signal-to-noise ratio (SNR) of the power monitor
+   command, telemetry, or ranging data was collected and 2 KAPA output
+   power monitor compared with the values predicted on the basis of the
+   DS1 3 X-band power amplifier (XPA) input communications link models.
+   Some of the data are available power monitor from SDST (for example,
+   uplink-related measurements) 4 Detector amplifier module (DAM) while
+   others are available through DSN station monitoring. secondary voltage
+   Since DS1 supports both Ka-band and X-band downlinks, a Ext temp sensor
+   Location significant portion of the validation activities need to be 1
+   DAM temperature performed at both the Ka-band and the X-band. However,
+   2 SDST sidewall temperature the Ka-band horn antenna on DS1 is
+   directive and must be 3 KAPA input detector temp pointed to Earth in
+   order to conduct Ka-band related 4 KAPA output detector temp validation
+   activities. The pointing constraints of the spacecraft, therefore,
+   limit the times at which Ka-band Collection of these engineering
+   telemetry values, especially activities can take place. During the
+   initial checkout phase, those related to the Ka-band power amplifier,
+   were intended the Miniature Imaging Camera and Spectrometer (MICAS) to
+   support the KAPA technology validation activity, which pointing
+   constraints resulted in delaying the Ka-band related will be described
+   in a separate report. activities until 25 days after launch (L+25D). In
+   contrast, X- band validation activities can be conducted using the X-
+   3.5 Ka-band Readiness Demonstration band low-gain antenna (LGA) and are
+   not constrained by Although not strictly an SDST validation objective,
+   the spacecraft attitude. A second operational constraint on Ka-
+   availability of a stable Ka-band downlink signal from DS1 band
+   activities is that the Goldstone tracking complex has permitted a
+   direct verification of the Deep Space Network's the only DSN station
+   (DSS-25) capable of receiving Ka- operational readiness at the Ka-band.
+   The DS1 Ka-band band transmissions. Therefore, technology validation
+   tests downlink was used to: involving Ka-band downlinks were conducted
+   over * Demonstrate dual-band (X/Ka), end-to-end telemetry Goldstone
+   sites only. flow from a spacecraft to the DS1 Mission Support Area
+   (MSA) (DS1-g). 4 Deep Space 1 Technology Validation Report-Small Deep
+   Space Transponder (SDST) Table 3. SDST Validation Objectives Objectives
+   Pre-launch In-flight Tests Checkout Receiver best lock frequency
+   Measure Validate Routine ops Signal acquisition range and rate Measure
+   Validate Routine ops Self/false lock characterization Measure Validate
+   Routine ops Uplink command reception Measure Validate Routine ops
+   Uplink power measurements Characterize Validate Routine ops Telemetry
+   encoding and modulation Test Validate Routine ops, Xtlm Noncoherent
+   mode operation Test Validate Routine ops Phase modulator performance
+   Characterize Validate Routine ops, Xrange Noncoherent carrier frequency
+   stability Test Measure Xstable Coherent Doppler tracking performance
+   Test Validate Routine ops Ranging functional verification Test Validate
+   Xrange Krange Beacon mode (a separate experiment) Test Validate Xtone
+   Analog engineering telemetry sampling Test Validate Routine ops 4.1
+   Receiver Best Lock Frequency A predictable best lock frequency (BLF) is
+   important for The SDST acquisition performance was validated on every
+   deep space mission operations. An accurate receiver BLF track where
+   coherent downlink is required. Over the mission predict would allow the
+   ground station to provide an uplink lifetime of a year, there has been
+   no uplink acquisition acquisition sweep over a sufficiently narrow
+   range to failure due to the transponder. rapidly acquire the SDST.
+   During ground testing, it was discovered that the transponder's best
+   lock frequency is a 4.3 Self and False Lock sensitive function of
+   temperature. Over the in-flight It is important that the receiver
+   exhibit no self or false lock allowable range, the receiver BLF can
+   vary by as much as events. The absence of such events is critical for
+   successful ±25 kHz from its predicted frequency profile. This fact was
+   mission operations because false/self lock can prevent the verified
+   with in-flight measurement (see Figure 1). receiver (SDST) from
+   receiving a valid command uplink, Subsequent development of the SDST
+   for Mars 2001 rendering the spacecraft uncommandable. missions has
+   significantly reduced the amount of BLF drift compared to that of the
+   DS1 SDST. The SDST provides frequent updates of its internal state.
+   This status information is available to the spacecraft through 4.2
+   Signal Acquisition Range and Rate the 1553-bus transactions for health
+   monitoring purposes. Even though ground/flight testing of the
+   transponder Additionally, the SDST provides an event counter that
+   showed significant BLF variation, ground testing of the registers every
+   change in state of the SDST. Should an SDST also showed that the
+   transponder can be acquired at a unexpected change of state occur, the
+   event counter will much higher rate than could previous transponders.
+   Shown advance incrementally. An unexpected lock-up and in Figure 2 is a
+   plot of the acquisition rate as a function of subsequent drop-lock of
+   the carrier, for example, will uplink power level measured during the
+   final DSN advance the receiver event counter by 3 increments.
+   compatibility test at KSC prior to launch. The SDST event counter was
+   closely monitored throughout Based on the test data, it was recommended
+   that a frequency the IC period. During that period, an attempt was made
+   to sweep range of ±30 kHz be used. A sweep rate of 900 Hz/s correlate
+   incremental changes in the event counter with was recommended at power
+   levels above -130 dBm and a identifiable state changes. No self/false
+   lock events or sweep rate of 300 Hz/s was recommended at power levels
+   unexpected state changes were detected for the SDST less than -130 dBm.
+   The combined sweep rate/range during either ground testing or in-flight
+   operations. resulted in a sweep-acquisition time of less than 400
+   seconds in the worst case, and 130 seconds at higher power levels. 5
+   Deep Space 1 Technology Validation Report-Small Deep Space Transponder
+   (SDST) FEM2, TV, BLF Cal, March 98 10000 5000 0 -5000 -10000 -15000 y =
+   204.76x - 18886 -20000 -25000 -30000 BLF (SPE=0) -35000 BLF (VCO Rest
+   Freq) Linear (BLF (SPE=0)) -40000 -50 -40 -30 -20 -10 0 10 20 30 40 50
+   Baseplate Temperature, C (a) DS1 sdst receiver spe vs VCO temperature,
+   as of April 28, 1999 150 100 50 0 -50 -100 0 2 4 6 8 10 12 14 16 18 VCO
+   temperature, deg C (b) Figure 1. (A) Receiver Best Lock Frequency (BLF)
+   Variation as a Function of Voltage-controlled Oscillator (VCO) and
+   Baseplate Temperature During Ground Testing (A), and (b) Measured In
+   Flight 6 Deep Space 1 Technology Validation Report-Small Deep Space
+   Transponder (SDST) DS1 Flight SDST, maximum DSN uplink sweep rate for
+   successful acq & track, KSC 2500 2000 start below BLF start above BLF
+   1500 1000 500 0 -100 -105 -110 -115 -120 -125 -130 -135 -140 -145 -150
+   uplink received power level, dBm Figure 2. Measured SDST Sweep Rate at
+   KSC Testing 4.4 Uplink Command Reception confirmation that the receiver
+   noise floor had not been The SDST was required to be commandable at
+   each of the degraded. following data rates: 2000, 1000, 500, 250, 125,
+   62.5, 31.25, Table 4. SDST Command Rates Verified 15.625, and 7.8125
+   b/s. Uplink command reception at these In Flight to Date rates was to
+   be demonstrated by X-band uplink (XUPL) Operational testing, as well as
+   by routine commanding during Command Verified in Flight Signal Level,
+   operations. Due to project time constraints, XUPL was not Bit Rate, b/s
+   Operations? Pt, dB (1 mW) completed. Instead, routine commanding was
+   performed at 2000 Yes -114 all data rates except 31.25 b/s. The data
+   rate during routine mission operations was selected based on the
+   supportable 1000 Yes -124 uplink rate during a particular day (based on
+   the spacecraft 500 Yes -120 orientation, the antenna selected, the
+   Earth-spacecraft range, 250 Yes -131 and the ground transmitter power).
+   Since DS1 mission 125 Yes -128 operations require the spacecraft to
+   employ different 62.5 Yes -132 antennas at different spacecraft
+   orientations, most of the re- 31.25 Not yet N/A quired SDST data rates
+   were verified in flight (see Table 4). 15.625 Yes N/A 7.8125 Yes, used
+   when In-flight verification of command threshold was not -140
+   recovering from fault performed because of lingering project concern
+   about protection deliberately sending below-threshold command data to
+   the flight software. The possibility of a resulting spacecraft 4.5
+   Uplink Power Measurements safing could not be ruled out and the mission
+   timeline had Uplink carrier threshold was indirectly verified using the
+   no margin to recover from safing. Although no command uplink residuals
+   measurements: the SDST measures the tests have been done, these command
+   thresholds have been uplink signal-to-noise ratio and telemeters the
+   measured verified indirectly: during flight operations, the predicted
+   data (carrier lock accumulator). This data is then compared command
+   rate was always successful. Shown in Table 5 are to the predicted
+   uplink carrier power and predicted system the predicted thresholds that
+   are used routinely to determine noise temperature of the receiver. The
+   results provide an what command rate can be used on a particular DSN
+   pass. indirect confirmation of the receiver sensitivity and carrier The
+   successful uplink activities provide indirect threshold. 7 Deep Space 1
+   Technology Validation Report-Small Deep Space Transponder (SDST) Table
+   5. Command Threshold Table as Predicted The uplink residuals served to
+   provide only indirect Threshold Threshold verification of the SDST
+   uplink threshold. Ongoing Command Mod Uplink Pt/No Pt/No activities to
+   monitor the uplink residuals will be required to Bit Rate, Index,
+   Carrier (Ranging (3 dB Uplink monitor for long-term trend. b/s Radians
+   Suppression, Ranging dB OFF), dB-Hz Suppression), dB-Hz 4.6 Telemetry
+   Encoding and Modulation 2000 1.2 -3.5 47.55 50.6 The SDST is designed
+   to support multiple telemetry 1000 1.2 -3.5 44.3 47.3 encoding modes
+   using an externally supplied data stream 500 1.2 -3.5 41.2 44.2 and
+   clock signal up to 4.4 megasymbols per seconds. The 250 1.2 -3.5 38.5
+   41.5 external clock signal supplied needs to be coherent with the 125 1
+   -2.3 36 39 data stream and at a rate equal to the symbol coding rate
+   62.5 1 -2.3 32.7 35.7 selected (e.g., at multiples of the data rate).
+   Additionally, the 31.25 1 -2.3 30 33 SDST supports both subcarrier
+   modulation and direct carrier 15.625 0.9 -1.9 27.5 30.5 modulation (see
+   SDST specifications [1]). 7.8125 0.8 -1.4 26.2 29.2 Full validation of
+   telemetry encoding and modulation mode Link residuals may be due to a
+   modeling error (antenna gain was not performed due to configuration
+   limits of the or system noise temperature), operating conditions
+   spacecraft and DS1 downlink strategy. The available clock (spacecraft
+   deadbanding), or changes in system per- rate from avionics (the Reed
+   Solomon downlink (RSDL) formance. Shown in Table 6 are the uplink
+   residual data ASIC) supports only clock rates that are 1×, 2×, and 6×
+   the compiled for passes when the high-gain antenna (HGA) was data rate.
+   Additionally, DS1's flight avionics system in use and when the
+   spacecraft was Earth-pointed (in order (hardware plus software)
+   supports a maximum telemetry to eliminate uncertainties due to
+   spacecraft attitude). It is data rate of only 19908 b/s. The downlink
+   strategy for DS1 seen that the uplink residual is in reasonable
+   agreement with requires that (7,1/2) and (15,1/6) codes be supported
+   for the prediction. The larger standard deviation (two sigma is
+   subcarrier modulation mode only (no direct carrier 1.2 dB) shows that
+   the project should plan its link capability modulation). The (7,1/2)
+   code was used during initial based on a link margin of at least 2 dB (3
+   sigma). acquisition (2100 b/s) and when the spacecraft was in one of
+   the several standby modes. Most of the mission was conducted using the
+   (15,1/6) code. Table 6. Uplink Residuals as Measured In Flight Uplink
+   Residual Spacecraft Time DSS (Actual-Predict) Antenna 1999-009
+   02:25-07:59 25 +0.8 HGA 1999-009 17:00-010 02:09 65 +0.8 HGA 1999-012
+   17:40-013 00:09 65 +0.7 HGA 1999-013 16:55-23:36 65 +0.7 HGA 1999-014
+   16:55-015 03:44 65 0.2 HGA 1999-016 3:25-07:39 15 +0.7 HGA 1999-016
+   16:40-017 00:29 65 +0.3 HGA 1999-017 00:25-05:44 15 +0.7 HGA 1999-017
+   16:40-018 00:44 65 +0.3 HGA 1999-018 00:25-09:29 15 +0.3 HGA 1999-019
+   02:55-07:44 25 1.1 HGA 1999-021 03:10-07:34 25 0.6 HGA 1999-022
+   01:10-09:59 15 +0.7 HGA 1999-022 10:55-15:44 34 0.3 HGA 1999-022
+   19:40-023 00:24 54 +1.7 HGA 1999-023 16:25-23:44 65 0. HGA 1999-024
+   02:55-11:44 25 +0.03 HGA 1999-024 19:40-025 00:09 54 +0.13 HGA 1999-025
+   03:25-11:14 25 +0.15 HGA Average 0.3 dB Standard deviation 0.6 dB 8
+   Deep Space 1 Technology Validation Report-Small Deep Space Transponder
+   (SDST) 4.6.1 Telemetry Data Rate Verification (X- and Ka-band, downlink
+   (as much as several tenths of dB). This deadband Coherent
+   Mode)-Telemetry encoding and modulation was effect has been removed
+   from the data by using the peak verified for SDST using the 19 planned
+   data rates for both signal level for each pass. However, bad
+   weather-system X-band and Ka-band downlinks at the planned encoding
+   noise temperature variation-has not been taken into modes (Table 7).
+   The activity (Xtlm) was conducted when account. the SDST was operating
+   in the two-way coherent mode. The SDST provided a convolutionally
+   encoded telemetry data The average symbol SNR (SSNR) residual is
+   comparable to stream at the symbol rate (either (7,1/2) or (15,1/6))
+   and the carrier power residual (+0.5 dB). Furthermore, when modulated
+   the symbol stream onto the required subcarrier adjusted for system
+   noise temperature (SNT), the residual is (either a 25-kHz or 375-kHz
+   square wave). Finally, the only 0.1 dB. This indicates that the link
+   model (total power, SDST modulated this subcarrier plus data onto the
+   RF modulation index, as well as downlink signal quality) is carrier
+   (either X-band or Ka-band) at the desired modulation sufficiently
+   accurate. The measured residual spread (0.4 dB, index. one sigma) with
+   SNT and spacecraft deadband effects removed provides a measurement of
+   the uncertainty in link All the data rates and both convolutional codes
+   have been performance. These data are useful for future missions and
+   validated at X band, not only during Xtlm, but during can be used to
+   estimate the effective link margins required. routine operations at
+   many data rates. At each planned operating rate, the ground station
+   successfully locked onto 4.7 Noncoherent Mode Operation and decoded the
+   telemetry data stream (at both the X-band The DS1 SDST typically
+   operates in the coherency-enabled and Ka-band) and transmitted the
+   decoded telemetry stream mode with downlink driven by a VCO. When no
+   uplink to the DS1 MSA. signal is detected (no receiver lock) or when
+   the SDST is configured for coherency-inhibited mode (two-way Table 7.
+   Telemetry Data Rates Verified In Flight noncoherent mode), the downlink
+   is driven by an auxiliary oscillator (AuxOsc). Validation of
+   noncoherent mode Data X Mod Index Ka (DN), Convolutional operation
+   must: Rate (DN), Ranging Ranging ON ON Code 19908 38 54 (15,1/6) a.
+   Validate that the SDST can successfully generate a 13272 38 53 (15,1/6)
+   noncoherent downlink signal driven by the AuxOsc. 9480 38 Not used
+   (15,1/6) The SDST was commanded to the noncoherent mode 6636 38 Not
+   used (15,1/6) during initial acquisition and standby modes and during
+   4424 38 Not used (15,1/6) certain technical validation activities (like
+   Xstable and 3150 38 Not used (15,1/6) beacon mode testing). 2100 38 40
+   (15,1/6) 1422 38 45 (15,1/6) b. Validate that the SDST can generate a
+   noncoherent 1050 38 44 (15,1/6) downlink with telemetry modulation.
+   This is the 790 38 43 (15,1/6) standard operating mode at the beginning
+   of any station 600 38 42 (15,1/6) pass that does not overlap a previous
+   pass. The station 420 38 41 (15,1/6) is usually able to acquire one-way
+   downlink telemetry 300 37 39 (15,1/6) before it locks to the two-way
+   downlink a round trip 200 36 38 (15,1/6) light time later. Data rates
+   verified during IC activities are shown in Table 9. 150 36 37 (15,1/6)
+   79 33 33 (15,1/6) c. Validate that the transponder can be successfully
+   40 30 27 (7,1/2) commanded out of a coherency-inhibited (two-way 10 23
+   16 (7,1/2) non-coherent (TWNC)) mode. Although DS1's standard operating
+   mode is coherency-enabled, the 4.6.2 X-band Telemetry Link Performance
+   (Link transponder was intentionally set to operate in TWNC
+   Residuals)-In addition to verifying that the SDST can mode during
+   launch and when the spacecraft enters effectively modulate the
+   downlink, the X-band downlink standby mode. This is so that there will
+   be a detectable performance has also been verified by tracking the link
+   downlink signal even if there is a problem with the residuals over
+   multiple passes. Shown in Table 8 are the X- uplink. Since launch, the
+   spacecraft has entered standby band downlink performance values versus
+   the expected mode at least six times, and every time the spacecraft
+   downlink signal values (carrier power and symbol SNR) was successfully
+   commanded to return to the normal measured using the block-V receiver
+   (BVR). Spacecraft (coherency-enabled) mode. deadbanding (an attitude
+   control error that varies between ±1 degree) can result in a
+   significant degradation of the 9 Deep Space 1 Technology Validation
+   Report-Small Deep Space Transponder (SDST) Table 8. Measured Downlink
+   Telemetry Residuals In Flight DSS SSNR SSNR SSNR Delta Pc Pc Pc Delta
+   SNT SNT SNT Adjusted for System Noise Temp (SNT) Day of Year and Time
+   Actual Predicted Actual- SSNR Pc Spacecraft Pred Actual Pred Actual-
+   Pred Actual Pred dB Delta Delta Delta Antenna 1999-009 02:1507:59 25
+   7.85 7.15 0.7 -131.2 -131.7 0.5 30 32.5 0.3 0.4 0.2 HGA 1999-009
+   17:00010 02:09 65 -131.8 -132.2 0.4 25 32 1.1 -1.1 -0.7 HGA 1999-012
+   17:30013 00:14 65 7.2 6.4 0.8 -132.8 -132.75 -0.1 24 30.5 1.0 -0.2 -1.1
+   HGA 1999-013 16:4523:41 65 6.75 6.2 0.6 -132.4 -133 0.6 26.5 33.5 1.0
+   -0.5 -0.4 HGA 1999-014 03:1507:49 25 6.5 6 0.5 -132.5 -132.85 0.3 30.4
+   32.8 0.3 0.2 0.0 HGA 1999-015 03:1508:02 25 6.3 5.8 0.5 -132.6 -133.05
+   0.5 30 32.5 0.3 0.2 0.1 HGA 1999-016 03:1507:39 15 6.4 5.85 0.6 -132.75
+   -133.6 0.8 29 29.3 0.0 0.5 0.8 HGA 1999-016 16:30017 00:29 65 6.3 5.5
+   0.8 -133.4 -133.6 0.2 26 30.5 0.7 0.1 -0.5 HGA 1999-017 00:1505:44 15
+   5.5 5.65 -0.2 -133.2 -133.65 0.5 29 30 0.1 -0.3 0.3 HGA 1999-017
+   16:30018 00:44 65 5.3 5.3 0.0 -133.6 -133.85 0.3 25 30.5 0.9 -0.9 -0.6
+   HGA 1999-018 00:1509:29 15 5.9 5.45 0.5 -133.25 -133.8 0.6 29 29.5 0.1
+   0.4 0.5 HGA 1999-019 02:4507:39 25 5.25 5 0.3 -133.45 -133.85 0.4 30.7
+   32.9 0.3 -0.1 0.1 HGA 1999-022 01:0009:59 15 5.5 4.7 0.8 -133.5 -134.7
+   1.2 29.25 30 0.1 0.7 1.1 HGA 1999-022 19:30023 00:24 54 4.7 4.1 0.6
+   -134.2 -134.7 0.5 31 33.1 0.3 0.3 0.2 HGA 1999-023 16:1523:45 65 5 4.15
+   0.9 -134 -135 1.0 30 30 0.0 0.9 1.0 HGA 1999-024 02:4511:44 25 4.6 4
+   0.6 -134.25 -135 0.8 30 32.9 0.4 0.2 0.3 HGA 1999-24 19:30025 00:09 54
+   4.2 3.7 0.5 -134.7 -135.1 0.4 30 33 0.4 0.1 0.0 HGA 1999-025 03:1511:14
+   25 4.45 3.75 0.7 -134.4 -135.05 0.7 30 33 0.4 0.3 0.2 HGA AVERAGE 0.5
+   0.5 0.4 0.1 0.1 MIN -0.2 -0.1 0.0 -1.1 -1.1 MAX 0.9 1.2 1.1 0.9 1.1
+   Variance, assuming Gaussian 0.0 0.0 0.0 0.1 0.1 Sigma 0.2 0.2 0.2 0.3
+   0.4 Table 9. Encoding Modes/Data Rates Verified in the Xrange test. The
+   plot of downlink carrier power (Pc) Noncoherent Downlink Mode versus
+   time (see Figure 3) shows the carrier suppression at Data Rate
+   Convolutional Code low ranging mod index (17.5°) to be approximately
+   1.0 dB (Pc= -124.4 dBm for ranging OFF, -125.4 dBm for ranging 40
+   (7,1/2) low at 38 data number [DN]). At 35 degrees ranging mod 2100
+   (7,1/2) index and a telemetry mod index setting of 32 DN, the 3150
+   (15,1/6) carrier suppression was measured to be 7.6 dB. The
+   contribution from telemetry modulation at 32 DN is 5 dB, 13272 (15,1/6)
+   based on ground-test data. The ranging induced carrier 19908 (15,1/6)
+   suppression is, therefore, approximately 2.6 dB at 35 ° ranging
+   modulation setting, which agrees well with pre- 4.8 Nonlinear Phase
+   Modulator Performance flight test data (see Table 10) and shows that
+   the X-band Because of the intermodulation effect, the SDST's ranging
+   phase modulator has not deviated in performance since pre- and
+   telemetry-carrier suppression deviates significantly launch tests. The
+   pre-flight measurement data are contained from what the established
+   theory of linear phase modulation in section 2.7.2 of the flyable
+   engineering model (FEM) test would predict. For this reason, DS1's
+   telecom team report dated 12/18/97. constructed a special nonlinear
+   phase-modulation-loss model, which was used to predict ranging-induced
+   carrier At Ka-band (see Table 11), the phase modulator is linear,
+   suppression for the SDST. the suppression due to telemetry modulation
+   is modeled as 20*log(cos(telemetry mod index)), and the suppression due
+   The validity of this model was tested on day of year (DOY) to ranging
+   is 20*log(J0(ranging mod index)). A plot of Ka- 1998-344 when the
+   ranging modulation was applied to the band carrier power as a function
+   of time at different ranging downlink with and without telemetry
+   modulation as part of mod index settings is shown in Figure 3. 10 Deep
+   Space 1 Technology Validation Report-Small Deep Space Transponder
+   (SDST) Figure 3. Measured X- and Ka-band Carrier Power as a Function of
+   Time During DOY 1998-344, Showing Various Ranging Carrier Suppression
+   Values (Note: ERT = Earth-Received Time) 4.9 Coherent Doppler Tracking
+   (Figure 4a) and ±20 millihertz at Ka band (Figure 4b) were Coherent
+   Doppler tracking was conducted as part of the visible in the X-band and
+   Ka-band downlink-frequency Xstable test. The intent was to validate the
+   coherent residuals. These variations are common to both the X-band
+   frequency stability of the SDST both for Doppler tracking and Ka-band,
+   and are believed to be due to deadbanding of and for future radio
+   science applications. During the test, the the spacecraft. When the
+   common mode is removed by SDST generated both X-band and Ka-band
+   downlinks that subtracting the X-band frequency residual and a Ka-band
+   were coherent to the X-band uplink, with coherency ratios residual
+   scaled down by a factor of 3360/880, no periodic of 880/749 and
+   3360/749, respectively. The X-band and Ka- variation is visible in the
+   data (see Figure 4c). The 0.1-hour band downlink signals were received
+   at DSS-25 using the (6-minute) period shown in Figure 4 (ab) was
+   similar to the BVR and at DSS-13 using the experiment tone tracker
+   deadband cycle frequency of the spacecraft. (ETT). The frequency
+   measurements from both the BVR and the ETT were then used to measure
+   the phase deviation The two-way Allan deviation performance of the SDST
+   is and Allan deviations of the X-band and Ka-band downlinks.
+   illustrated in Figure 5. Both X-band and Ka-band downlinks The
+   stability of the downlink carrier as received at the showed an Allan
+   deviation of better than 1 part in 1013 with tracking station should
+   not be affected by the presence of 10 seconds integration time. This
+   translates to a Doppler command or ranging modulation on the uplink, or
+   telemetry measurement accuracy of 0.8 millihertz at 10 seconds
+   modulation on the downlink. integration time (or 0.015 mm/s). When the
+   common mode variation was removed, the X/Ka-band downlinks showed a
+   Shown in Figure 4 are the X-band and Ka-band frequency delta frequency
+   stability of better than 1 part in 1014 with residuals taken at DSS-13
+   using the ETT, after correcting 10 seconds integration time, or 0.0015
+   mm/s in Doppler for Earth rotation and spacecraft Doppler effects. It
+   is seen measurement. that periodic frequency variations of ±5
+   millihertz at X-band 11 Deep Space 1 Technology Validation Report-Small
+   Deep Space Transponder (SDST) 4.10 Noncoherent Downlink Frequency
+   Stability 65 degrees) at 17.5 degrees ranging mod index setting and
+   This test verified that the SDST generates downlink to 32 DN
+   (approximately 58 degrees) at 35 degrees ranging frequencies (X-band
+   and Ka-band) from its auxiliary mod index setting. At Ka-band, the
+   phase modulator oscillator that have sufficient stability as downlink
+   carriers behaves linearly; it is expected that ranging modulation to be
+   received by the tracking station. The stability of the X- effects can
+   be correctly predicted using well-established band downlink in the
+   SDST's noncoherent mode was not equations. expected to be affected by
+   reception of an uplink carrier. The test (Xstable) was conducted on DOY
+   1998-344, when Both X-band uplink/X-band downlink (X/X) and X/Ka DS1
+   pointed the +X axis to Earth and transmitted both X- ranging have been
+   successfully demonstrated. Downlink band and Ka-band downlinks. The
+   test measured the ranging mod indices of 17.5° and 35° have been used
+   at frequency of the X-band and Ka-band downlinks over a both the X-band
+   and the Ka-band. The actual ranging period of two hours. Shown in
+   Figure 6 is a plot of signal-to-noise ratio (Pr/No) agrees with the
+   predicted downlink frequency as a function of time for both the X-
+   within 1 dB at X-band and 1.5 dB at Ka-band. The ranging band and
+   Ka-band. It is seen from this plot that, under residuals are larger
+   than one-way (downlink or uplink) nominal operating conditions
+   (including spacecraft residuals because ranging is a two-way link: both
+   a stronger deadbanding), the X-band downlink varies by than predicted
+   uplink (typically, 0.7 dB) and a stronger than approximately 75 Hz,
+   whereas the Ka-band downlink varies predicted downlink (typically 0.7
+   dB) contribute to a larger by a corresponding ratio of (3360/880) and
+   has a maximum residual. frequency deviation of approximately 300 Hz.
+   The close resemblance of the X-band and Ka-band downlinks is Shown in
+   Figure 7 are typical examples of ranging Pr/No expected since they are
+   coherent with the same values at the X-band and Ka-band; predicts are
+   also shown multiplication ratio. A check of pre-flight temperature data
+   for comparison to actuals for the X/Ka-band track on 2/4/99. showed
+   that the SDST has a frequency rate of change of It is seen that the
+   actual downlink Pr/No values are in good over 200 Hz/°C. Therefore, the
+   perceived frequency change agreement with the predicted values. Similar
+   X/Ka-band can be due to small thermal variations at the spacecraft.
+   data, collected for DOY 1999-096 (4/6/99), are shown in Figure 8. It is
+   seen that the X-band Pr/No is within 2 dB of 4.11 Ranging Functional
+   Verification the predicted value, whereas the Ka-band Pr/No is within
+   The SDST is designed to provide turnaround ranging 3 dB of the
+   predicted value. simultaneously with uplink command and downlink
+   telemetry. Since the SDST has a nonlinear phase modulator, Ranging
+   residuals, after accounting for the spacecraft's which effectively
+   causes excessive inter-modulation losses trajectory, are shown in
+   Figure 9. The ranging residuals when ranging modulation is applied
+   simultaneously with (measurement errors when corrected for spacecraft
+   telemetry modulation at high mod indices, ranging trajectory effects)
+   are typically on the order of 0.5 m when performance validation is
+   limited to the modulation indices the HGA is used. Larger residuals are
+   seen when the LGA is planned for routine mission operations. That is,
+   X-band selected and when the spacecraft is pointed away from telemetry
+   modulation is limited to 38 DN (approximately Earth. This fact
+   correlates with the weaker uplink and downlink signals. Table 10.
+   X-band Ranging Suppression Due to Nonlinear Phase Modulator, Measured
+   Versus Predicted on the Basis of Pre-flight Data Delta, Link Delta,
+   Carrier Suppression Measured Pre-Flight In-Flight to Analysis,
+   Measured- In Flight Test Data Pre-Flight Model Model 17.5° ranging 1.0
+   0.9 0.1 -0.79 -1.0 (telemetry 38 DN) 35° ranging 2.6 2.7 -0.1 -2.94
+   -2.6 Table 11. Measured Ranging Suppression at Ka-band Telemetry
+   Ranging Delta, Measured- Modulation Modulation Pc, Measured Pc,
+   Predicted Predicted 0 DN (0°) 0° -122 dB (1 mW) 54 DN 35° -138 dB (1
+   mW) -137.8 dB (1 mW) 0.2 dB 12 Deep Space 1 Technology Validation
+   Report-Small Deep Space Transponder (SDST) (a) (b) (c) Figure 4. (a)
+   Measured Coherent Frequency Stability at X-band and (b) at Ka-band; and
+   (c) Relative Stability of X/Ka-bands 13 Deep Space 1 Technology
+   Validation Report-Small Deep Space Transponder (SDST) (a) (b) (c)
+   Figure 5. (a) Measured Allan Deviations for X-band and (b) Ka-band
+   Downlinks, and (c) Measured X/Ka-band Relative Stability 14 Deep Space
+   1 Technology Validation Report-Small Deep Space Transponder (SDST) (a)
+   (b) Figure 6. (a) Measured Noncoherent Downlink Carrier Stability at
+   X-band and (b) at Ka-band 15 Deep Space 1 Technology Validation
+   Report-Small Deep Space Transponder (SDST) 4.12 Beacon Tone Generation
+   and Tone Tracking functions, to provide the necessary engineering data
+   for The SDST was designed to provide a flexible selection of KAPA
+   performance validation. downlink telemetry subcarrier. This feature was
+   used to provide the beacon tone for noncoherent signaling: the 5.0 DSN
+   KA-BAND READINESS VERIFICATION SDST would provide one of four
+   selectable subcarrier frequencies (20, 25, 30 and 35 kHz) at a near-90°
+   modu- Since the SDST is the first Ka-band capable deep space lation
+   index (complete downlink carrier suppression). transponder, a
+   significant portion of the technology Detection of the tone frequency
+   can be used to signal one of validation activity was conducted for both
+   the X-band and four possible spacecraft states. the Ka-band. In
+   addition to the technology validation objectives cited previously, a
+   side benefit of the DS1 Ka- The Xtone activity was designed to show
+   that the beacon band downlink is direct verification of the operational
+   downlinks signal from the SDST could be detected readiness of the DSN
+   Ka-band subnet and of the effectively, even at low signal power level.
+   The results show performance advantages of the Ka-band relative to the
+   X- that the SDST was able to generate and transmit the four band.
+   Although only one of the three subnet stations (DSS- required beacon
+   tones (frequencies of 20, 25, 30, and 35 25) was ready in time to
+   support DS1, the performance data kHz) at X-band. No beacon experiment
+   was performed at gathered using DS1's Ka-band downlink were useful in
+   Ka-band. evaluating the projected Ka-band performance at other subnets
+   in the future. At the planned modulation index of 54 DN, more than 99%
+   of the power was in the subcarrier sidebands. The expected DS1 powered
+   on Ka-band during December 910, 1998 and beacon tones were successfully
+   detected. In order to test the again after January 10, 1999 prior to
+   the first thrusting detection of beacon tones on the ground at weaker
+   signal cruise arc. The initial characterization tests (December levels,
+   Xtone was successfully performed at much lower 1998) supported the
+   following SDST technology validation modulation indices (1.7, 3.4, 5.1,
+   and 6.8 degrees), a objectives: procedure that allowed a much lower
+   signal to be detected. * Demonstrate SDST capability to support
+   simultaneous The tone-detection system successfully detected signals as
+   X-band and Ka-band downlinks at various data rates low as SNR=4.5 dB.
+   and modulation indices. * Measure one-way and two-way frequency
+   stability and 4.13 External Telemetry Sampling Functions X/Ka-band
+   relative frequency stability of Ka-band The SDST samples external
+   analog and temperature downlink. telemetry signals. These channels
+   served, among other Figure 7. Predicted Versus Actual Pr/No for DOY
+   1999-035 16 Deep Space 1 Technology Validation Report-Small Deep Space
+   Transponder (SDST) DS1 X-band Pr/No, dss25, doy 99-096 (4/6), ranging
+   LO, telemetry mod index 38 DN, 13272 bps, HGA 20 19 actuals 18 Predicts
+   17 16 15 14 13 Downlink Pr/No, dB-Hz 12 11 10 0:00 1:00 2:00 3:00 4:00
+   5:00 6:00 7:00 8:00 9:00 10:00 11:00 Time, UTC (a) DS1 X-band Pr/No,
+   dss34, doy 99-096 (4/6), ranging LO, telemetry mod index 38 DN, HGA

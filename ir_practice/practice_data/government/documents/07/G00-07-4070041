@@ -1,0 +1,137 @@
+http://sscweb.gsfc.nasa.gov
+
+                                 SSCWeb Logo
+
+   Welcome to the Satellite Situation Center (SSCWeb) System and Services
+
+   The Satellite Situation Center Web (SSCWeb) service has been developed
+   and is operated jointly by the NASA/GSFC Space Physics Data Facility
+   (SPDF) and the National Space Science Data Center (NSSDC) to support a
+   range of NASA science programs and to fulfill key international NASA
+   responsibilities including those of NSSDC and the World Data Center-A
+   for Rockets and Satellites.
+
+   The software and associated database of SSCWeb together form a system
+   to cast geocentric spacecraft location information into a framework of
+   (empirical) geophysical regions and mappings of spacecraft locations
+   along lines of the Earth's magnetic field. This capability is one key
+   to mission science planning (both single missions and coordinated
+   observations of multiple spacecraft with ground-based investigations)
+   and to subsequent multi-mission data analysis. This system directly
+   supports the operational SSC and ISTP's Science Planning and Operations
+   Facility (SPOF).
+
+The Satellite Situation Center Concept
+
+   The SSC is a facility operated by NSSDC to fulfill key international
+   responsibilities such as the SpaceWarn bulletins and to assist users in
+   a particular magnetospheric region, allow a choice from a variety of
+   internal and external magnetic field models for field-line tracing
+   options, plot spacecraft trajectories, and perform conversions among
+   geocentric and magnetic coordinate systems. magnetic coordinate
+   systems. The SSC and NSSDC also support a set of pages for heliospheric
+   spacecraft, planet and comet trajectories and pages for specific access
+   to various space physics models including IGRF/DGRF and CGM coordinate
+   transformations. The SSC also maintains a set of useful processed
+   products and information.
+
+   We've tried to make SSCWeb as self explanatory as possible. However,
+   you may still have some questions so we recommend reading the
+   "Navigation Tips" before using it.
+     __________________________________________________________________
+     __________________________________________________________________
+
+                                   SSCWeb
+
+   [ Navigation Tips | Models and Regions of Geospace | SSCWeb Users Guide
+   ]
+
+                            Locator Graphics NEW!
+
+   The Locator graphics component provides the ability to plot the orbits
+   of multiple spacecraft. In addition to orbit plots, mapped and time
+   series plots can also be generated.
+
+                               Locator Tabular
+
+   The Locator component provides tabular information. As tabular output,
+   the spacecraft's coordinate location can be listed in a variety of
+   coordinate systems, as well as other location related items.
+
+   Query
+
+   The Query component provides two query matching options: magnetospheric
+   region occupancy and magnetic field line tracing.
+
+   The region query lists the entry and exit times during which specified
+   satellite(s) were in particular magnetospheric regions. The trace query
+   identifies periods when one or more spacecraft are on the same magnetic
+   flux tube of force, or periods when one or more spacecraft occupy a
+   field line which traces down to a specified ground station.
+
+                              Locator Tutorial
+
+   Query Tutorial
+
+   Note: Access to the older SSC System Version 2.2 interface has now been
+   completely discontinued. Please use our primary SSCWeb interface above
+
+  Users of Locator Graphics
+
+   The Locator Graphics is a new capability and as such you may experience
+   some problems. Requests for plots of long time periods will probably
+   result in your browser timing out before the plot is complete and also
+   ties up the server so that others can not use the system. Please try to
+   keep the requested time period as short as possible. If you really need
+   to make plots for long time periods please contact the SSC about a
+   facilities account, which will allow you to submit requests in batch
+   mode. If you encounter any problems please report it to the SSC and we
+   will try to solve the problem as soon as possible. Thank you for your
+   cooperation.
+
+SSCWeb Facilities Interface
+
+   In addition to the interface above the Satellite Situation Center
+   provides limited access to an extended interface that permits users to
+   make Locator and Query runs in a batch mode and save queries on the
+   host. Other than these additional capabilities the interface is exactly
+   the same as the public interface. If you would like access to this
+   facilities interface please send e-mail to ssc@sscweb.gsfc.nasa.gov.
+
+   * Locator Graphics Facilities Interface
+
+   * Locator Facilities Interface
+
+   * Query Facilities Interface
+
+Notice: The Calculator Interface is now working!
+
+   * Calculator Interface (JAVA Servlet UNDER-DEVELOPMENT) NEW!
+
+
+Additional Information
+
+   * View SSCWeb Usage Statistics
+
+   * About the National Space Science Data Center Services
+
+   * About Goddard Space Flight Center
+
+   * NASA/GSFC Security and Privacy Statement
+
+   * SPDS Home Page
+
+   * SPDF Home Page
+     __________________________________________________________________
+
+   Responsible NASA official and Curators:
+
+
+    Robert McGuire, Robert.E.McGuire.1@gsfc.nasa.gov, (301) 286-7794
+    Head Space Physics Data Facility
+    Code 632
+    NASA Goddard Space Flight Center
+    Greenbelt, MD 20771
+    SSCWeb Curators
+
+   Last Modified:Thursday, 10-Jan-2002 09:04:50 EST

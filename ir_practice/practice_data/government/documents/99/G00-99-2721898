@@ -1,0 +1,113 @@
+http://www-lite.larc.nasa.gov/n_instrument.html
+
+
+       LITE Directory
+   Home Page
+   Mission Overview
+   Data User's Guide
+   Data FAQ's
+   Science Steering Group
+   Instrument
+   Publications
+   Images
+   Photos
+   Photos and Images
+   Data Gallery
+   Meta Data
+   ISDB Data
+
+
+   Site Map
+
+   .
+
+                               LITE Instrument
+
+                              [instrument1.gif]
+
+   The LITE instrument was carried in the Shuttle cargo bay on a standard
+   Spacelab pallet. The instrument was mounted on an orthogrid platform
+   attached to the pallet by 52 struts. The orthogrid is a support
+   platform for the instrument subsystems and was designed to be immune to
+   thermal deformations which could affect optical alignment. A
+   description of the major LITE subsystems follows.
+
+Receiver Assembly
+
+   The receiver includes a one meter telescope and an aft-optics package.
+   The telescope collects laser light scattered from the atmosphere, and
+   brings it to focus in the aft optics. The aft optics includes
+   wavelength selective optics to separate the return signal into its
+   three color components. The 532 nm and 355 nm detectors are
+   photomultiplier tubes, while the 1064 nm detector is a silicon
+   avalanche photodiode.
+
+Boresight Assembly
+
+   The boresight assembly consists of a two-axis motor-driven prism. Its
+   purpose is to align the laser beam to the telescope field-of-view so
+   that both point to the same column of atmosphere.
+
+Laser Transmitter Module (LTM)
+
+   The LTM consists of two flash lamp-pumped, Q-switched Neodymium:YAG
+   lasers which emit simultaneously at the three harmonically related
+   wavelengths of 1064 nm (infrared), 532 nm (visible green), and 355 nm
+   (ultraviolet). The two-laser system provides redundancy in case one
+   laser fails. Only one laser operates at a time.
+
+Orbiter Experiments Autonomous Support Instrumentation System (OASIS-I)
+
+   The OASIS-I is a data-logging, subsystem which was used to record
+   accelerations, acoustic loads, strains temperatures, thermal flux and
+   pressures during the launch, ascent, on-orbit, descent, and landing
+   phases of the LITE mission.
+
+Camera Assembly
+
+   The LITE camera is a modified half-frame 35 mm camera originally used
+   for aerial reconnaissance. It was used to photograph the Earth's
+   surface and cloud cover during the daylight portions of orbits when
+   lidar data were acquired. A 25 mm focal length lens was used, giving a
+   coverage of 200 X 200 km^2. The time interval between photographs is
+   approximately 21 seconds, giving roughly 20% overlap between successive
+   frames. A GMT time stamp recorded on each frame was used to determine
+   the latitude and longitude on the surface of the Earth that corresponds
+   to the center of each frame. LITE camera photographs may be obtained
+   from the LITE Camera Photographs and Photos and Images pages.
+
+   The LITE Camera Photographs page contains the entire set of LITE camera
+   photographs. The photographs are available as JPEG images.
+
+   The Photos and Images page contains the LITE camera photographs
+   coincident with daytime LITE observations. The LITE camera photographs
+   are displayed with color-modulated, altitude-time plots of daytime LITE
+   (background subtracted) signal profiles for the 532 nm wavelength. The
+   LITE photographs are available as JPEG images.
+
+Instrument Controller
+
+   The Instrument Controller (IC) handles all command and data interfaces
+   of the LITE instrument. All subsystems could be commanded and
+   controlled via the IC. Health and status of the LITE instrument are
+   monitored and transferred to the Spacelab's Smart Flexible
+   Multiplexer/Demultiplexer (SFMDM). The IC software consists of over 18
+   real-time Ada tasks that perform all commands and data interfaces for
+   the IC as well as autonomous operations.
+
+Instrument Photograph
+
+   [lite_ksc.gif]
+
+References.
+
+   Winker, D. M., Couch, R. H., and McCormick, M. P., An overview of LITE:
+   NASA's Lidar In-space Technology Experiment, Proc. IEEE, 84, 2,
+   164-180, Feb. 1996.
+
+   McCormick, M. P., Winker, D. M., Browell, E. V., Coakley, J. A.,
+   Gardner, C. S., Hoff, R. M., Kent, G. S., Melfi, S. H., Menzies, R. T.,
+   Platt, C. M. R., Randall, D. A., and Reagan, J. A., Scientific
+   investigations planned for the Lidar In-space Technology Experiment
+   (LITE), Bull. Amer. Meteorol. Soc., 74, 2, 205-214, Feb. 1993.
+     __________________________________________________________________

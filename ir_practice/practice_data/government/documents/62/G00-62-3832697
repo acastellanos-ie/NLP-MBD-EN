@@ -1,0 +1,73 @@
+http://tdserver1.fnal.gov/wwwroot/FILESERV.HTM
+
+   [emblem text]
+
+Files and Extensions
+
+   Please conform to the following parameters when constructing file
+   names:
+
+     Filenames are the part of the name before the first .
+
+     Extensions are the 2 or 3 characters after the .
+
+     Filenames must not be longer than 27 characters
+
+     Extensions must not be longer than 3 characters
+
+     Only alpha numeric, -, and one . should be used in the names, no
+   spaces
+
+     All filenames should have a 2 or 3 character extension separated from
+   the name by a .
+
+     For file to be read on Windows 3.11 PC's, the file name cannot be
+   longer than 8 characters with a 2 or 3 character extension
+
+     Extensions for file types
+   FILE TYPE  (by File Type)   EXTENSION   FILE TYPE  (by Extension)   EXTENSION
+   --------------------------- ---------   --------------------------- ---------
+   AUTOCAD DRAWING..............DWG        BASIC SOURCE CODE............BAS
+   AUTOCAD EXPORT...............DXF        PC PHONE CARD FILE...........CRD
+   BASIC SOURCE CODE............BAS        COMMA SEPARATED VARIABLES....CSV
+   COMMA SEPARATED VARIABLES....CSV        MISC DATA....................DAT
+   COMPUSERVE IMAGE.............GIF        WORD DOCUMENT................DOC
+   ENCAPSULATED POSTSCRIPT......EPS        AUTOCAD DRAWING..............DWG
+   EXCEL WORKBOOK...............XLS        AUTOCAD EXPORT...............DXF
+   FILEMAKER PRO 2.0............FM         ENCAPSULATED POSTSCRIPT......EPS
+   FILEMAKER PRO 3.0............FP3        PC EXECUTABLE................EXE
+   FORTRAN SOURCE CODE..........FOR        FILEMAKER PRO 2.0............FM
+   HTML DOCUMENT................HTM        FILEMAKER PRO 3.0............FP3
+   JPEG IMAGE...................JPG        FORTRAN SOURCE CODE..........FOR
+   MISC DATA....................DAT        COMPUSERVE IMAGE.............GIF
+   P-TOUCH PRINTER LABELS.......LA         HTML DOCUMENT................HTM
+   PC PHONE CARD FILE...........CRD        WINDOWS INITIALIZATION FILE..INI
+   PC EXECUTABLE................EXE        JPEG IMAGE...................JPG
+   POSTSCRIPT...................PS         P-TOUCH PRINTER LABELS.......LA
+   POWERPOINT...................PPT        POWERPOINT...................PPT
+   RICH TEXT (WORD).............RTF        POSTSCRIPT...................PS
+   TAB DELIMITED DATA...........TAB        RICH TEXT (WORD).............RTF
+   TEXT.........................TXT        TAB DELIMITED DATA...........TAB
+   WINDOWS INITIALIZATION FILE..INI        TEXT.........................TXT
+   WORD DOCUMENT................DOC        EXCEL WORKBOOK...............XLS
+
+     Keep the fonts as simple as possible to avoid confusion
+
+Macintosh to PC
+
+     If you follow the parameters listed above, the PC user will be able
+   to click on the file in the file manager to open it
+
+PC to Macintosh
+
+     If a file is created on a PC, it connot be opened on a Macintosh by
+   clicking on it. It must be opened after the application is open and
+   then saved by a Macintosh before it will be clickable
+     __________________________________________________________________
+
+   This page...FILESERV.HTM...Revised: July 19, 2001
+   Technical Division
+   WEB page administrator: jchammer@fnal.gov
+     __________________________________________________________________
+
+   Legal Notices

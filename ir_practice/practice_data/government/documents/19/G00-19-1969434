@@ -1,0 +1,171 @@
+http://sis.cr.usgs.gov/cgi-bin/sis_help.cgi
+
+   USGS Home Page BRD Home Page
+
+                                  [sis.jpg]
+                      Science Information System (SIS)
+                                [nbstype.gif]
+                                  Help Page
+
+   Help for the SIS Questionnaire
+     __________________________________________________________________
+
+   This SIS Questionnaire is made up of the following pages:
+   1. Main Page
+   2. Investigator Page
+   3. Partner Page
+   4. Client Page
+   5. Location of Project Page
+   6. Product Page
+   7. Review Page
+   8. Help Page (this page)
+
+   SIS Information
+
+   1. The starting point for starting this questionnaire is at URL:
+   http://sis.cr.usgs.gov/sis. Save this location as a bookmark and always
+   start this SIS Questionnaire from this location.
+
+   2. Always finish filling in all applicable boxes on a page before
+   clicking on the SUBMIT button and continuing on to the next page.
+
+   3. To save your entries always click on the SUBMIT button when you have
+   finished entering information for that page. Clicking on SUBMIT saves
+   your entries to a file.
+
+   4. Five categories - Investigator, Partner, Client, Location of
+   Project, and Product - loop back to themselves to allow you to enter
+   multiple records. That is, every time you click on SUBMIT, you are
+   brought back to a new blank page for that category. When you have
+   finished entering information for a category (and all boxes are blank),
+   click on CONTINUE ON to go to the next SIS category.
+
+   For example, when you fill in all applicable boxes for the Investigator
+   Page and then click on the SUBMIT button, you have saved all of the
+   information entered on that page. You are then brought back to and
+   presented with a clean Investigator Page, with all of the boxes blank
+   so that you can enter the next record. This process may be continued
+   for as many records (pages) you need. When you have finished entering
+   Investigator information (and all boxes are blank on the Investigator
+   page), click on CONTINUE ON to go to the next SIS category - in this
+   case, the Partner Page.
+
+   5. The Review Page displays all the previous information you have
+   entered on the SIS pages: Main, Investigator, Partner, Client, Location
+   of Project, and Product. You may modify your entries on the Review Page
+   before clicking on FINAL SUBMIT.
+
+   6. The button FINAL SUBMIT saves all the information contained on the
+   Review Page and returns you to the beginning of the SIS Questionnaire
+   to allow you to enter new SIS information. After clicking on FINAL
+   SUBMIT, all of your entries will be forwarded on for review and to be
+   incorporated into the SIS Database. Only by clicking on FINAL SUBMIT
+   will your entries be permanently saved and forwarded on to the SIS
+   Database.
+
+   7. On the Review Page, you may erase any of the fields by simply back
+   spacing within that field prior to clicking on FINAL SUBMIT. To remove
+   entire records for Investigators, Partners, Clients, Location of
+   Projects, and Products, simply blank out all fields for that particular
+   record by back spacing within those fields of that record.
+
+   8. The entries on some of the pages require validation. If an entry is
+   incorrect, a red check mark will appear next to that entry. Leave
+   non-mandatory fields blank if they are not applicable to you. All
+   mandatory fields must be filled in.
+   Fields that are validated are:
+       Project Status (mandatory)
+       Project Start Date (mandatory)
+       Project End Date (mandatory)
+       Facility Contact: Phone, Fax, Email, and State
+       Project Contact: Phone, Fax, Email, and State
+       Progress/Results Date
+       BRD Prior Years Funding (mandatory)
+       BRD Current Fiscal Year Funding (mandatory)
+       BRD Anticipated Total (mandatory)
+       Investigators: State, Phone, and Email
+       Partners: Phone
+       Partners: Prior Years Funding
+       Partners: Current Year Funding
+       Partners: Anticipated Total
+       Client: Date of Request
+       Client: Scope of Request
+       Products: Status
+       Products: Status: Date
+
+   9. Please do not use either the Back or Forward buttons while executing
+   this questionnaire. Use only the buttons SUBMIT, CONTINUE ON, RESET, GO
+   TO, START OVER and FINAL SUBMIT within the questionnaire pages. The
+   reason you shouldn't be using the Back or Forward buttons is that your
+   cache is not being saved for each page and the entry information on
+   that page is being retrieved from files rather than cache.
+
+   10. Use of the navigation buttons is entirely optional. They are
+   primarily intended for use from the Review Page, to allow you to return
+   to SIS pages that requre additional information. For example, if you
+   determine from the Review Page that you have entered only three
+   Investigator records where there should be four, you can go to the
+   Investigator Page by clicking on GO TO. After you add the missing
+   Investigator record, you can return to the Review Page from the
+   Investigator Page by clicking on GO TO.
+
+   11. Files are created from the information that you enter on the SIS
+   questionnaire. Your IP number (remote address) is used to derive unique
+   file names for these files. Your IP number may or may not remain the
+   same for everytime that you use your particular browser. For some
+   browsers, the IP numbers remain constant and for others they don't. To
+   verify whether your IP number remains constant or not, first write down
+   your personal IP number: 128.173.49.57 (this is your IP number). Now
+   exit your browser and then restart it and return to this help page. If
+   the IP number remains the same then you can return to the SIS
+   questionnaire again and again, and your unfinished files will still be
+   saved on the system. In other words, you can enter your information to
+   the SIS questionnaire over many separate sessions and your unfinished
+   files will remain on the system. All finished files (after FINAL
+   SUBMIT) are saved and forwarded on to the SIS Database. These files
+   will NOT be immediately incorporated into the SIS Database, but will be
+   reviewed prior to their incorporation.
+
+   12. DO NOT PRINT THE WEB PAGE PRIOR TO SUBMITTING!
+     __________________________________________________________________
+
+   If you have any questions, or require additional information, contact:
+   Karl Brown
+   USGS Biological Resources Division
+   Denver, CO
+   Phone: (303)202-4240
+   Email: sishelp@usgs.gov
+
+   [SIS Introduction]
+     __________________________________________________________________
+
+   Navigation Buttons (Optional)
+   Use the following buttons to go directly to a SIS Questionnaire page,
+   bypassing other pages. These buttons are provided as a convenience to
+   the SIS user.
+   [Main] 1. Main Page
+   [Investigator] 2. Investigator Page
+   [Partner] 3. Partner Page
+   [Client] 4. Client Page
+   [Location of Projects] 5. Location of Project Page
+   [Product] 6. Product Page
+   [Review] 7. Review Page
+   [Help] 8. Help Page (this page)
+   [Start Over] 9. Start Over - CAUTION: When you click on this button,
+   [blank.gif] you erase all previous entries (for all pages) and start
+   over
+   [blank.gif] at the beginning!
+     __________________________________________________________________
+
+   [ BRD Home Page | National Biological Information Infrastructure (NBII)
+   | What's New | Contact Us | Search This Web Site | Welcome |
+   Headquarters | BRD Centers | Co-ops | Organization | BRD Libraries |
+   Strategic Plan | National Programs | Current Projects | Publications |
+   Science by State | Press Releases | Fact Sheets | Research Bulletins |
+   Frequently Asked Questions | Non-Government Organizations | Private
+   Sector | Museums | States | Federal | International | Photo Gallery |
+   Kid's Corner | Special Interest Stories | U.S. Department of the
+   Interior | USGS]
+
+
+    Comments, questions: sishelp@usgs.gov

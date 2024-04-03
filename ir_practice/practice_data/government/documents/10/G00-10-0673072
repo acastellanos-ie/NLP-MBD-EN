@@ -1,0 +1,70 @@
+http://sergey.bio.aps.anl.gov
+
+
+   ATTENTION:   This site was blocked by Argonne from January 7 to January
+   16, 2002. After that it was moved to a different computer where it is
+   being tested under new Web server software. Please report any problems
+   you may notice. Also, to stay tuned with the status or possible further
+   relocations of this X-ray Server, please, email your name and address
+   to sergey@bio.aps.anl.gov or follow the news at my official home page
+   (bookmark that page).
+
+                                                           Sergey Stepanov
+
+  Hello crawler.dlib.vt.edu!
+
+     Photos My name Sergey Stepanov. I am a Research Associate Professor
+     of Physics at the Illinois Institute of Technology (IIT) and a Beamline
+     Scientist of the Biophysics Collaborative Access Team (BioCAT) at the
+     Advanced Photon Source (APS), a 7 GeV synchrotron located at the
+     Argonne National Lab (ANL) near Chicago. For more information about me
+     including the Curriculum Vitae, contact info and scientific
+     publications please check my official page at the BioCAT Web Server.
+
+     This site provides online access to some of x-ray data analysis
+     programs which I developed for x-ray diffraction and scattering studies
+     of materials. These programs are based on my own original algorithms
+     published in the papers referred below and resulted from analyzing real
+     experimental data. The idea of making this software accessible via WWW
+     is to have the feedback from colleagues worldwide which can help to
+     improve the algorithms and make them more robust and generic. So far
+     this has worked very efficiently for common benefit and everyone using
+     this site is encouraged to submit his questions, suggestions and
+     comments.
+   _______________________________________________________________________
+
+                           X - R A Y   S E R V E R
+
+    This site operates since 1997 and has served 32509 x-ray job requests
+
+    [BUTTON Input] (not implemented)_________________ [BUTTON Input] (not
+                         implemented)_______________
+
+
+   X0h on the Web X0h on the Web interpolates dielectric susceptibilities
+   x[0] and x[h] for some crystals and other materials in wide range of
+   x-ray wavelengths with the option to compare the data from different
+   databases [12]. NEW: Bragg planes search tool.  19107
+   calls
+   GID_sl on the Web GID_SL on the Web calculates x-ray diffraction curves
+   of strained crystals and multilayers for any Bragg-case diffraction
+   with scans around arbitrary axis. It can be used for usual symmetric
+   and asymmetric diffraction, for extremely asymmetric diffraction, as
+   well as for grazing incidence and other non-coplanar cases [16], [19],
+   [20], [21], [31]. NEW: simplified interfaces.  6944
+   calls
+   TER_sl on the Web TER_SL on the Web calculates x-ray specular
+   reflection from multilayers with interface roughness and transition
+   layers [31], [20].  4198
+   calls
+   TRDS_sl on the Web TRDS_SL on the Web calculates x-ray diffuse
+   scattering from interface roughness. It implements several different
+   models of roughness and can calculate such effects as skew roughness
+   transfer, dependence of interface-interface roughness correlations on
+   lateral size of roughness and x-ray scattering from atomic steps [23],
+   [24], [26], [29], [32].  2260
+   calls
+
+   [3Darrow.gif] Back to previous page.
+
+   Last modified 23.01.2002

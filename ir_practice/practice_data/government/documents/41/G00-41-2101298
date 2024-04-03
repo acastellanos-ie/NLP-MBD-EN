@@ -1,0 +1,33 @@
+http://www.isbr.lanl.gov/brain_imaging/optical/PMT.html
+
+                             [min_int_4_dc.gif]
+
+   Photon Migration Tomography
+
+   Our approach to reconstruction of the optical properties of a medium
+   from time-resolved Photon Migration Tomography employs two principal
+   tecnical advances.
+
+   The first is the use of a Boltzman transport model for simulation of
+   photon migration. Under some circumstances this provides considerably
+   better accuracy than simplified computational strategies, for example
+   treating transport as a simple diffusion process.
+
+   The other advance is the use of an adjoint differentiation technique
+   that allows calculation of the derivative of the simulation results
+   with respect to the assumed properties of the medium, in a time
+   comparable to the computation of the transport model itself.  This
+   allows the use of gradient descent techniques to update the medium
+   model efficiently for use in iterative reconstruction schemes.
+   _______________________________________________________________________
+
+   Related Pages
+
+   Brain Imaging And Modeling
+   Human Brain Project
+   Bayesian Inference
+   Megan
+   MRIVIEW
+   _______________________________________________________________________
+
+      Please send email correspondence to John George at:  jsg@lanl.gov

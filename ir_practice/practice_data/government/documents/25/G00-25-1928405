@@ -1,0 +1,946 @@
+http://www-supernova.lbl.gov/public/papers/kcorrect.ps
+
+   A Generalized K correction for Type Ia Supernovae: Comparing R-band
+   Photometry Beyond z = 0:2 with B, V , and R-band Nearby Photometry Alex
+   Kim1 and Ariel Goobar2 and Saul Perlmutter 3 Received ; accepted
+   Submitted to Publications of the Astronomical Society of the Pacific
+   1Center for Particle Astrophysics and Lawrence Berkeley Laboratory,
+   50-232, Berkeley, CA 94720; agkim@lbl.gov 2Physics Department,
+   Stockholm University, Box 6730, S-113 85 Stockholm, Sweden;
+   ariel@physto.se 3Lawrence Berkeley Laboratory, 50-232, and Center for
+   Particle Astrophysics, University of California, Berkeley, CA 94720;
+   saul@lbl.gov - 2 - ABSTRACT Photometric measurements show that, as a
+   group, nearby Type Ia supernovae follow similar light curves and reach
+   similar peak magnitudes (Branch & Tammann 1992). Thus, these supernovae
+   may serve as standard candles or calibrated candles at cosmological
+   distances. Magnitudes of local and distant supernovae, both in the same
+   filter band, are compared using a K correction to account for the
+   different spectral regions incident on that filter. A generalized
+   approach compares magnitudes in different bands for the nearby and
+   distant supernovae, bands that are selected to give sensitivity in
+   corresponding regions of the unredshifted and redshifted spectra. Thus,
+   R magnitudes for supernovae at z ss 0:5 are compared with B magnitudes
+   of local supernovae. We compute these generalized K corrections over a
+   range of redshifts and bandpass pairs and discuss their advantages over
+   the traditional single-band K correction. In particular, errors near
+   maximum light can be kept below 0.05 mag out to at least z = 0:6,
+   whereas the traditional K correction is less accurate and can be
+   difficult to determine beyond z ? 0:2. - 3 - 1. Introduction Given a
+   homogeneous set of Type Ia supernovae and assuming no evolution, a
+   perfect and complete catalog of Type Ia spectra can be used to
+   calculate the apparent magnitudes at any redshift and for any
+   particular date with respect to maximum light. In practice, this is not
+   feasible due to several problems: (1) The available supernova spectra
+   often have insufficient wavelength coverage to calculate broadband
+   photometry and insufficient time coverage to track the quickly evolving
+   supernova; (2) Many of the available spectra do not have the
+   signal-to-noise ratio to calculate precise magnitudes; (3) Spectral
+   miscalibrations can lead to large errors in magnitude determinations;
+   (4) The filter transmission function and detector response function are
+   not perfectly known; (5) Even within the subset of Type Ia's with
+   remarkably similar spectra, there are minor differences that can lead
+   to slight supernova-to-supernova variation in magnitude. More reliable
+   magnitude calculations can be made using spectra and photometry
+   together, photometry being less sensitive to most of the above problems
+   than spectra. In this paper, we calculate and discuss the errors for a
+   generalized K correction, an example of such a technique, with a
+   preliminary analysis using three Type Ia supernova. (One "peculiar" was
+   also examined for comparison purposes.) These K corrections are
+   particularly important for use with supernovae at z ? 0:2, which are
+   now being discovered in systematic searching (e.g., Perlmutter et al.
+   1994, 1995). Analysis of standard K corrections for Type Ia supernovae,
+   useful for lower redshifts, have been performed by Hamuy et al. (1993)
+   and Leibundgut (1990). 2. A Generalized K Correction The standard K
+   correction, Kx, is used to calculate the apparent magnitude in some "x"
+   filter band of an object at redshift z according to the equation: - 4 -
+   mx(z; t) = Mx(t) + _(z) + Kx(z; t), where _ is the distance modulus
+   (based on luminosity distance) and Mx is the absolute x magnitude (we
+   omit explicit time dependence in subsequent equations). The K
+   correction relates nearby and distant magnitudes measured with the same
+   filter: Kx = 2:5 log(1 + z) + 2:5 log R F (*)Sx(*)d*R F (*=(1 + z))S
+   x(*)d* ! (1) where F (*) is the spectral energy distribution at the
+   source (in this case the supernova), and Sx(*) is the x'th filter
+   transmission (Oke & Sandage 1968). We generalize this expression to
+   handle different filters, adding a term that accounts for the
+   differences in the zeropoints of the magnitude system: Kxy = \Gamma 2:5
+   log R Z(*)Sx(*)d*R Z(*)S y(*)d* ! + 2:5 log(1 + z) + 2:5 log R F
+   (*)Sx(*)d*R F (*=(1 + z))Sy(*))d* ! = \Gamma 2:5 log R Z(*)Sx(*)d*R
+   Z(*)S y(*)d* ! + 2:5 log R F (*)Sx(*)d*R F (*0)Sy(*0(1 + z))d*0 ! (2)
+   where Z(*) is an idealized stellar spectral energy distribution at z =
+   0 for which U = B = V = R = I = 0 in the photometric system being used.
+   Kxy is thus defined so that my = Mx + _ + Kxy. If Sx j Sy, the first
+   term drops out and this reduces to the standard K correction of
+   Equation 1. The second line of Equation 2 is a change of variables, *0
+   = *=(1 + z), that makes it easier to understand the Kxy correction in
+   the case Sy(*(1 + z)) = Sx(*), a situation approximated by the dashed
+   lines in Figure 1. If the "blueshifted" y'th filter matches the x'th
+   filter function the second term in this equation drops out, and one is
+   left with the term accounting for the difference in zeropoints of the
+   filters (this difference is the "color zeropoint"). In this case,
+   spectral dependence on the correction is eliminated. Note that this
+   cross-filter approach has previously been used for galaxy K corrections
+   (e.g. Gunn 1978). - 5 - 3. Kxy Calculation We calculate generalized K
+   corrections using Equation 2 with Bessell's (1990) color zeropoints and
+   realizations of the Johnson-Cousins UBVRI filter system (Figure 1). The
+   color zeropoints are expected to match real photometric color
+   zeropoints to better than 0.01 mag (Hamuy et al. 1992 quotes ^ 0:009,
+   Bessell (private communication) quotes ^ 0:005). We use the same sample
+   of supernova spectra as Hamuy et al. (1993), excluding those of SN
+   1991T from the main analysis as it was spectroscopically peculiar
+   (Filippenko et al. 1992; Phillips et al. 1992), and including spectra
+   of SN 1981B, a supernova that has been frequently used as a template
+   Type Ia. Our full sample is presented in Table 1 and contains 29
+   spectra from epochs \Gamma 14 ! tBmax ! 76 days (in the supernova rest
+   frame) after blue maximum for SN 1981B, SN 1990N, and SN 1992A. The SN
+   1981B data is from Branch et al. (1983), SN 1990N data is described in
+   Leibundgut et al. (1991), and SN 1992A is in Suntzeff et al. (1995),
+   and Kirshner et al. (1993). The SN 1981B spectra labeled by epoch (0)
+   is a composite of four spectra from March 6-9 (Branch et al. 1983). The
+   SN 1992A HST spectra from epoch 5 with a spectral range of 1650-4800 *A
+   has been augmented by the CTIO spectra from epoch 6 as described in
+   Kirshner et al. (1993); it is labeled epoch (5). The K corrections were
+   not calculated for cases in which the spectra did not cover at least
+   99% of the effective acceptance of the passband; these cases are
+   labeled with ellipses in the tables. Tables 2, 3, and 4 have Kxy
+   corrections for x = B; V; R, y = R and redshifts spanning from 0 to 0.7
+   in increments of 0.025. Epochs are given in the supernova rest-frame.
+   Note that KRR is just the standard R band K correction. Each column of
+   data is for a single supernova spectrum; the three tables have
+   different number of columns because the number of spectra with
+   sufficient wavelength coverage to calculate each correction varies. In
+   particular, Table 4 has much fewer entries because there are only a few
+   spectra covering the - 6 - needed wavelength range to calculate KRR.
+   See Hamuy et al. (1993) for tables of KBB and KV V ; these K
+   corrections have poor spectral coverage at z ? 0:1 for KBB and at z ?
+   0:3 for KV V because at those redshifts the rarely observed near-UV
+   region of the spectrum is redshifted into the relevant bands. 4. Error
+   Estimates and Determination of Optimal Filter Pair We consider the
+   contributions of the following sources of error in the K correction:
+   numerical integration error, spectral measurement and calibration
+   error, intrinsic supernovato-supernova dispersion, instrumental
+   effects, and zeropoint uncertainty. We perform all analyses for each
+   individual redshift between 0 and 0.7 in steps of 0.025. We illustrate
+   our analysis techniques by presenting results for the specific redshift
+   of z = 0:5, although our final conclusions will be based on the full
+   analysis for all redshifts. Note that the example of redshift z = 0:5
+   demonstrates both a good filter match case (for KBR) and a poor filter
+   match case (for KV R). The numerical integration is accurate to 0.005
+   mag and we are able to reproduce the standard K corrections in B and in
+   V of Hamuy et al. (1993) to that accuracy. A larger source of
+   uncertainty comes from the noise and calibration error of the spectra
+   themselves. Lacking prior spectral error information, we test each
+   spectrum's error properties by calculating, for z = 0, B \Gamma V
+   colors on the subset of 24 spectra with sufficient coverage. (This test
+   was also performed in Hamuy et al.) The differences between these B
+   \Gamma V colors and the photometrically observed colors form a Gaussian
+   distribution with a sigma of 0.04 mag. These B \Gamma V colors compare
+   two spectral regions that have little overlap, while K corrections that
+   compare overlapping regions are less sensitive to large scale
+   miscalibrations and therefore should have smaller error. The rapid but
+   smooth evolution of supernova spectra should make K corrections - 7 - a
+   smooth function on the scale of a few days. However, the data shows
+   scatter from measurement and calibration error in the spectra. The good
+   temporal sampling of SN 1992A allows us to make K correction error
+   estimates based on this scatter. We illustrate by considering the
+   specific examples of KBR and KV R at z = 0:5, shown in Figures 2 and 3.
+   (Unfortunately, there are insufficient data points to similarly
+   consider KRR.) We first study the subset of SN 1992A K corrections
+   calculated from spectra measured at a single telescope, the CTIO 1.0-m.
+   This includes all SN 1992 spectra except the ones at epochs 5, 6, 9,
+   17, 46, and 76. We estimate the root-mean-square scatter of the data
+   from a smooth curve to be ! 0:002 for KBR and ! 0:02 for KV R; we take
+   this to be the bound on the effects of spectral measurement errors.
+   Considering the full sample of K corrections for SN 1992A from all the
+   telescopes, we find the range (not the root-mean-square) in scatter to
+   be ,0.004 for KBR and ,0.1 for KV R; we take these to be the bounds on
+   systematic instrumental error. Having studied errors involved in the K
+   corrections of a single Type Ia supernova, we now consider the
+   uncertainties involved in constructing a single K correction for this
+   entire class of supernovae. We do this by examining systematic
+   differences between the three supernovae in our sample. Again consider
+   K corrections for z = 0:5 plotted in Figures 2 and 3. The scatter at a
+   given epoch in KBR and KV R is dominated by intrinsic
+   supernova-to-supernova differences. These differences are understood as
+   being due to the observed variance in these particular supernovae's
+   color evolution, particularly around 20 days after maximum when the
+   supernovae have quickly reached their reddest color. The range of
+   scatter is ,0.015 mag for KBR and ,0.2 mag for KV R; for epochs before
+   day 17, the range narrows to ! 0:002 for KBR and ,0.1 mag for KV R. As
+   a preliminary test of the variation in K correction for Type Ia
+   supernovae that are not "normal," the K corrections of the "peculiar"
+   Type Ia SN 1991T were also - 8 - calculated (Ford et al. (1993) and
+   Phillips et al. (1992) describe this supernova). Their scatter with
+   respect to the normal supernovae's K corrections was within the
+   intrinsic supernova-to-supernova dispersion discussed above, even for
+   epochs ! 14, when the SN 1991T spectra least resembled "normal" Type Ia
+   spectra. Despite its spectral peculiarities, SN 1991T's light curve
+   shapes are similar to the other supernova light curves from our sample.
+   Systematically different K corrections are expected for supernovae with
+   peculiar color evolution. K corrections of other peculiar Type Ia's
+   (e.g. SN 1991bg) will be needed to test this. In the above discussions,
+   no conclusions could be made on KRR error due to sparseness of data.
+   However, error estimates can be made based on the range of the
+   correction. Recalling Equation 2, we see that K corrections are the sum
+   of an overall offset due to the different filter zeropoints plus a
+   spectrally dependent term. Smaller spectral terms will propagate
+   smaller errors into the K correction than larger spectral terms. In
+   this analysis, the relative size of the spectral term is apparent in
+   the spread over time of the K correction, since it is the only
+   time-dependent term. Comparing the spread over time from Figure 4(a)
+   with that from Figure 2, we see that the spectral contribution in the
+   standard single-filter K correction, KRR, is almost twice that of KV R,
+   showing that the errors in KRR are much larger than those of KV R. This
+   point is demonstrated more dramatically in Figure 4(a,b) where KBR and
+   KRR are plotted on the same scale. It is clear that the scatter in KBR
+   is much smaller than would be expected for KRR. The transformation
+   between instrumental and standard magnitudes, i.e. the color
+   correction, is based on the observation of standard stars. However,
+   supernovae and stars are spectroscopically different and will generally
+   require different color corrections. The application of the standard
+   star color correction thus leads to supernova magnitude error. In order
+   to examine this effect, we `observe' a series of spectrophotometric
+   standards to - 9 - determine the color correction by convolving stellar
+   spectra from Gunn and Stryker's (1983) spectrophotometric atlas with an
+   instrumental passband. Our instrumental passband, as plotted in Figure
+   5, is the effective Kitt Peak 4-m R passband constructed from the
+   quantum efficiency of the TK2B CCD camera, the atmospheric transmission
+   at the Kitt Peak site, and the KP1466 Harris R filter function. Figure
+   6 plots the difference between true R magnitudes and instrumentally
+   determined R magnitudes after color correction as a function of
+   observed V \Gamma R, for supernovae at the same redshifts considered
+   before (0 ^ z ^ 0:7). Magnitudes of supernovae bluer than V \Gamma R =
+   1:0 match to better than 0.02 mag but redder supernovae give
+   systematically different magnitudes. These redder supernovae are
+   generally observed at z ? 0:6 although at epochs greater than 15 days,
+   supernovae will have V \Gamma R ? 1:0 at z ? 0:45. Application of an
+   additional correction, in addition to the standard color correction for
+   instrumental systems, can yield the true standard magnitude to within
+   0.01 mag. A more detailed analysis of potential systematics will
+   require a more complete spectral data set and a variety of instrumental
+   transmission functions. There is an additional error due to zeropoint
+   uncertainty for KBR and KV R mag which does not effect KRR. This is an
+   advantage of the single-filter K correction, since zeropoints cancel
+   when comparing data in the same band. As discussed earlier, the size of
+   this error is less than 0.01 mag. Given these contributing sources of
+   error, we can compare the overall uncertainties for the generalized and
+   standard K corrections. Once again, we illustrate with the case of z =
+   0:5. KBR and KV R have the same zeropoint uncertainty, however at this
+   redshift KBR has smaller errors than KV R from all other sources. This
+   includes measurement error, instrumental systematics, and
+   supernova-to-supernova systematics. Although KRR has no zeropoint
+   error, it is otherwise expected to have errors even larger than KV R.
+   We emphasize - 10 - that KBR has these advantages because at z = 0:5,
+   SR(*(1 + z)) ss constant \Theta SB(*), as shown in Figure 1, minimizing
+   the spectral dependence on the K correction. The case of z = 0:5 is
+   important as an extreme in which it is possible to match filters. To
+   illustrate the errors expected for other redshifts, Figure 7 also shows
+   the calculated root-mean-square scatter for the group of K corrections
+   near peak magnitude, for SN 1992A at epochs -1 and 3, and SN 1981B at
+   epoch 0. The root-mean-square scatter is minimized at redshifts where
+   the filters best match, and monotonically worsens as one moves away
+   from these redshifts. Note that the error can be kept below 0.04 mag by
+   switching from the nearby V photometry to the nearby B photometry when
+   comparing supernovae at z ? 0:36. In the preceding analyses, we have
+   calculated the K corrections using Equation 2, which is the integral of
+   energy flux, for consistency with previous work. Actual photometric
+   measurements are performed with detectors that are photon counters, not
+   bolometers. Therefore the correct K correction calculation to be used
+   with measured photometric magnitudes is the integral of photon counts:
+   Kcountsxy = \Gamma 2:5 log R *Z(*)Sx(*)d*R *Z(*)S y (*)d* ! + 2:5 log(1
+   + z) + 2:5 log R *F (*)Sx(*)d*R *F (*=(1 + z))Sy(*))d* ! : The single
+   filter version of this equation, i.e. a photon-count standard K
+   correction, is given in Schneider, Gunn and Hoessel (1983). Table 5
+   lists KcountsBR corresponding to the same data and redshifts of Table
+   2. These tables give the preferred values to use for generalized K
+   corrections when comparing actual photometry measurements. Figure 8
+   shows the difference between the two K corrections, KenergyBR \Gamma
+   KcountsBR , as a function of redshift. For z ! 0:6, the difference is
+   less than 0.04 mag over all epochs considered. 5. Conclusions - 11 - We
+   have considered a generalized K correction as an alternative to the
+   single-band K correction for relating local and high-redshift supernova
+   magnitudes. Error sizes depend on redshift and the filter pair
+   combination chosen and reflect the size of the term that accounts for
+   the different spectral regions observed in distant and local
+   supernovae. Minimizing this term by matching filters to observe the
+   same region reduces error and can make a generalized K correction
+   better than a single-band K correction. Matching filters also reduces
+   the wavelength range needed to perform K corrections, making more of
+   the available data usable for better temporal coverage and for studies
+   in systematic differences in supernovae. Generally, error estimates and
+   optimal filter pair determinations at any redshift can be made using a
+   procedure similar to the one we have outlined for z = 0:5. Our analyses
+   of 0 ^ z ^ 0:7 show that combined statistical and systematic
+   uncertainties in K correction determinations are within 0.05 mag.
+   Roughly, we find that for z ! 0:1, KRR should be used, for 0:1 ! z !
+   0:35, KV R should be used, and for 0:35 ! z ! 0:7, KBR should be used.
+   By extension, objects at even higher redshifts (? 0:7) will have
+   smaller K correction error if measured in the I band, i.e. if KBI is
+   used. These general results for the preferred observation bands at a
+   given redshift to "match filters" will, of course, be independent of
+   object. However, further studies based on more supernova spectra will
+   improve the estimates of the generalized K corrections, and help
+   characterize the detailed dependence on supernova-to-supernova
+   variation. In particular, it will be important to analyze more
+   subluminous, red, and/or spectroscopically peculiar supernovae, and to
+   search for any relation between K correction and light curve shape. We
+   would like to thank B. Leibundgut, M. Bessell, D. Branch, R. Kron, B.
+   Schmidt, and the Calan/Tololo Search Group (M. Phillips, N.Suntzeff, J.
+   Maza, and M. Hamuy) for providing data and for helpful discussions.
+   This work was supported in part by the National Science Foundation
+   (ADT-88909616) and U. S. Department of Energy - 12 -
+   (DE-AC03-76SF000098). - 13 - REFERENCES Bessell, M. S. 1990, PASP, 102,
+   1181 Branch, D., Falk, S. W., McCall, M. L., Rybski, P., Uomoto, A. K.,
+   and Wills, B. J. 1983, ApJ, 270, 123 Branch, D., and Tammann, G. A.
+   1992, ARA&A, 30, 359 Filippenko, A. V., Richmond, M. W., Matheson, T.,
+   Dickinson, M., Shields, J. C.,Burbidge, E. M., Cohen, R. D., Malkan, M.
+   A., Nelson, B., and Pietz, J. 1992, ApJ, 384, L15 Ford, C. H., Herbst,
+   W., Richmond, M. W., Baker, M. L., Filippenko, A. V., Treffers, R. R.,
+   Paik, Y., and Benson, P. J. 1993, AJ, 106, 1101 Gunn, J. E. 1978, in
+   Observational Cosmology : 8th advanced course of the Swiss Society of
+   Astronomy and Astrophysics, ed. A. Maeder, L. Martinet, and G. Tammann
+   (Sauverny, Geneva) Gunn, J. E. and Stryker, L. L. 1983, ApJS, 52, 121
+   Hamuy, M., Phillips, M. M., Wells, L. A., and Maza, J. 1993, PASP, 105,
+   787 Hamuy, M., Walker, A. R., Suntzeff, N. B., Gigoux, P., Heathcote,
+   S. R., and Phillips, M. M. 1992, PASP, 104, 533 Kirshner, R. P. et al.
+   1993, ApJ, 415, 589 Kirshner, R. P., Blades, J. C., Branch, D.,
+   Chevalier, R. A., Fransson, C., Panagia, N., Wagoner, R. V., and
+   Wheeler, J. C. 1988, HST Proposal SINS: The Supernova Intensive Study,
+   unpublished - 14 - Leibundgut, B. 1988, PhD thesis, University of Basel
+   Leibundgut, B., Kirshner, R. P., Filippenko, A. V., Shields, J. C.,
+   Foltz, C. B., Phillips, M. M., and Sonneborn, G. 1991, ApJ, 371, L23
+   Leibundgut, B. 1990, A&A, 229, 1 Leibundgut, B., Tammann, G. A.,
+   Cadonau, R., and Cerrito, D. 1991, A&AS, 89, 537 Oke, J. B., and
+   Sandage, A. 1968, ApJ, 154, 21 Perlmutter, S.,Pennypacker, C. R.,
+   Goldhaber, G., Goobar, A., Muller, R. A., Newberg, H. J. M., Desai, J.,
+   Kim, A. G., Kim, M. Y., Small, I. A., Boyle, B. J., Crawford, C. S.,
+   McMahon, R. G., Bunclark, P. S., Carter, D., Irwin, M. J., Terlevich,
+   R. J., Ellis, R. S., Glazebrook, K., Couch, W. J., Mould, J. R., Small,
+   T., A., and Abraham, R. G. 1995. ApJ, 440, L41. Perlmutter,S., et al.
+   1994. International Astronomical Union Circular, nos. 5956 and 5958.
+   Phillips, M. M., Wells, L. A., Suntzeff, N. B., Hamuy, M., Leibundgut,
+   B., Kirshner, R. P., and Foltz, C. B. 1992, AJ, 103, 1632 Schneider, D.
+   P., Gunn, J. E., and Hoessel, J. G. 1983, ApJ, 264, 337 Suntzeff, N. B.
+   1994, Private communication Suntzeff, N. B. 1995, In preparation
+   Vaughan, T., Branch, D., Miller, D., and Perlmutter, S. In press. 1995,
+   ApJ This manuscript was prepared with the AAS LATEX macros v3.0. - 15 -
+   TABLE 1 Selected Spectra of SNe Ia SN Epoch a UT Date Observatory/Tel
+   Observer(s) 1990N -14 1990 Jun. 26.17 MMTO/MMT Foltz 1990N -7 1990 Jul.
+   02.99 CTIO/1.5-m Phillips 1992A -5 1992 Jan. 14.11 CTIO/1.0-m Winge
+   1981B -1(a) 1981 Mar. 6 McDonald/2.7-m See Branch et al. (1983) 1981B
+   -1(b) 1981 Mar. 6 McDonald/2.7-m See Branch et al. (1983) 1992A -1 1992
+   Jan. 18.13 CTIO/1.0-m Winge 1981B (0)b 1981 Mar. 7 McDonald/2.7-m See
+   Branch et al. (1983) 1981B 0 1981 Mar. 7 McDonald/2.7-m See Branch et
+   al. (1983) 1992A +3 1992 Jan. 22.04 CTIO/1.0-m Winge 1992A (+5)b 1992
+   Jan. 24 HST SINSc 1992A +6 1992 Jan. 25.04 CTIO/1.5-m Smith/Winkler
+   1992A +7 1992 Jan. 26.04 CTIO/1.0-m Winge 1990N +7 1990 Jul. 17
+   Lick/3.0-m Shields/Filippenko 1992A +9 1992 Jan. 28.04 CTIO/1.5-m
+   Hamuy/Williams 1992A +11 1992 Jan. 30.04 CTIO/1.0-m Winge 1990N +14
+   1990 Jul. 23.98 CTIO/4.0-m Phillips/Baldwin 1992A +16 1992 Feb. 04.04
+   CTIO/1.0-m Winge 1981B +17 1981 Mar. 24 McDonald/2.7-m See Branch et
+   al. (1983) 1992A +17 1992 Feb. 05.04 CTIO/4.0-m Hamuy 1990N +17 1990
+   Jul. 27.16 MMTO/MMT Huchra 1981B +20 1981 Mar. 27 McDonald/2.7-m See
+   Branch et al. (1983) 1981B +24 1981 Mar. 31 McDonald/2.7-m See Branch
+   et al. (1983) 1992A +24 1992 Feb. 12.03 CTIO/1.0-m Winge 1992A +28 1992
+   Feb. 16.02 CTIO/1.0-m Winge 1981B +29 1981 Apr. 5 McDonald/2.7-m See
+   Branch et al. (1983) 1992A +37 1992 Feb. 25.01 CTIO/1.0-m Winge 1990N
+   +38 1990 Aug. 16.98 CTIO/1.5-m Phillips 1992A +46 1992 Mar. 05.02
+   CTIO/1.5-m Phillips 1981B +49 1981 Apr. 25 McDonald/2.1-m See Branch et
+   al. (1983) 1981B +58 1981 May. 4 McDonald/2.7-m See Branch et al.
+   (1983) 1992A +76 1992 Apr. 04.02 CTIO/4.0-m Hamuy/Maza aEpoch relative
+   to B maximum light. bSee text for discussion. cSupernova Intensive
+   Study General Observer program. Spectra described in Kirshner et al.
+   (1993) - 16 - T ABLE 2 K B R for SNe Ia tB0 = \Gamma 14 \Gamma 7 \Gamma
+   5 \Gamma 1 (0) 3 (5) 6 7 9 11 14 16 z SN 1990N 1990N 1992A 1992A 1981B
+   1992A 1992A 1992A 1992A 1992A 1992A 1990N 1992A 0.000 0:024 :: : :: :
+   :: : 0:107 :: : :: : :: : :: : :: : :: : :: : :: : 0.025 \Gamma 0 :042
+   :: : :: : :: : 0:013 :: : \Gamma 0 :146 \Gamma 0 :228 :: : :: : :: : ::
+   : :: : 0.050 \Gamma 0 :094 :: : :: : :: : \Gamma 0 :043 :: : \Gamma 0
+   :204 \Gamma 0 :285 :: : :: : :: : :: : :: : 0.075 \Gamma 0 :143 \Gamma
+   0 :128 :: : :: : \Gamma 0 :087 :: : \Gamma 0 :263 \Gamma 0 :344 :: :
+   \Gamma 0 :387 :: : :: : :: : 0.100 \Gamma 0 :199 \Gamma 0 :180 :: : ::
+   : \Gamma 0 :146 :: : \Gamma 0 :326 \Gamma 0 :408 :: : \Gamma 0 :470 ::
+   : :: : :: : 0.125 \Gamma 0 :256 \Gamma 0 :223 :: : :: : \Gamma 0 :202
+   :: : \Gamma 0 :371 \Gamma 0 :452 :: : \Gamma 0 :515 :: : :: : :: :
+   0.150 \Gamma 0 :296 \Gamma 0 :248 :: : :: : \Gamma 0 :230 :: : \Gamma 0
+   :396 \Gamma 0 :477 :: : \Gamma 0 :544 \Gamma 0 :625 :: : \Gamma 1 :142
+   0.175 \Gamma 0 :320 \Gamma 0 :271 \Gamma 0 :356 \Gamma 0 :365 \Gamma 0
+   :245 \Gamma 0 :418 \Gamma 0 :407 \Gamma 0 :488 \Gamma 0 :572 \Gamma 0
+   :560 \Gamma 0 :640 :: : \Gamma 1 :135 0.200 \Gamma 0 :345 \Gamma 0 :303
+   \Gamma 0 :372 \Gamma 0 :379 \Gamma 0 :265 \Gamma 0 :435 \Gamma 0 :424
+   \Gamma 0 :503 \Gamma 0 :584 \Gamma 0 :577 \Gamma 0 :654 :: : \Gamma 1
+   :117 0.225 \Gamma 0 :376 \Gamma 0 :342 \Gamma 0 :398 \Gamma 0 :408
+   \Gamma 0 :306 \Gamma 0 :467 \Gamma 0 :463 \Gamma 0 :538 \Gamma 0 :616
+   \Gamma 0 :618 \Gamma 0 :695 :: : \Gamma 1 :118 0.250 \Gamma 0 :414
+   \Gamma 0 :388 \Gamma 0 :437 \Gamma 0 :452 \Gamma 0 :367 \Gamma 0 :512
+   \Gamma 0 :516 \Gamma 0 :584 \Gamma 0 :658 \Gamma 0 :665 \Gamma 0 :740
+   :: : \Gamma 1 :116 0.275 \Gamma 0 :454 \Gamma 0 :427 \Gamma 0 :474
+   \Gamma 0 :490 \Gamma 0 :421 \Gamma 0 :545 \Gamma 0 :550 \Gamma 0 :609
+   \Gamma 0 :676 \Gamma 0 :682 \Gamma 0 :748 \Gamma 0 :795 \Gamma 1 :082
+   0.300 \Gamma 0 :488 \Gamma 0 :455 \Gamma 0 :499 \Gamma 0 :513 \Gamma 0
+   :453 \Gamma 0 :559 \Gamma 0 :562 \Gamma 0 :614 \Gamma 0 :675 \Gamma 0
+   :679 \Gamma 0 :741 \Gamma 0 :776 \Gamma 1 :039 0.325 \Gamma 0 :510
+   \Gamma 0 :474 \Gamma 0 :514 \Gamma 0 :525 \Gamma 0 :471 \Gamma 0 :567
+   \Gamma 0 :574 \Gamma 0 :619 \Gamma 0 :675 \Gamma 0 :680 \Gamma 0 :738
+   \Gamma 0 :763 \Gamma 0 :997 0.350 \Gamma 0 :532 \Gamma 0 :498 \Gamma 0
+   :540 \Gamma 0 :552 \Gamma 0 :502 \Gamma 0 :592 \Gamma 0 :603 \Gamma 0
+   :639 \Gamma 0 :686 \Gamma 0 :691 \Gamma 0 :740 \Gamma 0 :756 \Gamma 0
+   :955 0.375 \Gamma 0 :568 \Gamma 0 :539 \Gamma 0 :583 \Gamma 0 :594
+   \Gamma 0 :552 \Gamma 0 :628 \Gamma 0 :636 \Gamma 0 :665 \Gamma 0 :699
+   \Gamma 0 :702 \Gamma 0 :738 \Gamma 0 :750 \Gamma 0 :911 0.400 \Gamma 0
+   :615 \Gamma 0 :592 \Gamma 0 :629 \Gamma 0 :635 \Gamma 0 :606 \Gamma 0
+   :659 \Gamma 0 :663 \Gamma 0 :684 \Gamma 0 :707 \Gamma 0 :708 \Gamma 0
+   :733 \Gamma 0 :742 \Gamma 0 :867 0.425 \Gamma 0 :661 \Gamma 0 :644
+   \Gamma 0 :662 \Gamma 0 :666 \Gamma 0 :649 \Gamma 0 :682 \Gamma 0 :685
+   \Gamma 0 :699 \Gamma 0 :714 \Gamma 0 :715 \Gamma 0 :732 \Gamma 0 :743
+   \Gamma 0 :832 0.450 \Gamma 0 :696 \Gamma 0 :691 \Gamma 0 :695 \Gamma 0
+   :698 \Gamma 0 :691 \Gamma 0 :707 \Gamma 0 :709 \Gamma 0 :717 \Gamma 0
+   :726 \Gamma 0 :728 \Gamma 0 :739 \Gamma 0 :750 \Gamma 0 :803 0.475
+   \Gamma 0 :716 \Gamma 0 :717 \Gamma 0 :716 \Gamma 0 :714 \Gamma 0 :712
+   \Gamma 0 :714 \Gamma 0 :711 \Gamma 0 :716 \Gamma 0 :722 \Gamma 0 :725
+   \Gamma 0 :729 \Gamma 0 :737 \Gamma 0 :761 0.500 \Gamma 0 :715 \Gamma 0
+   :721 \Gamma 0 :709 \Gamma 0 :702 \Gamma 0 :701 \Gamma 0 :695 \Gamma 0
+   :689 \Gamma 0 :692 \Gamma 0 :694 \Gamma 0 :700 \Gamma 0 :698 \Gamma 0
+   :702 \Gamma 0 :704 0.525 \Gamma 0 :693 \Gamma 0 :706 \Gamma 0 :684
+   \Gamma 0 :679 \Gamma 0 :676 \Gamma 0 :668 \Gamma 0 :663 \Gamma 0 :663
+   \Gamma 0 :662 \Gamma 0 :670 \Gamma 0 :659 \Gamma 0 :665 \Gamma 0 :644
+   0.550 \Gamma 0 :654 \Gamma 0 :684 \Gamma 0 :657 \Gamma 0 :661 \Gamma 0
+   :659 \Gamma 0 :647 \Gamma 0 :640 \Gamma 0 :637 \Gamma 0 :632 \Gamma 0
+   :640 :: : \Gamma 0 :631 :: : 0.575 \Gamma 0 :607 \Gamma 0 :678 \Gamma 0
+   :637 \Gamma 0 :650 \Gamma 0 :652 \Gamma 0 :631 \Gamma 0 :619 \Gamma 0
+   :611 \Gamma 0 :600 \Gamma 0 :607 :: : \Gamma 0 :592 :: : 0.600 \Gamma 0
+   :562 \Gamma 0 :684 :: : :: : \Gamma 0 :647 :: : \Gamma 0 :593 \Gamma 0
+   :580 :: : \Gamma 0 :567 :: : \Gamma 0 :549 :: : 0.625 \Gamma 0 :522
+   \Gamma 0 :689 :: : :: : \Gamma 0 :634 :: : \Gamma 0 :560 \Gamma 0 :542
+   :: : \Gamma 0 :519 :: : \Gamma 0 :498 :: : 0.650 \Gamma 0 :480 \Gamma 0
+   :683 :: : :: : \Gamma 0 :608 :: : \Gamma 0 :518 \Gamma 0 :494 :: :
+   \Gamma 0 :464 :: : \Gamma 0 :441 :: : 0.675 \Gamma 0 :427 \Gamma 0 :663
+   :: : :: : \Gamma 0 :571 :: : \Gamma 0 :469 :: : :: : \Gamma 0 :404 :: :
+   \Gamma 0 :379 :: : 0.700 \Gamma 0 :363 \Gamma 0 :631 :: : :: : \Gamma 0
+   :525 :: : \Gamma 0 :416 :: : :: : \Gamma 0 :339 :: : \Gamma 0 :310 :: :
+   - 17 - T ABLE 2 (Con tin ued) tB0 = 17 17 17 20 24 24 28 29 37 38 46 58
+   76 z SN 1981B 1990N 1992A 1981B 1981B 1992A 1992A 1981B 1992A 1990N
+   1992A 1981B 1992A 0.000 \Gamma 0 :558 ... ... \Gamma 1 :092 \Gamma 1
+   :817 ... ... ... ... ... ... ... ... 0.025 \Gamma 0 :650 ... ... \Gamma
+   1 :157 \Gamma 1 :830 ... ... ... ... ... ... ... ... 0.050 \Gamma 0
+   :776 ... ... \Gamma 1 :245 \Gamma 1 :847 ... ... ... ... ... ... ...
+   ... 0.075 \Gamma 0 :907 ... ... \Gamma 1 :319 \Gamma 1 :843 ... ... ...
+   ... \Gamma 1 :504 \Gamma 1 :237 ... ... 0.100 \Gamma 0 :985 ... ...
+   \Gamma 1 :344 \Gamma 1 :806 ... ... ... ... \Gamma 1 :480 \Gamma 1 :238
+   ... ... 0.125 \Gamma 1 :007 \Gamma 0 :982 \Gamma 1 :165 \Gamma 1 :328
+   \Gamma 1 :745 ... ... ... ... \Gamma 1 :438 \Gamma 1 :219 ... \Gamma 0
+   :804 0.150 \Gamma 1 :018 \Gamma 0 :989 \Gamma 1 :161 \Gamma 1 :308
+   \Gamma 1 :686 \Gamma 1 :426 \Gamma 1 :405 ... ... \Gamma 1 :405 \Gamma
+   1 :205 ... \Gamma 0 :820 0.175 \Gamma 1 :016 \Gamma 0 :982 \Gamma 1
+   :149 \Gamma 1 :278 \Gamma 1 :618 \Gamma 1 :394 \Gamma 1 :376 ... \Gamma
+   1 :351 \Gamma 1 :363 \Gamma 1 :177 ... \Gamma 0 :820 0.200 \Gamma 1
+   :007 \Gamma 0 :965 \Gamma 1 :126 \Gamma 1 :238 \Gamma 1 :542 \Gamma 1
+   :350 \Gamma 1 :337 ... \Gamma 1 :305 \Gamma 1 :313 \Gamma 1 :145 ...
+   \Gamma 0 :837 0.225 \Gamma 1 :032 \Gamma 0 :967 \Gamma 1 :123 \Gamma 1
+   :224 \Gamma 1 :485 \Gamma 1 :316 \Gamma 1 :306 ... \Gamma 1 :272 \Gamma
+   1 :283 \Gamma 1 :137 ... \Gamma 0 :894 0.250 \Gamma 1 :063 \Gamma 0
+   :969 \Gamma 1 :120 \Gamma 1 :215 \Gamma 1 :431 \Gamma 1 :281 \Gamma 1
+   :269 ... \Gamma 1 :236 \Gamma 1 :253 \Gamma 1 :123 ... \Gamma 0 :925
+   0.275 \Gamma 1 :051 \Gamma 0 :939 \Gamma 1 :085 \Gamma 1 :172 \Gamma 1
+   :353 \Gamma 1 :226 \Gamma 1 :212 ... \Gamma 1 :183 \Gamma 1 :194 \Gamma
+   1 :081 ... \Gamma 0 :913 0.300 \Gamma 1 :016 \Gamma 0 :900 \Gamma 1
+   :039 \Gamma 1 :115 \Gamma 1 :266 \Gamma 1 :165 \Gamma 1 :153 \Gamma 1
+   :133 \Gamma 1 :126 \Gamma 1 :131 \Gamma 1 :032 ... \Gamma 0 :895 0.325
+   \Gamma 0 :980 \Gamma 0 :867 \Gamma 0 :995 \Gamma 1 :058 \Gamma 1 :184
+   \Gamma 1 :106 \Gamma 1 :095 \Gamma 1 :079 \Gamma 1 :072 \Gamma 1 :071
+   \Gamma 0 :987 ... \Gamma 0 :879 0.350 \Gamma 0 :945 \Gamma 0 :838
+   \Gamma 0 :951 \Gamma 1 :002 \Gamma 1 :104 \Gamma 1 :046 \Gamma 1 :036
+   \Gamma 1 :023 \Gamma 1 :014 \Gamma 1 :009 \Gamma 0 :940 ... \Gamma 0
+   :857 0.375 \Gamma 0 :905 \Gamma 0 :811 \Gamma 0 :906 \Gamma 0 :944
+   \Gamma 1 :027 \Gamma 0 :986 \Gamma 0 :976 \Gamma 0 :966 \Gamma 0 :956
+   \Gamma 0 :949 \Gamma 0 :891 ... \Gamma 0 :829 0.400 \Gamma 0 :861
+   \Gamma 0 :788 \Gamma 0 :864 \Gamma 0 :888 \Gamma 0 :955 \Gamma 0 :929
+   \Gamma 0 :920 \Gamma 0 :910 \Gamma 0 :903 \Gamma 0 :895 \Gamma 0 :852
+   ... \Gamma 0 :807 0.425 \Gamma 0 :823 \Gamma 0 :777 \Gamma 0 :831
+   \Gamma 0 :845 \Gamma 0 :897 \Gamma 0 :879 \Gamma 0 :874 \Gamma 0 :867
+   \Gamma 0 :860 \Gamma 0 :855 \Gamma 0 :827 ... \Gamma 0 :794 0.450
+   \Gamma 0 :797 \Gamma 0 :775 \Gamma 0 :804 \Gamma 0 :821 \Gamma 0 :854
+   \Gamma 0 :833 \Gamma 0 :831 \Gamma 0 :833 \Gamma 0 :820 \Gamma 0 :825
+   \Gamma 0 :803 ... \Gamma 0 :769 0.475 \Gamma 0 :760 \Gamma 0 :758
+   \Gamma 0 :763 \Gamma 0 :787 \Gamma 0 :801 \Gamma 0 :776 \Gamma 0 :775
+   \Gamma 0 :786 \Gamma 0 :765 \Gamma 0 :778 \Gamma 0 :757 ... \Gamma 0
+   :718 0.500 \Gamma 0 :704 \Gamma 0 :723 \Gamma 0 :707 \Gamma 0 :735
+   \Gamma 0 :734 \Gamma 0 :707 \Gamma 0 :710 \Gamma 0 :720 \Gamma 0 :698
+   \Gamma 0 :715 \Gamma 0 :699 ... \Gamma 0 :659 0.525 \Gamma 0 :644
+   \Gamma 0 :690 \Gamma 0 :652 \Gamma 0 :685 \Gamma 0 :669 \Gamma 0 :641
+   \Gamma 0 :649 ... \Gamma 0 :637 \Gamma 0 :659 \Gamma 0 :650 ... \Gamma
+   0 :607 0.550 ... \Gamma 0 :660 \Gamma 0 :602 \Gamma 0 :645 \Gamma 0
+   :615 ... ... ... ... \Gamma 0 :611 \Gamma 0 :604 \Gamma 0 :585 \Gamma 0
+   :550 0.575 ... \Gamma 0 :625 \Gamma 0 :547 \Gamma 0 :602 \Gamma 0 :558
+   ... ... ... ... \Gamma 0 :556 \Gamma 0 :550 \Gamma 0 :535 \Gamma 0 :484
+   0.600 ... \Gamma 0 :587 \Gamma 0 :486 \Gamma 0 :554 \Gamma 0 :498 ...
+   ... ... ... \Gamma 0 :496 \Gamma 0 :491 \Gamma 0 :477 \Gamma 0 :411
+   0.625 ... \Gamma 0 :543 \Gamma 0 :422 ... \Gamma 0 :436 ... ... ... ...
+   \Gamma 0 :424 \Gamma 0 :428 \Gamma 0 :410 \Gamma 0 :331 0.650 ...
+   \Gamma 0 :493 \Gamma 0 :354 ... \Gamma 0 :368 ... ... ... ... \Gamma 0
+   :342 \Gamma 0 :363 \Gamma 0 :337 \Gamma 0 :246 0.675 ... \Gamma 0 :439
+   \Gamma 0 :284 ... ... ... ... ... ... \Gamma 0 :257 \Gamma 0 :297
+   \Gamma 0 :258 \Gamma 0 :155 0.700 ... \Gamma 0 :380 \Gamma 0 :209 ...
+   ... ... ... ... ... \Gamma 0 :167 \Gamma 0 :227 \Gamma 0 :172 \Gamma 0
+   :055 T ABLE 2 (Con tin ued) tB0 = 17 17 17 20 24 24 28 29 37 38 46 58
+   76 z SN 1981B 1990N 1992A 1981B 1981B 1992A 1992A 1981B 1992A 1990N
+   1992A 1981B 1992A 0.000 -0.558 .. . .. . -1.092 -1.817 .. . .. . .. .
+   .. . .. . .. . .. . .. . 0.025 -0.650 .. . .. . -1.157 -1.830 .. . .. .
+   .. . .. . .. . .. . .. . .. . 0.050 -0.776 .. . .. . -1.245 -1.847 .. .
+   .. . .. . .. . .. . .. . .. . .. . 0.075 -0.907 .. . .. . -1.319 -1.843
+   .. . .. . .. . .. . -1.504 -1.237 .. . .. . 0.100 -0.985 .. . .. .
+   -1.344 -1.806 .. . .. . .. . .. . -1.480 -1.238 .. . .. . 0.125 -1.007
+   -1.165 -0.982 -1.328 -1.745 .. . .. . .. . .. . -1.438 -1.219 .. .
+   -0.804 0.150 -1.018 -1.161 -0.989 -1.308 -1.686 -1.426 -1.405 .. . .. .
+   -1.405 -1.205 .. . -0.820 0.175 -1.016 -1.149 -0.982 -1.278 -1.618
+   -1.394 -1.376 .. . -1.351 -1.363 -1.177 .. . -0.820 0.200 -1.007 -1.126
+   -0.965 -1.238 -1.542 -1.350 -1.337 .. . -1.305 -1.313 -1.145 .. .
+   -0.837 0.225 -1.032 -1.123 -0.967 -1.224 -1.485 -1.316 -1.306 .. .
+   -1.272 -1.283 -1.137 .. . -0.894 0.250 -1.063 -1.120 -0.969 -1.215
+   -1.431 -1.281 -1.269 .. . -1.236 -1.253 -1.123 .. . -0.925 0.275 -1.051
+   -1.085 -0.939 -1.172 -1.353 -1.226 -1.212 .. . -1.183 -1.194 -1.081 ..
+   . -0.913 0.300 -1.016 -1.039 -0.900 -1.115 -1.266 -1.165 -1.153 -1.133
+   -1.126 -1.131 -1.032 .. . -0.895 0.325 -0.980 -0.995 -0.867 -1.058
+   -1.184 -1.106 -1.095 -1.079 -1.072 -1.071 -0.987 .. . -0.879 0.350
+   -0.945 -0.951 -0.838 -1.002 -1.104 -1.046 -1.036 -1.023 -1.014 -1.009
+   -0.940 .. . -0.857 0.375 -0.905 -0.906 -0.811 -0.944 -1.027 -0.986
+   -0.976 -0.966 -0.956 -0.949 -0.891 .. . -0.829 0.400 -0.861 -0.864
+   -0.788 -0.888 -0.955 -0.929 -0.920 -0.910 -0.903 -0.895 -0.852 .. .
+   -0.807 0.425 -0.823 -0.831 -0.777 -0.845 -0.897 -0.879 -0.874 -0.867
+   -0.860 -0.855 -0.827 .. . -0.794 0.450 -0.797 -0.804 -0.775 -0.821
+   -0.854 -0.833 -0.831 -0.833 -0.820 -0.825 -0.803 .. . -0.769 0.475
+   -0.760 -0.763 -0.758 -0.787 -0.801 -0.776 -0.775 -0.786 -0.765 -0.778
+   -0.757 .. . -0.718 0.500 -0.704 -0.707 -0.723 -0.735 -0.734 -0.707
+   -0.710 -0.720 -0.698 -0.715 -0.699 .. . -0.659 0.525 -0.644 -0.652
+   -0.690 -0.685 -0.669 -0.641 -0.649 .. . -0.637 -0.659 -0.650 .. .
+   -0.607 0.550 .. . -0.602 -0.660 -0.645 -0.615 .. . .. . .. . .. .
+   -0.611 -0.604 -0.585 -0.550 0.575 .. . -0.547 -0.625 -0.602 -0.558 .. .
+   .. . .. . .. . -0.556 -0.550 -0.535 -0.484 0.600 .. . -0.486 -0.587
+   -0.554 -0.498 .. . .. . .. . .. . -0.496 -0.491 -0.477 -0.411 0.625 ..
+   . -0.422 -0.543 .. . -0.436 .. . .. . .. . .. . -0.424 -0.428 -0.410
+   -0.331 0.650 .. . -0.354 -0.493 .. . -0.368 .. . .. . .. . .. . -0.342
+   -0.363 -0.337 -0.246 0.675 .. . -0.284 -0.439 .. . .. . .. . .. . .. .
+   .. . -0.257 -0.297 -0.258 -0.155 0.700 .. . -0.209 -0.380 .. . .. . ..
+   . .. . .. . .. . -0.167 -0.227 -0.172 -0.055 - 18 - T ABLE 3 K V R for
+   SNe Ia tB0 = \Gamma 14 \Gamma 7 \Gamma 5 \Gamma 1 \Gamma 1 \Gamma 1 0
+   (0) 3 (5) 6 7 7 9 11 z SN 1990N 1990N 1992A 1981B 1981B 1992A 1981B
+   1981B 1992A 1992A 1992A 1992A 1990N 1992A 1992A 0.000 0:008 :: : :: :
+   :: : :: : :: : 0:038 :: : :: : :: : :: : :: : \Gamma 0 :014 :: : :: :
+   0.025 \Gamma 0 :058 :: : :: : :: : :: : :: : \Gamma 0 :055 :: : :: :
+   \Gamma 0 :047 \Gamma 0 :048 :: : \Gamma 0 :091 :: : :: : 0.050 \Gamma 0
+   :110 :: : :: : :: : :: : :: : \Gamma 0 :111 :: : :: : \Gamma 0 :105
+   \Gamma 0 :106 :: : \Gamma 0 :143 :: : :: : 0.075 \Gamma 0 :159 \Gamma 0
+   :198 :: : :: : :: : :: : \Gamma 0 :156 :: : :: : \Gamma 0 :164 \Gamma 0
+   :164 :: : \Gamma 0 :194 \Gamma 0 :114 :: : 0.100 \Gamma 0 :215 \Gamma 0
+   :249 :: : :: : :: : :: : \Gamma 0 :214 :: : :: : \Gamma 0 :227 \Gamma 0
+   :228 :: : \Gamma 0 :251 \Gamma 0 :197 :: : 0.125 \Gamma 0 :272 \Gamma 0
+   :292 :: : :: : :: : :: : \Gamma 0 :270 :: : :: : \Gamma 0 :272 \Gamma 0
+   :272 :: : \Gamma 0 :284 \Gamma 0 :243 :: : 0.150 \Gamma 0 :311 \Gamma 0
+   :317 :: : :: : :: : :: : \Gamma 0 :299 :: : :: : \Gamma 0 :297 \Gamma 0
+   :297 :: : \Gamma 0 :297 \Gamma 0 :272 \Gamma 0 :271 0.175 \Gamma 0 :336
+   \Gamma 0 :341 \Gamma 0 :349 :: : :: : \Gamma 0 :331 \Gamma 0 :313 :: :
+   \Gamma 0 :319 \Gamma 0 :308 \Gamma 0 :308 \Gamma 0 :298 \Gamma 0 :300
+   \Gamma 0 :288 \Gamma 0 :285 0.200 \Gamma 0 :361 \Gamma 0 :373 \Gamma 0
+   :366 :: : :: : \Gamma 0 :345 \Gamma 0 :334 \Gamma 0 :323 \Gamma 0 :336
+   \Gamma 0 :326 \Gamma 0 :323 \Gamma 0 :310 \Gamma 0 :306 \Gamma 0 :305
+   \Gamma 0 :299 0.225 \Gamma 0 :392 \Gamma 0 :412 \Gamma 0 :392 \Gamma 0
+   :369 \Gamma 0 :371 \Gamma 0 :375 \Gamma 0 :374 \Gamma 0 :362 \Gamma 0
+   :369 \Gamma 0 :365 \Gamma 0 :358 \Gamma 0 :343 \Gamma 0 :333 \Gamma 0
+   :345 \Gamma 0 :340 0.250 \Gamma 0 :430 \Gamma 0 :458 \Gamma 0 :431
+   \Gamma 0 :426 \Gamma 0 :430 \Gamma 0 :418 \Gamma 0 :436 \Gamma 0 :421
+   \Gamma 0 :414 \Gamma 0 :417 \Gamma 0 :404 \Gamma 0 :384 \Gamma 0 :369
+   \Gamma 0 :393 \Gamma 0 :386 0.275 \Gamma 0 :470 \Gamma 0 :497 \Gamma 0
+   :468 \Gamma 0 :476 \Gamma 0 :481 \Gamma 0 :456 \Gamma 0 :490 \Gamma 0
+   :471 \Gamma 0 :447 \Gamma 0 :451 \Gamma 0 :430 \Gamma 0 :403 \Gamma 0
+   :388 \Gamma 0 :410 \Gamma 0 :394 0.300 \Gamma 0 :504 \Gamma 0 :525
+   \Gamma 0 :493 \Gamma 0 :504 \Gamma 0 :512 \Gamma 0 :479 \Gamma 0 :521
+   \Gamma 0 :499 \Gamma 0 :460 \Gamma 0 :464 \Gamma 0 :434 \Gamma 0 :402
+   \Gamma 0 :388 \Gamma 0 :407 \Gamma 0 :387 0.325 \Gamma 0 :526 \Gamma 0
+   :543 \Gamma 0 :507 \Gamma 0 :518 \Gamma 0 :529 \Gamma 0 :492 \Gamma 0
+   :539 \Gamma 0 :512 \Gamma 0 :468 \Gamma 0 :476 \Gamma 0 :439 \Gamma 0
+   :401 \Gamma 0 :388 \Gamma 0 :408 \Gamma 0 :384 0.350 \Gamma 0 :548
+   \Gamma 0 :567 \Gamma 0 :534 \Gamma 0 :540 \Gamma 0 :557 \Gamma 0 :518
+   \Gamma 0 :570 \Gamma 0 :540 \Gamma 0 :493 \Gamma 0 :504 \Gamma 0 :459
+   \Gamma 0 :413 \Gamma 0 :400 \Gamma 0 :419 \Gamma 0 :385 0.375 \Gamma 0
+   :584 \Gamma 0 :609 \Gamma 0 :577 \Gamma 0 :582 \Gamma 0 :607 \Gamma 0
+   :560 \Gamma 0 :621 \Gamma 0 :586 \Gamma 0 :529 \Gamma 0 :537 \Gamma 0
+   :485 \Gamma 0 :426 \Gamma 0 :421 \Gamma 0 :430 \Gamma 0 :384 0.400
+   \Gamma 0 :631 \Gamma 0 :662 \Gamma 0 :622 \Gamma 0 :629 \Gamma 0 :662
+   \Gamma 0 :602 \Gamma 0 :674 \Gamma 0 :636 \Gamma 0 :560 \Gamma 0 :565
+   \Gamma 0 :505 \Gamma 0 :434 \Gamma 0 :440 \Gamma 0 :435 \Gamma 0 :378
+   0.425 \Gamma 0 :677 \Gamma 0 :714 \Gamma 0 :656 \Gamma 0 :663 \Gamma 0
+   :705 \Gamma 0 :633 \Gamma 0 :718 \Gamma 0 :669 \Gamma 0 :583 \Gamma 0
+   :586 \Gamma 0 :519 \Gamma 0 :440 \Gamma 0 :454 \Gamma 0 :442 \Gamma 0
+   :378 0.450 \Gamma 0 :712 \Gamma 0 :760 \Gamma 0 :689 :: : :: : \Gamma 0
+   :664 \Gamma 0 :759 :: : \Gamma 0 :608 \Gamma 0 :610 \Gamma 0 :537
+   \Gamma 0 :453 :: : \Gamma 0 :456 \Gamma 0 :385 0.475 \Gamma 0 :732
+   \Gamma 0 :787 \Gamma 0 :709 :: : :: : \Gamma 0 :680 \Gamma 0 :781 :: :
+   \Gamma 0 :616 \Gamma 0 :612 \Gamma 0 :536 \Gamma 0 :448 :: : \Gamma 0
+   :453 \Gamma 0 :375 0.500 \Gamma 0 :731 \Gamma 0 :791 \Gamma 0 :703 :: :
+   :: : \Gamma 0 :668 \Gamma 0 :769 :: : \Gamma 0 :596 \Gamma 0 :591
+   \Gamma 0 :512 \Gamma 0 :421 :: : \Gamma 0 :428 \Gamma 0 :344 0.525
+   \Gamma 0 :709 \Gamma 0 :775 \Gamma 0 :678 :: : :: : \Gamma 0 :645
+   \Gamma 0 :745 :: : \Gamma 0 :569 \Gamma 0 :564 \Gamma 0 :483 \Gamma 0
+   :388 :: : \Gamma 0 :397 \Gamma 0 :304 0.550 \Gamma 0 :669 \Gamma 0 :754
+   \Gamma 0 :651 :: : :: : \Gamma 0 :628 \Gamma 0 :727 :: : \Gamma 0 :548
+   \Gamma 0 :542 \Gamma 0 :457 \Gamma 0 :359 :: : \Gamma 0 :368 :: : 0.575
+   \Gamma 0 :623 \Gamma 0 :747 \Gamma 0 :631 :: : :: : \Gamma 0 :616
+   \Gamma 0 :721 :: : \Gamma 0 :532 \Gamma 0 :520 \Gamma 0 :431 \Gamma 0
+   :327 :: : \Gamma 0 :334 :: : 0.600 \Gamma 0 :578 \Gamma 0 :754 :: : ::
+   : :: : :: : \Gamma 0 :716 :: : :: : \Gamma 0 :495 \Gamma 0 :401 :: : ::
+   : \Gamma 0 :294 :: : 0.625 \Gamma 0 :538 \Gamma 0 :759 :: : :: : :: :
+   :: : \Gamma 0 :703 :: : :: : \Gamma 0 :461 \Gamma 0 :362 :: : :: :
+   \Gamma 0 :247 :: : 0.650 \Gamma 0 :496 \Gamma 0 :753 :: : :: : :: : ::
+   : \Gamma 0 :677 :: : :: : \Gamma 0 :419 \Gamma 0 :315 :: : :: : \Gamma
+   0 :192 :: : 0.675 \Gamma 0 :443 \Gamma 0 :732 :: : :: : :: : :: :
+   \Gamma 0 :639 :: : :: : \Gamma 0 :371 :: : :: : :: : \Gamma 0 :131 :: :
+   0.700 \Gamma 0 :379 \Gamma 0 :701 :: : :: : :: : :: : \Gamma 0 :594 ::
+   : :: : \Gamma 0 :317 :: : :: : :: : \Gamma 0 :066 :: : T ABLE 3 K V R
+   for SNe Ia tB0 = \Gamma 14 -7 -5 -1(a) -1(b) -1 (0) 0 3 (5) 6 7 7 9 11
+   z SN 1990N 1990N 1992A 1981B 1981B 1992A 1981B 1981B 1992A 1992A 1992A
+   1992A 1990N 1992A 1992A 0.000 0.008 .. . .. . .. . .. . .. . 0.038 .. .
+   .. . .. . .. . .. . -0.014 .. . .. . 0.025 -0.058 .. . .. . .. . .. .
+   .. . -0.055 .. . .. . -0.047 -0.048 .. . -0.091 .. . .. . 0.050 -0.110
+   .. . .. . .. . .. . .. . -0.111 .. . .. . -0.105 -0.106 .. . -0.143 ..
+   . .. . 0.075 -0.159 -0.198 .. . .. . .. . .. . -0.156 .. . .. . -0.164
+   -0.164 .. . -0.194 -0.114 .. . 0.100 -0.215 -0.249 .. . .. . .. . .. .
+   -0.214 .. . .. . -0.227 -0.228 .. . -0.251 -0.197 .. . 0.125 -0.272
+   -0.292 .. . .. . .. . .. . -0.270 .. . .. . -0.272 -0.272 .. . -0.284
+   -0.243 .. . 0.150 -0.311 -0.317 .. . .. . .. . .. . -0.299 .. . .. .
+   -0.297 -0.297 .. . -0.297 -0.272 -0.271 0.175 -0.336 -0.341 -0.349 .. .
+   .. . -0.331 -0.313 .. . -0.319 -0.308 -0.308 -0.298 -0.300 -0.288
+   -0.285 0.200 -0.361 -0.373 -0.366 .. . .. . -0.345 -0.334 -0.323 -0.336
+   -0.326 -0.323 -0.310 -0.306 -0.305 -0.299 0.225 -0.392 -0.412 -0.392
+   -0.369 -0.371 -0.375 -0.374 -0.362 -0.369 -0.365 -0.358 -0.343 -0.333
+   -0.345 -0.340 0.250 -0.430 -0.458 -0.431 -0.426 -0.430 -0.418 -0.436
+   -0.421 -0.414 -0.417 -0.404 -0.384 -0.369 -0.393 -0.386 0.275 -0.470
+   -0.497 -0.468 -0.476 -0.481 -0.456 -0.490 -0.471 -0.447 -0.451 -0.430
+   -0.403 -0.388 -0.410 -0.394 0.300 -0.504 -0.525 -0.493 -0.504 -0.512
+   -0.479 -0.521 -0.499 -0.460 -0.464 -0.434 -0.402 -0.388 -0.407 -0.387
+   0.325 -0.526 -0.543 -0.507 -0.518 -0.529 -0.492 -0.539 -0.512 -0.468
+   -0.476 -0.439 -0.401 -0.388 -0.408 -0.384 0.350 -0.548 -0.567 -0.534
+   -0.540 -0.557 -0.518 -0.570 -0.540 -0.493 -0.504 -0.459 -0.413 -0.400
+   -0.419 -0.385 0.375 -0.584 -0.609 -0.577 -0.582 -0.607 -0.560 -0.621
+   -0.586 -0.529 -0.537 -0.485 -0.426 -0.421 -0.430 -0.384 0.400 -0.631
+   -0.662 -0.622 -0.629 -0.662 -0.602 -0.674 -0.636 -0.560 -0.565 -0.505
+   -0.434 -0.440 -0.435 -0.378 0.425 -0.677 -0.714 -0.656 -0.663 -0.705
+   -0.633 -0.718 -0.669 -0.583 -0.586 -0.519 -0.440 -0.454 -0.442 -0.378
+   0.450 -0.712 -0.760 -0.689 .. . .. . -0.664 -0.759 .. . -0.608 -0.610
+   -0.537 -0.453 .. . -0.456 -0.385 0.475 -0.732 -0.787 -0.709 .. . .. .
+   -0.680 -0.781 .. . -0.616 -0.612 -0.536 -0.448 .. . -0.453 -0.375 0.500
+   -0.731 -0.791 -0.703 .. . .. . -0.668 -0.769 .. . -0.596 -0.591 -0.512
+   -0.421 .. . -0.428 -0.344 0.525 -0.709 -0.775 -0.678 .. . .. . -0.645
+   -0.745 .. . -0.569 -0.564 -0.483 -0.388 .. . -0.397 -0.304 0.550 -0.669
+   -0.754 -0.651 .. . .. . -0.628 -0.727 .. . -0.548 -0.542 -0.457 -0.359
+   .. . -0.368 .. . 0.575 -0.623 -0.747 -0.631 .. . .. . -0.616 -0.721 ..
+   . -0.532 -0.520 -0.431 -0.327 .. . -0.334 .. . 0.600 -0.578 -0.754 .. .
+   .. . .. . .. . -0.716 .. . .. . -0.495 -0.401 .. . .. . -0.294 .. .
+   0.625 -0.538 -0.759 .. . .. . .. . .. . -0.703 .. . .. . -0.461 -0.362
+   .. . .. . -0.247 .. . 0.650 -0.496 -0.753 .. . .. . .. . .. . -0.677 ..
+   . .. . -0.419 -0.315 .. . .. . -0.192 .. . 0.675 -0.443 -0.732 .. . ..
+   . .. . .. . -0.639 .. . .. . -0.371 .. . .. . .. . -0.131 .. . 0.700
+   -0.379 -0.701 .. . .. . .. . .. . -0.594 .. . .. . -0.317 .. . .. . ..
+   . -0.066 .. . - 19 - T ABLE 3 (Con tin ued) tB0 = 14 16 17 17 17 20 24
+   24 28 37 38 46 49 76 z SN 1990N 1992A 1981B 1992A 1990N 1981B 1981B
+   1992A 1992A 1992A 1990N 1992A 1981B 1992A 0.000 :: : :: : 0:222 :: : ::
+   : \Gamma 0 :072 \Gamma 0 :532 :: : :: : :: : :: : :: : :: : :: : 0.025
+   :: : :: : 0:131 :: : :: : \Gamma 0 :137 \Gamma 0 :545 :: : :: : :: : ::
+   : :: : :: : :: : 0.050 :: : :: : 0:004 :: : :: : \Gamma 0 :226 \Gamma 0
+   :562 :: : :: : :: : :: : :: : :: : :: : 0.075 :: : :: : \Gamma 0 :127
+   :: : :: : \Gamma 0 :300 \Gamma 0 :558 :: : :: : :: : \Gamma 0 :442
+   \Gamma 0 :348 :: : :: : 0.100 :: : :: : \Gamma 0 :205 :: : :: : \Gamma
+   0 :324 \Gamma 0 :521 :: : :: : :: : \Gamma 0 :418 \Gamma 0 :349 :: : ::
+   : 0.125 :: : :: : \Gamma 0 :227 \Gamma 0 :311 \Gamma 0 :283 \Gamma 0
+   :308 \Gamma 0 :460 :: : :: : :: : \Gamma 0 :376 \Gamma 0 :330 :: :
+   \Gamma 0 :272 0.150 :: : \Gamma 0 :303 \Gamma 0 :237 \Gamma 0 :307
+   \Gamma 0 :290 \Gamma 0 :288 \Gamma 0 :400 \Gamma 0 :342 \Gamma 0 :335
+   :: : \Gamma 0 :343 \Gamma 0 :316 :: : \Gamma 0 :289 0.175 :: : \Gamma 0
+   :296 \Gamma 0 :236 \Gamma 0 :295 \Gamma 0 :282 \Gamma 0 :258 \Gamma 0
+   :333 \Gamma 0 :310 \Gamma 0 :306 \Gamma 0 :330 \Gamma 0 :301 \Gamma 0
+   :288 \Gamma 0 :275 \Gamma 0 :288 0.200 :: : \Gamma 0 :278 \Gamma 0 :227
+   \Gamma 0 :273 \Gamma 0 :266 \Gamma 0 :219 \Gamma 0 :257 \Gamma 0 :267
+   \Gamma 0 :267 \Gamma 0 :283 \Gamma 0 :251 \Gamma 0 :256 \Gamma 0 :246
+   \Gamma 0 :305 0.225 :: : \Gamma 0 :279 \Gamma 0 :252 \Gamma 0 :270
+   \Gamma 0 :268 \Gamma 0 :205 \Gamma 0 :199 \Gamma 0 :233 \Gamma 0 :236
+   \Gamma 0 :250 \Gamma 0 :221 \Gamma 0 :248 \Gamma 0 :249 \Gamma 0 :363
+   0.250 :: : \Gamma 0 :277 \Gamma 0 :283 \Gamma 0 :266 \Gamma 0 :270
+   \Gamma 0 :196 \Gamma 0 :146 \Gamma 0 :197 \Gamma 0 :200 \Gamma 0 :215
+   \Gamma 0 :190 \Gamma 0 :234 \Gamma 0 :247 \Gamma 0 :393 0.275 \Gamma 0
+   :327 \Gamma 0 :243 \Gamma 0 :270 \Gamma 0 :231 \Gamma 0 :240 \Gamma 0
+   :153 \Gamma 0 :068 \Gamma 0 :142 \Gamma 0 :142 \Gamma 0 :162 \Gamma 0
+   :132 \Gamma 0 :192 \Gamma 0 :209 \Gamma 0 :382 0.300 \Gamma 0 :308
+   \Gamma 0 :200 \Gamma 0 :236 \Gamma 0 :185 \Gamma 0 :201 \Gamma 0 :095
+   0:019 \Gamma 0 :082 \Gamma 0 :083 \Gamma 0 :105 \Gamma 0 :069 \Gamma 0
+   :143 :: : \Gamma 0 :364 0.325 \Gamma 0 :295 \Gamma 0 :158 \Gamma 0 :200
+   \Gamma 0 :141 \Gamma 0 :168 \Gamma 0 :038 0:102 \Gamma 0 :023 \Gamma 0
+   :025 \Gamma 0 :050 \Gamma 0 :009 \Gamma 0 :097 :: : \Gamma 0 :347 0.350
+   \Gamma 0 :288 \Gamma 0 :116 \Gamma 0 :165 \Gamma 0 :097 \Gamma 0 :139
+   0:018 0:181 0:037 0:034 0:007 0:053 \Gamma 0 :050 :: : \Gamma 0 :325
+   0.375 \Gamma 0 :281 \Gamma 0 :072 \Gamma 0 :125 \Gamma 0 :052 \Gamma 0
+   :112 0:075 0:258 0:098 0:094 0:065 0:113 \Gamma 0 :002 :: : \Gamma 0
+   :298 0.400 \Gamma 0 :274 \Gamma 0 :029 \Gamma 0 :080 \Gamma 0 :010
+   \Gamma 0 :089 0:132 0:330 0:155 0:150 0:118 0:168 0:037 :: : \Gamma 0
+   :275 0.425 \Gamma 0 :275 0:007 \Gamma 0 :043 0:023 \Gamma 0 :078 0:174
+   0:388 0:205 0:196 0:161 0:207 0:062 :: : \Gamma 0 :262 0.450 \Gamma 0
+   :282 0:036 \Gamma 0 :017 0:050 \Gamma 0 :076 0:199 0:432 0:250 0:239
+   0:201 0:237 0:086 :: : \Gamma 0 :237 0.475 \Gamma 0 :269 0:078 0:020
+   0:091 \Gamma 0 :059 0:232 0:484 0:308 0:295 0:256 0:284 0:133 :: :
+   \Gamma 0 :187 0.500 \Gamma 0 :234 0:135 0:076 0:147 \Gamma 0 :024 0:285
+   0:552 0:376 0:360 0:323 0:347 0:190 :: : \Gamma 0 :128 0.525 \Gamma 0
+   :197 0:195 0:137 0:202 0:010 0:335 0:616 0:442 0:421 0:384 0:403 0:239
+   :: : \Gamma 0 :075 0.550 \Gamma 0 :163 :: : :: : 0:252 0:039 0:374
+   0:670 :: : :: : :: : 0:451 0:285 :: : \Gamma 0 :018 0.575 \Gamma 0 :124
+   :: : :: : 0:307 0:074 0:417 0:727 :: : :: : :: : 0:506 0:339 :: : 0:048
+   0.600 \Gamma 0 :081 :: : :: : 0:368 0:112 0:466 0:787 :: : :: : :: :
+   0:566 0:398 :: : 0:121 0.625 \Gamma 0 :030 :: : :: : 0:432 0:156 :: :
+   0:850 :: : :: : :: : 0:638 0:462 :: : 0:200 0.650 0:027 :: : :: : 0:500
+   0:206 :: : 0:918 :: : :: : :: : 0:720 0:526 :: : 0:286 0.675 0:089 :: :
+   :: : 0:570 0:260 :: : :: : :: : :: : :: : 0:805 0:592 :: : 0:377 0.700
+   0:158 :: : :: : 0:645 0:319 :: : :: : :: : :: : :: : 0:895 0:662 :: :
+   0:476 T ABLE 3 (Con tin ued) tB0 = 14 16 17 17 17 20 24 24 28 37 38 46
+   49 76 z SN 1990N 1992A 1981B 1992A 1990N 1981B 1981B 1992A 1992A 1992A
+   1990N 1992A 1981B 1992A 0.000 .. . .. . 0.222 .. . .. . -0.072 -0.532
+   .. . .. . .. . .. . .. . .. . .. . 0.025 .. . .. . 0.131 .. . .. .
+   -0.137 -0.545 .. . .. . .. . .. . .. . .. . .. . 0.050 .. . .. . 0.004
+   .. . .. . -0.226 -0.562 .. . .. . .. . .. . .. . .. . .. . 0.075 .. .
+   .. . -0.127 .. . .. . -0.300 -0.558 .. . .. . .. . -0.442 -0.348 .. .
+   .. . 0.100 .. . .. . -0.205 .. . .. . -0.324 -0.521 .. . .. . .. .
+   -0.418 -0.349 .. . .. . 0.125 .. . .. . -0.227 -0.311 -0.283 -0.308
+   -0.460 .. . .. . .. . -0.376 -0.330 .. . -0.272 0.150 .. . -0.303
+   -0.237 -0.307 -0.290 -0.288 -0.400 -0.342 -0.335 .. . -0.343 -0.316 ..
+   . -0.289 0.175 .. . -0.296 -0.236 -0.295 -0.282 -0.258 -0.333 -0.310
+   -0.306 -0.330 -0.301 -0.288 -0.275 -0.288 0.200 .. . -0.278 -0.227
+   -0.273 -0.266 -0.219 -0.257 -0.267 -0.267 -0.283 -0.251 -0.256 -0.246
+   -0.305 0.225 .. . -0.279 -0.252 -0.270 -0.268 -0.205 -0.199 -0.233
+   -0.236 -0.250 -0.221 -0.248 -0.249 -0.363 0.250 .. . -0.277 -0.283
+   -0.266 -0.270 -0.196 -0.146 -0.197 -0.200 -0.215 -0.190 -0.234 -0.247
+   -0.393 0.275 -0.327 -0.243 -0.270 -0.231 -0.240 -0.153 -0.068 -0.142
+   -0.142 -0.162 -0.132 -0.192 -0.209 -0.382 0.300 -0.308 -0.200 -0.236
+   -0.185 -0.201 -0.095 0.019 -0.082 -0.083 -0.105 -0.069 -0.143 .. .
+   -0.364 0.325 -0.295 -0.158 -0.200 -0.141 -0.168 -0.038 0.102 -0.023
+   -0.025 -0.050 -0.009 -0.097 .. . -0.347 0.350 -0.288 -0.116 -0.165
+   -0.097 -0.139 0.018 0.181 0.037 0.034 0.007 0.053 -0.050 .. . -0.325
+   0.375 -0.281 -0.072 -0.125 -0.052 -0.112 0.075 0.258 0.098 0.094 0.065
+   0.113 -0.002 .. . -0.298 0.400 -0.274 -0.029 -0.080 -0.010 -0.089 0.132
+   0.330 0.155 0.150 0.118 0.168 0.037 .. . -0.275 0.425 -0.275 0.007
+   -0.043 0.023 -0.078 0.174 0.388 0.205 0.196 0.161 0.207 0.062 .. .
+   -0.262 0.450 -0.282 0.036 -0.017 0.050 -0.076 0.199 0.432 0.250 0.239
+   0.201 0.237 0.086 .. . -0.237 0.475 -0.269 0.078 0.020 0.091 -0.059
+   0.232 0.484 0.308 0.295 0.256 0.284 0.133 .. . -0.187 0.500 -0.234
+   0.135 0.076 0.147 -0.024 0.285 0.552 0.376 0.360 0.323 0.347 0.190 .. .
+   -0.128 0.525 -0.197 0.195 0.137 0.202 0.010 0.335 0.616 0.442 0.421
+   0.384 0.403 0.239 .. . -0.075 0.550 -0.163 .. . .. . 0.252 0.039 0.374
+   0.670 .. . .. . .. . 0.451 0.285 .. . -0.018 0.575 -0.124 .. . .. .
+   0.307 0.074 0.417 0.727 .. . .. . .. . 0.506 0.339 .. . 0.048 0.600
+   -0.081 .. . .. . 0.368 0.112 0.466 0.787 .. . .. . .. . 0.566 0.398 ..
+   . 0.121 0.625 -0.030 .. . .. . 0.432 0.156 .. . 0.850 .. . .. . .. .
+   0.638 0.462 .. . 0.200 0.650 0.027 .. . .. . 0.500 0.206 .. . 0.918 ..
+   . .. . .. . 0.720 0.526 .. . 0.286 0.675 0.089 .. . .. . 0.570 0.260 ..
+   . .. . .. . .. . .. . 0.805 0.592 .. . 0.377 0.700 0.158 .. . .. .
+   0.645 0.319 .. . .. . .. . .. . .. . 0.895 0.662 .. . 0.476 - 20 -
+   TABLE 4 KRR for SNe Ia tB0 = \Gamma 14 0 (0) 7 17 20 24 z SN 1990N
+   1981B 1981B 1990N 1981B 1981B 1981B 0.000 0:000 0:000 0:000 0:000 0:000
+   0:000 0:000 0.025 \Gamma 0:066 \Gamma 0:084 \Gamma 0:093 \Gamma 0:078
+   \Gamma 0:091 \Gamma 0:065 \Gamma 0:013 0.050 \Gamma 0:118 : : : \Gamma
+   0:149 \Gamma 0:129 \Gamma 0:218 \Gamma 0:153 \Gamma 0:030 0.075 \Gamma
+   0:167 : : : \Gamma 0:194 \Gamma 0:180 \Gamma 0:349 \Gamma 0:227 \Gamma
+   0:026 0.100 \Gamma 0:223 : : : \Gamma 0:252 \Gamma 0:237 \Gamma 0:427
+   \Gamma 0:252 0:011 0.125 \Gamma 0:280 : : : \Gamma 0:308 \Gamma 0:270
+   \Gamma 0:449 \Gamma 0:236 0:073 0.150 \Gamma 0:319 : : : \Gamma 0:337
+   \Gamma 0:283 \Gamma 0:459 \Gamma 0:216 0:132 0.175 \Gamma 0:344 : : :
+   \Gamma 0:352 \Gamma 0:286 \Gamma 0:458 \Gamma 0:186 0:199 0.200 \Gamma
+   0:369 : : : \Gamma 0:372 \Gamma 0:292 \Gamma 0:449 \Gamma 0:146 0:275
+   0.225 \Gamma 0:400 : : : \Gamma 0:412 \Gamma 0:319 \Gamma 0:474 \Gamma
+   0:132 0:333 0.250 \Gamma 0:438 : : : \Gamma 0:474 \Gamma 0:356 \Gamma
+   0:505 \Gamma 0:123 0:386 0.275 \Gamma 0:478 : : : \Gamma 0:528 \Gamma
+   0:375 \Gamma 0:492 \Gamma 0:080 0:464 0.300 \Gamma 0:512 : : : \Gamma
+   0:560 \Gamma 0:375 \Gamma 0:458 \Gamma 0:023 0:551 0.325 \Gamma 0:534 :
+   : : \Gamma 0:578 \Gamma 0:374 \Gamma 0:422 0:034 0:634 0.350 \Gamma
+   0:556 : : : \Gamma 0:608 \Gamma 0:386 \Gamma 0:387 0:090 0:713 0.375
+   \Gamma 0:592 : : : \Gamma 0:659 \Gamma 0:407 \Gamma 0:347 0:148 0:790
+   0.400 \Gamma 0:639 : : : \Gamma 0:712 \Gamma 0:426 \Gamma 0:302 0:204
+   0:862 0.425 \Gamma 0:685 : : : \Gamma 0:756 \Gamma 0:440 \Gamma 0:265
+   0:247 0:920 0.450 \Gamma 0:720 : : : \Gamma 0:798 : : : \Gamma 0:239
+   0:271 0:964 0.475 \Gamma 0:740 : : : \Gamma 0:819 : : : \Gamma 0:202
+   0:305 1:016 0.500 \Gamma 0:739 : : : \Gamma 0:807 : : : \Gamma 0:146
+   0:357 1:084 0.525 \Gamma 0:717 : : : \Gamma 0:783 : : : \Gamma 0:085
+   0:407 1:148 0.550 \Gamma 0:677 : : : \Gamma 0:765 : : : : : : 0:447
+   1:202 0.575 \Gamma 0:631 : : : \Gamma 0:759 : : : : : : 0:489 1:259
+   0.600 \Gamma 0:586 : : : \Gamma 0:754 : : : : : : 0:538 1:319 0.625
+   \Gamma 0:546 : : : \Gamma 0:741 : : : : : : : : : 1:382 0.650 \Gamma
+   0:504 : : : \Gamma 0:715 : : : : : : : : : 1:450 0.675 \Gamma 0:451 : :
+   : \Gamma 0:677 : : : : : : : : : : : : 0.700 \Gamma 0:387 : : : \Gamma
+   0:632 : : : : : : : : : : : : TABLE 4 KRR for SNe Ia tB0 = \Gamma 14 0
+   (0) 7 17 20 24 z SN 1990N 1981B 1981B 1990N 1981B 1981B 1981B 0.000
+   0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.025 -0.066 -0.084 -0.093
+   -0.078 -0.091 -0.065 -0.013 0.050 -0.118 ... -0.149 -0.129 -0.218
+   -0.153 -0.030 0.075 -0.167 ... -0.194 -0.180 -0.349 -0.227 -0.026 0.100
+   -0.223 ... -0.252 -0.237 -0.427 -0.252 0.011 0.125 -0.280 ... -0.308
+   -0.270 -0.449 -0.236 0.073 0.150 -0.319 ... -0.337 -0.283 -0.459 -0.216
+   0.132 0.175 -0.344 ... -0.352 -0.286 -0.458 -0.186 0.199 0.200 -0.369
+   ... -0.372 -0.292 -0.449 -0.146 0.275 0.225 -0.400 ... -0.412 -0.319
+   -0.474 -0.132 0.333 0.250 -0.438 ... -0.474 -0.356 -0.505 -0.123 0.386
+   0.275 -0.478 ... -0.528 -0.375 -0.492 -0.080 0.464 0.300 -0.512 ...
+   -0.560 -0.375 -0.458 -0.023 0.551 0.325 -0.534 ... -0.578 -0.374 -0.422
+   0.034 0.634 0.350 -0.556 ... -0.608 -0.386 -0.387 0.090 0.713 0.375
+   -0.592 ... -0.659 -0.407 -0.347 0.148 0.790 0.400 -0.639 ... -0.712
+   -0.426 -0.302 0.204 0.862 0.425 -0.685 ... -0.756 -0.440 -0.265 0.247
+   0.920 0.450 -0.720 ... -0.798 ... -0.239 0.271 0.964 0.475 -0.740 ...
+   -0.819 ... -0.202 0.305 1.016 0.500 -0.739 ... -0.807 ... -0.146 0.357
+   1.084 0.525 -0.717 ... -0.783 ... -0.085 0.407 1.148 0.550 -0.677 ...
+   -0.765 ... ... 0.447 1.202 0.575 -0.631 ... -0.759 ... ... 0.489 1.259
+   0.600 -0.586 ... -0.754 ... ... 0.538 1.319 0.625 -0.546 ... -0.741 ...
+   ... ... 1.382 0.650 -0.504 ... -0.715 ... ... ... 1.450 0.675 -0.451
+   ... -0.677 ... ... ... ... 0.700 -0.387 ... -0.632 ... ... ... ... - 21
+   - T ABLE 5 K coun ts B R for SNe Ia tB0 = \Gamma 14 \Gamma 7 \Gamma 5
+   \Gamma 1 (0) 3 (5) 6 7 9 11 14 16 z SN 1990N 1990N 1992A 1992A 1981B
+   1992A 1992A 1992A 1992A 1992A 1992A 1990N 1992A 0.000 0:019 ... ... ...
+   0:111 ... ... ... ... ... ... ... ... 0.025 \Gamma 0 :049 ... ... ...
+   0:016 ... \Gamma 0 :136 \Gamma 0 :215 ... ... ... ... ... 0.050 \Gamma
+   0 :103 ... ... ... \Gamma 0 :044 ... \Gamma 0 :199 \Gamma 0 :278 ...
+   ... ... ... ... 0.075 \Gamma 0 :152 \Gamma 0 :141 ... ... \Gamma 0 :093
+   ... \Gamma 0 :261 \Gamma 0 :339 ... \Gamma 0 :371 ... ... ... 0.100
+   \Gamma 0 :208 \Gamma 0 :193 ... ... \Gamma 0 :153 ... \Gamma 0 :325
+   \Gamma 0 :404 ... \Gamma 0 :456 ... ... ... 0.125 \Gamma 0 :263 \Gamma
+   0 :236 ... ... \Gamma 0 :210 ... \Gamma 0 :372 \Gamma 0 :451 ... \Gamma
+   0 :506 ... ... ... 0.150 \Gamma 0 :304 \Gamma 0 :263 ... ... \Gamma 0
+   :242 ... \Gamma 0 :402 \Gamma 0 :481 ... \Gamma 0 :540 \Gamma 0 :618
+   ... \Gamma 1 :134 0.175 \Gamma 0 :331 \Gamma 0 :288 \Gamma 0 :375
+   \Gamma 0 :383 \Gamma 0 :261 \Gamma 0 :431 \Gamma 0 :417 \Gamma 0 :495
+   \Gamma 0 :577 \Gamma 0 :561 \Gamma 0 :638 ... \Gamma 1 :132 0.200
+   \Gamma 0 :357 \Gamma 0 :320 \Gamma 0 :392 \Gamma 0 :399 \Gamma 0 :283
+   \Gamma 0 :450 \Gamma 0 :437 \Gamma 0 :513 \Gamma 0 :592 \Gamma 0 :582
+   \Gamma 0 :655 ... \Gamma 1 :119 0.225 \Gamma 0 :388 \Gamma 0 :358
+   \Gamma 0 :417 \Gamma 0 :427 \Gamma 0 :323 \Gamma 0 :481 \Gamma 0 :475
+   \Gamma 0 :548 \Gamma 0 :624 \Gamma 0 :621 \Gamma 0 :695 ... \Gamma 1
+   :121 0.250 \Gamma 0 :426 \Gamma 0 :402 \Gamma 0 :453 \Gamma 0 :467
+   \Gamma 0 :381 \Gamma 0 :524 \Gamma 0 :524 \Gamma 0 :591 \Gamma 0 :664
+   \Gamma 0 :667 \Gamma 0 :739 ... \Gamma 1 :119 0.275 \Gamma 0 :465
+   \Gamma 0 :440 \Gamma 0 :488 \Gamma 0 :503 \Gamma 0 :433 \Gamma 0 :556
+   \Gamma 0 :558 \Gamma 0 :617 \Gamma 0 :683 \Gamma 0 :687 \Gamma 0 :751
+   \Gamma 0 :804 \Gamma 1 :089 0.300 \Gamma 0 :499 \Gamma 0 :469 \Gamma 0
+   :512 \Gamma 0 :526 \Gamma 0 :465 \Gamma 0 :571 \Gamma 0 :573 \Gamma 0
+   :625 \Gamma 0 :685 \Gamma 0 :688 \Gamma 0 :748 \Gamma 0 :790 \Gamma 1
+   :051 0.325 \Gamma 0 :523 \Gamma 0 :489 \Gamma 0 :528 \Gamma 0 :540
+   \Gamma 0 :485 \Gamma 0 :580 \Gamma 0 :586 \Gamma 0 :631 \Gamma 0 :687
+   \Gamma 0 :691 \Gamma 0 :747 \Gamma 0 :779 \Gamma 1 :013 0.350 \Gamma 0
+   :546 \Gamma 0 :513 \Gamma 0 :554 \Gamma 0 :565 \Gamma 0 :515 \Gamma 0
+   :604 \Gamma 0 :613 \Gamma 0 :651 \Gamma 0 :698 \Gamma 0 :702 \Gamma 0
+   :750 \Gamma 0 :774 \Gamma 0 :973 0.375 \Gamma 0 :581 \Gamma 0 :553
+   \Gamma 0 :595 \Gamma 0 :605 \Gamma 0 :563 \Gamma 0 :638 \Gamma 0 :646
+   \Gamma 0 :675 \Gamma 0 :711 \Gamma 0 :714 \Gamma 0 :750 \Gamma 0 :768
+   \Gamma 0 :931 0.400 \Gamma 0 :626 \Gamma 0 :604 \Gamma 0 :638 \Gamma 0
+   :645 \Gamma 0 :615 \Gamma 0 :669 \Gamma 0 :672 \Gamma 0 :695 \Gamma 0
+   :719 \Gamma 0 :720 \Gamma 0 :746 \Gamma 0 :761 \Gamma 0 :890 0.425
+   \Gamma 0 :670 \Gamma 0 :654 \Gamma 0 :671 \Gamma 0 :675 \Gamma 0 :657
+   \Gamma 0 :692 \Gamma 0 :694 \Gamma 0 :710 \Gamma 0 :726 \Gamma 0 :728
+   \Gamma 0 :746 \Gamma 0 :760 \Gamma 0 :854 0.450 \Gamma 0 :705 \Gamma 0
+   :699 \Gamma 0 :704 \Gamma 0 :707 \Gamma 0 :699 \Gamma 0 :716 \Gamma 0
+   :718 \Gamma 0 :727 \Gamma 0 :738 \Gamma 0 :740 \Gamma 0 :752 \Gamma 0
+   :765 \Gamma 0 :823 0.475 \Gamma 0 :727 \Gamma 0 :727 \Gamma 0 :726
+   \Gamma 0 :724 \Gamma 0 :722 \Gamma 0 :726 \Gamma 0 :723 \Gamma 0 :729
+   \Gamma 0 :735 \Gamma 0 :739 \Gamma 0 :744 \Gamma 0 :753 \Gamma 0 :782
+   0.500 \Gamma 0 :729 \Gamma 0 :734 \Gamma 0 :723 \Gamma 0 :717 \Gamma 0
+   :716 \Gamma 0 :711 \Gamma 0 :706 \Gamma 0 :709 \Gamma 0 :712 \Gamma 0
+   :717 \Gamma 0 :716 \Gamma 0 :722 \Gamma 0 :727 0.525 \Gamma 0 :713
+   \Gamma 0 :725 \Gamma 0 :705 \Gamma 0 :700 \Gamma 0 :698 \Gamma 0 :690
+   \Gamma 0 :685 \Gamma 0 :685 \Gamma 0 :684 \Gamma 0 :691 \Gamma 0 :681
+   \Gamma 0 :688 \Gamma 0 :670 0.550 \Gamma 0 :681 \Gamma 0 :709 \Gamma 0
+   :683 \Gamma 0 :687 \Gamma 0 :685 \Gamma 0 :672 \Gamma 0 :667 \Gamma 0
+   :663 \Gamma 0 :658 \Gamma 0 :665 ... \Gamma 0 :656 ... 0.575 \Gamma 0
+   :642 \Gamma 0 :705 \Gamma 0 :668 \Gamma 0 :678 \Gamma 0 :682 \Gamma 0
+   :659 \Gamma 0 :648 \Gamma 0 :640 \Gamma 0 :629 \Gamma 0 :635 ... \Gamma
+   0 :621 ... 0.600 \Gamma 0 :604 \Gamma 0 :712 ... ... \Gamma 0 :679 ...
+   \Gamma 0 :627 \Gamma 0 :613 ... \Gamma 0 :599 ... \Gamma 0 :581 ...
+   0.625 \Gamma 0 :568 \Gamma 0 :718 ... ... \Gamma 0 :669 ... \Gamma 0
+   :597 \Gamma 0 :579 ... \Gamma 0 :556 ... \Gamma 0 :534 ... 0.650 \Gamma
+   0 :531 \Gamma 0 :715 ... ... \Gamma 0 :647 ... \Gamma 0 :560 \Gamma 0
+   :537 ... \Gamma 0 :506 ... \Gamma 0 :482 ... 0.675 \Gamma 0 :484 \Gamma
+   0 :698 ... ... \Gamma 0 :615 ... \Gamma 0 :516 ... ... \Gamma 0 :451
+   ... \Gamma 0 :425 ... 0.700 \Gamma 0 :427 \Gamma 0 :671 ... ... \Gamma
+   0 :575 ... \Gamma 0 :468 ... ... \Gamma 0 :392 ... \Gamma 0 :362 ... -
+   22 - T ABLE 5 (Con tin ued) tB0 = 17 17 17 20 24 24 28 29 37 38 46 58
+   76 z SN 1981B 1990N 1992A 1981B 1981B 1992A 1992A 1981B 1992A 1990N
+   1992A 1981B 1992A 0.000 \Gamma 0 :521 ... ... \Gamma 1 :065 \Gamma 1
+   :804 ... ... ... ... ... ... ... ... 0.025 \Gamma 0 :614 ... ... \Gamma
+   1 :132 \Gamma 1 :820 ... ... ... ... ... ... ... ... 0.050 \Gamma 0
+   :738 ... ... \Gamma 1 :219 \Gamma 1 :839 ... ... ... ... ... ... ...
+   ... 0.075 \Gamma 0 :866 ... ... \Gamma 1 :293 \Gamma 1 :839 ... ... ...
+   ... \Gamma 1 :492 \Gamma 1 :219 ... ... 0.100 \Gamma 0 :948 ... ...
+   \Gamma 1 :324 \Gamma 1 :809 ... ... ... ... \Gamma 1 :477 \Gamma 1 :228
+   ... ... 0.125 \Gamma 0 :977 \Gamma 0 :975 \Gamma 1 :155 \Gamma 1 :316
+   \Gamma 1 :756 ... ... ... ... \Gamma 1 :444 \Gamma 1 :217 ... \Gamma 0
+   :786 0.150 \Gamma 0 :995 \Gamma 0 :988 \Gamma 1 :156 \Gamma 1 :304
+   \Gamma 1 :704 \Gamma 1 :428 \Gamma 1 :406 ... ... \Gamma 1 :416 \Gamma
+   1 :208 ... \Gamma 0 :808 0.175 \Gamma 1 :001 \Gamma 0 :986 \Gamma 1
+   :149 \Gamma 1 :281 \Gamma 1 :643 \Gamma 1 :402 \Gamma 1 :383 ... \Gamma
+   1 :365 \Gamma 1 :380 \Gamma 1 :187 ... \Gamma 0 :813 0.200 \Gamma 0
+   :999 \Gamma 0 :975 \Gamma 1 :131 \Gamma 1 :249 \Gamma 1 :573 \Gamma 1
+   :364 \Gamma 1 :350 ... \Gamma 1 :323 \Gamma 1 :335 \Gamma 1 :160 ...
+   \Gamma 0 :831 0.225 \Gamma 1 :024 \Gamma 0 :979 \Gamma 1 :129 \Gamma 1
+   :236 \Gamma 1 :517 \Gamma 1 :332 \Gamma 1 :321 ... \Gamma 1 :291 \Gamma
+   1 :307 \Gamma 1 :153 ... \Gamma 0 :885 0.250 \Gamma 1 :055 \Gamma 0
+   :982 \Gamma 1 :126 \Gamma 1 :228 \Gamma 1 :463 \Gamma 1 :298 \Gamma 1
+   :287 ... \Gamma 1 :256 \Gamma 1 :277 \Gamma 1 :140 ... \Gamma 0 :916
+   0.275 \Gamma 1 :047 \Gamma 0 :956 \Gamma 1 :095 \Gamma 1 :189 \Gamma 1
+   :388 \Gamma 1 :247 \Gamma 1 :234 ... \Gamma 1 :205 \Gamma 1 :223 \Gamma
+   1 :101 ... \Gamma 0 :909 0.300 \Gamma 1 :019 \Gamma 0 :922 \Gamma 1
+   :054 \Gamma 1 :137 \Gamma 1 :305 \Gamma 1 :190 \Gamma 1 :178 \Gamma 1
+   :158 \Gamma 1 :151 \Gamma 1 :163 \Gamma 1 :056 ... \Gamma 0 :895 0.325
+   \Gamma 0 :989 \Gamma 0 :891 \Gamma 1 :013 \Gamma 1 :084 \Gamma 1 :224
+   \Gamma 1 :133 \Gamma 1 :123 \Gamma 1 :109 \Gamma 1 :097 \Gamma 1 :105
+   \Gamma 1 :013 ... \Gamma 0 :882 0.350 \Gamma 0 :957 \Gamma 0 :864
+   \Gamma 0 :972 \Gamma 1 :030 \Gamma 1 :145 \Gamma 1 :075 \Gamma 1 :066
+   \Gamma 1 :056 \Gamma 1 :041 \Gamma 1 :044 \Gamma 0 :967 ... \Gamma 0
+   :863 0.375 \Gamma 0 :921 \Gamma 0 :838 \Gamma 0 :929 \Gamma 0 :975
+   \Gamma 1 :068 \Gamma 1 :016 \Gamma 1 :007 \Gamma 1 :000 \Gamma 0 :984
+   \Gamma 0 :984 \Gamma 0 :920 ... \Gamma 0 :839 0.400 \Gamma 0 :880
+   \Gamma 0 :814 \Gamma 0 :889 \Gamma 0 :920 \Gamma 0 :996 \Gamma 0 :959
+   \Gamma 0 :951 \Gamma 0 :945 \Gamma 0 :932 \Gamma 0 :930 \Gamma 0 :880
+   ... \Gamma 0 :818 0.425 \Gamma 0 :843 \Gamma 0 :800 \Gamma 0 :855
+   \Gamma 0 :876 \Gamma 0 :934 \Gamma 0 :908 \Gamma 0 :903 \Gamma 0 :899
+   \Gamma 0 :887 \Gamma 0 :887 \Gamma 0 :853 ... \Gamma 0 :805 0.450
+   \Gamma 0 :817 \Gamma 0 :795 \Gamma 0 :825 \Gamma 0 :847 \Gamma 0 :885
+   \Gamma 0 :860 \Gamma 0 :857 \Gamma 0 :861 \Gamma 0 :845 \Gamma 0 :852
+   \Gamma 0 :825 ... \Gamma 0 :782 0.475 \Gamma 0 :780 \Gamma 0 :777
+   \Gamma 0 :785 \Gamma 0 :810 \Gamma 0 :829 \Gamma 0 :802 \Gamma 0 :801
+   \Gamma 0 :812 \Gamma 0 :790 \Gamma 0 :803 \Gamma 0 :780 ... \Gamma 0
+   :737 0.500 \Gamma 0 :727 \Gamma 0 :743 \Gamma 0 :731 \Gamma 0 :758
+   \Gamma 0 :761 \Gamma 0 :735 \Gamma 0 :737 \Gamma 0 :747 \Gamma 0 :725
+   \Gamma 0 :742 \Gamma 0 :725 ... \Gamma 0 :683 0.525 \Gamma 0 :669
+   \Gamma 0 :711 \Gamma 0 :677 \Gamma 0 :708 \Gamma 0 :696 \Gamma 0 :670
+   \Gamma 0 :677 ... \Gamma 0 :665 \Gamma 0 :686 \Gamma 0 :676 ... \Gamma
+   0 :634 0.550 ... \Gamma 0 :682 \Gamma 0 :628 \Gamma 0 :667 \Gamma 0
+   :641 ... ... ... ... \Gamma 0 :638 \Gamma 0 :631 \Gamma 0 :611 \Gamma 0
+   :581 0.575 ... \Gamma 0 :649 \Gamma 0 :575 \Gamma 0 :624 \Gamma 0 :585
+   ... ... ... ... \Gamma 0 :585 \Gamma 0 :580 \Gamma 0 :565 \Gamma 0 :520
+   0.600 ... \Gamma 0 :612 \Gamma 0 :517 \Gamma 0 :576 \Gamma 0 :526 ...
+   ... ... ... \Gamma 0 :527 \Gamma 0 :523 \Gamma 0 :511 \Gamma 0 :452
+   0.625 ... \Gamma 0 :570 \Gamma 0 :455 ... \Gamma 0 :464 ... ... ... ...
+   \Gamma 0 :459 \Gamma 0 :463 \Gamma 0 :449 \Gamma 0 :377 0.650 ...
+   \Gamma 0 :524 \Gamma 0 :391 ... \Gamma 0 :400 ... ... ... ... \Gamma 0
+   :384 \Gamma 0 :402 \Gamma 0 :381 \Gamma 0 :298 0.675 ... \Gamma 0 :474
+   \Gamma 0 :324 ... ... ... ... ... ... \Gamma 0 :305 \Gamma 0 :340
+   \Gamma 0 :307 \Gamma 0 :212 0.700 ... \Gamma 0 :420 \Gamma 0 :254 ...
+   ... ... ... ... ... \Gamma 0 :222 \Gamma 0 :274 \Gamma 0 :227 \Gamma 0
+   :119 - 23 - Fig. 1.-- Bessell's representations of the Johnson-Cousins
+   B, V , and R passband transmission functions, SB, SV , and SR. The
+   dotted lines represent the "blue-shifted" R transmission function,
+   SR(*(1 + z)), at z = 0:2 and at z = 0:5. These SR(*(1 + z))
+   transmission functions roughly match the SV (*) and SB(*) transmission
+   functions for these values of z. - 24 - Fig. 2.-- KV R(z = 0:5) as a
+   function of epoch for SN 1981B, SN 1990N, and SN 1992A. - 25 - Fig.
+   3.-- KBR(z = 0:5) as a function of epoch for SN 1981B, SN 1990N, and SN
+   1992A. - 26 - Fig. 4.-- (a) KRR(z = 0:5) (or the R band K correction)
+   as a function of epoch for SN 1981B and SN 1990N. The available spectra
+   of SN 1992A does not have sufficient coverage to make such a
+   calculation. (b) KBR(z = 0:5) from Figure 3 plotted on the same scale
+   as (a) to show the much smaller range, due to the close match of the R
+   filter at z = 0:5 with the B filter at rest. - 27 - Fig. 5.--
+   Comparison between the Bessell representation of R and our constructed
+   response of the KPNO R as described in the text, normalized at peak
+   transmission. - 28 - Fig. 6.-- KBessellBR \Gamma KKP NOBR as a function
+   of observed color for all redshifts. - 29 - Fig. 7.-- The
+   root-mean-square scatter of KBR (squares) and KV R (stars) for SN 1992A
+   at epochs -1 and 3, and SN 1981B at epoch 0 as a function of redshift.
+   - 30 - Fig. 8.-- KBR \Gamma KcountsBR as a function of redshift for
+   epochs \Gamma 14 ^ tB0 ^ 76.

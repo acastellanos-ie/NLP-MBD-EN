@@ -1,0 +1,291 @@
+http://jazz.nist.gov/atpcf/prjbriefs/listmaker.cfm
+
+   ATP Home Page National Institute of Standards and Technology NIST Home
+                 Page
+
+                                  blue line
+
+ATP Funded Projects Database
+
+   To query the ATP Funded Projects Database, enter your search criteria,
+   select the fields you wish to view, and press the "Query Database"
+   button, below.
+   Enter your search criteria...
+   Notes: You can highlight multiple items in the select boxes by pressing
+   the "Control" button on your keyboard and clicking on the items of
+   interest with your mouse. When searching in "Participant Company Name"
+   and "Participant City", you need only enter the first few letters of
+   names/locations you are seeking. When searching by Dollar values, be
+   sure to also select the appropriate radio button (e.g. "Greater or
+   Equal", "Less or Equal", "Equal").
+   Participant Company Name:
+   ______________________________
+
+   Participant City:
+   ______________________________
+
+   ATP Award Size (in U.S. Dollars):
+   ( ) Greater or Equal ( ) Less or Equal (*) Ignore
+   ____________________
+
+   Participant Contribution (in U.S. Dollars):
+   ( ) Greater or Equal ( ) Less or Equal (*) Ignore
+   ____________________
+
+   Total Project Size (in U.S. Dollars):
+   ( ) Greater or Equal ( ) Less or Equal (*) Ignore
+   ____________________
+
+   Focused Program:
+   [X] All Programs
+   [ ] Adaptive Learning Systems
+   [ ] Advanced Vapor Compression Refrigeration Systems
+   [ ] Catalysis & Biocatalysis Technologies
+   [ ] Component-Based Software
+   [ ] Digital Data Storage
+   [ ] Digital Video In Information Networks
+   [ ] General Competition
+   [ ] Information Infrastructure For Healthcare
+   [ ] Manufacturing Composite Structures
+   [ ] Materials Processing For Heavy Manufacturing
+   [ ] Microelectronics Manufacturing Infrastructure
+   [ ] Motor Vehicle Manufacturing Technology
+   [ ] Open Competition
+   [ ] Open Competition - Advanced Materials/Chemicals
+   [ ] Open Competition - Biotechnology
+   [ ] Open Competition - Electronics/Computer Hardware/Communications
+   [ ] Open Competition - Information Technology
+   [ ] Open Competition 1 - Biotechnology
+   [ ] Open Competition 1 - Electronics and Photonics
+   [ ] Open Competition 1 - Information Technology
+   [ ] Open Competition 2 - Biotechnology
+   [ ] Open Competition 2 - Chemistry and Materials
+   [ ] Open Competition 2 - Electronics and Photonics
+   [ ] Open Competition 2 - Information Technology
+   [ ] Open Competition 3 - Biotechnology
+   [ ] Open Competition 3 - Chemistry and Materials
+   [ ] Open Competition 3 - Electronics and Photonics
+   [ ] Open Competition 3 - Information Technology
+   [ ] Photonics Manufacturing
+   [ ] Premium Power
+   [ ] Selective-Membrane Platforms
+   [ ] Technologies For The Integration Of Manufacturing Applications
+   (TIMA)
+   [ ] Tissue Engineering
+   [ ] Tools For DNA Diagnostics
+
+   Technical Category:
+   [X] All Categories
+   [ ] Abrasives, Adhesives, Ceramics, Coatings, and Composites
+   [ ] Advanced Materials/Chemicals
+   [ ] Aircraft Manufacturing
+   [ ] Animal and Plant Biotechnology
+   [ ] Automobile Manufacturing
+   [ ] Bioinformatics
+   [ ] Biomolecular and Biomimetic Materials
+   [ ] Bioprocessing/Biomedical Engineering
+   [ ] Catalysis/Biocatalysis
+   [ ] Computer Hardware
+   [ ] Computer Systems and Software Applications
+   [ ] Computer-Aided Design and Testing Systems
+   [ ] Diagnostic and Therapeutic Biotechnology
+   [ ] Electronic Instrumentation/Sensors and Control Systems
+   [ ] Electronics/Computer Hardware/Communications
+   [ ] Energy Conversion (Motors, Generators, etc.)
+   [ ] Energy Generation/Distribution
+   [ ] Energy Resources/Petroleum
+   [ ] Energy Storage/Fuel Cell, Battery
+   [ ] Environmental Technologies
+   [ ] Imaging and Image Processing
+   [ ] Information Technology
+   [ ] Intelligent Control
+   [ ] Intelligent Manufacturing
+   [ ] Machine Tools
+   [ ] Manufacturing (Discrete)
+   [ ] Marine Biology
+   [ ] Materials Handling
+   [ ] Metals and Alloys
+   [ ] Microelectronic Fabrication Technology
+   [ ] Optics and Photonics
+   [ ] Other Biotechnology
+   [ ] Other Continuous Manufacturing (Pulp/Paper, Textiles)
+   [ ] Other Discrete Manufacturing
+   [ ] Other Electronics
+   [ ] Other Information/Computers/Entertainment
+   [ ] Other Technology
+   [ ] Other Transportation Manufacturing
+   [ ] Polymers Synthesis & Polymer Fabrication Technologies
+   [ ] Semiconductors
+   [ ] Separation Technology
+
+
+   ATP Project Manager:
+   [X] All Managers
+   [ ] John Albers
+   [ ] Clare Allocca
+   [ ] Donald A. Bansleben
+   [ ] Richard (Chuck) Bartholomew
+   [ ] Robert Beyerlein
+   [ ] Douglas Bischoff
+   [ ] Gerald V. Blessing
+   [ ] Robert Bloksberg-Fireovid
+   [ ] Jack Boudreaux
+   [ ] Gerald Ceasar
+   [ ] Mrunal Chapekar
+   [ ] Chris Currens
+   [ ] Barbara Cuthill
+   [ ] Mrinal Dewanjee
+   [ ] Hoda Elgendy
+   [ ] Gradimir Georgevich
+   [ ] Carlos Grinspon
+   [ ] David Hermreck
+   [ ] John Hewes
+   [ ] Andy Klein
+   [ ] Thomas Lettieri
+   [ ] Bettijoyce Lide
+   [ ] Harris Liebergot
+   [ ] Purabi Mazumdar
+   [ ] Michael McDermott
+   [ ] Omid Omidvar
+   [ ] Jayne Orthwein
+   [ ] Jeanne Powell
+   [ ] Rosalie T. Ruegg
+   [ ] Michael Schen
+   [ ] Susannah Schiller
+   [ ] Linda Schilling
+   [ ] Elissa Sobolewski
+   [ ] J-L Staudenmann
+   [ ] H. Felix Wu
+   [ ] Steven Zullo
+
+   States (w. active projects):
+   [X] All States
+   [ ] AL
+   [ ] AR
+   [ ] AZ
+   [ ] CA
+   [ ] CO
+   [ ] CT
+   [ ] DC
+   [ ] DE
+   [ ] FL
+   [ ] GA
+   [ ] HI
+   [ ] IA
+   [ ] ID
+   [ ] IL
+   [ ] IN
+   [ ] KS
+   [ ] KY
+   [ ] LA
+   [ ] MA
+   [ ] MD
+   [ ] ME
+   [ ] MI
+   [ ] MN
+   [ ] MO
+   [ ] NC
+   [ ] NE
+   [ ] NH
+   [ ] NJ
+   [ ] NM
+   [ ] NY
+   [ ] OH
+   [ ] OK
+   [ ] OR
+   [ ] PA
+   [ ] RI
+   [ ] SC
+   [ ] TN
+   [ ] TX
+   [ ] UT
+   [ ] VA
+   [ ] WA
+   [ ] WI
+   [ ] WV
+                               Competition Number:
+                               [X] All Numbers
+                               [ ] 1990-01
+                               [ ] 1991-01
+                               [ ] 1992-01
+                               [ ] 1993-01
+                               [ ] 1994-01
+                               [ ] 1994-02
+                               [ ] 1994-03
+                               [ ] 1994-04
+                               [ ] 1994-05
+                               [ ] 1994-06
+                               [ ] 1995-01
+                               [ ] 1995-02
+                               [ ] 1995-03
+                               [ ] 1995-04
+                               [ ] 1995-05
+                               [ ] 1995-06
+                               [ ] 1995-07
+                               [ ] 1995-08
+                               [ ] 1995-09
+                               [ ] 1995-10
+                               [ ] 1995-11
+                               [ ] 1995-12
+                               [ ] 1996-01
+                               [ ] 1997-01
+                               [ ] 1997-02
+                               [ ] 1997-03
+                               [ ] 1997-04
+                               [ ] 1997-05
+                               [ ] 1997-06
+                               [ ] 1997-07
+                               [ ] 1998-01
+                               [ ] 1998-02
+                               [ ] 1998-03
+                               [ ] 1998-04
+                               [ ] 1998-05
+                               [ ] 1998-06
+                               [ ] 1998-07
+                               [ ] 1998-08
+                               [ ] 1998-09
+                               [ ] 1999-01
+                               [ ] 2000-1A
+                               [ ] 2000-1B
+                               [ ] 2000-1C
+                               [ ] 2000-1D
+                               [ ] 2001-1B
+                               [ ] 2001-1E
+                               [ ] 2001-1I
+                               [ ] 2001-2B
+                               [ ] 2001-2C
+                               [ ] 2001-2E
+                               [ ] 2001-2I
+                               [ ] 2001-3B
+                               [ ] 2001-3C
+                               [ ] 2001-3E
+                               [ ] 2001-3I
+   Select fields you wish to view in addition to "Project Title"...
+   Note: The "ATP Project Title" field is always displayed.
+   Select/unselect additional fields by clicking on the check boxes.
+
+ [ ] Project Number
+ [ ] Project Manager
+ [ ] Focused Program
+ [ ] Technical Category
+ [ ] Project Duration
+                       [ ] ATP Award Size
+                       [ ] Participant Contribution
+                       [ ] Total Project Size
+                       [ ] Participant Company Name
+                       [ ] Participant City
+                                                   [ ] Participant State
+                                                   [ ] Participant Media Contact
+                                                   [ ] Participant Phone Number
+                                                   [ ] Participant Fax Number
+                                                   [ ] Participant Email
+   Submit Button
+   -
+     __________________________________________________________________
+
+   ATP Home Page NIST Home Page  ATP website comments:
+   webmaster-atp@nist.gov  Technical ATP inquiries:
+   InfoCoord.ATP@nist.gov.
+     Privacy Statement / Security Notice - NIST Disclaimer
+     NIST is an agency of the U.S. Commerce Department's Technology
+   Administration.

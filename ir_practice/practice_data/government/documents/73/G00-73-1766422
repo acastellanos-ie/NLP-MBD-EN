@@ -1,0 +1,44 @@
+http://fnpcc.fnal.gov/rates.php?RRate=in_rate
+
+   Header
+
+
+   FPS HomePage
+   Graphs and statistics for FPS resources
+      Graphs and statistics for FPS resources.
+
+   Currently processing datasets and filesets
+      Currently processing datasets and filesets.
+
+   Tables for files already processed
+      Files already processed.
+
+   Visualisation of rates
+      concat_rate
+
+      in_rate
+
+      stagein_rate
+
+      cpu_rate
+
+      out_rate
+
+      stageout_rate
+
+   Current status of stages in FPS
+      Current status of stages in FPS.
+
+   Messenger status
+      Messenger logs
+
+   E-log information
+      Farm e-log information.
+
+   Nodes status
+      Nodes performance statistics.
+
+
+   30 Jan 2002 Wed 11:48:51
+   This is daily graph for in_rate This is weekly graph for in_rate This
+   is monthly graph for in_rate This is yearly graph for in_rate

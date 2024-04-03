@@ -1,0 +1,201 @@
+http://wesley.wwb.noaa.gov/reanlysis.html
+
+                      NCEP/NCAR CDAS/Reanalysis Project
+
+                              TOVS-land rerun
+                       Phase II: Regional Reanalysis
+                        NCEP/AMIP-II DOE Reanalysis
+                               Plots and Data
+                             CDAS on-line data
+                                    News
+                           What is it all about ?
+                  Things are not perfect ... Problem Report
+                             How to get the data
+                                  CD-ROMS
+                                    Links
+
+                  TOVS problem: rerun from 1/97 to present
+
+   [new.png] The TOVS-land problem has be rerun. The data sets are in the
+   process of being updated to revised analyses (March 1, 1997-Sept 18,
+   2001).
+   [new.png] Rotating CDAS archive has been updated.
+   [new.png] CDAS monthly archives has been updated.
+     __________________________________________________________________
+
+   detailed summary of observational data used by Reanalysis.
+   background error used by the assimilation system (SSI).
+
+   1/3/2000: Y2K problem: some observational data were being incorrectly
+   rejected. This problem only affected the 12/31/1999 analyses were fixed
+   1/3/2000 (6pm).
+
+   News: Found a "truncation" error with the snow analyses. Fixed Dec 1.
+   More details to follow.
+
+                              Rotating Archives
+
+   CDAS is now updated daily and the daily updates are being stored in the
+   "CDAS rotating archives." These archives include more data than in our
+   on-line historical archives such as four times daily analyses and more
+   daily-averaged fields. The historical archives will continue to be
+   updated once a month.
+
+                          Annual Reanalysis CD-ROMs
+
+   1951-2000 Reanalysis CD-ROMs are now available. Contact NCAR for more
+   information.
+
+   The Reanalysis Synoptic CD-ROM with global 00Z analyses from 1979-1996
+   is available. Fields on this CD-ROM include HGT (1000 mb, 500 mb),
+   WINDS (850 mb, 200mb) and OMEGA (500 mb). This CD-ROM, like the
+   annuals, is GrADS compatible and includes an MS-DOS menu system and is
+   available from NCAR .
+
+   In the pipeline:
+   **SOON** ECMWF (ERA) vs NCEP Reanalysis (NCEP access only)
+   A twice daily, Northern Hemisphere Synoptic CD-ROM
+   More annual CD-ROMs
+   BAMS article with CD-ROM with 50 years of monthly means (submitted)
+
+                           What is it all about ?
+
+   The NCEP/NCAR Reanalysis Project is a joint project between the
+   National Centers for Environmental Prediction (NCEP, formerly "NMC")
+   and the National Center for Atmospheric Research (NCAR). The goal of
+   this joint effort is to produce new atmospheric analyses using
+   historical data (1948 onwards) and as well to produce analyses of the
+   current atmospheric state (Climate Data Assimilation System, CDAS).
+
+   Until recently, the meteorological community has had to use analyses
+   that supported the real-time weather forecasting. These analyses are
+   very inhomogeneous in time as there have been big improvements in the
+   data assimilation systems. This played havoc with climate monitoring as
+   these improvements were often produced changes in the apparent
+   "climate". Even fundamental quantities such as the strength of the
+   Hadley cell has changed over the years as a result of the changes in
+   the data assimilation systems.
+
+   The quality and utility of the re-analyses should be superior to NCEP's
+   original analyses because
+     * a state-of-the-art data assimilation is used
+     * more observations are used
+     * quality control has been improved
+     * the model/data assimilation procedure will remain essentially
+       unchanged during the project
+     * many more fields are being saved (ex. potential vorticity on
+       isentropic surfaces, diabatic heating)
+     * global (some older analyses were hemispheric)
+     * better vertical resolution (stratosphere)
+
+   For more information ...
+   * 1996 BAMS Paper (Bulletin of the American Meteorological Society)
+   * 2001 BAMS Paper (Bulletin of the American Meteorological Society)
+   (ftp)
+   * Misc. abstracts
+   * Types of Reanalysis Data
+   * Proc. of the First WCRP Intl. Conf. on Reanalysis (Silver Spring MD,
+   27-31 Oct 1997)
+               WCRP-104, WMO/TD-No. 876
+   * Reanalysis prior to 1958
+   * The effect of satellite and aircraft data on Reanalysis (pdf)
+   * Detailed summary of observational data used by Reanalysis.
+   * Background error used by the assimilation system (SSI).
+     __________________________________________________________________
+
+                                    News
+
+   The future plans for Reanalysis are to do a regional Reanalysis for the
+   USA. Comments from potential users are wanted.
+
+   Feb 5 1999: Jan. 1999 CDAS is being rerun. A change in buffer table
+   caused the GOES not to be used.
+
+   Problems with March 1997-December 1997 reanalyses were found which will
+   require a rerun of the affected months. The problem is with the
+   inclusion of too much Indian station data. More details are available.
+
+   Problems with aircraft winds used for 1976-1978 were discovered and the
+   rerun was completed Jan 8, 1997. The aircraft data were transposed E-W
+   which reduced the anomaly correlation by 5 points in a 5 day forecast.
+   The effect of this bad jet-level data should be less severe in the
+   lower troposphere. This web site will have the updated data after an
+   examination and the Phoenix AMS meeting.
+
+   The "final" TOGA-COARE (Nov92-Feb93) analysis still needs to be rerun.
+   The data on this web server is an interim analysis which doesn't use
+   the TOGA-COARE data. Tapes from NCAR and CDC was well as the annual
+   CD-ROMs contain the first version which is cold over the TOGA-COARE
+   region.
+
+   pre-QC observations counts are now available.
+
+   IBM/SP CDAS: Starting with May 1, 2000 Analyses causes changes.
+     __________________________________________________________________
+
+                Things are not perfect . . . Problem Report:
+
+     * The Annual CD-ROM demo program put the wrong date on sample plot 4
+       (daily OLR).
+     * An error was discovered in how the 79-92 PAOBS data were used by
+       Reanalysis
+     * Updates to the March 1996 BAMS Reanalysis Paper/CDROM
+     * Oct. and Nov. 1985 Tape Problem
+     * Spurious moisture source (spectral snow)
+     * Operations vs Reanalysis GRIB
+     * Problems with the snow cover
+     * TOGA COARE
+     * 1976-1978 rerun was completed Jan. 9, 1998. This rerun corrects an
+       error in positioning of some aircraft data (E/W transposed) new
+     * poorly encoded surface/mean-sea-level pressure observations were
+       rejected (1948-1967).
+     * TOVS-land problem: rerun from 1/1997 to present
+     * GRBSANL grid was misidentified.
+     __________________________________________________________________
+
+                              Show me the Data
+
+     Data Sources
+     * Sources of Reanalysis Data
+     * BAMS CD-ROM (March 1996) ( available for downloading )
+     * Observation-Count plots
+
+     Reading the data
+     * Introduction
+     * GrADS
+     * MacGrads
+     * wgrib, and grib2ctl
+     __________________________________________________________________
+
+Links :
+
+   Other related sites:
+   -> NCEP/AMIP-II DOE Reanalysis (Reanalysis-2)
+       -> NCAR's page on NCEP/NCAR Reanalysis (data, documentation)
+       -> CDC's page on NCEP/NCAR Reanalysis (plots, data, documentation)
+       -> NCDC Cards Project
+       -> NASA Data Assimilation Office Re-Analayis
+       -> Japanese 25-year Reanalysis Project (JRA-25) [new.png]
+       -> Precipitation Intercomparison Project-3 includes Reanalysis
+       -> AB/CPC Data Page (NCEP) (plots, data)
+       -> IRI: CDAS/Reanalysis (plots, data)
+       -> IRI: Climate Data Library
+       -> NCEP/CPC Atlas No. 2 -- Intercomparison of the NCEP/NCAR and
+       NASA/DAO Reanalyses (1985-1993)
+       -> GrADS
+       -> Bob Kistler's web page (includes interesting studies on
+       Reanalysis)
+       -> land mask, elevation
+       -> Random notes on Reanalysis
+       -> Portable versions of Reanalysis software -> Site Index (wgrib,
+       grib2ctl, Reanalysis random notes)
+
+   Chain of Command:
+   -> Department of Commerce
+       -> National Oceanic and Atmospheric Administration
+       -> National Weather Service
+       -> National Centers Environmental Prediction
+       -> Climate Prediction, -> Environmental Modeling Centers
+     __________________________________________________________________
+
+   contact: Wesley.Ebisuzaki@noaa.gov or Wei.Shi@noaa.gov

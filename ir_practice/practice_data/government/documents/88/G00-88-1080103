@@ -1,0 +1,64 @@
+http://www.kepler.arc.nasa.gov/sizes.html
+
+                                                          Updated 9/26/00
+
+                           Detectable Planet Size
+
+                                 [Logo.gif]
+
+
+
+     Many factors determine if transits caused by a particular planet
+     size are detectable. These include the:
+     * Size of the star
+     * Brightness of the star, photometer aperture and optical efficiency
+       (photon shot noise)
+     * Stellar variability (inherent noise of the source)
+     * Instrument differential precision (instrument noise)
+     * Number of transits (mission life divided by the orbital period)
+     * Detection efficiency (SNR and false alarm rate) and
+     * Duration of the transit (central or grazing)
+
+     The baseline sensitivity of the Kepler Mission photometer is
+     designed to detect Earth-size, 1.0 R[e], planets in 1 AU orbits
+     around m[v]=12 solar-like stars in 6.5 hours (grazing transit) with
+     a signal to noise ratio (SNR) of >8. These values can be scaled to
+     define the range of detection possibilities. The result of modeling
+     all of this for the Kepler Mission is shown below.
+
+     The figure below presents the minimum detectable planet size for:
+     * A range of apparent stellar brightnesses (m[v]=9, 12 and 14);
+     * A range of stellar masses (note their spectral types are indicated
+       relative to their mass in the upper left figure); and
+     * A range of planetary orbital sizes (semi-major axis).
+
+                            [det_planet_size.gif]
+
+      Minimum Detectable Planet Size Dependence on Stellar Brightness,
+                      Stellar Mass and Planetary Orbit.
+     Planets of a given size are detectable to the left of each contour.
+      Detections are based on a total SNR >8 sigma and >3 transits in 4
+       years. The detectable planet sizes are shown for a near-central
+   transit. Each plot is for a given stellar brightness. Planet radius and
+                       area are relative to the Earth.
+
+     Note that although the mission is optimized to detect Earth-size
+     planets in the habitable zone of solar-like stars, planets even as
+     small as Mercury are detectable in the habitable zone of K and M
+     stars. For shorter period orbits, more transits are observed for a
+     given mission lifetime, thereby enabling the detection of planets
+     smaller than Earth or enabling detection of Earth-size planets
+     around stars larger than the Sun.
+     _______________________________________________________________
+
+   [finger.gif] Go to The Next Topic
+
+          [basics.gif] Return to: Scientific Basis For the Mission
+
+
+                                [bumper.gif]
+                     Return to Kepler Mission Home Page
+
+
+
+   Curator: David Koch, dkoch@mail.arc.nasa.gov [mail.box.gif]

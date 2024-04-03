@@ -1,0 +1,650 @@
+http://wsom.nws.noaa.gov/manual/CHAPTERE/NE607205.HTML
+
+   Issue Date     Org. Code        NATIONAL WEATHER SERVICE   Part
+   Chap.
+   1-28-72            W22                        Operations Manual
+                    E        60
+
+                           ADMINISTRATIVE REPORTS
+
+   Table of Contents:
+
+   1.    Activities Report
+
+       1.1     Contents
+               1.1.1     Forecast Activities
+               1.1.2     Technical Activities
+               1.1.3     Miscellaneous Activities
+               1.1.4     Planned Activities
+
+   2.    Annual Report of River Forecast Points
+
+   3.    Annual Report of Operational Computer Programs
+
+   4.    Man-Hour Summary
+
+   Exhibit:
+
+   E-60-1 List of River Forecast Points
+
+                                  * * * * *
+
+   1.     Activities Reports-by River Forecast Centers. The assigned
+   hydrologic responsibility of a River Forecast Center includes forecast
+   procedure development and a certain amount of related research.
+   Guidance for these functions comes from the Office of Hydrology's
+   Hydrologic Research and Development Laboratory. For an effective
+   exchange of technical ideas, regular reports are needed by the
+   Laboratory from the RFC's. In addition, these reports will keep the
+   Laboratory informed of progress and problems in the techniques
+   development area and also serve to keep National Weather Service
+   Central Headquarters, Regional Headquarters, and other RFC's advised on
+   the status of such activities. The report will be submitted quarterly
+   at the end of March, June, September, and December to the Regional
+   Director with copies to the Associate Director, National Weather
+   Service (Hydrology), each Regional Hydrologist, and each River Forecast
+   Center.
+
+   1.1     Contents. The activity report will include but is not limited
+   to
+
+   1.1.1     Forecast Activities. A brief summary of any special forecast
+
+   activity, such as flash flood occurrences, forecast problems
+   encountered and/or solutions applied, or unusual forecast conditions.
+
+   1.1.2     Technical Activities. This portion of the report should be
+   given special emphasis. Development of new forecasting procedures
+   and/or revision of existing procedures should be reported. Solutions of
+   problems that would be of interest to other RFC's should be described.
+   Technical problems needing research should be reported so that
+   follow-up discussions can be initiated between the RFC and the
+   Hydrologic R&D Laboratory concerning the various aspects of the
+   research requirements.
+
+   1.1.3     Miscellaneous Activities. Reports of conferences held with
+   representatives of other agencies, visitors to the RFC, and
+   participation in inter-agency matters that relate to water resources.
+   Changes in personnel will also be included.
+
+   1.1.4     Planned Activities. Indicate projects, meetings, and
+   procedure developments contemplated for the next quarter.
+
+   2.     Annual Report of River Forecast Points. Each RFC will submit a
+   list of  forecast points with the September activities report using the
+   format shown in Exhibit E-60-1.
+
+   3.     Annual Report of Operational Computer Programs. Each RFC will
+   include a fiat of Operational Computer Programs available and a brief
+   description of each program with the September Activities Report.
+
+   4.     Man-Hours Summary. An accounting of man-hours by activities will
+   be maintained at each RFC for Regional Headquarters and Weather Bureau
+   Headquarters use when requested. The following format is recommended
+
+     a. Forecast Operations:
+
+         1.    River Forecasting
+         2.    Water Supply Forecasting
+         3.    Basic Data Preparation
+     b.    Procedure Development:
+         1.    River Forecasting
+         2.    Hater Supply Forecasting
+         3.    Basic Data Preparation
+     c.    Computer Operations - Model:
+
+         1.     River Forecasting
+         2.    Water Supply Forecasting
+         3.    Procedure Development
+         4.    Data Preparation
+         5.    Computer Programming
+     __________________________________________________________________
+
+                       LISTS OF RIVER FORECAST POINTS
+
+   Station
+                            River
+                                            Floodstage
+                                                      Daily
+                                                           Flood
+                                                                Special
+                                                                       Headwater
+   Ft. Worth River District
+
+   Dallas,Tex.
+                            Trinity                   S
+
+
+   Long Lake, Tex.
+                            Trinity
+                                                           S
+                                                                   Q
+
+   Bardwell, Tex.
+                            Chambers Creek
+                                                      RQ
+
+   Houston River District
+
+   Neches, Tex.
+                            Neches
+
+   Evadale, Tex.
+                            Neches
+
+   ____________________
+   Type of Forecast:
+                            State
+
+                                                                       S
+
+                            Discharge
+
+                                                                       Q
+
+                            Special Criteria
+
+                                                                       RS
+
+   Note: Use A if rainfall values furnished and I if index values
+   provided.   If forecasts are also made for this point please indicate
+   under appropriate column.
+   N.B. If a forecast is made daily, then it is assumed that flood
+   forecasts are made as required.
+
+                Exhibit E-60-1: List of River Forecast Points
+
+     __________________________________________________________________
+
+     d. Technical Administration:
+
+     1. Conferences and Reports
+     2. Training
+     3. River District Office Operations
+
+     e. Auxiliary Administration
+
+   Items a and b -- "Forecast Operations and Procedure Development." All
+   manual activities such as microfilming, typing, or filing directly
+   contributing to forecasting or procedure development should be included
+   under the appropriate item.
+
+   Item c -- "Computer Operations." Manual and machine functions performed
+   which directly contribute to the computer operation should be included
+   under the appropriate sub-item. This should include a breakdown of
+   actual computer time and data preparation time.
+
+   Item d -- "Technical Administration." Time spent in correspondence,
+   etc., bearing on operations but not part of  the operations should be
+   listed under the appropriate sub-item.
+
+   Item d.2 -- "Training." This should include time spent in learning
+   forecasting, procedure development, or other technical matters, as well
+   as in supervision of this training; practice forecasts, whether for
+   training or general practice, are included, the practice forecast being
+   defined as one not made for operational use. If the training includes
+   development of new procedures for operational use, the development time
+   should be considered operational, while the extra supervision involved
+   in guiding the trainee should be considered training time.
+
+   Item d.3 -- "River District Operational" River Forecast Centers which
+   operate either as an RFC/RDO or assist in River District operations on
+   week-ends. etc., should list the time spent on these activities.
+
+   Item e -- -Auxiliary Administration." This comprises the activities
+   ordinarily grouped under administrative services, i.e., the
+   housekeeping duties such as clerical, fiscal, and personnel. Time spent
+   on special research or other technical work should be given separately
+   under the activity name.
+     __________________________________________________________________
+
+   Issue Date     Org. Code        NATIONAL WEATHER SERVICE   Program
+   Part     Chap.
+   4-9-69            W22                    Operations Manual
+                   040            E         80
+
+   Table of Contents:
+
+   1.    Purpose
+
+   2.    On-the-Job-Training
+
+       2.1     Description
+       2.2    Initial Training
+       2.3    Programs for Continued Training
+               2.3.1     Seminars and Visits
+               2.3.2     In-House Training
+               2.3.3     Review and Evaluation
+
+       2.4     Other Agencies Training
+
+   3.    Formal and Special Training
+
+           3.1    Full Time Residence
+           3.2    Correspondence Courses in Hydrology
+           3.3    Part Time Residence Courses
+           3.4    Short Courses and Seminars
+           3.5    Application for Formal Training
+
+   4.    Training of Foreign Nationals
+
+   1.    Purpose. The purpose of  this chapter is to describe the
+   different types of training that are available to Weather Bureau
+   personnel and other ESSA employees that perform hydrologic duties. It
+   also describes the hydrologic training provided by the Office of
+   Hydrology for visiting foreign nationals.
+
+   2.    On-the-Job-Training (OJT).
+
+   2.1    Description. OJT begins the first day an employee reports for
+   duty and continues throughout his entire career.
+
+   2.2    Initial Training. Training starts with indoctrination and
+   orientation. After these preliminaries and when the new employee
+   understands the part he is to play in the Weather Bureau mission, he is
+   given proper instructions on what to do and how to do it.
+
+   Methods of initial training also include  understudy assignments (i.e.,
+   having him watch the actual performance of   more experienced employees
+   on the job.)
+
+   2.3    Programs for Continued Training.  OJT may also be performed
+   after the orientation phase through the use of one or more of the
+   following programs:
+
+   2.3.    Seminars and Visits. These are probably the most formal and
+   highly organized modes of on-the-job training.  Examples are listed
+   below:
+
+     (a) RFC-RDO seminars
+     (b) PRF-WBH seminars
+     (c) RH-RFC visits
+     (d) RDO-RFC visits
+     (e) RH-RDO visits
+
+   These events are normally planned in advance and often have specific
+   objectives. The training function is combined with reports of status
+   and progress, familiarization with procedures, announcements, plans to
+   meet changing circumstances review of problems. and other operational
+   items.
+
+   2.3.2    In-House Training. Informal programs for on-station training
+   include such subjects as computer applications to river forecasting,
+   use of radar data for estimating precipitation, application of data
+   from meteorological satellites to river forecasting. improvement of
+   reporting networks, and adaptation of new methods.
+
+   2.3.3    Review and Evaluation. After a major flood or important
+   hydrologic events a review is made of the forecasts. This review
+   includes the entire process: available data, communications, data
+   analysis, and forecast dissemination. Special circumstances and
+   problems are examined and opportunities are considered for improvements
+   to the entire system.  Service users are commonly included in this
+   review.
+
+   2.4    Other Agencies Training. Other agencies have training centers
+   which feature short courses on various hydrologic subjects. Among these
+   are:
+
+     (a) Corps of Engineers, Hydrologic Training Center, Sacramento,
+     California
+
+     (b) Soil Conservation Service, USDA Training Center, Fort Worth,
+     Texas
+
+   Personnel from other agencies are occasionally accepted and detailed
+   information is available through the Regional Hydrologist or the Office
+   of Hydrology.
+
+   3.    formal and Special Training. This category of training is divided
+   into four major types: full-time residence, correspondence, Part-time
+   courses, and short courses and seminars.
+
+   3.1    Full-Time Residence.  A scholarship program of the ESSA-Weather
+   Bureau will be described in the "ESSA Personnel Handbook for
+   Supervisors." The program is largely subject-oriented, and subjects
+   include hydrology and water resources development. Each year or so, the
+   "Universities Council on Water Resources" publishes a catalog of
+   "Graduate Studies in Water Resources," copies of which are filed at
+   RFC's and Regional Offices. This catalog describes courses offered at
+   each of about 50 institutions. Occasionally, other information is
+   published on educational opportunities in hydrology, and is available
+   at Regional Offices.
+
+   3.2    Correspondence Courses in  Hydrology. Two college-level
+   correspondence courses in hydrology are available at this time. One is
+   given by the U. S. Department of Agriculture Graduate School in
+   Washington, D. C. This is a 2-part course, 3 credit hours per part,
+   which is recognized by the Civil Service Commission, and by some
+   universities. Another basic hydrology course is being developed for
+   meteorologists and meteorological technicians who have hydrologic
+   responsibilities. It is planned as a 3-credit-hour correspondence
+   course, to be administered by a university.
+
+   A correspondence course titles "Hydrologic Services Course", which will
+   cover the broad aspects of water management is available from the
+   Office of Hydrology. It describes the hydrologic services available,
+   who provides them, and the techniques of rendering these services to
+   the public.
+
+   Other correspondence courses pertinent to hydrology include
+   mathematics, meteorology, computer methods, writing, management,
+   physics, and engineering subjects. These courses are offered by many
+   colleges and universities.
+
+   3.3 Part-Time Residence Courses. At most cities, part-time courses are
+   available in a broad spectrum of subjects, some of which, are mentioned
+   in the previous paragraph. In Washington, D.C., the USDA Graduate
+   School sponsors evening courses in hydrology.  These courses are
+   usually taught by Weather Bureau hydrologists with assistance by
+   experts from other agencies.
+
+   3.4 Short Courses and Seminars. These activities cover a broad spectrum
+   of subjects. They are available in most cities, with federal, industry,
+   and university sponsorship. Examples include the following:
+
+     a. AMS Weather Radar Conference, every 18 months, at selected
+     cities, one week.
+
+     b. Weather Radar Course, University of Miami, every sex months,
+     four weeks.
+
+     c. Numerous industry-sponsored conferences and seminars on computer
+     technology.
+
+     d. Seminars on use of data from meteorological satellites.
+
+     e. One- to four-hour sessions on how-to-listen, telephone manners,
+     and other communications subjects.
+
+     f. One-day to two-week sessions on administration and management --
+     applied psychology in interpersonal relationships.
+
+     g. Rapid reading .
+
+     h. Innumerable university short courses on any subject important
+     enough to attract a class.
+
+   3.5 Application for Formal Training. Individuals wanting to be
+   considered for training should make application in accordance with
+   current instructions (see "ESSA Personnel Handbook for Supervisors").
+   Agency sponsored training may also be recommended by an employee's
+   supervisor, or it may evolve as a part of an overall program for
+   training a certain group of people.  Final selection of trainees is
+   based on such factors as the pertinence of the training requested to
+   the applicant's job, actual need for the specific training involved,and
+   the employee's capability relative to other applicants.
+
+   4.    Training of Foreign Nationals. In recent years, people from more
+   than 40 countries have visited the Office of Hydrology and River
+   Forecast Centers for training in hydrology. Some have stayed for as
+   much as a year of formal training while others have stopped only
+   briefly for information about Office of Hydrology activities and recent
+   research.
+
+   Most of this training of foreign nationals has been on an individual
+   basis, amounting almost to tutoring. To facilitate this training a
+   formal 18-week course, ''Hydrologic Analysis and Forecasting," starting
+   in February of each year will be given when there are at least five
+   candidates. This course will include five weeks of training at a River
+   Forecast Center.
+     __________________________________________________________________
+
+   commerce logo           U.S. DEPARTMENT OF COMMERCE
+                                                           National
+   Oceanic and Atmospheric Administration
+                                                           NATIONAL
+   WEATHER SERVICE
+                                                           Silver Spring,
+   Md. 20910
+
+                                             February 5, 1981
+                               OA/W22
+
+   SUBJECT:     Transmittal Memorandum for Operations Manual Issuance 81-1
+
+   TO:    All Holders of Operations Manual
+
+   1.    Material Transmitted:
+
+   New WSOM Chapter E-90, Hydrologic Glossary.
+
+   2.    Summary:
+
+   This new chapter provides a standard National Weather Service
+   hydrologic terminology program.
+
+   3.    Effect on Other Instructions:
+
+   None.
+
+   Richard E. Hallgren
+   Director, National Weather Service
+
+
+
+   noaa logo 10TH ANNIVERSARY 1970-1980
+                                                           National
+   Oceanic and Atmospheric Administration
+                                                           A young agency
+   with a historic
+                                                           tradition of
+   service tot he Nation
+     __________________________________________________________________
+
+   Issue Date     Org. Code        NATIONAL WEATHER SERVICE   Part
+   Chap.
+   2-5-81            W22                     Operations Manual
+                    E        90
+
+                             HYDROLOGIC GLOSSARY
+
+   Table of Contents:
+
+   1.    General
+
+   2.    Definitions
+
+                                  * * * * *
+
+   1. General. A standard National Weather Service hydrologic terminology
+   program is essential to avoid conflict in the interpretation of
+   hydrologic products. Understanding of hydrologic terms across political
+   boundaries will be beneficial especially when critical flood
+   information is transmitted to the news media, public, and action
+   agencies. Where major differences may occur an ROML should be issued by
+   the regional headquarters.
+
+   2. Definitions.
+
+   Annual Flood -- The maximum discharge peak during a given water year
+   (October 1 - September 30).
+
+   Antecedent Precipitation Index (API) -- An index to soil moisture
+   within a drainage basin.
+
+   Backwater Flooding -- Upstream Flooding caused by downstream conditions
+   such as channel restriction and/or high flow in a downstream confluence
+   stream.
+
+   Bankfull Stage/Elevation -- An established river stage/water surface
+   elevation at a given location along a river which is intended to
+   represent the maximum safe water level that will not overflow the river
+   banks or cause any significant damage within the river reach.
+
+   Breakup -- The time when a river whose surface has been frozen from
+   bank to bank for a significant portion of its length begins to change
+   to an open water flow condition. (The event is signaled by the breaking
+   of the ice and often associated with ice jams and flooding).
+
+   Catchment Area -- Whole area having a common outlet for its surface
+   runoff (also see Drainage Area or Basin and Watershed).
+
+   Crest -- The highest stage or level of a flood wave as it passes a
+   point.
+
+   Cubic Feet Per Second (CFS) -- A unit of measurement of discharge equal
+   to streamflow of 1 cubic foot per second passed a given section -- also
+   called second foot.
+
+   Discharge -- The rate at which a volume of water passes a given point.
+
+   Drainage -- Removal of surface and/or subsurface water from an area by
+   gravity or pumping.
+
+   Drainage Area or Basin -- Whole area having a common outlet for its
+   surface runoff (also see Watershed and Catchment Area).
+
+   Drought -- A period of abnormally dry weather sufficiently prolonged
+
+   from the lack of precipitation to cause a serious hydrological
+   imbalance.
+
+   Drought Index -- Computed value which is related to some of the
+   cumulative effects of a prolonged and abnormal moisture deficiency. (An
+   index of hydrological drought corresponding to levels below the mean in
+   streams, lakes, and reservoirs.)
+
+   Flash Flood -- A flood which follows within a few hours of heavy or
+   excessive rainfall, dam or levee failure, or a sudden release of water
+   impounded by an ice jam.
+
+   Flash Flood Warning -- Flash flooding has been reported or is imminent
+   -- take necessary precautions.
+
+   Flash Flood Watch -- Flash flooding is possible within the designated
+   watch area -- be alert.
+
+   Flood -- Any high flow, overflow, or inundation by water which causes
+   or threatens damage.
+
+   Flood Plain -- The portion of a river valley that has been inundated by
+   the river during historic floods.
+
+   Flood of Record -- The highest observed river stage or discharge at a
+   given site during the period of record keeping. (Not necessarily the
+   highest known stage.)
+
+   Flood Routing or Streamflow Routing -- Process of determining
+   progressively the timing, shape, and amplitude of a flood wave as it
+   moves downstream to successive points along a river or stream.
+
+   Flood Stage -- An established gage height within a given river reach
+   above which a rise in water surface level is defined as a flood. (It is
+   based on historic data and usually set at a level where the river
+   begins to overflow its banks or a potential hazard begans to occur due
+   to high water).
+
+   Flood Warning -- An advance notice that a flood is imminent or has been
+   reported at a certain station or in a certain river basin.
+
+   Flood Wave -- A rise in streamflow to a crest and its subsequent
+   recession caused by precipitation, snowmelt, dam failure, or reservoir
+   releases.
+
+   Forecast Crest -- The highest elevation of river level, or stage,
+   expected during a specific storm event.
+
+   Glacier Dammed Lake -- The lake formed when a glacier flows across the
+   mouth of an adjoining valley and forms an ice dam.
+
+   Headwaters -- Streams at the source of a river.
+
+   Headwater Statements -- Guidance on headwater conditions, such as basin
+   rainfall amounts, required to produce bankfull stages at specific
+   locations. Guidance is prepared by the River Forecast Centers for use
+   by Weather Service offices and key local officials.
+
+   Hydrograph -- A graph showing stage, discharge, or other property of a
+   river with respect to time.
+
+   Hydrologic Service Area (HSA) -- A geographical area assigned to
+   Weather Service Forecast Office's/Weather Service Office's/River
+   Forecast Center's that embraces one or more river basins.
+
+   Jokulhlaup -- An Icelandic term meaning glacier dammed lake outburst
+   flood (also see Outburst Flood).
+
+   Local Flooding -- Flooding conditions over a relatively limited area.
+
+   Lowland Flooding -- Inundation of low areas near the river, often rural
+   but may also occur in urban areas.
+
+   Main Stem -- The reach of a river/stream formed by the tributaries that
+   flow into it.
+
+   Major Flooding -- A general term indicating extensive inundation and
+   property damage. (Usually characterized by the evacuation of people and
+   livestock and the closure of both primary and secondary roads.)
+
+   Minor Flooding -- A general term indicating minimal or no property
+   damage but possibly some public inconvenience.
+
+   Moderate Flooding -- The inundation of secondary roads; transfer to
+   higher elevation necessary to save property -- some evacuation may be
+   required.
+
+   National Weather Service River Forecasting System (NWSRFS) -- A system
+   of hydrologic data management and analysis techniques, hydrologic
+   models, and display functions utilizing computer software which
+   provides a common framework so that a wide variety of hydrologic data
+   procedures and model can be used for river forecasting and other water
+   management applications.
+
+   One Percent Chance Flood (One Hundred Year Flood) -- Flood magnitude
+   that has one chance in 100 of being exceeded in any future l-year
+   period. The occurrence of floods is assumed to be random in time, or
+   regularity of occurrence is implied. The exceeding of a 1-percent
+   chance flood is no guarantee, therefore, that a similar size flood will
+   not occur next week. The risk of experiencing a large flood within time
+   periods longer than 1 year increases in a nonadditive fashion. For
+   example, the risk of exceeding a 1-percent chance flood one or more
+   times during a 30-year period is 25 percent and during a 70-year period
+   is 50 percent.
+
+   Outburst Flood -- A flood caused by the rapid dumping of a glacier
+   dammed lake when the ice dam fails. Also called "jokulhlaup".
+
+   Quantitative Precipitation Forecast (QPF) -- Forecast precipitation
+   which can be used as input to hydrologic forecasts.
+   Reach -- The distance in the direction of flow between two specific
+   points along a river, stream, or channel.
+
+   River Basin -- Drainage area of a river and its tributaries.
+
+   River Forecast -- Estimated future stage or flow at a specified point
+   based on existing and forecasted hydrological and meteorological
+   conditions.
+
+   River Forecast Center (RFC) -- Serves groups of Weather Service offices
+   in providing hydrologic guidance and is the first echelon office for
+   the preparation of river and flood forecasts and warnings.
+
+   River Gage or Stream Gage -- A device for measuring the river stage
+   (elevation).
+
+   River Observing Station -- An established location along a river
+   designated for observing and measuring properties of the river.
+
+   River System -- All of the streams and channels draining a river basin.
+
+   Runoff -- That part of precipitation that flows toward the streams on
+   the surface of the ground or within the soil.
+
+   Snowmelt Flooding -- Flooding caused primarily by the melting of snow.
+
+   Stage -- The level of the water surface of a stream above an
+   established datum at a given location.
+
+   Streamflow -- Water flowing in a stream channel.
+
+   Urban Flooding -- The inundation of streets, basements, ground level
+   floors of buildings etc in urban areas.
+
+   Watershed -- Whole area having a common outlet for its subsurface
+   runoff (also see Drainage Area or Basin and Catchment Area).
+
+   Water Year -- October 1 through September 30.
+
+   WSOM Issuance
+   81-1    2-5-81

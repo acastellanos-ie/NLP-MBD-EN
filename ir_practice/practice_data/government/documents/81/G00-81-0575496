@@ -1,0 +1,39 @@
+http://www-pdg.lbl.gov/computer_read.html
+
+                            Computer-readable files
+
+
+
+     * Cross-section data. Hadronic total and elastic cross sections vs.
+       laboratory momentum and total center-of-mass energy.
+     * Summaries of particle properties. The Particle Data Group plans to
+       provide computer-readable versions of Summary Table information
+       from the Review of Particle Physics.
+   __________________________________________________________________
+
+     * A table of masses, widths, and PDG Monte Carlo particle numbers is
+       produced around Summer of even-numbered years after production of
+       the Review of Particle Physics. Documentation appears at the front
+       of the data. (Updated August 18, 2000, corrected on April 17,
+       2001).
+
+     * Palm Pilot Products: Physical constants, astrophysical constants
+       and particle properties are available in a new application (June 1,
+       2000). The above table of masses, widths, and PDG Monte Carlo
+       particle numbers is available as a MobileDB database (August 6,
+       1999). These will be updated in fall 2000 for the 2000 Edition of
+       the Review.
+
+     * The PDG Monte Carlo particle numbering scheme is a particle
+       numbering system for use in interfacing different Monte Carlo event
+       generators and detector simulators. These have been updated for the
+       2000 Edition of the Review.
+
+   Copyrights and disclaimers and funding
+
+   Send questions and comments to the page owner:
+
+
+    Betty Armstrong
+
+   17-APR-2001

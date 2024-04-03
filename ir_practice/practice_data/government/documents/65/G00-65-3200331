@@ -1,0 +1,56 @@
+http://tvdg10.phy.bnl.gov/LETCalc.html
+
+            Welcome To The B N L Tandem Van de Graaff Accelerator
+                             TVDG LET Calculator
+
+   This program calculates the Peak LET, Corresponding Energy and Range as
+   well as the LET and Range at the Specified Energy for the Specified Ion
+   in the Specified Target.
+     * Select the Target Material from the dropdown list.
+     * Select the Ion Specie from the dropdown list.
+     * Enter the Ion Energy in the text box.
+     * Click the 'Calculate' button or press the 'Enter' key.
+
+   The Peak LET, Corresponding Energy and Range as well as the LET and
+   Range at the Specified Energy for the Specified Ion in the Specified
+   Target will be returned.
+
+   Select your Target from the list
+   [Silicon_________] Select your Ion from the list
+   [1 Hydrogen 1____] Enter Ion Energy
+   ______ MeV
+
+                         Calculate LET values Reset
+
+   Thank you for using LETCalc. Send comments to <mwiplich@bnl.gov>
+     __________________________________________________________________
+
+   You can download a personal version of the LET Calculator Program Here.
+   The file is about 250K in length. You will need WinZip to unzip the
+   downloaded file.
+     __________________________________________________________________
+
+Terms and Definitions
+
+   LET
+          Linear Energy Transfer is the energy absorbed by the target
+          through which a particle is traveling per unit length of the
+          track of the particle. For the purposes of this calculator, the
+          LET is expressed in units of MeV/mg/cm^2 (Million electron volts
+          per milligram per square centimeter).
+
+   Range
+          The distance a particle of a given energy will travel through
+          the target until it is stopped. For the purposes of this
+          calculator, the Range is expressed in microns.
+
+   Peak LET
+          The maximum value the LET can assume with the specified
+          materials (ion and target).
+
+   Energy for Peak LET
+          The energy at which the Peak LET occurs.
+
+   Last updated 11:00 AM 1/23/02
+
+                         Report a bug on this page.

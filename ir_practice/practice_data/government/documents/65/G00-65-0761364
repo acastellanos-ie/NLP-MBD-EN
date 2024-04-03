@@ -1,0 +1,1086 @@
+http://hpcf.nersc.gov/storage/hpss/
+
+   NERSC High Performance Computing
+
+   You are here: hpcf / storage / hpss / index You came from:
+     __________________________________________________________________
+
+   Summary
+
+      HPSS is a high performance mass storage system developed by a
+      consortium of industrial, educational and government sites. HPSS is
+      currently deployed at several supercomputing facilities.
+
+      NERSC has two HPSS systems, both of which are accessible interactively
+      from all NERSC supercomputers and auxiliary systems, as well as from
+      off-site computers. HPSS is also accessible to batch jobs from all
+      NERSC systems.
+
+      HPSS uses the Distributed Computing Environment (DCE) for user
+      authentication.
+
+      HPSS can be accessed via HSI, an enhanced HPSS User Interface utility,
+      and via ftp and pftp (parallel ftp)
+      , a local variant of traditional ftp customized for high performance
+   access to HPSS from the NERSC supercomputers.
+
+   High Performance Storage System (HPSS)
+
+        * What is HPSS?
+        * Accounts and accounting
+        * Passwords and authentication
+        * Two HPSS Systems
+        * Accessing HPSS with HSI
+        * Accessing HPSS with FTP and PFTP
+        * Managing HPSS access with "sleepers"
+        * Accessing HPSS from a Batch Job
+        * HPSS Access and Authentication Summary
+        * About Here Documents
+        * Examples
+        * Notes on Using PFTP/FTP (and When Not To)
+
+   What's New
+
+        * New -- authenticating FTP!
+
+   Related Topics
+
+        * Retrieving CFS and CTSS files
+        * HPSS Statistics at NERSC
+        * Probe HPSS Research Project
+        * HSI 3rd Party Research Project
+     __________________________________________________________________
+
+  What is HPSS?
+
+   The High Performance Storage System (HPSS) is a modern, flexible,
+   performance-oriented mass storage system, designed and developed by a
+   consortium of government and commercial entities. It is deployed at a
+   number of sites and centers, and is used at NERSC for archival storage.
+   Users are given HPSS accounts to enable them to save and access files
+   that are too large or too infrequently used to be kept in personal home
+   directory spaces.
+
+   HPSS is an archival storage system. At NERSC, we currently have
+   approximately 18 Terabytes of disk cache and 2 petabytes of tape
+   storage. The following document describes the NERSC HPSS system, its
+   access methods and uses, and provides links to other documents with
+   more such information.
+
+  Accounts and Accounting
+
+   As of FY 1999 all NERSC users have an HPSS account for each active
+   username on the computational systems. If you have problems accessing
+   your HPSS account contact the NERSC support office at 1-800-66-NERSC,
+   menu option 2, or 510-486-8612.
+
+   Repositories are charged Storage Resource Units (or SRUs) for HPSS
+   usage. SRU charges are determined by a formula that takes into account
+   (1) file space used, (2) the number of individual files, and (3) the
+   amount of data transferred to and from HPSS. See Storage Resource Units
+   for more information.
+
+    Backups
+
+   NERSC does not save duplicate copies of HPSS files. Users must take
+   care not to inadvertently delete or overwrite files in HPSS.
+
+    Project Directories
+
+   A special project directory can be created in HPSS for groups of
+   researchers who wish to easily share files. The files in this directory
+   will be readable by all members of a repository.
+
+   Project directories for group sharing of files will be made available
+   on request. These directories will have the following properties:
+     * reside at /nersc/projects (or /home/projects on the older HPSS
+       system);
+     * be owned by the PI or designated other;
+     * have a suitable group attribute (new group if required).
+
+   Periodically, all objects in a project directory will be changed to be
+   owned by the owner of that project directory, i.e. the PI or designated
+   other. In terms of accounting, this means that a file may initially be
+   charged to the creator of the file, but eventually will be charged to
+   the owner of the project directory. This solves the potential ownership
+   and accounting problems which may arise as individual researchers leave
+   projects.
+
+  Passwords and Authentication
+
+   HPSS uses the Distributed Computing Environment (DCE) for user
+   authentication. DCE accounts are currently handled separately from
+   other NERSC accounts.
+
+   If you forget your DCE/HPSS password contact NERSC Support at
+   1-800-66-NERSC, option 2, or (510) 486-8612.
+
+  New Users
+
+   If you have never used HPSS, call the NERSC Account Support staff at
+   1-800-66-NERSC, menu option 2, or 1-510-486-8612 to set up an account.
+   Your HPSS user name will be one of your existing NERSC computer user
+   names (if you have one). You will be given a temporary DCE password
+   which you must change.
+
+   DCE accounts must be initialized before any access to HPSS will
+   succeed.
+
+  Changing Your Password:
+
+   You can change your DCE/HPSS password by using ssh to connect to
+        auth.nersc.gov
+
+   and following the example shown below.
+
+    Authorization Server Example
+
+   You will need to know a special login/password pair to log on to the
+   authorization server. This information can be obtained by logging into
+   seaborg, mcurie, PDSF, or killeen, and typing the command:
+module help WWW
+
+   Note that this login/password pair is only for initial access to the
+   authorization server and is not to be confused with your DCE/HPSS
+   username and password.
+
+   % ssh auth.nersc.gov -l auth_server_username
+   Enter Password: auth_server_password
+   [auth]: chpass
+   DCE Principal: your_HPSS_user_name
+   Enter Password: your_HPSS/DCE_password
+   New Password: new_HPSS/DCE_passwd
+   Re-enter new Password: new_HPSS/DCE_passwd
+   % exit
+
+    Alternative Method for Changing Your Password: Crays Only
+
+   On the NERSC Crays you can change your HPSS/DCE password by using the
+   dce_login and chpass commands. See the man pages for additional
+   information.
+
+    Cray Example
+
+   % dce_login
+   Enter Principal Name: your_HPSS_user_name
+   Enter Password: your_HPSS/DCE_password
+   % chpass -p
+   Changing registry password for HPSS_user_name
+   New password: new_HPSS/DCE_passwd
+   Re-enter new password: new_HPSS/DCE_passwd
+   Enter your previous password for verification: your_previous_DCE_password
+   % kdestroy
+   % exit
+
+  Automatic Authentication
+
+   DCE allows automatic user authentication after initial authentication
+   is established. This is highly desirable for batch scripts since you do
+   not have to provide a login name and password.
+
+    Credential Generation and Regeneration
+
+   To enable automatic authorization, use the -l option to either hsi or
+   pftp, e.g. hsi -l. Enter your username ("DCE Principal") and password
+   when prompted. One logged into HPSS, type quit to exit.
+
+   The next time you access HPSS you will not be prompted for a
+   username/password pair. You must follow this procedure separately for
+   hsi and pftp and from each computer that you want to use to connect to
+   HPSS.
+
+   If automatic authentication succeeds for a time but subsequently fails,
+   you may need to regenerate your credentials following the procedure
+   given above.
+
+   For more general info on DCE, see the DCE web page.
+
+  Two HPSS Systems
+
+   NERSC has two independent HPSS systems; each must be accessed
+   separately. They are known by the names "archive" and "hpss". The
+   former, "archive", is dedicated to user storage, while the latter is
+   also used for system backups and other needs. The "archive" system
+   generally delivers higher transfer rates and lower response times, and
+   it is recommended for routine use.
+
+   The names that should be used to access them from NERSC supercomputers
+   are archive, and hpss. If PFTP is used to access them, one of the two
+   names must be specified. If HSI is used to access them, the default
+   system is archive.
+
+   When accessing HPSS from outside NERSC, or from systems other than
+   NERSC supercomputers, the names that must be used are archive.nersc.gov
+   and hpss.nersc.gov.
+
+   All users have accounts on both systems. Usernames and passwords are
+   identical on both systems. Both systems authenticate using the same DCE
+   cell.
+
+   The root paths to user directories differ on the two systems. The hpss
+   system root is /home and archive is /nersc.
+
+   The hpss system was the first NERSC HPSS system, deployed in late 1997
+   to replace UniTree. The archive system came online in January 1999, and
+   it contains all the files that were in the CFS mass storage system when
+   CFS was retired.
+
+  Accessing HPSS with HSI
+
+   HSI is a flexible, powerful and user-friendly interface utility to
+   HPSS. The HSI commands are similar to those in ftp and pftp (e.g., put
+   and mput) and UNIX (e.g., mv, mkdir, rm, cp, cd). HSI also has commands
+   similar to those in CFS. This rich command set offers users power and
+   flexibility. HSI also allows the relocation of entire subdirectories
+   within HPSS with a single command.
+
+   HSI can be used in several ways. Users can initiate interactive HSI
+   sessions, similar to ftp/pftp sessions. Another interactive way to use
+   HSI is single-line, multiple-action commands, called "one-liners". HSI
+   can also be used in batch scripts with the one-liner approach. HSI does
+   automatic DCE authentication on NERSC supercomputers after the first
+   login on that system, so subsequent sessions will not involve
+   authentication prompts.
+   See the HSI documentation. Man pages for HSI also exist on the NERSC
+   supercomputers.
+
+  Accessing HPSS with FTP and PFTP
+
+   Access to HPSS is available via the standard internet protocol ftp, and
+   the optimized protocol pftp. FTP is a widely used as a general means of
+   moving files between systems. ftp can be used to access HPSS from any
+   platform. pftp is distributed with HPSS and it is available on the
+   NERSC supercomputers. While not widely available, it is also available
+   on other machines outside of NERSC. When using ftp, your user name and
+   password must be entered manually or through the use of a user-provided
+   .netrc file. In either case, NERSC has implemented a more secure and
+   encrypted method for entering your ftp combo (described in a different
+   document). For security reasons, NERSC does not recommend the use of
+   clear text in the .netrc file. If you use ftp, we recommend that you
+   use encrypted version of your name and password.
+
+   Traditional ftp allows both text or ("ascii") and binary (or "image")
+   transfer modes. Most versions of ftp default to "ascii" mode; however,
+   HPSS allows only "binary" transfers.
+
+   PFTP (Parallel FTP) is a more powerful and flexible variant of ftp
+   which is available on the NERSC supercomputers. It does automatic DCE
+   authentication, so .netrc files are not required. It is more desirable
+   than ordinary ftp for large file transfers (> 100 MB) due to its
+   increased performance, flexibility, and security. PFTP also has the
+   advantage of being compatible with a system maintenance mechanism used
+   at NERSC, called "sleepers." This allows operations staff to pause all
+   pftp operations simultaneously and gracefully, with no harm to batch
+   jobs running them. This mechanism is routinely used for system
+   downtimes.
+
+   PFTP provides parallel versions of data transfer commands, in addition
+   to the standard commands of traditional ftp. In ftp, where one might
+   use "put" or "get" to move a file, pftp also provides "pput" and
+   "pget". Similarly, where ftp has "mput" and "mget" commands to move
+   multiple files, pftp has "mpput" and "mpget". Other commands are
+   identical in ftp and pftp. The following table lists a few pftp
+   variants of ftp commands; many others are available and are documented
+   in the ftp and pftp man pages.
+
+   FTP Commands         Meanings or actions          PFTP Variants
+   get          retrieve a file                      pget
+   put          store a file                         pput
+   mget         retrieve multiple files              mpget
+   mput         store multiple files                 mpput
+   append       append a local file to a remote file pappend
+
+   CAPTION: FTP and PFTP Commands Relevant to HPSS Access
+
+   Note:The commands pput and pget do not work on seaborg
+
+    A Word about Permissions
+
+   ftp and pftp change file permissions when retrieving files from HPSS.
+   Files are always retrieved with with UNIX permissions of 600 - owner
+   read and write only. Even if a file was stored as executable, it will
+   be not be retrieved with the executable bit set, and so will not be
+   executable, until its permissions are changed. To add owner execution
+   permissions to the file "prog", for example, one could use "chmod 700
+   prog", or its symbolic variant, "chmod u+x prog". See the man pages for
+   chmod (i.e. "man chmod") on any NERSC computer for more information on
+   this command.
+
+  Managing HPSS Access with "sleepers"
+
+   When scheduled maintenance or unexpected events necessitate taking HPSS
+   down, "sleepers" are enabled. This causes all jobs attempting to use
+   HPSS to halt. Usually this causes no problems for these jobs, which
+   resume safely when sleepers are removed. However, users may wish to
+   test for HPSS library availability, and take alternate actions based on
+   this, so a way to detect sleepers is available.
+
+   Testing for sleepers can be accomplished by using the "hpss_avail"
+   utility, which is available on all NERSC supercomputers. This utility
+   takes a single argument, which may be any of "hpss", "archive", or
+   "help"; case is not significant. Any other argument, or none, will
+   result in usage text being returned. The "help" argument will result in
+   more detailed help text. The utility returns its result in the
+   predefined shell variable "status". It may be tested, used in a
+   subsequent shell command, or output. Its value will persist only until
+   the next shell command is executed, and then it will be overwritten by
+   the results of that next command. Here are two example of querying a
+   library and printing a message based on the returned status value. The
+   first uses the C Shell and the second the Korn shell.
+
+
+   #!/bin/csh
+
+   hpss_avail archive; set READY=$status
+   if ($READY == 0) then
+      echo "ARCHIVE up and available"
+   else
+      echo "ARCHIVE is unavailable"
+   endif
+
+
+   #!/usr/bin/ksh
+
+   hpss_avail archive
+   READY=$?
+   if [ $READY -eq 0 ]; then
+           echo "ARCHIVE up and available"
+   else
+           echo "ARCHIVE is unavailable"
+   fi
+
+   Possible alternative actions to take when sleepers are enabled might
+   include (1) storing files in a different HPSS library; (2) moving files
+   to alternate file systems, such as $HOME; or (3) changing file names to
+   prevent overwriting or name collisions by subsequent file creations.
+
+  Accessing HPSS from a Batch Job
+
+   Batch access to HPSS is currently available via ftp/pftp, and HSI. HSI
+   and pftp offer automatic DCE authentication, but ftp requires explicit
+   login; it is not a good idea to put passwords in batch scripts, so the
+   use of ftp in batch jobs is strongly discouraged. pftp offers superior
+   performance in handling multiple file transfers and large files, and
+   HSI offers more user convenience features, so either is a better choice
+   than ordinary ftp.
+
+   See Notes on Using PFTP/FTP (and When Not To), below for other
+   important details.
+
+   HSI should prove more convenient and easier to use in batch scripts
+   than ftp/pftp, due to its flexibility and more powerful commands. For
+   more information on using HSI, see the HSI reference manual.
+
+   If ftp is to be used in other sorts of shell scripts, for instance to
+   access HPSS from machines outside NERSC, user authentication can be
+   achieved through the use of a ".netrc file". This file can be placed in
+   the home directory on the accessing computer, and most ftp clients will
+   be able to use it.
+
+   NERSC recommends that you invoke both ftp and pftp with the "-v"
+   (verbose) option, to force the display of all responses from the HPSS
+   servers, and to provide data transfer statistics. This information can
+   be useful in tracking any problems that might occur during your
+   ftp/pftp session. Another useful option is "-i" (noprompt), which turns
+   off prompting during multiple file transfers; this can also be achieved
+   through the use of the "prompt" toggle command, within an ftp/pftp
+   session. See the ftp/pftp man pages or the ftp/pftp "help" command
+   output, for more information on these commands.
+
+   Both ftp and pftp are interactive utilities. In order to use either
+   from within a batch script, it is necessary to provide commands for
+   them in a non-interactive context. This can be done by redirecting a
+   text file containing ftp/pftp commands into the standard input file,
+   "stdin". This normally means a separate input file must be produced,
+   but it can also, and more easily, be done by a trick known as a "here
+   document." Essentially, the trick is to use special quoting brackets
+   for the command input lines to ftp/pftp, and put them immediately after
+   the ftp or pftp command in the script file. This technique is
+   illustrated in the section on Here Docs, below.
+
+    The .netrc File
+
+   If you want to automate the login process for ftp commands you need a
+   .netrc file in your home directory. NOTE: This is not needed for pftp.
+   We recommend that if you use a .netrc file, that you use an encrypted
+   form of your username and password. Documentation is available for
+   encrypting your combo.
+
+   The format of each entry in the .netrc file is as follows:
+machine <hostname_of_machine_you_are_logging_into>
+login <your_login_name>
+password <your_password>
+
+   For example, if you run batch jobs that access the HPSS system
+   "archive" on killeen and mcurie, you would need the following lines in
+   a .netrc file, stored in your home directory on each of these two
+   computers.
+
+
+   machine archive
+   login <your_hpss_login_name>
+   password <your_hpss_password>
+
+   A single .netrc file can contain information for multiple remote
+   systems.
+
+   Please be security conscious when setting up your storage and
+   supercomputer access passwords. Password policy is specified in the
+   NERSC Computer Use Policies web page. For security reasons, your .netrc
+   file must not have any "group" or "world" permission bits set; ftp and
+   pftp will not honor the contents of a .netrc file which allows group or
+   world access. When you execute the "ls -l" command, the .netrc entry
+   should appear as:
+ -rw------- 1 usrid   394 Jan 15 18:35 .netrc
+
+   The permissions here are specified by the leftmost field, which shows
+   read and write access is allowed only for the owner of this .netrc
+   file. If you see different permissions on your .netrc file, you should
+   immediately type
+chmod 600 .netrc
+
+   and then repeat the "ls -l" command, to make sure the permissions were
+   successfully changed. For information on changing file permissions, see
+   the man pages for the "chmod" command.
+
+  HPSS Access and Authentication Summary
+
+   Following is summary of HPSS access and authentication methods.
+
+   CAPTION: HPSS Access and Authentication Methods
+
+   HPSS Access Context Access Methods Authentication Methods
+   Interactive access from a NERSC workstation or supercomputer hsi
+   automatic authentication*
+   pftp automatic authentication*
+   ftp explicit login or .netrc file
+   Batch access from a job running on a NERSC supercomputer hsi automatic
+   authentication*
+   pftp automatic authentication*
+   ftp .netrc file
+   Interactive access from a system outside of NERSC hsi^1 automatic
+   authentication*
+   pftp^2 automatic authentication*
+   ftp explicit login or .netrc file; see Remote automatic ftp
+   authentication
+   Scripted or batch access from a system outside of NERSC hsi^1 automatic
+   authentication*
+   pftp^2 automatic authentication*
+   ftp explicit login or .netrc file; see Remote automatic ftp
+   authentication
+
+   ^1hsi may be available at your site.
+   ^2pftp may be available at your site<
+   *See Credential Generation, above, for instructions on how to
+   initialize HPSS automatic authentication.
+
+  About Here Documents
+
+   A "here document" or "here-doc" is a Unix idiom that allows utilities
+   which normally get their commands interactively to take them instead
+   from a file. (Technically, this is a redirection of the utility's
+   standard input channel, connecting it to the current file.) This is
+   very convenient for using interactive utilities in shell scripts (e.g.,
+   batch scripts).
+
+   The presences of a here-doc is signaled by the special redirection
+   character pair, "<<", which ends the utility invocation line. The lines
+   that constitute the "here document" immediately follow this line, which
+   contains the utility's name and any options. The here-doc lines are
+   embedded in a pair of bracket strings. The bracket strings most often
+   used are single non-alphanumeric characters, such as "*", "+", etc.,
+   but informative alphabetic strings can also be used, as the example
+   below will show. The here-doc command lines immediately follow the
+   opening bracket and immediately precede the closing bracket. The
+   positioning of the brackets is critical; they must be the last
+   character(s) before the first command line, and the first character(s)
+   after the last line.
+
+   Consider the following simple script which performs an ftp file
+   transfer:
+
+
+      pftp -v -i archive <<HEREDOC
+      cd my_HPSS_directory
+      mget data*
+      quit
+      HEREDOC
+
+   This example will execute the FTP commands between the "HEREDOC"
+   strings. As stated above, these bracket strings could each be a single
+   character, such as "+", but they must be the same character. The
+   opening bracket must be positioned immediately after the redirection
+   characters, "<<", to open the "here document"; the closing bracket must
+   be the first thing in the first line (in the first column!) after the
+   last command, to close the "here document".
+
+   The above example first changes to the directory named
+   "my_HPSS_directory", and then fetches all the files with names
+   beginning with "data" from that directory. The destination directory is
+   the working directory at the time the above script fragment executes.
+
+   The ftp command is given two options and a destination system to
+   connect to ("archive"). The -v option specifies verbose output from the
+   ftp utility; this causes it to show all responses from the HPSS ftp
+   server and report data transfer statistics. The -i option is used to
+   turn off interactive prompting.
+
+   NOTE: The use of these two options is recommended in here documents! If
+   prompting is not disabled, in batch-job-based file transfers, the mget
+   action will request user confirmation for each individual file name;
+   since batch sessions allow no interaction, the prompts will go
+   unanswered, stalling the file transfer operation and the rest of the
+   batch job. (In interactive contexts, prompting can be toggled with
+   ftp's prompt" command.)
+
+  Examples
+
+   The following examples of HPSS usage are shown in this section:
+    1. Batch Use of FTP and PFTP
+    2. A Complete Batch Script Using PFTP
+    3. A Complete Batch Script Using HSI
+    4. A Complex Example: Using PFTP with Error Detection in a Batch Job
+    5. Minimizing CPU Charges in Accessing Mass Storage from Parallel Jobs
+
+   Users encountering HPSS for the first time are advised to study them in
+   sequence, as each example has more complexity, subtlety, and power than
+   the previous ones.
+
+    1. Batch Use of FTP and PFTP
+
+   Output from the pftp operations in the above example will be in the
+   script's standard output file, and will likely look something like
+   this:
+
+
+    Connected to 10.0.1.100.
+    220-HELLO welcome to archive
+    220-
+    220 bitbank FTP server (Version PFTPD.88 Mon Mar 1 15:23:00 PST 1999) ready.
+    Preauthenticated FTP to archive as u10101:
+    331 Password required for u10101.
+    230 User /.../dce.nersc.gov/u10101 logged in.
+    Remote system type is UNIX.
+    Using binary mode to transfer files.
+    230 User smith logged in.
+    250 CWD command successful.
+    200 PORT command successful.
+    200 Command Complete.
+    150 Opening BINARY mode data connection for data1.txt.
+    226 Transfer complete.
+    228000 bytes sent in 0.28 seconds (8e+02 Kbytes/s)
+    200 PORT command successful.
+    200 Command Complete.
+    150 Opening BINARY mode data connection for data2.txt.
+    226 Transfer complete.
+    228000 bytes sent in 0.28 seconds (8e+02 Kbytes/s)
+    221 Goodbye.
+
+   If you compare this output with the example here document, above, you
+   will recognize pftp's response to each of the commands in the sample
+   batch ftp session; this example output assumes the existence of two
+   files matching the pattern "data*".
+
+    2. A Complete Batch Script Using PFTP
+
+   This example shows an actual Cray batch script with pftp actions in it.
+   In this more complex example, we show the use of both single and
+   multiple-file movement commands, as well as directory change commands.
+   Here, also, we show the "+" character used to bracket a "here
+   document."
+
+
+   #!/bin/csh
+   #QSUB -lM 75Mw          # it will require a LOT of memory
+   #QSUB -lT 36000         #             and a LOT of runtime
+   #QSUB -J y              # and ask for a log file
+
+   # First, copy the source from the submitting directory
+   pftp -i -v archive <<+
+   cd my_HPSS_directory
+   mget data*
+   get source.f
+   quit
+   +
+
+   # Then compile the program
+   f90 -O2 -o myprog source.f
+
+   # Turn on job accounting at this point and run the job
+   ja
+   ./myprog data outfile
+   ja -cst
+
+   # Save the output file in HPSS.
+   pftp -i -v archive <<+
+   cd my_HPSS_directory
+   put outfile
+   mput restart*
+   quit
+   +
+   exit
+
+    Example 3. A Complete Batch Script Using HSI
+
+   This example shows an actual Cray batch script containing HSI actions.
+   In this example, we show the use of HSI commands that accomplish the
+   same actions ftp does in Example 2, above. Note that in this case,
+   single-line command is used, so no "here-doc" is needed. This
+   simplifies the script, and demonstrates some of HSI's advantages over
+   pftp or ftp.
+
+
+      #!/bin/csh
+      #QSUB -lM 75Mw               # it will require a LOT of memory
+      #QSUB -lT 36000              #             and a LOT of runtime
+      #QSUB -J y           # and ask for a log file
+
+      # First, copy the data and program source from the submitting directory
+      hsi archive "cd my_HPSS_directory; mget data source.f"
+
+      # Then compile the program.
+      f90 -O2 -o myprog source.f
+
+      # Turn on job accounting at this point and run the job
+      # (which will generate an output file and a restart file)
+      ja
+      ./myprog data outfile
+      ja -cst
+
+      # Save the output file in HPSS.
+      hsi archive "cd my_HPSS_directory; put outfile; put restart"
+
+      exit
+
+   Note that in the above, the individual hsi commands are separated by
+   semicolons, (;) and the set of commands is contained in quotes, (").
+   The semicolons are necessary, and are currently the only allowed
+   command separator. The quotes are required to prevent shell
+   interpretation of wild card characters, and are recommended for general
+   safety in one-liners. Note that the suppression of shell interpretation
+   prevents the effective use of wild-card file and directory
+   specifications in one-liners.
+
+   Unlike an interactive HSI session, no termination command (e.g. exit,
+   quit, etc.) is needed in a one-liner.
+
+   In addition to one-line commands HSI can also take inputs from files.
+   For more information on this see the HSI Documentation.
+
+    4. A Complex Example: Using PFTP with Error Detection in a Batch Job
+
+   A shortcoming in ftp makes it difficult to test whether a transfer
+   request has succeeded. This is because ftp returns a success status for
+   only the last command it executes, namely the "quit"; since this is
+   almost certain to succeed, any errors or failures that have occurred in
+   the session will not be directly visible to the shell. Thus, in the
+   example above, if the "put" operation fails, the ftp command will
+   appear to terminate normally, and the file "outfile", which is not
+   properly saved by ftp, may be lost when the batch job terminates.
+
+   Efforts are underway to add status reporting to HPSS, but at present,
+   users must protect themselves from data loss. The following example
+   shows a scripting technique that can offer some relief from this
+   problem. The technique involves directing ftp output into a file and
+   searching that file for strings indicating success, failure, or error.
+   This example assumes the number of transfers to be made is known, and
+   thus the ftp output can be searched for the correct number of success
+   indicators. See below for further discussion of failure detection.
+
+   Another consideration in efficient use of HPSS lies in the number and
+   size of files moved to and from it. For reasons beyond the scope of
+   this document, it is inefficient to store and retrieve many small files
+   with HPSS. (For purposes of this discussion, "small" is assumed to be
+   less than 1 million bytes.) Storage and transfer efficiency can be
+   improved if groups of related small files are aggregated with "tar,"
+   "cpio,", "ar," or similar archiving utilities, with the resulting
+   single archive file being stored into HPSS. This example will show one
+   way to do this, as well.
+   This example contains numerous scripting tricks. For brevity, we will
+   show only the last portion of this previous example, where files are
+   saved after a code execution is finished. Considerable new scripting
+   code is shown, and explanatory comments will follow the example.
+
+
+# Build a few archive files containing all the output files.
+tar cvf outfiles.tar outfile*
+tar cvf myprog.tar myprog data*
+
+# Save the output file in HPSS.
+set blankline = " "             # whitespace for output
+set files_to_transfer = 2       # transfer two tar files to HPSS
+set retries = 3                 # allow three failures before quitting
+set sleeptime = 10              # seconds between retries
+set logit = ftp_log.$$          # ftp output file with random suffix
+set try = 1                     # this is the first try...
+
+while ( $try )
+   # direct pftp output into file $logit
+   # here-doc brackets are "+";
+   pftp -i -v archive <<+  >$logit
+   mkdir Batch_HPSS_Directory
+   cd Batch_HPSS.Directory
+   lcd batch_work_directory
+   pput outfiles.tar
+   pput myprog.tar
+   quit
++   # Remember: end-of-input bracket must be in column 1
+
+    # save pftp status for later checking
+    set ST = $status
+    # count successful xfers
+    set xfers = `grep -i -c '^226 Transfer Complete' $logit`
+
+    # now, see if we've succeeded...
+    if ($xfers >= $files_to_transfer && $ST == 0) then
+        echo blankline >> $HOME/ECHO.out
+        echo "PFTP SUCCEEDED on try " $try >> $HOME/ECHO.out
+        echo "   " $xfers" files of " $files_to_transfer" transferred." >> $HOME
+/ECHO.out
+        set try = 0
+        echo blankline
+        echo "LOGFILE:" >> $HOME/ECHO.out
+        cat $logit >> $HOME/ECHO.out
+        echo blankline >> $HOME/ECHO.out
+
+    else
+        echo blankline >> $HOME/ECHO.out
+        echo "PFTP FAILED on try " $try >> $HOME/ECHO.out
+        echo "   " $xfers" files of " $files_to_transfer" transferred." >> $HOME
+/ECHO.out
+        @ try = $try + 1
+        echo blankline >> $HOME/ECHO.out
+        echo "LOGFILE:" >> $HOME/ECHO.out
+        cat $logit >> $HOME/ECHO.out
+        echo blankline >> $HOME/ECHO.out
+
+        # have we failed too many times?
+        if ($try <= $retries) then      # failed; retry or give up?
+            sleep $sleeptime            # wait, then retry
+        else
+            echo "Too many PFTP failures; giving up." >> $HOME/ECHO.out
+            set try = 0                 # loop escape
+            set ST = 99                 # my error status indicator
+        endif
+    endif
+end # end of while loop
+
+# Determine whether HPSS actions succeeded and take other actions
+if ($ST == 0) then
+        echo blankline
+        echo "SUCCESS"
+        goto hpsssuccess
+else
+        echo blankline
+        echo "FAILURE ST = "$ST
+        go hpssfailure
+endif
+
+hpssfailure:
+echo "HPSS Failed; compressing text files for storage." >> $HOME/ECHO.out
+compress $WRK/*.tar
+mkdir $HOME/Batch.output
+cp $WRK/*.tar.Z $HOME/Batch.output/.
+exit ($ST)
+
+hpsssuccess:
+echo "HPSS Succeeded; exiting without file compression." >> $HOME/ECHO.out
+exit (0)
+
+    Discussion of Example 4
+
+   A number of points are worthy of note in the above script.
+
+   1. This script first uses the Unix utility "tar" to aggregate the
+   output files into an archive, and the program and data files into
+   another.
+
+   2. It makes a predetermined number of attempts to perform its pftp
+   transfers, with a ten second sleep interval in between tries.
+
+   3. The output from pftp is saved in a file with a random two-character
+   suffix.
+
+   4. The output file for the current attempt is searched by the utility
+   "grep" for character strings indicating successful transfers. (The
+   usefulness of this search is based on the correct understanding of the
+   ftp responses associated with successful transfers!)
+
+   grep uses "regular expressions" to define its search patterns. The
+   pattern in single quotes which is the first argument to grep is such an
+   expression. (grep and regular expressions are documented in standard
+   Unix man pages.) Instances of matching strings are counted, and the
+   count is returned by grep.
+
+   5. The status returned by pftp is saved. It is checked for success, and
+   the count of successful transfers is compared to the desired number.
+   (This two-part success check doubles the chance of determining if
+   something has gone wrong; file loss due to transfer failure is assumed
+   to be A Bad Thing.) See below for further discussion of failure
+   detection.
+
+   6. Messages indicating progress and success or failure are periodically
+   appended to a file named $HOME/ECHO.out.
+
+   7. Once success is achieved, or the allowed number of retries is
+   exceeded, the while loop is exited.
+
+   8. After the loop is exited, the status variable is checked again, to
+   allow further actions to be taken, based on it. In this case, the
+   script compresses the previously constructed tar files and copies them
+   to home directory space, if the HPSS actions fail. Actions of this sort
+   should be taken cautiously, as user home space is limited. If space for
+   the copy does not exist, it will fail and the files may be lost.
+
+    Failure Detection
+
+   The above script illustrates two kinds of success or failure detection
+   for HPSS transfers. The first depends knowing on both the number and
+   specific wording of messages returned by ftp or pftp, and the number of
+   files that will be transferred. The second method depends on ftp or
+   pftp returning a nonzero status value for failure. This occurs for some
+   sorts of failures, but not necessarily all, and is likely to change
+   over time, at least for pftp.
+
+   Ftp and pftp do not behave identically. Improvements to pftp's status
+   returning may continue, while ftp will not likely change, so the
+   differences between them will increase. For these reasons, a flexible
+   approach is the best idea. The approach to failure detection that is
+   currently most likely to succeed involves using the file counting
+   method: specifying how many transfers will be done and detecting how
+   many have succeeded. This will likely involve experimentation to find a
+   viable search string, as shown in the "grep" command, above. The string
+   shown above currently works, and the example script currently functions
+   properly.
+
+   Failure detection in HSI is a different matter, as may be seen in the
+   HSI User Guide, Chapter 4, HSI Responses. HSI returns many different
+   status codes, some indicating normal operation and others indicating
+   failure. Care must be taken to parse these codes properly. Using other
+   text strings returned from HSI for failure detection is less practical,
+   since HSI is most useful in one-line commands mode.
+
+   Complex scripting can be as difficult to get right as any other form of
+   programming, so careful script debugging is crucial.
+
+    Example 5. Minimizing CPU Charges in Accessing Mass Storage from Parallel
+    Jobs
+
+   The following example script fragment illustrates how to save torus
+   connect time (CPU time) charges in some mcurie batch jobs.
+
+   The jobs that will be helped are those containing scripting steps
+   similar to the following:
+    1. read files stored in HPSS,
+    2. execute a parallel code to produce output file(s),
+    3. save the output (e.g. a restart file) to HPSS via pftp or HSI,
+    4. do more parallel code execution
+
+   When these actions occur in a single batch job, the initial file
+   reading and intermediate file writing will idle the ensemble of PE's
+   that were requested for the job and should be used for parallel
+   execution, while one PE executes the file movement. This idle time,
+   while typically small for any occurrence, can expand to a significant
+   amount of connect time, in a long batch job or one using many PE's.
+
+   Further, when HPSS is taken down gracefully, for scheduled maintenance
+   or other reasons, a system management mechanism called "sleepers" is
+   invoked that protects jobs using HPSS from request timeout failures.
+   However, in if steps (1) or (3) are attempted during HPSS down time,
+   the requested PE ensemble will be idled by the sleeper mechanism.
+
+   Jobs that use HPSS to prestage input files as in step (1), can be only
+   partially protected from sleeper idling, but jobs that do intermediate
+   file movement can be fully protected from it. The means of doing so are
+   illustrated in the skeletal sample script below.
+
+   #!/bin/csh -f
+
+   # See if the input file is present and if not, fetch it from HPSS:
+
+   cd /usr/tmp/u10101
+   if (!-e veggie.input)
+      hsi "cd food; get veggie.input"
+   endif
+    . . .
+
+   # Parallel code execution with mpprun
+
+   a.out < veggie.input > carrots
+
+    . . .
+
+   # Intermediate file movement, to save output file to mass storage:
+
+   echo "pftp -i -v archive <<EOF\
+   cd food\
+   mkdir food.1\
+   cd food.1\
+   mput carrots*\
+   ls\
+   quit\
+   EOF" | qsub -q serial
+
+    . . .
+
+   # further parallel code execution, perhaps through shell script looping
+
+    . . .
+
+   # job closedown steps
+
+    . . .
+
+   The initial file fetching should be done before the job runs, if
+   possible. However, since there's no telling how long after the
+   pre-fetching the job will run, the needed files may have been deleted
+   from working storage due to periodic space scavenging. The existence
+   test allows file reading from HPSS only if necessary.
+
+   The pftp invocation and the here-document providing the pftp commands
+   are typical of those in parallel T3E jobs, with a few changes, as
+   follows:
+    1. precede the pftp invocation by the "echo" command;
+    2. embed the pftp invocation and its here-doc in quote characters (");
+    3. end each of the here-doc's lines with a backslash (\); this
+       continues them as input to the echo command;
+    4. append to the echo "pftp... invocation a pipe to send the echo
+       output into a "qsub" command, as shown; this causes the submission
+       of the entire pftp invocation as a separate serial job.
+
+   Similar techniques may be used to construct and submit a serial job
+   using HSI, instead of pftp. In either case, the serial job will
+   asynchronously execute and perform the file movement.
+
+   In the original parallel job, the echo and qsub commands will terminate
+   relatively quickly, quite likely more quickly than the pftp utility
+   would have if it had been executed in their place. Their termination
+   will then free up the PE ensemble for the further parallel execution.
+
+   Two things need to be noted, about the above. First and foremost, file
+   name collisions can cause trouble in this scheme. If the output file
+   ("carrots") that is to be written to HPSS will be overwritten by the
+   subsequent parallel code execution, there is no guarantee the first
+   output file will get stored before it is overwritten. File name changes
+   performed in the script can protect against this.
+
+   Secondly, the method of executing the shell script can subtly change
+   the way the quoting works in the echo command. For example, in our
+   experimentation, we found that omitting the line that typically begins
+   shell scripts "#!/bin/csh" or #!/bin/csh -f" eliminates the need for
+   the backslashes (\)at the end of each line of the quoted section of the
+   echo command. However, users are urged NOT to change working scripting
+   practices to accommodate the techniques shown here. Instead, experiment
+   to determine what works with well-understood scripts and scripting
+   practices.
+
+  Notes on Using PFTP/FTP (and When Not To)
+
+   Some notes regarding the use of ftp and pftp:
+    1. The HSI utility is often more convenient and efficient than ftp.
+       NERSC recommends using hsi in most circumstances.
+    2. HPSS cannot accept tunneled ftp connections through ssh.
+    3. Some firewalls prevent access to outside machines via FTP unless
+       the client and server software are both capable of "passive" mode
+       operation. HPSS does not support this mode. Those affected by this
+       may need to use a two-step method to effect file transfers; this
+       will involve using an intermediate system to stage files.
+    4. Special considerations for the IBM SP system:
+          + On the IBM SP system, the "parallel" PFTP commands do not yet
+            work; these include "mpget", "mpput", "pappend", "pget", and
+            "pput".
+          + PFTP's automatic authentication capabilities work on the SP,
+            but must be initialized before PFTP will work in batch jobs.
+            This is accomplished by use of the "-l option, as follows:
+            pftp -l {hpss or archive}
+            You will be prompted for your DCE password, and a credential
+            will be built and placed in your home directory.
+    5. Minimize the number of file transfers made: When many files must be
+       stored on HPSS, it's more efficient to combine them into a smaller
+       number of archive files, using tar, ar, cpio, or a similar utility.
+    6. Minimize the number of ftp/pftp sessions used: When files must be
+       transferred, it's more efficient to move as many as practical in
+       each ftp/pftp session. This will reduce the overhead of session
+       startup.
+    7. Maximize transfer speeds: Transfers among NERSC supercomputers and
+       mass storage systems can use the pftp client, which is potentially
+       faster for large transfers and more efficient for multiple file
+       transfers. The Cray native ftp client, while highly optimized, will
+       likely provide less transfer throughput than pftp for files larger
+       then ~100 MBytes. On the IBM SP system, pftp is faster than ftp, so
+       the ftp command has been aliased to the pftp utility. IBM's native
+       ftp utility is available by use of its full pathname.
+    8. Use HSI for meta-data operations: Moving files within HPSS (e.g.,
+       from one directory to another) requires first reading (with "get"
+       or "mget") and then writing (with "put" or "mput") each file to be
+       moved. Under HSI, moving a file between directories is a meta-data
+       (server database) operation, and no actual file movement is needed.
+       This makes such actions considerably cheaper and faster under HSI
+       than pftp/ftp.
+    9. Ask for advice about special needs: Scripting can be very useful
+       for complex storage management tasks. NERSC consulting staff can
+       provide advice for these special needs.
+    File and Directory Names Any ftp or pftp file transfer operation
+       requires two file names, for the source and destination. In some
+       cases, the destination can be implicit. Either or both names can be
+       fully or partially specified paths, but in some cases, this can
+       cause trouble. For example consider the following simple script
+       fragment:
+
+       pftp -i -v archive <<+
+       mkdir Batch.output
+       cd Batch.output
+       mpput Food/*
+       quit
+
+       This pftp session connects to HPSS, makes a directory in the user's
+       HPSS home directory, changes to it, and then performs a multiple
+       file put on the contents of a directory named "Food". The
+       destination directory looks like it should be the one that was just
+       constructed and cd'ed to, but this is not the case. In fact, pftp
+       tries to use the directory name "Food" in both source and
+       destination specifications, and looks for a directory with that
+       name inside the directory just made.
+       Since the destination directory in this case does not exist, this
+       transfer will fail. It is possible to accidentally specify an
+       incorrect but existing directory, in this way, and overwrite
+       valuable files.
+       These troubles can also arise when using environment or shell
+       variables as part of path and filename specifications.
+       A safer way to express the above script is the following:
+
+       pftp -i -v archive <<+
+       mkdir Batch.output
+       cd Batch.output
+       lcd Food
+       mpput *
+       quit
+
+       The explicit change of working directories, both in HPSS and
+       locally, assures that only the file names (implied by the wild card
+       character "*") will be used for both source and destination file
+       specifications.
+    Permissions
+       Most implementations of ftp take a conservative view of how
+       transferred files should be treated, for security's sake. The
+       permissions on a file that is "put" into HPSS will be set by
+       default to 640. This gives the owner permission to read and write
+       them, and others in the user's group permissions only to read them.
+       Similarly, directories created in HPSS via the ftp/pftp "mkdir"
+       command have permissions set to 750 by default.
+       Changing permissions of files files and directories once they are
+       stored and/or created in HPSS is tedious with pftp because the
+       "chmod" command applies to only one file or directory at a time;
+       wildcard file or directory specifications are not allowed. This is
+       much more conveniently done in HSI.
+       However, files and directories can be created and stored with
+       permissions appropriate to their planned uses. Permissions can be
+       specified, for an HSI or ftp/pftp session, via the umask command,
+       available in all three utilities. Refer to the man pages for more
+       information on this function.
+         ______________________________________________________________
+
+       Page last modified: Friday, 18-Jan-02 14:21:52
+       Page URL: http://hpcf.nersc.gov/storage/hpss/index.html
+       Contact: Webmaster <webmaster@nersc.gov>
+       Privacy and Security Notice

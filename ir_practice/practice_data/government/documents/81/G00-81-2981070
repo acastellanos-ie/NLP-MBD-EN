@@ -1,0 +1,73 @@
+http://modis-250m.nascom.nasa.gov/rationale/index.asp
+
+   [modis250flag.jpg]
+
+
+   Rationale Methodology Products Get Data Links
+
+
+   The Reason for the MODIS 250m Project
+
+   [SanFrancisco.A2000072.1910.115x150.jpg] The project was initiated
+   following a meeting of the EOS Interdisciplinary Working Group (1999)
+   where it was requested that MODIS Land products be made available for
+   the entire globe at 500m and 1km. The EOSDIS Project mandated limit on
+   PI processing at 50% production for the first year (tied to the
+   February 1996 baseline numbers for volumes and loads) had resulted in a
+   decision by the MODLAND group to maintain full resolution products but
+   to produce less than full global coverage of MODIS land data. In
+   response to the IWG request, the MODLAND group developed a solution
+   supported by Martha Maiden (ESIPS Manager) at NASA HQ for a rapid
+   development of a PI-based processing and distribution system for the
+   high volume MODIS 250m products, outside of the EOS Core System. The
+   250m production system that has been developed has evolved as part of
+   the MODIS PI processing system (MODAPS).
+
+   The Rationale for the MODIS 250m Channels
+
+   It was envisioned that data at this resolution would be used to assess
+   sub-pixel variability at 500 and 1km, for example for identifying
+   sub-pixel cloud effects and for scaling studies. Initial studies to
+   explore the advantage of 250m data for change detection were undertaken
+   during the design of MODIS (e.g. Townshend and Justice 1988). Two 250m
+   channels were adopted to enable generation of simple vegetation
+   indices. At the time of the discussions as to whether to include these
+   higher resolution bands on MODIS,  the concept of sharpening bands had
+   already been developed for the SPOT system and has subsequently been
+   included in the Landsat 7 design. For the record, acknowledgement
+   should be given to Piers Sellers as AM Project Scientist for helping to
+   make the case for inclusion of this unique capability on MODIS. The
+   impact on data volume of global coverage at 250m is large and remains
+   an issue for the data system. MODIS marks the first of a new generation
+   of moderate resolution sensors The Japanese GLI system which is
+   currently under development, has included six 250m channels in its
+   design. based on the experience gained with MODIS the case might be
+   made for similar resolution sensors on the next generation of
+   operational polar orbiters.
+
+   [avhrrvsmodiscomparison300.jpg] Relevance to Global Change Issues and
+   Remote Sensing Applications
+
+   The MODIS 250m resolution data provide a major improvement in the
+   spatial resolution over previous  coarse resolution sensors. The finer
+   spatial resolution provides the basis for moderate resolution change
+   detection and provides an intermediate step in a multi-resolution
+   sampling system for use with ASTER and Landsat 7 data. The single date
+   images on the right show a part of the Chesapeake Bay near Oxford,
+   Maryland. The left hand image is from the AVHRR 1km, near- infrared
+   channel (band 2), the image on the right is MODIS 250m, near- infrared
+   (band 2). A marked difference in the detail is apparent with the small
+   inlets and field patterns being clearly depicted at the 250m
+   resolution. The 250m data offer a new tool for the study of Land Cover
+   and Land Use Change. The 250m data also offer considerable potential
+   for natural resource management, for example providing improved
+   monitoring capability for agricultural and forest lands. Given the
+   large data volumes most users of the 250m data will be working at the
+   regional scale.
+
+   __________________________________________________________________
+
+      MODIS 250m Products Website
+      Developed/Maintained by Missy Crisologo, University of Maryland
+      (mcrisologo@hermes.geog.umd.edu)
+      Authorized by Christopher Justice, MODIS Land Discipline Leader

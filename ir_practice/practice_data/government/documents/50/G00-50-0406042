@@ -1,0 +1,49 @@
+http://topexnav.jpl.nasa.gov/timing.html
+
+
+   spacer JPL Home JPL Home Page - Earth JPL Home Page - Solar System JPL
+   Home Page - Stars and Galaxies JPL Home Page - Technology
+   TOPEX Poseidon Navigation Team
+   Home Contact Links About Us TOPEX Poseidon Navigation Team
+
+   Spacer
+
+
+   Orbit Information
+   Plots, Papers & Presentations
+   Anomalous Force Data & Models
+   Ephemeris Plans
+   Tracking Plans
+   Maneuvers
+   Solar Flux & Geomagnetic Data
+   Timing & Polar Motion Data
+   Spacer
+   Spacer
+
+                         Timing & Polar Motion Data
+
+   *STOIC (GIN INPUT) File: TP(1) to TP(39) contain TAI-UTC in seconds;
+   TP(40) to TP(150) contain TAI - UT1 in seconds; TP(151) to TP(335)
+   contain X, dx/dt, Y, dy/dt in arcseconds & arcsec/UTC-second.
+   *FDF Files: UT1-UTC in seconds (first part of file) and x and y in
+   arcseconds.
+
+                Adobe Acrobat Reader® or Acrobat Exchange®
+                       is required to read pdf files.
+                                [getacro.gif]
+     __________________________________________________________________
+
+                    TAI-UTC
+                      Date of Leap Second       TAI-UTC
+                 Accumulated prior to 7/1/1992 26.000000
+                           7/1/1992            27.000000
+                           7/1/1993            28.000000
+                           7/1/1994            29.000000
+                           1/1/1996            30.000000
+                           7/1/1997            31.000000
+                           1/1/1999            32.000000
+
+                     Spacer
+                     Spacer
+                      Webmasters: Ephrem S. Paredes and
+                     Sara Schoenbaechler

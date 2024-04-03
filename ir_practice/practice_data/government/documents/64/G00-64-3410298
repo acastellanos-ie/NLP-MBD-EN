@@ -1,0 +1,814 @@
+http://clear.search.gov/partner.html
+
+                    Government Information Clearinghouse
+ Updated 28 APR 2000 Comments welcome!  http://clear.search.gov/partner.html
+
+   A public/private partnership is established at the U.S. Federal level
+   in support of a Government Information Clearinghouse. This draft
+   document (principal author: Eliot Christian of the U.S. Geological
+   Survey) gives a general description of the Partnership. Organizations
+   involved in design of Clearinghouse and the Partnership Agreement is
+   available in addition to the guiding "Presidential Directive on
+   Electronic Government (17 December 1999)", as well as other documents
+   and materials.
+     __________________________________________________________________
+
+                                [Image6.jpg]
+
+                                  Partner's
+                                    Guide
+                             to the U.S. Federal
+                    Government Information Clearinghouse
+
+                                  Foreword
+
+   This Guide describes basic elements of the United States Federal
+   Government Information Clearinghouse, including goals, technical
+   design, and governing policies. This Guide touches on external
+   coordination and lists some initiatives using interoperable standards
+   and technology.
+
+   This Guide references current standards and technology as implemented
+   in data and information systems on the public Internet. A separate
+   "Interface Guide" gives information on how to link data or information
+   resources to and from Clearinghouse.
+
+   The Global Information Locator Service (GILS) Profile of the
+   international standard for information search and retrieval (ISO 23950)
+   is of strategic importance in Clearinghouse. Other strategic components
+   include recommendations of the World Wide Web Consortium such as the
+   eXtensible Markup Language (XML).
+
+   This Guide gives examples of production systems to suggest the wide
+   range of systems already implemented or currently in progress. Although
+   specific commercial and freeware products are named, this guide does
+   not endorse any particular product.
+
+   Clearinghouse will unfold on a scale of 20 years or more. The Partners
+   who become most involved will largely determine its future evolution.
+   All are strongly encouraged to be active in any aspects, whether
+   technology, standards, policy, community organizing, outreach, etc.
+     __________________________________________________________________
+
+Table of Contents
+
+   Background
+   What is Clearinghouse?
+       What is the scope of Clearinghouse?
+       Why is a Clearinghouse needed?
+       How does Clearinghouse make information easier to find?
+       What are Clearinghouse locator records?
+       How will Clearinghouse classify information resources?
+
+   The Clearinghouse Partnership
+   How is Clearinghouse organized?
+       How does this relate to other Federal laws and policies?
+       How does Clearinghouse relate to external organizations?
+       What does a Clearinghouse Partner agree to?
+
+   Appendix A: What is GILS?
+
+   Appendix B: Locator Record Elements
+
+   Appendix C: Clearinghouse Collections Policy
+
+   Appendix D: U.S. Law and Policy for Federal Agencies
+
+   Glossary
+     __________________________________________________________________
+
+                                 Background
+
+  What is Clearinghouse?
+
+   The goals of the United States Federal Government Information
+   Clearinghouse ("Clearinghouse") are:
+     (1) to help people easily locate and access U.S. Federal Government
+   information and electronic services, and,
+     (2) to encourage the use of standards to create and expand access for
+   information and on-line services.
+
+   Clearinghouse allows for organizing data content across organizations
+   and cuts across agency system boundaries. It facilitates use of
+   Information Infrastructure standards that serve agency and public
+   access mandates by providing a common utility for people to find
+   government information and services.
+
+  What is the scope of Clearinghouse?
+
+   Clearinghouse encompasses all information and services compiled or
+   organized by any source that uses the adopted standards and policies.
+   This includes all Federal government information on public Web pages,
+   whether publicized through a government agency or other intermediary.
+
+   There are already a number of "portals" to Clearinghouse, and many more
+   will be established, in the private as well as the public sector.
+   Federal agency portals include, for example: the Government Printing
+   Office "GPO Access" facility, the National Spatial Data Infrastructure
+   Clearinghouse for Geospatial Data, the National Biological Information
+   Infrastructure Metadata Clearinghouse, DoD DefenseLink, and the
+   "WebGov" facility being prototyped by the General Services
+   Administration.
+
+   Because of the interoperable standards adopted for Clearinghouse, many
+   other facilities can be easily incorporated, including information
+   resources of Department of Energy, Library of Congress, National
+   Aeronautics and Space Administration, National Library of Medicine,
+   National Oceanic and Atmospheric Administration, Patent and Trademark
+   Office, U.S. Geological Survey, and a wide range of other agency and
+   multi-agency facilities such as the various "one-stop-shop" Web sites.
+   Private sector interest in portals for Electronic Government has
+   included corporations such as America Online, Environmental Systems
+   Research Institute, the Internet Archive, and Oracle.
+
+  Why is a Clearinghouse needed?
+
+   Huge volumes and wide diversity in U.S. Federal Government information
+   present fundamental challenges to making information and services easy
+   to find and use. The low cost of Internet publishing has resulted in
+   many thousands of information outlets. These range from simple delivery
+   of ready-to-view documents to complex information services backed up by
+   forms and sophisticated databases. Besides the rapid Internet
+   evolution, there is a ongoing need to help people find government
+   information that is not Internet-accessible. This includes telephone
+   advice, paper media, CD-ROM's, electronic bulletin boards, and many
+   others data types and services.
+
+  How does Clearinghouse make information easier to find?
+
+   The Clearinghouse assumption is that people already know a few simple
+   bibliographic concepts like Title, Author, and Subject, and are
+   familiar with organizing mechanisms like catalogs and directories.
+   Clearinghouse "locator records" help users find information, just as
+   library catalog records help people find books. Catalogers or authors
+   can place such "descriptive metadata" in Web pages or other documents,
+   or into large and complex databases. Internet content providers can
+   offer locator records over the Internet.
+
+   Today, information services worldwide routinely use such bibliographic
+   techniques to characterize not only books but also electronic mail
+   messages, news articles, community resources, government agencies,
+   museum artifacts, and spatial data, among others. Intermediaries and
+   searchers find and retrieve information by getting such locator records
+   through Web browsers and gateways. Where available, locator records
+   provide a powerful way to find content throughout Clearinghouse.
+
+   Clearinghouse uses the Internet infrastructure, including the
+   international standard Global Information Locator Service (GILS) and
+   other standards. (GILS is briefly described in Appendix A.)
+   Clearinghouse is therefore not specific to government information,
+   rather it is part of the pervasive information infrastructure.
+
+  What are Clearinghouse locator records?
+
+   Clearinghouse locator records are similar to records in catalogs,
+   libraries and information services worldwide (e.g., Appendix B). This
+   means that people can search many hundreds of catalogs and directories
+   without switching between interfaces. A Clearinghouse search mechanism
+   would work whether a searcher starts at a federal site or other
+   facilities like public libraries or commercial services.
+
+   The cost of developing a quality locator record for an information
+   resource or services is decreasing with improvements in machine-aided
+   cataloging. Yet, even a cost of $1 per record is a daunting expense
+   when scaled to hundreds of millions of Web pages. A sensible approach
+   is to concentrate expensive human cataloging at the level of
+   high-profile or off-line resources like public relations offices, "800"
+   numbers, agency Web home pages and major Web sites. Inexpensive "Web
+   crawler" indexing using online text and metadata is an appropriate way
+   to index rapidly changing or less popular Web pages.
+
+  How will Clearinghouse classify information resources?
+
+   In addition to catalog searching for specific information or services,
+   searchers are often interested in locating a range of information
+   resources associated with a subject area. A "browse tree" is a
+   clustering metaphor, and it provides a commonly understood mechanism
+   for searchers to navigate from one subject to a broader, narrower,
+   or related subject.
+
+   There is today no universally accepted classification scheme that would
+   enable all searchers to browse a common tree of subjects across the
+   range of U.S. Federal Government information and services. This will be
+   an active area of research and collaboration among Clearinghouse
+   Partners.
+
+   Clearinghouse will likely support multiple organizing approaches,
+   including Classification Schemes (also known as "thesauri",
+   "taxonomies", and sometimes "ontologies".) A hierarchical organization
+   of the U.S. Federal Government agencies could follow the structure
+   given in the U.S. Government Manual. "Place" is another common
+   organizing principle for government information. Clearinghouse can
+   build on work in this area by the National Spatial Data Infrastructure.
+   Type of service could be another organizing view, perhaps in a similar
+   way to the telephone directory "blue pages" in many U.S. cities. To
+   simplify use by librarians and other information specialists, one could
+   apply Library of Congress Subject Headings.
+   [Image7.gif]
+
+                        The Clearinghouse Partnership
+
+  How is Clearinghouse organized?
+
+   Clearinghouse encompasses all information and services from any source
+   that complies with Clearinghouse interface standards and policies.
+   Those standards and policies are delineated by the Clearinghouse
+   Partnership Organization, a consortium of government and non-government
+   organizations.
+
+   Anyone and any organization can make information accessible using
+   Clearinghouse standards and policies without joining the Partnership
+   Organization.
+
+   The Partnership Organization should include U.S. Federal Government
+   partners such as the General Services Administration, the National
+   Partnership for Reinventing Government, the Chief Information Officers
+   Council, the Government Printing Office, and the Library of Congress,
+   among others. The Partnership Organization will also include Partners
+   outside the U.S. Federal Government such as private sector corporations
+   and consortia; non-government organizations and representatives of the
+   public interest; voluntary standards organizations, and experts in
+   academia.
+   [Image12.gif]
+
+   The Partnership Organization will meet semiannually, to establish or
+   modify policy and guidelines for Clearinghouse. Membership in the
+   Clearinghouse Partnership Organization is voluntary.
+
+  How does this relate to other Federal laws and policies?
+
+   Certain laws and policies bind all U.S. Federal agencies. These include
+   equity and permanence of public access, privacy, security, records
+   management, Freedom of Information, Americans with Disabilities,
+   Federal Depository Library, OMB Circular A-130, and OMB Memorandum
+   98-5. Although U.S. Federal agencies can contract support for public
+   access to Government information, they cannot delegate statutory
+   responsibilities. Agencies must provide open and equal access, and
+   cannot grant "copyright-like" or exclusive privileges to their public
+   material.
+
+   A public document called the "Clearinghouse Collections Policy" will
+   express specific policies guiding Clearinghouse content. This policy
+   specifies how Clearinghouse Partners offer Government information and
+   comply with various intellectual property, privacy, security, and other
+   constraints concerning public access to Government information.
+
+   Appendix C outlines some of the policy considerations affecting all
+   Clearinghouse Partners. Appendix D presents some further considerations
+   for U.S. Federal agencies.
+
+  How does Clearinghouse relate to external organizations?
+
+   The Clearinghouse Partnership will coordinate with other government
+   entities, including U.S. States, tribal and local governments, other
+   national governments, and some international organizations such as
+   agencies of the United Nations. The Clearinghouse Partnership must
+   establish and maintain coordination with related initiatives.
+
+   There are a wide range of initiatives that are following policies and
+   standards related to Clearinghouse. Table 1 is a list of list of some
+   examples at various levels of government.
+
+                        National and International -
+    Australia, Canada, Committee on Earth Observing Satellites, Colombia,
+       Consortium for International Earth Science Information Network,
+      Digital Earth, European Environment Agency, European Legislative
+          Virtual Library, Finland, France, Germany, Global Change
+     Master Directory, Global Environmental Information Locator Service,
+   Global Forest Information Service, G8 Global Inventory Project, Global
+   Spatial Data Infrastructure, Greece, Health Information Locator Service
+       for Latin America and the Caribbean, Hungary, India, Indonesia,
+      InterAmerican Biodiversity Information Network, Japan, Kiribati,
+   Malaysia, Mexico, Netherlands, New Zealand, Nordic Web Index, Northern
+        Ireland, Pakistan, Russian Federation, South Africa, Sweden,
+    Trans-European Research and Education Network, United Kingdom, United
+   Nations Environment Program, UN Framework Convention on Climate Change,
+   UN Convention on Biological Diversity, UN Program on Human Sustainable
+                                 Development
+
+                               U.S. Federal -
+    Advanced Search Facility, Center for Integration of Natural Disaster
+    Information, DefenseLink, Federal Depository Library Program, Global
+      Change Data and Information System, Master Environmental Library,
+    National Biological Information Infrastructure, National Spatial Data
+    Infrastructure, National Environmental Data Index, U.S. Federal GILS
+
+                                U.S. States -
+     Alabama, Alaska, California, Delaware, Florida, Georgia, Illinois,
+       Kansas, Massachusetts, Minnesota, Missouri, Montana, Nebraska,
+   New Hampshire, New Jersey, New Mexico, New York, North Carolina, North
+      Dakota, Ohio, Oregon, Pennsylvania, South Carolina, Texas, Utah,
+      Vermont, Virginia, Washington, West Virginia, Wisconsin, Wyoming
+
+                                Communities -
+            Baltimore MD, CommunityPlanet (U.S.), Dane County WI,
+           Fort Lauderdale FL, Gallatin County MT, Greensboro NC,
+        Madison GA, Philadelphia PA, Seamless (U.K.), Tallahassee FL,
+               Tillamook County OR, Tennessee Valley Authority
+
+                         Table 1 Related Initiatives
+
+  What does a Clearinghouse Partner agree to?
+
+   A Partnership Agreement describes procedures, roles and
+   responsibilities of Partners and the Partnership Organization. Those
+   who have signed the Partnership Agreement may participate in the
+   Partnership Organization.
+
+    Terms
+
+   Collections Policy - The Collections Policy documents the standards and
+   policies adopted among Partners in Clearinghouse. The Collections
+   Policy therefore describes how Partners provide Government information
+   and comply with various intellectual property, privacy, security, and
+   other constraints in law and policy concerning public access to
+   Government information.
+
+   Partner - A Partner agrees to support Clearinghouse standards and
+   policies adopted in common as documented in the Collections Policy. Any
+   organization working on the standards and policies may declare as a
+   Clearinghouse Partner. Partners may also agree annually to participate
+   in the Partnership Organization. Examples of interest areas among
+   Partners include technology, content, and services.
+
+   Partnership Organization - The Partnership Organization decides on
+   adoption of standards and policies for Clearinghouse and publishes a
+   description of these in the Collections Policy. Its works are
+   in the public domain, except that the Partnership Organization may
+   exert copyright over its identity (e.g., "logo") for the sake of
+   clarity. The Partnership Organization is composed of Clearinghouse
+   Partners who have signed this Partnership Agreement and agree annually
+   to participate. The Partnership Organization may include, among others:
+   various U.S. Federal government agencies, private sector corporations
+   and consortia, non-government organizations and representatives of the
+   public interest, voluntary standards organizations, and academic and
+   research organizations or individuals representing those areas. Other
+   organizations may also coordinate with the Partnership Organization.
+
+    Procedures
+
+   Composition - The Partnership Organization has a designated Executive
+   Secretary. The Partnership Organization may organize various Teams
+   for distinct purposes, including a Core Team that helps to formulate
+   proposals and decision statements. The Partnership Organization
+   otherwise organizes itself.
+
+   Participation - Partners that have signed the Partnership Agreement
+   will be asked annually by the Executive Secretary to participate in the
+   Partnership Organization.
+
+   Discussions and Decisions - The Partnership Organization conducts most
+   of its deliberations and formalizes all of its decisions through online
+   discussions. Major decisions of the Partnership Organization are
+   reached in online discussion by majority vote of participants who vote
+   on the specific proposal.
+
+   Publishing - A central responsibility of the Partnership Organization
+   is to publish the Collections Policy document and the current version
+   of the Partnership Agreement. Any Partner may propose revisions to
+   either document through the online discussion. Where substantial
+   interest is evident, the Core Team will prepare a proposal and the
+   Partnership Organization will act on that proposal.
+
+   Meetings - The Partnership Organization holds semi-annual face-to-face
+   meetings, at a time and place decided by the Executive Secretary after
+   discussion with Partners participating in the Partnership Organization.
+
+    Roles and Responsibilities
+
+   Status - The Partnership Organization is an interest group, neither
+   solely a government or private sector entity. Adoption of a standard
+   for the purposes of Clearinghouse does not constitute endorsement by
+   the U.S. Federal Government, nor does it imply that Clearinghouse has
+   validated the standard.
+
+   Policy and Standards
+
+   The Partner will participate in the process of adopting policy and
+   standards pertinent to Clearinghouse.
+
+   The Partnership Organization will make the final decisions on issues of
+   policy and standards. The Partnership Organization will publish in the
+   Collections Policy the current standards and policies adopted by
+   Clearinghouse, as well as this Partnership Agreement and the current
+   list of Partners participating in the Partnership Organization.
+
+   Cooperative Cataloging
+
+   The Partner will continuously update locator records if offered as a
+   shared Clearinghouse resource. The Partner will help make editorial
+   choices on the contents of shared Clearinghouse resources.
+
+   The Partnership Organization collaborates with Partners to assure that
+   locator records the Partner maintains are always accessible in any
+   shared Clearinghouse resource. The Partnership Organization also
+   collaborates with Partners to assure that the records are current
+   within a specified number of days. The Partnership Organization makes
+   final editorial decisions and will define the precise format, naming,
+   and maintenance choices for contents of shared Clearinghouse resources.
+
+   Automated Gathering
+
+   The Partnership Organization may provide guidelines about automated
+   gathering processes (i.e., "crawlers", "spiders", "robots", etc.).
+   These processes are often used to gather and characterize information
+   on the Internet. The Partner will tell the Partnership Organization
+   about any metadata kept about the resources, whether embedded or
+   separate.
+
+   The Partnership Organization makes final decisions on the use of
+   Partner-provided metadata in shared Clearinghouse resources. The
+   Partnership Organization collaborates with Partners to assure that
+   automated gathering processes effectively identify Partner resources
+   and have minimal impact on Partner operations.
+
+   Other Information Resources
+
+   The Partner may maintain information continuously accessible for search
+   access using standards endorsed by Clearinghouse.
+
+   The Partnership Organization collaborates with Partners to assure that
+   any shared Clearinghouse distributed search mechanism operates
+   effectively with Partner resources. The Partnership Organization
+   collaborates with Partners on how searches rank and present results.
+
+   Partner Promotion of Clearinghouse
+
+   The Partner includes hyperlinks to other Clearinghouse systems from an
+   appropriate high-level Web page and may link to a distributed search of
+   Clearinghouse servers. The Partner may also commit to mention
+   Clearinghouse in promotional materials.
+
+   Partners within the Partnership Organization collaborate to assure
+   appropriate citation and source of Partner information in shared
+   Clearinghouse resources.
+
+   Relationships with Other Organizations
+
+   The Partner will act as liaison between the Partnership Organization
+   and other public or private organizations with which the Partner has
+   relationships. These may include international, foreign national,
+   state, tribal, and local government as well as commercial and
+   non-government organizations.
+
+   The Partnership Organization will involve the Partner liaison in
+   Clearinghouse activities that overlap with these relationships.
+
+   Technology Collaboration
+
+   The Partner may collaborate with other Partners on new technologies
+   that advance the goals of Clearinghouse. These may include thesauri and
+   gazetteers, cooperative cataloging, distributed search, machine-aided
+   cataloging, indexing and abstracting, metadata techniques, networking
+   infrastructure, privacy and security, among others.
+
+   The Partnership Organization will operate an electronic mail discussion
+   list and take other actions to help catalyze collaboration among
+   Partners.
+     __________________________________________________________________
+
+                          Appendix A: What is GILS?
+
+  Facing the Challenge; Seizing the Opportunity
+
+   Every day, government, industry, and other institutions create
+   mountains of data, research, and analysis. And, every day - driven by
+   warp-speed advances in computer and communications technology - the
+   information creation rate accelerates.
+
+   [Image8.jpg] How can we make information accessible and usable -
+   information already in cultural treasure houses, on the Internet today,
+   and blasting at us in the 21^st Century?
+
+   How can we ensure that people can deal effectively with the mountains
+   of information they will be facing - and not be buried beneath them?
+
+   The Global Information Locator Service (GILS) is a revolutionary new
+   approach designed to address one of the most crucial challenges we will
+   face in the 21^st Century: enabling people to find and retrieve
+   information easily even as information sources expand and diversify.
+
+  How Does GILS Work this Magic?
+
+   Fundamentally, GILS is about managing information content, not just
+   picking new information technologies. GILS defines an open, low-cost,
+   and scalable standard so that governments, companies, or other
+   organizations can help searchers find collections of information, as
+   well as specific information in the collections. GILS works for
+   organizations large or small, technically advanced or just starting
+   out. Anything you can regard as information, you can describe using
+   GILS, from printed documents, to lists of experts, to complex data. For
+   example, a Clearinghouse for Geospatial Data extends GILS to help
+   searchers find map products and answer questions using the vast range
+   of data referenced to places on the Earth.
+
+   [Image9.jpg]
+
+  What Does GILS Mean to Content Providers?
+
+   GILS is an open standard for searching basic information descriptions.
+   As part of how an organization manages information content, these
+   "locator records" give users inside and outside the organization a
+   simple way to find information. Authors or catalogers may insert the
+   descriptive metadata into Web pages with tools like TagGen, organize it
+   into databases with tools like MetaStar and Microsoft Access; or simply
+   store it as documents.
+
+   Content providers offer locator records over the Internet through
+   GILS-compliant software, including Internet search engines like
+   Alta Vista, DOCS-Fulcrum, and Ultraseek; database systems like Oracle;
+   or traditional library catalog systems like SIRSI. Content providers
+   can also choose free GILS-compliant software from sources around the
+   world.
+
+  What Does GILS Mean to Searchers?
+
+   For information users, GILS offers a standard way to find information
+   by its description-whether a specific document, an information service,
+   a collection of information, or an entire organization. Having a common
+   standard allows searchers to find information across institutions that
+   may be separated by geography, charter, focus, or government.
+
+   When used to describe broad information collections, GILS locators
+   communicate the basic essentials of the content of an information
+   collection. Searchers use GILS records to navigate quickly and easily
+   to the collection of interest. Within a collection, searchers may find
+   an individual item, or may chose to find referrals to other
+   collections.
+
+  What is the GILS Standard?
+
+   [Image10.jpg]
+   Anyone who has used a library can use GILS. Based on the ISO 23950
+   search standard, GILS includes the commonly understood concepts by
+   which people worldwide find information sources in libraries - concepts
+   like Title, Author, Publisher, Date, and Place. A GILS locator record
+   is a kind of souped-up version of your trusty library catalog record.
+   The GILS approach allows us to leverage our treasure houses of
+   accumulated knowledge, exploit the full breadth of the Internet today,
+   and position us for the Information Age as we enter the 21st Century.
+
+                     Appendix B: Locator Record Elements
+
+   Clearinghouse will incorporate a catalog of locator records. Each
+   locator record will characterize a government information resource,
+   typically at the level of a Web server or a higher aggregate of
+   resources.
+
+   A locator record is a form of "metadata" and may include elements from
+   among the following set selected to support reasonably precise search
+   without incurring high cataloging costs. The definitions of these
+   record elements are consistent with bibliographic cataloging and the
+   "Specification and Standardization of Data Elements" (ISO 11179).
+   Title: The name given as the distinctive designation of the information
+       resource.
+       Originator: The name of the originator of the information resource.
+       Language-of-Resource: The code identifying the language of the
+       information resource. (This value is defaulted to "en" for English
+       in most locator records maintained by U.S. Federal Government
+       partners in Clearinghouse.)
+       Abstract: The text describing the information resource.
+       Controlled-Subject-Index: The controlled vocabulary associated with
+       the subject of the information resource.
+       Spatial-Domain: The set of geographic designations of the coverage
+       of the information resource. (This value is defaulted to "Place =
+       United States" in most locator records maintained by U.S. Federal
+       Government partners in Clearinghouse.)
+       Linkage: The identifier of the address of the cross-referenced
+       information resource. (By convention on the Internet, the
+       identifier is a URL or URN.)
+       Access-Constraints: The constraints on access to the information
+       resource. (This value is defaulted to "none" in most locator
+       records maintained by U.S. Federal Government partners in
+       Clearinghouse.)
+       Use-Constraints: The text describing the constraints on use of the
+       information resource. (This value is defaulted to "none" in most
+       locator records maintained by U.S. Federal Government partners in
+       Clearinghouse.)
+       Point-of-Contact: The party acting as contact for the information
+       resource. (The party may be a person, an organization, or both.)
+       Control-Identifier: The identifier of the locator record of the
+       information resource. (The organization maintaining the catalog in
+       Clearinghouse generates this value.)
+       Record-Source: The identifier of the source of the locator record
+       of the information resource. (This value is the name of the
+       organization maintaining the catalog in Clearinghouse.)
+       Language-of-Record: The code of the language of the locator record
+       of the information resource. (This value is defaulted to "en" for
+       English in most locator records maintained by U.S. Federal
+       Government partners in Clearinghouse.)
+       Date-of-Last-Modification: The date of last modification of the
+       locator record of the information resource. (The organization
+       maintaining the catalog in Clearinghouse generates this value.)
+
+                Appendix C: Clearinghouse Collections Policy
+
+   Clearinghouse provides an international standards-based approach for
+   deploying an "information locator service" to identify and describe
+   information resources and to assist searchers in obtaining the
+   information. It is therefore a critical part of the overall information
+   infrastructure, i.e., the underlying framework of facilities,
+   institutions, and policies supporting information throughout a
+   community.
+
+   [Image11.gif]
+   A Clearinghouse information locator service can be viewed as one aspect
+   of content management, a term that encompasses data management,
+   information management and knowledge management. In the simplified
+   "information life cycle" diagram below, information is regarded as
+   progressing through six stages. The information locator service focuses
+   on the "discover" stage. Here, information already exists in an
+   accessible form but the searcher has not yet discovered it.
+
+   In addition to online information delivery, a system for locating
+   information can include other media and various value-added features
+   and dissemination services provided by intermediaries in all sectors of
+   society. With network technologies such as the Internet, a
+   Clearinghouse implementation can be focused or comprehensive,
+   interoperable without being restrictive, and coherent without being
+   centralized.
+
+   Because of the special nature of government information, all
+   Clearinghouse Partners should be aware of the applicable laws and
+   policies in regard to public access of Government information at the
+   U.S. Federal level. In part, this means that U.S. Federal agencies can
+   contract support for public access to Government information but they
+   cannot delegate statutory responsibilities. Agencies must provide open
+   and equal access, and cannot grant "copyright-like" or exclusive
+   privileges to their public material.
+
+   A public document called the "Clearinghouse Collections Policy" will
+   express specific policies guiding Clearinghouse content.  Clearinghouse
+   includes publicly accessible data and information held by agencies of
+   the U.S. Federal Government. An extensive breadth of resources is
+   referenced, although detailed information is often aggregated. Among
+   the shared Clearinghouse resources are locator records composed of
+   catalog information about Government information resources.  Such
+   records can be useful for text search, structured metadata search, and
+   various browse modes. The locator record information may be derived
+   through machine-aided cataloging and classification techniques together
+   with expertise provided by trained catalogers. Cataloging may be
+   performed cooperatively between a maintainer of the locator records and
+   an information holding agency.
+
+   Clearinghouse services acknowledge Government sources of  information
+   and services delivered and clearly communicate what Government
+   information is in the public domain. Unless specifically constrained
+   under law, Clearinghouse information maintained by U.S. Federal agency
+   Clearinghouse Partners is offered free of charge on the Internet and
+   without intellectual property restrictions on access or use worldwide.
+   Cataloging terminology systems used in shared Clearinghouse resources
+   are in the public domain. Formats of Clearinghouse locator records are
+   in the public domain.
+
+   Clearinghouse Partners make no assertion as to the quality of content
+   provided other than any assertions of the holding agency. Content
+   developed by a Clearinghouse Partner is reviewed as to its
+   authenticity.
+
+            Appendix D: U.S. Law and Policy for Federal Agencies
+
+   The Clearinghouse Collections Policy must be consistent with: Paperwork
+   Reduction Act (44 U.S.C. Chapter 35), Federal Records Act (44 U.S.C.
+   Chapters 29, 31, 33, and 35), Privacy Act (5 U.S.C. 552a), Freedom of
+   Information Act as amended in 1996 (5 U.S.C. 552), Information
+   Technology Management Reform Act (40 U.S.C. Chapter 25), Computer
+   Security Act of 1987 (40 U.S.C. 759 note), OMB Circular A-130,
+   "Management of Federal Information Resources" (61 F.R. 6428, February
+   20, 1996), OMB Memorandum 98-5, "Guidance on the Government Information
+   Locator Service", and National Archives and Records Administration
+   regulations (36 CFR Chapter 12, Subchapter B, "Records Management").
+
+   Federal Government partners will include in Clearinghouse information
+   required of agencies under U.S. laws and policy. This will typically
+   represent an aggregate of information separately accessible through
+   agency Websites and with existing systems for public access. U.S.
+   Federal Government partners in Clearinghouse will develop and maintain
+   this information in cooperation with agencies.
+
+   The Paperwork Reduction Act and OMB Circular A-130 require agencies to
+   maintain a diversity of sources of public information to provide timely
+   and equitable access to the information as well as to the underlying
+   data. U.S. Federal Government partners in Clearinghouse have specific
+   requirements under law and OMB guidance on implementing the Government
+   Information Locator Service. Agencies should identify on their Websites
+   where they maintain agency GILS records and identify locating aids to
+   any other electronic dissemination and access programs. U.S. Federal
+   Government partners in Clearinghouse should also identify on their
+   Websites an alternate, non-electronic access method, including an
+   agency point of contact handling non-electronic requests. U.S. Federal
+   Government partners should arrange for permanent public access to the
+   locator records, through GPO or otherwise.
+
+   Clearinghouse will include publicly accessible U.S. Federal Government
+   information resources as defined in OMB Circular A-130 or the Federal
+   Depository Library Program. Coverage of resources in the Legislative
+   and Judicial Branches will be achieved primarily through incorporation
+   of the many resources of GPO. (GPO maintains over 1300 databases of
+   government information, including extensive coverage of the Executive
+   Branch.) Clearinghouse does require skilled reviewers to ascertain what
+   are official and authentic Federal information resources. Clearinghouse
+   will benefit greatly in this respect from its partnerships with GPO and
+   other Partners.
+
+   Government information resources within the scope of Clearinghouse are
+   either directly accessible on the Internet and/or are accessible
+   through other means as described in a locator record. Locator records
+   maintained by U.S. Federal agencies are accessible on the Internet,
+   including via a GILS-compliant server. In some instances, the
+   information resource referenced by a locator record is itself a
+   GILS-compliant server, e.g., the Geospatial Data Clearinghouse. Locator
+   records accessible from U.S. Federal agencies in shared Clearinghouse
+   resources are digitally signed. Locator records maintained by a U.S.
+   Federal agency Clearinghouse Partner are reviewed for accuracy at least
+   annually.
+
+   Log records of access maintained by U.S. Federal Government partners in
+   Clearinghouse will be for operations and maintenance purposes only.
+   Clearinghouse will not track usage by individual persons, nor will logs
+   be made available for any other purpose.
+
+   Web pages maintained by U.S. Federal Government partners in
+   Clearinghouse will be compliant with the Americans with Disabilities
+   Act.
+
+   U.S. Federal agency Clearinghouse Partners maintaining Clearinghouse
+   information resources and services solicit feedback on the system
+   effectiveness, performance, results, and plans from significant public
+   stakeholders and user communities.
+
+                                  Glossary
+
+   client - Client software handles interaction with network servers,
+   using a specific protocol.
+
+   Clearinghouse - The U.S. Federal Government Information Clearinghouse
+   helps the public to locate and use government information and
+   electronic services.
+
+   Clearinghouse Partnership - The Clearinghouse Partnership refers to the
+   partnership that delineates Clearinghouse standards and technology
+   infrastructure.
+
+   Classification Scheme - A Classification Scheme clusters objects by
+   similar characteristics.
+
+   Collections Policy - The Clearinghouse Collections Policy documents
+   content and policy agreements among Partners.
+
+   eXtensible Markup Language (XML) - XML is more powerful than HyperText
+   Markup Language (HTML), and provides a common way to integrate
+   documents with database services on the Web.
+
+   File Transfer Protocol (FTP) - FTP is an Internet protocol used for
+   bulk transfer of files between clients and servers
+
+   Global Information Locator Service (GILS) - GILS is an international
+   standard for information search and retrieval based on ISO 23950.
+
+   HyperText Transfer Protocol (HTTP) - HTTP is one of the Internet
+   client-server protocols to select, retrieve, and interact with
+   information and services. Web browsers use HTTP extensively, especially
+   in combination with documents prepared in HTML.
+
+   Internet - The Internet is a global, public electronic network of
+   networks, which allows millions of computers to exchange information
+   over telecommunications facilities.
+
+   Internet content providers - Internet content providers are individuals
+   and organizations that publish content on the Internet.
+
+   ISO - International Organization for Standardization
+
+   ISO 23950 - The international standard for information search and
+   retrieval (also known as ANSI/NISO Z39.50).
+
+   locator record - A locator record supports information resource
+   discovery by conveying descriptive metadata (e.g., the elements listed
+   in Appendix B).
+
+   protocol - A protocol specifies the exchange of information between
+   computer systems (e.g., HTTP, FTP, and Z39.50).
+
+   server - A server computer system provides services to multiple users
+   on a digital network, typically through a network services protocol.
+
+   Web - World Wide Web
+
+   Web browser - A Web browser is software for access to services provided
+   by Web servers.
+
+   Web pages - Web pages are accessible through Web browsers and may
+   include hypertext links to other Web pages and services.
+
+   Web publishing - Users of computers on the Internet typically publish
+   content through a Web server.
+
+   Web server - A Web server supports access by Web browsers using
+   Internet protocols.
+
+   World Wide Web - The Web is a set of services by Internet servers that
+   are accessible through widely available Web browsers.
+
+   Z39.50 - The international standard for information search and
+   retrieval (also known as ISO 23950).

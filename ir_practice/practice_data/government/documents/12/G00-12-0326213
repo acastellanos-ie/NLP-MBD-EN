@@ -1,0 +1,7 @@
+http://www-td.fnal.gov/includes/hp_includes/fermitech.js
+
+   var agent = navigator.userAgent.toLowerCase(); var is_ns =
+   ((agent.indexOf('mozilla')!=-1) && ((agent.indexOf('spoofer')==-1) &&
+   (agent.indexOf('compatible') == -1))); var is_ie =
+   (agent.indexOf("msie") != -1); if
+   (document.layers||(document.getElementById && is_ns)){ document.write('

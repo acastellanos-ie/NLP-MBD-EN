@@ -1,0 +1,29 @@
+http://www.fnal.gov/docs/Recommendations/dr0011.html
+
+                                                                       DR0011
+
+                            Linux Support Policy
+
+                         Fermilab Computing Division
+
+    1. Linux on Intel PCs will be supported at Fermilab.
+    2. Linux on any other hardware platform will not be supported.
+    3. Redhat will be used as the basis for Fermilabs Linux.
+    4. Support mechanisms will be similar to current support arrangements
+       for UNIX systems. Central systems will be supported by the
+       appropriate groups in the Computing Division. Desktop support will
+       either be handled locally or by a combination of local support and
+       the Computing Division. Data acquisition support will be handled
+       under the normal development and support arrangements through the
+       MOU process.
+    5. Most but not all applications will be made available on Linux.
+       Supported products will be made available by their regular support
+       group through the standard KITS distribution means and/or via the
+       Linux install server.
+    6. Linux OS certification and environment support will be handled in a
+       similar way to any other UNIX OS. Details will be found in the
+       Computing Division documents DR0004, DR0009 and DR0010.
+
+
+    Steve Wolbers
+    January 1998

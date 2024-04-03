@@ -1,0 +1,55 @@
+http://corn.eos.nasa.gov/PATech.html
+
+    ESDIS Network Prototyping Laboratory
+
+    Purpose
+
+    Current Activities
+
+     Technology Prototyping
+
+     Product Testing
+
+     Results, Notebooks, and Talks
+
+   Past Activities
+
+     Technology Prototyping
+
+     Product Testing
+
+     Results, Notebooks, and Talks
+
+   NASA QBed
+
+   NASA GSFC QBed physical diagram
+
+
+
+
+
+
+   esdis.logo.gif EOS Logo
+
+   Curator: Gary Veum, Raytheon STX
+   Responsible Organization: ESDIS Networking Prototypes /GSFC Code 423,
+   Gordon Knoble
+   Problems or comments should be sent to www@eos.nasa.gov.
+
+                                   Past Activities
+                               Technology Prototyping
+
+    Experiment Notebooks
+
+         * AP-0001 Internet Object Caching via SQUID
+         * AP-0002 Evaluating NFS over an ATM WAN
+         * AP-0003 Team Collaboration
+         * AP-0004 GPS referenced NTP server
+         * IP-0001 IPv6 Testing Addressing Allocation
+         * IP-0002 IPv6 Vendor interoperability and routing
+         * IP-0003 Mobile IP
+         * IP-0004 100Mb Ethernet Switched Flows
+         * IP-0005 IPv4 Addressing Allocation
+         * IP-0006 Raw performance numbers
+         * IP-0007 IP QoS Testing- QoS services using Atlernate Queueing
+           (ALTQ)

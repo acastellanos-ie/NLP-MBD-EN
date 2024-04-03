@@ -1,0 +1,230 @@
+http://modis-ocean.gsfc.nasa.gov/dataprod.html
+
+   [oceanbartxt.gif] linkbar [bluebar.gif]
+
+   Data
+   Products
+
+   MODIS Ocean Parameters
+
+   Known Problems
+   in the
+   Ocean Products
+
+   Schedule for Product Revisions
+
+   Filtering MODIS Ocean Data Using Quality Level Flags
+
+
+
+Overview
+
+   The three basic types of MODIS ocean data products are ocean color, sea
+   surface temperature, and ocean primary production. Ocean color and sea
+   surface temperature are available at processing level 2 and 3, whereas
+   ocean primary production is available at processing level 4. There are
+   a variety of time-binned and space-binned averages. All data may be
+   obtained from the Goddard Distributed Active Archive Center
+
+
+
+Level 2 Products
+
+
+   Each Level 2 "granule" represents 5 minutes of Terra viewing. The ocean
+   color products are only collected during the day, resulting in 144
+   granules per day. The sea surface temperature products are collected
+   both day and night, resulting in 288 granules per day. Pixels have 1 km
+   spatial resolution. There are 1354 pixels across the granule, and 2030
+   pixels down the granule. Thirty-six ocean color parameters and four sea
+   surface temperature parameters are available.
+
+   There are also thirty-five quality control (QC) parameters which are
+   inputs to the ocean algorithms and atmospheric correction (e.g.,
+   meteorological data, radiance data, brightness temperatures). The QC
+   files also contain latitude and longitude for each pixel.
+
+   Data files:
+     * Ocean Color Water-leaving Radiance Products (Parameters 1-12)
+     * Ocean Color Derived Products Group 1 (Parameters 13-25)
+     * Ocean Color Derived Products Group 2 (Parameters 26-36)
+     * Ocean Color Quality Control Products (Parameters 51-68)
+     * Sea Surface Temperature Products (4 Parameters)
+     * Sea Surface Temperature Quality Control Products (Parameters 41-50,
+       69-78)
+
+   [chlormodis.2000303.fl.sm.gif]
+   Level 2 granule
+   MODIS Chlorophyll (D. Clark)
+   Florida, Bahamas, Cuba
+   October 29, 2000
+   NASA/GSFC
+
+
+
+Level 3 Binned Products
+
+   Level 3 binned products are global products. Spatial bins have 4.63 km
+   spatial resolution in an integerized sinusoidal equal area grid. Only
+   bins with data values are present; land bins and bins with no data are
+   not in the files. Time averaging varies with product. All 36 ocean
+   color parameters and 4 sea surface temperature parameters are
+   available. Each Level 3 binned file contains all quality flags
+   appropriate for that parameter (quality level, common flags,
+   product-specific flags).
+
+   These products are called QC'd because the binning process ensures that
+   pixels of varying quality are never mixed within a bin. In other words,
+   a single bin will only contain pixels of like quality, but different
+   bins may be of different quality.
+
+   During space binning or time binning, pixels are placed in a given bin
+   according to the quality level of the pixels. There are four possible
+   quality levels for a pixel: quality level 0 = good, level 1 =
+   questionable, level 2 = cloudy, level 3 = bad other than cloud. For any
+   given bin only the highest quality level available is summed. That is
+   to say that different pixel quality levels are never mixed within a
+   bin. This is best illustrated with an example. Suppose three pixels
+   could be assigned to bin N; two of these pixels have a quality of 1,
+   and the remaining pixel has a (higher) quality level 0. In this case,
+   only the pixel with quality 0 is binned and the two quality 1 pixels
+   are not considered. That is, the binning procedure considers only the
+   "best" data available for a given bin. Currently the final maps will
+   contain "all" bins. While quality levels are never mixed within a bin,
+   adjacent bins may have a different quality level ranging from good to
+   bad.
+
+   While most large clouds are removed in the binning process, some
+   regions of the globe are persistently cloud contaminated or routinely
+   produce poor quality data. As a result, bins of poor or questionable
+   quality will be present in the global files in localized regions. Users
+   of the data should evaluate the bin quality level and filter the image
+   for their specific application. Further information on the binning
+   algorithm can be found in the SeaWifs technical report: Campbell, J.,
+   J.M. Blaisdell, and M. Darzi, 1995, Spatial and Temporal Binning
+   Algorithms, NASA Technical Memorandum 104566, Vol 32, Appendix A, pp.
+   63-65.
+     * Ocean Color and Sea Surface Temperature
+          + QC'd Daily
+          + QC'd Weekly
+          + Monthly
+          + Yearly
+
+   [MO36MW02.nLw_443.2001065.small.gif]
+   Level 3
+   Normalized Water-leaving Radiance at 443 nm (H. Gordon)
+   Weekly average March 6 - 13, 2001
+   NASA/GSFC
+
+
+
+Level 3 Mapped Products
+
+   The map products are global products as well. Bins for the entire globe
+   are present in the data files, including fill values for land bins and
+   bins with missing data. Spatial resolution varies per product: 4.63 km,
+   36 km, or 1 degree. Time averaging varies with product as well. All 36
+   ocean color parameters and 4 sea surface temperature parameters are
+   available. Maps are in a cylindrical equidistant map projection. The
+   Level 3 mapped data is also QC'd.
+     * Ocean Color and Sea Surface Temperature
+          + QC'd Daily; 4.63 km, 36 km, or 1 degree
+          + QC'd Weekly; 4.63 km, 36 km, or 1 degree
+          + Monthly; 4.63 km, 36 km, or 1 degree
+          + Yearly; 4.63 km, 36 km, or 1 degree
+     * Map Types
+       (There is one map for each parameter at each temporal and spatial
+       resolution)
+          + M: Mean
+          + S: Standard Deviation
+          + N: Number of Observations (number of pixels per bin)
+          + Q: Quality Level (bin by bin designation of whether input
+            pixels are 'good', 'questionable', 'cloud', or 'bad')
+          + F: Common Flags (flag for land, sunglint, shallow water, large
+            zenith angle, and failed atmospheric correction)
+          + 1: Flag Byte 1 (product-specific flag based on threshold
+            values unique to each parameter, used with common flag to
+            determine quality level for each bin)
+          + 2: Flag Byte 2 (product-specific flag based on threshold
+            values unique to each parameter, used with common flag to
+            determine quality level for each bin)
+          + 3: Flag Byte 3 (product-specific flag based on threshold
+            values unique to each parameter, used with common flag to
+            determine quality level for each bin)
+
+
+
+Level 3 Interim Daily QC Products
+
+   Level 3 Interim Daily QC products are daily global composites of the
+   quality control (QC) parameters. These data are the inputs to the ocean
+   algorithms and atmospheric correction (e.g., meteorological data,
+   radiance data, brightness temperatures). There are 20 sea surface
+   temperature QC parameters (10 daytime and 10 nighttime), and 15 ocean
+   color QC parameters. Two of the 15 ocean color QC parameters are
+   latitude and longitude of each bin. Spatial bins have 4.63 km spatial
+   resolution. Both binned files and mean maps are available.
+
+   Data files:
+     * Level 3 Binned, Interim Daily Composite, Ocean Color QC Products
+       (Parameters 51-61,63-66)
+     * Level 3 Binned, Interim Daily Composite, SST QC Products
+       (Parameters D1-D9,DA & N1-N9,NA)
+     * 4-km Map, Interim Daily Composite, Ocean Color and SST QC Mean
+       (Paramters 41-61,63-66,69-78)
+
+
+
+Level 4 Binned Products
+
+   Level 4 binned products are global ocean primary productivity products.
+   Spatial bins have 4.63 km spatial resolution in an integerized
+   sinusoidal equal area grid. Only bins with data values are present;
+   land bins and bins with no data are not in the files. Time averaging is
+   weekly or yearly. The yearly products are created every week
+   (weekly-running yearly average).
+     * Ocean Primary Production
+          + Semi-Analytic Weekly Ocean Production Indices
+          + Semi-Analytic Yearly Ocean Production Indices, Weekly Running
+            Year
+          + Yearly Chlorophyll, Weekly Running Year
+          + Statistical Annual Ocean Carbon Production, Export Carbon
+            Production, and New Nitrogen Production
+
+   [MOAPWBM1.P1.2001065.small.gif]
+   Level 4
+   Semi-analytic Weekly Primary Productivity Index
+   Behrenfeld-Falkowski Model (W. Esaias)
+   March 6 - 13, 2001
+   NASA/GSFC
+
+
+Level 4 Mapped Products
+
+   The Level 4 map products are global. Bins for the entire globe are
+   present in the data files, including fill values for land bins and bins
+   with missing data. Spatial resolution varies per product: 4.63 km, 36
+   km, or 1 degree. Time averaging is weekly or yearly. The yearly maps
+   are created each week (weekly-running yearly average). The map
+   projection is cylindrical equidistant.
+     * Ocean Primary Production
+          + Semi-analytic Weekly Ocean Production Indices; 4.63 km, 36 km,
+            or 1 degree
+          + Semi-analytic Yearly Ocean Production Indices; 4.63 km, 36 km,
+            or 1 degree
+          + Statistical Annual Ocean Carbon Production, Export Carbon
+            Production, New Nitrogen Production, and Chlorophyll; 4.63 km,
+            36 km, or 1 degree
+     * Map Types
+       (Not every map exists for every parameter or every spatial or
+       temporal resolution)
+          + M: Mean
+          + S: Standard Deviation
+          + N: Number of Observations (number of pixels per bin)
+          + F: Flags
+          + W: Number of weeks used in the yearly average
+     __________________________________________________________________
+
+   Developed by:   Ron Vogel, SAIC GSC   (ron.vogel@gsfc.nasa.gov)
+   Authorized by:   Wayne E. Esaias, Code 971, NASA Goddard Space Flight
+   Center

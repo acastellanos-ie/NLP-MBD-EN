@@ -1,0 +1,35 @@
+http://shuttle.ksc.nasa.gov/projects/lst/SCRIPTS/lst_disclaimer_scripts.js
+
+   //This file contains JavaScript functions that will generate disclaimer
+   windows //when a user is leaving an LST-generated web site. // // //The
+   following function, "DisclaimerFed()", is generated when the user is
+   leaving the LST web site //for another government site. // function
+   DisclaimerFed(){ alert("You are now leaving the Launch Systems Testbed
+   web site.\n\ \nTo return to this site, use the \"Back\" button on your
+   browser.") } // // //The following function, "Disclaimer", is generated
+   when the user is leaving the LST web site //for a site not maintained
+   by the Federal Government. // function Disclaimer(){ alert("Thank you
+   for visiting the web site for KSC's Launch Systems Testbed. You are now
+   leaving the Launch Systems Testbed web site and linking to another
+   location that is not maintained by the Federal Government. The Federal
+   Government takes no responsibility for and exercises no control over
+   non-government sites, the views that may be represented on these sites,
+   the accuracy, privacy policies, copyright or trademark compliance of
+   these sites, or the legality of any material contained therein.\n\n To
+   return to this site, use the Back button on your browser."); } // //
+   //The following function, "Validator()", is generated when a user
+   clicks on the "W3G Validated" button //from a website within the
+   nasa-only firewall. The W3G Validator cannot read an internal web site
+   and //generates an error message; this alert is provided instead of
+   passing the site address to the validator. function Validator(){
+   alert("This web page has been validated by the Web Site Curator using
+   the W3C validator for HTML 4.01 Transitional. Users of this
+   NASA-internal web site cannot run the validation due to web site access
+   security issues. \n\nYou will now be transferred to the W3C Validation
+   Service at http://validator.w3.org. The W3C Validation Service site is
+   not maintained by the Federal Government. The Federal Government takes
+   no responsibility for and exercises no control over non-government
+   sites, the views that may be represented on these sites, the accuracy,
+   privacy policies, copyright or trademark compliance of these sites, or
+   the legality of any material contained therein. \n\n To return to this
+   LST site, use the \"Back\" button on your browser."); } //

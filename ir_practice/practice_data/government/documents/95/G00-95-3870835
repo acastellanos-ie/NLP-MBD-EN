@@ -1,0 +1,37 @@
+http://fast.nist.gov/faqs.html
+
+   [bfrltop.gif]
+
+                                       Frequently Asked Questions
+
+                                                   [nistglogo.gif]
+
+   A suggested file naming convention for cfast, report, and reportss.
+
+   Calculating mass balance - is inflow really equal to outflow?
+
+   Combustion chemistry, and limits on the chemistry in CFAST.
+
+   What is the source of CO in fires?
+
+   (07/30/00) How do I position objects, targets and fires?
+
+   (06/12/00) Command line access for executables, and possible error
+   messages.
+
+   The theory of plumes.
+
+   How is flame spread calculated?
+
+   What happened to FAST after version 3.1.6?
+
+   Why is FASTLite is no longer distributed and how do I get a
+   replacement?
+
+   (01/28/00) An abbreviated version of the appendix on Fans and Duct
+   systems from the CFAST Technical Reference.
+
+   (03/07/01) How the effects of wind are calculated.
+
+   (12/17/01) There is an error in the egress estimation calculation in
+   the tools section of the FAST gui.

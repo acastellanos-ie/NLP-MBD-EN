@@ -1,0 +1,64 @@
+http://climate.gsfc.nasa.gov/satellite.html
+
+                            Satellite Remote Sensing
+     __________________________________________________________________
+
+   Satellites provide nearly global coverage of the Earth with spatial
+   resolutions and repetition rates that vary from one platform to
+   another. Remote sensing research in the branch includes the use of
+   satellite data for estimating atmospheric water vapor, trace gases,
+   aerosol particles, clouds, and precipitation. In addition, satellite
+   data are used to study the radiative and dynamical processes that
+   affect the climate of the Earth. Branch scientists also participate in
+   the design of future satellite systems.
+
+   Satellite observations are used to study the distribution of ozone and
+   water vapor. These trace gases have a significant greenhouse effect.
+   Ozone affects the intensity of the UV radiation on the Earth's surface.
+   Ozone measurements from the TOMS ultraviolet radiometer on NASA's
+   Nimbus 7 satellite are being collected and compared with ozone
+   measurements from the TOVS infrared radiometer on NOAA's weather
+   satellites, and the ground-based Dobson ozone spectrometer network.
+
+   Satellite observations made with the multispectral, dual-polarization
+   microwave radiometers, SMMR and SSM/I, have enabled the mapping of
+   columnar water vapor distribution over the global oceans since 1979. In
+   addition, upper air water vapor is observed in the 6.7 micrometer band
+   from NOAA polar orbiters. These measurements have revealed new
+   information regarding the evolution and development of events such as
+   El Nino Southern Oscillations, consistent with results based on in situ
+   and analyzed data. Analysis of the microwave data also has yielded
+   valuable information on rainfall rates over the oceans.
+
+   NOAA-AVHRR data are used for remote sensing of biomass burning in the
+   tropics, to study the interaction of smoke particles with clouds, and
+   the impact of the smoke particles and the associated trace gases on
+   climate. Fires are detected in teh 3.75 micrometer channel, aerosol
+   concentration and cloud reflectance in the 0.64 micrometer channel.
+   Cloud drop size is derived from the cloud reflectance in the 3.75
+   micrometer channel. Using the ratio between the emission of aerosol
+   particles and trace gases, the remotely sensed aerosol is used to
+   estimate the total emission of trace gases. Satellite observations of
+   the effect of smoke particles on thousands of cumulus and stratocumulus
+   clouds in the Amazon basin showed that smoke reduced the cloud drop
+   size by 40 percent. In contrast, to the increase in cloud albedo
+   observed along ship tracks, the albedo of these clouds decreased.
+
+   High-resolution satellite data (Landsat) are used to detect the spatial
+   properties of broken cloud fields. These properties are important for
+   the understanding of radiative processes in clouds. For example, in an
+   analysis of the distribution of cloud area, it was found that the cloud
+   field can be described by two power functions. This finding can provide
+   a useful tool for classification of clouds.
+
+   Multi-channel, 1Km resolution NOAA-AVHRR data sets are collected and
+   archived in the branch for use in the retrieval of cloud parameters.
+   The present cloud cover processing system utilizes all five AVHRR
+   channels to provice cloud amount, cloud optical thickness, cloud top
+   temperature, and an index indicative of the phase and size of the cloud
+   particles. These parameters provide the basic information needed to
+   develop models of cloud processes, which ultimately will be
+   incorporated into climate models.
+     __________________________________________________________________
+
+   [arrow.icon.gif] NASA [arrow.icon.gif] Goddard [arrow.icon.gif] Climate

@@ -1,0 +1,113 @@
+http://homer.ssd.census.gov/cgi-bin/mapbrowse-tbl/
+
+   US Census Bureau
+   Picture of the Census Bureau TIGER.
+
+This mapping engine uses 1998 TIGER/Line^® data
+and 1990 Decennial Census data.
+
+   [top1.gif]
+   [left1.gif]
+   [map.gif?lat=38.89000&lon=-77.02000&wid=0.360&ht=0.130&iht=359&iwd=422&
+   ]-Submit [right1.gif]
+   [USEMAP:bottom1.gif]
+
+         Scale: 1:218074 (Centered at Lat: 38.89000 Lon: -77.02000)
+
+                                 REDRAW MAP
+
+           If your browser doesn't support client-side imagemaps,
+                 use the controls below to navigate the map.
+
+
+                                 NW   N NE
+                    Zoom In      W  Pan   E      Zoom Out
+                                 SW   S SE
+
+   Click ON THE IMAGE to:
+
+   ( ) Zoom in, factor: 2__
+   ( ) Zoom out, factor: 2__
+   (*) Move to new center
+   ( ) Place Marker (select symbol below)
+   ( ) Download GIF image
+
+                                     OR
+
+   REDRAW MAP
+
+                       with any option selected below
+
+   OFF/ON Layers
+   [ ] [ ] City labels
+   [ ] [ ] Grid (lat/lon)
+   [ ] [ ] Cens bg points
+   [ ] [ ] Cens bg bounds
+   [ ] [ ] Congress dist
+   [ ] [ ] Counties
+   [ ] [ ] Indian Resv
+   [ ] [ ] Highways
+   [ ] [ ] Parks and Other
+   [ ] [ ] MSA/CMSA
+   [ ] [ ] Cities/Towns
+   [ ] [ ] Railroad
+   [ ] [ ] Shoreline
+   [ ] [ ] Streets
+   [ ] [ ] Census Tracts
+   OFF/ON Layers
+   [ ] [ ] Interstate labels
+   [ ] [ ] St Hwy labels
+   [ ] [ ] State Bounds
+   [ ] [ ] US Hwy labels
+   [ ] [ ] Water bodies
+   [ ] [ ] Zipcode points
+     __________________________________________________________________
+
+   [map.gif?legend=on&lat=38.89000&lon=-77.02000&wid=0.360&ht=0.130&iht=35
+   9&iwd=422&]
+   Click on the legend to download it as a GIF file.
+     __________________________________________________________________
+
+   Map Census Statistics:
+   Level: [(none)________]
+   Theme: [(none)________]
+   Classify Method:
+   ( ) Quintiles or (*) Eq Interval
+   Place a marker on this map:
+   Latitude(deg): _________
+   Longitude(deg): _________
+   Symbol: [Large Red Dot____]
+   Label: _______________
+   Marker URL:
+   _________________________
+   sorry, but no font control yet Enter precise coordinates:
+   Latitude(deg): 38.89000_
+   Longitude(deg): -77.02000
+   Map Width(deg): 0.360_
+   Map Height(deg): 0.130_
+
+   Choose a color palette:
+   [(default)_]
+
+                                 REDRAW MAP
+     __________________________________________________________________
+
+     You can also search for a U.S. city or town:
+   Name: _______________ State(optional): ___
+   or for a Zip Code: ________ Search
+
+     Or choose from the following preset values:
+   Washington, D.C. (default), The Mall, Continental United States, Entire
+   United States, Northeast U.S., New York City. This request serviced by
+   (homer.ssd.census.gov)
+     __________________________________________________________________
+
+   For further information, refer to the Map Surfer web page, located at
+   URL:
+   http://www.census.gov/ftp/pub/geo/www/tiger/tigermap.html
+     __________________________________________________________________
+
+        FOIA  |  Privacy Statement  |  Confidentiality  |  Quality  |
+           Accessibility  |  Contact Us  |  Doing business with us
+
+           U.S. Census Bureau: Helping You Make Informed Decisions

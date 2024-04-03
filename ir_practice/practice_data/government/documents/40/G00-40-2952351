@@ -1,0 +1,71 @@
+http://helix.nih.gov/systems/
+
+                              The Helix Systems
+     __________________________________________________________________
+
+   As the centralized resource for high performance scientific computing
+   in the Center for Information Technology, the Helix Systems currently
+   comprise five computer systems: Helix, Nimbus, Galaxy, Quasar and
+   Biowulf. The features and capabilities of each of these systems are
+   described in further detail below. Multiple systems allow different
+   high performance computer architectures to be matched to the
+   applications and programming styles for which they are best suited. A
+   multiple system model also makes it easy to provide new systems with
+   the latest and most cost effective technology much sooner than it would
+   otherwise. The five systems are integrated in many respects so that a
+   user on one system may be actually using the computational resources on
+   another; most user disk space is common to all machines. All of the
+   Helix systems offer a full development environment for users writing
+   their own code in C, C++, and Fortran. By obtaining a Helix Systems
+   account, users have access to each of the computing systems: [Hardware
+   Summary]
+     __________________________________________________________________
+
+   Helix (helix.nih.gov).
+          Helix is the "hostname" of the primary login machine of the
+          Helix Systems. Its main role is to provide a full suite of third
+          party scientific applications as well as mail hosting for some
+          of the other systems. Helix, an SGI Origin 2400, is a shared
+          memory SMP (symmetrical multiprocessor) computer, meaning that
+          each of its processors has direct access to all of system
+          memory. This architecture is well-suited to third-party
+          "turnkey" applications, and is used by application programmers
+          who wish to design code using the traditional shared memory
+          model.
+
+   Nimbus (nimbus.nih.gov).
+          Nimbus, another SGI shared memory multiprocessor, is used for
+          applications requiring large computational or memory resources.
+
+   Galaxy & Quasar (galaxy.nih.gov & quasar.nih.gov).
+          Galaxy and Quasar are 32 and 16 processor SGI Origin 2000s
+          respectively. They use a ccNUMA architecture (cache coherent,
+          non-uniform memory access) to combine the scalability of
+          distributed memory machines with the ease of use of traditional
+          shared memory SMP computers. The automatic parallelizing
+          compilers will help you take maximum advantage of these highly
+          parallel machines.
+
+   Beowulf Cluster (biowulf.nih.gov).
+          This 360 processor parallel computer, named Biowulf, represents
+          the latest trend in high performance computing: a distributed
+          memory system composed entirely of commodity components such as
+          Pentium processors and fast-ethernet interconnects.
+          "Supercomputing performance at a fraction of the cost." To
+          enable access to Biowulf, users must complete the online form
+          and provide a short description of their project (click here).
+
+   Shared File Server.
+          In addition to the above five systems, the Helix staff maintains
+          a Network Appliance F760 Filer. The filer provides Helix Systems
+          users with access to high performance NFS RAID file systems over
+          a dedicated high speed network. 600 GB of online storage is
+          available in a high availability configuration that includes
+          redundant components and clustered failover. Researchers can
+          seamlessly move between computational platforms without having
+          to transfer their data or maintain multiple copies.
+
+   Last Updated 2/21/2001
+     __________________________________________________________________
+
+   Helix Systems | National Institutes of Health

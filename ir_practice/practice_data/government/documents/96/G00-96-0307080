@@ -1,0 +1,31 @@
+http://herzberg.ca.sandia.gov/jess/main.html
+
+   JESS the Rule Engine for the Java Platform
+
+   New! Jess 6.0 final has been released!
+
+   Jess is a rule engine and scripting environment written entirely in
+   Sun's Java language by Ernest Friedman-Hill at Sandia National
+   Laboratories in Livermore, CA. Jess was originally inspired by the
+   CLIPS expert system shell, but has grown into a complete, distinct
+   Java-influenced environment of its own. Using Jess, you can build Java
+   applets and applications that have the capacity to "reason" using
+   knowledge you supply in the form of declarative rules. Jess is
+   surprisingly fast, and for some problems is faster than CLIPS itself
+   (using a good JIT compiler, of course.)
+
+   The core Jess language is still compatible with CLIPS, in that many
+   Jess scripts are valid CLIPS scripts and vice-versa. Like CLIPS, Jess
+   uses the Rete algorithm to process rules, a very efficient mechanism
+   for solving the difficult many-to-many matching problem (see for
+   example "Rete: A Fast Algorithm for the Many Pattern/ Many Object
+   Pattern Match Problem", Charles L. Forgy, Artificial Intelligence
+   19(1982), 17-37.) Jess adds many features to CLIPS, including backwards
+   chaining and the ability to manipulate and directly reason about Java
+   objects. Jess is also a powerful Java scripting environment, from which
+   you can create Java objects and call Java methods without compiling any
+   Java code.
+
+   Questions or comments? Contact ejfried@ca.sandia.gov
+
+   Last modified: Mon Dec 10 10:40:38 EST 2001

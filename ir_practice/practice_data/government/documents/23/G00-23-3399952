@@ -1,0 +1,24 @@
+http://search.sc.egov.usda.gov/searchFAQ.htm
+
+   USDA logo   United States Department of Agriculture
+               Frequently Asked Questions - Search
+
+   Q. Which Web sites are searched?
+   A. The search results cover Farm Service Agency (FSA), Natural
+   Resources Conservation Service (NRCS), and Rural Development (RD) Web
+   sites, but not USDA Web sites. The USDA Web site has a separate search
+   page.
+
+   Q. Why don't the search results include a page I'm sure exists?
+   A. To make the system respond quickly to your requests, we crawl the
+   Web sites once a week and make catalogs of the results. These catalogs
+   are updated once a week, so
+     * the page could be too new to be in the catalog
+     * the page could have been recently moved
+     * links to the page are broken
+     * the page has been deleted.
+
+   It's also possible the page is not on our list of sites to crawl, since
+   the site owner must specifically request that their site be included.
+
+     __________________________________________________________________

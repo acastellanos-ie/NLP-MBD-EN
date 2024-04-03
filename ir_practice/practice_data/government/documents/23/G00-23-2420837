@@ -1,0 +1,162 @@
+http://rsb.info.nih.gov/rsb/overview.html
+
+
+                     Research Services Branch
+     National Institute of Mental Health
+     National Institute of Neurological Disorders and Stroke
+
+          * Introduction
+          * Instrumentation
+          * Machine Shop Facility
+          * Central Computer Facility
+          * Networks
+          * Servers
+          * Personal Computers
+          * Collaborative Support
+
+        INTRODUCTION
+
+        The Research Services Branch is currently comprised of the Office of
+        the Chief and the Section on Instrumentation and Computers. The Section
+        on Instrumentation and Computers provides broad technical support for
+        the Intramural Research Programs of NIMH and NINDS by: (1) assessing
+        the instrumentation, computer and networking needs of intramural staff;
+        (2) designing, developing and constructing special-purpose
+        instrumentation; (3) specifying, evaluating, selecting, installing,
+        configuring, and managing personal computers, workstations, and
+        multiuser servers; (4) specifying, designing and developing custom
+        software for scientific and administrative applications; (5) managing a
+        central computer facility consisting of UNIX and Windows NT servers, an
+        image processing system, and a user area with Macintosh and
+        IBM-compatible personal computers, scanners, and monochrome and color
+        printers; and (6) developing and managing computer networks in the
+        Weicker, Conte, and Clinical Center Buildings. In addition, Section
+        personnel provide consultation and assistance in areas relating to
+        basic and clinical research, including measurement and analysis
+        techniques, signal processing, applied mathematics, statistics,
+        laboratory and office computer techniques, and equipment and ADP
+        purchases.
+          __________________________________________________________________
+
+        INSTRUMENTATION
+
+        The Section has a staff of engineers and technicians that design and
+        fabricate custom electronic and electromechanical devices and
+        instruments. Most of our efforts involve animal and human activity
+        monitoring and stimulation systems, cellular perfusion controllers,
+        multichannel amplifier, pulse generator, and stimulator systems, and
+        computer and instrument interfaces. The Section's engineering,
+        fabrication and machine shop operations are located in Building 13.
+          __________________________________________________________________
+
+        MACHINE SHOP FACILITY
+
+        The Section maintains a well-equipped machine shop specialized for
+        working with metals and synthetic materials. This facility is critical
+        to the development and fabrication of the electronic and
+        electromechanical instrumentation projects described above. Our machine
+        shop is equipped with a Computerized Numerical Control (CNC) milling
+        machine and Computer Aided Design/Computer Aided Manufacturing
+        (CAD/CAM) programs. The CNC mill and the CAD/CAM software are used by
+        our staff to design and produce a wide range of machined parts. Many of
+        these parts could not be produced with manual milling operations, and
+        all of them benefit from the efficiency and precision of automated
+        machining. The machine shop is located in Building 13.
+          __________________________________________________________________
+
+        CENTRAL COMPUTER FACILITY
+
+        The Section maintains a central computing facility with five Macintosh
+        computers, three Windows workstation, a laser printer, a Tektronix
+        Phaser 340 plain-paper color printer, three flatbed scanners, and a
+        Polaroid slide scanner. All the machines have Ethernet network
+        connections and are capable of communicating and sharing files with
+        machines on the Internet. More than 35 software applications are
+        available on the Joe Public server for intramural staff to use for
+        mathematical and statistical analysis, word and image processing, and
+        for the creation of posters, slides, charts, graphs, and images. The
+        Phaser 340 provides the users with fast, inexpensive laser-quality
+        color prints. The Section also supports a Tektronix Phaser 450 dye
+        sublimation printer for the production of publication-ready
+        continuous-tone color prints.
+
+        One of the Macintoshes in the Personal Computer Facility is configured
+        as an image processing system with a video camera and lightbox. This
+        system, with NIH Image as the core program, is used for numerous
+        applications, including analysis of CT, MRI or PET images, receptor
+        binding studies, analysis of electrophoretic gels, and quantitative
+        evaluation of cerebral blood flow, glucose metabolism, or protein
+        synthesis.
+          __________________________________________________________________
+
+        NETWORKS
+
+        The Section manages a large, multi-protocol network in the Weicker
+        Building comprised of two large and two small Ethernet subnets. A
+        remote access server with 12 28.8 KBaud modems is also managed to
+        provide full AppleTalk and PPP network connections for over 300
+        registered users who dial in from home or remote sites.
+
+        The Section also manages a PC-based Ethernet network, including
+        Microsoft Exchange, that supports NIMH DIRP administrative, budget and
+        personnel functions. This LAN supports users within the Offices of the
+        Scientific Director and the Clinical Director, the Budget Office, the
+        Personnel Office and the Administrative Offices in the Clinical Center,
+        and in the Conte Building. This administrative LAN provides users the
+        benefits of standard software applications and easy sharing of files,
+        printers and other resources within their local working groups.
+          __________________________________________________________________
+
+        SERVERS (Codon, Joe Public, RSBNT)
+
+        The Section manages a Sun Enterprise 3000 (Codon), with over 1000
+        registered users, as our primary POP3 mail server and as a platform for
+        the comprehensive DNA and protein sequence analysis software from the
+        Genetic Computing Group.
+
+        An AppleShare file server (Joe Public) is provided by the Section as a
+        software application server and as clearinghouse for Macintosh software
+        and documents useful to intramural staff. Joe Public contains demos of
+        commercial programs, shareware applications, and a variety of popular
+        free programs. Users can also take advantage of a large temporary
+        storage space to exchange files with other colleagues.
+
+        RSBNT is a PC-based Microsoft Windows NT server that provides two
+        important services: PC users can now access numerous AppleTalk
+        printers, both in their own labs and in the Section's central
+        facilities; and PC and Mac users can use the large disk space to
+        exchange files between the two types of platforms.
+          __________________________________________________________________
+
+        PERSONAL COMPUTERS
+
+        IBM-compatible personal computers (PCs) and Macintosh computers have
+        become essential research tools. They are widely used in the intramural
+        laboratories for data acquisition, experimental control, mathematical
+        and statistical data analysis, graphics, image processing, word
+        processing, and communication over local networks and the Internet.
+        They are also used in all intramural offices for administrative
+        functions and for the preparation of scientific publications. The
+        Section provides consultation on the specification and selection of
+        these systems and provides on-site support to help increase their
+        effective utilization. The hardware support available includes setup
+        and testing of new systems; installing floppy drives, hard drives,
+        CD-ROM and tape drives, memory SIMMs, and video and Ethernet cards;
+        diagnosing hardware component malfunctions; and recovering data from
+        damaged floppy and hard drives. Software support includes installing
+        new versions and upgrades of operating systems, application programs
+        and network software; configuring the operating system, applications
+        and network software to function together and to provide access to
+        local, NIH, and Internet network services; and detecting and
+        eliminating computer viruses. On-site support also often involves
+        advice and training to further aid the user.
+          __________________________________________________________________
+
+        COLLABORATIVE SUPPORT
+
+        Section specialists provide collaborative support for selected research
+        projects through expertise in experimental design, software
+        development, and statistical and mathematical analysis.
+        __________________________________________________________________
+
+        Home | Science | Search | Mac | PC | Linux

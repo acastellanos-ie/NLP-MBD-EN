@@ -1,0 +1,76 @@
+http://spdbv.niehs.nih.gov/text/server.htm
+
+
+
+
+                                 [logo.gif]
+
+   Download
+   User Guide
+   Tips
+   Tutorial
+   Feedback
+   Index
+   Art Gallery
+   Mirror sites
+   References
+
+
+       _______________________________________________________________
+
+                                 by N.Guex &
+                                  T.Schwede
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                          SPDBV - Import functions
+     __________________________________________________________________
+
+   The "Import" utility of SPDBV allows you to connect directly to a
+   spdbv-server, thereby providing direct access to huge databases and
+   powerfull computing facilities.
+
+   Before using this service, you have to fill the "Network preferences"
+   correctly. The following SPDBV-servers are curretly available. Please
+   choose the one closest to your location:
+
+              NOTE: The IP-Number for this service has changed!
+
+                                        IP-Number or server name Port
+                Switzerland:
+             DeepView 3.6 / 3.7              213.39.71.210       27000
+
+      Deep View 3.7x
+
+                                              www.gwer.ch        27000
+                    USA:                 - not yet available -
+
+   Currently, the spdbv server supports the the following download
+   functions:
+     * PDB files
+     * ExPDB files
+     * SwissProt entries
+     * SwissProt sequences
+     * Simple key word search for PDB entries: Instead of the PDB ID you
+       can type a keyword. Several keywords can be combined by boolen AND
+       (+) and NOT (-). E.g.
+       +CRAMBIN -NMR
+       The server will then provide a list of possible PDB entries. You
+       can download entries by clicking on the IDs (colored in red).
+
+                                [import.gif]
+     __________________________________________________________________
+
+   [last modified: 16 Jan. 2001 by T.S.]

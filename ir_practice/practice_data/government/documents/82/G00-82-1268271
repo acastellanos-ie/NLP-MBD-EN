@@ -1,0 +1,87 @@
+http://poet.lbl.gov/arch/
+
+   [arch.gif]
+
+   A Building Energy Reference Tool
+     __________________________________________________________________
+
+   You are visitor number 1344
+
+   How Does Your Building's Energy Use Compare?
+
+   How does your building's energy use compare to that of other buildings?
+   Arch provides a simple way to see how your building's energy use
+   compares to similar buildings. Currently you may search for buildings
+   in of eighteen activity categories and with similar floor area.
+
+   If you have not assembled all the requested information, you may leave
+   any of the fields blank, except for building activity. Note that
+   providing more information will narrow the buildings in the comparison
+   to those more closely matching your building.
+
+   For more discussion, Click Here or go to Links.
+     __________________________________________________________________
+
+   Step One:
+
+   What is the principal activity of your building?
+   [Office Building______________]
+
+   Step Two:
+
+   Enter the first three digits of the zipcode your building is located
+   in. _____
+   Entering your zip code will restrict the results to buildings within
+   the same US Census Division.
+
+   Step Three:
+
+   Enter the building's floor area. _______ (gross square feet)
+   Buildings are considered to have comparable floor areas if they have
+   between half and twice your area; if the area field is blank, no
+   filtering is done on floor area.
+
+   Step Four:
+
+   Enter the annual energy consumption based on the utility bills for your
+   building for each of the following fuels:
+
+   Fuel        Energy Consumption
+   Electricity 0______ [kWh/year]
+   Natural Gas 0______ [therms/year_____]
+   Other       0______ Million Btu/year
+
+   Step Five:
+
+   Building energy use can be reported as the actual energy used on site,
+   or as the energy used at the energy source (about 2/3 of the "primary
+   energy" that goes into an electric power plant is lost in the process
+   as waste heat).   Source energy corresponds more closely to energy
+   costs than does site energy.
+   Select which you want to use: (*) Site    ( ) Source
+
+   Step Six:
+
+   Data entered on this website is saved and may later be added to our
+   database.
+   If you are just exploring and do not think these data should be saved,
+   check here: [ ] .
+
+   Step Seven:
+
+   Do the Comparison
+   (this should take about 5 seconds)
+
+   DISCLAIMER: LBNL provides no warranties on the data provided: Use at
+   your own discretion.
+     __________________________________________________________________
+
+   This site has been funded in part by the California Energy Commission
+   Public Interest Energy Research program. California visitors please
+   also visit Cal-ARCH, a California-specific tool.
+
+   We welcome your Comments on this site
+     __________________________________________________________________
+
+   This page last modified March 27, 2001 and maintained by Brian Smith.
+     |     |     Back to EETD home page

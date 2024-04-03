@@ -1,0 +1,55 @@
+http://snfactory.lbl.gov/snifs_brochure.ps
+
+   The SuperNova Integral Field Spectrograph SNIFS is a two-channel
+   optical spectrograph equipped with a microlensearray integral field
+   unit. The blue channel will cover 3500--5700*A at a fixed dispersion of
+   , 2:2*A/pixel, while the red channel will cover 5300-10500*A at a fixed
+   dispersion of , 3:0*A/pixel. The nominal resolution is set by the pixel
+   sampling, and is therefore ffi*=* , 1200. The two channels can be
+   operated together or separately, and are split using a dichroic
+   beam-splitter with a nominal half-power point at 5500*A. The target
+   system throughput is 30% or better over 50% of the spectral range, and
+   no worse than 10% anywhere over the full spectral range. The integral
+   field unit consists of a 15 \Theta 15 array of fused silica
+   microlenses, and will sample a 6" \Theta 6" region around the target at
+   a resolution of 0.4" per lenselet. The optics are all transmission
+   elements, including the dispersive element which is a total internal
+   reflection prism mated to a grism. The detectors will be LBNL/UCB
+   high-resistivity fullydepleted CCD's, of size 2048 \Theta 4096, with
+   high-performance AR coatings. A conceptual drawing of SNIFS is
+   presented in Figure 1. SNIFS includes a photometry camera run in
+   parallel with the spectrograph. This photometry camera is designed to
+   allow photometric normalization of the spectroscopic observations so
+   that spectrophotometric observations can be obtained even under
+   non-photometric sky conditions. The photometry camera and spectrograph
+   will utilize the same shutter so that observations with both
+   instruments are guaranteed to have identical observing conditions. The
+   photometry camera will have one or more filters, probably fixed (TBD).
+   Again, it is likely that an LBNL/UCB 2048 \Theta 4096 CCD will be used.
+   SNIFS contains its own guider camera. Most likely a LBNL/UCB 2048
+   \Theta 4096 CCD will be used as the detector, although a commercial
+   guider camera may be considered. The guider obtains a panoramic image
+   from which a suitable guide star is selected. Subsequently, a
+   sub-region of the guider CCD centered on the guide star is read at a
+   rate of several Hz and analyzed to provide a signal to the telescope
+   guider motors. A portion of the guide camera is covered with a
+   cylindrical lense or wedge to provide a signal for control of the
+   telescope focus. SNIFS is also equipped with a calibration unit for the
+   spectrograph which will provide for spectral flats and arc exposures.
+   Flat-field correction for the photometry camera will rely on dome flats
+   and sky flats. Twilight flats will be useful for both the spectrograph
+   and the photometry camera, and will be obtained when possible. The
+   intended operational mode for SNIFS is quasi queue observing. Target
+   coordinates and exposure sequences are generated automatically, but a
+   night assistant is required to move the telescope to the required
+   coordinates during an appropriate time window. It is anticipated that
+   with the telescope close to the correct nominal coordinates, the
+   photometry camera will provide images from which a coordinate offset
+   can be computed quickly, and sent to the telescope and the guider to
+   execute. This step may not be needed if the telescope pointing is
+   sufficiently accurate that the target is always well-place within the
+   field of the SNIFS IFU. Depending on the level of automation of the
+   telescope focus, a night assistant may also have to adjust the focus to
+   a value given by the SNIFS guider. An assistant is needed to refill the
+   four dewars with LN2 twice daily. Draft v0.2 Greg Aldering revised June
+   16, 2000

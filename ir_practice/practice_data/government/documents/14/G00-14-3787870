@@ -1,0 +1,155 @@
+http://sunland.gsfc.nasa.gov/smex/wire/
+
+                                 [wire.jpg]
+
+                        Wide-Field Infrared Explorer
+
+                  [ISMAP:buttons.jpg]-[USEMAP:buttons.jpg]
+
+   The SMEX CM database is now available. Point your browser to:
+   http://engrwbserv.gsfc.nasa.gov/smexcm/owa/smxsecure.log1
+   Click the "Login as Guest " button.
+
+
+   INSTRUMENT
+   Detectors: Two 128 x 128 Si:As Blocked Impurity Band (BIB) Arrays
+   Telescope: 30 cm Cassegrain; no moving parts
+   Optics:    Two diamond turned mirrors, one dichroic, one filter
+   Cryostat:  Solid hydrogen; dual stage 7° K/12° K
+
+                                [fafaul.jpg]
+
+   SPACECRAFT
+   SMEX Computer System: 80386/80387 processor, 30 Mbytes solid state
+   recorder, 1553 data bus
+   Communication System: S-Band transponder, 2 Kbps uplink, 2.25 Mbps
+   downlink
+   Attitude Control System: 8085 Processor, analog acquisition, 1
+   Arcminute absolute pointing, 6 Arcsecond jitter
+   SMEX Power Electronics: Direct Energy Transfer
+   Mechanical Structure: M55J/954-3 and K1100/954-3 Cyanate Ester fiber
+   reinforced composites
+   Battery: 9 Ah "Super" Nickel Cadium
+   Solar Arrays: Gallium Arsenide Solar Cells, deployed panels
+   Actuators: Four reaction/momentum wheels, three magnetic torque rods
+   Sensors: Three-axis gyro package, star tracker, digital Sun sensor, six
+   coarse Sun sensors, 3-axis magnetometer, wide-angle Earth sensor
+
+   THE WIRE SURVEY
+
+   The WIRE survey will cover over 100 deg2 of sky and detect sources
+   200-500 times fainter than the IRAS Faint Source Catalog at 25µm and
+   500-2000 times fainter at 12µm. The resulting catalog, expected to
+   contain at least 30,000 starburst galaxies, will reveal their
+   evolutionary history out to redshifts of 0.5 - 1 and the evolutionary
+   history of extremely luminous galaxies beyond redshifts of 5. WIRE will
+   be the first significant galaxy survey to probe these redshifts at
+   far-infrared wavelengths where extinction effects are small and where
+   most of the luminosity of starburst galaxies, and possibly of the
+   universe, can be measured.
+   THE WIRE DEEP SURVEY
+
+   [space.gif] This color image is a simulation of the faint mid-infrared
+   sky as it may appear to WIRE. The image was constructed from
+   simulations of 25 µm and 12 µm WIRE images of a field located near the
+   North Galactic Pole. The field is approximately 0.5° on each side, and
+   over 200 objects are visible. Stars are the blue objects, and galaxies,
+   most of which are undergoing a burst of star formation, range from
+   green to red. (The colors of the brightest objects are distorted
+   because we cannot fully represent the dynamic range of the WIRE data in
+   this rendering). The red galaxies tend to be the most luminous and
+   distant ones. The redshift distribution of galaxies in the image peaks
+   near z=0.5, and our model assumes that the galaxy population is weakly
+   evolving with lookback time. The brightest galaxy near the lower right
+   corner has a 25 µm flux density of 87 mJy. The faintest discrete
+   sources visible have 25 µm flux densities less than 0.5 mJy. The lumpy
+   red background is the confusion noise caused by multitudes of still
+   fainter overlapping galaxies. Simulated by David Shupe (IPAC/JPL) and
+   A. Kris Huber (Utah State University).
+
+              MISSION FACTS
+              Mission Duration: Four months
+              Orbit:            540 km, 97° inclination
+              Mass/Power:       250kg/158W
+              Launch Vehicle:   Pegasus XL
+              Launch Site:      Western Range/Vandenberg AFB
+              Launch Date:      3rd quarter calendar year 1998
+
+                                [wiretn.jpg]
+
+                 new.gif (566 bytes) WIRE TEST BED Homepage
+
+                          Other Mission Information
+         Jet Propulsion Laboratory/Jamieson Science and Engineering
+                             Mission Operations
+
+   The Science
+
+   The WIRE mission consists of a four-month survey in 12 and 25 µm
+   infrared color bands at sensitivity levels bounded by the telescopes
+   25 µm confusion limit. The confusion limit is set by the density of the
+   many faint, unresolved sources in the field of view and the resolving
+   power of the telescope. The WIRE survey will detect primarily galaxies
+   with unusually high rates of star formation or "starburst" galaxies
+   which emit most of their energy in the far-infrared. The number of
+   these faint sources at a given flux level depends on their as yet
+   unknown evolutionary rate.
+
+   One of the most important goals of modern astronomy is to understand
+   the formation and evolution of galaxies. Starburst galaxies are an
+   important population because they represent 30% of the energy budget of
+   the local universe and because almost all of their luminosity is due to
+   star-forming regions. They represent more than 30% of the star
+   formation occurring today. If starburst galaxies have evolved, then
+   they may represent the main source of stars in the universe. WIRE will
+   help reveal the role of starbursts in the evolution of all galaxies.
+   Models of protogalaxies also predict ultraluminous starbursts at early
+   epochs, implying that WIRE may determine when galaxies formed.
+
+   The objective of the WIRE mission is to answer three questions:
+    1. What fraction of the luminosity of the universe at redshifts of 0.5
+       and beyond is due to starburst galaxies?
+    2. How fast and in what ways are starburst galaxies evolving?
+    3. Are luminous protogalaxies common at redshifts less than 3?
+
+   The scientific impact of the WIRE data will be immediate. The number of
+   sources as a function of flux density will indicate the rate of
+   evolution of the starburst galaxy population, that is, the variation of
+   the number and luminosity of these galaxies with cosmic epoch. The
+   infrared color distribution of sources detected as a function of flux
+   density will reveal the nature of the evolution of starburst galaxies
+   and point to protogalaxy candidates. Follow-up observations at other
+   wavelengths will test our assumptions and lead serendipitously to new
+   discoveries.
+
+   The WIRE survey reaches so deeply into unexplored territory that it
+   presents a significant opportunity for scientific investigation and
+   discovery in many areas. Examples of additional investigations include
+   exploring the proposed link between quasars and ultraluminous galaxies,
+   searching for brown dwarfs, searching for circumstellar disks around
+   main sequence stars and exploring the large-scale distribution of
+   galaxies at high redshifts. There is great potential for discovery of
+   entirely new phenomena at these faint flux levels.
+
+                                 [wire.gif]
+     __________________________________________________________________
+
+   KEY SCIENCE PARAMETERS
+   Wavelength: Conduct a survey in two passbands centered near 12 µm and
+   25 µm
+   Sensitivity: 0.1-0.3 mJy at 12µm, 0.3-1.0 mJy (5-sigma) at 25µm (~1000
+   times fainter than IRAS Faint Source Catalog)
+   Sky Coverage: ~10 deg2 in deep survey, ~500 deg2 in moderate-depth
+   survey
+   Expected Sample Size: 105 starburst galaxies, 104 stars, 104 quasars?
+   Expected Redshifts: L* starburst galaxies (most common) out to 0.5,
+   ULIRGs (very luminous) out to 3+
+
+   Resolution (FWHM): 15 arcsecond at 12µm, 22 arcsecond at 24µm Exposure
+   Time: ~1 minute/exposure, ^~103-104 seconds/field Observing Efficiency:
+   70%
+     __________________________________________________________________
+
+               Author: Jim Watzin ( jim.watzin@gsfc.nasa.gov)
+                   Web Design provided by Swales Aerospace
+              The last time this page was updated was 7/22/99.

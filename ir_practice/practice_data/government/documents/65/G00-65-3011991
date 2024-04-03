@@ -1,0 +1,280 @@
+http://dms.dot.gov/help/search_help.asp
+
+                             [USEMAP:newdms.gif]
+                            [USEMAP:newbar3.gif]
+
+                             The Search Tutorial
+
+
+
+   [dot_orange.jpg]  Table of Contents
+   [dot_green.jpg] Introduction: Searching the DMS
+       [dot_green.jpg] Before a Search: Defining a Search
+       [dot_green.jpg] Screen 1: Search the DMS Web
+       [dot_green.jpg] Screen 2: The Search Form
+       [dot_green.jpg] Screen 3: Search Results
+       [dot_green.jpg] Screen 4: The Docket/Document Information
+        [dot_blue.jpg] The Docket and Document Abstract
+            [dot_blue.jpg] Next and Previous Documents
+            [dot_blue.jpg] TIFF Image and Image Size
+       [dot_green.jpg] Printing
+
+
+   [dot_green.jpg]  Introduction: Searching the DMS
+
+   Docketed information is stored in the DMS database. This information
+   can be located by performing a search on the database. There are
+   several ways to define a search on the database, some of which are
+   explained in detail below.  To find out more about Dockets go to our
+   About Dockets information page.
+
+                                     TOP
+   [dot_green.jpg]  Defining a Search:   Most searches fall into two
+   categories.  The first is a specific search where you know some
+   information and want to find out the details.  For example, if you want
+   to find out about a recall recently made for your automobile, or, when
+   planes are allowed to land at your airport.  The second search is
+   general, where you want to find out more information about a subject.
+   For example, airbag legislation or accident statistics.
+                                     TOP
+   [dot_green.jpg]  Search the DMS Web
+
+   [dot_blue.jpg]  By Docket ID: The identifier for a docket.
+       * This is the quickest and easiest way to perform a search.
+       The Docket number is comprised of three parts and the Item Number
+       (or Document ID) adds a fourth part, identifying its place within
+       the docket.  When you want to search the system with an ID, you
+       must break the number into its components.  The hyphenated
+       components are AGENCY - CY (Calendar Year) - DOCKET ID - ITEM
+       NUMBER and it will appear similar to this:
+
+                              OST-1999-1234-56
+       For a Docket ID search you may ONLY enter 1234 into the Docket ID
+       field.
+       Once you have searched for a Docket number your search results will
+       be displayed on the Hit List.  Please proceed to the Hit List
+       section of this tutorial by following the link to the Hit List
+       help.
+
+   [dot_blue.jpg]   By Keyword: A word that appears ONLY in the Docket
+       Subject, Docket Title and Document Title
+       * This is search takes longer than a search by Docket ID..
+       All Dockets are titled.  They also have a subject to quickly
+       describe the content of the Docket.  Every Document with a Docket
+       is titled as well.  With a keyword search you may enter a word (or
+       words) into the keyword field and search the three areas at once.
+       This is especially useful if you do not have a Docket Number but
+       know the content of the Docket or Document.
+       Once you have searched for a keyword your search results will be
+       displayed on the Hit List. Please proceed to the Hit List section
+       of this tutorial by following the link to the Hit List help.
+
+   [dot_blue.jpg] By Search Form: The most complete way to perform a
+       search.
+       The DMS Search Form allows you to search every variable within our
+       database.  If you know only certain facts about a Docket/Document
+       you may need to use this form.  This is also useful if you want to
+       find other Dockets/Documents that have similarities in any way.
+       Continue reading to learn more about performing a search using the
+       Search Form.
+
+                                     TOP
+
+   [dot_green.jpg]  The Search Form
+
+   [dot_blue.jpg]  The Parts of the Search Form
+       Each Docket has several amounts of information stored into our
+       database.  Each Document also has information that is stored there.
+       If you go to the search form page you will see a representation of
+       all the information that is searchable in our database.  The
+       following section will explain some of the commonly searched areas
+       of the search form.
+       There are two halfs to the Search Form.  The top half is the Docket
+       Information.  All the information about a Docket is searchable
+       through the top most half.   The lower half is the Document
+       Information. This information is specifically about the Document.
+        [dot_blue.jpg]  By Docket ID:  The identifier for a Docket.
+            * This is the quickest and easiest way to perform a search.
+            The Docket number is comprised of three parts, Agency,
+            Calendar Year (CY) and Docket ID number. If there is an Item
+            Number (or Document ID) it will add a fourth part, identifying
+            its place within the docket.  When you want to search the
+            system by a Docket ID, you must break the number into its
+            components.  The hyphenated components, in order, are AGENCY -
+            CY (Calendar Year) - DOCKET ID - ITEM NUMBER and it will
+            appear similar to this:
+
+                              OST-1999-1234-56
+            For a Docket ID search you need only enter 1234 into the
+            Docket ID field.
+            In addition to the Docket ID you may also search with the Item
+            Number.  This is the position of the Document with in the
+            Docket.  If you have the number of one particular document you
+            may enter it in to the field called "Item #".  This can make
+            your search results more focused and have fewer inaccurate
+            matches.
+            With the Docket ID and Item # you will be able to find a
+            specific document.  The Agency and Calendar Year are
+            redundant.  Each Docket has a unique Docket ID but there may
+            be many Documents within a single Docket. So there could be
+            several Documents with same Docket ID but each Document has a
+            unique Docket ID and Item # combination. So when used together
+            you can find a single document.
+            Try this search.
+
+   [dot_blue.jpg]   By Agency:The Office within DOT to whom the docket
+       belongs.
+       There is an agency list online which also shows how many dockets
+       each agency currently has in the system.  An agency search alone
+       will return many results, so you should combine selection of an
+       agency with other search criteria to help focus your search.
+       Use the drop down menu by clicking on the down arrow on the right
+       hand side of the box. Select the Agency you wish to search on and
+       then click on the "Search" button in the upper right hand corner.
+       This will return all the dockets/documents that Agency currently
+       has in the DMS.
+       Try this search.
+
+   [dot_blue.jpg]  By Category:  The type of docket being entered into the
+       system
+       Each docket data entered into the DMS is listed under a specific
+       category of information. The category describes what type of
+       information is contained in a particular docket or document.  These
+       categories are predefined in the DMS and can be accessed via a
+       drop-down list box on the Category field.   To view the list, click
+       on the down arrow in the field. Select the Category you wish to
+       search for and click on "Search" in the upper right hand corner.
+       Try this search.
+       Categories are agency specific, meaning they vary between the
+       different agencies in the DMS.  There is a full list of all
+       agencies and their categories.
+
+   [dot_blue.jpg]  By Data Entry Date:  The date the document was entered
+       into the DMS
+       There are several ways this field can be used to search for a
+       docket/document.
+        1.  Enter the exact date you wish to search. The date format used
+            for this is dd-mon-yyyy. For example, if you wish to search
+            for dockets/documents entered on January 1, 2000 you would
+            insert the date in the Data Entry Date field as 01-JAN-2000.
+            Try this search.
+            2. You can search for a date that is greater than a date. For
+            example, if you wish to find all the dockets/documents that
+            were placed into the DMS after January 1, 2000, you would
+            enter the date in the Data Entry Date field using the greater
+            than sign (>) and the date (remember the date is dd-mon-yyyy).
+            >01-JAN-2000
+            Try this search.
+            3. Likewise, you can do a search for the dockets/documents
+            entered in the DMS before a certain date. As an example, if
+            you wish to get a list of all the dockets/documents in the DMS
+            before January 1, 2000 you can enter the date using the less
+            than sign (<). <01-JAN-2000 NOTE: If you choose to use this
+            form of date search, we suggest you further narrow the search
+            criteria by selecting an Agency or Docket Subject to add to
+            your search. Otherwise, the search will take quite a bit of
+            time and return a very large number of results.
+            Try this search.
+
+   [dot_blue.jpg]  By Docket Subject:  A brief description of subject
+       matter.
+       The Docket Subject describes what the case (or docket) is about.
+       For instance, you want to search for all the dockets/documents that
+       have anything to do air bags in vehicles. The easiest way is to do
+       a "wild card" search. This is done by surround the word or words
+       you enter in the field with percent signs (%). So, to search for
+       dockets/documents about air bags you would type %Air Bag%.
+       Additionally if you select "dockets only" at the top left hand
+       corner of the search form, you will see only the dockets listed.
+       You can, however, have both the dockets and documents listed (this
+       would be a very long list and take some time for you to find what
+       you were looking for).
+       Try this search.
+
+   [dot_blue.jpg]  By Other Docket/Document information:
+       You can find a brief description of all other entry information on
+       the search form by clicking on the field names.  If you are having
+       any problems or have any additional questions you may contact us
+       through our support page.
+
+                                     TOP
+   [dot_green.jpg]  Search Results or The Document Hit List
+
+   Once matches to your search have been found they are displayed in a
+   list.  This list is known as the Document Hit List.  There is also a
+   possibility of getting no results. In this case, you should be less
+   specific with your search criteria.
+
+   The information contained in the Document Hit List is:
+
+   [dot_blue.jpg]  Docket/Document Number::
+       This character/number combination is the complete Docket ID. It
+       consists of the Agency-Calender Year (year in which the docket was
+       created)-numeric Docket ID, and, if it is a document search, the
+       Item Number of the document. A complete description of Document ID
+       format is available above. The item number is generated
+       sequentially by the system each time a new document is added under
+       a docket.  The item number will not be present if you select the
+       "Search Dockets Only" radio button since only dockets will be
+       listed.
+       [dot_blue.jpg]  Document Type:
+       This refers to the category to which the docket or document
+       belongs.
+       [dot_blue.jpg]  Document Title:
+       Full title of the document.
+
+   If you only listed dockets, an intermediate docket only list will
+   appear before the docket/document list.  Once the desired document is
+   located in the Hit List, click on the Docket/Document ID to view the
+   Docket/Document Information page.
+                                     TOP
+   [dot_green.jpg]  The Docket/Document Information Screen
+
+   Once a document has been selected, all of the docket information as
+   well as the document information is listed on the Docket/Document
+   Information screen.  The top half of the screen displays the docket
+   information and the bottom half displays the document information.
+   Following is an explanation of the buttons you will see on screen (most
+   are on the bottom).
+
+   [dot_blue.jpg]  Hide/Show docket Info:
+       When using the prev and next buttons, you are moving between the
+       documents within a docket. Since the docket information will stay
+       the same, this button gives you the option of hiding the docket
+       information so that you do not have to scroll down to see the
+       document information.
+       [dot_blue.jpg]  New Search:
+       Use this button to return to the search form and execute a new
+       search.
+       [dot_blue.jpg]  Prev:
+       Use this button to go to the previous document within the docket -
+       not within your search results. If there is no previous document as
+       with Item number 1, the button will not appear.
+       [dot_blue.jpg]  Next:
+       Use this button to view the next document within the docket - not
+       within your search results. If there are no additional documents,
+       the button will not appear.
+       [dot_blue.jpg]  View Image:
+       Use this button to see the scanned images of a document.  All
+       images are currently in TIFF format and Adobe PDF format, so you
+       will need a viewer or plug-in.
+       [dot_blue.jpg]  Image Size:
+       This link will show you the size of the image for both the PDF and
+       TIFF files.
+       [dot_blue.jpg]  Dok/Doc Abstract:
+       Use this button to read summary and/or reference information for a
+       docket/document. These buttons will not appear if an abstract is
+       not available.
+
+                                     TOP
+   [dot_green.jpg]  Printing a Document
+
+   Your Internet Browser's printing option can be used to print
+   documents.  There is usually a print button in the toolbar and under
+   one of your menu items.  If you are viewing a TIFF image, you should
+   still be able to print the page, but that will be dependent upon the
+   TIFF viewer or plug-in you have selected.
+
+                            [USEMAP:newbar3.gif]
+
+                             DMS2000 14-FEB-2000

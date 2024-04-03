@@ -1,0 +1,1122 @@
+http://nmp-techval-reports.jpl.nasa.gov/DS1/Remote_Integrated_Report.pdf
+
+   Remote Agent Experiment DS1 Technology Validation Report Douglas E.
+   Bernard, Edward B. Gamble, Jr., Nicolas F. Rouquette, Ben Smith, Yu-Wen
+   Tung Jet Propulsion Laboratory California Institute of Technology
+   Pasadena, California 91109 Nicola Muscettola, Gregory A. Dorias, Bob
+   Kanefsky, James Kurien, William Millar, Pandu Nayak, Kanna Rajan, Will
+   Taylor Ames Research Center http://rax.arc.nasa.gov Deep Space 1
+   Technology Validation Report-Remote Agent Experiment Table of Contents
+   Section Page Extended Abstract
+   .......................................................................
+   .......................................................................
+   ..... v Fact Sheet
+   .......................................................................
+   .......................................................................
+   ................. vii 1.0 The Remote Agent
+   .......................................................................
+   ......................................................................
+   1 1.1 Technology
+   Overview...............................................................
+   .......................................................................
+   ..................1 1.2 Detailed Validation Objectives
+   .......................................................................
+   ...................................................................3
+   1.3 Performance Envelope
+   .......................................................................
+   .......................................................................
+   .........4 1.4 Technology Details
+   .......................................................................
+   .......................................................................
+   ..............4 1.5 Subsystem
+   Interdependencies......................................................
+   .......................................................................
+   ..............10 1.6 Preparing Lisp for Flight
+   .......................................................................
+   .......................................................................
+   ....10 2.0 The Remote Agent
+   Experiment.............................................................
+   .......................................................... 11 2.1
+   Historical
+   Perspective............................................................
+   .......................................................................
+   ....................11 2.2 Domain
+   Models.................................................................
+   .......................................................................
+   ........................12 2.3 Experiment
+   Scenarios..............................................................
+   .......................................................................
+   ..................14 2.4 RAX
+   Development............................................................
+   .......................................................................
+   ........................15 2.5 Ground Tests
+   .......................................................................
+   .......................................................................
+   ......................16 2.6 Ground Tools
+   .......................................................................
+   .......................................................................
+   .....................18 2.7 Flight Test
+   .......................................................................
+   .......................................................................
+   ..........................20 2.8 Effectiveness of the Development and
+   Test
+   Process................................................................
+   ........................................21 2.9 Costing
+   .......................................................................
+   .......................................................................
+   ...............................24 2.10 Lessons
+   Learned................................................................
+   .......................................................................
+   ......................24 2.11 Answers to a Project Manager's
+   Questions..............................................................
+   ......................................................27 3.0 Future
+   Applications
+   .......................................................................
+   .................................................................. 28
+   4.0 Acknowledgments
+   .......................................................................
+   .................................................................... 29
+   5.0 List of
+   References.............................................................
+   .......................................................................
+   ........ 29 Figures Figure Page Figure 1. Remote Agent Architecture
+   .......................................................................
+   .................................................................. 1
+   Figure 2. Planner/Scheduler Architecture
+   .......................................................................
+   ............................................................ 5 Figure
+   3. Temporal Constraints in DDL
+   .......................................................................
+   .............................................................. 5 Figure
+   4. A Plan Fragment Formed by a DDL
+   Model..................................................................
+   ............................................... 6 Figure 5. An Overview
+   of the Remote Agent
+   Executive..............................................................
+   ............................................... 7 Figure 6. Multiple
+   Methods in ESL for Achieving Thrust
+   .......................................................................
+   .................................. 8 Figure 7. Livingstone Processing
+   Cycle..................................................................
+   .................................................................... 8
+   Figure 8. Livingstone Model of the Cassini Main Engine Subsystem
+   .......................................................................
+   ................ 9 Figure 9. Schematic of Livingstone Processing
+   .......................................................................
+   ................................................... 9 Figure 10.
+   Packetview-Telemetry Packet
+   Display................................................................
+   .................................................. 18 Figure 11.
+   ExecView-Plan Execution
+   Status.................................................................
+   ......................................................... 18 Figure 12.
+   PS Graph-Planner Progress
+   Display................................................................
+   ...................................................... 19 Figure 13.
+   Stanley-Hardware Status
+   Display................................................................
+   .......................................................... 19 Figure
+   14. Timeline Applet
+   .......................................................................
+   .......................................................................
+   ......... 20 Figure 15. Temporal Distribution of Problem
+   Reports................................................................
+   ............................................. 22 Figure 16. Planner PRs
+   by Category
+   .......................................................................
+   .................................................................. 22
+   Figure 17. Executive PRs by Category
+   .......................................................................
+   .............................................................. 22
+   Figure 18. MIR PRs by
+   Category...............................................................
+   .......................................................................
+   ........ 23 Figure 19. RAX Costing
+   .......................................................................
+   .......................................................................
+   ............. 24 iii Deep Space 1 Technology Validation Report-Remote
+   Agent Experiment Tables Table Page Table 1. Autonomy Levels of RA
+   .......................................................................
+   .......................................................................
+   . 3 Table 2. Significant Events for the RAX Project
+   .......................................................................
+   ............................................... 12 Table 3. Summary of
+   Planner Models for
+   RAX....................................................................
+   .................................................... 13 Table 4. DS1
+   Hardware Modeled as Components in
+   MIR....................................................................
+   .................................... 13 Table 5. DS1 Hardware Modeled
+   as Modules in
+   MIR....................................................................
+   .......................................... 14 Table 6. Timelines and
+   Their Respective Tokens by Module (EXEC's perspective)
+   ............................................................... 14
+   Table 7. Development Testbeds for RAX
+   .......................................................................
+   .......................................................... 16 Table 8.
+   Dates of RAX Readiness on
+   Testbeds...............................................................
+   .......................................................... 16 Table 9.
+   Number of PRs by
+   Subsystem..............................................................
+   .......................................................................
+   22 Appendices Appendix Page Appendix A. Telemetry
+   Channels...............................................................
+   .......................................................... 31 Appendix
+   B. DS1 Technology Validation Power On Times
+   .......................................................................
+   ........ 32 Appendix C. Acronym
+   Definitions............................................................
+   ............................................................ 33 iv Deep
+   Space 1 Technology Validation Report-Remote Agent Experiment EXTENDED
+   ABSTRACT and recovery. These component technologies are described
+   briefly below. Remote Agent (RA) is a model-based, reusable, artificial
+   intelligence (AI) software system that enables goal-based PS-PS
+   generates the plans that RA uses to control the spacecraft commanding
+   and robust fault recovery. RA was spacecraft. Given the initial
+   spacecraft state and a set of flight validated during an experiment
+   onboard Deep Space 1 goals, PS generates a set of synchronized
+   high-level tasks (DS1) between May 17 and May 21, 1999. that, once
+   executed, will achieve the goals. PS consists of a heuristic
+   chronological-backtracking search engine Technology Overview operating
+   over a constraint-based temporal database. PS RA can operate at
+   different levels of autonomy, allowing begins with an incomplete plan
+   and expands it into a ground operators to interact with the spacecraft
+   with complete plan by posting additional constraints in the immediate
+   commands to the flight software, if needed. database. These constraints
+   originate either from the ground, However, one of the most unique
+   characteristics of RA, and which imposes them directly on the goals, or
+   from a main difference with traditional spacecraft commanding,
+   constraint templates (e.g., the camera must be pointed at an is that
+   ground operators can communicate with RA using asteroid to take a
+   picture of it) stored in a model of the goals (e.g., "During the next
+   week take pictures of the spacecraft. PS queries domain-specific
+   planning experts following asteroids and thrust 90% of the time")
+   rather than (specialized software modules such as Deep Space 1's with
+   detailed sequences of timed commands. RA determines navigation system)
+   to access information that is not in its a plan of action that achieves
+   those goals and carries out that model. plan by issuing commands to the
+   spacecraft. Actions are represented with tasks that are decomposed on
+   the fly into EXEC-EXEC is a reactive, goal-achieving control system
+   more detailed tasks and, eventually, into commands to the that is
+   responsible for: underlying flight software. When discrepancies are
+   detected * Requesting and executing plans from the planner. between the
+   desired state and the actual state, RA detects, * Requesting/executing
+   failure recoveries from MIR. interprets, and responds to the anomaly in
+   real time. More * Executing goals and commands from human operators.
+   serious anomalies can be addressed with longer response * Managing
+   system resources. times by generating a new plan of action while the *
+   Configuring system devices. spacecraft is kept idle in a safe
+   configuration. When the new * System-level fault protection. plan is
+   generated, the spacecraft is taken out of the safe * Achieving and
+   maintaining safe-modes as necessary. configuration and execution
+   resumes normally. EXEC is goal-oriented rather than command-oriented. A
+   RA differentiates itself from traditional flight software goal is
+   defined as a system state being controlled that must because it is
+   model-based. In traditional software programs be maintained for a
+   specified length of time. As a simple and expert systems, the
+   programmer decides what the result example, consider the goal: keep
+   device A on from time X of a program should be and writes down
+   instructions or to time Y. If EXEC were to detect that device A is off
+   rules that attempt to achieve those results. The computer during that
+   period, it would perform all the commands simply executes the
+   instructions or fires the rules with no necessary to turn it back on.
+   EXEC controls multiple knowledge of what the intended result was or how
+   it is processes in order to coordinate the simultaneous execution
+   achieving it. In the RA system, however, each component of multiple
+   goals that are often interdependent. In order to operates on models,
+   general descriptions of the behavior and execute each goal, EXEC uses a
+   model-based approach to structure of the spacecraft it is controlling.
+   Each RA create a complex command procedure designed to robustly
+   component solves problems by accepting goals and using achieve the
+   goal. appropriate reasoning algorithms on its models to assemble a
+   solution that achieves the goals. The reasoning algorithms MIR-The MIR
+   inference engine provides mode identifica- are general-purpose and
+   remain unchanged across different tion (diagnosis) and mode
+   reconfiguration (recovery) deployments of RA. For different
+   applications, the parts that functionality. To track the state of each
+   component (called a change are the models and possibly the
+   problem-solving mode) in the spacecraft, MIR eavesdrops on commands
+   that control knowledge needed by some RA modules to tune are sent to
+   the spacecraft hardware by EXEC. As each performance. command is
+   executed, MIR receives observations from spacecraft's sensors, which
+   are then abstracted by monitors Remote Agent Component Technologies in
+   the spacecraft's control software. MIR combines these Remote Agent
+   integrates three separate technologies: an commands and observations
+   with declarative models of the onboard Planner/Scheduler (PS), Smart
+   Executive (EXEC), spacecraft components to determine the current state
+   of the a robust plan-execution system , and the Mode Identification
+   system and to report it to EXEC. If failures occur, MIR uses and
+   Recovery (MIR) system for model-based fault diagnosis v Deep Space 1
+   Technology Validation Report-Remote Agent Experiment the same model to
+   find a repair or workaround that allows preparing a plan on the ground
+   and uplinking it to the the plan to continue execution. spacecraft for
+   execution, and providing closed-loop planning and execution onboard the
+   spacecraft. The final The key idea underlying model-based diagnosis is
+   that a validation objective was the first formulation of a combination
+   of component modes is a possible description development and testing
+   plan for an autonomous flight of the current overall state of the
+   spacecraft only if the set of software system. models associated with
+   these modes is consistent with the observed sensor values. This method
+   does not require that Test Program and Results all aspects of the
+   spacecraft state be directly observable, The Remote Agent Experiment
+   (RAX) consisted of using providing an elegant solution to the problem
+   of limited the RA technology to operate the DS1 spacecraft for several
+   observability. days. A series of operations scenario based on DS1
+   active cruise mode was developed. In these scenarios, RAX Risks
+   commanded a subset of the spacecraft subsystems: Ion RA is flight
+   software and as such poses the same kind of Propulsion System (IPS),
+   Miniature Integrated Camera and risks posed by conventional flight
+   software. The Spectrometer (MICAS), Autonomous Navigation (NAV),
+   autonomous behavior implemented by RA is not Attitude Control System
+   (ACS), and a series of power qualitatively different from that
+   displayed by conventional switches. fault protection or attitude
+   control. In all cases, the spacecraft is commanded on the basis of
+   current state The main scenario goals were to execute an IPS thrust
+   arc, information rather than by direct operator commands. The acquire
+   optical navigation images as requested by the behavior of RA can be
+   predicted, within an envelope, just as autonomous navigator, and
+   respond to several simulated the behavior of fault protection or
+   attitude control can be faults. The faults included minor ones that
+   could be predicted within certain bounds. Confidence in the RA's
+   responded to without disrupting the current plan and more responses can
+   be obtained through testing, just as serious ones that required
+   generating a new plan to achieve confidence in fault protection or
+   attitude control is obtained the remaining goals. A continuous
+   integration approach was now. adopted in which new features or bug
+   fixes were integrated in new releases only after the integrated system
+   could A risk addressed by the experiment concerns the integration
+   successfully run the reference scenarios on all available and testing
+   of the technology. RA in a novel integration of testbeds. An extensive
+   formal-testing program was three technologies; the application of these
+   integrated conducted, separate from the software development process.
+   technologies to spacecraft is also new. For this reason, there Testing
+   was distributed on several different platforms of was no prior
+   experience on development and validation different speeds, level of
+   fidelity, and availability to the RA methodologies for such a system.
+   Another risk had to do team. Test cases were targeted to the most
+   available testbed with the integration of the AI technologies of RA,
+   based on that could validate them with the reasonable expectation that
+   general-purpose search algorithms, together with real-time test results
+   would hold on higher fidelity testbeds. control software on a flight
+   processor. In spite of a couple of bugs that occurred during the flight
+   Validation Objectives experiment, RA successfully demonstrated 100% of
+   its The first validation objective was to demonstrate RA's flight
+   validation objectives. ability to autonomously operate a spacecraft
+   with communication from ground limited to few high-level goals.
+   Applicability to future NASA missions This translated into specific
+   objectives for PS, EXEC, and The Remote Agent technology is applicable
+   to any future MIR. The second validation objective was to show that RA
+   NASA mission that desires or requires autonomous could be commanded
+   with different levels of autonomy. operations. The RA reasoning engines
+   can be used as-is on This meant supporting all of the possible
+   operation modes: future missions. New domain models would be required
+   for using EXEC to run a traditional sequence of commands, each mission.
+   vi Deep Space 1 Technology Validation Report-Remote Agent Experiment
+   FACT SHEET Point of Contact Remote Agent Co-Winner of the Douglas E.
+   Bernard NASA 1999 Software Avionic Systems Engineering Estimated
+   Spacecraft of the Year Award Jet Propulsion Laboratory State and
+   1-818-354-2597 Plan Database douglas.e.bernard@jpl.nasa.gov
+   Observations and Command Responses Models of Remote Agent Spacecraft,
+   Reasoning Engines Flight rules Planner/ Spacecraft Scheduler Flight
+   Software Smart Executive and Hardware State Estimator/ Systems Recovery
+   Expert (Livingstone) Low-level Commands Goals, high or low-level
+   commands Ground Control Validation Objectives Capabilities *Initiate
+   and generate flexible plans on-board *Robust goal-based commanding
+   *Reject low-priority, unachievable goals - Planner expands high-level
+   goals into flexible plans - Smart Executive decomposes plans into
+   low-level *Execute plans generated both onboard and from ground
+   spacecraft commands and monitors that the states commanded to are
+   achieved and maintained *Confirm execution of commands
+   *Fail-operational model-based fault recovery *Demonstrate model-based
+   failure detection and recovery - Livingstone identifies faults and
+   suggests recoveries that *Maintain required spacecraft states in the
+   face of failures the Smart Executive uses to continue plan execution -
+   If necessary, Executive requests the Planner/Scheduler to *Re-plan
+   following a failure generate a new plan in light of failure *Generate
+   back-to-back plans Applicability to Future Missions *Modify mission
+   goals from ground Remote Agent technologies are generally applicable to
+   missions that benefit from highly autonomous operation and *Execute
+   low-level commands from ground are currently being applied to
+   prototypes of future NASA *Update estimated spacecraft-state database
+   from ground missions including a space-based interferometer and an in-
+   situ propellant production plant. vii Deep Space 1 Technology
+   Validation Report-Remote Agent Experiment Remote Agent Experiment DS1
+   Technology Validation Report Douglas E. Bernard, Edward B. Gamble, Jr.,
+   Nicolas F. Rouquette, Ben Smith, and Yu-Wen Tung Jet Propulsion
+   Laboratory, California Institute of Technology, Pasadena, California
+   Nicola Muscettola, Gregory A. Dorais, Bob Kanefsky, James Kurien,
+   William Millar, Pandu Nayak, Kanna Rajan, and Will Taylor NASA Ames
+   Research Center 1.0 THE REMOTE AGENT Remote Agent Planning Ground
+   Experts System Remote Agent (RA) is a model-based, reusable, artificial
+   PS RAX intelligence (AI) software system that enables goal-based
+   Manager spacecraft commanding, and robust fault recovery. This MM FSW
+   report describes the RA technology, its development and test history,
+   and the DS1 flight experiment in which RA was EXEC validated. Whenever
+   feasible, this report attempts to give Monitors guidance on how RA can
+   be fruitfully employed in future science missions. Also highlighted are
+   further technology MIR developments and operational applications the
+   team is Flight H/W currently pursuing. Figure 1. Remote Agent
+   Architecture 1.1 Technology Overview RA integrates three separate
+   Artificial Intelligence RA can operate at different levels of autonomy,
+   allowing technologies: automated planning and scheduling, robust ground
+   operators to interact with the spacecraft with multi-threaded
+   execution, and model-based fault diagnosis immediate commands to the
+   FSW, if needed. However, and recovery. what makes RA unique is that
+   ground operators can skip formulating detailed timed-command sequences
+   and 1.1.1 Remote Agent Architecture-The RA architecture and communicate
+   with RA at the goal level. Goals are stored in its relation to flight
+   software are shown in Figure 1. Viewed MM in a mission profile covering
+   an extended period. as a black-box, RA issues commands to real-time
+   execution flight software (FSW) to modify spacecraft state and In
+   principle, a mission profile could contain all goals for a receives
+   data from the spacecraft through a set of monitors mission, requiring
+   no further uplink from ground. More that filter and discretize sensor
+   values. The RA itself is realistically, mission operations will want to
+   change goals comprised of three main components: a Planner/Scheduler
+   (e.g., scheduled DSN communications can be modified on a (PS), a Smart
+   Executive (EXEC), and Livingstone, a Mode week-by-week basis). This is
+   easily done by uplinking Identification and Reconfiguration (MIR)
+   system. An commands to edit the mission profile. Goals typically
+   additional component, strictly related with PS, is the contain few
+   details of how they should be done. For Mission Manager (MM). In
+   addition, the RA team provided example, the only DS1 Remote Agent
+   Experiment mission a clean interface to the rest of the FSW via the
+   Remote profile goals were "Perform AutoNAV orbit determination Agent
+   Experiment Manager (RAXM), which mediated all (OD) activities for 1
+   hour every day," and "Thrust the IPS communication between RA and FSW
+   and was included engine for at most 12 hours." from the outset in the
+   FSW design. RAXM provided a messaging conduit between RA and the rest
+   of FSW, To translate high-level goals into a stream of commands to
+   including interfaces to the planning experts, as well as to the flight
+   software, RA follows a two-step process. In the first monitors and the
+   real time sequencer. This mechanism step, MM selects goals for the next
+   commanding horizon allowed RA to be cleanly bundled on top of the FSW
+   much (typically covering several days) and sends them to PS. PS later
+   in flight and also allowed a clear methodology for uses its model of
+   the spacecraft to determine which detailed testing and validating the
+   RA software on the ground. tasks should be selected and scheduled to
+   achieve the goals. For example, in order to perform an OD, PS
+   determines The main functionalities provided by RA, how each from the
+   model that pictures of beacon asteroids need to be individual RA
+   component participates in the overall picture, taken. In order to
+   select these asteroids, the model instructs and concrete examples of
+   commanding and operations PS to interrogate the AutoNAV software as a
+   planning relative to DS1 are described below. expert. In general, PS
+   will rely on several specialized services provided by software modules
+   external to RA. In DS1, both AutoNAV and ACS provided information to PS
+   1 Deep Space 1 Technology Validation Report-Remote Agent Experiment
+   that was incorporated into plans. Going back to our issuing commands,
+   receives sensor observations from moni- example, observing an asteroid
+   translates, according to the tors, and uses model-based inference to
+   deduce the state of PS model, into taking a series of images of it with
+   the the spacecraft and provide feedback to EXEC. The other Miniature
+   Integrated Camera and Spectrometer (MICAS). component of MIR, mode
+   reconfiguration (MR), serves as a recovery expert, taking as input a
+   set of EXEC constraints to Therefor, PS schedules a "MICAS take Optical
+   Navigation be established or maintained, and recommends a recovery
+   (OPNAV) module subsystem FSW images" task. Moreover, action to EXEC
+   that will achieve those constraints. MIR the model instructs PS that
+   while images of an asteroid are provides both the MI and MR functions
+   using a single core being recorded, the attitude of the spacecraft must
+   be algorithm and a single declarative model. compatible with the MICAS
+   camera pointing at it. If this is not the case, the PS model instructs
+   PS to schedule an Fault protection in RA happens at two different
+   levels: appropriate turn, changing the attitude from the previous *
+   Low-level fault protection loop. This involves EXEC one to the desired
+   one. and MIR in the context of executing a single PS- generated task.
+   Suppose that EXEC is commanding The brief example above points out
+   another fundamental MICAS power on in order to ensure that MICAS is on
+   characteristic of all RA components: their fundamental during the
+   "MICAS take OPNAV images" PS task. It reliance on explicit, declarative
+   models of the spacecraft. does so by sending an appropriate command to
+   the power driver. MI observes the command and, on the Although the
+   level of detail varies between the different basis of its previous
+   state estimate and its models, components, RA models are fairly
+   abstract and focus on predicts the likely next state in which the
+   system will system level interactions-not detailed individual be. This
+   prediction provides a qualitative description of subsystems' or
+   components' operation. the sensor readings MIR should observe from the
+   spacecraft (e.g., the switch sensor and current sensor This approach
+   has two advantages. First, this provides a should be consistent with
+   MICAS being on). If the method to capture system-level knowledge in a
+   form that expected observations are not received, MI uses its can
+   directly command a spacecraft-no costly, error-prone model to
+   hypothesize the most likely cause of the translation into flight
+   software is needed. At best, system unexpected observations in terms of
+   failures of the requirements are translated into flight rules to check
+   spacecraft's components. The information about the command sequence
+   validity, not generate them. new state of the spacecraft hardware is
+   sent to EXEC, which now asks MIR for an action to correct the Secondly,
+   the more abstract models employed are less problem. MIR now activates
+   MR, which, using the susceptible to changes when a detailed
+   understanding of the same model, determines the least-cost system state
+   that behavior of each subsystem is gained during spacecraft satisfies
+   EXEC's request and one that is reachable from development. Although
+   they need to be adjusted to the new the fault mode. MIR then gives EXEC
+   the first action in finding, abstract models usually remain
+   structurally a possible sequence that will take the system to that
+   unchanged and, therefore, remain the synthesis procedures state. Such a
+   recovery might involve resetting a device, that RA components use to
+   generate command loads. attempting a command again, or a complex
+   reconfigura- tion of the spacecraft to enable a functionally redundant
+   Once PS has generated a plan for the next commanding system. EXEC
+   executes the recovery action, under the horizon, EXEC receives it and
+   incorporates it into the watchful eye of MIR, and receives further
+   actions from queues of tasks that it is currently executing. Tasks MIR
+   if needed by the recovery process. When the generated by PS tend to be
+   fairly abstract. EXEC's recovery is complete, EXEC continues executing
+   the PS responsibility is to synchronize the parallel execution of the
+   task in a nominal fashion. Note that during this entire plan's tasks
+   according to the specifications contained in the process the original
+   PS task is still active and in a plan and to further decompose each
+   task, one at a time, into "nominal" state. This depends on the time
+   allocated to more detailed steps. This task decomposition eventually
+   the task including enough slack to tolerate variations results in
+   individual commands being sent, one at a time, to during execution that
+   can be handled by low-level fault FSW. For example, the abstract task
+   "MICAS take OPNAV protection. images" is decomposed into commanding
+   MICAS to take a * High-level fault protection loop. This involves EXEC
+   number of snapshots while checking that MICAS is kept and PS. Assume
+   that all recovery actions suggested by "ON" during the entire process.
+   MR fail and no more recovery actions are available. MIR infers that
+   MICAS is unusable and communicates Besides its goal-directed commanding
+   and model-centered this to EXEC. This means that there is no way to
+   approaches, RA puts particular emphasis on robustness of execute a
+   command necessary for the success of the execution and flexibility of
+   response to faults. The mode "MICAS take OPNAV images" task. Moreover,
+   the identification (MI) component of MIR observes EXEC assumed
+   conditions for other tasks that may be present 2 Deep Space 1
+   Technology Validation Report-Remote Agent Experiment in the plan in the
+   future may now be invalidated. 1.2.3 MIR Validation Objectives-
+   Therefore, EXEC terminates task execution with a * Confirm executive
+   command execution. failure, discards the rest of the plan, and
+   immediately * Demonstrate model-based failure detection, isolation,
+   commands the spacecraft to enter an appropriate "RA and recovery.
+   standby" mode.1 EXEC then activates PS by * Demonstrate the ability to
+   update MIR state via ground communicating to it the current state of
+   the spacecraft commands. and asks for a new plan. After receiving the
+   initial state from EXEC and the goals from MM, PS generates a 1.2.4
+   Other Objectives-Other validation objectives new plan that achieves the
+   goals as best as possible addressed the impact of the introduction of
+   RA into a within the new, degraded spacecraft configuration.
+   "traditional" spacecraft software architecture. From the When the plan
+   is ready, PS sends it to EXEC. EXEC outset, RA was designed to work in
+   conjunction with then exits the "RA standby" state and resumes normal
+   existing FSW modules and not to replace them. As a result, operations
+   by starting the execution of the new plan. fidelity control provided by
+   RA depends on the scope and detail of the spacecraft models. The
+   challenge was to With the above capabilities, RA allows implementation
+   of demonstrate that such cooperative arrangement with FSW
+   fail-operational behaviors under a much broader range than could indeed
+   be carried out. This consisted of modeling is possible in traditional
+   spacecraft commanding. Tradition- within RA only a specific set of
+   spacecraft subsystems and ally, only critical sequences (e.g., Saturn
+   orbit insertion for allowing conventional techniques of FSW control to
+   deal Cassini) are designed to tolerate a large number of faults with
+   the remaining control modes of the craft. While there without requiring
+   "safing" of the spacecraft. This depends are no software or
+   architectural limitations that would on the cost of analysis and
+   implementation of these disallow RA to command all subsystems for an
+   extended sequences. Therefore, in less critical mission phases, a fault
+   period of time, the fielding of RA on DS1 was also meant to event
+   usually requires the intervention of the ground provide a credible
+   demonstration of the fact that autonomy operations team to correct it.
+   With RA, the cost of concepts could be applied within a well-defined
+   scope. implementing these scenarios is significantly reduced, making
+   possible an increase of mission productivity and a Even within the
+   scope of the autonomy demonstration, it reduction of cost of
+   operations. was important to show that adopting RA was not an "all or
+   nothing" proposition and could be commanded with 1.2 Detailed
+   Validation Objectives different autonomous-operation levels. Table 1
+   shows the Validation of a technology with the complexity and the
+   possible RA autonomy levels, all the way from having pervasive systemic
+   impact of RA required attention to EXEC issuing low-level commands from
+   a low-level script several different aspects and dimensions. analogous
+   to a traditional command (autonomy level 2), to preparing a plan on the
+   ground and uplinking it to the The first and most obvious objective was
+   to validate the fact spacecraft for execution (autonomy level 3), to
+   providing that RA could autonomously command a system as complex
+   closed-loop planning and execution on the spacecraft as a spacecraft
+   for an extended period of time. This (autonomy level 6). The DS1
+   autonomy experiment was translated into the following list of
+   objectives for each RA designed from the outset to begin at level 3 to
+   build component. confidence and then migrate to level 6. 1.2.1 PS/MM
+   Validation Objectives- Table 1. Autonomy Levels of RA * Generate plans
+   onboard the spacecraft. * Reject low-priority, unachievable goals.
+   Level Ground System Onboard PS Onboard EXEC * Replan following a
+   simulated failure. 1 Prepare real-time None None (executed commands w/o
+   EXEC * Enable modification of mission goals from ground. involvement) 2
+   Prepare sequence None Execute 1.2.2 EXEC Validation Objectives-
+   sequence * Provide a low-level commanding interface. 3 Prepare plan,
+   upload None Execute plan; * Initiate onboard planning. to EXEC as
+   script "Scripted mode" * Execute plans generated onboard and from the
+   ground. 4 Prepare plan, upload Confirm and Execute plan; * Recognize
+   and respond to plan failures. to planner as goals pass thru the
+   "Planner Mode" planner * Maintain required properties in the face of
+   failures. 5 Prepare plan, Complete the Execute plan including some plan
+   unexpanded goals 1 Note that this is a standby situation only from the
+   perspective of 6 Define goals Prepare plan Execute plan RA. From the
+   point of view of FSW, "RA standby" mode is not a fault mode and does
+   not require FSW fault protection. 3 Deep Space 1 Technology Validation
+   Report-Remote Agent Experiment The final set of validation objectives
+   involved the 1.4.1 Planner/Scheduler-PS provides the core of the high-
+   development process for autonomy software. This covered a level
+   commanding capability of RAX. Given an initial, number of separate
+   items: incomplete plan containing the initial spacecraft state and *
+   Integration of RA with the DS1 FSW, a large and goals, PS generates a
+   set of synchronized high-level complex system written in a language (C)
+   different activities that, once executed, will achieve the goals. In
+   the from RA (Lisp). spacecraft domain, planning and scheduling aspects
+   of the * Adaptation of RA models and scenarios to reflect problem need
+   to be tightly integrated. The planner needs to operational constraints
+   imposed by the flight team, even recursively select and schedule
+   appropriate activities to late in the development process. achieve
+   mission goals and any other sub-goals generated by * Achievement of
+   high-level of confidence by the DS1 these activities. It also needs to
+   synchronize activities and spacecraft team by going through a rigorous
+   test allocate global resources over time (e.g., power and data regimen
+   dictated by the team on high-fidelity testbeds. storage capacity).
+   Subgoals may also be generated due to limited availability of resources
+   over time. For example, it The level of achievement for each validation
+   objective is may be preferable to keep scientific instruments on as
+   long discussed below. as possible (to maximize the amount of science
+   gathered). However, limited power availability may force a temporary
+   1.3 Performance Envelope instrument shutdown when other more
+   mission-critical Note that these performance and resource figures refer
+   to subsystems need to be functioning. In this case, the RA as flown on
+   Deep Space 1 in 1999 in Lisp. Each of the allocation of power to
+   critical subsystems (the main result of RA engines has been or is being
+   re-architected and ported to a scheduling step) generates the subgoal
+   "instrument must C or C++. These new systems may exhibit significantly
+   be off" (which requires the application of a planning step). different
+   performance characteristics: * Memory-32 Mbytes memory peak, 20
+   average. PS is able to tune the order in which decisions are made to *
+   CPU- the characteristics of the domain by considering the * RAX ran at
+   priority level just below that of DS1 consequences of action planning
+   and resource scheduling sequencer (very low). simultaneously. This
+   helps keep the search complexity * 20% of CPU when planner is idle
+   (only EXEC and under control. This is a significant difference with
+   respect to MIR are running). classical approaches both in Artificial
+   Intelligence and * 45% of CPU while planner is running (PS, EXEC,
+   Operations Research, where action planning and resource and MIR all
+   running). scheduling are addressed in two sequential problem-solving *
+   The time required to generate plans depends on the stages, often by
+   distinct software systems (see [14]). plan's complexity. RAX plans took
+   50 to 90 minutes to Another important distinction between PS and other
+   generate. classical approaches to planning is that, in addition to *
+   Telemetry-An average of 10 bits per second. This activities, the
+   planner also "schedules" the occurrence of includes notification as
+   each activity in the plan is states and conditions. Such states and
+   conditions may need executed, current diagnosis for each device
+   monitored to be monitored to ensure that, for example, the spacecraft
+   is by MIR, and a summary of the planner's plan- vibrationally quiet
+   when high-stability pointing is required. generation progress. Similar
+   telemetry would be needed for future science missions. These states can
+   also consume resources and have finite * File space-140 KB for support
+   files, plus approxi- durations and, therefore, have very similar
+   characteristics to mately 100 KB per stored plan, depending on plan
+   other activities in the plan. PS explicitly acknowledges this
+   complexity (proportional to number of activities in the similarity by
+   using a unifying conceptual primitive, the plan). Compressed binary
+   executable was 4 MB. At token, to represent both actions and states
+   that occur over most one plan needs to be stored, though all plans were
+   time intervals of finite extension. Examples of token stored during RAX
+   for validation purposes. RAX also semantics details are given further
+   along in this section. generated a 1MB log. PS consists of a heuristic
+   search engine that deals with 1.4 Technology Details incomplete or
+   partial plans. Since the plans explicitly RA consists of
+   general-purpose reasoning engines and represent time in a metric
+   fashion, the planner makes use of mission-specific domain models. The
+   engines make a temporal database. As with most causal planners, PS'
+   decisions and command the spacecraft based on the beginning plan is
+   incomplete; PS attempts to make the plan knowledge in the models. This
+   section describes the details more complete by posting more constraints
+   in the database. of the reasoning engines and how they interact. The
+   DS1 domain models developed for the flight experiment will be These
+   constraints originate from the goals and from discussed in the flight
+   experiment section. constraint templates stored in a domain model of
+   the 4 Deep Space 1 Technology Validation Report-Remote Agent Experiment
+   spacecraft. The temporal database and the facilities for Each subsystem
+   in the model is represented in the PS defining and accessing model
+   information during search are database as a set of dynamic state
+   variables whose value is provided by the Heuristic Scheduling Testbed
+   System tracked over time. Timelines are treated as instantiations of
+   (HSTS). The planning engine searches the possible plans for state
+   variables and are used interchangeably with state one that satisfies
+   the constraints and achieves the goals. The variables in this report.
+   Each dynamic state variable can action definitions determine the space
+   of plans. The assume one or more values. A token is associated with a
+   constraints determine which of these plans are legal and value of a
+   state variable occurring over a finite time interval. heavily prune the
+   search space. The heuristics guide the Each value has one or more
+   associated compatibilities (i.e., search in order to increase the
+   number of plans that can be patterns of constraints between tokens). A
+   legal plan will found within the time allocated for planning. Figure 2
+   contain a token of a given value only if all temporal describes the PS
+   architecture. Additional details on the constraints in its
+   compatibilities are satisfied by other tokens planner algorithm and its
+   correctness can be found in [10]. in the plan. Figure 3 shows an
+   example of a set of compatibilities with temporal constraints. N A V
+   Engine D omain K nowledge Expert (Define Compatibility ;; compats on
+   SEP_Thrusting He uristics IR S Search (SEP_Thrusting ?heading ?level
+   ?duration) engine :compatibility_spec (AND M odel AC S (equal (DELTA
+   MULTIPLE (Power) (+ 2416 Used))) Expert ( DD L) (contained_by
+   (Constant_Pointing ?heading)) (met_by (SEP_Standby)) H STS Plan (meets
+   (SEP_Standby))) Mission Profile TD B ) (Define_Compatibility Initial
+   state ;; Transitional Pointing (Transitional_Pointing ?from ?to ?legal)
+   Figure 2. Planner/Scheduler Architecture :parameter_functions
+   (?_duration_ <- APE_Slew_Duration (?from ?to ?_start_time_)) The model
+   describes the set of actions, how goals (?_legal_ <- APE_Slew_Legality
+   (?from decompose into actions, the constraints among actions, and ?to
+   ?_start_time_)) resource utilization by the actions. For instance, the
+   model :compatibility_spec will encode constraints such as "do not take
+   MICAS images (AND (met_by (Constant_Pointing ?from)) while thrusting"
+   or "ensure that the spacecraft does not (meets (Constant_Pointing
+   ?to)))) slew when within a DSN communication window." These constraints
+   are encoded in a stylized and declarative form (Define_Compatibility ;;
+   Constant Pointing called the Domain Description Language (DDL).
+   (Constant_Pointing ?target) :compatibility_spec (AND In conventional
+   modes of writing flight software, the (met_by (Transitional_Pointing *
+   constraints in the domain are mixed with the control ?target LEGAL))
+   information. In the model-based approach of RA, the (meets
+   (Constant_Pointing ?target * domain model is a distinct entity that
+   encodes the mission- LEGAL))) specific flight rules. This means that
+   (in the case of PS) not ) only are the core engines (the HSTS Temporal
+   Database [TDB] and the Search Engine) reusable across missions, but
+   that the model can be manipulated independently of any other piece of
+   the flight code. (Note that since the heuristics search control
+   information is model dependant, this module would be impacted also.) In
+   addition, the richness of the representation and the declarative form
+   of DDL ensures that Figure 3. Temporal Constraints in DDL
+   mission/systems engineers can have a substantially easier job of
+   understanding and verifying the implementation of The first
+   compatibility indicates that the master token the flight rules in RA
+   than would have been possible in (which is at the head of the
+   compatibility) is conventional FSW. These are some of the advantages
+   that SEP_Thrusting (when the Solar Electric Propulsion [SEP] RA brings
+   to a mission. engine is producing thrust 2 ), which must be immediately
+   preceded and followed by a SEP_Standby token (when the 2 Solar Electric
+   Propulsion (SEP) is synonymous with IPS. 5 Deep Space 1 Technology
+   Validation Report-Remote Agent Experiment SEP engine is in a standby
+   mode but has not been The RAX PS treats all timelines and tokens within
+   a simple, completely shut off). The master token must be temporally
+   unified search algorithm. This has advantages. The ground contained by
+   a constant pointing token; the complete team could force certain
+   behaviors of the spacecraft by thrusting activity requires 2416 Watts
+   of power. The including in the mission profile explicit tokens on
+   Constant_Pointing token implies that the spacecraft is in a executable
+   timelines. The additional tokens will be treated steady state aiming
+   its camera towards a fixed target in by PS as goals, will be checked
+   against the internal PS space. Transitional_ Pointing tokens describe
+   an activity model, and missing supporting tasks will be automatically
+   when the spacecraft slews. Figure 4 gives a visual rendering expanded
+   to create an overall consistent plan. This will of these
+   compatibilities. greatly facilitate the work of the ground team. For
+   DS1, such models were understandably more comprehensive and complex,
+   with more timelines, tokens, and compatibilities between differing
+   token types, and required careful consideration during modeling to
+   ensure that interactions between timelines do not result in
+   unanticipated and harmful behaviors generated by the planner. When a
+   science mission wants to fly the RA planner, primary tasks to be
+   adapted to the mission will be: * Perform knowledge acquisition to
+   determine all the spacecraft flight rules. * Encode these flight rules
+   in the DDL model of the Figure 4. A Plan Fragment Formed by a DDL Model
+   spacecraft. * Design the search control heuristics that will be needed
+   The timeline approach to modeling is also driven by strong to ensure
+   that the planner is able to produce a valid plan software engineering
+   principles. In a complex domain with within specified resource (time,
+   CPU) bounds. different individuals and organizations with varying
+   expertise, timelines provide disparate views of the same Note that this
+   is not to suggest that models can be or ought domain model across
+   organizational boundaries. For to be built in an all-or-nothing
+   fashion. On the contrary, the instance, the ground team might want to
+   own and access team strongly believes that coming up with a viable plan
+   timelines relating to communication coverage and when encapsulating all
+   domain flight rules is an incremental DSN access is available, while
+   the attitude control team process (You build some and test some). might
+   want to place high-level goals on the attitude timeline. As mentioned
+   previously, since the underlying search algorithm does not need to be
+   rewritten, the mission will Four distinct kinds of state variables are
+   identified. A goal save costs in revalidating the control system and
+   can confine timeline will contain the sequence of high-level goals that
+   itself to building and validating the model and search the spacecraft
+   can satisfy (e.g., the navigate goal described control heuristics.
+   Efforts are underway at NASA's Ames previously). Goal timelines can be
+   filled either by ground Research Center to implement automated tools
+   that will operators or by onboard planning experts seen by PS as goal
+   ensure that full coverage of the behaviors anticipated by the
+   generators. For example, in order to generate the portion of models is
+   simulated during the modeling process. the plan that commands the IPS
+   engine, PS interrogates Additional efforts are also underway to
+   automatically NAV, which returns two types of goals: the total generate
+   the heuristics from a given model of the domain. accumulated time for
+   the scheduling horizon and the This will further allow mission
+   designers and systems staff thrusting profile to be followed. These two
+   types of to build robust and complex models on their own without
+   information are laid down on separate goal timelines. relying on the AI
+   technologists themselves. Expected device-health information over time
+   is tracked by Additional details about the planner can be found in [5
+   to 7] health timelines. The expected profile is communicated by and [10
+   to 12]. EXEC to PS in the initial spacecraft state. EXEC can
+   communicate that the health of a device has changed even if 1.4.2
+   Executive-The Smart Executive (EXEC) is a multi- no fault has occurred.
+   Another kind of state variable is an threaded, reactive-commanding
+   system. EXEC is responsi- internal timeline. These are only used by the
+   planner to ble for sending the appropriate commands to the various
+   internally organize goal dependencies and subgoaling. flight systems it
+   is managing. EXEC can replace the Finally, an executable state variable
+   corresponds to tasks traditional spacecraft sequencer or can be used in
+   that will be actually tracked and executed by EXEC. conjunction with a
+   traditional sequencer to command a complex subsystem (e.g.,
+   interferometer). 6 Deep Space 1 Technology Validation Report-Remote
+   Agent Experiment EXEC is a multi-threaded process that is capable of
+   will be updated and an event created, thereby signaling a
+   asynchronously executing commands in parallel. In addition change. If
+   the signaled event violates a property lock, an to a traditional
+   sequencer's capabilities, EXEC can: EXEC property thread interrupts
+   those tasks that subscribed to that property lock. It will then attempt
+   to achieve the state * Simultaneously achieve and maintain multiple
+   goals of the switch being ON using its own recovery mechanism (i.e.,
+   system states) by monitoring the success of or by consulting a recovery
+   expert (e.g., MIR). If the switch commands it issues and reactively
+   re-achieving states cannot be turned ON in time, a hard deadline that
+   is being that are lost. tracked is missed; in response EXEC commands
+   the * Perform conditional sequencing. Commands can be spacecraft into a
+   safe, wait state while it requests a new plan dependent on conditions
+   that occur at execution time. from the planner that takes into account
+   that the switch * Perform event-driven commands, as opposed to cannot
+   be turned ON. traditional sequencers that are time-driven (i.e., taking
+   a sequence of pictures based on the results of monitoring a range
+   sensor). * Perform high-level commanding and run-time task expansion.
+   EXEC provides a rich procedural language, Execution Support Language
+   (ESL) [1], in which spacecraft software/model developers define how
+   complex activities are broken up into simpler ones. To increase
+   robustness, a procedure can specify multiple- alternate methods to
+   achieve a goal. * Perform sequence recovery. In the event an executing
+   sequence command fails, EXEC suspends executing the failed sequence and
+   attempts a recovery, either by executing a pre-specified recovery
+   sequence, such as reissuing the command or consulting a recovery expert
+   (e.g., MIR). Once the desired state of the failed command is achieved,
+   the suspended sequence is restarted. * Execute a temporally-flexible
+   sequence (or plan). In Figure 5. An Overview of the Remote Agent order
+   to decrease the probability of a sequence failing, Executive time
+   ranges can be specified for executing and achieving the desired state
+   for each command. Recoveries may be as simple as sending another
+   command to turn a switch ON, or may be complex, such as when * Manage
+   resources. As a multi-threaded system, EXEC multiple subsystems are
+   tightly coupled. For example, can work on multiple tasks
+   simultaneously. These tasks consider two coupled DS1 subsystems: the
+   engine gimbal may compete for system resources within the con- and the
+   solar panel gimbal. A gimbal enables the engine straints not already
+   resolved by ground or the planner. nozzle to be rotated to point in
+   various directions without EXEC manages abstract resources by
+   monitoring changing the spacecraft orientation. A separate gimbal
+   resource availability and usage, allocating resources to system enables
+   the solar panels to be independently rotated tasks when available,
+   making tasks wait until their to track the sun. In DS1, both sets of
+   gimbals communicate resources are available, and suspending or aborting
+   with the main computer via a common gimbal drive tasks if resources
+   become unavailable due to failures electronics (GDE) board. If either
+   system experiences a (such as a device breaking). See [1] and [2] for a
+   more communications failure, one way to reset the system is to detailed
+   discussion. power-cycle (turn on and off) the GDE. However, resetting
+   the GDE to fix one system also resets the communication to Figure 5
+   illustrates key functions of EXEC. the other system. In particular,
+   resetting the engine gimbal to fix an engine problem causes temporary
+   loss of control of EXEC achieves multiple tasks, sending the
+   appropriate con- the solar panels. Thus, fixing one problem can cause
+   new trol commands (decomposed from high-level commands) to problems. To
+   avoid this, the recovery system needs to take the flight software. The
+   tasks also lock properties that need into account global constraints
+   from the nominal schedule to be maintained. For example, if a task
+   commands a switch execution, rather than just making local fixes in an
+   ON, the switch property will be locked ON. Monitors (and incremental
+   fashion; the recovery itself may be a MIR) determine if it is
+   consistent to believe that the switch sophisticated plan involving
+   operations on many is ON. Since EXEC stores this state in its state
+   database subsystems. should the inferred state of the switch change,
+   the database 7 Deep Space 1 Technology Validation Report-Remote Agent
+   Experiment Domain-code developers use ESL to create high-level values.
+   MR is responsible for suggesting reconfiguration commands that EXEC
+   decomposes and executes at run-time actions that move the spacecraft to
+   a configuration that depending on the spacecraft state. The ESL code in
+   Figure 6 achieves all current goals as required by PS and EXEC,
+   illustrates multiple methods for achieving IPS thrusting at a
+   supporting the run-time generation of novel reconfiguration desired
+   level depending on the current state of execution. If actions. Though
+   in RA, Livingstone is used only to recover IPS is in standby mode, ACS
+   is commanded to change following a component failure. Livingstone's MR
+   capability control modes only after the desired IPS thrust level has
+   can be used to derive simple actions to reconfigure the been confirmed.
+   spacecraft at any time. Thus, Livingstone can be viewed as a discrete
+   model-based controller in which MI provides the (to achieve (IPS
+   THRUSTING ips level) sensing component and MR provides the actuation
+   ((ips is in standby state p ips) component. Livingstone uses a single
+   set of models and core (sequence (achieve (power on? 'ega-a)) (command
+   with confirmation algorithms to provide both the MI and MR functions.
+   (send-ips-set-thrust-level level)) (command with confirmation Exec or
+   (send-acs-change-control-mode Human Operator :acs-tvc-mode)))) ((ips in
+   thrusting state p ips) (command with confirmation State Suggested
+   (send-ips-change-thrust-level level))) Command A (t (fail :ips achieve
+   thrusting))) Model Desired ct Configuration u Figure 6. Multiple
+   Methods in ESL al C Livingstone for Achieving Thrust o State mman MI MR
+   EXEC and its commanding language, ESL, are currently implemented using
+   multi-threaded Common Lisp. A new Discretized d version of EXEC is
+   currently under development in C/C++. Observations The internal EXEC
+   code is designed in a modular, layered fashion so that individual
+   modules can be designed and tested independently. Individual generic
+   device knowledge for RAX is implemented based on EXEC's library of
+   device Figure 7. Livingstone Processing Cycle management routines to
+   support addition of new devices and reuse of the software on future
+   missions. To use Livingstone, one specifies how the components of
+   interest are connected. For each component type, one then More details
+   about EXEC can be found in [1 to 3] and [7]. specifies a finite state
+   machine that provides a description of the component's nominal and
+   failure behavior. 1.4.3 Diagnosis and Repair-The diagnosis and repair
+   engine of RA is the Mode Identification and Figure 8 graphically
+   depicts a Livingstone model of the Reconfiguration (MIR) system. MIR
+   eavesdrops on Cassini main-engine subsystem. An important feature is
+   that commands that are sent to the onboard hardware managers the
+   behavior of each component state or mode is captured by EXEC. As each
+   command is executed, MIR receives using abstract, or qualitative,
+   models [3, 4]. These models observations from spacecraft sensors,
+   abstracted by describe qualities of the spacecraft's structure or
+   behavior monitors in lower-level device managers for ACS, Bus without
+   the detail needed for precise numerical prediction, Controller, and so
+   on. MIR uses an inference engine called making abstract models much
+   easier to acquire and verify Livingstone to combine these commands and
+   observations than quantitative engineering models. Examples of
+   qualities with declarative models of the spacecraft's components to
+   captured are the power, data, and hydraulic connectivity of determine
+   the current state of the system (mode spacecraft components and the
+   directions in which each identification [MI]) and report it to EXEC.
+   EXEC may then thruster provides torque. While such models cannot
+   quantify request that Livingstone return a set of commands that will
+   how the spacecraft would perform with a failed thruster, for recover
+   from a failure or move the system to a desired example, they can be
+   used to infer which thrusters are failed configuration (mode
+   reconfiguration [MR]). Figure 7 given only the signs of the errors in
+   spacecraft orientation. illustrates the data flow among the spacecraft,
+   EXEC, and Such inferences are robust since small changes in the
+   Livingstone. underlying parameters do not affect the abstract behavior
+   of the spacecraft. MI is responsible for identifying the current
+   operating or Livingstone's abstract view of the spacecraft is supported
+   by failure mode of each component in the spacecraft, allowing a set of
+   fault-protection monitors that classify spacecraft EXEC to reason about
+   the state of the spacecraft in terms of sensor output into discrete
+   ranges (e.g., high, low, nominal) component modes, rather than in terms
+   of low-level sensor or symptoms (e.g., positive X-axis attitude error).
+   One 8 Deep Space 1 Technology Validation Report-Remote Agent Experiment
+   objective of the RA architecture was to make basic Livingstone can
+   infer that a component has failed, though monitoring capability
+   inexpensive so that the scope of failure was not foreseen and left
+   unmodeled because it was monitoring could be driven from a system
+   engineering not possible. analysis instead of being constrained by
+   software development concerns. To achieve this, monitors are By
+   modeling only to the detail level required to make specified as a
+   dataflow scheme of feature extraction and relevant distinctions in
+   diagnosis (distinctions that prescribe symptom-detection operators for
+   reliably detecting and different recoveries or system operations), a
+   system with discriminating between classes of sensor behavior.
+   qualitative "common-sense" models that are compact and quite easily
+   written can be described. Figure 9 provides a schematic overview of
+   Livingstone's processing. 4. Spacecraft State 5. Recovery Actions Valve
+   Component Model e.g. Switch is still on e.g. Retry switch command Open
+   Stuck open Behavior Stuck Conflict Closed prediction Qualitative
+   database closed engine Models inflow = outflow = 0 3. Qualitative data
+   Conflict-directed e.g. Current is non-zero Best first search Oxidizer
+   Monitors 1. Commands given to 2. Quantitative data from Helium
+   spacecraft systems spacecraft sensors e.g. Turn off switch e.g. Current
+   = 0.3 amps Fuel Figure 8. Livingstone Model of the Cassini Figure 9.
+   Schematic of Livingstone Processing Main Engine Subsystem Livingstone
+   uses algorithms adapted from model-based The software architecture for
+   sensor monitoring is described diagnosis (see [9]) to provide the above
+   functions. The key using domain-specific software templates from which
+   code idea underlying model-based diagnosis is that a combination is
+   generated. Finally, all symptom detection algorithms are of component
+   modes is a possible description of the current specified as restricted
+   Harel-state transition diagrams state of the spacecraft only if the set
+   of models associated reusable throughout the spacecraft. The goals of
+   this with these modes is consistent with the observed sensor
+   methodology are to reuse symptom-classification values. Following de
+   Kleer and Williams [8], MI uses a algorithms, reduce the occurrence of
+   errors through conflict-directed, best-first search to find the most
+   likely automation and to streamline monitor design and test.
+   combination of component modes consistent with the observations.
+   Analogously, MR uses the same search to find It is important to note
+   that the Livingstone models are not the least-cost combination of
+   commands that achieve the required to be explicit or complete with
+   respect to the actual desired goals in the next state. Furthermore,
+   both MI and physical components. Often, models do not explicitly MR use
+   the same system model to perform their function. represent the cause
+   for a given behavior in terms of a component's physical structure. For
+   example, there are The combination of a single-search algorithm with a
+   single numerous causes for a stuck switch: the driver has failed,
+   model, and the process of exercising these through multiple excessive
+   current has welded it shut, and so on. If the uses, contributes
+   significantly to the robustness of the observable behavior and recovery
+   for all causes of a stuck complete system. Note that this methodology
+   is independent switch are the same, Livingstone need not closely model
+   the of the actual set of available sensors and commands. physical
+   structure responsible for these fine distinctions. Furthermore, it does
+   not require that all aspects of the spacecraft state are directly
+   observable, providing an elegant Models are always incomplete in that
+   they have an explicit solution to the problem of limited observability.
+   unknown failure mode. Any component behavior that is inconsistent with
+   all known nominal and failure modes is The use of model-based diagnosis
+   algorithms immediately consistent with the unknown failure mode.
+   Therefore, provides Livingstone with a number of additional features. 9
+   Deep Space 1 Technology Validation Report-Remote Agent Experiment
+   First, the search algorithms are sound and complete, design, a way to
+   mitigate the impact of the RA technology providing a guarantee of
+   coverage with respect to the demonstration on DS1. models used. Second,
+   the model-building methodology is modular, which simplifies model
+   construction and 1.6 Preparing Lisp for Flight maintenance and supports
+   reuse. Third, the algorithms One important aspect of the RA preparation
+   for flight was extend smoothly to handling multiple faults and
+   recoveries the preparation of Lisp for flight. The RA software that
+   involve multiple commands. Fourth, while the development and runtime
+   environment was based on algorithms do not require explicit fault
+   models for each Common Lisp, in particular the Harlequin Lispworks
+   component, they can easily exploit available fault models to product.
+   The use of Lisp was appropriate given the find likely failures and
+   possible recoveries. background of the RA developers, the early
+   inheritance of code libraries, and the hardware independence of the
+   high- Since the flight experiment, Livingstone has been ported to level
+   software interfaces between RA and the rest of the C++ and
+   significantly improved in the areas of both MI and flight software.
+   However, with the choice of Lisp came MR. The improved Livingstone is
+   scheduled to be test some unique challenges. These challenges fell into
+   two flown on both the X-34 and X-37 experimental vehicles. rather broad
+   categories: resource constraints and flight- Additional technical
+   details about Livingstone can be found software interfaces. in [4] and
+   at http://ace.arc.nasa.gov/postdoc/livingstone To fit within the 32 MB
+   memory allocation and the CPU 1.5 Subsystem Interdependencies fraction
+   constraints, the RA team thoroughly analyzed their The Remote Agent
+   Experiment Manager (RAXM) is the code for memory and performance
+   inefficiencies and flight software interface to the Remote Agent
+   Experiment applied a "tree-shaking/transduction" process to the Lisp
+   (RAX) and isolates the RA software from the rest of the image. The
+   analysis is, of course, common for any high- FSW via a set of clean
+   application programming interfaces performance software. However,
+   transduction is Lisp- (APIs). specific and arises from the tight
+   coupling of the Lisp runtime and development environments. Transduction
+   In addition, RAXM provides a terminal in the point-to-point removes the
+   unneeded parts of the development message-passing protocol used by the
+   DS1 flight software environment (e.g., the compiler, debugger,
+   windowing (see Figure 1). RAXM in particular is tasked with handling
+   system). The result is a significantly smaller image, both in three
+   messages throughout the mission: RAX-START, terms of file system and
+   runtime memory. During RA RAX-STOP, and RAX-ABORT; RA software is
+   operational testing, peak memory usage was measured at about 29 MB.
+   only during the times between a RAX-START and either Upon completion of
+   the transduction process, the RA Lisp RAX-STOP or RAX-ABORT. RAX-START
+   is used by image was compressed by a factor of about 3 to 4.7 MB and
+   RAXM to decompress the RAX Lisp image and initiate uplinked to the
+   spacecraft. Onboard decompression was RAX control. The RAX-STOP is
+   implemented to cleanly initiated at the start of each RA run, with the
+   file being terminate RAX at the end of the experiment under nominal
+   inflated directly into the 32-MB RA memory space. Use of circumstance,
+   while the RAX-ABORT is intended to kill the this custom compression
+   drastically reduced the file-uplink RAX process in the event of an
+   abnormality detected by time and kept RA-file space usage within the
+   agreed limits. RAXM. At all other times, RAXM discards all incoming
+   messages, allowing all FSW subsystems that interact with Added to the
+   challenge of working within resource RAX to be ignorant of the RAX
+   state. constraints was the challenge of working out the complicated
+   interfaces between RA and the rest of the flight When RA runs, RAXM
+   handles and dispatches all incoming software. The flight software was
+   written in the C messages related to RA: some of the messages are
+   handled programming language and ran on the VxWorks operating by RAXM,
+   others are passed through to RAX itself. system. Lisp and C interacted
+   through Lisp's foreign Similarly, outgoing messages from RAXM can be
+   due function interface. This interface was the source of many either to
+   RAXM or to RAX itself. early problems, primarily caused by
+   discrepancies between data structure alignments assumed by the Lisp and
+   C Like the code for other flight software subsystems, RAXM compilers.
+   These problems were quickly discovered and is written in the C
+   programming language and is part of the resolved with the help of an
+   extensive test suite that launch load. As a result, the interfaces for
+   RAX needed to analyzed many function-parameter variations. be specified
+   early. Another problem arose in preparing the Lisp multi-threading The
+   computational resources (CPU fraction, memory space, system for flight.
+   Originally, the Lisp thread scheduler telemetry buffers and downlink,
+   etc.) required by RAXM relied on a high-frequency, external, periodic
+   wakeup call when RA was not running were insignificant. This was, by
+   issued at interrupt level. However, this went against the design
+   principles of the DS1 flight software. Hence, Lisp's 10 Deep Space 1
+   Technology Validation Report-Remote Agent Experiment approach-to thread
+   preemption to use a lower frequency on the New Millennium Autonomy
+   Architecture rapid wakeup call implemented with flight software timing
+   Prototype (NewMAAP), a six-month effort intended to services-had to be
+   significantly changed. assess the usability of AI technologies for
+   onboard flight operations of a spacecraft 17]. NewMAAP yielded proof of
+   Most of the late integration problems with RA Lisp arose concept of an
+   autonomous agent that formed the because of the VxWorks port. As RA
+   moved from testbed to fundamental blueprint for Remote Agent. NewMAAP
+   also testbed, ever closer to the final spacecraft configuration, helped
+   build the team of technologists that continued low-level Lisp problems
+   arose. The problems were development of Remote Agent on DS1.
+   consistently of two types: a function assumed by Lisp to be present was
+   not present or a function was present but did not The successful
+   demonstration of NewMAAP in November, perform as expected by Lisp. The
+   first type of problem was 1995 led to the selection of RA as one of the
+   components of resolved by consistent application of a detailed RA and
+   the autonomy flight software for DS1. Between December FSW build
+   process. The second type of problem was 1995 and April 1997, the RA
+   team was part of the DS1 addressed on a case-by-case basis. Solutions
+   to these flight software team. This led to the development of the
+   problems were made difficult due to the reduced debugging three engines
+   of the RA component technologies and visibility as testbeds assumed the
+   spacecraft configuration. included a substantial speed up of the MIR
+   inference engine The entire undertaking benefited from the dedicated
+   efforts (see [4]), the design and implementation of the ESL of both
+   Harlequin and the DS1 FSW team. language used by EXEC (see [1]), and
+   the design and implementation of the heuristic search engine for PS 2.0
+   THE REMOTE AGENT EXPERIMENT together with the language to formulate
+   search heuristics. During the DS1 mission, the Remote Agent technology
+   was Regarding the overall Remote Agent architecture, the fault
+   validated with an experiment, the Remote Agent protection protocols
+   were designed and implemented, both Experiment (RAX). The flight
+   experiment was conducted at low level (involving EXEC and MIR) and at
+   the high between May 17, 1999, and May 21, 1999, and achieved all level
+   (involving EXEC and PS). During this period, the of the
+   technology-validation objectives. However, the story team acquired much
+   of the high-level system knowledge is incomplete without reporting the
+   valuable data gathered needed to model DS1 cruise operations (including
+   image during development and testing on the ground. In the case of
+   acquisitions of beacon asteroids for AutoNAV, timed IPS RA, this is
+   particularly important since the technology is thrusting, and file
+   uplink and downlink) and other DS1 intended as a tool to support system
+   engineering and capabilities required for asteroid encounter
+   activities. operations for a mission, rather than simply provide the
+   resulting autonomous capabilities. By quantitatively In March 1997, the
+   DS1 autonomy flight software was analyzing the history of RAX's
+   development, we can substantially overhauled and DS1 adapted the Mars
+   evaluate how well the current state of the technology Pathfinder (MPF)
+   flight software as the basis for its flight supports its ultimate
+   goals. This can also help identify weak software. Also, RA was
+   re-directed to become an points that require further research and
+   development. experiment operating for at most six days during the
+   mission on a cruise scenario, including AutoNAV orbit RAX and the team
+   attempt to evaluate the development and determination and IPS-timed
+   thrusting. RAX re-used much testing experience with respect to the
+   features of the of the software developed during the previous autonomy
+   technology is described here. First, RAX must be put into flight
+   software phase of DS1. RAX focused on the process the larger
+   perspective of RA's technology evolution. Then of testing each RA
+   component, integrating and testing them the subsystems and fault modes
+   modeled, the experiment into the complete RA, and integrating and
+   testing RA scenarios, and the expected in-flight behavior are
+   described. together with the DS1 flight software on the flight Then how
+   RAX was developed and validated and the details processor. Shortcomings
+   found during the development and of the flight experiment are
+   discussed. Then the testing phases required several extensions and
+   re-designs of effectiveness and cost of development and testing are
+   domain models and the reasoning engines. successively analyzed. The
+   analysis is supported by the actual problem reports filed in the RAX
+   problem-tracking This document is focused solely on RAX and makes use
+   of system during development. Lessons learned conclude this the
+   detailed development and testing records maintained section.

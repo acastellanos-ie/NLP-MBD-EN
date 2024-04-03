@@ -1,0 +1,382 @@
+http://www.arm.gov/docs/data.html
+
+   ARM Logo
+
+                About | News | People Directory | Site Map | Search | ARM Home
+
+
+   ARM Logo
+   Rollover button
+                   SITES
+   Rollover button North Slope of Alaska
+   Rollover button Southern Great Plains
+   Rollover button Tropical Western Pacific
+
+   Rollover button
+                   INSTRUMENTS
+   Rollover button Aerosols
+   Rollover button Atmospheric Profiling
+   Rollover button Clouds
+   Rollover button Radiometers
+   Rollover button Surface Energy Flux
+   Rollover button Surface Meteorology
+
+   Rollover button DATA
+   Rollover button Data Archive
+   Rollover button Data Quality Program
+   Rollover button Value-Added Products
+   Rollover button External Data Center
+   Rollover button Metadata Navigator
+   Rollover button Related Data Links
+   Rollover button Quick Looks
+
+   Rollover button EDUCATION
+   Rollover button Interactive Quiz
+   Rollover button Lesson Plans
+   Rollover button Outreach
+   Rollover button Ask a Scientist
+
+                   MISCELLANEOUS
+   Rollover button Acronyms / Glossary
+   Rollover button Calendar
+   Rollover button Contacts
+   Rollover button Image Library
+   Rollover button Intensive Operational Periods
+   Rollover button Internal Pages Key symbol indicating an internal web
+                   page.
+   Rollover button Links
+   Rollover button Policies / Procedures
+   Rollover button Publications
+   Rollover button Research Activities
+   Rollover button UAV Program
+   Rollover button Who is Involved
+
+                         Privacy and Security Notice
+
+                                  ARM Data
+
+
+                       Order Data from the ARM Archive
+
+
+                                             Picture of cloud radar data.
+     The ARM Program's award-winning Millimeter Wave Cloud Radar (MMCR) is
+      an active sensor that can measure cloud boundaries and microphysical
+    properties with high space and time resolution. This data sample shows
+       a thunderstorm passing above the Central Facility at ARM's Southern
+                                                        Great Plains site.
+
+   The ARM Program's primary objective is to test and improve General
+   Circulation Model (GCM) parameterizations of clouds and their effect on
+   the radiative energy balance. To meet this goal, data are being
+   gathered to measure key aspects of the radiation field under a range of
+   climatologically significant conditions.
+
+   [blueball.gif] Range of ARM Measurements
+     * General Measurement Strategy
+     * Scientific Focus Areas
+     * Measurements by Data Source
+     * Instrumentation
+     * Data Collection Sites
+     * Intensive Operational Periods
+     * Aircraft Data
+     * Forecast Models
+     * Satellite Data
+     * Visiting Instruments
+     * Value-added Processing
+
+   [blueball.gif] Data Documentation
+     * Data Files and Data Stream Descriptions
+     * Data Level Documentation (a1, b1, c1 data level descriptions)
+     * Early ARM Data Access
+     * More on Understanding and Finding ARM Data
+     * Reading netCDF and HDF Data Files
+     * Data Object Design Changes/ARM netCDF File Header Descriptions
+     * ARM Data Quality Program
+     * Data Quality Control Changes
+     * Metadata Navigator
+     * Quicklooks
+     * ARM Data Sharing and Distribution Policy
+     * Data Management and Documentation Plan
+     * Problem Identification Form/Data Quality Reporting Database
+     * External Data Center
+
+   [blueball.gif] Data Gathering and Delivery Process
+   [blueball.gif] Related Data Links
+     __________________________________________________________________
+
+Range of Measurements
+
+
+   Diagram depicting the different types of measurements gathered by ARM.
+      This diagram attempts to present the different types of measurements
+     that the ARM Program gathers. The gathering methods (e.g., land-based
+                instruments, ships, and satellites) are also represented.
+
+   The ARM Program is gathering a wide variety of measurements from many
+   different sources (see diagram to the right). The ARM Archive stores
+   and distributes large quantities of data each day that are collected
+   from these sources. Scientists then use these data to research
+   atmospheric radiation balance and cloud feedback processes, which are
+   critical to the understanding of global climate change.
+
+General Measurement Strategies
+
+   The ARM Program has two primary strategies in pursuing its goal to
+   provide better parameterizations of clouds and radiation in climate
+   models: the Instantaneous Radiative Flux (IRF) strategy and the
+   Single-Column Modeling (SCM) strategy. The approach and manner in which
+   ARM gathers data are affected by these two strategies. More about the
+   two primary strategies...
+
+Scientific Focus Areas
+
+   The ARM Program is focusing its data collection and research activities
+   into six focus areas: 1) aerosols, 2) clouds, 3) longwave radiation, 4)
+   shortwave radiation, 5) surface energy exchange (or flux), and 6)
+   atmospheric state. To facilitate their research efforts, ARM scientists
+   have organized in working groups that reflect the special focus areas
+   outlined above. These focus areas will change over time as research
+   goals are narrowed and new observational programs are developed. More
+   on Arm's focus areas and measurements.
+
+Data Collection Sites
+
+
+                            Diagram showing types and amounts of ARM data
+   This diagram attempts to demonstrate the types and amounts of data that
+                              ARM has collected in its Archive since 1993.
+
+   The ARM Program operates field research sites, called Cloud and
+   Radiation Testbeds (CARTs), in three climatically significant locales
+   worldwide: Southern Great Plains, Tropical Western Pacific, and North
+   Slope of Alaska. Scientists use the Carts to collect and analyze data
+   essential to understanding the effects and interactions of sunlight,
+   radiant energy, and clouds on temperatures, weather, and climate.
+
+Instrumentation
+
+   The ARM Program's primary observational method is through remote
+   sensing and other observations at the surface. Regular and specially
+   designed instruments are in place at the three ARM sites and are
+   providing data on a routine basis. It is impossible to meet Arm's
+   objectives, however, without obtaining a large volume of detailed
+   in-situ measurements, some of which are gathered from manned or
+   unmanned aircraft vehicles (UAVs).
+
+Intensive Operational Periods
+
+   Frequently, an ARM site will hold an intensive operational period
+   (IOP). The data from these visiting instruments are sent to the Archive
+   for permanent storage.
+
+Visiting Instruments
+
+   Frequently, scientists will bring their own instruments to an ARM site
+   for the purpose of calibrating and/or testing the instrument or running
+   comparisons during a specific intensive operational period (IOP). The
+   data from these visiting instruments often are sent to the Archive for
+   permanent storage.
+
+Aircraft
+
+   Scientists will often use aircraft to gather airborne data during
+   intensive operational periods (IOPs) at an ARM site. In addition, the
+   Unmanned Aerospace Vehicle Program is a remotely piloted, high-altitude
+   and long-endurance platform for making important climate measurements
+   on evolving cloud fields and their effect on the solar and thermal
+   radiation balance in the atmosphere. The ARM External Data Center
+   gathers these kinds of external data sets and sends them to the ARM
+   Archive. Listing of Aircraft Data...
+
+Forecast Models
+
+   The ARM External Data Center regularly collects analysis and forecast
+   model products produced by the National Centers for Environmental
+   Prediction (NCEP) and the European Center for Medium-Range Weather
+   Forecasting (ECMWF). These products are used to augment the instrument
+   data collected at the ARM sites. We have models that are specific to
+   each site (SGP, TWP, and NSA).
+
+Satellites
+
+   High-quality satellite observations are needed to measure the
+   top-of-the-atmosphere radiation. These data augment the data being
+   generated within the program and are usually converted from native
+   format to either netCDF or HDF formats. Again, the External Data Center
+   gathers these kinds of external data sets and sends them to the ARM
+   Archive. Note that the types of satellite data are different at each
+   site (SGP, TWP, and NSA).
+
+Value-Added Processing
+
+   Many of the scientific needs of the ARM project are met through
+   Value-added Procedures (VAPs). A VAP creates a "second generation" data
+   stream by using existing ARM data streams as inputs and applying
+   algorithms or models to them. A VAP is run continuously in the ARM Data
+   Management Facility and the output generated is treated as a new ARM
+   data stream.
+
+Data Documentation
+
+   There are many documents that help data users to understand ARM data
+   (e.g., data stream descriptions) or that supplement the data (e.g.,
+   data quality reports, metadata). This diagram is a pictorial
+   representation of the types of information ARM gathers about the data.
+   Additional details about data files and data stream descriptions are
+   provided below.
+
+Data Files and Data Stream Descriptions
+
+   This section describes ARM data files and details the types of data
+   streams contained in the data files.
+
+   Data File
+
+   The ARM measurements are aggregated together in data files. A data file
+   usually contains a time series of one or more measurements for a known
+   time interval and a single location. Most data are stored in netCDF
+   format. This format allows for the definition of data fields and
+   storage of operational information in the header of the file .PC
+   Microsoft users note cdf files are not Channel Definition Format files
+   (which the Microsoft CDF Generator program uses) but rather netcdf
+   files (network common data form). There are a lot of netcdf libraries
+   out there to let you use netcdf files (FORTRAN, C, IDL, etc.). Here are
+   a few others: http://playground.arm.gov/~flynn/pub/arm_ware/ncdx/html/
+   http://www.epic.noaa.gov/java/ncBrowse/
+   More information on the netCDF format and tools is available from UCAR
+   at http://www.unidata.ucar.edu/packages/netcdf/index.html.
+
+   Some data files also contain one or more measurements distributed over
+   a region from a single time (e.g., satellite images). These data are
+   stored in the HDF format developed by National Center for
+   Supercomputing Applications (see http://hdf.ncsa.uiuc.edu/ for more
+   information on HDF).
+
+   A single data file is the smallest unit of information distributed by
+   ARM to its data users. Persons needing less than the contents of a
+   single data file must derive the subset with their own tools. At this
+   time, the ARM program has generated 100,000s of data files.
+
+   Data Stream
+   Collections of data files that have a common source and structure are
+   called data streams. A data stream represents the output of a single
+   data source (i.e., instrument, instrument group, or algorithm). All
+   files within a single data stream have a common information content
+   (e.g., same measurement types and operational information, and similar
+   name). At this time, the ARM Program has generated more than 800 data
+   streams.
+
+   Example of Data Stream:
+
+
+
+sgp15ebbrE12.a1
+
+-**-*-***-** -*
+
+|  | |   |   `---->data level - the level of data processing
+
+|  | |   `-------->facility name (e.g., extended facility E12)
+
+|  | `------------>abbreviation for instrument name
+
+|  `-------------->## - time integration instrument parameter
+
+`----------------->site (e.g., sgp - Southern Great Plains)
+
+
+   Data stream groups
+   Data streams can be categorized into more than one grouping scheme
+   (e.g., by location, source, or processing status). Understanding
+   relationships between data streams can simplify the overwhelming
+   magnitude of ARM data. All of the data streams within a group may share
+   common attributes. For example, all data streams from similar sources
+   (instruments or algorithms) will have similar (often identical) data
+   fields containing measurements. Data streams from similar sources will
+   also reference common instrument descriptions.
+
+Data Level Documentation
+
+   ARM data are classified into several data levels. The levels represent
+   the amount of processing the data have gone through.
+
+
+                                 Data Level*
+                              Processing Status
+                              00 data Raw data
+               a0 data Data that have been converted to netCDF
+    a1 data Data that meet a0 requirements, are expressed in engineering
+                  units, and have had calibrations applied
+       a2, a3, a4, . . ., a9 a1 data that have been further processed
+       b1 Data that meet a1 requirements and have had quality control
+                       (min/max/delta) checks applied
+   b2, b3, b4, . . ., b9 b1 data that have had additional quality control
+                               checks applied
+                          c1 Derived data products
+       c2, c3, c4, . . ., c9 c1 data that have been further processed
+   *Note: some data have not been processed through all phases (e.g., data
+         level goes from being level 00, then a0, a1, and then c1).
+
+   The amount of processing to which data have been subjected can be
+   determined by the data level extension of the data stream name. Raw
+   data, collected directly from the instrument or external source, are
+   designated with a .00 extension. Data designated as a0 have minimally
+   undergone a format change from the raw (binary, ascii, other) format to
+   netcdf. If the data are also expressed in engineering units and
+   calibration factors have been applied (as needed), the data are
+   assigned an a1 data stream name extension. Data that have been further
+   processed but do not meet the minimal requirements of b1 level data are
+   assigned data levels of a2, a3, etc. The latter are considered
+   intermediate products and are not usually intended for use by the
+   scientific community.
+
+   To be designated as b1 data, the data must meet the minimal
+   requirements of a1 level data plus have had basic quality measures
+   applied. These QC measures usually take the form of
+   minimum/maximum/delta checks. If further processing is conducted on b1
+   data, the data are assigned data levels of. b2, b3, etc.
+
+   Data designated by a c1 extension are derived data. These data are the
+   output of an algorithm applied to ARM and/or external data to calculate
+   values that might not be directly measurable. These algorithms are
+   called Value-added Procedures and the output called a Value-added
+   Product.
+
+   Data Management and Documentation Plan
+
+   The Data Management and Documentation Plan provides an overview of the
+   ARM Program's philosophy on managing and documenting data.
+
+Data Sharing and Distribution Policy
+
+   The ARM Data Sharing and Distribution Policy describes the Program's
+   policy on sharing and distributing ARM data.
+
+Data Gathering and Delivery
+
+   The ARM instruments automatically collect data on surface and
+   atmospheric properties, and the information is sent to the site data
+   systems. Data are packaged into daily files and distributed through the
+   ARM data systems. The files are generally available from the ARM
+   Archive within 48 hours. Two of the ARM data systems (Southern Great
+   Plains and North Slope of Alaska sites) are linked by high speed
+   communications to the Data Archive at the Oak Ridge National
+   Laboratory. Data gathered by the Atmospheric Radiation Cloud Stations
+   at the Tropical Western Pacific (TWP) site are sent by tape to the Data
+   Management Facility via the mail system. In addition, the External Data
+   Center, located at Brookhaven National Laboratory, acquires additional
+   data from other sources, such as National Weather Service satellite and
+   surface data. Most of the ARM data are distributed in netCDF format.
+     __________________________________________________________________
+
+      Need to report or find out about a problem? Make an entry in our
+     PIF/CAR/DQR Database (Problem Identification Form/Corrective Action
+                    Report/Data Quality Report Database)
+              ARM Toll-Free Information Number: 1-888-276-3282
+   __________________________________________________________________
+
+   Send comments to WWW Administrator
+   This page last modified on Wednesday, 09-Jan-2002 02:01:28 GMT
+   Security Notice
+   All rights reserved.

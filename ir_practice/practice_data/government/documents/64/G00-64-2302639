@@ -1,0 +1,169 @@
+http://science.msfc.nasa.gov/ssl/pad/solar/flows.htm
+
+   Solar Physics header image
+
+   Surface Flows
+
+
+                        THE SUN
+
+   Why We Study the Sun
+   The Big Questions
+   Magnetism - The Key
+
+   SOLAR STRUCTURE
+
+   The Interior
+   The Photosphere
+   The Chromosphere
+   The Transition Region
+   The Corona
+   The Solar Wind
+   The Heliosphere
+
+   SOLAR FEATURES
+
+   Photospheric Features
+   Chromospheric Features
+   Coronal Features
+   Solar Wind Features
+
+   THE SUN IN ACTION
+
+   The Sunspot Cycle
+   Solar Flares
+   Post Flare Loops
+   Coronal Mass Ejections
+   Surface and Interior Flows
+   Waves and Helioseismology
+
+   The MSFC Solar Group
+
+   The People
+   Their Papers
+
+   RESEARCH AREAS
+
+   Flare Mechanisms
+   3D Magnetic Fields
+   The Solar Dynamo
+   Sunspot Cycle Predictions
+   Coronal Heating
+   Solar Wind Dynamics
+
+   PREVIOUS PROJECTS
+
+   Orbiting Solar Observatories
+   The Skylab Mission
+   The Solar Maximum Mission
+   The SpaceLab 2 Mission
+   MSSTA
+
+   CURRENT PROJECTS
+
+   MSFC Tower Magnetograph
+   MSFC Dome Magnetograph
+   The Yohkoh Mission
+   The Ulysses Mission
+   The GONG Project
+   The SOHO Mission
+   The TRACE Mission
+   The Sun in Time (EPO)
+
+   FUTURE PROJECTS
+
+   The HESSI Mission
+   The Solar B Mission
+   The GOES SXI Instruments
+   The STEREO Mission
+   Solar Probe
+   Interstellar Probe
+
+   mdi_doppler_sm.jpg (13000 bytes)
+
+                     Click on image for larger version.
+
+      The surface of the sun is in constant motion due to the presence of
+      several velocity components. These components include: rotation,
+      cellular convection, oscillations, and meridional flow. The largest
+      velocity signal is that due to solar rotation with an equatorial
+      velocity of 2000 m/s. Both the oscillations and the convective motions
+      have amplitudes of about 300 m/s. The meridional flow is the weakest at
+      only about 20 m/s. Each of these components plays an important role in
+      helping us understand the sun and how it produces its 11-year cycle of
+      solar activity.
+
+      Solar velocity data is available from the Global Oscillation Network
+      Group (GONG) instruments and the Michelson Doppler Imager (MDI) on the
+      SOHO Mission. Both of these investigations determine the flow
+      velocities by measuring the Doppler shift of a spectral line formed by
+      nickel atoms in the cooler layers of the solar atmosphere.
+
+      The GONG data presently consists of 256 by 256 pixel intensity images
+      at three different spectral positions within the line. These three
+      images are processed to produce three primary data images . The sum of
+      these raw images gives an intensity image which shows sunspots and limb
+      darkening. The size of the change in intensity at the three spectral
+      positions gives a modulation image that shows roughly where magnetic
+      fields are located. The shift in the position of the spectral line with
+      respect to its laboratory position gives a velocity image which is
+      dominated by solar rotation and the cellular pattern of solar
+      convection called supergranulation. GONG also produces magnetograms,
+      images of the sun's magnetic field.
+
+      The primary purpose of these GONG velocity images is to provide data
+      for analyzing the oscillations of the sun. For studies of the nearly
+      steady flows the oscillatory signal represents a source of noise and
+      needs to be removed from the data. This is done by taking a weighted
+      average of 17 velocity images taken at 1-minute intervals to produce an
+      image of the nearly steady flows.
+
+      These time averaged images are then processed by an image analysis
+      program (121 kb GIF image) that separates the signal into its various
+      components: (64 kb GIF image) Differential Rotation (142 kb GIF image)
+      - the rotation signal that includes a rapidly rotating equator and
+      slowly rotating polar regions; Meridional Flow (82 kb GIF image) - a
+      flow directed from the equator towards the poles; Convective Blue Shift
+      (267 kb GIF image) - a velocity artifact due to the correlation of
+      bright convective elements with rising motions; and the
+      Supergranulation (26 kb GIF image) convection pattern.
+
+   mdi_supergranules_sm.jpg (24 Kbytes)
+
+                     Click on image for larger version.
+
+      The SOHO/MDI data consists of 1024 by 1024 pixel intensity images at
+      four different spectral positions within the spectral line. This higher
+      resolution data provides excellent information on the cellular flows.
+      Using the same image analysis program to separate the flow components
+      provides a much clearer image of the supergranulation convection
+      pattern. This instrument also has a high-resolution mode with 3X
+      magnification. This higher magnification reveals even finer details of
+      the sun's convective flow elements.
+
+                                  Web Links
+   The GONG Project - The Global Oscillation Network Group
+
+   SOHO/MDI -- The SOHO Solar Oscillations Investigation Michelson Doppler
+   Imager
+
+   Return to Solar Physics Home
+      __________________________________________________________________
+
+
+     Author: David H. Hathaway, david.hathaway@msfc.nasa.gov, (256)
+     544-7610
+     Mail Code SD50, NASA/Marshall Space Flight Center, Huntsville, AL
+     35812
+
+
+     Responsible Official: John M. Davis, john.m.davis@msfc.nasa.gov,
+     (256) 544-7600
+     Mail Code SD50, NASA/Marshall Space Flight Center, Huntsville, AL
+     35812
+
+
+     Curator
+
+
+     Last revised 2000 July 28 - D. H. Hathaway

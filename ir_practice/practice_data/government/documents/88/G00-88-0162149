@@ -1,0 +1,32 @@
+http://dial.gsfc.nasa.gov/cgi-bin/dib/dib_view/trans?TOMSN7_MONTHLY_9211.HDF-EOS
+
+                            Scientific Data Browser
+     __________________________________________________________________
+
+   This info came from TOMSN7_MONTHLY_9211.HDF-EOS
+     __________________________________________________________________
+
+HDF-EOS Data File
+
+   CAPTION:
+
+File Attributes
+
+    Attribute Name              Attribute Value
+   StructMetadata.0
+                    GROUP=SwathStructure
+                    END_GROUP=SwathStructure
+                    GROUP=GridStructure...more
+
+   archived.0
+                    GROUP                  = ARCHIVEDMETADATA
+                      GROUPTYPE...more
+
+  HDF-EOS Data Objects
+
+ GRID:____ JAN1993
+     __________________________________________________________________
+
+   If you like to view TOMSN7_MONTHLY_9211.HDF-EOS as an HDF file, click
+   here
+     __________________________________________________________________

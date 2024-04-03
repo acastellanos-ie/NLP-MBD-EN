@@ -1,0 +1,241 @@
+http://forth.gsfc.nasa.gov
+
+                     Space-Related Applications of Forth
+
+     Compiled by James Rash, NASA Goddard Space Flight Center Greenbelt,
+                                  Maryland
+     __________________________________________________________________
+
+                                Introduction.
+
+   The following table presents space-related applications of Forth
+   microprocessors and the Forth programming language, including
+     * spacecraft flight system controllers
+     * on-board payload experiment controllers
+     * ground support systems (e.g., communications controllers and data
+       processing systems)
+     * hardware or software used to build or test either flight or ground
+       systems.
+
+   Developers are requested to supply table updates and corrections, as
+   well as information regarding relevant projects not already included,
+   as appropriate. Please send information, comments, and suggestions to
+   the author of this web page. Authorization for release of the
+   information is the responsibility of the contributor.
+
+   Please notify the author concerning any non functional URLs, links, or
+   contact information in the table.
+
+   Further information on Forth, including the ANSI standard (ANS Forth):
+     * Forth Interest Group
+     * Taygeta
+     __________________________________________________________________
+
+   Notice: Nothing appearing in these pages is to be construed as an
+   endorsement by NASA. The information may be changed or withdrawn at any
+   time without notice. The author has obtained the information from
+   sources believed to be reliable, and has attempted to ensure accuracy,
+   but makes no guarantees or representations of any kind. Copying, using,
+   and distributing the table is authorized, provided it is kept intact,
+   properly attributed, and accompanied by this Notice.
+
+
+
+
+   DEVELOPER MISSION DESCRIPTION FURTHER INFORMATION
+   (note: remove white space from email addresses given below)
+   Baja Technology L.L.C. IMAGE Controller for the Extreme Ultra Violet
+   Imager instrument, using Harris RTX2010 Forth microprocessor Jianxin
+   Chen -- jchen@
+   baja.uric.arizona.edu
+   Baja Technology L.L.C ROSETTA Controller for the Ion and Electron
+   Sensor instrument, using Harris RTX2010 Forth microprocessor Jianxin
+   Chen -- jchen@
+   baja.uric.arizona.edu
+   Ball Aerospace (click on "Aerospace" link) Advanced Composition
+   Explorer (ACE) Star Scanner instrument & control software, using Harris
+   RTX 2000 Forth microprocessor
+   Ball Aerospace  Advanced X-Ray Astronomical Facility (AXAF) Software to
+   control the Science Instrument selection and focus mechanisms, using
+   Harris RTX 2010 Forth microprocessor
+   Ball Aerospace  Advanced X-Ray Astronomical Facility (AXAF) Software to
+   operate precision CCD Aspect Camera, using Harris RTX 2010 Forth
+   microprocessor
+   Ball Aerospace  Earth Observing System (EOS) Scanning mirror controller
+   for the Thermal Imaging Radiometer (TIR), using Harris RTX 2010 Forth
+   microprocessor
+   Ball Aerospace  Midcourse Sensor Experiment (MSX) - SDIO Star Tracker
+   instrument & control software, using Harris RTX 2000 Forth
+   microprocessor
+   Ball Aerospace  Military aircraft Star Tracker instrument & control
+   software, using Harris RTX 2000 Forth microprocessor
+   Ball Aerospace  Miniature Seeker Technology Integration (MSTI) Star
+   Tracker instrument & control software, using Harris RTX 2000 Forth
+   microprocessor
+   Ball Aerospace  Near Earth Asteroid Rendezvous (NEAR) Star Tracker
+   instrument & control software, using Harris RTX 2000 Forth
+   microprocessor
+   Ball Aerospace  Shuttle Star Tracker instrument & control software,
+   using Harris RTX 2000 Forth microprocessor
+   Ball Aerospace  Submillimeter Wave Astronomy Satellite (SWAS) Star
+   Tracker instrument & control software, using Harris RTX 2000 Forth
+   microprocessor
+   Ball Aerospace  X-ray Timing Explorer (XTE) Star Tracker instrument &
+   control software, using Harris RTX 2000 Forth microprocessor
+   California Institute of Technology (Caltech) Advance Composition
+   Explorer (ACE) Cosmic Ray Isotope Spectrometer (CRIS) instrument
+   controller hardware (RTX2010) and software in Forth Walter Cook -- wrc@
+   thor.srl.caltech.edu
+   California Institute of Technology (Caltech) Advance Composition
+   Explorer (ACE) Solar IsotopeSpectrometer (SIS) instrument controller
+   hardware (RTX2010) and software in Forth Walter Cook -- wrc@
+   thor.srl.caltech.edu
+   Forth, Inc. USAF Space Based Infrared System (SBIRS) Position encoder
+   implemented with SwiftX
+   cross compiler on Harris RTX-2010 Forth microprocessor  Elizabeth
+   Rather -- erather@ forth.com
+   Innovatia Laboratories NASA & USAF tropospheric research balloons
+   Telemetry system using Innovatia MC1 microcontroller running Forth-83
+   Dennis L. Feucht -- dfeucht@ toolcity.net
+   Johns Hopkins University Applied Physics Laboratory (JHU/APL) USAF DMSP
+   Magnetometer instrument control
+   JHU/APL USAF DMSP Special Sensor Ultraviolet Spectrographic Imager
+   (SSUSI), 5 missions over 15 years using Harris RTX 2010 Forth
+   microprocessor
+   JHU/APL Advanced Composition Explorer (ACE) satellite ULEIS (Ultra Low
+   Energy Isotope Spectrometer), using embedded Harris RTX 2010 Forth
+   microprocessor
+   JHU/APL CASSINI spacecraft Magnetospheric Imager (MIMI) using Harris
+   RTX 2010 Forth microprocessor
+   JHU/APL HILAT Magnetometer instrument control
+   JHU/APL Hopkins Ultraviolet Telescope (HUT) Instrument control, on-line
+   data analysis, telemetry
+   JHU/APL MAGSAT Attitude Control Processor
+   JHU/APL "Polar Bear" (Polar Beacon & Auroral Research Satellite)
+   Magnetometer instrument control
+   JHU/APL US Navy LONARS High precision navigation receiver using Loran-C
+   Real time data processing & sensor control software
+   JHU/APL Near Earth Asteroid Rendezvous (NEAR) Command & Telemetry
+   Processor,
+   Multi-Spectral Imaging System,
+   Infrared Spectrograph and Magnetometer,
+   X-ray/Gamma-ray Spectrometer, and
+   Laser Rangefinder, all using the Harris RTX 2010RH Forth
+   microprocessor
+   Los Alamos National Laboratory Advanced Composition Explorer (ACE)
+   satellite Solar wind data processing unit, using Harris RTX 2010 Forth
+   microprocessor
+   McDonnell Douglas Shuttle - Electrophoresis Operations in Space (1986)
+   Pharmaceutical purification process control software  Robert Wood --
+   rwood@ mdc.com
+   McGill University International Microgravity Laboratory (IML-1)
+   (Shuttle mission STS-42)  Space Adaptation Syndrom Experiment
+   management and data acquisition for four out of seven life science
+   experiments  Luc Lefebvre -- lefebvre@ medcor.mcgill.ca
+   NASA/GSFC Compatibility Test Van (CTV) Dual channel PCM simulator
+   system software
+   NASA/GSFC Compatibility Test Van (CTV): Landsat, HST, GRO, COBE, UARS,
+   etc., Wallops, Data Evaluation Lab Programmable Data Formatter III
+   system software
+   NASA/GSFC CRAF/CASSINI MASSACQ Flight Instrument Test/Calibration
+   System
+   NASA/GSFC Marine Optical Buoy (MOBY) Command and data acquisition
+   system written in Forth Mark Yarbrough -- yarbrough@ mlml.calstate.edu
+   NASA/GSFC Massively Parallel Processor (MPP) Image processing software
+
+   NASA/GSFC NCC Mission Operations Support Area (MOSA) ITR (Intelligent
+   Transmitter/Receiver) -- Interface board for MOSA (formerly Mini-NOCC)
+   Front End Thomas Sardella -- Thomas.E.Sardella.1@ gsfc.nasa.gov
+   NASA/GSFC Shuttle Solar Backscatter Ultra Violet (SSBUV) ozone
+   calibration instrument with 8 successful Shuttle bay flights Small
+   Payload Accommodation Module (SPAM) interface controller software
+   written in Forth Bob Caffrey -- Robert.T.Caffrey.1@ gsfc.nasa.gov
+   NASA/GSFC Shuttle Solar Backscatter Ultra Violet (SSBUV) Instrument
+   Interface Electronics Module (IIEM) software written in Forth John T.
+   (Tom) Riley -- john.t.riley.1@ gsfc.nasa.gov
+   NASA/GSFC Shuttle Ozone Limb Sounder Experiment (SOLSE) A "Hitchhiker
+   Junior", to fly summer '97 -- instrument controller written in Forth
+
+                                   (ditto)
+
+   NASA/GSFC Limb Ozone Retrieval Experiment (LORE) A small independent
+   instrument within SOLSE -- instrument controller written in Forth
+
+                                   (ditto)
+
+   NASA/GSFC Ultraviolet Imaging Telescope (UIT) on Space Shuttle Astro-2
+   mission Dedicated Experiment Processor (DEP) written in Forth Peter
+   Chen -- chen@ uit.gsfc.nasa.gov
+   NASA/GSFC Small Spacecraft Technology Initiative (SSTI) (Lewis Research
+   Center/TRW) Goddard Electronics Module (GEM) data acquisition processor
+   using Harris RTX-2010 Jay T. Miller -- jay.t.miller.1@ gsfc.nasa.gov
+   NASA/GSFC ACE (JHU/APL) Spacecraft Loads & Acoustic Monitor (SLAM)
+   simultaneous data acquisition and downlink subsystem using Harris
+   RTX-2010
+
+                                   (ditto)
+
+   NASA/GSFC Wideband Transport Frame Formatter (WTFF) Virtual channel
+   processor & system controller for the Advanced Orbiting Systems (AOS)
+   Testbed using Harris RTX 2000 Forth microprocessor  Jose Bentancort --
+   Jose@ tsi-telsys.com
+   NASA/JSC Shuttle, IML-1 Krug Life Sciences Microgravity Vestibular
+   Investigations
+   NASA/JPL Shuttle Imaging Radar (SIR-B) Command & control software
+   NASA TOPEX Portion of Ground Support Equipment software
+   NSI Globalstar, Thuraya, Iridium, ICO, Astrolink, various NASA missions
+   including SWAS (Sub millimeter wave astronomy satellite), Space Shuttle
+   Synthetic Aperture Radar (SAR), and Rosetta (comet probe) Microwave
+   nearfield antenna
+   testing of spacecraft antennas www.nearfield.com
+   Dan Slater <dslater@ ix.netcom.com>
+   Orbital Sciences Corporation ORBCOMM Experimental Package OXP-1 on
+   Pegasus Flight & experiment software
+   Orbital Sciences Corporation (formerly Fairchild Space & Defense) USAF
+   Multimission Modular Spacecraft (MMS) Multiplex Data Bus
+   Monitor/Recorder test equipment using Harris RTX2000 microprocessor and
+   firmware written in Forth Mark A. Mowen -- markmowen@ fsd.com
+   Orbital Sciences Corporation ORBCOMM-X Telemetry, flight control
+   support
+   Orbital Sciences Corporation USAF APEX Data management and power
+   control software
+   Orbital Sciences Corporation SeaStar Sea WiFs data management and power
+   control software
+   Orbital Sciences Corporation/Hercules Pegasus Telemetry & flight
+   control
+   Radio Amateur Satellite Corp. (AMSAT-DL (Germany)) AMSAT OSCAR 10,
+   OSCAR 13, OSCAR 21, and (in development) Phase 3-D amateur radio
+   satellites  Integrated Housekeeping Unit (including navigation,
+   attitude control, telemetry and telecommand tracking, payload control,
+   power management, health & safety, and propulsion control) and Ground
+   Support Equipment, all using the Forth-like language IPS (Interpreter
+   for Process Structures). OSCAR 21 used the Harris RTX2000
+   microprocessor.
+   Swedish Space Corp./JHU/APL Freja Magnetometer experiment control
+   Lawrence Zanetti -- zanetti@ jhuapl.edu
+   University of California Galileo Magnetic Field Experiment instrument
+   control
+   University of Wisconsin Wisconsin Ultraviolet Photo-Polarimeter
+   Experiment (WUPPE)  Instrument control
+   US Navy SPINSAT Portion of ground support equipment software
+   USSR  Baikonur Cosmodrome  Telemetry data analysis & retrieval
+   workstations
+   Vertex Communications Corporation Satellite earthstation antenna
+   systems 7210 Monopulse Antenna Control System on Motorola 68030
+   platform sales@ vcsd.com
+
+   Last revised: 23 July 2001
+
+                                                 Name                   Mail
+                                                                        Code
+Responsible management official Julie Breed
+
+                                                                                                          588
+
+Author                          James Rash at james.rash@ gsfc.nasa.gov
+
+                                                                                                          588
+
+   For reference purposes, this page is located at URL:
+   http://forth.gsfc.nasa.gov
+   NASA Security Warning.

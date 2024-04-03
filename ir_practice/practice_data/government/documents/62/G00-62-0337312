@@ -1,0 +1,97 @@
+http://nssdc.gsfc.nasa.gov/space/model/
+
+                     ___________________________________
+
+                        Space Physics Models at NSSDC
+                     ___________________________________
+
+  Run Selected Models
+
+   * IRI (International Reference Ionosphere)
+   * MSIS (Mass Spectrometer & Incoherent Scatter Extended Atmospheric
+   Model)
+   * IGRF (International Geomagnetic Reference Field)
+   * T96 & T89C (Tsyganenko external-source field models, plus IGRF)
+   * AE8/AP8 (Magnetospherically trapped electrons and protons)
+
+  Coordinate Transformation
+
+   * Corrected Geomagnetic Coordinates, and Related Parameters
+     __________________________________________________________________
+
+   Acknowledgement Format: If you use models, or results of model
+   calculations, obtained from these pages in a publication, please
+   acknowledge NSSDC as: "The model (or model results) was (were) obtained
+   from the web pages of NASA's National Space Science Data Center.
+     __________________________________________________________________
+
+  Information About/Access to Selected Models
+
+   * Overview
+   * Gravitation/Geopotential Models
+   * Atmospheric Models
+   * Ionospheric Models
+   * Geomagnetic Field Models
+   * Magnetospheric Field Models
+   * Trapped Particle Models
+   * Solar and Interplanetary Space Models
+   * Planetary Models
+     __________________________________________________________________
+
+   * Models Anonymous Ftp Site
+     __________________________________________________________________
+
+  Submission of Model Software to NSSDC
+
+   * Yes, I would like to submit model software
+   * More information about submitting software to NSSDC
+     __________________________________________________________________
+
+  Related WWW Sites
+
+   * CCMC: Community Coordinated Modeling Center, space science models
+   intended to meet space weather needs.
+   * EnviroNET provides access to models and software that are important
+   for engineers and scientists involved in the design and operation of
+   spacecraft experiments.
+   * SPENVIS: The SPace ENVironment Information System developed by D.
+   Heynderickx et al. (Belgian Institute for Space Aeronomy) for
+   ESA/ESTEC.
+   * NASA's Space Environments and Effects (SEE) project provides access
+   to IRI and IGRF generated movies.
+   * COSMIC: NASA's Software Technology Transfer Center at the University
+   of Georgia in Athens has more than 800 computer programs that were
+   originally developed by NASA and its contractors for the U.S. space
+   program.
+   * Science Tools on the Internet: - Access to Information, Data and
+   Models, Review paper presented during the IAGA/STP 1997 Symposium (many
+   URL links included).
+   * URSI'99 Session on Ionospheric Data and Models on the WWW (agenda
+   with URL links).
+     __________________________________________________________________
+
+   * NSSDC Space Physics page
+     __________________________________________________________________
+
+   69253
+     __________________________________________________________________
+
+
+    If you have questions/comments about the various models available
+    from NSSDC, contact:
+
+
+    Dr. Dieter K. Bilitza, bilitza@nssdca.gsfc.nasa.gov, (301) 286-0190,
+    Fax: (301) 286-1771
+    NSSDC, Mail Code 632, NASA/Goddard Space Flight Center, Greenbelt, MD
+    20771
+
+   [Logo]
+   If you have any questions/comments about magnetic field models and Web
+   access to run models, contact:
+   Dr. Natalia Papitashvili, E-mail: natasha@nssdca.gsfc.nasa.gov, NSSDC,
+   Mail Code 633, NASA/Goddard Spaceflight Center, Greenbelt, MD 20771
+     __________________________________________________________________
+
+        NASA Official: J. H. King, king@nssdca.gsfc.nasa.gov
+        Last Updated: 30 April 2001, NEP

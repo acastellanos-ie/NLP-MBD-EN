@@ -1,0 +1,307 @@
+http://qso.lanl.gov/qc/theory/expqec.ps
+
+   Experimental Quantum Error Correction D. G. Cory1, M. D. Price2, W.
+   Maas3, E. Knill4, R. Laflamme4 W. H. Zurek4 T. F. Havel5 and S. S.
+   Somaroo5 1Dept. of Nuclear Engineering, Massachusetts Institute of
+   Technology, Cambridge, MA 02139 2Harvard-MIT Division of Health
+   Sciences and Technology, Cambridge MA 02139 3Bruker Instruments Inc.,
+   19 Fortune Drive, Billerica, MA 01821 4Los Alamos National
+   Laboratory,Los Alamos, NM 87545 5BCMP, Harvard Medical School, 240
+   Longwood Ave., Boston, MA 02115 (June 30, 1998) Quantum error
+   correction is required to compensate for the fragility of the state of
+   a quantum computer. We report the first experimental implementations of
+   quantum error correction and confirm the expected state stabilization.
+   A precise analysis of the decay behavior is performed in alanine and a
+   full implementation of the error correction procedure is realized in
+   trichloroethylene. In NMR computing, however, a net improvement in the
+   signal-to-noise would require very high polarization. The experiment
+   implemented the 3-bit code for phase errors using liquid state state
+   NMR. PACS numbers: 03.65.Bz, 89.70.+c,89.80.th,02.70.-c Quantum
+   computers exploit the superposition principle to solve some problems
+   much more efficiently than any known algorithm for their classical
+   counterparts. These problems include factoring large numbers [1],
+   combinatorial searching [2] and simulations of quantum systems [3-5].
+   Exploiting the power of quantum computation was thought to be
+   physically impossible due to the extreme fragility of quantum
+   information [6,7]. This judgment seems to be overly pessimistic as
+   quantum error-correction techniques [8-10] were found to protect
+   quantum information against corruption. For physically reasonable
+   models of decoherence a quantum computation can be as long as desired
+   with arbitrarily accurate answers, provided the error rate is below a
+   threshold value [11-14]. Thus decoherence and imprecision are no longer
+   considered insurmountable obstacles to realizing a quantum computer.
+   The chief remaining obstacle to quantum computing is the difficulty of
+   finding suitable physical systems whose quantum states can be
+   accurately controlled. Devices based on ion traps [15] have so far been
+   limited to two bits [16]. Recently, liquid state NMR techniques have
+   been shown to be capable of quantum computations with three bits
+   [17,18]. Thus it is possible, for the first time, to implement the
+   simplest quantum error-correcting codes, and so test these ideas in
+   physical systems. In room temperature liquid state NMR, one can
+   coherently manipulate the internal states of the coupled spin 12 nuclei
+   in each of an ensemble of molecules subject to a large external
+   magnetic field. Although the set of accessible states is highly mixed,
+   it has been shown that experimental methods exist that can be used to
+   isolate the pure state behavior of the system, thus permitting limited
+   application of NMR to quantum computation [19,20]. A detailed
+   description of these methods can be found in [21]. Here we describe the
+   implementation of a quantum error-correcting code which compensates for
+   small phase errors. The behavior of this code was measured for two
+   systems: The 13C labeled carbons in alanine subject to the correlated
+   phase errors induced by diffusion in a pulsed magnetic field gradient,
+   and the proton and two labeled carbons in trichloroethylene (TCE)
+   subject to its natural relaxation processes. In alanine, we observed
+   correction of first-order errors using a precise analysis of the decay
+   behavior of a given input state. The full error-correction procedure
+   (including the final Toffoli gate) was implemented in TCE to
+   demonstrate the expected state preservation of an arbitrary coherent
+   input. Although our experiments validate the usefulness of error
+   correction for quantum computing with pure states, there is a
+   substantial loss of signal associated with the use of ancilla spins in
+   weakly polarized systems. We argue that in this setting, the loss of
+   signal involved in exploiting ancillas removes any advantage for
+   computation gained by error correction, at least unless the system is
+   sufficiently polarized to enable the generation of nearly pure states.
+   Nevertheless, our experiments demonstrate that error-correcting codes
+   can be implemented, and that they behave as predicted. The simple
+   three-bit quantum error-correcting code used here is designed to
+   compensate to first order for small random phase fluctuations. These
+   fluctuations constitute a random evolution of the state jb1b2b3i \Gamma
+   ! e \Gamma i(`1oe1z+`2oe2z+`3oe3z)jb1b2b3i (1) = ei(( \Gamma
+   1)b1`1+(\Gamma 1)b2`2+(\Gamma 1)b3`3)jb1b2b3i ; where bi is 0 or 1, `i
+   is a random phase variable, and oeiz is the Pauli matrix acting on the
+   i'th spin. The `i depend on the error rates in the model, which is
+   described in detail below. The error-correcting code is a phase variant
+   of the classical three bit majority code with a decoding technique that
+   preserves the quantum information in the encoded state [9]. Let j\Sigma
+   i = (j0i \Sigma j1i)=p2. The state (ffj000i + fij100i) is encoded as
+   ffj + + +i + fij \Gamma \Gamma \Gamma i by a unitary transformation.
+   The first-order expansion of the operator in Eq. (1) in the small
+   random phases is 1 \Gamma i`1oe1z \Gamma i`2oe2z \Gamma i`3oe3z ; (2) 1
+   which evolves the encoded state to ffj + + +i + fij \Gamma \Gamma
+   \Gamma i ! ffj + + +i + fij \Gamma \Gamma \Gamma i (3)\Gamma i`1(ffj
+   \Gamma + +i + fij + \Gamma \Gamma i)\Gamma i`2(ffj + \Gamma +i + fij
+   \Gamma + \Gamma i)\Gamma i`3(ffj + + \Gamma i + fij \Gamma \Gamma +i) :
+   The different errors map the encoded state into orthogonal subspaces.
+   By measuring the two observables oe1zoe3z and oe2zoe3z the subspace can
+   be identified. Thus one can determine which error occurred without
+   destroying the encoded quantum information. After decoding, the
+   original state of the first spin can then be restored by a unitary
+   transformation, while the other two spins contain information (the
+   syndrome) about the error which occurred. A network which accomplishes
+   the encoding, decoding and error-correction steps is shown in Figure 1.
+   In NMR experiments, non-unitary processes are classified as
+   spin-lattice and spin-spin relaxation [23,24]. For spin 12 nuclei, both
+   processes are due to fluctuating local magnetic fields. The three spin
+   code corrects for errors due to locally fluctuating fields along the z
+   axis. We focus on a weakly coupled three-spin system where the
+   strongest contribution to coherence loss is from external fields which
+   contribute the Hamiltonian HR j fl1I1 \Delta B1(t) + fl2I2 \Delta B2(t)
+   + fl3I3 \Delta B3(t) ; (4) where I = (Ix; Iy; Iz) and Iu = 12 oeu (u =
+   x; y; z). The x and y components of the external fields do not
+   contribute significantly to loss of coherence in our experiments. The
+   induced random phase fluctuations are identical to those described in
+   Eq. (1). As a result, the off-diagonal elements of the density matrix
+   decay exponentially at a rate which depends on the fields Bk at each
+   spin, their gyromagnetic ratios flk, the coherence order and the zero
+   frequency components of the spectral densities of the fields. The
+   "coherence order" is the difference between the total angular momenta
+   along the z-axis of the two states jbi,j b0i (in units of _h=2) which
+   define a matrix element jb0ihbj [25]. To obtain a clean demonstration
+   of error correction, a simple error model was implemented precisely in
+   the case of alanine. This implementation used the random molecular
+   motion induced by diffusion in a constant field gradient to mimic the
+   effect of a slowly varying random field. This is achieved by turning on
+   an external field gradient rzB = @Bz=@z across the sample for a time
+   ffi. This modifies the magnetization in the sample with a phase varying
+   linearly along the z direction according to @OE=@z = nffifl@Bz=@z,
+   where n is the coherence order of the density matrix element and fl is
+   the gyromagnetic ratio. A reverse gradient is used to refocus the
+   magnetization after allowing molecular diffusion to take place for
+   amount of time t. As a result of random spin displacement \Delta z, the
+   phases of the spins are not returned to their original values but are
+   randomly modified by (nffifl@Bz=@z)\Delta z. For a Gaussian
+   displacement profile with a width of p2Dt, the effective decoherence
+   time of this process is proportional to the diffusion constant D as
+   well as to the square of the coherence order n [25]: 1 o/ = ` @OE @z '
+   2 D = fl2(rzB)2n2ffi2D : (5) This artificially induced "decoherence" in
+   the alanine experiments is an example of completely correlated phase
+   scrambling. This occurs naturally if all the spins have equal
+   gyromagnetic ratios in the slow motion regime. We used TCE to
+   demonstrate error-correction in the presence of the natural
+   decoherence. Most NMR experiments are described using the product
+   operator formalism [26]. This formalism describes the state as a sum of
+   products of the operators Ikx, Iky, Ikz . The identity component of
+   such a sum is the same for any state and is usually suppressed to yield
+   the "deviation" (traceless) density matrix. The effect of
+   error-correction can be understood from the point of view of this
+   formalism. As an example, consider encoding the state I1z using two
+   ancillas initially in their ground states. The initial state is
+   described by aeA = I1z( 12 1 + I2z)( 12 1 + I3z): (6) After encoding
+   the state is aeB j 14 \Gamma I1x + I2x + I3x + 4 I1xI2xI3x\Delta : (7)
+   In the case of completely correlated phase errors, this decays as aeC j
+   14 i\Gamma I1x + I2x + I3x\Delta e \Gamma t=o/ (8) + \Gamma 3I1xI2xI3x
+   + I1xI2yI3y + I1yI2xI3y + I1yI2yI3x\Delta e \Gamma t=o/ + \Gamma
+   I1xI2xI3x \Gamma I1xI2yI3y \Gamma I1yI2xI3y \Gamma I1yI2yI3x\Delta e
+   \Gamma 9t=o/ j : Decoding and error correction mixes these states
+   together so as to cancel the initial decay of the first spin, ae1E j 18
+   I1z(9e \Gamma t=o/ \Gamma e\Gamma 9t=o/ ) ss I1z(1 \Gamma 9 2 t 2=o/2 +
+   \Delta \Delta \Delta ) : (9) The effect of error correction can be seen
+   from the absence of terms depending linearly on t. In the alanine
+   experiments, each of the four product operators in the sum of Eq. 6 was
+   realized in a separate experiment, and the final state after encoding
+   and decoding inferred by adding the results. The loss of polarization
+   over time in each product operator was measured explicitly in each
+   experiment. The results were added computationally to simulate the
+   effect of the Toffoli gate and are shown in Figure 2. This method has
+   the advantage of permitting a detailed analysis of the relevant
+   relaxation pathways. The initial slopes of the decay curves for each
+   operator were estimated and added as required 2 for error correction.
+   The resulting slope is zero within experimental errors. Thus the net
+   curve has quadratic behavior for small delays. The goal of our
+   experiments with TCE was to establish the behavior of encoding/decoding
+   and error correction on all possible initial states subject to the
+   natural decoherence and dephasing. The spins were prepared in the
+   states ae( 12 1 + I2z)( 12 1 + I3z); (10) with ae one of the four
+   inputs 12 1, I1z, I1x, I1y. Any possible input is just a linear
+   combination of these four states. We used gradient methods to directly
+   generate the four states of Eq. 10. They were then subjected to pulse
+   sequences for encoding, decoherence and decoding (experiment I). The
+   reduced density matrix on the first spin (the output) was measured. In
+   the second experiment (II) decoding was followed by error correction
+   (i.e. physical implementation of the Toffoli gate so that the whole
+   circuit of Fig.1 was implemented) before the output was determined.
+   Decoherence was implemented in two ways. The first involved a variable
+   delay during which natural dephasing takes place. In the second
+   implementation, we inserted pulses for each possible phase error (sign
+   flips on at most one spin). Pulse sequences can be found in [27].
+   Ideally the output would be identical to the input. The measured
+   outputs were compared to the ideal ones by computing the "entanglement
+   fidelity" [28]. This is a useful measure of how well the quantum
+   information in the input is preserved. Entanglement fidelity is the sum
+   of the correct polarization left in the output state for each input.
+   More precisely, given input I1a, let fa be the relative polarization of
+   I1a in the output compared to the input. Then f = 14 (1 + fx + fy +
+   fz), this formula is correct for processes which do not affect the
+   completely mixed state 12 1. The results for nine different delays are
+   shown in Figure 3. The curves show that error correction decreases the
+   initial slope by a factor of , 10 (by square fit to the logarithm). Our
+   demonstration of error-correction does not imply that error-correction
+   can be used to overcome the problems of high temperature ensemble
+   quantum computing. In this model of quantum computing, the initial
+   state can be described as a small, linear deviation from the infinite
+   temperature equilibrium. Thus, the deviation is proportional to a
+   Hamiltonian of n weakly interacting particles. In this limit no method
+   of error-correction based on externally applied, time dependent fields
+   can improve the polarization of any particle by more than a factor
+   proportional to pn [29]. If one wishes to use error-correction an even
+   bigger problem is encountered: The initial state of the ancillas used
+   for each encoding/decoding cycle must be pure. In the high temperature
+   regime, the best we can do is to generate a pseudo pure deviation in
+   the ancillas. Unfortunately, this deviation has to be created
+   simultaneously on all ancillas, leading to an exponential reduction in
+   polarization as a function of the total number of ancillas required
+   [30]. This reduction in polarization is not recoverable by error
+   correction. In fact, further analysis shows that an initial
+   polarization of order unity is required for error correction to yield a
+   net gain. Another problem is the inability to reuse ancilla bits. This
+   has two consequences. The first is that decoherence rapidly removes
+   information in the state, leading to computations which are
+   logarithmically bounded in time [31]. Second, the total number of
+   ancillas required is proportional to the time-space product of the
+   computation, rather than to a power of its logarithm. Our work shows
+   that liquid state NMR can be used to test fundamental ideas in quantum
+   computing. Our experiments demonstrate for the first time the state
+   preserving effect of the three bit phase error-correcting code. The
+   first-order behavior was established to high accuracy for a specific
+   state in alanine, while the overall effect was observed and the
+   improvement in state recovery verified in TCE. These experiments
+   confirm not only the validity of theories of quantum error correction
+   in a simple case, but also demonstrate the ability, in liquid state
+   NMR, to control the state of three spin-half particles. This is an
+   important advance for quantum computing, as this is the first system
+   where this degree of control has been successfully implemented.
+   Acknowledgments We thank Jeff Gore for his help with the simulations.
+   This work was supported by the U. S. Army Research Office, DARPA and
+   the National Security Agency. [1] P. W. Shor. In Proceedings of the
+   35'th Annual Symposium on Foundations of Computer Science, pages 124-
+   134, Los Alamitos, California, 1994. IEEE Press. [2] L. K. Grover.
+   quant-ph/9605043. [3] R. P. Feynman. Found. of Phys., 16:507-531, 1986.
+   [4] S. Lloyd. Science, 273:1073-1078, 1996. [5] C. Zalka. Proc. Roy.
+   Soc. of London A, in press. [6] R. Landauer. Phil. Trans. Roy. Soc. of
+   London, 353:367- 376, 1995. [7] W. G. Unruh. Phys. Rev. A, 51:992-997,
+   1995. [8] P. W. Shor. Phys. Rev. A, 52:2493-, 1995. [9] A. Steane.
+   Proc. Roy. Soc. of London A, 452:2551-, 1996. [10] P. W. Shor. SIAM J.
+   Comp.26: 1484, 1997. In Proceedings of the Symposium on the Foundations
+   of Computer Science, pages 56-65, Los Alamitos, California, 1996. IEEE
+   press. quant-ph/9605011. [11] E. Knill, R. Laflamme, and W. Zurek.
+   Science, vol 279, p.342, 1998. [12] D. Aharonov and M. Ben-Or.
+   quant-ph/9611025, to appear in STOC'97, 1996. [13] J. Preskill. Proc.
+   Roy. Soc. of London A, in press. [14] A. Yu. Kitaev. preprint, 1996.
+   [15] J. Cirac and P. Zoller. Phys. Rev. Let., 74:4091-, 1995. 3 [16] C.
+   Monroe, D. M. Meekhof, B. E. King, W. M. Itano, and D. J. Wineland.
+   Phys. Rev. Lett., 75:4714-, 1995. [17] D. G. Cory, M. P. Price, and T.
+   F. Havel. Physica D, 1998. In press (quant-ph/9709001). [18] R.
+   Laflamme, E. Knill, W.H. Zurek, P. Catasti and S. Marathan.
+   quant-ph/9709025, 1997. [19] D. G. Cory, A. F. Fahmy, and T. F. Havel.
+   Proc. Nat. Acad. of Sciences of the U. S., 94:1634-1639, 1997. [20] N.
+   A. Gershenfeld and I. L. Chuang. Science, 275:350- 356, 1997. [21] E.
+   Knill and I. Chuang and R. Laflamme, to appear in Phys. Rev. A. [22] W.
+   H. Zurek Physics Today, October, 1991. [23] A. Abragam. Principles of
+   Nuclear Magnetism. Clarendon Press, Oxford, U.K., 1961. [24] R. R.
+   Ernst, G. Bodenhausen, and A. Wokaun. Principles of Nuclear Magnetic
+   Resonance in One and Two Dimensions. Clarendon Press, Oxford, U.K.,
+   1987. [25] C. P. Slichter. Principles of Magnetic Resonance (3rd ed.).
+   Springer Verlag, 1990. [26] O. W. S"orensen, G. W. Eich, M. H. Levitt,
+   G. Bodenhausen, and R. R. Ernst. Prog. NMR Spect., 16:163-, 1983. [27]
+   For a pulse sequence of this experiment see
+   http://www.c3.lanl.gov/~knill/trnsps.html [28] B. Schumacher. Phys.
+   Rev. A 54, 2614-2628, 1996. [29] O. W. S"orensen. Prog. NMR Spect.,
+   21:503-569, 1989. [30] W. S. Warren. Science, 277:1688-1698, 1997. [31]
+   D. Aharonov and M. Ben-Or. quant-ph/9611028, 1996. |0> |0> yR (90) yR
+   (90) yR (90) yR (-90) yR (-90) R (-90)y Encoding Decoding
+   ErrorCorrection Toffoli gate Decoherence Time delay gradient fields or
+   to induce | >\Psi C1 C2 C3 H | >\Psi or FIG. 1. Network for encoding,
+   decoding and error correction. The circuit describes the evolution of
+   the 3 bits as a function of time. The gate ffl--?-x corresponds to a
+   control-not. Ry(90) represent a rotation by an angle of ss=2 around the
+   y-axis of a single bit. The Toffoli gate flips the target bit (x) if
+   the two control bits (ffl) are in the state j1i. A detailed
+   implementation of these gates is given in [17]. The information
+   carrying bit is carbon 1 (see Figures 2 and 3) in both experiments.
+   -0.6 -0.4 -0.2 0 0.2 0.4 0.6 0.8 1 1.2 ms I1z I2zI1z I3zI1z I2zI1z I3z
+   (single)I2zI1z I3z (triple) 20 40 60 80 100 120 140 160 Error corrected
+   C C13 1 2 13H H 2 C33 O NH OH13 No rm al iz ed In te ns it y FIG. 2.
+   The intensities of the magnetization of the first spin after applying
+   the dephasing and decoding procedures described in the text, together
+   with single exponential fits to the intensities versus the dephasing
+   time o/ . The relevant coupling frequencies are 53:9Hz and 34:8Hz
+   between adjacent carbons. The three mixed states I1z, I1zI2z, I1zI3z,
+   evolved as single quantum coherences during o/ , whereas I1zI2zI3z
+   evolved as a mixture of single and triple quantum coherences, which
+   have been plotted separately (single and triple). Their sum (Error
+   corrected) give the intensities of the same experiment using a
+   pseudopure state (see text). The initial slope of the sum is close to
+   zero, thus showing that the error-correction procedure was able to
+   cancel dephasing to first order. 200 400 600 800 0.2 0.4 0.6 0.8 1.0 ms
+   Decoded Error-corrected H C C13 1 213 Cl Cl Cl0.0 1.0 Fid elit y Error
+   location No H C1 C2 0.2 0.4 0.6 0.8Fide lity 4 FIG. 3. Experimentally
+   determined entanglement fidelities for the TCE experiments after
+   decoding (red) and after decoding and error correction (green). The
+   relevant coupling frequencies are 200:7Hz between H and C1, and 103:1Hz
+   between C1 and C2. The pulse sequences for encoding, decoding and error
+   correction take about 35ms. In this experiment the Toffoli gate was
+   realized by a set of pulses. The histogram represent the fidelities
+   when a single sign flip error has been induced on H, C1 or C2 clearly
+   exhibiting the improvement from error correction. The graph shows
+   continuous curves interpolating the data points. The broken curves were
+   determined by simulating the pulse sequence using the measured coupling
+   constants and estimated T2's of 1:1s (C1), 0:6s (C2) and 3s (H).
+   Differences between experimental and theoretical curves are attributed
+   to lack of precise knowledge of the error model. Errors in the data
+   points are approximately 0:05. Note that since the proton T2 is much
+   longer than that of the carbons, the long term gain in fidelity is
+   partially due to recovery of polarization from the proton. The
+   demonstration of error correction lies in the initial slope. The curves
+   show that error correction decreases the initial slope by a factor of ,
+   10 (by least square fit to the logarithm). 5

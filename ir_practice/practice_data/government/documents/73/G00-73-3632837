@@ -1,0 +1,100 @@
+http://library.msha.gov/basisbwdocs/lbexamp.htm
+
+                          MSHA Library Search Examples
+
+   There are two main categories of searches; simple and complex. A simple
+   search is performed on a single field. A complex search is performed on
+   more than one field.
+
+   Note:
+     * The asterisk (*) stands for a wildcard. A wildcard is a symbol that
+       takes the place of missing letters. You would use a wildcard (*) if
+       you did not know the exact spelling of a word, or if you wanted to
+       include all words that began with the letters before the wildcard.
+       For instance, the search term 'MIN*' would return all words that
+       began with 'MIN' in that field. ( i.e., 'MINING', 'MINUTE', 'MINT',
+       etc.)
+       A wildcard must follow the known letters. (i.e., MIN*, not *IN)
+
+     * The comma (,) is used in simple searches using multiple terms. It
+       acts the same as the 'OR' operator. When you enter 'MINE' , 'LUNG'
+       without spaces, the search results will include all documents which
+       contain the word 'mine' OR the word 'lung' in that field.
+
+     * The ampersand (&) is used in simple searches using multiple terms.
+       It acts the same as the 'AND' operator. When you enter 'MINE' &
+       'LUNG' without spaces, the search results will include all
+       documents which contain the word 'mine' AND the word 'lung' in that
+       field.
+
+     * Do not enter spaces between search terms.
+
+     * Here are examples of both types of searches:
+
+   Simple Searches:
+
+                   Item
+                            Field Name(s)
+               Test Operator
+                            Search Term(s)
+                     1
+                               Keywords
+                                          Includes
+                                                    OXYGEN
+                     2
+                               Keywords
+                                          Includes
+                                                  OXYGEN,LUNG
+                     3
+                               Keywords
+                                          Includes
+                                                  OXYGEN&LUNG
+
+   Item 1: This search would return all documents with the word 'oxygen'
+       in the keywords field.
+       Item 2: This search would return all documents with the words
+       'oxygen' or 'lung' in the keywords field.
+       Item 3: This search would return all documents with the words
+       'oxygen' and 'lung' in the keywords field.
+
+   Complex Searches
+
+         Item
+             Field Name(s)
+                          Test Operator
+                                       Search Term(s)
+                                                     Field Connector
+          4
+               Keywords
+                            Includes
+                                        OXYGEN&LUNG
+                                                           OR
+                Titles
+                          Contains Any
+                                         MIN*,COAL
+          5
+               Keywords
+                            Includes
+                                        OXYGEN&LUNG
+                                                           AND
+                Titles
+                          Contains All
+                                         MIN*&COAL
+          6
+               Keywords
+                            Includes
+                                        OXYGEN&LUNG
+                                                         AND NOT
+                Titles
+                          Contains Any
+                                         MIN*,COAL
+
+   Item 4: This search would return all documents with the word 'oxygen'
+       and 'lung' in the keywords field and all documents with the word
+       'coal' or any word beginning with 'min' in the titles field.
+       Item 5:: This search would return all documents with the words
+       'oxygen' and 'lung' in the keywords field AND whose title contains
+       the word 'coal' and any word beginning with 'min' .
+       Item 6: This search would return all documents with the words
+       'oxygen' and 'lung' in the keywords field AND whose title does NOT
+       contain the word coal or any word beginning with 'min'.

@@ -1,0 +1,161 @@
+http://www.srrb.noaa.gov/highlights/sunrise/sunrise.html
+
+   Dept of Commerce Seal
+
+                   NOAA Surface Radiation Research Branch
+                          Sunrise/Sunset Calculator
+
+               National Oceanic and Atmospheric Administration
+                              Air Resources Lab
+     __________________________________________________________________
+
+               City:
+
+                                      Deg:
+
+                                           Min:
+
+                                                Sec:
+
+                                                         Time Zone
+
+                                Lat:
+                               North=+
+                               South=-
+
+                                      40__ 7___ 30__
+
+                                                     Offset
+                                                     to UTC
+                                                     (MST=+7):
+
+                                                     7____
+
+                                                              Daylight
+                                                              Saving
+                                                              Time:
+
+    Click here for help finding
+    your lat/long coordinates
+
+                                Long:
+                               West=+
+                               East=-
+
+                                      105_ 14__ 13__
+    Note: To manually enter latitude/longitude, select Enter Lat/Long ->
+    from the
+    City pulldown menu, and enter the values in the text boxes to the
+    right.
+
+                         Month:
+
+                               Day:
+
+                                   Year (e.g. 2000):
+
+     [BUTTON Input] (not implemented)__________________________________
+
+        Equation
+       of Time
+       (minutes):
+
+                    Solar
+                 Declination
+                 (degrees):
+
+                              Apparent
+                            Sunrise:
+
+                                         Solar Noon:
+
+                                                      Apparent
+                                                    Sunset:
+
+                                                                 Time
+                                                                 Zone
+
+       ________
+
+                 ________
+
+                            _____________
+
+                                         ________
+
+                                                    _____________
+
+                                                                 Local
+
+                            _____________
+
+                                         ________
+
+                                                    _____________
+
+                                                                  UTC
+     __________________________________________________________________
+
+                                 Directions:
+    1. Select a location from the City pulldown menu, OR select "Enter
+       Lat/Long ->" from the pulldown menu, and manually enter the
+       latitude, longitude and time zone information in the appropriate
+       text boxes. The following sign conventions are used:
+
+                 Longitude:                      Latitude:
+       Positive in Western Hemisphere Positive in Northern Hemisphere
+       Negative in Eastern Hemisphere Negative in Southern Hemisphere
+
+        Latitude and Longitude can be in deg/min/sec, or decimal degrees
+       entered in the "Deg:" field. If you select a city from the pulldown
+        menu, the latitude, longitude and time zone fields will be filled
+       in automatically. If you want to input latitude, longitude or time
+       zone manually, be sure to select "Enter Lat/Long -->" from the City
+        pulldown box, or your numbers will be overwritten by the selected
+                                city's location.
+      2. You can enter a different time zone for a location by selecting
+       "Enter Lat/Long -->" in the City pulldown box. Otherwise, the time
+        zone associated with the selected city's Local Standard Time will
+        be automatically entered. Selecting "Yes" in the Daylight Saving
+       field will cause the resulting sunrise, sunset and solar noon times
+        to be adjusted forward one hour. If you are uncertain of the time
+               zone for a location, refer to our Time Zone Table.
+      3. The program retrieves the current date from your computer, and
+       fills the month, day and year fields. To perform calculations for a
+        different date, simply select a month in the pull down menu, and
+        enter the day and four digit year in the appropriate input boxes.
+       When entering a day or year, you will need to click the "Calculate
+           Sunrise/Sunset" button to update the results for this date.
+     4. Once the calculation results are displayed, you may use your web
+         browser's "Print" function to obtain a hardcopy of the results.
+       5. For locations above the Arctic Circle and below the Antarctic
+        Circle, when a sunrise or sunset does not occur on the given day
+         the program locates the local time and date of the most recent
+          sunrise or sunset, and the next sunset or sunrise. When this
+        occurs, the UTC fields will display "prior" or "next" information
+                            instead of the UTC times.
+     6. NOTE: For latitudes greater than 72 degrees N and S, calculations
+       are accurate to within 10 minutes. For latitudes less than +/- 72°
+       accuracy is approximately one minute. See Solar Calculation Details
+                            for further explanation.
+     __________________________________________________________________
+
+       Solar Position Calculator
+       Calculation Details
+       Solar Calculator Links
+                                NOAA Emblem           Time Zone Table
+                                            Solar Calculator Glossary
+                                            Back to SRRB Homepage
+
+             by Chris Cornwall, Aaron Horiuchi and Chris Lehman
+     __________________________________________________________________
+
+   Information published on this web site is made available by the United
+       States National Oceanic and Atmospheric Administration Surface
+    Radiation Research Branch. Published information may be downloaded or
+    copied. We request that any use of material from this site include a
+     reference to SRRB. Please direct comments to www_srrb@noaa.gov. Or
+                        contact us at (303) 497-6083.
+
+    Warning! This computer is the property of the U.S. Government. Please
+                  read our Privacy and Security Statement.

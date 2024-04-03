@@ -1,0 +1,125 @@
+http://gary7.nsa.gov/selinux/index.html
+
+
+   NSA Logotype
+
+                                        Security-Enhanced Linux
+     __________________________________________________________________
+
+     Security Enhanced Linux
+
+        Overview
+        Line Spacer
+        What's New
+        Line Spacer
+        Frequently Asked Questions
+        Line Spacer
+        Background
+        Line Spacer
+        Documentation
+        Line Spacer
+        License
+        Line Spacer
+        Download
+        Line Spacer
+        Participating
+        Line Spacer
+
+       Mail List Archives
+       Line Spacer
+        Remaining Work
+        Line Spacer
+        Contributors
+        Line Spacer
+        Security Enhanced Linux Press Release
+        Line Spacer
+   About NSA
+   Line Spacer
+   Employment Opportunities
+   Line Spacer
+   NSA Home Page
+
+   As part of its Information Assurance mission, the National Security
+   Agency (NSA) has long been involved with the computer security research
+   community in investigating a wide range of computer security topics
+   including operating system security. Recognizing the critical role of
+   operating system security mechanisms in supporting security at higher
+   levels, researchers from the NSA's Information Assurance Research Group
+   have been investigating an architecture that can provide the necessary
+   security functionality in a manner that can meet the security needs of
+   a wide range of computing environments.
+
+   End systems must be able to enforce the separation of information based
+   on confidentiality and integrity requirements to provide system
+   security. Operating system security mechanisms are the foundation for
+   ensuring such separation. Unfortunately, existing mainstream operating
+   systems lack the critical security feature required for enforcing
+   separation: mandatory access control. As a consequence, application
+   security mechanisms are vulnerable to tampering and bypass, and
+   malicious or flawed applications can easily cause failures in system
+   security.
+
+   The results of several previous research projects in this area have
+   been incorporated in a security-enhanced Linux system. This version of
+   Linux has a strong, flexible mandatory access control architecture
+   incorporated into the major subsystems of the kernel. The system
+   provides a mechanism to enforce the separation of information based on
+   confidentiality and integrity requirements. This allows threats of
+   tampering and bypassing of application security mechanisms to be
+   addressed and enables the confinement of damage that can be caused by
+   malicious or flawed applications.
+
+   Linux was chosen as the platform for this work because its growing
+   success and open development environment provided an opportunity to
+   demonstrate that this functionality can be successful in a mainstream
+   operating system and, at the same time, contribute to the security of a
+   widely used system. Additionally, the integration of these security
+   research results into Linux may encourage additional operating system
+   security research that may lead to additional improvement in system
+   security.
+
+   This work is not intended as a complete security solution for Linux.
+   Security-enhanced Linux is not an attempt to correct any flaws that may
+   currently exist in Linux. Instead, it is simply an example of how
+   mandatory access controls that can confine the actions of any process,
+   including a superuser process, can be added into Linux. The focus of
+   this work has not been on system assurance or other security features
+   such as security auditing, although these elements are also important
+   for a secure system.
+
+   The security mechanisms implemented in the system provide flexible
+   support for a wide range of security policies. They make it possible to
+   configure the system to meet a wide range of security requirements. The
+   release includes a general-purpose security policy configuration
+   designed to meet a number of security objectives as an example of how
+   this may be done. The flexibility of the system allows the policy to be
+   modified and extended to customize the security policy as required for
+   any given installation.
+
+   There is still much work needed to develop a complete security
+   solution. In addition, due to resource limitations, we have not yet
+   been able to evaluate and optimize the performance of the security
+   mechanisms. Currently, we can only support the x86 architecture and
+   have only been able to test it on Red Hat distributions. Nonetheless,
+   we feel we have presented a good starting point to bring valuable
+   security features to Linux. We are looking forward to building upon
+   this work with the Linux community.
+
+   Security-enhanced Linux is being released under the same terms and
+   conditions as the original sources. The release includes documentation
+   and source code for both the system and some system utilities that were
+   modified to make use of the new features. Participation with comments,
+   constructive criticism, and/or improvements is welcome.
+     __________________________________________________________________
+
+   Linux is a registered trademark of Linus Torvalds
+   Red Hat is a registered trademark of Red Hat Software, Inc.
+     __________________________________________________________________
+
+     About NSA   Employment Opportunities   INFOSEC   History   Releases
+
+                                 Line Spacer
+
+    National Cryptologic Museum   Mathematics & Education   Tech Transfer
+
+                                   NSA Seal

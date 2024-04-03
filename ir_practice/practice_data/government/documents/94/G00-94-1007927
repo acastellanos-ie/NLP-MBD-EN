@@ -1,0 +1,113 @@
+http://wsom.nws.noaa.gov/manual/CHAPTERC/NC200695.HTML
+
+       NOAA logo       NATIONAL WEATHER SERVICE         Operations Manual
+                                                  SILVER SPRING, MARYLAND
+   20910   Letter 6-95
+
+   Date of Issue: October 1, 1995        Effective Date: October 1, 1995
+   In Reply To: W/OM11                     File With: C-20
+
+   Subject: National Weather Summary, Canadian Urban Forecasts and
+   Additions to the Foreign Temperature and Weather Table.
+
+   References: This OML is an addendum to WSOM Chapter C-20, National
+   Public Weather Products, TM 92-9, dated August 31, 1992. This OML
+   supersedes OML 6-94, filed with C-20, dated December 12, 1994.
+
+   National Weather Summary: This product is discontinued, effective
+   October 1, 1995. Accordingly, section 4.1 of WSOM Chapter C-20 is
+   deleted.
+
+   Canadian Urban Forecasts: The following section (4.17) is added to
+   Chapter C-20 for Canadian Urban Forecasts on page 18.
+
+   4.17 Canadian Urban Forecasts (CSCNMC, FPCN12 CWAO). These are tabular
+   arrays of one or two word forecasts predicted highs and lows (in
+   degrees Celsius) for some Canadian cities. This automated product is
+   issued twice daily at about 0730 and 1930 Coordinated Universal Time by
+   the National Weather Service Telecommunications Gateway. "M" indicates
+   temperatures below zero Celsius.
+
+   Example 1...Morning Issuance:
+
+   NMCCSCNMC
+   FPCN12 CWAO 190730
+   CANADIAN URBAN FORECASTS
+   TEMPERATURE IN DEGREES CELSIUS
+
+   CITY   FORECAST   FORECAST
+      FRIDAY     SATURDAY
+      WEA                               HI
+     WEA
+    LO/HI
+   IQALUIT                         SUNNY
+   M26
+      INCRG CLOUDINESS   M35/M25
+   YELLOWKNIFE
+   etc. SUNNY
+      MO8   SUNNY
+      M20/M08
+
+   Example 2...Afternoon Issuance:
+
+     NMCCSCNMC
+     FPCN12 CWAO 011930
+     CANADIAN URBAN FORECASTS
+     TEMPERATURE IN DEGREES CELSIUS
+
+     CITY
+                        FORECAST
+                                           FORECAST
+
+                        FRIDAY             SATURDAY
+                        WEA      LO/HI     WEA           LO/HI
+     IQALUIT            CLOUDY   M18/M10   MAINLY CLOUDY M15/M10
+     YELLOWKNIFE   etc. SUNNY
+                                 M12/M4
+                                           FLURRIES
+                                                         M10/M6
+
+    The following information is added to page A-6 of Appendix A (Cities
+   Used in Tabular Products) of Chapter C-20.
+
+   Cities for CSCNMC
+
+   IQALUIT
+   YELLOWKNIFE
+   WHITEHORSE|
+   VICTORIA
+   KAMLOOPS
+   EDMONTON
+   CALGARY
+   SASKATOON
+   REGINA
+   WINNIPEG
+   THUNDERBAY
+   WINDSOR|
+   SUDBURY
+   TORONTO
+   OTTAWA
+   MONTREAL
+   QUEBEC
+   FREDERICTON
+   SAINT JOHN NB
+   HALIFAX
+   SYDNEY
+   CHARLOTTETOWN
+   ST JOHNS NFLD
+
+   Foreign Temperature and Weather Table:
+   On page A-4 of Appendix A, the following cities are added to the list
+   for TPTEUR (Foreign Temperature and Weather Table):
+
+   FRANKFORT
+   MUNICH
+   ST. PETERSBURG
+   ZURICH
+
+
+   Elbert W. Friday, Jr.
+   Assistant Administrator
+       for Weather Services
+
+   WSOM-C-20-6-95

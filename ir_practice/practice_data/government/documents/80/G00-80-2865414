@@ -1,0 +1,320 @@
+http://enduse.lbl.gov/projects/infotech.html
+
+                              [USEMAP:EUF_Header.jpg]
+
+                      Information Technology and Resource Use
+
+   What's new
+
+             New report by Jennifer Mitchell-Jackson, May 16th, 2001:
+             Electricity used by data centers, based on measured data (424K
+             PDF). This study explains why most estimates of power used by
+             data centers are significantly too high, and gives measured
+             power use data for five such facilities. Total power use for the
+             computer room area of these data centers is no more than 40
+             W/square foot, including all auxiliary power use and cooling
+             energy.
+
+             The August 2001 issue of Business 2.0 contains a summary of the
+             debate over electricity use of office equipment: "Is the Net to
+             Blame for the Energy Crisis?", by Todd Lappin.
+
+
+   Project Description
+
+             This ongoing project explores the effects of computers and other
+             information technology on resource use. In 1995, we published a
+             comprehensive assessment of electricity used in
+             commercial-sector office equipment (Koomey et al. 1995, below).
+             This study also is summarized on the web. It did not address
+             energy used by network hardware, but it did deal explicitly with
+             stocks, energy use per unit, and operating hours to estimate
+             total electricity used by commercial sector office equipment in
+             the U.S. It compiled measured data on many of these parameters,
+             which guided the creation of the scenarios generated in that
+             report.
+
+             In the years since our 1995 study was published, the Internet
+             has grown into a substantial force in the U.S. economy. In 1999,
+             Mark P. Mills published a report for the Greening Earth Society
+             (summarized in an article in Forbes Magazine) that attempted to
+             calculate the "Internet related" portion of electricity use.
+             This report claimed that electricity use associated with the
+             Internet totaled about 8 percent of all U.S. electricity use in
+             1998 and that it would grow to half of all electricity use in
+             the next decade. Subsequent to the publication of this report,
+             there was an exchange of technical emails between Amory Lovins,
+             Mark Mills, and others.
+
+             We examine Mills' calculations of current Internet-related
+             electricity use in a technical memo. We find that Mills has
+             significantly overestimated electricity use, in some cases by
+             more than an order of magnitude. We adjust his estimates to
+             reflect measured data and more accurate assumptions, which
+             reduces Mills' overall estimate of total Internet-related
+             electricity use by about a factor of eight.
+
+             In addition to estimating direct energy use associated with
+             office equipment and related network hardware, we are beginning
+             to assess the indirect effects of the Internet on the resource
+             use of the U.S. economy. These effects include structural change
+             (where new institutional arrangements and technological
+             capabilities become possible because of the Internet) and
+             substitution effects (where the new technologies substitute for
+             established energy uses). The net effect of the Internet cannot
+             be assessed without a comprehensive understanding of structural
+             change and substitution.
+
+             On February 2, 2000, the House Subcommittee on National Economic
+             Growth, Natural Resources, and Regulatory Affairs held hearings
+             on "Kyoto and the Internet: the Energy Implications of the
+             Digital Economy". At that hearing, Jay Hakes, Joseph Romm, and
+             Mark Mills testified. Hakes' testimony dealt mainly with the
+             data used to understand recent events in the overall economy,
+             but he also concluded that Mills had overestimated electricity
+             use substantially. Romm's testimony focused mainly on the
+             indirect effects of information technology (IT) on resource use,
+             and cited a large number of examples of how IT can reduce
+             overall resource use. Mills' testimony attempted to address a
+             few of the issues we raised, but his anecdotal response did not
+             in any way invalidate the main conclusion of our memo (our
+             line-by-line rebuttal addresses the points Mills raised in his
+             testimony).
+
+             In June 2000, we completed another comprehensive assessment of
+             office equipment energy use, and in February 2001 we completed
+             final revisions on the analysis and added documentation. The
+             final report includes electricity used by network equipment, and
+             estimates total energy use for residential, commercial, and
+             industrial sectors. Note that this report does not focus just on
+             the "internet related" portion of electricity use as the Forbes
+             article does, so care must be used in comparing the findings of
+             those two studies. We find that total electricity used by all
+             office equipment in the U.S. is about 2% of all electricity use.
+             Commercial sector office equipment electricity use is within 15%
+             of that predicted for 2000 in our 1995 report (for those enduses
+             that are comparable between the two reports), and the difference
+             is explainable by more people leaving their computers and
+             printers on at night than we expected in 1995. This report
+             confirms the results of our earlier technical memo and 1995
+             report. The explosive growth in electricity demand that Mills
+             alleges simply does not show up in the data.
+
+             In August 2000, Koomey finished a detailed rebuttal of Mills'
+             congressional testimony, which addressed each and every point
+             raised by Mills. The detailed calculations in the rebuttal show
+             that electricity used for all office, telecommunications, and
+             network equipment (including electricity used to manufacture the
+             equipment) is about 3% of total electricity use in the U.S. This
+             estimate is about a factor of four lower than the 13% claimed by
+             Mills.
+
+             This story has received much attention in the media. Dr. Koomey
+             has been interviewed by dozens of news organizations, including
+             All Things Considered (NPR), Marketplace (8-9 minutes into the
+             show), the SF Chronicle, Business 2.0, Salon.com, and Salon.com
+             radio. A comprehensive summary of the details of the debate is
+             contained in an article in Network Magazine.
+
+             For details on the causes of the California electricity crisis,
+             download the presentation by Joe Eto and Chris Marnay of
+             LBNL(Acrobat pdf format, 1MB, January 26, 2001). In spite of
+             what many people believe, demand growth has been relatively
+             modest in California over the past 10 years. The California
+             Energy Commission has data on demand growth over time for
+             California as a whole, as well as for Silicon Valley by itself.
+             Both sources show modest growth in overall electricity use that
+             is driven primarily by population growth and economic activity.
+             The San Francisco Chronicle, after examining the data, concluded
+             in a recent article that "soaring power use is more fiction than
+             fact."
+
+             In May 2001, Jennifer Mitchell-Jackson finished her M.S. Thesis
+             on electricity used by data centers. Koomey advised Ms.
+             Mitchell-Jackson on this work, which carefully describes the
+             reasons why most estimates of power used by these facilities are
+             too high, and presents measured data on the power used by these
+             facilities from both the top down (billing data) and the bottom
+             up (counting equipment and measuring or estimating actual power
+             used for each piece of equipment, then adding it up). It also
+             gives our current best estimate of power used by these
+             facilities for the U.S. as a whole, which is no more than 0.12%
+             of all electric power at the end of 2000.
+
+             Mark Mills has also claimed in many articles and speeches that
+             the networking equipment supported a wireless Palm Pilot uses as
+             much electricity as a refrigerator. The documentation for this
+             claim has never been published, and Koomey has requested the
+             documentation from Mills in email on nine separate occasions
+             since 7 September 2000, with no response. You can read the email
+             trail of these requests.
+
+
+   Project Staff
+
+             Jonathan Koomey
+             Kaoru Kawamoto
+             Bruce Nordman
+             Mary Ann Piette
+             Richard E. Brown
+             Alan H. Sanstad
+             Alan Meier
+             Jennifer Mitchell-Jackson
+
+
+   Key Data
+
+             Spreadsheet summarizing our assessment of internet electricity
+             use, based on "The Internet Begins with Coal", but modified to
+             reflect measured data and more accurate assumptions. Filename:
+             internetelectpublic.xls. Format: MS Excel 97/98. Size: 28k. Last
+             modified: December 9, 1999.
+
+             Spreadsheet containing the calculations for Kawamoto et al.
+             2001. Filename: Kawamotoforweb.xls. Format: MS Excel 97/98.
+             Size: 156k. Last modified: November 25, 2000.
+
+             Presentation on causes of the California electricity crisis.
+             Filename: Marnaypresentation010126.pdf. Format: Acrobat pdf
+             format. Size: 1MB. Last Modified: January 26, 2001.
+
+             Previous Energy Commission Peak Electricity Demand Forecasts,
+             California Energy Commission.
+
+             Silicon Valley Electricity Consumption, California Energy
+             Commission.
+
+
+   Publications
+
+             Koomey, Jonathan G., Mike Cramer, Mary Ann Piette, and Joe Eto.
+             1995. Efficiency Improvements in U.S. Office Equipment: Expected
+             Policy Impacts and Uncertainties. Lawrence Berkeley Laboratory.
+             LBL-37383. December. | Executive Summary | 664K PDF
+
+             Koomey, Jonathan, Kaoru Kawamoto, Bruce Nordman, Mary Ann
+             Piette, and Richard E. Brown. Memo to Skip Laitner of EPA:
+             Initial comments on "The Internet Begins with Coal". LBNL-44698.
+             Filename: Forbescritique991209.pdf. Format: Adobe PDF. Size:
+             60k. Last Modified: December 9, 1999.
+
+             Nordman, Bruce. 1999. Memo to Jonathan Koomey on Electricity
+             Requirements for LBNL's Networking Hardware. Filename:
+             LBNLnetwork.doc. Format: MS Word 97/98. Size: 128k. Last
+             Modified: December 9, 1999.
+
+             Kawamoto, Kaoru, Jonathan Koomey, Bruce Nordman, Richard E.
+             Brown, Maryann Piette, and Alan Meier. 2000. Electricity Used by
+             Office Equipment and Network Equipment in the U.S. Published in
+             the Proceedings of the 2000 ACEEE Summer Study on Energy
+             Efficiency in Buildings. Asilomar, CA. August. Abstract | 72K
+             PDF
+
+             Koomey, Jonathan. "Preliminary Analysis of Environmental Impacts
+             of Video Rentals in the U.S." 12 June 2000. Abstract 80K PDF
+
+             John A. "Skip" Laitner. 2000. "The Information and Communication
+             Technology Revolution: Can It Be Good for Both the Economy and
+             the Climate?" Discussion Draft, last modified 31 January 2000.
+             33K PDF
+
+             John A. "Skip" Laitner, Jonathan Koomey, Ernst Worrell, Etan
+             Gumerman. 2001. "Re-estimating the Annual | Energy Outlook 2000
+             Forecast Using Updated Assumptions about the Information
+             Economy". Presented at the American Economic Association
+             Conference. New Orleans, LA. January 7. (also LBNL-46418).
+             Abstract | 48K PDF.
+
+             Koomey, Jonathan G. 2000. Rebuttal to Testimony on Kyoto and
+             the Internet: The Energy Implications of theDigital Economy.
+             Berkeley, CA: Lawrence Berkeley National Laboratory. LBNL-46509.
+             August. Abstract | 360K PDF
+
+             Mitchell-Jackson, Jennifer. 2001. Energy Needs in an Internet
+             Economy: A Closer Look at Data Centers. M.S. Thesis, Energy and
+             Resources Group, University of California, Berkeley. May 16th.
+             424k PDF.
+
+
+   Other Resources
+
+             Cisco Systems: the biggest manufacturer of routers and other
+             networking equipment.
+
+             FCC, Federal Communications Commission. 1999. Trends in
+             Telephone Service. Washington, DC: Industry Analysis Division,
+             Common Carrier Bureau. September.
+
+             Huber, Peter and Mark P. Mills. 1999. "Dig more coal - the PCs
+             are coming: Being digital was supposed to mean less demand for
+             hard energy. It isn't turning out that way," Forbes, May 31,
+             1999, pp 70-72.
+
+             Digital Economy 2000. This report from the U.S. Department of
+             Commerce explores the role of E-Commerce in the new economy.
+
+             Information Technology Industry Council: The industry
+             association that collects relevant data on sales of office
+             equipment and related information technologies. See their latest
+             ITI data book for details.
+
+             International Business Machines: IBM is one of the biggest
+             manufacturers of mainframe computers, as well as many other
+             types of electronic equipment.
+
+             Lucent: the biggest manufacturer of telephone switching devices
+             installed in central offices
+
+             Mills, Mark P. 1999. "The Internet Begins with Coal: A
+             Preliminary Exploration of the Impact of the Internet on
+             Electricity Consumption". Greening Earth Society. Executive
+             summary. Press release and information on ordering the report.
+
+             Network for energy, environment, efficiency and the information
+             economy (N4E). This network of researchers fosters analysis of
+             the physical aspects of information technology, focusing on
+             resource flows, energy use, and environmental impacts associated
+             with computing and network equipment.
+
+             NUA surveys: This company is a key source for information on how
+             many people use the web, and how they use it.
+
+             Testimony on Kyoto and the Internet.
+
+             + Introductory remarks by Chairman McIntosh
+             + Testimony of Jay Hakes, Administrator, Energy Information
+               Administration, DOE
+             + Testimony of Joseph Romm, Executive Director, Center for
+               Energy and Climate Solutions & Former Acting Assistant
+               Secretary for Energy Efficiency and Renewable Energy, DOE
+             + Testimony of Mark Mills, Scientific Advisor, Greening Earth
+               Society & Senior Fellow, Competitive Enterprise Institute
+
+
+             Exchanges between Mark Mills and Amory Lovins about Electricity
+             Used by the Internet in Summer 1999. 292K PDF.
+
+
+   Sponsors
+
+             The 1995 study was funded by Dick Jones at the U.S. Department
+             of Energy, Office of Building Technologies, State, and Community
+             Programs.
+
+             The 1999 assessments of Internet electricity use and network
+             electricity use were funded by Skip Laitner at the U.S.
+             Environmental Protection Agency, Office of Atmospheric Programs.
+
+   Comment on this Page
+
+   You may add your comments and view previous comments about this page.
+
+   About EUF | Staff | Publications | Project Areas | Data | End-Use ftp
+   Site | Search the End-Use Server
+     __________________________________________________________________
+
+   LBNL | EETD | EA | EUF
+     __________________________________________________________________
+
+   Division Webmaster | EUF webmaster | last modified: March 10, 2000
+     __________________________________________________________________

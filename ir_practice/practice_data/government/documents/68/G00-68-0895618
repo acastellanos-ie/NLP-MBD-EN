@@ -1,0 +1,52 @@
+http://ita.ee.lbl.gov/html/whats-new.html
+
+What's New in the Internet Traffic Archive
+
+  Added April 2000:
+
+     * 1998 World Cup Web Site Access Logs, a large collection of Web
+       server traces.
+     * A set of tools for working with the World Cup logs.
+
+  Added August 1997:
+
+     * Updated tcpdpriv to version 1.1.10, which fixes a bug in sanitizing
+       IP fragments.
+
+  Added July, 1997:
+
+     * UC Berkeley Home IP Web Traces, Web traces from UC Berkeley.
+
+  June, 1997:
+
+     * The archive has moved to a permanent URL home,
+       http://www.acm.org/sigcomm/ITA/. In addition, SIGCOMM has acquired
+       a large disk dedicated to the archive.
+     * Updated tcpdpriv to its current release, which includes enhanced
+       portability and FDDI support.
+
+  Added August, 1996:
+
+     * Tcpdpriv, a program for removing confidential information from
+       traffic traces.
+
+  Added June, 1996:
+
+     * Web client traces.
+     * Repeated Internet route measurements.
+
+  Added May, 1996:
+
+     * Web traces from Calgary University.
+     * Web traces from ClarkNet.
+     * Web traces from NASA.
+     * Web traces from the University of Saskatchewan.
+
+  Added February, 1996:
+
+     * Web traces from SDSC.
+     * Web traces from EPA.
+     * A C version of fft-fgn.
+     * Tracelook, a program for graphically viewing tcpdump traces.
+
+   Up to the main page.

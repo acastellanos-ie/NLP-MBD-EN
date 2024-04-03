@@ -1,0 +1,110 @@
+http://casde.jpl.nasa.gov/dataslate/about.html
+
+   dataslate animation
+
+   bottom left dataslate [LINK]-[USEMAP:about.gif]
+   [LINK]-[USEMAP:download.gif] [LINK]-[USEMAP:datasets.gif]
+   [LINK]-[USEMAP:guide.gif] [LINK]-[USEMAP:home.gif] bottom right
+   dataslate
+
+
+                                 About DataSlate
+
+     The DataSlate architecture provides tools and specifications for a
+   system to display large data sets represented as raster images.
+   DataSlate is a Java-based browser which allows the user to navigate,
+   display, compare and analyze data sets. These data sets are stored in a
+   predefined format called DataStruct or SimpleStruct, which provide
+   generalized binning schemes to partition large data sets into frames
+   and framelets that can easily be accessed via network server or on a
+   CD-ROM. A utility called SimpleGen (which requires the IDL processing
+   system from Research Systems, Inc.) is used to convert raster data sets
+   into SimpleStruct format.
+
+                                [Image1.gif]
+
+   The DataSlate browser is intended to allow the user to navigate very
+   large scientific data sets by traversing a hierarchical file system
+   where data sets covering the same area are stored together. Data from
+   different sensors or data taken at different times can easily be viewed
+   and compared. A major design goal is to simplify the computational
+   requirements on the browser by forcing the data organization to be
+   optimized in advance.
+
+                                [Image2.gif]
+
+   Two data storage hierarchies are used by DataSlate, called DataStruct
+   and SimpleStruct. DataStruct will provide a geo-referenced structure
+   where all data is mapped to standard values of resolution in pixels per
+   degree. The starting layer of the DataStruct is layer A and represents
+   a data resolution of 8 degrees per pixel. Thus the entire Earth can be
+   represented with just 45 pixels (in width) at layer A. The SimpleStruct
+   storage hierarchy is much like DataStruct, except that the data sets
+   are not required to be in any specific projection or mapped to a
+   geographic grid. The data sets are mapped into a hierarchical directory
+   structure based on the physical size of the primary data set. Only
+   co-registered data sets (images covering exactly the same scene) can be
+   stored in the same SimpleStruct.
+
+   Both DataStruct and SimpleStruct organize data sets into frames of
+   4,096 x 4,096 pixels. Each frame is stored in a single directory. The
+   frames are tiled into framelets of some size, generally an array of 16
+   rows and 16 columns with a size of 256 x 256 pixels per framelet. These
+   dimensions have been developed to simplify access to related data,
+   provide reasonable file sizes for both network and local CD_ROM access,
+   and provide reasonable storage hierarchies.
+
+   DataSlate has a simple set of controls for selecting and viewing data
+   sets. When DataSlate is invoked it searches for a default data
+   inventory label, which identifies data collections that are available
+   for viewing and presents icons on the display screen for each data
+   collection.
+
+                                [Image3.gif]
+
+   The selected data set is displayed on the DataSlate screen at its
+   lowest resolution. The user presses the plus button to increase the
+   resolution by a factor of two. The user can move around the data set by
+   holding down the mouse and dragging the image around the screen. The
+   user can browse through the different data sets within a collection by
+   pressing the left or right buttons on either side of the Channel 1 data
+   set name display.
+
+   [Image4.gif] [Image5.gif] [Image6.gif]
+
+   DataSlate has the ability to display another window on the screen
+   called Channel 2. The user can open the channel two window by pressing
+   the button to the left of the Channel 2 data set name window. When
+   Channel 2 is opened it will display another data set in the window
+   which can be compared with the data set in Channel 1. Dragging the
+   cursor in either window will move the images in both channels
+   simultaneously. The Channel 2 window can be resized by clicking and
+   dragging on its outline.
+
+   [Image7.gif] [Image8.gif] [Image9.gif]
+
+   Clicking on the data set name in the Channel selection window will
+   bring up a text file describing the data set. Clicking on "Back to Data
+   set" will return to the image display.
+
+                                [Image10.gif]
+
+   The X and Y coordinates of the current cursor location (measured from
+   the upper left of the image) are displayed on the right side of the
+   panel. The current resolution level is displayed below the zoom
+   buttons. The Load button will return from a data set display to the
+   collection menu screen. Hitting the Load button from the collection
+   menu screen will allow the user to select another DataSlate collection
+   label for loading. The Save button will save the contents of the
+   current screen to a gif image. Clicking on the right mouse button (or
+   control-clicking on Macintosh) will bring up a shortcut menu of
+   DataSlate function and allows immediate selection of alternate data
+   sets.
+
+                                [Image11.gif]
+
+   Clicking on the right mouse button (or control-clicking on Macintosh)
+   in either channel will bring up a shortcut menu of DataSlate functions
+   and allows immediate selection of alternate data sets for that channel.
+
+   For copyright information, click here.

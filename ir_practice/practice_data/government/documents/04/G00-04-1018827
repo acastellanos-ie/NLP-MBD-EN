@@ -1,0 +1,83 @@
+http://gsfc-minotaur.gsfc.nasa.gov
+
+   [suitespotlogo.gif] [banner.gif]
+   An enterprise-strength web and application server for the intranet and
+   extranet that connects employees, customers, and partners to an
+   organization's information and web-based applications. It provides
+   powerful information-management and data-access services that integrate
+   with existing systems and resources.
+
+   WHAT'S NEW IN 3.6?
+     * Faster Performance for CGI, NSAPI, and SSL
+     * Rock Solid Reliability
+     * Increased Scalability for Virtual Servers
+     * Multiprocess Capability
+     * Dynamic Log Rotation
+
+   Please note: The Web Publisher, Search, and Agents links below are
+   activated by enabling the corresponding feature in your Enterprise
+   Server. If these links are inactive, ask your server administrator to
+   use the Administration Server to enable that feature.
+
+   NETSCAPE WEB PUBLISHER
+   [fountainpen3.jpg] Web content authors can easily manage their files on
+   a Netscape Enterprise Server by using the Netscape Web Publisher to
+   publish and organize documents and directories. As documents are moved,
+   renamed, and updated, the server automatically maintains and updates
+   the links. Document control and versioning preserve document integrity
+   in collaborative editing environments.
+
+   SOPHISTICATED SEARCH
+   [magnifier2.jpg] Search capabilities let users search the text content
+   and the file properties of any document on the server. This provides
+   great flexibility and precision. For example, a user can find all
+   documents created within the last month that include the word revenue.
+   Netscape Enterprise Server automatically handles content in various
+   formats, including HTML, Microsoft Word, Adobe PDF, and many others.
+
+   ACCESS CONTROL
+   [key4.jpg] Using Access Control, authors specify who can edit and view
+   documents, enabling workgroups to manage and share critical
+   information. Both administrators and web content providers can create
+   flexible, Internet-ready access controls.
+
+   INTELLIGENT AGENTS
+   [hat4.jpg] Agents on Netscape Enterprise Server improve an
+   organization's communication and efficiency by providing timely change
+   notification and information to a user's attention. Both users and
+   administrators (with valid user accounts) can create agents that run on
+   the server and interact with the server's content.
+
+   DEVELOPER AND ADMINISTRATOR FEATURES
+
+   WE B APPLICATIONS
+   [devplatform.gif] Developers can design applications that combine
+   static and dynamic content, database access, and messaging. They can
+   use C, C++, Java, and JavaScript for development, and HTTP and IIOP for
+   communication. These applications use web resources with native
+   database connectivity to Oracle, Sybase, Informix, DB2, and
+   connectivity to other data sources through ODBC.
+
+   CENTRALIZED SERVER MANAGEMENT
+   [enterprise_sm.gif] Netscape Enterprise Server incorporates a broad set
+   of management tools that significantly reduce the cost of managing and
+   maintaining multiple web sites, including distributed administration.
+   Maintaining users and groups for access control is more flexible
+   through the Internet-standard directory service (LDAP).
+
+   See Netscape's home site for information on developing NetHelp, getting
+   reference material, and more.
+
+   CONTACT NETSCAPE
+
+   Register
+   Technical Support
+   Send Feedback
+   Netscape Home
+   _______________________________________________________________________
+
+   This is a default home page.
+   To change this page, edit or replace the file at:
+   E:/Netscape/SuiteSpot/docs/index.html
+
+                               [sspower3.gif]

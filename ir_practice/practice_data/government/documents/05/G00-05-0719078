@@ -1,0 +1,65 @@
+http://www.oes.ca.gov
+
+   FRAME: /oeshomep.nsf/all/logo
+   FRAME: /oeshomep.nsf/all/border
+   FRAME: /oeshomep.nsf/all/site+map
+   FRAME: /oeshomep.nsf/all/border
+   FRAME: /oeshomep.nsf/all/border
+   FRAME: Body
+   FRAME: /oeshomep.nsf/all/navbar
+
+   [Alogo.gif]
+   This site looks best when accessed with a browser that supports frames.
+   Click here to use our Site Map to browse our pages. SubmitFree: Submit
+   to 25+ Search Engines for free !!!!
+
+   <HTML>
+   <Head>
+   <Meta Name="Author" Content="OES">
+   <Meta Name="Generator" Content="Lotus Domino 5">
+   <Meta Name="Description" Content="California Governor's Office of
+   Emergency Services, OES, mitigates, plans and prepares for, responds
+   to,and aids in recovery from the effects of disasters or emergencies
+   that threaten lives, property, and the environment.">
+   <Meta Name="Keywords" Content="CA OES, California Governor's Office of
+   Emergency Services, Office of Emergency Services, State Office of
+   Emergency Services, OES, Emergency Services, Emergency, California,
+   state, disaster, assistance, disaster assistance, earthquake
+   preparedness, earthquake, earthquake campaign, earthquake month,
+   mitigation, services, legislation,plans, preparedness, response, public
+   information, recovery, flood, fire,hazards, hazardous materials,
+   hazmat, storms, rain snow, search and rescue, USAR, US&R, Law
+   Enforcement, law, enforcement, mutual aid, maps, relief, disabled,
+   SEMS, RIMS.">
+   <Title>State of California Governor's Office of Emergency
+   Services</Title>
+   <frameset cols="165,*" frameborder="0" framespacing="0" border="0">
+   <frameset rows="175,*,15" frameborder="0" framespacing="0" border="0">
+   <frame src="/oeshomep.nsf/all/logo" scrolling="no">
+   <frameset cols="15,*,15" frameborder="0" framespacing="0" border="0">
+   <frame src="/oeshomep.nsf/all/border" scrolling="no">
+   <frame src="/oeshomep.nsf/all/site+map" scrolling="auto">
+   <frame src="/oeshomep.nsf/all/border" scrolling="no">
+   </frameset>
+   <frame src="/oeshomep.nsf/all/border" scrolling="no">
+   </frameset>
+   <frameset rows="*,35" frameborder="0" framespacing="0" border="0">
+   <frame src="/oeshomep.nsf/all/home+page" name="Body" scrolling="auto">
+   <frame src="/oeshomep.nsf/all/navbar" scrolling="no">
+   </frameset>
+   </frameset>
+   <noframes>
+   <body>
+   <img src="/oeshomep.nsf/all/logo/$file/Alogo.gif"><br><br>
+   This site looks best when accessed with a browser that supports
+   frames.<br>
+   Click <a href="/oeshomep.nsf/all/site+map">here</a> to use our Site Map
+   to browse our pages.
+   <a href="http://www.ineedhits.com"> <img width="88" height="31"
+   src="http://www.ineedhits.com/images/banners/link-button3.gif"
+   alt="SubmitFree: Submit to 25+ Search Engines for free !!!!"
+   border="0" ></a>
+   </body>
+   </noframes>
+   </Head>
+   </HTML>

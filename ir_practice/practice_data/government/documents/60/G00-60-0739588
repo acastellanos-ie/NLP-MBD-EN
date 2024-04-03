@@ -1,0 +1,989 @@
+http://qecc.pnl.gov/presentations/13-12/pnnl_report_on_uses_of_ansi_n13.12-1999.pdf
+
+   PNNL-13484 Uses of ANSI/HPS N13.12-1999 "Surface and Volume
+   Radioactivity Standards for Clearance" and Comparison with Existing
+   Standards P.S. Stansbury D.J. Strom April 2001 Prepared for the U.S.
+   Department of Energy under Contract DE-AC06-76RLO1830 PNNL-13484 Uses
+   of ANSI/HPS N13.12-1999, "Surface and Volume Radioactivity Standards
+   for Clearance" and Comparison with Existing Standards P.S. Stansbury
+   D.J. Strom April 2001 PNNL Project No. 14647 DOE Project No. 01-ES-592
+   Prepared for the U.S. Department of Energy under Contract DE-AC06-76RLO
+   1830 Risk Analysis and Health Protection Pacific Northwest National
+   Laboratory Richland, Washington 99352 Disclaimer This report was
+   prepared as an account of work sponsored by an agency of the United
+   States Government. Neither the United States Government nor any agency
+   thereof, nor Battelle Memorial Institute, nor any of their employees,
+   makes any warranty, express or implied, or assumes any legal liability
+   or responsibility for the accuracy, completeness, or usefulness of any
+   information, apparatus, product, or process disclosed, or represents
+   that its use would not infringe privately owned rights. Reference
+   herein to any specific commercial product, process, or service by trade
+   name, trademark, manufacturer, or otherwise does not necessarily
+   constitute or imply its endorsement, recommendation, or favoring by the
+   United States Government or any agency thereof, or Battelle Memorial
+   Institute. The views and opinions of authors expressed herein do not
+   necessarily state or reflect those of the United States Government or
+   any agency thereof. PACIFIC NORTHWEST NATIONAL LABORATORY operated by
+   BATTELLE for the UNITED STATES DEPARTMENT OF ENERGY under Contract
+   DE-AC06-76RLO 1830 Executive Summary In August 1999, the American
+   National Standards Institute (ANSI) approved a standard for clearance
+   of materials contaminated with residual levels of radioactivity.
+   "Clearance," as used in the standard, means the movement of material
+   from the control of a regulatory agency to a use or disposition that
+   has no further regulatory controls of any kind. The standard gives
+   derived screening levels (DSLs) in Bq/g and Bq/cm2 for 50
+   radionuclides. Items or materials with residual surface and volume
+   radioactivity levels below the DSLs can be cleared, that is, managed,
+   without regard to their residual radioactivity. Since federal agencies
+   are to use voluntary industry standards developed by the private sector
+   whenever possible, the standard should play an important role in the
+   U.S. Department of Energy's (DOE's) regulatory process. The thrust of
+   this report is to explain the standard, make observations on its
+   usefulness to DOE, and explore uses of the standard within DOE
+   facilities beyond the clearance of radioactive materials. The standard
+   identifies a primary dose criterion of 10 µSv/y (1 mrem/y) total
+   effective dose equivalent (TEDE) above background. Using this
+   criterion, the standard assigns 50 radionuclides to one of four groups,
+   0.1, 1, 10, or 100 Bq/g and Bq/cm2 for volume and surface DSLs,
+   respectively. The grouping is done on the basis of conservative, but
+   not worst-case, scenarios and with consideration of detectability and
+   the "as low as reasonably achievable" (ALARA) principle. The DSLs are
+   also presented in the traditional units of pCi/g and dpm/100 cm2,
+   rounded off to one significant figure. It would be reasonable, prudent,
+   and cost-effective for DOE to replace the values currently in Appendix
+   D of 10 CFR 835, "Occupational Radiation Protection," and in Figure
+   IV-1 in DOE Order 5400.5, Radiation Protection of the Public and the
+   Environment, with the DSLs in ANSI/HPS N13.12- 1999. This action would
+   ensure consistency between the operational and environmental radiation
+   protection programs operated throughout DOE. The standard identifies a
+   primary dose criterion of 10 µSv/y (1 mrem/y) TEDE above background.
+   This value is not an absolute limit. The standard permits clearance of
+   materials at a higher levels, justified on a case-by-case basis, when
+   it can be ensured that exposures to multiple sources will be maintained
+   ALARA and will provide an adequate margin of safety below the public
+   does limit of 1 mSv/y (100 mrem/y) TEDE. The DOE sets the same primary
+   dose limit of 1 mSv/y (100 mrem/y) for a member of the general public
+   in many of its regulations. Thus, in using the DSLs in the standard for
+   clearance or the other potential uses, DOE would have the flexibility
+   to choose a different dose criterion, providing it could show that such
+   level was consistent with the ALARA principle and would not lead to
+   combined doses from multiple sources in excess of the DOE public dose
+   limit. For example, a dose criterion of 250 µSv/y (25 mrem/y) would
+   lead to a 25-Bq/g group containing all of the radionuclides in the
+   1-Bq/g group in the standard. iii Potential benefits from using the
+   ANSI N13.12-1999 standard in occupational radiation protection include:
+   * use of a single surface contamination limit rather than separate
+   limits for removable and total contamination as done today - The DSLs
+   are less restrictive than the current total contamination limits, for
+   all nuclides of significance to DOE operations and cleanup. They are
+   much less restrictive than the current removable contamination limits.
+   * "down-posting" of some current High Contamination Areas and
+   "de-posting" of some current Contamination Areas, reducing the
+   footprint of areas that must be managed as Controlled Areas - Using the
+   DSLs in place of current values would have a remarkably beneficial
+   impact on research laboratories where common biomedical tracers are
+   used. * "field counting" of transuranic and 90Sr smear samples,
+   expediting operational decisions based on survey results, thus saving
+   time and money - In addition, "field counting" of smear samples would
+   reduce the workload of counting laboratories Potential benefits from
+   using the ANSI N13.12-1999 standard in environmental radiation
+   protection include: * using the standard as a basis for defining "solid
+   effluents," integrating the clearance process into the menu of options
+   that the DOE has for managing its environmental cleanup and research
+   missions - For two waste streams, metals and hazardous waste
+   contaminated with radionuclides, DOE's current policy is based on
+   "detectability" as the primary criterion. Using the risk-based
+   consensus standard ANSI N13.12 could give the DOE a credible and valid
+   basis for changing its current policy on these two important waste
+   streams. * releasing, for ordinary disposal, materials with trace
+   amounts of contamination throughout their volume - ANSI N13.12-1999
+   provides a technical basis for treating materials with trace amounts of
+   radioactive contamination throughout their volume as ordinary waste.
+   Such a practice would help in the disposal of slightly contaminated
+   soils and rubble from cleanup operations. It would also do much to make
+   DOE national laboratories using tracer radionuclides for biomedical
+   research more productive and cost-competitive. iv Acknowledgments The
+   authors gratefully acknowledge the help of William E. Kennedy, Jr.,
+   chairman and long-time member of the working group that prepared the
+   ANSI/HPS N13.12-1999 standard. We believe his sharing of the history
+   and philosophy behind the standard led us to a more cogent report. We
+   also acknowledge the foresight of Jerome B. Martin, who identified the
+   need for this report and initiated the project to prepare it, and the
+   thoughtful review by Dr. Joel L. Rabovsky of the Office of Worker
+   Protection Policy, whose comments increased the usefulness of the
+   document to DOE and its contractors. The authors also acknowledge the
+   help of James R. Weber, technical editor, in improving this document as
+   we finalized it and Rose M. Watt, document designer, in preparing the
+   final document. v vi Contents Executive Summary . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . iii Acknowledgments . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . v 1 Introduction . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 2 Synopsis
+   of the ANSI/HPS N13.12-1999 Standard in the Context of Related
+   Documents . . . . . . . . 2 2.1 Purpose and Scope . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 2 2.2 Definitions . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 2 2.3 Dose Criteria and Derived Screening
+   Levels . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 4 2.4 Implementation . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 5 2.5 Records . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . 5 2.6 References . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . 6 3 Examination of the Derived Screening Levels for
+   Radionuclides . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 4
+   Potential Uses of the ANSI Clearance Standard . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . 14 4.1 Derived
+   Screening Levels Scalable to Other Dose Criteria . . . . . . . . . . .
+   . . . . . . . . . . . . . . . 14 4.2 Direct Use in the Recycling and
+   Disposal of Radioactively Contaminated Materials or Wastes at Cleanup
+   Sites . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . 15 4.3 Disposal of Biomedical and
+   Similar Research Laboratory Wastes . . . . . . . . . . . . . . . . . .
+   . . . 15 4.4 Use of the ANSI Screening Levels for Designating
+   Contamination Areas . . . . . . . . . . . . . . . 16 4.5 Decreasing the
+   Number and Frequency of Measurements of Surface Contamination in
+   Workplace Environments . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18 4.6 Reduce
+   or Eliminate the Need to Count Smears in a Counting Laboratory . . . .
+   . . . . . . . . . . 18 5 ANSI Standard as a Technical Basis for "Solid
+   Effluents" . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . 19 6 Conclusions and Recommendations . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+   6.1 Conclusions and Recommendations Relevant to Both Occupational and
+   Environmental Radiation Protection . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . 20 6.2 Conclusions and
+   Recommendations Relevant to Occupational Radiation Protection . . . . .
+   . 21 6.3 Conclusions and Recommendations Relevant to Environmental
+   Radiation Protection . . . . . 21 7 References . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 22 vii Figures 1 Entry to,
+   Exit from, and Bypass of Regulation of Sources of Radiation Exposure .
+   . . . . . . . . . . . . . 2 2 Comparison of 0.1 Bq/g or Bq/cm2 Group
+   Shaded area is IAEA-recommended range and slim black line is Regulatory
+   Guide 1.86 value. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 8 3 Comparison of 1 Bq/g or Bq/cm2 Group  Shaded
+   area is IAEA-recommended range and slim black line is Regulatory Guide
+   1.86 value. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . 8 4 Comparison of 10 Bq/g or Bq/cm2 Group  Shaded area
+   is IAEA-recommended range and slim black line is Regulatory Guide 1.86
+   value. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 9 5 Comparison of 100 Bq/g or Bq/cm2 Group  Shaded area is
+   IAEA-recommended range and slim black line is Regulatory Guide 1.86
+   value. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 9 6 Distribution of Ratios of ANSI Screening Levels to 10
+   CFR 835 Appendix D Total Surface Contamination Limits . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . 10 7 Ratio of ANSI Screening Levels to 10 CFR 835
+   Removable Contamination Limits . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 11 8 Ratio of ANSI Screening
+   Level to DAC for 10 and 100 Groups . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . 12 9 Ratio of ANSI Screening Level to DAC for 0.1 and
+   1 Groups . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+   viii 1 Introduction In August 1999, the American National Standards
+   Institute (ANSI) approved ANSI/HPS N13.12-1999, Surface and Volume
+   Radioactivity Standards for Clearance (ANSI 1999; referred to here as
+   "ANSI N13.12" or "the standard"). Publishing this standard culminated
+   an effort begun in 1964. The stated purpose of the standard is to
+   provide guidance for protecting the public and the environment from
+   radiation exposure by specifying a primary radiation dose criterion and
+   derived screening levels for the clearance of items that could contain
+   radioactive material. The standard is a voluntary consensus standard
+   developed by the ANSI-Accredited HPS N13 Committee. ANSI has designated
+   the Health Physics Society (HPS) as the secretariat for this standards
+   committee. At the time the standard was approved, the committee
+   consisted of representatives of 22 organizations and 7 individual
+   members. The organizations represented included: * seven government
+   agencies, including the U.S. Department of Energy (DOE) and the U.S.
+   Nuclear Regulatory Commission (NRC) * two labor organizations * the
+   American Chemical Society, the American Industrial Hygiene Association,
+   the Health Physics Society, the American College of Occupational and
+   Environmental Medicine, other professional societies, and * groups
+   representing the mining, manufacturing, electronics, and nuclear
+   industries. The objectives of this report are a) to identify potential
+   uses for the standard above and beyond those in the standard itself and
+   b) to make recommendations concerning these potential uses. To achieve
+   this objective, this report * provides a synopsis of the standard in
+   the context of other guidance on release of contaminated items and
+   materials * discusses clearance of sources from regulation * compares
+   and contrasts the standard's screening values for over 50 radionuclides
+   with those of other guidance and standards * presents various uses of
+   the standard DOE may wish to consider above and beyond the use implied
+   by the standard's title, and * provides conclusions and recommendations
+   based on the findings of the report. 1 2 Synopsis of the ANSI/HPS
+   N13.12-1999 Standard in the Context of Related Documents The standard
+   consists of 8 pages of text plus 47 pages of appendices that include 3
+   pages of normative references and 8 pages of informative references as
+   well as some 14 pages of tables. The standard itself consists of 6
+   sections: purpose and scope, definitions, dose criteria and derived
+   screening levels, implementation, records, and cited references. Each
+   of these sections is discussed below, with explanatory background from
+   other documents to cover gaps and implicit knowledge in the standard.
+   2.1 Purpose and Scope The scope of the standard excludes naturally
+   occurring radioactive material, radioactive material on or in
+   foodstuffs, process gasses and liquids (effluents, presumably), release
+   of land or soil intended for agricultural purposes, and release of
+   licensed or regulated sites or facilities for unrestricted use. 2.2
+   Definitions This section of the standard defines concepts needed to
+   understand the scope of the standard, some of which do not appear in
+   the standard. To understand clearance, one must consider entry of
+   radioactive materials into the regulatory arena, exit of radioactive
+   materials from the regulatory arena, and bypass of the regulatory arena
+   (Figure 1). Arena of Regulatory Control Gaseous Uses of Sources &
+   Effluents Sources of Do Conduct of Practices Rad. Exposure sources need
+   to Yes Liquid Introduced by a be regulated? Effluents Practice Land
+   Clearance No Disposal of Solids Radiation Doses to Public Individuals
+   Exemption of Practice Possible Existing Sources of Do doses Yes
+   Radiation need to be Intervention Exposure reduced? No Exclusion Figure
+   1. Entry to, Exit from, and Bypass of Regulation of Sources of
+   Radiation Exposure 2 Terms such as "exemption" and "exclusion," used in
+   Figure 1 and discussed below, have very specific connotations in the
+   context of the ANSI Standard. Such terms may have different meanings
+   when used in 10 CFR 820 "Procedural Rules for DOE Nuclear Activities,"
+   in 10 CFR 835, "Occupational Radiation Protection," and in other
+   regulations. "Background radiation" as used in the standard has a
+   meaning slightly different from the definition in 10 CFR 835. Clearance
+   is defined in the standard as "the removal of items or materials that
+   contain residual levels of radioactive materials within authorized
+   practices from any further [regulatory] control of any kind." Although
+   not defined in the standard, it is important to understand the notion
+   of a practice as introduced by the International Commission on
+   Radiological Protection (ICRP) and subsequently modified. According to
+   the International Atomic Energy Agency (IAEA), a practice is any human
+   activity that introduces additional sources of exposure or exposure
+   pathways or extends exposure to additional people or modifies the
+   network of exposure pathways from existing sources, so as to increase
+   the exposure or the likelihood of exposure of people or the number of
+   people exposed (IAEA 1996b). Examples of practices include production
+   of electricity with nuclear energy, medical diagnosis using x rays, and
+   use of radionuclide sources in smoke detectors. Exclusion is defined in
+   the standard as "the designation by a regulatory authority that the
+   magnitude or likelihood of an exposure is essentially unamenable to
+   control...." The examples given are cosmic radiation at the earth's
+   surface, exposure from 40K in the body, and natural radionuclides in
+   raw materials. Exemption is "the designation by a regulatory authority
+   that specified uses of radioactive materials or sources of radiation
+   are not subject to regulatory control because the radiation risks to
+   individuals and the collective radiological impact are sufficiently
+   low." One can think of the collection of all U.S. laws and regulations
+   as an "arena of regulatory control," represented by the black rectangle
+   in Figure 1. Thus, excluded exposures are those exposures that are
+   never in the regulatory sphere, such as cosmic ray exposure to people
+   on the surface. Exempted practices are those that could be regulated,
+   but the regulatory authorities choose not to do so, such as not
+   controlling the uranium in dental porcelain after dentures are
+   manufactured. Cleared materials are those that move from being
+   regulated to being unregulated. An example is NRC licensees disposing
+   of radionuclides in the sanitary sewer as permitted under 10 CFR 20.
+   Background is defined in the standard as "natural radiation or
+   radioactive material in the environment," but not including "naturally
+   occurring radioactive material that has been technologically enhanced."
+   3 2.3 Dose Criteria and Derived Screening Levels The standard's primary
+   dose criterion is 10 µSv/y (1 mrem/y) total effective dose equivalent
+   (TEDE) above background. Annex A to the standard, an "informative"
+   section, reviews U.S. regulations and international guidance and
+   discusses the rationale for the primary dose criterion. The strongest
+   points in favor of this dose level are that 1) it is in the range of 10
+   to 100 µSv/y (1 to 10 mrem/y) given by the IAEA as a "level of trivial
+   effective dose equivalent" (IAEA 1988) and 2) it is the same as the
+   National Council on Radiological Protection and Measurements (NCRP)
+   value for a "negligible individual dose" (NCRP 1993). A major
+   disadvantage for the 10 µSv/y (1 mrem/y) level is detectability. For
+   some radionuclides, the surface and volume concentrations that
+   correspond to the dose level are not measurable with field instruments.
+   The standard does state that it is allowable for higher TEDEs to be
+   used in the clearance of materials from regulatory control, justified
+   on a case-by-case basis, when it can be ensured that exposures to
+   multiple sources (including those that are beyond the scope of this
+   standard) * will be maintained as low as reasonably achievable (ALARA)
+   and * will provide an adequate margin of safety below the public dose
+   limit of 1 mSv/y (100 mrem/y) TEDE. Derived screening levels (DSLs) are
+   surface or volume concentrations that correspond to the primary dose
+   criterion, linked to it by considering one or more exposure models.
+   Annex B (also "Informative") describes the models considered in
+   deriving the screening levels. For both the surface and volume cases,
+   three pathways were considered: exposure to sources of penetrating
+   radiation external to the body, inhalation of radioactive materials,
+   and ingestion of the radioactive materials. The standard notes that in
+   deriving worst-case scenarios, other exposure pathways could be
+   significant. However, it was judged that such scenarios are not needed
+   to "provide reasonable assurance that the primary dose criterion will
+   be met" and are not part of the modeling for the standard. For
+   establishing the derived screening level with respect to volume
+   contamination, the working group for the standard developed a building
+   remodeling scenario for 50 radionuclides in a manner consistent with
+   IAEA studies in this area (IAEA 1987). The group also reviewed the
+   results of previous studies and modeling. In particular, a screening
+   model developed by the NCRP, two previous studies done for DOE, one for
+   the U.S. Environmental Protection Agency (EPA), and one for the NRC,
+   were examined for volume concentration limits. For surface
+   contamination levels, the group developed a model similar to that
+   developed by the IAEA in 1987 and found a published study that had
+   surface contamination limits for the reuse of tools and equipment. In
+   calculating the effective dose equivalent via inhalation and ingestion,
+   the group assumed that all surface contamination was removable. Thus,
+   there is no need for separate "removable" and "fixed plus removable"
+   DSLs in the standard. For each radionuclide, the working group examined
+   the range of results of modeling and used "professional judgment" to
+   assign each into one of four groups. The groups used were 0.1, 1, 10,
+   and 4 100 Bq/g or Bq/cm2, that is, using the same numerical value for
+   both the surface and volume screening levels when expressed in these
+   units. If screening levels for the low-energy beta-emitters had been
+   based on dose alone, there would need to be a group with a much larger
+   screening level. However, the working group judged that contamination
+   control considerations justified including these radionuclides in the
+   100 Bq/g or Bq/cm2 group. Further, the working group considered
+   detectability of the screening levels and concluded that "with a
+   careful selection of alpha and gamma spectrometry instruments, it
+   should be possible to attain minimum detectable activity lower than the
+   screening level for most groups of radionuclides identified in this
+   standard." This conclusion is based on calculations of a 10-minute
+   gamma spectrometry count of a liter of water with a high-purity
+   germanium (HPGe) detector, a 1,000-minute count for alpha spectroscopy,
+   a 10-minute count for liquid scintillation of a smear, and a 1-minute
+   count of smear for gammas with an HPGe detector. The HPGe detector
+   modeled has 60% efficiency for 60Co relative to a 3×3 in. NaI(Tl)
+   detector. The working group then converted the surface and volume
+   screening levels in Bq/cm2 and Bq/g to dpm/100 cm2 and pCi/g,
+   respectively. Unfortunately, the standard rounds the values for
+   traditional units, so that values in the old units would read "3" when
+   the un-rounded value is 2.7027. Thus, ANSI/HPS N13.12 does not specify
+   unique values for surface and volume contamination. 2.4 Implementation
+   In this section, the standard gives guidance on issues related to
+   measurements needed to demonstrate compliance with the standard: * the
+   importance of using process knowledge in planning for the measurements
+   * criteria for use in the selection of instruments and methods to
+   perform the measurements * the use of volumetric measurements in lieu
+   of surface measurements * criteria for averaging surface or volume
+   measurements * a sum of fractions method when more than one
+   radionuclide or chain of radionuclides is present - Progeny with a
+   half-life that is short compared to the parent do not need to be
+   considered in the sum of fractions. For decay chains, the screening
+   levels are for the total activity present. * considerations for
+   ensuring that sampling is representative when 100% sampling is
+   unreasonable * considerations for using scanning measurements as
+   opposed to direct measurements. 2.5 Records This short section gives
+   the requirements for records above and beyond those in ANSI N13.6-1989,
+   Practice for Occupational Radiation Exposure Records Systems (ANSI
+   1989): * description of the items surveyed 5 * survey results, date,
+   and identity of the person who performed the survey, and * archived
+   procedures or other records that specify pertinent details about how
+   the measurements were made, such as personnel training, operating
+   instructions, and calibration details. 2.6 References There is a short
+   list of references cited in the standard itself. In addition, there is
+   a complete Annex C that is an extensive list of "normative and
+   informative" references for Annexes A and B. The normative references
+   are those actually cited in one of the annexes. The informative
+   references are a bibliography of material related to contamination and
+   related subjects. 6 3 Examination of the Derived Screening Levels for
+   Radionuclides The screening levels for the 50 radionuclides listed in
+   the standard can be viewed in several different ways. Figures 2 through
+   5 show levels from other sources for groups of radionuclides
+   corresponding to the standard's screening levels of 0.1, 1, 10, and 100
+   Bq/g or Bq/cm2, respectively. In each figure, the heavy black line
+   shows the standard's level for each group for comparison with the range
+   of clearance levels given by the IAEA (1996a) and the values given in
+   Regulatory Guide 1.86 (USAEC 1974). The order of the radionuclides in
+   each graph was chosen to correspond with the lower end of the IAEA
+   range to minimize the "sawtooth" appearance. The 0.1-Bq/g or Bq/cm2
+   group (Figure 2) includes the alpha-emitting nuclides except the
+   uranium isotopes. The ANSI screening levels are generally at the low
+   end of the IAEA-recommended range but above the Regulatory Guide 1.86
+   values. The 1-Bq/g or Bq/cm2 group (Figure 3) includes the natural
+   isotopes of uranium and, generally, radionuclides that emit energetic
+   betas or gammas. For most of the nuclides in this group, the ANSI
+   screening levels are in line with the Regulatory Guide 1.86 values and
+   at the high end of the IAEA range. For the 10- Bq/g or Bq/cm2 group
+   (Figure 4), all screening levels are at least a factor 10 larger than
+   the Regulatory Guide 1.86 values and are in or below the IAEA range.
+   Note that the ANSI standard level is 600 times greater than the
+   Regulatory Guide 1.86 level for 241Pu and 129I. Plutonium-241 emits a
+   weak beta (21 keV) and its 14.4-y half-life allows for significant
+   decay over the 50-y period for which the committed effective dose
+   equivalent is calculated. Although it has a long half-life (16 million
+   years), 129I emits a beta of modest energy (150 keV). The 100-Bq/g or
+   Bq/cm2 group shows the greatest difference between the ANSI screening
+   levels and the Regulatory Guide 1.86 values. All of the ANSI values are
+   two orders of magnitude less restrictive. Over half of the ANSI
+   screening levels lie outside the IAEA range. Another way of looking at
+   the ANSI screening levels is to compare them with the values in
+   Appendix D of 10 CFR 835 (Figures 6 and 7). Figure 6 is a histogram of
+   the distribution of ratios of screening levels in the standard to total
+   surface contamination values in Appendix D of 10 CFR 835. Figure 7
+   shows the ratios themselves in bar graph format. DOE facilities use
+   Appendix D to identify and post Contamination and High Contamination
+   Areas. The Appendix D values are the same as those in Regulatory Guide
+   1.86 with one exception: The Appendix D "total contamination" limit for
+   the group that contains the transuranic radionuclides and other
+   radionuclides is 0.0833 Bq/cm2 (500 dpm/cm2), five times the value for
+   the corresponding group in Regulatory Guide 1.86. Therefore, the ANSI
+   screening level of 0.1 Bq/cm2 is almost no change. 7 10 1 0.1 Level
+   (Bq/cm^2) 0.01 210Po 210Pb 226Ra 228Ra 228Th 230Th 232Th 237Np 239Pu
+   240Pu 241Am 244Cm Figure 2. Comparison of 0.1 Bq/g or Bq/cm2 Group
+   Shaded area is IAEA- recommended range and slim black line is
+   Regulatory Guide 1.86 value. 10 1 0.1 Level (Bq/cm^2) 0.01 58Co 65Zn
+   90Sr 192Ir 106Ru 22Na 54Mn 60Co 94Nb 124Sb 134Cs 137Cs 152Eu 234U 235U
+   238U 110mAg Figure 3. Comparison of 1 Bq/g or Bq/cm2 Group  Shaded area
+   is IAEA- recommended range and slim black line is Regulatory Guide 1.86
+   value. 8 1000 100 10 1 Level (Bq/cm^2) 0.1 0.01 36Cl 109Cd 144Ce 241Pu
+   59Fe 131I 129I Figure 4. Comparison of 10 Bq/g or Bq/cm2 Group  Shaded
+   area is IAEA-recommended range and slim black line is Regulatory Guide
+   1.86 value. 10000 1000 ) 100 10 Level (Bq/cm^2 1 0.1 0.01 3H 35S 45Ca
+   63Ni 14C 55Fe 89Sr 99Tc 51Cr 125I 32P 111In 147Pm 198Au 24Na Figure 5.
+   Comparison of 100 Bq/g or Bq/cm2 Group  Shaded area is IAEA-
+   recommended range and slim black line is Regulatory Guide 1.86 value. 9
+   30 Beta-gamma Alpha 25 20 15 Frequency 10 5 0 0.15 0.8 1.5 8 15 80 150
+   800 1500 Upper Bound of Bin of Ratios Figure 6. Distribution of Ratios
+   of ANSI Screening Levels to 10 CFR 835, Appendix D, Total Surface
+   Contamination Limits Some DOE sites could, or do, use a labor-saving
+   alternative to smearing items and workplace surfaces to measure
+   removable contamination. The alternative is to measure all
+   contamination with a 100-cm2 probe and then compare the results with
+   the removable contamination value. Such a practice would work well at
+   sites with little contamination and would save the labor of collecting
+   the smear sample, taking it to a counting laboratory, and delaying
+   completion of the survey form until the lab results are returned. For a
+   site using or considering this practice, the ANSI screening levels
+   would be significantly less restrictive, as shown in Figures 6 and 7.
+   Figures 8 and 9 show the ratio of the ANSI screening level to the most
+   restrictive derived air concentration (DAC) for the radionuclides. The
+   purpose of these plots is to examine the uniformity of the balancing of
+   hazard and control, within and among the ANSI radionuclide groups. The
+   ratio has units of meters, but there is no physical significance to
+   this fact of dimensional analysis. 10 I-125 I-129 P u-241 C-14 Na-24 P
+   -32 S -35 Ca-45 Cr -51 Fe-55 Ni-63 S r -89 T c-99 In-111 P m-147 Au-198
+   I-131 H-3 Cl-36 Fe-59 Cd-109 Ce-144 S r -90 R a-226 R a-228 T h-228 T
+   h-230 Np-237 P u-239 P u-240 Am-241 Cm-244 Na-22 Mn-54 Co-58 Co-60
+   Zn-65 Nb-94 R u-106 Ag-110m S b-124 Cs-134 Cs-137 Eu-152 Eu-154 Ir -192
+   U-234 U-235 U-238 T h-232 P b-210 P o-210 0 1 10 100 1,000 10,000
+   100,000 Ratio Figure 7. Ratio of ANSI Screening Levels to 10 CFR 835
+   Removable Contamination Limits 11 1.0E+5 1.0E+4 1.0E+3 1.0E+2 1/m
+   1.0E+1 1.0E+0 1.0E-1 10 Bq/cm^2 Group 100 Bq/cm^2 Group Figure 8. Ratio
+   of ANSI Screening Level to DAC for 10 and 100 Bq/cm2 Groups 1.0E+5
+   1.0E+4 1.0E+3 1.0E+2 1/m 1.0E+1 1.0E+0 1.0E-1 0 .1 B q /cm^2 Gr o up 1
+   B q /cm^2 Gr o up Figure 9. Ratio of ANSI Screening Level to DAC for
+   0.1 and 1 Bq/cm2 Groups 12 The ANSI screening level, S, is inversely
+   proportional to the amount of control recommended for the radionuclide:
+   (1) The DAC is inversely proportional to the intake hazard of a
+   radionuclide, to a first approximation: (2) The ratio of S to DAC is,
+   therefore, one representation of the ratio of hazard to the amount of
+   control recommended implicitly for the radionuclide: (3) The
+   hazard-to-control ratios, S/DAC, for all of the radionuclides to the
+   right of uranium in Figure 9 and in most of Figure 8 tend to be lower
+   than the ratios for the thorium, uranium, and transuranium
+   radionuclides. This pattern suggests that the control needs, implied by
+   the value of the screening levels, are greater for the thorium,
+   uranium, and transuranium radionuclides than if based solely on the
+   hazard implied by the DAC. With the exception of 3H and 14C, small
+   S/DAC ratios are characteristic of hard gamma-emitting radionuclides,
+   for which contamination levels are limited by external irradiation
+   levels. Also, the figures show three orders of magnitude of spread in
+   S/DAC among the radionuclides in the groups above the 0.1-Bq group. An
+   alternative interpretation to the hazard-to- control ratios in Figures
+   8 and 9 is that the ratios are correct for uranium, thorium, and the
+   transuranic radionuclides, but the other radionuclides are
+   "under-controlled." 13 4 Potential Uses of the ANSI Clearance Standard
+   There are several potential uses for ANSI/HPS N13.12-1999. The DOE may
+   wish to consider * direct use of standard values in disposal and
+   recycling of radioactively contaminated materials or wastes at cleanup
+   sites * application of standard values to biomedical and similar
+   research laboratory wastes * use of standard values for posting and
+   controlling contamination areas * application of standard values to
+   decrease the number and frequency of measurements of surface
+   contamination in workplace environments * use of standard values to
+   reduce or eliminate the need to count smears in a counting laboratory.
+   Requirements for the first two potential uses are codified in DOE Order
+   5400.5, Radiation Protection of the Public and the Environment (DOE
+   1993). Requirements for the last three potential uses are found in 10
+   CFR 835, "Occupational Radiation Protection." As the potential uses of
+   HPS/ANSI N13.12-1999 are discussed below, modifications of, or actions
+   under, the appropriate set of requirements are discussed. 4.1 Derived
+   Screening Levels Scalable to Other Dose Criteria The standard
+   identifies a primary dose criterion of 10 µSv/y (1 mrem/y) TEDE above
+   background. This value is not an absolute limit. The standard permits
+   clearance of materials at higher levels, justified on a case-by-case
+   basis, when it can be ensured that exposures to multiple sources will
+   be maintained ALARA and will provide an adequate margin of safety below
+   the public dose limit of 1 mSv/y (100 mrem/y) TEDE. In Order 5400.5,
+   DOE, sets the same primary dose limit, that is, 1 mSv/y (100 mrem/y),
+   for a member of the general public. Chapter IV of the Order provides
+   for guidelines for concentrations of radioactivity in soil and surface
+   contamination based on existing radiation protection standards or on
+   the primary dose limit. The same dose limit, 1 mSv/y (100 mrem/y), is
+   used in 10 CFR 835 as the limit for members of the general public
+   entering a controlled area, the dose limit for minors, and the
+   threshold requiring appropriate personnel dosimetry for general
+   workers. Thus, in using the DSLs in the standard for clearance or the
+   other potential uses, DOE would have the flexibility to choose a
+   different dose criterion, providing it could show that such level was
+   consistent with the ALARA principle and would not lead to combined
+   doses from multiple sources in excess of the applicable DOE dose limit.
+   For example, a dose criterion of 250 µSv/y (25 mrem/y) would lead to a
+   25-Bq/g group containing all of the radionuclides in the 1-Bq/g group
+   in the standard. DOE Order 5400.5 also allows establishing authorized
+   limits and supplemental limits under the primary dose limit. Authorized
+   limits are developed by project offices in the field and are based on
+   health, safety, practical, programmatic, and socioeconomic
+   considerations. Authorized limits are approved by the appropriate
+   Headquarters Program Office. DOE field offices may establish 14
+   supplemental limits when "the established limits do not provide
+   adequate protection or are unnecessarily restrictive and costly"
+   (emphasis added). In considering the use of the DSLs at the recommended
+   or alternatively chosen dose level, the exact nature of the standard's
+   dose criterion is important. The standard establishes the dose
+   criterion for an average member of a critical group. Thus, a dose to a
+   single individual (real or hypothetical) approaching or even exceeding
+   the dose criterion is not necessarily a violation of the standard. 4.2
+   Direct Use in the Recycling and Disposal of Radioactively Contaminated
+   Materials or Wastes at Cleanup Sites The values of the DSLs could be
+   incorporated into DOE Order 5400.5, replacing the values in Chapter IV,
+   notably the Surface Contamination Guidelines in Figure IV-1, and
+   expanding their use to apply to volume contamination as well. DOE
+   issued significant interim guidance in 1995, expanding the isotopes
+   addressed in Figure IV-1 (DOE 1995). Alternatively, the standard could
+   be used as the basis for justifying and establishing authorized limits
+   or supplemental limits. Since the occupancy and renovation scenarios
+   used to establish the DSLs are consistent with the Order 5400.5
+   expectations of "worst case plausible use" scenarios, use of the DSLs
+   should require no additional formal documentation establishing their
+   technical basis. Annexes A and B to the standard are robust and
+   self-explanatory. Use of the standard's DSLs associated with the 10
+   µSv/y (1 mrem/y) dose criterion will have only modest benefit in
+   cleaning up former production sites. For cleanup, the uranium isotopes,
+   the transuranic radionuclides, and 90Sr and 137Cs are important. As
+   Figures 2 and 3 show, the DSLs are only six times less restrictive for
+   plutonium, the other transuranic radionuclides, and 90Sr. The DSLs for
+   137Cs and the uranium isotopes are almost unchanged. However, use of
+   the standard would provide risk-based volume contamination standards.
+   Furthermore, if a higher dose criterion, such as 100 µSv/y (10 mrem/y)
+   or 250 µSv/y (25 mrem/y), were used, the benefits of using the standard
+   could be substantial. DOE has adopted a policy on acceptable levels of
+   radionuclides in hazardous waste and is considering establishing a
+   policy on acceptable levels of contamination on metals released from
+   DOE facilities for recycle at commercial facilities. In neither of
+   these cases are release levels based on DOE Order 5400.5, Figure IV-1
+   values. Rather, "detectability" is the primary criterion. Thus,
+   replacing the current Order 5400.5, Figure IV-1 values with ANSI N13.12
+   values will have little impact on items judged by the different
+   criterion of "detectability." However, the risk-based consensus
+   standard ANSI N13.12 could give DOE a credible and valid basis for
+   changing its current policy on these two important waste streams. 4.3
+   Disposal of Biomedical and Similar Research Laboratory Wastes Much of
+   the work done at DOE national laboratories involves tracer
+   radionuclides that are used for in vitro experiments and measurements.
+   These radionuclides include 3H, 14C, 32P, 35S, and others. The ANSI
+   screening level for 3H is 60 times less restrictive than the Appendix D
+   value, and for the other three radionuclides and many of the other
+   tracers, a factor of 120 less restrictive. Also, the ANSI standard
+   gives volumetric contamination limits; DOE Order 5400.5 does not. Gels,
+   used filters, paper and other laboratory wastes often have
+   contamination that is not strictly surface contamination. Because some
+   of the contamination is within the volume of the waste, it would be
+   difficult to defend the use of the current DOE Order 5400.5 surface
+   contamination values for waste that is known to have contamination 15
+   below the surface. However, use of the ANSI screening levels could be
+   easily defended. Thus, DOE and its contractors could use the ANSI
+   screening levels to dispose of much of their biomedical and similar
+   low-activity waste in ordinary landfills. The cost savings are not
+   estimated in this report but would be considerable. Given the general
+   public's concern about radioactive wastes, even those with very low
+   concentrations of radionuclides, it is not likely that DOE could
+   unilaterally adopt the ANSI/HPS N13.12-1999 screening levels and start
+   sending much of its biomedical research wastes to public sanitary
+   landfills. Nonetheless, the recently adopted ANSI standard should be a
+   good basis for beginning discussions with EPA and NRC about changing
+   the regulations for all generators of radioactive waste with low
+   concentrations of radionuclides. ANSI N13.12, an industry standard,
+   should play an important role in the regulatory process. In fact, the
+   White House Office of Management and Budget (OMB) issued on February
+   10, 1998, a revision to Circular No. A-119, Federal Participation in
+   the Development and Use of Voluntary Consensus Standards and in
+   Conformity Assessment Activities. The revision is the result of the
+   National Technology Transfer Act of 1995 (Public Law 104-113), signed
+   by the President in March 1996. The OMB directive and the law require
+   federal agencies to use voluntary industry standards developed by the
+   private sector whenever possible. The purpose of this requirement is to
+   eliminate excessive costs to the government incurred in developing its
+   own standards. This government-wide directive should help the EPA, NRC,
+   and DOE cooperate to adopt the ANSI N13.12 methodology and values. 4.4
+   Use of the ANSI Screening Levels for Designating Contamination Areas
+   The final review draft of ANSI/HPS N13.12-1999 indicated that the
+   standard could apply "to areas within facilities during operation".
+   This draft language was intended to cover the situation at operating
+   DOE facilities where the historic surface contamination values found in
+   Regulatory Guide 1.86, as adopted in 10 CFR Part 835, Appendix D, were
+   used to make decisions about designating and posting radiological
+   control areas.(a) The writing group fully intended that the surface
+   contamination screening levels in ANSI/HPS N13.12-1999 could be used
+   for this purpose. However, during the final review by the HPS N13
+   Committee, the representative of the NRC took exception to this
+   language because the ANSI/HPS N13.12-1999 values and methodology were
+   not sufficiently consistent with the NRC's screening levels for license
+   termination. The NRC criterion is 250 µSv/y (25 mrem/y), 25 times
+   greater than the ANSI N13.12 level. In light of the NRC concerns, the
+   writing group chose to eliminate the language that referred to
+   operational facilities. Two changes were made to the draft standard: 1)
+   modifying the scope statement to (a) Areas where radioactive
+   contamination is 1 to 100 times the values in 10 CFR 835, Appendix D,
+   are designated "Contamination Areas," while those exceeding Appendix D
+   values by more than a factor of 100 are designated "High Contamination
+   Areas." Such areas are posted with appropriate warning signs. If and
+   when contamination levels are reduced, the warning signs are changed or
+   removed. The removal of the designation and warning signs is commonly
+   called "de-posting" or "de-regulating," while changing from High
+   Contamination to Contamination Area is commonly called "down-posting."
+   16 read, "This standard applies to the clearance of materials and
+   equipment from controlled areas during operations" (deleting the
+   phrases "and areas within facilities" and including "decontamination
+   activities"), and 2) deleting the sentence, "However, this standard
+   could be incorporated into a decommissioning plan to provide criteria
+   for clearance of materials during the decommissioning process." In
+   making these changes and deletions, the writing group chose to be
+   silent on the issue of applying the standard for contamination control
+   in operational areas. The final language was an attempt to provide a
+   clear interpretation about how NRC licensees are required to proceed,
+   without limiting how DOE might choose to apply the standard.(a) The
+   building occupancy and building renovation scenarios in the ANSI
+   standard used to derive the surface and volume contamination limits
+   were originally devised by the working group to bound radiological
+   conditions that would be found after operating areas were posted (and
+   de-posted) in accordance with the screening limits in the standard.
+   Therefore, DOE would have a good technical basis for adopting the ANSI
+   screening levels for this additional purpose. For example, Annex B to
+   the standard explains the scenario for the surface contamination
+   screening level (in Section B.1.4.2) as follows: To represent a limit
+   for clearance of potentially large surface sources, a scenario analysis
+   was conducted for rooms of facilities that contain materials with
+   surface sources of radioactivity that are cleared from further
+   radiological control. The scenario assumes that a room is occupied as a
+   commercial facility after clearance of the sources in a manner that
+   results in exposure of individuals to the surface sources of
+   radioactivity. The scenario is conservatively assumed to occur during
+   the first year following clearance and involves the external,
+   inhalation, and ingestion exposure pathways. Clearly, this scenario
+   bounds many of the radiological conditions that might occur after
+   "de-posting" operational areas which were designated as "contaminated"
+   using 10 CFR 835, Appendix D, values but which could be cleared using
+   the ANSI screening levels. As discussed earlier, the ANSI screening
+   levels for alpha-emitting radionuclides and long-lived fission products
+   are not much different from the values in Appendix D. Thus, the new
+   levels will not help simplify the operation of former production sites
+   with areas of high fixed contamination. They could allow DOE to
+   "de-post" or "down-post" some areas where removable surface
+   contamination currently requires radiological controls. Using the ANSI
+   values could help a lot with "de-posting" (de-regulating) or
+   "down-posting" general research laboratories using common tracers,
+   resulting in levels of radiological control being more in line with
+   radiological hazard. For example, clean working habits in a fume hood
+   with only 3H, 14C, 32P, and 35S could meet the 100 Bq/cm2 (600,000
+   dpm/100 cm2) limit most of the time. By comparison, the current limit
+   is 10,000 dpm/100 cm2 removable for 3H and 5,000 dpm/100 cm2 total
+   contamination for the other three tracer radionuclides. For the
+   occasional spill in a lab not posted as a Contamination Area,
+   procedures could be developed for that contingency. The area near the
+   spill could be posted temporarily as a Contamination Area immediately
+   after a spill and during the clean up. Provided the spill could be
+   cleaned up to meet the ANSI screening levels, the area could then be
+   "de-posted." Such labs would need to be surveyed occasionally to ensure
+   there were not undetected spills. However, such a program would more
+   efficiently (a) Personal communication from W.E. Kennedy, Jr. 17 use
+   resources than managing all labs with radionuclides day-in-and-day-out
+   as Contamination Areas. This report does not attempt to quantify the
+   savings of such a use of the ANSI screening levels, but the authors
+   expect it would be significant. Cost savings would also help DOE
+   researchers more effectively compete for research funds from agencies
+   such as The National Institute of Health and The National Science
+   Foundation. 4.5 Decreasing the Number and Frequency of Measurements of
+   Surface Contamination in Workplace Environments By specifying different
+   limits for removable and total surface contamination, Appendix D
+   essentially requires two measurements for releasing items from
+   Contamination Areas, High Contamination Areas, and Airborne
+   Radioactivity Areas and for routine and pre-job surveying of work
+   areas. By adopting the single limit in ANSI N13.12, DOE could cut the
+   number of required measurements nearly in half. For purposes of keeping
+   worker doses from external and internal sources ALARA, measurements of
+   removable contamination may still be needed to support a contamination
+   control program. However, such measurements could be limited to areas
+   where individuals work routinely or are planning to work and would be
+   needed only when measurements of total contamination or ambient dose
+   rate indicate that radiological conditions have changed since the last
+   measurements of removable contamination. 4.6 Reduce or Eliminate the
+   Need to Count Smears in a Counting Laboratory The current Appendix D
+   limit for removable contamination for transuranic radionuclides is 20
+   dpm/100 cm2 and for 90Sr is 200 dpm/100 cm2. Smears for these nuclides
+   cannot be reliably "field counted," that is, assayed with a portable
+   meter by the technician who performs the smear sample, to detect such
+   low levels. Thus, smears for transuranic radionuclides and 90Sr have to
+   be taken and counted in a counting laboratory. As Figure 9 shows, the
+   ANSI screening level is much larger than the removable limit for the
+   transuranic radionuclides. Alpha radioactivity of 600 dpm/100 cm2 can
+   be measured with field instruments, either by a direct measurement or
+   by field-counting a smear. Similarly, 90Sr contamination of 6,000
+   dpm/100 cm2 can be measured with a beta-gamma survey instrument, even
+   in a modest field of external gamma radiation. Shifting from low
+   background counting to field counting of the contamination levels of
+   nuclides in the two lowest categories in Appendix D would significantly
+   reduce the workload on counting laboratories. More important, "field
+   counting" of transuranic and 90Sr smear samples would expedite
+   operational decisions based on survey results, thus saving time and
+   money. 18 5 ANSI Standard as a Technical Basis for "Solid Effluents"
+   The top half of Figure 1 shows schematically how regulatory controls
+   are applied, or not applied, to practices that create sources that
+   could expose the public to radiation or radioactive material. For
+   radioactive material exiting from regulatory control, clearance is a
+   parallel path to gaseous and liquid effluents. In fact, clearance (of
+   materials for reuse or recycle and of wastes for disposal without
+   regulation of radioactive content) may be thought of as release of
+   "solid effluents." ANSI/HPS N13.12- 1999 is a consensus standard with a
+   good scientific basis that regulatory agencies could use to allow
+   "solid effluents" in a manner that is safe, that is, does not put undue
+   risk on individuals, groups of individuals, or the environment, present
+   or future. We do not propose to define a new waste category. Rather, we
+   suggest a different perspective on existing wastes. In Figure 1,
+   exemption and exclusion are the decision-making processes by which a
+   source of radiation exposure may bypass the sphere of regulation.
+   Natural background radiation is a common example of exclusion of a
+   source of radiation exposure. Public use of smoke detectors is a
+   familiar example of exemption. Release of air and water effluents below
+   concentration limits specified in regulations is a generally accepted
+   way for radioactive material to exit from regulatory control. Once a
+   radioactive material leaves a licensed or permitted facility, in
+   accordance with the license or permit, it is no longer controlled by
+   the facility operator or the regulatory authority. The regulatory
+   authority (usually the NRC, the states, or DOE) is very careful to
+   allow only the amounts, types, and concentrations of gaseous and liquid
+   effluents that it can demonstrate are safe. They seek not to put undue
+   risk on individuals, groups of individuals, or the environment, present
+   or future. Using the standard as a basis for defining "solid effluents"
+   can help integrate the clearance process into the menu of options the
+   DOE has for managing its environmental cleanup and research missions.
+   In March 1999, the NRC published a draft report on radiological
+   assessments for clearance of equipment and materials from nuclear
+   facilities (McKenzie-Carter et al. 1999). The report, issued for public
+   comment, gives no dose criterion for clearance. Rather, it examines
+   numerous scenarios for material and equipment reuse, disposal in
+   sanitary landfills, and recycle into manufactured goods. The report
+   specifically examines 85 radionuclides in four materials (aluminum,
+   concrete, copper, and steel) and gives various factors for converting
+   surface contamination and volume contamination to effective dose
+   equivalent to a critical group of individuals. A critical group is that
+   group of individuals that has the largest dose factors calculated for a
+   particular scenario. An example of a critical group is the truck
+   drivers who deliver recycled scrap metal. This NRC report has not been
+   finalized. In March 2000, the NRC terminated the contract with the firm
+   that wrote the draft report and decided to ask the U.S. National
+   Academy of Sciences (NAS) to study and recommend alternatives for
+   release of slightly contaminated solid materials. The committee formed
+   to do the NAS study met on March 3, 2001. Because the NRC report has
+   not been finalized, its results were not considered in this report. 19
+   6 Conclusions and Recommendations Historically, DOE has managed
+   occupational radiation protection and environmental radiation
+   protection with two separate programs. The requirements for
+   occupational radiation protection are specified in 10 CFR 835,
+   "Occupational Radiation Protection." The requirements for environmental
+   radiation protection are codified in DOE Order 5400.5, Radiation
+   Protection of the Public and the Environment (DOE 1993). To be of most
+   use, the conclusions and recommendations of this report are separated
+   into those that are relevant to both programs, those relevant to
+   occupational radiation protection, and those relevant to environmental
+   radiation protection. 6.1 Conclusions and Recommendations Relevant to
+   Both Occupational and Environmental Radiation Protection It would be
+   reasonable, prudent and cost-effective for DOE to replace the values
+   currently in 10 CFR 835, Appendix D, and DOE Order 5400.5, Figure IV-1,
+   with the DSLs in ANSI/HPS N13.12-1999. This action would ensure
+   consistency between the operational and environmental radiation
+   protection programs operated throughout DOE. The standard identifies a
+   primary dose criterion of 10 µSv/y (1 mrem/y) TEDE above background.
+   This value is not an absolute limit. The standard permits clearance of
+   materials at higher levels, justified on a case-by-case basis, when it
+   can be ensured that exposures to multiple sources will be maintained
+   ALARA and will provide an adequate margin of safety below the public
+   dose limit of 1 mSv/y (100 mrem/y) TEDE. In Order 5400.5, the DOE sets
+   the same primary dose limit of 1 mSv/y (100 mrem/y) for a member of the
+   general public. Chapter IV of the Order provides for guidelines for
+   concentrations of radioactivity in soil and surface contamination based
+   on existing radiation protection standards or on the primary dose
+   limit. The same dose limit of 1 mSv/y (100 mrem/y) is used in 10 CFR
+   835 as the limit for members of the general public entering a
+   controlled area, the dose limit for minors, and the threshold requiring
+   appropriate personnel dosimetry for general workers. Thus, in using the
+   DSLs in the standard for clearance or the other potential uses, DOE
+   would have the flexibility to choose a different dose criterion,
+   providing it could show that such level was consistent with the ALARA
+   principle and would not lead to combined doses from multiple sources in
+   excess of the applicable DOE dose limit. For example, a dose criterion
+   of 250 µSv/y (25 mrem/y) would lead to a 25-Bq/g group containing all
+   of the radionuclides in the 1-Bq/g group in the standard. Both in 10
+   CFR 835, Appendix D, and DOE Order 5400.5, Figure IV-1, the current
+   limit for removable contamination for transuranic radionuclides is 20
+   dpm/100 cm2 and for 90Sr is 200 dpm/100 cm2. Smears for these nuclides
+   cannot be reliably "field counted," that is, assayed with a portable
+   meter, and have to be taken to a counting laboratory instead. Since the
+   DSLs are much larger than the removable limit for the transuranic
+   radionuclides and 90Sr, smear samples could be measured with field
+   instruments. Shifting from low background counting to field counting of
+   smears of nuclides in the two lowest categories in Appendix D and
+   Figure IV-1 would significantly reduce the workload on counting
+   laboratories. 20 6.2 Conclusions and Recommendations Relevant to
+   Occupational Radiation Protection The building occupancy and building
+   renovation scenarios used in the standard to derive the surface and
+   volume contamination DSLs were originally devised by the working group
+   to place bounds on radiological conditions that would be found after
+   operating areas were posted (and de-posted) in accordance with the
+   screening limits in the standard. Therefore, DOE would have a good
+   technical basis for adopting the ANSI screening levels for this
+   additional purpose. Such use of the DSLs is not excluded by the
+   standard. Using the standard's DSLs could help with "down-posting" or
+   "de-posting" of research laboratories where common biomedical tracers
+   are used. For example, clean working habits in a fume hood with only
+   3H, 14C, 32P, and 35S, could meet the 100 Bq/cm2 (600,000 dpm/100 cm2)
+   limit most of the time. By comparison, the current limit is 10,000
+   dpm/100 cm2 removable for 3H and 5,000 dpm/100 cm2 total contamination
+   for the other three tracer radionuclides. 6.3 Conclusions and
+   Recommendations Relevant to Environmental Radiation Protection Using
+   the standard as a basis for defining "solid effluents" can help
+   integrate the clearance process into the menu of options the DOE has
+   for managing its environmental cleanup and research missions. For two
+   waste streams, metals and hazardous waste contaminated with
+   radionuclides, DOE's policy is based on "detectability" as the primary
+   criterion. Using the risk-based consensus standard ANSI N13.12 could
+   give DOE a credible and valid basis for changing its current policy on
+   these two important waste streams. Currently, there is no standard for
+   the release of materials with trace amounts of contamination throughout
+   their volume. ANSI N13.12-1999 does provide a technical basis for
+   treating materials with trace amounts of radioactive contamination
+   throughout their volume as ordinary waste. Some work done at DOE
+   national laboratories involves soft beta-emitting tracer radionuclides
+   that are used for biomedical research. These radionuclides include 3H,
+   14C, 32P, 35S and others. The ANSI screening level for 3H is 60 times
+   less restrictive than the Appendix D value. For the other three
+   radionuclides and many of the other tracers, the DSLs are a factor of
+   120 less restrictive. With the surface and volume DSLs, DOE and its
+   contractors could use the ANSI screening levels to dispose of much of
+   its laboratory waste in ordinary landfills. The cost savings are not
+   estimated in this report but would be considerable. 21 7 References 10
+   CFR 20, "Standards for Protection Against Radiation." U.S. Nuclear
+   Regulatory Commission. 10 CFR 820, "Procedural Rules for DOE Nuclear
+   Activities." U.S. Department of Energy. 10 CFR 835, "Occupational
+   Radiation Protection." U.S. Department of Energy. American National
+   Standards Institute (ANSI). 1989. Practice for Occupational Radiation
+   Exposure Records Systems. An American National Standard. ANSI
+   N13.6-1966 (R1989), American National Standards Institute, New York.
+   American National Standards Institute (ANSI). 1999. Surface and Volume
+   Radioactivity Standards for Clearance. An American National Standard.
+   ANSI/HPS N13.12-1999, Health Physics Society, McLean, Virginia.
+   International Atomic Energy Agency (IAEA). 1987. Exemption of Radiation
+   Sources and Practices from Regulatory Control. IAEA-TECDOC-401,
+   International Atomic Energy Agency, Vienna. International Atomic Energy
+   Agency (IAEA). 1988. Principles for the Exemption of Radiation Sources
+   and Practices from Regulatory Control. Safety Series No. 89,
+   International Atomic Enengy Agency, Vienna. International Atomic Energy
+   Agency (IAEA). 1996a. Clearance Levels for Radionuclides in Solid
+   Materials. Application of Exemption Principles. Interim Report for
+   Comment. IAEA-TECDOC-855, International Atomic Energy Agency, Vienna.
+   International Atomic Energy Agency (IAEA). 1996b. International Basic
+   Safety Standards for Protection Against Ionizing Radiation and for the
+   Safety of Radiation Sources. Safety Series No.115, International Atomic
+   Energy Agency, Vienna. McKenzie-Carter, M.A., M.D. Otis, M.E. Anderson,
+   J.A. Roberts, R.L. Gotchy, and R.A. Meck. 1999. Radiological
+   Assessments for Clearance of Equipment and Materials from Nuclear
+   Facilities. Main Report. Draft Report for Comment. NUREG-1640, Vol. 1,
+   U.S. Government Printing Office, Washington, DC. National Council on
+   Radiation Protection and Measurements (NCRP). 1993. Limitation of
+   Exposure to Ionizing Radiation. Report No. 116, NCRP Publications,
+   Bethesda, Maryland. National Technology Transfer Act of 1995. Public
+   Law 104-113. U.S. Atomic Energy Commission (USAEC). 1974. Termination
+   of Operating Licenses for Nuclear Reactors. Regulatory Guide 1.86, U.S.
+   Government Printing Office, Washington, DC. U.S. Department of Energy
+   (DOE). 1993. Radiation Protection of the Public and the Environment.
+   DOE Order 5400.5, Change 2, [Online]. Available URL:
+   http://www.explorer.doe.gov:1776/ 22 U.S. Department of Energy (DOE)
+   Office of Environment. 1995. Response to Questions and Clarification of
+   Requirements and Processes: DOE 5400.5, Section II.5 and Chapter IV
+   Implementation (Requirements Relating to Residual Radioactive
+   Material). U.S. Department of Energy, Washington D.C. (Distributed via
+   memo from Raymond F. Pelletier, Director of the Office of Environmental
+   Policy and Assistance, November 17, 1995.) 23 PNNL-13484 Distribution
+   No. of Copies Copies 2 Keith H. Dinger OFFSITE Health Physics Society
+   Congressional Liaison 1 Kelly Beierschmitt 23 Prospect St. Oak Ridge
+   National Laboratory Somersworth, NH 03878-2708 P.O. Box 2008 MS6249 Oak
+   Ridge, TN 37831 1 Stephen W. Duce International Technology Corporation
+   1 David E. Bernhardt 9924 San Madre Rogers & Associates Engineering
+   Corp. Knoxville, TN 37922 536 E Holstein Salt Lake City, UT 84107 1 Ken
+   Eger Foster Wheeler Environmental 1 Michael A. Boyd 111 Union Valley
+   Road Environmental Protection Agency Oak Ridge, TN 37849 6602J 401 M
+   Street, S.W. 1 Dennis Erickson Washington, DC 20460 Los Alamos National
+   Laboratory P.O. Box 1663 MS K491 1 Kenneth Brog Los Alamos, NM 87545
+   Brookhaven National Laboratory E, S, H, &Q Directorate 1 Wayne C. Gaul
+   Bldg. 460 STARMET PO Box 5000 365 Metal Drive Upton, NY 11973-5000
+   Barnwell, SC 29812 1 Kathy Carney 1 Paul H. Genoa Brookhaven National
+   Laboratory Senior Project Manager, Plant Support Waste Management
+   Division Nuclear Energy Institute Bldg. 860 Suite 400 PO Box 5000 1776
+   I Street, NW Upton, NY 11973-5000 Washington, D.C 20006-3708 1 Shih-Yew
+   Chen 1 Geoffrey S. Ibbott, PhD Argonne National Laboratory Radiation
+   Physics Dept. Env. Assessment Div. UT M.D. Anderson Cancer Center
+   Building 900 Box 547 Argonne, IL 60439 1515 Holcombe Blvd Houston, TX
+   77030 1 Arthur E. Derosiers 52 Deer Jump Hill West Barnstable, MA 02668
+   No. of Distr. 1 PNNL-13484 No. of No. of Copies Copies 1 Tracy A.
+   Ikenberry 2 William E. Kennedy, Jr. Dade Moeller and Assoc., Inc. Dade
+   Moeller and Assoc., Inc. 1845 Terminal Dr. 1845 Terminal Dr. STE 140
+   STE 140 Richland, WA 99352 Richland, WA 99352 1 Robert M. Hallisey 1
+   Stephen Layendecker Chair, Conf. of Radiation Control Program
+   Brookhaven National Laboratory Directors Radiological Control Division
+   Massachusetts Rad. Ctrl. Program Bldg. 194 174 Portland St. 5th Floor
+   PO Box 5000 Boston MA 02130 Upton, NY 11973-5000 1 Lynette Hendricks 1
+   William J. Madia Director, Plant Support Oak Ridge National Laboratory
+   Nuclear Energy Institute P.O. Box 2008 MS6255 Suite 400 Oak Ridge, TN
+   37831 1776 I Street, NW Washington, D.C 20006-3708 1 Jerome B. Martin
+   6771 Beagle Dr. 1 Douglas Jamieson Hamilton, OH 45011 Duratek 1560 Bear
+   Creek Rd. 1 Kathleen McAlister Oak Ridge TN 37831-2530 Chair of CRCPD
+   Committee on Radioactivity Massachusetts Rad Ctrl Program 1 Alfred N.
+   Johnson 79 East Side Dr. GTS Duratek Concord, NH 03301-5460 PO Box 2530
+   1560 Bear Creek Road 1 Stephen McGuire Oak Ridge, TN 37831-2530. U.S.
+   Nuclear Regulatory Commission Mail Stop 9 E45 1 Raymond H. Johnson, Jr.
+   Two White Flint North Health Physics Society Rockville, MD 20555
+   Scientific and Public Issues Committee Chair 2 Robert A. Meck Suite 302
+   U.S. Nuclear Regulatory Commission 481 N. Fredrick Ave. Two White Flint
+   North Gaithersburg, MD 20877 Mail Stop 9 F 31 11545 Rockville Pike 1
+   Hong-Nian Jow Rockville, MD 20852-2738 Sandia National Labs 7009 Pala
+   Mesa NE Albuquerque, NM 87111 Distr. 2 PNNL-13484 No. of No. of Copies
+   Copies 1 Charles B. Meinhold 1 Anthony Stanford National Council on
+   Radiation Protection Los Alamos National Laboratory and Measurements
+   P.O. Box 1663 MS K492 7910 Woodmont Avenue, Suite 800 Los Alamos, NM
+   87545 Bethesda, MD 20814-3095 1 Frederick P. Straccia 1 Francis R.
+   O'Donnell Radiation Safety & Control Services, Inc. Oak Ridge National
+   Laboratory 91 Portsmouth Ave 99 Deerfield Lane Stratham, NH 03885 Oak
+   Ridge, TN 37830-8778 1 Kenneth L. Swinth 1 Carl J. Paperiello 2177
+   Cascade Avenue U.S. Nuclear Regulatory Commission Richland, WA 99352
+   OWFN 11555 Rockville Pike 1 Alden N. Tschaeche Rockville, MD 20852-2738
+   Nuclear Standards Unlimited 1250 Orchard Glen Circle 2 Harold T.
+   Peterson Encinitas, CA 92024 Office of Environmental Policy and
+   Assistance (EH-412) 1 Toshihide Ushino 1000 Independence Avenue, S.W.
+   ICN Biomedicals Inc. Washington, DC 20585-0119 Dosimetry Division 3300
+   Hyland Avenue 5 Joel L. Rabovsky Costa Mesa, CA 92626 Office of Worker
+   Protection Programs and Hazards Management 2 Andrew Wallo, III EH-52,
+   GTN, 270 CC Department of Energy 19901 Germantown Road Office of
+   Environmental Safety and Health Germantown, MD 20874 (EH-41) Forrestal
+   Bldg. GA-098 1 Michael T. Ryan Washington, DC 20585 768 Glossy Ibis Ln.
+   Kiawah Island, SC 29455-5913 1 Robert C. Woodard Canberra Industries 1
+   R. Gene Schreckhise 26 Evergreen Washington State Univ. - Tri Cities
+   Middletown, CT 06457 2710 University Dr. Richland, WA 99352 2 Robert A.
+   Wynveen Argonne National Laboratory 1 Jack M. Selby ESH-HP 201 230 M.H.
+   Chew and Associates, Inc. 9700 S. Cass Avenue 5504 West Umatilla Street
+   Argonne, IL 60439 Kennewick, WA 99336 Distr. 3 PNNL-13484 No. of No. of
+   Copies Copies ONSITE 10 DOE Richland Operations Office (1) Terri L
+   .Aldridge K8-50 2 Fluor Daniel Hanford Co. (1) Dianne L. Clark H6-60
+   Gregory D. Perkins H8-67 (6) Wayne M. Glines A2-15 (1) Paul Kruger
+   K8-50 2 Bechtel Hanford Co. (1) Brenda M. Pangborn A5-17 James E.
+   Tarpinian H0-09 1 DOE Office of River Protection 34 Pacific Northwest
+   National Laboratory Phillip E. Lamont H6-60 (1) Joan F. Adams K9-64 (1)
+   Walter J. Apley K9-01 (1) Sharon D. Dossett P7-75 (1) John J. Fix K3-55
+   (1) Mark E. Hevland P7-01 (1) John H. Holbrook H6-61 (1) Alice K.
+   Ikenberry P7-79 (1) Joseph C. McDonald K3-53 (1) Ellyn M. Murphy K9-76
+   (1) Bruce A. Napier K3-54 (1) Kelvin L. Soldat K3-53 (20) Paul S.
+   Stansbury K3-54 (1) Gregory A. Stoetzel P7-78 (1) Daniel J. Strom K3-56
+   (1) George J. Vargo K3-56 Distr. 4

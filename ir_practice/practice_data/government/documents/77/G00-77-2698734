@@ -1,0 +1,50 @@
+http://spheroid.ncifcrf.gov/cart_builder.cfm
+
+   [USEMAP:2title.gif]
+
+                           Anti-Cancer Maps (DTP)
+                            Compound Cart Builder
+      View Compound CartsNSC# SearchDTP Name SearchSub-Structure Search
+                             Structural Database
+                            Gene Expression Maps
+                              Molecular Targets
+                              [USEMAP:mail.gif]
+                          [USEMAP:small_logos.gif]
+                               Click for Help
+
+   View Current Compound Carts
+     __________________________________________________________________
+
+   Info:
+
+   Compound Carts are collections of compounds from the DTP database which
+   can be analyzed as a unit using the tools available on the 3d MIND web
+   site. Compound Carts are only available to the user who created the
+   carts. Carts persist for 24 hours after the user leaves the 3d MIND web
+   site (for permanent storage, please use 'Save' cart option described
+   below.)
+
+   Two kinds of carts are available for analysis.
+    1. "NSC Number" carts store the NSC Number for the compound (default
+       option). In some cases, the same compound has been tested multiple
+       times by the DTP over different concentration ranges. Each test
+       represents a different data vector in the SOM. Analyses of these
+       carts will automatically include all data vectors present in the
+       database.
+    2. "Data Vector" carts store the individual data vectors and thus
+       allow the User to pick and choose specific data vectors of
+       interest.
+
+   The following functionality is available for working with Compound
+   Carts:
+     * Create carts using the "Add to Cart" link on pages that display
+       compounds from the DTP or add the compounds to an existing cart;
+     * "Save" carts to a local text file and then "Restore" the carts for
+       reanalysis at a later time;
+     * "Copy/Extract" allows the User to create new carts by duplication
+       or by extracting a subset of the NSC Numbers/Data Vectors from the
+       designated cart. Convert a cart from NSC Number to Data Vector and
+       vice versa.
+     * Users can "Combine" carts by taking the UNION or INTERSECTION of
+       any two existing carts. A cart can also be subtracted from another
+       cart using the MINUS operation.

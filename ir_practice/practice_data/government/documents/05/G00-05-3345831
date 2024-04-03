@@ -1,0 +1,91 @@
+http://webwinds.jpl.nasa.gov
+
+                     [jpl.jpg] [newlogo.jpg] [nasa.jpg]
+
+                                  WebWinds
+
+    [new14.jpg] The WebWinds client and server package (DOVE) was selected
+       for honorable mention in NASA's Software of the Year competition.
+    [new14.jpg] Download the latest (4.00) release of WebWinds, including
+       documentation containing information on what's new.
+    [new14.jpg] Webwinds now does distributed processing allowing direct
+       data access via a data server.
+       WebWinds is an interactive science data visualization system,
+       written in Java and  available for all major computer platforms.
+       Its use does not require any user programming experience since
+       sessions are created by assembling components on the screen via
+       'point and click'.  WebWinds is modular, allowing flexibility in
+       tool construction and application. This version allows
+       internet-based distributed processing for the first time so that it
+       can fulfill the needs of data providers as well as data consumers.
+       You can view a paper (Elson et al., 2000, Bulletin of the American
+       Meteorological Society: Vol. 81, No. 3, pp. 555-566.) describing
+       the project and its goals.
+       WebWinds is largely platform and operating system independent so
+       that it functions efficiently in today's heterogeneous environment.
+       The current release has been tested under Windows 95/98/2000/NT,
+       Mac OS X, Linux, IRIX and Solaris.  Because Apple will not produce
+       a version of Java 2 for Mac OS 7-9, these users must use WebWinds
+       version 3.03 . This means that there may be some loss of
+       functionality including the ability to communicate with data
+       servers  running version 4.xx. Users report success using WebWinds
+       under FreeBSD and AIX operating systems.
+       The WebWinds user interface uses a direct manipulation approach in
+       that it employs continuous representation of displays and controls
+       requiring physical actions rather than complex syntax. The benefits
+       of this approach are that it allows rapid response to operations
+       with immediately visible effects.
+       Currently, the main features of WebWinds are:
+          + The ability to present and manipulate 2 and 3 dimensional data
+            in a variety of 1 and 2 dimensional display tools
+          + The ability to subset and sub-sample data on input or display
+            output, making it possible to handle very large data sets.
+          + The ability to concatenate or combine data sets to create a
+            higher order data set.
+          + The ability to overlay tabular data on top of images.
+          + The ability to display several types of coordinate projections
+            for some types of data.
+          + Simultaneous display and analysis of multiple data sets which
+            may be totally unrelated.
+          + Interactive color manipulation.
+          + The ability to act as a Web browser helper application, making
+            it possible to survey scientific data archives in interactive
+            mode.
+          + Ability to save sub-setted or sub-sampled data.
+          + A scripting language which allows session configuration,
+            re-run, macros, network collaboration and distributed
+            processing.
+          + A context sensitive help system.
+          + The ability to save images from the screen to a file,
+            including animated movies.
+          + Complete, free installation programs (including Java) for most
+            platforms.
+          + A server software package which allows remote data access,
+            sub-setting and sub-sampling.
+          + 3D rendered displays capable of depicting an image in
+            perspective using lighting and shading:
+            [Plane.jpg] [Globe_1.jpg]
+       Here's a movie showing altitude data from the Mars Orbiter Laser
+       Altimeter. Here's one showing EOS-MISR data. Note: you will need a
+       Quicktime client to view these movies.
+       After you've downloaded and installed WebWinds, come back to our
+       scripts page to download setup scripts for several sessions using
+       data sets from around the world. Click on a script and a session
+       will be set up automatically. Note that these scripts are
+       incompatible with earlier releases of WebWinds and earlier scripts
+       may not work with this version.
+       Download the latest (4.00) release of WebWinds, including
+       documentation.
+       Although contained in the download package, you can now view a
+       tutorial as well as several step by step examples that include
+       screen shots.
+
+
+       Also available:
+       [redball.gif] Meet the WebWinds team
+       [redball.gif] WebWinds documentation - Detailed descriptions of the
+       WebWinds functions and application suite.
+     __________________________________________________________________
+
+
+    WebWinds Home / webwinds@twinky.jpl.nasa.gov / Oct 16, 2001

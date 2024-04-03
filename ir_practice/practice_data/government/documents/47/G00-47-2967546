@@ -1,0 +1,1310 @@
+http://lep694.gsfc.nasa.gov/obsrep2000.pdf
+
+   1 NASA's Goddard Space Flight Center Laboratory for Extraterrestrial
+   Physics Greenbelt, Maryland 20771 S0002-7537 93 05831-7 The NASA
+   Goddard Space Flight Center GSFC Labo- tems is also a member of the
+   Laboratory senior staff. The ratory for Extraterrestrial Physics LEP
+   performs experi- civil service scientific staff consists of Dr. Mario
+   Acun a, Dr. mental and theoretical research on the heliosphere, the
+   inter- John Allen, Dr. Robert Benson, Dr. Gordon Bjoraker, Dr. stellar
+   medium, and the magnetospheres and upper John Brasunas, Dr. David Buhl,
+   Dr. Leonard Burlaga, Dr. atmospheres of the planets, including Earth.
+   Gordon Chin, Dr. Regina Cody, Dr. Michael Collier, Dr. LEP space
+   scientists investigate the structure and dynam- John Connerney, Dr.
+   Michael Desch, Mr. Fred Espenak, Dr. ics of the magnetospheres of the
+   planets including Earth. Joseph Fainberg, Dr. Donald Fairfield, Dr.
+   William Farrell, Their research programs encompass the magnetic fields
+   in- Dr. Richard Fitzenreiter, Dr. Michael Flasar, Dr. Barbara trinsic
+   to many planetary bodies as well as their charged- Giles, Dr. David
+   Glenar, Dr. Melvyn Goldstein, Dr. Joseph particle environments and
+   plasma-wave emissions. The LEP Grebowsky, Dr. Michael Hesse, Dr. Robert
+   Hoffman, Dr. also conducts research into the nature of planetary iono-
+   Donald Jennings, Mr. Michael Kaiser, Dr. John Keller, Dr. spheres and
+   their coupling to both the upper atmospheres and Alexander Klimas, Dr.
+   Theodor Kostiuk, Dr. Brook Lakew, their magnetospheres. Finally, the
+   LEP carries out a broad- Dr. Ronald Lepping, Dr. Robert MacDowall, Dr.
+   William based research program in heliospheric physics covering the
+   Maguire, Dr. Marla Moore, Dr. David Nava, Dr. Larry Nit- origins of the
+   solar wind, its propagation outward through tler, Dr. Walter Payne, Dr.
+   John Pearl, Dr. Robert Pfaff, Dr. the solar system all the way to its
+   termination where it en- Dennis Reuter, Dr. D. Aaron Roberts, Dr. Paul
+   Romani, Dr. counters the local interstellar medium. Special emphasis is
+   Robert Samuelson, Dr. Edward Sittler, Dr. Michael Smith, placed on the
+   study of solar coronal mass ejections CME's , Dr. David Stern, Dr. Adam
+   Szabo, Dr. Jacob Trombka, Dr. shock waves, and the structure and
+   properties of the fast and Adolfo Figueroa-Vin as, and Dr. Peter
+   Wasilewski. The fol- slow solar wind. lowing are National Research
+   Council Associates: Dr. Aki- LEP planetary scientists study the
+   chemistry and physics masa Ieda, Dr. Robert Boyle, Dr. Dana Hurley
+   Crider, Dr. of planetary stratospheres and tropospheres and of solar
+   sys- Steven Cummer, Dr. Aharon Eviatar, Dr. Robert Glinski, Dr. tem
+   bodies including meteorites, asteroids, comets, and plan- Natchimuthuk
+   Gopalswamy, Dr. Cedric Goukenleuque, Dr. ets. The LEP conducts a
+   focused program in astronomy, par- Hugh Hill, Dr. Kristi Keller, Dr.
+   Gunther Kletetschka, Dr. ticularly in the infrared and in short as well
+   as very long Patrick Michael, Dr. Lutz Rasta¨tter, Dr. Frank
+   Schmu¨lling, radio wavelengths. We also perform an extensive program of
+   Dr. Kristine Sigsbee, Dr. Peyton Thorn, Dr. Vadim Uritsky, laboratory
+   research, including spectroscopy and physical and Dr. Oleg Vaisberg.
+   The following scientists work at LEP chemistry related to astronomical
+   objects. as either contractors to GSFC or as long-term visiting fac-
+   The Laboratory proposes, develops, fabricates, and inte- ulty:
+   Raytheon/ITSS Dr. Ashraf Ali, Dr. Daniel Berdichev- grates experiments
+   on Earth-orbiting, planetary, and helio- sky, Dr. Scott Boardsen, Dr.
+   Rainer Fettig, Dr. Henry spheric spacecraft to measure the
+   characteristics of planetary Freudenreich, Dr. Georgi Georgiev, Dr.
+   Roger Hess, Dr. atmospheres and magnetic fields, and electromagnetic
+   fields Shrikanth Kanekal, Dr. Masha Kuznetsova, Dr. Nitya Nath, and
+   plasmas in space. We design and develop spectrometric Mr. George
+   McCabe, Dr. Vladimir Osherovich, Dr. Mauricio instrumentation for
+   continuum and spectral line observations Peredo, Dr. Michael Reiner,
+   Dr. Pamela Solomon, Dr. Adi- in the x-ray, gamma-ray, infrared, and
+   radio regimes; these narayan Sundaram, and Dr. Nikolai Tsyganenko;
+   Universi- are flown on spacecraft to study the interplanetary medium,
+   ties Space Research Association USRA Dr. Mei-Ching asteroids, comets,
+   and planets. Suborbital sounding rockets Fok, Dr. Venku Jayanti, Dr.
+   Kathleen McClernan, Dr. Dimi- and ground-based observing platforms form
+   an integral part tris Vassiliadis, and Dr. Hung Kit Wong; Applied
+   Research of these research activities. Corporation Dr. Sanjoy Ghosh,
+   and Dr. Edouard Siregar; This report covers the period from
+   approximately October Computer Sciences Corporation CSC Dr. Larry
+   Evans; 1999 through September 2000. Catholic University of America Dr.
+   Dennis Bogan, Dr. Pamela Clark, Dr. Tamara Dickinson, Dr. Michael
+   DiSanti, 1. PERSONNEL Dr. Frank Ferguson, Dr. Fred Nesbitt, Dr. Neil
+   Dello Russo, Dr. Richard Vondrak continues as Chief of the LEP. Mr. and
+   Dr. Richard Starr; Space Science Applications, Inc. Franklin Ottens is
+   Assistant Chief. The Branch Heads are Dr. SSAI Dr. Richard Achterberg,
+   and Dr. Ronald Carlson; Joseph Nuth Astrochemistry ; Dr. Thomas Moore
+   Inter- University of Maryland Baltimore County UMBC Dr. planetary
+   Physics ; Dr. Drake Deming Planetary Systems ; David Steyert; Georgia
+   Southern University Dr. Robert Dr. Steven Curtis Planetary
+   Magnetospheres , and Dr. Nelson; University of Maryland, College Park
+   Dr. Dennis James Slavin Electrodynamics . The Laboratory Senior Sci-
+   Chornay, Ms. Kelly Fast, Dr. Thejappa Golla, and Mr. Virgil entists are
+   Drs. Richard Goldberg, John Hillman, Michael Kunde; Charles County
+   Community College Dr. George Mumma, Keith Ogilvie, Louis Stief, and
+   Robert Stone. Mr. Kraus; IONA College Dr. Robert Novak; Cornell Univer-
+   William Mish ISTP Deputy Project Scientist for Data Sys- sity Dr.
+   Barney Conrath and Dr. Paul Schinder; Challenger 2 ANNUAL REPORT Center
+   Dr. Jeff Goldstein, Dr. Tilak Hewagama, and Dr. Synchrotron Light
+   Source at Brookhaven National Labora- Timothy Livengood; NOMAD Research
+   Dr. Dean Pesnell; tory. The appearance energy of BrO from the
+   dissociative National Institute of Standards and Technology NIST Dr.
+   ionization of OBrO was determined from the measured Vladimir Orkin;
+   John's Hopkins Applied Physics Labora- threshold at 98.65 0.23 nm to be
+   AE BrO ,OBrO tory APL/IPA Dr. Nicola Fox; Eckerd College Dr. Regi-
+   12.57 0.03 eV. Taking known thermodynamic quanti- nald Hudson;
+   University of Colorado Mr. Jeremy Richard- ties this result yields fH°0
+   173 4 kJ mol 1, the first son; University of Oslo Dr. Nikolai Ostgaard;
+   University experimental measurement of the heat of formation of OBrO.
+   of Bergen Dr. Johan Stadsnes. In addition, our computations yield a
+   theoretical value of 164 A large and very capable staff of engineers,
+   technicians, 8 kJ mol 1 which is in good agreement with the experi-
+   secretaries, and computational personnel also support the mental
+   result. These results will be useful to both modelers work of the LEP
+   scientists. and kineticists when evaluating the viability of potential
+   at- mospheric reactions involving this species. 2. ASTROCHEMISTRY
+   Cosmic Ices. Infrared spectroscopy of cosmic-type ices exposed to both
+   proton bombardment and to UV photolysis 2.1 Chemical Kinetics within
+   the same experimental setup is now possible in the Outer Planet
+   Hydrocarbon Chemistry. The reaction of D Cosmic Ice Laboratory at GSFC.
+   This unique facility is used atoms with methyl radicals CH to examine a
+   variety of physical-chemical and radiation- 3) is important in the
+   chem- istry occurring in the thermosphere of Jupiter. In-situ mea-
+   chemical processes in ices. Experiments lead to the forma- surements of
+   the D/H ratio by the Galileo probe mass spec- tion of many complex
+   organic molecules through processes trometer Mahaffy, Donahue, Atreya,
+   Owen and Niemann, that are thought to represent those occurring on
+   comets, in- 1998 have prompted modelers to explain the observations
+   terstellar icy-grains or on the surfaces of icy satellites. 1 through
+   calculations of the atomic D distribution using a 1-D The radiation
+   chemistry of water-methanol ices near 16K photochemical diffusion model
+   combined with a radiative was reinvestigated. R. Hudson Eckerd College
+   and M. transfer model. The major reactions involved in the model Moore
+   found no evidence for the formation of acetone pre- include those of H
+   and D atoms with H, HD, H viously, a variety of authors hinted that
+   acetone was present . 2 and CH3 Parkinson, Griffioen, McConnell,
+   Jaffel, Vidal-Madjar, Ethylene glycol is identified in the ice and is
+   also a residual Clarke and Gladstone, 1999 . F. Nesbitt, R. Thorn, W.
+   Payne material left after most water is sublimed. 2 P. Gerkakines and
+   L. Stief, in collaboration with D. Wardlaw Queen's NRC , M. Moore and
+   R. Hudson Eckerd College have Univ., Kingston, Ontario , P. Seakins, S.
+   Robertson, and M. compared the nature of products formed after proton
+   irradia- Pilling all at Univ. of Leeds have, as reported previously,
+   tion and UV photolysis of a variety of simple binary and a completed an
+   experimental and theoretical study of the lim- few ternary mixtures.
+   For H2O CO2 we showed that both iting high-pressure rate coefficient
+   for the reaction H CH energy sources form carbonic acid, and CO with
+   similar for- 3 M CH mation yields. An extension of this work is the
+   direct com- 4 M. Since this reaction is far from the high- pressure
+   limit under typical experimental conditions, the ap- parison of
+   photolysis and irradiation of H2O CO2 CH3OH proach to this study was to
+   measure the rate constant for the and H2O CO2 CH4 ices at 18K in the
+   same laboratory isotopic variant D CH with ices created under the same
+   conditions. Although the 3 CH3D* CH2D H which, with a small isotope
+   correction, mimics the rate at the high- processing methods are not
+   identical, there are many simi- pressure limit. It was clearly
+   established that, at low pres- larities between the results of the
+   experiments, i.e. similar sures, the initially formed methane complex
+   CH products and yields. However, there are two major differ- 3D is not
+   stabilized. Subsequently, these results alerted the modelers of ences:
+   the formate ion is only observed for proton irradiated the Galileo
+   observations to the fact that the reaction of D CH3OH containing ices,
+   and 2 the rate of CO formation is with CH measured to be 2 to 4 times
+   higher in UV-photolyzed ices. 3 is a rapid two-body reaction leading to
+   CH2D and not a slow three-body reaction forming CH 3 R. Hudson and M.
+   Moore reported on new experiments 3D. Our results on D CH3 turned out
+   to be crucial for the modeling calcula- and interpretations concerning
+   the ``XCN'' band detected in tions. some interstellar ice spectra. New
+   laboratory spectra of UV- Stratospheric Chemistry. Halogen oxides are
+   known to photolyzed and proton-irradiated ices were completed and play
+   an important role in atmospheric chemistry, especially interpreted
+   using the role of e and H scavengers to reveal in catalytic reaction
+   cycles involved in stratospheric ozone the photo and radiation
+   chemistries. The idea that XCN is the depletion. The role of bromine
+   oxides has long been estab- cyanate ion is presented. An extension of
+   this work leads to lished and recently the efficiency of bromine in
+   this regard the prediction of the chemical precursors required for the
+   has been estimated to be about 50 times larger than chlorine. synthesis
+   of the ``OCN '' band. This is possible since most The recent detection
+   of OBrO in the stratosphere has experiments have been performed along
+   with appropriate prompted suggestions that this oxide may serve as a
+   night- isotopic substitutions. 4 M. Moore, R. Hudson, and P. Ger- time
+   reservoir for bromine. R. Thorn and L. Stief in collabo- akines have
+   posted infrared date to the Cosmic-Ice Labora- ration with R. Klemm
+   Brookhaven National Laboratory , tory web page
+   www-691.gsfc.nasa.gov/cosmic_ices . Data and T. Buckley and R. Johnson
+   both at NIST measured the serve as reference spectra of molecules in
+   H2O-dominated heat of formation for OBrO using a discharge flow- ices
+   at 15-20 K measured from 2.5 to 25 microns. photoionization mass
+   spectrometer apparatus coupled to the Low-Temperature Thermodynamic
+   Properties. In collabo- U-11 beam on the vacuum ultra-violet ring at
+   the National ration with R. Nelson the vapor pressure of ethane has
+   been NASA/GSFC LABORATORY FOR EXTRATERRESTRIAL PHYSICS 3 measured from
+   95-k just above the triple point - to 72 K to magnetically enhanced
+   coagulation. Experimental studies using the low-temperature vapor
+   pressure system at GSFC. of the catalytic activity of our iron silicate
+   condensates dem- New data were also acquired for propane from 250 to 80
+   K onstrated that such materials are extremely efficient Fischer- to
+   further refine the preliminary measurements for this mol- Tropsch type
+   catalysts Ferrante, et al., 2000 and further ecule that were reported
+   in a paper describing our apparatus. studies of both iron and magnesium
+   silicates are in progress. Work has begun to develop the experimental
+   protocols nec- Finally, our measurements of the temperature dependent
+   essary to measure the thermodynamic properties of binary evolution of
+   magnesium silicate smokes Hallenbeck et al., systems by concentrating
+   initially on the nitrogen-methane. 2000 lead us to propose a new method
+   by which the relative Energy Transfer. J. Allen in collaboration with
+   P. Michael formation age of individual comets might be determined
+   NAS/NRS Resident Research Associate has measured the based on the
+   relative proportions of crystalline and amor-
+   vibrational-to-translational V-T rate for the self-relaxation phous
+   grains in their comae Nuth, Hill, and Kletetschka, of methane from 300
+   to 90 K using the infrared non-resonant 2000 . The method could be put
+   on a quantitative footing by photoacoustic spectrometer at GSFC.
+   Accurate values for the dating returned crystalline silicate dust from
+   several comets temperature dependence of this rate are required to
+   correct and can be observationally tested by searching for the pre- for
+   methane self-relaxation when measuring the V-T relax- dicted
+   correlation between the ratio of the crystalline to ation of methane by
+   other molecules in a gas mixture. Ex- amorphous dust fraction and the
+   increasing fraction of vola- periments are under way to determine the
+   temperature depen- tile organics versus CO in the comet as this ratio
+   increases. dence of the V-T rate for the relaxation of methane by Older
+   comets contain more amorphous dust and fewer com- nitrogen. plex
+   organic molecules. Intracavity Laser Spectroscopy. J. Allen in
+   collaboration For the first time it has been demonstrated that experi-
+   with J. Keller, who recently transferred to the Astrochemis- mentally
+   produced, amorphous iron silicate smokes act as try Branch have revived
+   and upgraded the intracavity laser Fischer-Tropsch-Type catalysts to
+   convert H2 and CO into spectrometer. Having completed several
+   improvements, the simple hydrocarbons. R. Ferrante US Naval Academy and
+   system is being readied to measure the temperature depen- M. Moore
+   studied the catalysis for temperatures from 470- dence of overtone
+   absorption by deuterium hydride HD . 670 K and reactant gas mixtures of
+   H2 /CO with a ratio of 2-100. Maximum conversion rates of a few
+   percentage points 2.2 Cosmic Grains were achieved over only a 3-h time
+   period. Major products were methane, ethane, ethylene, carbon dioxide,
+   and water. Nucleation, Growth and Metamorphism of Silicates in As-
+   Products were identified by IR spectroscopy. trophysical Environments.
+   We are conducting experimental studies to understand the nucleation of
+   refractory vapors, the chemical speciation of the condensates and the
+   change in the 3. PLANETARY AND COMETARY PHYSICS spectral properties of
+   the dust as a function of thermal an- Laboratory Gas-Phase
+   Spectroscopy. A significant effort nealing and hydration. Each of these
+   three experimental tasks in the LEP is high-resolution laboratory
+   infrared spectros- presents its own special challenges. We have
+   recently com- copy of gaseous molecular species. The research by the
+   LEP pleted studies of the nucleation of lithium vapors Ferguson
+   spectroscopy group composed of D. Reuter, J. Sirota, J. Hill- and Nuth,
+   2000 and have begun to study the nucleation of man, and D. Steyert is
+   focused primarily on molecules of sodium. These studies have been
+   carried out primarily to test planetary and astrophysical interest, and
+   supports NASA the applicability of several different models currently
+   used to flight missions in both these areas. The work also supports
+   describe the nucleation of refractory vapors, but also because
+   ground-based astronomy and terrestrial atmospheric studies. alkali
+   metal clouds might be important opacity sources in the Particular
+   emphasis is placed on obtaining reliable intensi- atmospheres of
+   extrasolar planets orbiting close to their par- ties; self- and
+   foreign-gas pressure broadening coefficients ent stars. We have
+   published several papers on the speciation and line-mixing effects.
+   There is a vigorous program to mea- of magnesium silicate, iron
+   silicate, and magnesium-iron sili- sure Tunable Diode Laser TDL and
+   Fourier Transform cate condensates applied to circumstellar
+   environments Ri- Spectrometer FTS spectra at wavelengths greater than
+   10 etmeijer, et al., 1999a,b and to the ISM Nuth, Hallenbeck m.
+   Supporting laboratory measurements are scarce for and Rietmeijer, 1998;
+   2000 that demonstrate the importance these wavelengths, but are crucial
+   for the analysis of data of metastable eutectics during the vapor-solid
+   phase transi- from upcoming space missions such as Cassini, where CIRS
+   tion. In particular, we demonstrated that separate populations will
+   obtain spectra of Saturn and Titan from 7 to 1000 m. of pure magnesium
+   silicate and pure iron silicate smokes Recent activities of the group
+   have included obtaining and/or condense from an
+   iron-magnesium-silica-rich vapor phase. analyzing spectral data for
+   excited state and fundamental This observation greatly simplifies
+   prediction of the spectral transitions in H2 , 13C 12CH6 , 12C2H6 ,
+   C2H4 , C2H2 , N2O, properties of the initial condensate Nuth,
+   Rietmeijer, et al., CO2, C3H4 both the methylacetylene and allene
+   isomers , 2000 and the spectral evolution of the smokes as a function
+   CH3)2CO and HNO3 . This work has been carried out in of thermal
+   annealing Hallenbeck et al., 2000 . collaboration with personnel at
+   several institutions including Experimental studies of the nucleation
+   of dilute iron va- W. Blass U. of Tennessee , N. Donahue Harvard
+   Univer- pors demonstrated that single magnetic domain iron grains sity
+   , J. Frye Howard University , J. Johns NRC, Canada , form spontaneously
+   in the complete absence of a magnetic M. Mickelson Denison University ,
+   A. Perrin C.N.R.S., field Nuth and Withey, 1999 . Such grains were
+   observed to Paris , L. Strow UMBC , C. Suarez NRC, Argentina and be
+   fully magnetized and coagulated extremely efficiently due R. Tipping U.
+   of Alabama . These measurements have al- 4 ANNUAL REPORT ready impacted
+   planetary studies. For example, the 13 12 C product of methane
+   photochemistry and is a chemically im- ethane (13C12CH6) intensities
+   have been used in conjunction portant trace species in the atmosphere
+   of Jupiter, Saturn, with ground-based observations to infer an
+   essentially terres- and Titan. The two manuscripts have been submitted
+   for trial 13C/12C ratio on Jupiter and Saturn, while the intensities
+   publication. of the ethylene C2H4) transitions have been used to obtain
+   A Model for Beam-Integrated High Resolution Spectral concentrations of
+   this species in the upper atmosphere of Line Observations. T. Hewagama
+   and K. Fast U. of Mary- Saturn. The low temperature line intensity and
+   self- and ni- land , J. Goldstein and T. Livengood, and T. Kostiuk have
+   trogen broadened measurements of the 9 band of allene developed a
+   numerical algorithm that will accurately model near 28 m are the first
+   such measurements of this band, and beam integrated spectral lines from
+   molecules in solar sys- are among the longest wavelength TDL data ever
+   obtained. tem planetary atmospheres. The model employs a vertically The
+   high-pressure, long-pathlength CO inhomogeneous infrared radiative
+   transfer algorithm to cal- 2 broadening spectra show the clear effects
+   of line-mixing and far-wing line culate the contributions from
+   different portions of the source shapes in this species and may be used
+   to model atmospheric for a given atmospheric thermal profile, and
+   accurately ap- spectra for the Mars Global Surveyor. The parameters ob-
+   plies the beam response and manifestations due to atmo- tained from
+   these experiments are crucial to the proper inter- spheric dynamics. An
+   important feature of the model is the pretation of the upcoming CIRS
+   measurements of the atmo- incorporation of a non-linear model parameter
+   optimization sphere of Titan. The group has also developed theoretical
+   algorithm which provides the capability of fitting observa- models for
+   the infrared spectra of molecules in cometary tional data. The model
+   was used to derive the ethane molecu- comae including formaldehyde,
+   methanol and OCS. lar abundance and direction of the zonal wind field
+   in Titan's As well as obtaining and analyzing spectra, the group
+   stratosphere from IR heterodyne spectroscopy observations. places a
+   strong emphasis on improving instrumentation and, It is also being used
+   in the analysis of IR heterodyne spec- among other accomplishments, has
+   developed a unique TDL troscopy observations of molecular lines in the
+   atmospheres system for obtaining spectra to 30 m employing ad- of
+   Jupiter, Venus, and Mars. vanced Si:As and Si:Sb BIB detectors, high
+   performance lead-salt lasers, and a long-path White-type sample cell. A
+   3.1 Venus very long-path, coolable White-type cell has been developed
+   which allows spectra to be obtained at pathlengths in excess Data
+   analysis by F. Schmu¨lling NRC , J. Goldstein, T. of 500 m and at
+   temperatures as low as 120 K. The group has Hewagama U. of Maryland ,
+   and T. Kostiuk, of high preci- used the BIB detectors and a CsI
+   beamsplitter to obtain high- sion wind measurements of the upper Venus
+   atmosphere is currently in process. Lines in both 12CO resolution, long
+   wavelength, FTS spectra using a Brucker 2 emission and 13CO
+   spectrometer at Harvard University. The group also uses the 2
+   absorption from the atmosphere of Venus, measured at a resolving power
+   of 6 x 106 using infrared heterodyne Kitt Peak National Observatory's
+   McMath-Pierce FTS spec- spectroscopy, are being analyzed to retrieve
+   high altitude trometer to obtain accurately calibrated spectra of
+   molecules 110 km horizontal wind velocities for a sub-solar to anti- of
+   planetary and terrestrial interest, and has developed sev- solar flow
+   and a zonal retrograde component; and a lower eral techniques e.g.
+   double-passing the beam to double the altitude 70 km anti-solar to
+   sub-solar return flow. The ac- spectral resolution to enhance this
+   spectrometer. An effort is curacy of the results will be on the order
+   of 1 m/s. also in place to develop methods for external cavity stabili-
+   zation of long-wavelength TDLs. Infrared Heterodyne Spectroscopy of
+   Isotopic Ethylene. 3.2 The Moon T. Kostiuk, W. Blass U. of Tennessee ,
+   T. Livengood, T. Solar Eclipse Predictions. In November 1999, F.
+   Espenak Hewagama, and D. Buhl in collaboration with V. authored NASA
+   TP-1999-209484 titled ``Total Solar Eclipse Morozhenko and A. Kollyukh
+   Institute of Semiconductor of 2001 June 21.'' This publication contains
+   complete details Physics, Ukraine completed two papers ``Infrared
+   Hetero- for the eclipse including tables, maps, figures, and meteoro-
+   dyne Spectroscopic Measurements of Ethylene and Isotopic logical
+   statistics for viewing sites. The NASA eclipse bulle- Ethylene
+   (13C12CH4) Transitions Between 840 cm 1 and tins are prepared in
+   cooperation with the IAU Working 980 cm 1'' and ``Self and Nitrogen
+   Broadening of the Group on Eclipses as a public service to both the
+   profes- 102011 ,10 1910 ,9 Ethylene Transition at 927.01879 sional and
+   lay communities, including educators and the me- cm 1'' The retrieved
+   molecular parameters are needed for dia. The publication is also
+   available on the web at http:// interpreting measurements at high
+   spectral resolution from umbra.nascom.nasa.gov/ eclipse/010621/rp.html.
+   planetary atmospheres and astrophysical sources. The Infra- Migration
+   of Hydrogen to the Lunar Poles. D. Crider and red Heterodyne
+   Spectroscopy group at GSFC has used a R. Vondrak have constructed a
+   Monte Carlo model that laboratory infrared heterodyne spectrometer to
+   measure the simulates the migration of particles in the lunar
+   exosphere. strength, pressure-broadening, and frequency of 168 The
+   particles begin at a location consistent with the expected
+   rotational-vibrational transition lines in the 4 , 7 , and 10
+   distribution of particles given the solar wind as the source. bands of
+   isotopic ethylene (12C2H4 and 13C12CH4) at room The particle then
+   reacts with the surface through sputtering. temperature and at low
+   pressures typical of planetary strato- The particle is assumed to
+   thermalize to the local surface spheres. Frequencies and intensities
+   were determined to bet- temperature of the Moon. It is released with a
+   velocity taken ter than 5x10-5 cm 1 and 10% respectively. Pressure
+   broad- from the Maxwellian distribution at that local temperature in
+   ening coefficients were determined to 10%. Ethylene is a a random
+   direction. Under the effects of gravity, the trajec- NASA/GSFC
+   LABORATORY FOR EXTRATERRESTRIAL PHYSICS 5 tory is calculated. If the
+   particle escapes the Moon, it is re- nection with seafloor spreading.
+   The alignment of these fea- corded as lost to the system. While in
+   transit, it has a prob- tures follows approximately that of grabens and
+   stress faults ability of being ionized by solar photons or solar wind
+   associated with the Tharsis rise suggesting that the lineations
+   particles. If it is ionized, it is lost from the system. Other- could
+   have been caused by buckling and fracturing of an wise, the particle is
+   allowed to land at its new position, ther- ancient, thin magnetized
+   shell rather than a continuous malize and take another hop. If the
+   particle lands poleward of spreading process. The intense magnetization
+   ( 20A/m of 85°, we test to see if it arrived in a cold trap by
+   comparing the crustal layer, modeled as a 30 Km slab, is another prob-
+   the fraction of cold trap area at that pole to a random num- lem that
+   has been addressed by members of the team. Labo- ber. The trapped
+   particles are counted. If the particle lands on ratory studies of
+   magnetic susceptibility in meteorites sug- the night side of the Moon,
+   it remains adsorbed in place until gest that hematite may play an
+   important role in explaining the lunation brings it across the
+   terminator. D. Crider and R. the high remnant magnetization of the
+   crust. Vondrak find that the solar wind can supply enough hydro-
+   Analysis of Mars Global Surveyor Magnetic Field and gen to the polar
+   hydrogen deposits in 36 million years. This Electron Data to Understand
+   the Solar Wind Interaction amount of time is reasonable considering the
+   stability of the with Mars. D. Crider and members of the Magnetometer-
+   Moon's orbit. Electron Reflectometer MAG/ER team have conducted
+   qualitative analyses of the magnetic field morphology in the 3.3 Mars
+   solar wind interaction with Mars using MAG/ER data. The Martian
+   Volatiles. Analysis of ground-based Mars spec- radial component of the
+   magnetic field on the dayside of tral mapping data acquired during the
+   April 1999 opposition Mars, away from the strong crustal fields was
+   investigated. Ls 130 by D. Glenar and G. Bjoraker, D. Blaney JPL , In
+   the draping picture, the solar wind magnetic field is and R. Joyce KPNO
+   has demonstrated that Martian vola- mostly horizontal on the entire
+   dayside of the planet, with a tiles can be distinguished, mapped and
+   inventoried at re- slight downward or upward component that is grouped
+   by gional scales using ground-based near-IR spectroscopy at east-west
+   hemispheres in a magnetic field aligned coordinate moderately high
+   spectral resolution R 1000 . S. Polar CO system. It was found that the
+   radial part of the magnetic field 2 ice has been identified and mapped
+   using ``forbidden'' 2.28 has an average that is closer to zero inside
+   the ionosphere and 2.32 micron features which are sensitive to grain
+   size. than outside of the ionosphere. However, the distribution is The
+   data set, acquired at roughly the beginning of the Mars much broader
+   inside the ionosphere than outside. This result Global Surveyor science
+   mapping mission, also reveals the fits well with those of D. Mitchell
+   U. of California, Berke- distribution of mid-North latitude H ley who
+   has shown that the ionosphere tends to extend to 2O ice clouds, and
+   ten- tatively a N. polar H higher altitudes over the strong crustal
+   magnetic sources. 2O ice collar. Both of these have been observed
+   independently by MGS/TES J. Pearl/693 . Reduc- Their results show a
+   broad distribution inside the ionosphere tion of the data is continuing
+   and a manuscript summarizing due to contributions from the strongly
+   magnetized regions, the detection and measured distribution of Martian
+   volatiles even though they tried to avoid those areas. is in
+   preparation. O3 in the Atmosphere of Mars. W. Maguire is continuing
+   Magnetic Field of Mars. Completion of aerobraking ma- his
+   characterization of ozone in Mars atmosphere using the neuvers by the
+   Mars Global Surveyor allowed the acquisition IR limb data from the
+   Thermal Emission Spectrometer TES of close-in magnetic field data by
+   the Magnetometer/Electron instrument on the Mars Global Surveyor MGS .
+   Photo- Reflectometer MAG/ER over a significant portion of the chemical
+   models predict a large seasonal variation in O3 planet covering a broad
+   range of longitudes and latitudes. M. abundance, in higher abundance as
+   water vapor abundance Acun a is the Principal Investigator P.I. for the
+   MAG/ER, J. decreases. In addition, the models predict a significant
+   diur- Connerney and P. Wasilewski are Co-investigators Co-I's . nal
+   variation of O3 superimposed on this seasonal variation. Mapping of the
+   strong crustal magnetic sources previously These models, together with
+   ground- and other spacecraft- discovered during the first aerobraking
+   and science phasing based observations, are being used as guides in the
+   analysis orbits revealed the existence of very strongly magnetized ar-
+   of large spectral averages assembled from the TES data. P. eas south of
+   the dichotomy boundary and a very close cor- Christensen Arizona State
+   University is the TES P.I. and J. relation between the location of the
+   sources and the ancient, Pearl is a Co-I. In collaboration with J.
+   Pearl, M. Smith, B. cratered highlands of Noachian age. Furthermore,
+   the ab- Conrath, M. Kaelberer, E. Winter and E. Guandique, and P. sence
+   of crustal magnetization in large impact plains such as Christensen
+   P.I., Arizona State Univ. MGS/TES data Hellas and Argyre suggests that
+   the Martian dynamo ceased analysis is being carried out. Recent results
+   include mapping to operate very early in the history of the planet,
+   within the Mars's water vapor. first few hundred million years. This
+   important discovery has Ozone Study by Using Photolysis Product. R.
+   Novak profound implications for our current understanding of Mars'
+   spent his sabbatical year at GSFC working with M. Mumma. early history
+   and thermal evolution. Added to these impor- R. Novak, M. Mumma, and M.
+   DiSanti conducted the first tant findings is the discovery of very
+   strongly magnetized detailed study of ozone on Mars using emission from
+   its linear features extending thousands of Km in Terra Sirenum
+   photolysis product, the O2(1 g) band system, to probe ozone and Terra
+   Cimmeria has further challenged our understand- in the middle
+   atmosphere. They also measured atmospheric ing of tectonic processes at
+   Mars. The structure of these water by observing the 1 band of HDO near
+   3.67 m magnetic lineations suggests the prior existence of tectonic
+   DiSanti and Mumma 1995 . Both species were mapped at processes at Mars
+   similar to those observed at Earth in con- high spatial resolution, and
+   diurnal and seasonal effects were 6 ANNUAL REPORT explored. Enhanced
+   ozone was detected over the dawn ter- to monitor the state of the
+   magnetosphere in support of the minator, confirming the predicted
+   buildup during the Martian Galileo Mission. night. Together, these
+   measurements provide a new approach Spectropolarimetry. In
+   collaboration with Matthew J. for studies of the water-ozone cycle on
+   Mars. Penn California State University , D. Branston National Infrared
+   Heterodyne Measurements of O3 in the Atmo- Solar Observatory - Tucson ,
+   and the Staff at the National sphere of Mars. F. Espenak and R.
+   Cortland National Space Solar Observatory at Sacramento Peak, the Dunn
+   Solar Tele- Club Summer Scholar completed basic reduction and pre-
+   scope DST was used to acquire polarimetric images for liminary analysis
+   of Mars spectra obtained with the Goddard sodium line emissions in and
+   near the Io torus during the Infrared Heterodyne Spectrometer IRHS to
+   measure ozone Galileo's encounter with Io. The data is being reduced to
+   in the atmosphere of Mars at 9.66 microns. The observations obtain
+   polarization maps of the regions observed. were performed atop Mauna
+   Kea at the coude focus of the 3 Composition of the Jovian Atmosphere.
+   G. Bjoraker and meter NASA Infrared Telescope Facility IRTF during T.
+   Hewagama are using spectra of Jupiter acquired with the March 1999.
+   Terrestrial O3 normally renders Earth's atmo- CSHELL spectrometer at
+   NASA's Infrared Telescope Facil- sphere opaque to these frequencies,
+   but Mars' large geocen- ity in Hawaii to study the deep atmosphere.
+   Observations of tric radial velocity near quadrature shifts the O3
+   lines into the CH wings of their telluric counterparts where the
+   terrestrial at- 4 and NH3 were obtained simultaneously with measure-
+   ments by the Near Infrared Mapping Spectrometer on the mosphere is
+   transparent enough to permit the observations. Galileo Orbiter. The
+   methane observations are sensitive to Radiative transfer analysis
+   software is being modified for the abundance of water vapor between 3
+   and 7 bars on Jupi- migration onto the SUN workstation. ter. This
+   technique permits mapping H2O on Jupiter using ground-based telescopes.
+   Preliminary results show dramatic variations in the abundances of both
+   H 3.4 Jupiter and Io 2O and NH3 near the Great Red Spot. Additional
+   observations are planned to sup- Jupiter Observing Program: H port the
+   Cassini flyby of Jupiter in December 2000. 3 Aurora and Io Flux Tube
+   Footprint. J. Connerney and T. Satoh Science Univer- Jovian Mid-IR
+   Aurora and the Solar Cycle. T. Kostiuk, sity of Tokyo continue a
+   program of long-term observations with Co-I's T. Livengood and J.
+   Goldstein, K. Fast, and T. of Jupiter at 3.42 m wavelength using the
+   NSFCAM infra- Hewagama U. of Maryland , and D. Buhl are continuing red
+   camera and NASA's IRTF at Mauna Kea, Hawaii. An their study of the
+   long-term variability of Jupiter's mid- image obtained at this
+   wavelength shows H infrared aurora. Evidence for solar cycle-dependent
+   varia- 3 emission from high altitudes above the methane homopause
+   against a tions in the intensity of 12 m emissions of the ethane mol-
+   darkened planetary disc by absorption due to methane . ecule in
+   Jupiter's polar aurorae has been observed since 1977 These images
+   evidence intense and omnipresent auroral using infrared heterodyne and
+   Voyager IRIS spectroscopic emissions at both magnetic poles and
+   emission at the foot of observations. Ground based measurements were
+   conducted the Io Flux Tube IFT . The latter often appears as an iso-
+   from the NASA Infrared Telescope Facility IRTF and lated, sub-arcsecond
+   spot which moves across Jupiter's disc along with Voyager IRIS data,
+   span nearly 2 solar cycles, in concert with the orbital motion of Io
+   Connerney et al., with the most recent observations in November 1999. A
+   so- 1993 ; it is excited by the electrodynamic interaction of Ju- lar
+   cycle dependence is significant, as no such dependence piter's magnetic
+   field with Io. Emission extending well has been noted in any other
+   emission from Jupiter's auroral downstream 60 degrees of the IFT
+   footprint along Io's L regions. Such dependence may signal changes
+   either in the shell can be seen at times in both hemispheres. High time
+   properties of the impinging particle beams or in the target resolution
+   imagery of the IFT footprint is used to further our atmosphere
+   receiving the beam. Additional measurements understanding of the
+   electromagnetic interaction between Ju- are planned in December 2000 in
+   coordination with Cassini piter and Io. Composite Infrared Spectrometer
+   CIRS during the Cassini Recent imagery reveals over some longitudes
+   multiple flyby of Jupiter. Complementary information on altitude and
+   footprints at the foot of the IFT suggesting multiply reflected spatial
+   extent of the emission, hydrocarbon abundances, and Alfve´n waves
+   passing between Jupiter's ionosphere and the temperature will be
+   retrieved by the coordinated measure- high density torus Connerney and
+   Satoh, 2000 . A catalog ments. of observed surface locations of the IFT
+   footprint has been Comet Shoemaker-Levy 9. D. Deming and J. Harrington
+   used to greatly improve models of Jupiter's magnetic field Cornell
+   University have completed the first phase of their Connerney et al.,
+   1998 . These images are also used to modeling of the infall of the SL9
+   impact plume. They begin model the distribution of Jovian H3 emissions
+   in the au- their parameterized models with power-law plume ejecta; a
+   roral regions and to monitor the dynamic state of the Jovian ballistic
+   Monte Carlo method is used to calculate synthetic magnetosphere. A
+   linearized inverse method is used to ex- views of the plumes in flight,
+   infall fluxes, and debris pat- tract an emission model from many images
+   of the aurora, terns on the Jovian disk. These calculated plume views
+   and obtained at different Central Meridian Longitudes Satoh and debris
+   patterns are compared with observations in order to Connerney, 1999 .
+   Evidence is found for enhanced emissions determine the parameters of
+   the model such as the tilt and at longitudes marked by weaker surface
+   magnetic field mag- opening angle of the ejecta cone, velocity cutoff
+   values in the nitudes, and there appears to be a local time enhancement
+   in power law, etc. The infall fluxes from the best-fit ballistic
+   emissions poleward of the auroral oval in the dusk sector. A model are
+   then used to initialize a radiative-hydrodynamic continued program of
+   observation of the aurora is conducted RH model of the plume infall.
+   The RH model is based on NASA/GSFC LABORATORY FOR EXTRATERRESTRIAL
+   PHYSICS 7 Zeus-3D, modified to include radiative transport in the gray
+   field model. Although this is not true for a three-dimensional
+   approximation. The RH model follows the interaction of the model, these
+   results raise questions on the application of the infalling plume with
+   the atmosphere, and computes infrared cyclotron maser theory to bKOM
+   emission. light curves versus wavelength. The resultant light curves
+   are M. Reiner, M. Kaiser, and M. Desch reanalyzed the Ul- in excellent
+   agreement with observations, and have allowed ysses data taken during
+   the Ulysses-Jupiter encounter to look Harrington and Deming to identify
+   the nature of several pre- for possible long term periodicities in the
+   Jovian radiation. viously mysterious SL9 phenomena, including ``third
+   precur- The recurrence of the solar wind two-sector structure at the
+   sors,'' ``McGregor's ring,'' the ``bounce,'' and the ``flare.''
+   spacecraft was strongly reflected in the intensities of Jovian The
+   ``flare'' was observed to occur near 1000 sec post- bKOM and nKOM radio
+   emissions. Furthermore, a repeated impact as a sharp spike in the 0.9 m
+   light curves observed pattern was found where a sharp cessation of the
+   bKOM by several groups, and the models clarify the nature of this
+   emission was followed, after a short time delay, by an abrupt and the
+   aforementioned phenomena. It is planned to make onset of an nKOM
+   ``event,'' which lasted for some 5 days. the atmospheric models widely
+   available to the community This behavior of the bKOM and nKOM emissions
+   was re- as a resource for SL9 data analysis. peated for four
+   consecutive 25-day periods during the Ul- Temporal Study of
+   SL9-Introduced Ammonia in Jupiter's ysses inbound trajectory.
+   Stratosphere. K. Fast U. of Maryland , working with LEP members T.
+   Kostiuk, D. Buhl, F. Espenak, and P. Romani, 3.5 Saturn and Titan and
+   with A. Betz and R. Boreiko U. of Colorado, Boulder IR Spectral Imaging
+   of Saturn and Titan. An observa- and T. Livengood, are analyzing
+   infrared heterodyne spectra tional program to explore the atmosphere of
+   Saturn and the of NH3 introduced into Jupiter's stratosphere by the
+   impact atmosphere/surface interaction of Titan is continuing with N. of
+   Comet Shoemaker-Levy 9. Measured time scales for the Chanover New
+   Mexico State University as P.I. Scientific removal of ammonia from the
+   stratosphere by solar ultravio- Co-I's include D. Glenar and G.
+   Bjoraker, J. Hillman U. of let photolysis will shed light on chemical
+   and dynamical pro- Maryland , and D. Kuehn Pittsburg State University .
+   We cesses in the Jovian stratosphere. Infrared heterodyne ammo- are
+   using three acousto-optic tunable filter AOTF cameras nia emission line
+   spectra at a resolving power of 107 were developed at GSFC. Analysis of
+   spectral imaging data from obtained by Betz et al., and are being
+   analyzed using the this class of camera should improve our
+   understanding of the BEAMINT modeling software to retrieve
+   stratospheric am- atmospheric dynamics and chemistry of these bodies.
+   User monia mole fractions and altitude distributions, and tempera-
+   interface software for the new IR camera was developed by ture
+   information. Spectra from six different impact regions D. Kuehn who
+   served as Summer 2000 GSFC Summer Fac- were acquired from hours to 3
+   weeks following the impacts ulty Fellow, in collaboration with GSFC
+   colleague D. Gle- on up to 4 different days for each site, enabling an
+   investi- nar. Saturn was observed at the Apache Point Observatory
+   gation of the temporal behavior of ammonia abundance and 3.5 meter
+   telescope in January 2000, and these data are cur- temperatures in
+   Jupiter's stratosphere. The combined data set rently being analyzed.
+   Titan was observed in October 1999 can be used to investigate the
+   long-term behavior of ammo- using adaptive optics at the Mount Wilson
+   100`` telescope. nia in the stratosphere, as well as provide
+   constraints on cur- These data are being deconvolved and processed at
+   New rent photochemical models. Mexico State University, and will be
+   analyzed using models Jovian Broadband Radio Emissions. C. Barrow Max
+   that correct for Titan's atmosphere. The surface reflectivity Planck
+   Institute , A. Lecacheux Observatoire de Paris , R. that we derive at
+   0.94 microns, the shortest surface-sounding MacDowall, and M. Kaiser
+   studied Jovian broadband radio wavelength that has been used from
+   ground-based tele- emission bKOM detected by the Ulysses spacecraft
+   during scopes, is being compared with other results in the near-IR to
+   1994 to 1996 during which time the spacecraft was more gain insight
+   into Titan's surface composition. Titan will be than 5 AU from Jupiter.
+   All of the bKOM events observed observed again in November 2000 to
+   obtain global coverage when Ulysses was at northern jovicentric
+   latitudes were pre- of the satellite. The atmospheres of both Saturn
+   and Jupiter dominantly right-hand RH polarized while events recorded
+   will also be observed in November 2000 using VIS and IR when the
+   spacecraft was at southerly jovicentric latitudes AOTF cameras. These
+   observations should reveal the com- were predominantly LH polarized,
+   the change taking place at plex interaction between thermal radiation
+   escaping from the approximately 0 deg jovimagnetic latitude. Compared
+   with planetary interiors and visible cloud structures in the tropo-
+   previous observations of the bKOM, made by spacecraft spheres of these
+   planets. considerably closer to Jupiter, the present occurrence prob-
+   Titan Stratospheric Condensates. R. Samuelson and L. abilities were
+   lower for the LH polarized events although the Mayo Raytheon/IBS have
+   reanalyzed Voyager 1 IRIS data distribution was similar. For the RH
+   polarized events, how- of Titan's north polar hood using a radiative
+   transfer model ever, the distribution was different, the so-called main
+   peak appropriate for spherical atmospheres that includes scattering
+   being absent or, perhaps, displaced towards a larger central and
+   collision induced absorption. Analysis of the spectral meridian
+   longitude. It was shown that, in a two-dimensional continuum between
+   250 and 600 cm 1 suggests thin conden- model, if cyclotron maser
+   emission in a dipole magnetic field sate clouds in the lower
+   stratosphere consisting of particles is assumed for Jupiter, the
+   detection of bKOM at a given with effective radii between 1 and 5
+   micrometers. Composi- frequency by a spacecraft at a specified
+   location, uniquely tion is unknown, but either condensed hydrocarbons
+   or ni- determines the complete geometry of the emission cone for triles
+   are consistent with the data. Some depletion of a coex- an assumed
+   value of L the invariant longitude and a given isting photochemical
+   aerosol compared with regions not 8 ANNUAL REPORT containing
+   condensates appears to be required, implying a both moderate - and high
+   - dispersion, along with the CO partial sweeping up of the aerosol by
+   precipitating cloud par- fundamental region near 4.67 m). Global
+   production rates ticles. were obtained for seven parent volatiles:
+   water, carbon mon- Rings of Saturn in the mid-IR. T. Livengood, T.
+   Kostiuk, oxide, methanol, methane, ethane, acetylene, and hydrogen C.
+   Lisse U. of Maryland and STScI , and H. Ka¨ufl Euro- cyanide. Many new
+   multiplets from OH in the 1-0 band were pean Southern Observatory have
+   imaged Saturn and its seen in prompt emission, and numerous new
+   unidentified rings in the mid-Infrared. Images were obtained in
+   October- spectral lines were detected. Three hypervolatiles methane,
+   December 1996, at the European Southern Observatory us- ethane, and
+   acetylene had abundances similar to those in ing the Thermal Infrared
+   Multi-Mode Instrument TIMMI comets Hyakutake and Hale-Bopp, but carbon
+   monoxide was on the 3.6-m telescope. Photometric images were made
+   strongly depleted in comet Lee. This difference demonstrates through
+   filters from 7.7 m to 13 m with the TIMMI that chemical diversity
+   occurred in the giant-planets' nebular 64x64 element Ga:Si array at an
+   image scale of 0.5 arcsec/ region, where these three comets originated.
+   pixel. The ring ansae brightness was modeled as a function M. Mumma, M.
+   DiSanti, N. Dello Russo, R. Novak, and of radial distance from Saturn
+   based on the viewing geom- K. Magee-Sauer investigated the organic
+   volatile composi- etry. Analysis of spectrophotometry indicates a peak
+   in the tion of the dynamically new comet C/1999 S4 Linear , us- emitted
+   radiance of the rings near 12 m. A significant dif- ing CSHELL at the
+   NASA IRTF and NIRSPEC at the Keck ference in the radiance from the East
+   and West ansae was Observatory during July 2000. They found that CO was
+   observed, with a maximum ratio W/E of 2 near 11.3 m. present at an
+   abundance of 1% relative to water, the lowest Possible explanations for
+   the difference include thermal heat- detected to date among the
+   long-period and new comets. The ing and cooling, ring geometry, and
+   ring particle properties hypervolatiles methane and ethane were
+   detected at levels and composition. much lower than found in comets
+   Hyakutake, Hale-Bopp, Titan Winds. A paper has been submitted by T.
+   Kostiuk and Lee. Methanol was searched but was not detected. The with
+   co-authors T. Livengood, J. Goldstein, T. Hewagama comet disrupted in
+   mid-July, terminating the investigation. and K. Fast U. of Maryland ,
+   and D. Buhl and F. Espenak Analysis is in progress. describing first
+   direct measurements of the global circulation V. Krasnopolsky Catholic
+   University , M. Mumma, and on Titan using the Goddard Infrared
+   Heterodyne Spectrom- M. J. Abbott U. of California, Berkeley
+   investigated soft eter IRHS . A beam integrated radiative transfer
+   software X-ray emission from comets Borrelly, Encke, Mueller 1993
+   package BEAMINT for beam-integrated high resolution A1 , and Hale-Bopp
+   post-perihelion . Borrelly and Hale- spectral line observations has
+   been developed to model the Bopp were detected and upper limits were
+   obtained for Doppler-shifted ethane line spectra observed on Titan. Re-
+   Mueller and Encke, bringing the total to five comets detected sults
+   indicate a globally averaged zonal wind of 100 m/s in of the eight in
+   the EUVE database. The measured signal in the direction of Titan's
+   rotation. Current results and future these comets is proportional to 2
+   r 2Qgas , consistent with measurements are important for the
+   optimization of the excitation by solar wind charge transfer. The
+   outburst de- Cassini's Huygens Probe science investigation,
+   particularly tected by BeppoSAX in Hale-Bopp and the non-detection by
+   surface studies. Results will also provide significant con- ROSAT
+   remain puzzling, but these are best explained if the straints on
+   dynamical models of atmospheres of slowly ro- BeppoSAX detection
+   represents enhanced charge transfer tating bodies. during a gas
+   release. The ROSAT non-detection is puzzling. V. Krasnopolsky and M.
+   Mumma completed analysis of 3.6 Comets their EUVE spectrum of comet
+   Hyakutake which covers the spectral range 8.0-70.0 nm with a resolving
+   power of 10. M. Mumma reviewed tests of cometary origins at the ISSI
+   Emission lines of multiply charged ions were detected. These Cometary
+   Workshop Zurich . In 1999, the Internationa As- ions are brought to the
+   comet by the solar wind and are tronomical Union named asteroid 8340
+   ``Michael J. excited in charge exchange with cometary neutral species.
+   Mumma'' in recognition of his work on the volatile compo- The detected
+   He II line at 30.4 nm is excited in a similar sition of comets, which
+   provided the first definitive detec- process involving solar wind alpha
+   particles. The photon lu- tions of water, methanol, methane, and ethane
+   in comets, and minosity measured at energies below 100 eV exceeds that
+   the first infrared detections of carbon monoxide and carbonyl above 100
+   eV by a factor of 2. The O II lines at 53.8/53.9 sulfide. nm, 61.7 nm,
+   and 43.0/44.2 nm are also detected; these lines M. Mumma, M. DiSanti,
+   N. Dello Russo, R. Novak, and are formed by photo-ionization of atomic
+   oxygen similar to K. Magee-Sauer Rowan Univ. made the first
+   observations the process giving rise to Earth's dayglow. Neon is
+   depleted of a comet with NIRSPEC, a new facility instrument at the in
+   Hyakutake by more than a factor of 2600 relative to the Keck
+   Observatory atop Mauna Kea, HI. NIRSPEC is the first solar abundance,
+   confirming the current view that Oort cloud of a new generation of
+   cross-dispersed cryogenic infrared comets formed in the Jupiter-Neptune
+   region of the solar spectrometers, for use in the 1 - 5 m wavelength
+   spectral nebula. range. The observations were conducted in
+   collaboration with the instrument development Team I. McLean UCLA , P.
+   I. , during instrument commissioning. The team investi- 3.7
+   MeteoritesÕAsteroids gated the volatile composition of the long-period
+   comet Database of Bulk Elemental Compositions of Meteorites. C/1999 H1
+   Lee during June - August 1999. The organics The X-ray/Gamma-Ray
+   Spectrometer XGRS on the NEAR spectral region 2.9 - 3.7 m was
+   completely sampled at spacecraft will determine the surface elemental
+   composition NASA/GSFC LABORATORY FOR EXTRATERRESTRIAL PHYSICS 9 e.g.,
+   Mg, Al, Si, Fe, O, and K possibly Ca, S, Ti, and Th of the
+   cross-correlation near the velocity of the star, which they the S-class
+   asteroid 433 Eros. These abundances should help attribute to a low mass
+   object in a long-period orbit. A sec- elucidate both possible
+   relationships to known classes of me- ond cross-correlation feature,
+   weaker and more diffuse, was teorites and geological processes that
+   occurred on Eros e.g., found at a velocity amplitude in agreement with
+   the recent impact processing, partial melting . To aid in the analysis
+   claimed detection of the planet in reflected light by Cameron and
+   interpretation of the NEAR XGRS data, J. Trombka and et al. Additional
+   IR observations are needed to confirm the his collaborators are
+   compiling a database of bulk elemental reality of this feature.
+   compositions of meteorites. They are limiting their database U. of
+   Colorado LASP graduate student J. Richardson is to those they deem to
+   be the most reliable, specifically se- in residence in the LEP working
+   with D. Deming and C. lecting analyses of representative samples of
+   falls or un- Goukenleuque, to observe the secondary eclipse of the
+   weathered finds. Their initial emphasis is on classes of me-
+   ``transiting planet'' orbiting HD209458. L. Esposito U. of teorites
+   most likely related to Eros, including ordinary Colorado , J.
+   Harrington Cornell U. and G. Wiedemann chondrites and several types of
+   achondrites, and excluding ESO are also collaborating. The observations
+   will utilize a meteorite types which are poor spectral matches for Eros
+   differential spectrophotometric method to observe the subtle e.g.,
+   carbonaceous and enstatite chondrites, aubrites . These change in the
+   ``star planet'' spectrum as the planet is data form the basis for plots
+   of elemental abundances and eclipsed. According to Goukenleuque's model
+   for the planet, abundance ratios to distinguish classes of meteorites
+   and the optimal wavelength is near 3.7 m where a flux peak in identify
+   geological processes on Eros. This database is now the planetary
+   spectrum is produced by a minimum in the on-line and has been
+   successfully applied to the analysis of opacity. Observations are
+   scheduled for October 2000 on the the NEAR X-ray Spectrometer XRS Data.
+   NASA IRTF, and are proposed for other large telescopes in Surface
+   Composition of 433 Eros. The first results ob- 2001. tained were
+   derived from the NEAR/X-Ray Spectrometer NAS/NRC postdoctoral associate
+   C. Goukenleuque is XRS observation of 433 Eros surface made during two
+   working on improving his model for irradiated ``hot Jupiter'' M-Class
+   flares and quiet sun conditions during the period extra-solar planets.
+   These improvements will incorporate the May to July 2000. These results
+   are compared to composi- opacity of strong metallic lines in the
+   visible, as well as a tions of meteorite groups. Statistically
+   significant results convective adjustment. from gamma-ray spectrometry
+   require substantially longer Extrasolar Planetary Spectroscopic
+   Modeling. T. Kostiuk integration times than from x-ray spectrometry.
+   Low Alumi- and his collaborators are developing a spectral synthesis
+   num abundances for all regions argue against global differ- model to
+   calculate the thermal-IR spectra of extra-solar plan- entiation of
+   Eros. Mg/Si, Al/Si, Ca/Si, and Fe/Si elemental etary systems. It can be
+   used to study the atmospheric spectra ratios have been interpreted as a
+   relatively primitive, chon- of terrestrial and Jovian type planets as
+   well as the recently dritic composition. Marked depletions of sulfur
+   and possible discovered hot-Jupiter-like planets. The model will be
+   com- aluminum and calcium depletions, relative to ordinary chon-
+   prehensive in the sense of including effects such as stellar drites,
+   may represent signatures of limited partial melting or irradiation and
+   viewing angle. The model can be used to plan impact volitilization.
+   These measurements characterize the observational programs, and
+   eventually to analyze direct- surface down to about 100 microns and
+   only characterize a detection data. small fraction of the surface.
+   Further, more complete elemen- tal composition maps will be obtained
+   over the next months 4. SUN-EARTH CONNECTIONS until the end of the
+   mission in February 2001. Elemental mapping of the entire surface
+   should enable documentation Space Weather Modeling-The Community
+   Coordinated of the presence or absence of compositional heterogeneity,
+   Modeling Center (CCMC). The CCMC is a research and which would be an
+   expected result from partial melting. development facility aiming at
+   research in support of the Likewise, compositions derived from
+   gamma-ray results, generation of advanced space weather models. New and
+   im- which sample to depths of 10 cm, should indicate whether proved
+   space research models will be created by combining the near-surface
+   composition is characteristic of the compo- models and modules covering
+   different spatial regions and sition at depth. Results from the NEAR
+   Gamma-ray mea- different physical parameters. Models and modules are
+   being surements will be available near the end of the mission. J.
+   developed largely in the scientific community, but also at the Trombka
+   is the P.I. for the X-ray/Gamma-ray Spectrometer CCMC GSFC facility
+   itself. The ultimate goal of the CCMC system on NEAR. is the generation
+   of one or more comprehensive space weather models, which cover as
+   completely as possible the 3.8 Extra-solar Planets entire range from
+   the solar corona to the Earth's upper atmo- sphere. Models that are
+   developed and successfully applied Extra-solar Planetary Infrared
+   Emissions. D. Deming and to scientific test problems are to be
+   transitioned to the Rapid G. Bjoraker collaborated with G. Wiedemann
+   ESO, Garch- Prototyping Centers of NOAA and the Air Force, for opera-
+   ing to search for a methane signature in the extra-solar tional
+   testing. These models will also be made source code planet orbiting Tau
+   Bootis. They use a spectral deconvolu- available to the scientific
+   community, to support the ``open tion method to search for the
+   signature of methane absorp- model policy,'' and for the CCMC effort to
+   remain nonex- tion near 3.28 m, using observations from CSHELL on the
+   clusive. All initial external computational resources are now NASA
+   IRTF. Cross-correlation of the data with a theoretical on-line. The
+   CCMC has successfully ingested a first, mag- spectrum of planetary
+   methane shows a significant peak in netospheric model, the University
+   of Michigan global MHD 10 ANNUAL REPORT code. CCMC staff has developed
+   a set of comprehensive into a wide region of very weak convection. A
+   narrow con- visualization tools for this model. CCMC staff is in the
+   pro- vection channel is coincident with the highest conductances cess
+   of combining this model with a radiation belt code de- located just
+   poleward of the Harang region. This channel veloped at GSFC. Current
+   status and model results are avail- drives the substorm current wedge
+   component of the west- able via the web page http://ccmc.gsfc.nasa.gov.
+   An initial ward electrojet. The horizontal currents and the
+   field-aligned operating capability has been accomplished. M. Hesse is
+   currents derived from compare favorably with the field- leading this
+   effort in collaboration with L. Rasta¨tter, M. Kuz- aligned currents
+   determined from the magnetometer mea- netsova, P. Reitan, S. Ritter, A.
+   Deane, and K. Keller. surements, thus confirming the technique used.
+   Near-Real-Time Geomagnetic DisturbancePredictions. In Aurora Indices
+   Analysis. R. Hoffman and J. Gjerloev ana- the prediction of the
+   high-latitude electrodynamic iono- lyzed the characteristics during
+   substorms of the auroral in- spheric state, a model of the
+   auroral/polar surface field was dices AU and AL derived from ground
+   magnetometer sta- developed last year. It has been coupled to the KRM
+   proce- tions. In pre-midnight hours during the expansion phase and dure
+   and the Ahn et al. conductance to yield the electric very early
+   recovery phase they found that the station giving potential and
+   ionospheric and field-aligned currents. The the AL index showed an
+   auroral surge. A significant field September 1999 SCOSTEP S-RAMP Space
+   Weather Cam- decrease was observed at post-midnight and morning hours.
+   paign and ISR World Days provided an opportunity to put Plasma
+   Transport and Energization. A group at GSFC several of our magnetic
+   field prediction models on line and and other institutions, led by T.
+   E. Moore, explored the trans- drive them with real-time solar wind from
+   ACE. Three types port and energization of plasmas in the Earth's
+   magneto- of models have been put on line: a Dst index; b AL/AU sphere,
+   using theoretical tools guided by observations. Stud- indices and c
+   high-latitude ground field B( , ). The ampli- ies ranged from the entry
+   of solar wind plasma into the tude of the disturbance e.g. indices are
+   generally well pre- magnetospheric cusp regions, to the transport
+   through the dicted, but the latitudinal localization is still not
+   satisfactory polar caps and lobes into the plasma sheet, to the
+   formation the localization error is 7 degrees . The model database of
+   the ring current and the relativistic radiation belt electrons. has now
+   been enlarged to 3 months of data. Online predic- A comprehensive ring
+   current model was developed by tions can be found by selecting ``Near
+   Real-Time Predic- merger of the Fok model with the Rice Convection
+   Model, tions'' on the NDSPG homepage at http:// substantially improving
+   both models. A provocative hypoth- lepgst.gsfc.nasa.gov. The NDSPG
+   group in Code 692 at esis was put forth suggesting that ionospheric or
+   internal GSFC did this work. plasmas actually are an essential element
+   of ring current for- mation. 4.1 Magnetospheric Physics Geomagnetic
+   Storm/Substorm Relations. The relation be- tween particle injections
+   and storm-time ring current was ISIS Digital Database. Digital ISIS 2
+   topside-sounder also investigated by the Nonlinear Dynamics and Space
+   ionograms are continuing to be produced by a team led by R. Physics
+   Group at GSFC A. Klimas and collaborators using Benson of the LEP. The
+   digital ionograms, produced from ground magnetometer data, solar wind
+   parameters from the original analog telemetry tapes, are being archived
+   at the ISEE3 and IMP-8, geosynchronous data, and in certain inter-
+   National Space Science Data Center at GSFC. Nearly vals in 1991,
+   ring-current particle fluxes from CRRES/ 300,000 digital ISIS-2
+   ionograms from 18 globally distrib- MICS. Duringstrong storms 6/1991,
+   9/1998 the geomag- uted telemetry stations, had been processed by the
+   end of netic effect of the injected particles can be clearly discerned
+   July 2000. They correspond to ionospheric topside soundings even from
+   the ground magnetometers. The magnetic distur- during the 11-year
+   interval from 1973 through 1983. Since bance due to an injection and
+   its drift echoes can reach as most of these data were never processed
+   into the conven- high as 35% of the geomagnetic field power associated
+   with tional 35 mm analog film format, they are analogous to the the
+   ring current. output of a successful new satellite mission covering
+   this earlier solar cycle interval. A search program to assist in the
+   retrieval of the data based on date, time, geographic or mag- 4.2
+   Magnetotail netic parameters, status of instruments, etc. and an
+   analysis NENL Onset Time and Location Determined. For the two program
+   to invert the ionogram traces to electron-density July 9, 1997,
+   substorms Geotail and IMP 8 measurements profiles are available from
+   http://nssdc.gsfc.nasa.gov/space/ and simple plasma sheet flow model
+   have been used to de- isis/isis-status.html. termine that open flux
+   tube reconnection commenced in the Ionospheric Electrodynamics. R.
+   Hoffman with J. Gjer- tail 1.5 to 3 min prior to the appearance of the
+   traditional loev of Denmark continued their study of the electrodynam-
+   onset signatures on the ground and in the ionosphere Slavin ics of
+   substorms as observed in the ionosphere using data et al., 2000 . The
+   location of the near-earth neutral line from the two Dynamics Explorer
+   spacecraft. The height- NENL was X 17 Re . This is the first time that
+   plasma integrated conductivities calculated from precipitating elec-
+   and magnetic field observations were taken simultaneously trons are
+   generally larger than previous models have shown, earthward and
+   tailward of the NENL to localize its onset maximizing in the surge. The
+   technique used attempts to time and location. This result is in
+   excellent agreement with maintain the gradients in the parameters,
+   which are important statistical surveys of high-speed flows in the
+   plasma sheet for field-aligned current calculations. The classical
+   Harang observed by the Geotail spacecraft. It also supports previous
+   discontinuity is found not to exist during substorms except IMP 8
+   traveling compression region analyses indicating that west of the
+   auroral surge, but to broaden toward midnight slow, closed, plasma
+   sheet flux tube reconnection begins up NASA/GSFC LABORATORY FOR
+   EXTRATERRESTRIAL PHYSICS 11 to 5-6 min before expansion phase onset.
+   The convective investigate the excitation of electrostatic lower hybrid
+   waves propagation of the earthward flow bursts to the inner mag- in the
+   magnetic field reversal region of the plasma sheet us- netosphere at X
+   -9 Re and the ejection of the plasmoid past ing a gyro-kinetic
+   approach. They consider a two- X -30 Re appeared to proceed with the
+   expected flow dimensional tail configuration that includes magnetic
+   field speeds of several hundreds of kilometers per second. Earth-
+   components in x and z directions and study the non-local ward of
+   Geotail the substorm onset indicators were simulta- properties of lower
+   hybrid modes near the weak field region. neous to within 1 min
+   indicating that the substorm current We derive a second order
+   differential equation with curva- wedge develops and transfers energy
+   and momentum on the ture drift and gradient B resonance effects
+   included. Cur- much faster timescale of Alfve´n waves traveling between
+   the rently the work is in progress to obtain eigenvalues by em- low
+   latitude magnetosphere and the auroral zone. The exis- ploying
+   analytical and numerical techniques. This analysis tence of these two
+   timescales for the development of the will confirm the viability of an
+   earlier work A. Sundaram, substorm expansion phase is one of the most
+   basic predic- D. Fairfield, D. Vassiliadis, JGR, 103, 4649, 1998 on the
+   tions of the modern NENL model of magnetospheric sub- excitation of
+   electrostatic lower hybrid mode by the mag- storms. This research was
+   conducted by J. Slavin, D. Fair- netic field gradient in the current
+   sheet. field, M. Hesse, R. Lepping and A. Ieda. Modeling of
+   Collisionless Magnetic Reconnection. M. Magnetotail Plasmoids and
+   Auroral Brightenings. Mag- Hesse and M. Kuznetsova investigated kinetic
+   processes of netotail plasma and magnetic field measurements from the
+   relevance to the re-arrangement of magnetotail current sys- Geotail
+   spacecraft have been compared with ultraviolet au- tems during the
+   substorm growth and expansion phases. The roral images from the Polar
+   spacecraft by A. Ieda and D. studies address microphysical processes
+   occurring in the Fairfield. It is found that there is virtually a one
+   to one rela- magnetotail current layer with clear macroscopic conse-
+   tionship between the tailward release of a plasmoid and an quences.
+   They are based on fully self-consistent, electromag- auroral
+   brightening. Sometimes, however, the brightenings netic,
+   particle-in-cell simulations. The first focus of the are small and not
+   full magnetospheric substorms, even analyses is on the pre-onset
+   formation of a thin current sheet. though accompanied by typical
+   plasmoids. The plasmoids The additional current, brought about by the
+   lobe magnetic typically follow brightenings within 2 minutes, however
+   af- field increase associated with solar wind-like driving electric ter
+   considering the likely time delay between the release and fields,
+   appears to be carried by the electrons, in a thin current the
+   observation of the plasmoid, it seems likely that the re- sheet of
+   substantially enhanced current density. Thin current lease precedes the
+   brightening. This early release of the plas- sheet formation leads to a
+   reduction in the normal magnetic moid suggests that tail reconnection
+   is the cause of auroral field, which is shown to be sufficient for
+   magnetic reconnec- brightenings. tion to initiate. This onset is
+   analyzed in detail. Last, an Ideal Ballooning Instabilities in the
+   Plasma Sheet Region. investigation of the kinetic kink instability,
+   which can lead to Possible mechanisms for the excitation of ideal
+   ballooning strong current sheet warping, and potentially to turbulence,
+   is instabilities in the plasma sheet region have been investi-
+   presented. The results here support earlier analytical results gated by
+   A. Sundaram and D. Fairfield. The excitation of indicating that kinetic
+   kinking growth rates are strongly re- ideal ballooning modes in the
+   plasma sheet region is inves- duced if realistic ion-electron mass
+   ratios are considered. tigated using MHD fluid and kinetic
+   descriptions. Two- Particle-in-cell, modified hybrid, Hall-MHD, andMHD
+   dimensional equilibrium configurations for the distant tail simulations
+   are used by M. Hesse, M. Kuznetsova, and L. and the transition regions
+   dipole-like to tail-like are used. Rasta¨tter to investigate
+   collisionless magnetic reconnection With the fluid approach, it is
+   shown that both local and non- in thin current sheets, based on the
+   configuration chosen for local ballooning modes are excited in the
+   distant tail region the ``GEM magnetic reconnection challenge.'' The
+   emphasis and plasma compressibility effects enhance the growth rates.
+   is on the overall evolution, as well as details of the particle In the
+   transition region, where a new equilibrium with pres- dynamics in the
+   diffusion region. Here electron distributions sure anisotropy is
+   developed, preliminary calculations show show clear signatures of
+   nongyrotropy, whereas ion distribu- that the pressure anisotropy and
+   compressional mode cou- tions are simpler in structure. The
+   investigations are ex- pling effects cause the global excitation of new
+   ballooning tended to current sheets of different widths. Here we derive
+   a modes with fast growth rates. scaling law for the evolution
+   dependence on current sheet Our analytical model describing the
+   excitation of balloon- width. Finally, we perform a detailed comparison
+   between a ing modes in the transition region supports recent substorm
+   kinetic and Hall-magnetohydrodynamic model of the same related
+   observations of shear Alfve´n coupled magnetosonic system. The
+   comparison shows that, although electric fields modes. Further
+   numerical work is in progress to determine appear to be quite similar,
+   details of the evolution appear to the growth rates and thresholds for
+   the instability. In the be considerably different, indicative of the
+   role of further gyro-kinetic description, eigenvalue equation is
+   derived, anisotropies in the ion pressures. These models, combined
+   where the effects associated with the curvature drift and the with
+   analytical theory were also used to derive an explicit gradient B
+   resonances are included. This work is still in transport model which
+   represents the essential physics in the progress, aiming to derive
+   solutions both analytically and ion and electron dissipation regions.
+   This model was in- numerically. cluded and extensively tested in an MHD
+   model of magnetic Generation of Electrostatic Lower Hybrid Waves in the
+   reconnection, and recently has been included into a larger Central
+   Plasma Sheet Region. A. Sundaram, A. Figueroa- scale, regional MHD
+   model of magnetotail dynamics. Vin as, and D. Fairfield are working on
+   this project. They Recently, M. Hesse extended studies of magnetic
+   recon- 12 ANNUAL REPORT nection to fully three-dimensional systems,
+   applying a fully come from the pressure term. In the same study, N.
+   Tsyga- electromagnetic particle-in-cell model developed in-house. nenko
+   tried to predict the tail's lobe field even better, using Initial
+   results of these simulations indicate that the basic solar wind
+   parameters not only from the time of observation, structure of the
+   dissipation region appears to be similar to the but also covering the
+   preceding hour. In the inner magneto- one found in translationally
+   invariant models. In addition, tail, the contribution from the
+   pressure-dependent term was lower-hybrid-drift instabilities tend to
+   broaden the current found to increase with growing time lag, suggesting
+   that the sheet in the regions of steep density gradients. average delay
+   between changes in solar wind pressure and Ring Current Formation. An
+   investigation of the effect of the reaction of the lobe field was
+   significant. At larger dis- ionospheric convection electric fields on
+   ring-current forma- tances, the tail field was found to respond with
+   much shorter tion was undertaken by M. Hesse. The study consists of a
+   delays, which implied a greater role of directly driven pro-
+   combination of a conceptual analysis of the magnetotail ef- cesses
+   there. fects of ionospheric convection electric fields, an analytic N.
+   Tsyganenko also developed a quantitative model of the estimate of the
+   effects of plasma transport from the tail re- inner magnetospheric
+   magnetic field, which combined the gion into the inner magnetosphere,
+   followed by self- asymmetric ring current with field-aligned currents,
+   gener- consistent magnetohydrodynamic simulations and simula- ated by
+   an azimuthal variation of the plasma pressure. The tions using a
+   recently improved, self-consistent version of model ring current and
+   associated Birkeland currents were the Rice Convection Model. Supported
+   by the self-consistent based on average radial profiles of particle
+   pressure and an- models, the conceptual analysis predicts that plasma
+   trans- isotropy observed by AMPTE/CCE spacecraft. Their fields port
+   into the inner magnetosphere is impeded by the com- were calculated by
+   the Biot-Savart integral, the results were pressive response of the
+   plasma sheet plasma to the iono- fitted to analytical formulas, and the
+   coefficients of those spheric convection electric field. An inductive
+   electric field formulas were fitted by least squares to the calculated
+   field. resulting from the self-consistent inner plasma sheet re- The
+   goal of this work was to devise a realistic and compu- sponse
+   effectively cancels the applied electric field yielding tationally
+   efficient description of the asymmetric ring cur- very little plasma
+   transport on small volume, high magnetic rent, to be included in an
+   advanced model of the external field flux tubes. Instead, the inductive
+   electric field modifies geomagnetic field. the magnetic configuration
+   by deforming dipolar flux tubes Self-Organized Criticality in the
+   Magnetosphere Plasma to more tail-like shapes, thereby satisfying the
+   transport con- Sheet. The Nonlinear Dynamics and Space Physics Group
+   straints applied at the ionospheric boundary. As a conclusion NDSPG in
+   Code 692 A. Klimas, D. Vassiliadis, V. of these analyses, effective
+   plasma transport into the dipolar Uritsky, J. Valdivia, J. Takalo, and
+   R. J. Parks has focused magnetic field region in the inner
+   magnetosphere and thus, its research on the stability of the
+   magnetospheric current ring current formation, is possible only if the
+   plasma content sheet was examined. Emphasis was placed M. Hesse on evi-
+   of tail-like flux tubes is significantly reduced. The most dence for
+   self-organized criticality SOC . A current sheet likely mechanism
+   effecting this reduction is magnetic recon- model with a magnetic
+   reversal region was examined in con- nection. It is therefore likely
+   that magnetic reconnection and tinuum 1-D resistive MHD and discrete
+   cellular automa- substorms facilitate, but do not directly cause, the
+   formation ton approximations. Power-law spectra and distributions of of
+   the storm-time ring current. system variables were found indicative of
+   SOC in the sys- Multiscale Global Modeling of the Magnetosphere. S.
+   tem. More important, the susceptibility of the modeled cur- Curtis is
+   leading an effort to develop a three dimensional rent sheet was found
+   consistent with the mean field theory of adaptive mesh MHD code which
+   will include for the first SOC and, as the SOC limit was approached,
+   the expected time in any simulation of the terrestrial magnetosphere, a
+   expansion of the current sheet interaction region was veri- tilted,
+   rotating dipole. His collaborators are D. Spicer of fied. Currently a
+   2-D resistive MHD model of a reversal Goddard's Earth and Space
+   Computing Division and staff of region is being developed and tested.
+   GSFC's HPCC team. Investigation of the Magnetotail Field Response. N.
+   4.3 Solar and Heliospheric Physics Tsyganenko investigated the
+   dependence of the magnetotail Halo-Coronal Mass Ejections Near the 23rd
+   Solar Mini- field on the dynamical pressure of the incoming solar wind,
+   mum. A statistical analysis of such events during a 1-year the
+   interplanetary magnetic field, and the level of the Dst- period near
+   the last solar minimum December 1996- field. The study used
+   magnetometer and plasma data from December 1997 was performed by an
+   inter-institutional several years of Geotail, AMPTE/IRM, and ISEE-2,
+   between team, focusing on 14 Halo-Coronal Mass Ejections H- 10 and 60
+   Re . Interplanetary parameters were obtained from CMEs with distinct,
+   non-overlapping signatures at the Sun. the IMP 8 and Wind spacecraft.
+   The goal of the work was to The team included D. Berdichevsky, C.
+   Farrugia U. of New identify, for databased magnetosphere models, the
+   input vari- Hampshire , B. Thompson, R. Lepping, D. Reames, M. Kai-
+   ables that best characterize changes in the cross-tail electric ser, J.
+   Steinberg Los Alamos/New Mexico , and S. Plunkett, current. The highest
+   value of the multiple correlation coeffi- and D. Mitchels both NRL/DC ,
+   and it focused on solar and cient R between the predicted and observed
+   tail lobe field interplanetary aspects. was given by a combination of
+   the solar wind pressure-and The analysis begins with a typical sample,
+   a Sun-Earth IMF-related quantities. In the near magnetotail, a very
+   good event in which the full range of signatures at the Sun and in fit
+   R 0.967 was obtained from a simple four-parameter the interplanetary
+   medium was identified. After discussing in regression relation, and the
+   largest contribution was found to some detail several individual
+   events, a statistical analysis of NASA/GSFC LABORATORY FOR
+   EXTRATERRESTRIAL PHYSICS 13 the whole set is presented. Tracking of the
+   shock driven by tabase. Although systematic effects may be present,
+   clear the ejecta, either by MeV energized particles and/or by kilo-
+   evidence exists of more frequent occurrence of low density metric
+   slowly-drifting radio emissions, was partially or fully plasma around
+   solar activity maxima. available for 65% of the cases, and provided
+   further infor- Periods of low mass flux and low dynamic pressure show
+   mation about the Sun-Earth connection. It is emphasized that a similar
+   behavior, previously noted in annual averages. Low while many of the
+   events share common signatures on the density intervals may be more
+   prevalent in weaker sunspot solar disk, phenomena both at the Sun and
+   at 1 AU vary cycles. Around two-thirds of the periods with densities
+   widely. It is concluded that no single feature at the Sun de- ( 1 cm 3)
+   are associated with transient solar wind struc- termines the magnitude
+   of the energy stored in magnetic field tures, in particular with ejecta
+   and post-shock flows. The and plasma which is later observed at the
+   Earth. At the end a majority of other events are associated with
+   corotating conceptual model which might account for the diverse obser-
+   streams. The May 1999 event was unusual because it was not vations at 1
+   AU is put forward. clearly associated with an ejecta or a stream, but a
+   similar Stokes Mapping at 12 m Wavelength. Full Stokes map- period was
+   observed in July-August 1979. ping of magnetic fields in active regions
+   has recently become The response of the Earth's magnetosphere to the
+   very possible in the mid-infrared. The cryogenic spectrometer Ce-
+   tenuous solar wind on May 11, 1999, was investigated by C. leste on the
+   McMath-Pierce telescope has produced the first Farrugia and co-workers.
+   They studied the Equatorial and 12 m measurement of all four Stokes
+   parameters I, V, U, Polar regions using observations by multiple
+   spacecrafts. and Q in sunspots. The magnesium MgI line at 12.3 m They
+   found the magnetosphere to be quasi-dipolar for ap- wavelength exhibits
+   a large Zeeman splitting that is resolved proximately 16 hours at six
+   Earth radii. at field strengths above a few hundred gauss. In general,
+   The Electron Strahl in the Low Density Solar Wind. A fields measured
+   with this line originate in the upper photo- recent occurrence of an
+   interval May 9-12, 1999 of abnor- sphere at heights above those
+   measured in the visible and mally low density solar wind has drawn
+   attention to such near infrared. The measurements are made by optically
+   se- events. The SWE instrument on WIND observed nine similar lecting
+   each Stokes parameter in sequence using 1/2- and events between
+   November 1994 and August 1999, and the 1/4- wave plates, followed by a
+   chopping linear ``polarizer.'' occurrence distribution in this period
+   suggests a solar cycle The spectra are recorded with Celeste, a high
+   resolution liq- dependence. Three events were studied in detail with
+   SWE uid helium cooled grating spectrometer built by NASA's observations
+   of the electron strahl Ogilvie et al., 2000 . The GSFC. Individual
+   measurements record the MgI spectrum at strahl is the beam of electrons
+   with energy above 100 eV each point along a 2.4 arcminute slit. Data
+   cubes two- which move along the magnetic field away from the Sun. In
+   dimensions spatial, one-dimension spectral are created for their paper
+   on the solar origin of the polar rain, Fairfield and each Stokes
+   parameter by stepping the slit across the portion Scudder 1985 analyzed
+   the evolution of the strahl en route of the Sun being imaged. The
+   unique infrared capability of from its coronal origin out to 1AU. They
+   predicted that the the McMath-Pierce telescope, and its large aperture,
+   makes strahl should be enhanced due to scatter-free magnetic focus-
+   this work possible. D. Jennings, D. Deming, and G. McCabe, sing when
+   the solar wind density is low. SWE observations T. Moran Catholic U. ,
+   R. Boyle Dickinson College , P. of the strahl bear out this prediction.
+   During these low den- Sada Universidad de Monterrey are working on this
+   sity periods, the angular width of the strahl beam, in the project.
+   absence of collisions, became very small and the overall dis- Solar
+   Chromosphere Heating. The solar chromosphere tribution function
+   extremely anisotropic. The strahl tempera- emits 90% of the net
+   radiative loss from the solar atmosphere ture derived from the log
+   slope of the energy spectrum was in quiet and non-flaring active
+   regions. Therefore the prob- consistent with a coronal temperature,
+   indicating the similar- lem of understanding solar atmospheric heating
+   is mainly the ity between the strahl spectra at 1AU and that of the
+   coronal problem of understanding chromospheric heating. M. Good-
+   origin. K. Ogilvie, R. Fitzenreiter, and M. Desch are working man has
+   proposed a mechanism for heating plasma in mag- on this project. netic
+   flux tubes under solar chromospheric conditions. It is Survey of the
+   Electron Strahl, 1995-2000. During 1995, the dissipation of proton
+   Pedersen currents driven by the when co-rotating streams were regularly
+   observed, the solar convection electric field generated by flow of
+   plasma or- wind electron strahl onset was always observed following
+   thogonal to the magnetic field. This flow is driven by slow, the stream
+   interface, which marks the separation of the inter- longitudinal
+   magnetoacoustic waves. It is proposed that this acting flows. The
+   strahl was not seen before a stream inter- heating mechanism switches
+   on at the height in a flux tube at face, meaning that the strahl does
+   not cross the stream inter- which the protons become magnetized, which
+   offers an ex- face. Thus it was shown that the strahl was associated
+   with planation for the observation that chromospheric heating be-
+   co-rotating streams and their sources Ogilvie et al., 1999; gins
+   several hundred kilometers above the photosphere. Fitzenreiter et al.,
+   1998 . This work will be extended to in- Low Density Solar Wind
+   Intervals. I. Richardson, D. Ber- clude all occurrences of the strahl
+   from 1995 through 2000, dichevsky, M. Desch, and C. Farrugia conducted
+   a ``Survey in order to determine the possible association of the strahl
+   of low density solar wind during more than three solar occurrence with
+   magnetic clouds and any possible solar cycles'' to compare the low
+   density ( 1 cm 3) solar wind cycle dependence. K. Ogilvie and R.
+   Fitzenreiter are leading interval of May 1999 to earlier observations.
+   They cata- this effort. logued and compared other instances of low
+   density solar 2-D MHD Solar Corona and Solar Wind Model. As a wind in
+   1965-1999, using data from the NSSDC OMNI da- SOHO Guest Investigator
+   Co-I. M. Guhathakurta is P.I. E. 14 ANNUAL REPORT Sittler has been
+   developing a semi-empirical 2-D MHD manifestation of the MHD shock
+   responsible for the type II model of the solar corona and solar wind
+   which generates burst. 3-D spiral pattern built in maps of the
+   velocity, effective The CME-Solar Wind Coupling. Using an observed
+   rela- temperature and effective heat flux once empirical 2-D maps tion
+   between speeds of CMEs near the Sun and in the solar of the density and
+   magnetic field are determined. The model wind, N. Gopalswamy, A. Lara,
+   R. Lepping, M. Kaiser, D. uses both white light coronagraph data and
+   Ulysses plasma Berdichevsky, and O. St Cyr, determined an ``effective''
+   ac- and magnetic field data. We have published numerous papers
+   celeration acting on the CMEs. They found a linear relation based on
+   this model this past year. The model is best repre- between this
+   effective acceleration and the initial speed of sentative of solar
+   minimum conditions. We are now in the the CMEs. The magnitude of the
+   acceleration is similar to process of generalizing the model for solar
+   maximum condi- that of the slow solar wind. The average solar wind
+   speed tions for which we have incorporated up to 5 current sheets
+   naturally divides CMEs into fast and slow ones. Based on the and helmut
+   streamers. We have also begun to compare our relation between the
+   acceleration and initial speed, they de- effective heat flux profiles
+   with other theoretical models that rived an empirical model to predict
+   the arrival of CMEs at 1 have predicted heat flux profiles. In this
+   area we have begun AU. a collaboration with M. Velli U. of Florence .
+   We are also Wind/WAVES Type II Bursts and Solar Eruptions. N. Go-
+   working on making the model more self-consistent and using palswamy, M.
+   Kaiser, B. Thompson, L. Burlaga, A. Szabo, its effective heat flux in
+   the energy equation of 2-D MHD A. Lara, and A. Vourlidas analyzed a
+   large number of solar models and multi-fluid models L. Offman, Raytheon
+   . So eruptive events that produced radio emission in the far, the
+   results are very promising. dekameter-hectometric DH radio window 1-14
+   MHz , Type III Radio Bursts as CME Indicators. Considerable newly
+   opened by the Wind/WAVES experiment. The distin- progress was made in
+   understanding the solar origin of com- guishing characteristics of
+   coronal mass ejections CMEs plex type III-like radio bursts observed in
+   the Wind/WAVES associated with the DH type II radio bursts are
+   larger-than- high-frequency receivers that are associated with the
+   solar average width and speed. A majority of the DH type II bursts
+   liftoff of CMEs. M. Reiner and M. Kaiser, in collaboration were
+   associated with IP shocks and kilometric type II bursts. with
+   researchers in the Czech Republic and in Germany, Coronal Dimming, CMEs
+   and Type II Radio Bursts. N. demonstrated that these bursts most likely
+   originate from the Gopalswamy, M. Kaiser, R. MacDowall, M. Reiner, B.
+   Th- acceleration of electrons very low in the solar corona, con-
+   ompson, and O. St Cyr revisited the controversial flare- trary to the
+   generally accepted view. In another work, M. CME-shock relationship
+   using the multiwavelength observa- Reiner and M. Kaiser showed that
+   these complex type III- tions of the 1998 April 27 CME associated with
+   coronal dimming, an X-class flare and type II radio burst. They like
+   bursts were well correlated with geoeffective CMEs and found that the
+   coronal dimming observed in X-rays and EUV therefore can be used as a
+   first warning of potential space is indeed a CME signature and that the
+   CME clearly pre- weather events. cedes the accompanying flare. Solar
+   Coronal Shocks. Using the Wind/WAVES radio ob- Near-Sun and Near-Earth
+   Manifestations of Solar Erup- servations, a concerted effort was made
+   to determine the ori- tions. N. Gopalswamy, A. Lara, M. Kaiser and J -L
+   Bougeret gin of coronal shocks that produce metric and decametric
+   compared the near-Sun and near-Earth manifestations of so- type II
+   radio signatures. M. Reiner and M. Kaiser, in collabo- lar eruptions
+   that occurred between November 1994 to June ration with colleagues on
+   LASCO and at the Culgoora radio 1998. They compared white CMEs, metric
+   type II bursts and telescope,

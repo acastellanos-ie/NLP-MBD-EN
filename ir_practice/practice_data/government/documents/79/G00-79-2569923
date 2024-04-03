@@ -1,0 +1,1244 @@
+http://mcmcweb.er.usgs.gov/vector/
+
+   Link to the USGS Home Page
+     __________________________________________________________________
+
+                               VECTOR DATA FAQ
+
+   This document is a compilation of questions that have been submitted to
+   the contract support team of the U.S. Geological Surveys (USGS)
+   National Mapping Division (NMD). We are publishing this information to
+   assist the contractors and others who have an interest in digital line
+   graph (DLG) data. The questions were submitted by various contractors
+   who are performing vector revision in support of the USGS DLG vector
+   program.
+
+   We recommend that anyone using this information also read the
+   following:
+     *  Standards for Digital Line Graphs, Part 3: Attribute Coding
+     *  Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle
+       Maps
+     *  Technical Criteria for Digital Revision and Product Generation
+
+   This document provides information on available production software,
+   specific DLG overlays, and a list of the most common errors found by
+   our data validators.
+
+CONTENTS
+
+   1.   U.S. Geological Survey Software
+           1.1      Microstation Vector Editing System (MVES)
+           1.2      Digital Line Graph Production System (PROSIX)
+   2.   General Questions
+   3.   Most Common Digital Line Graph Questions By Overlay
+           3.1      Boundaries
+           3.2      Hydrography
+           3.3      Miscellaneous Transportation
+           3.4      Roads And Trails
+           3.5      Public Land Survey System
+   4.   Most Common Editing Calls By Overlay
+           4.1      Hydrography
+           4.2      Manmade Features
+           4.3      Miscellaneous Transportation
+           4.4      Railroads
+           4.5      Roads And Trails
+
+1.  U.S. GEOLOGICAL SURVEY SOFTWARE
+
+   1.1      Microstation Vector Editing System (MVES)
+
+   Question: We are using MVES for all of our translating and updating. I
+   translated the file to a DLG-Optional (DO) and then back to a
+   MicroStation design file (DGN). When the file translated back to DGN,
+   all the elements changed to white, and all the areas and nodes came
+   back in as X. When the element is selected to do a review/attribute,
+   the element type is right and the attribute is right. The file seems to
+   be OK as far as attributes are considered, but it is much harder to
+   work in because of the color and element problem. Do you have any ideas
+   on how to fix this or why it happened?
+   Answer: Try reattaching the MicroStation color table and see if that
+   resets your default colors; also, check to see if the cell library is
+   attached. It should be \mves\cell\dlg.cel. If that does not help, then
+   reinstall MVES. The seed files may be corrupted.
+
+  1.2      Digital Line Graph Production System (PROSIX)
+
+   Question: What do we do about duplicate points in a line string when
+   first structuring the digital cartographic file?
+   Answer: Duplicate points are created during collection. PROSIX will
+   delete all duplicate points.
+
+   Question: How do we set edge reason flags?
+   Answer: Use editcop--srf.
+
+   Question: We are having a problem with numerous Attribute Verification
+   Package (AVP) errors in the hydrographic overlay. How do we solve this?
+   Answer: After examining the .p file from the hydrographic file, we
+   determined that a flood was causing several lines to be flagged. If a
+   single area associated with several lines is being identified by AVP,
+   that usually indicates a flood.
+
+   Question: What is the PROSIX overlay name for miscellaneous
+   transportation?
+   Answer: Pipe & Trans Line.
+
+   Question: How do we install PROSIX on Sun Solaris?
+   Answer: You need to download two files from the ftp site at
+   ftp://ftpmcmc.er.usgs.gov/release/prosix2.
+   The files you need are p6.sun.i.393 (the installation file) and
+   p6.sun.r.393 (the release).
+
+   To install PROSIX, create a directory named /usr/opt/prosix. Copy both
+   the release file and the installation file to your home directory, then
+   execute the installation program by entering p6.sun.i.393.
+
+   When the installation program displays the install menu, select option
+   3 for the SUN. The program will invoke the self-extracting release
+   file, which creates directories and copies files contained in the
+   release to the appropriate directories.
+
+   The PROSIX directory must be added to the path variable in each user's
+   profile: Add /usr/prosix to the path variable in the user's cshrc file.
+
+   Question: Features being snapped to the neatline during alignment are a
+   problem. How do we solve this?
+   Answer: Move the features 5 mils away from the neatline during
+   compilation, or add a piece of the feature to the adjoining edge.
+
+   Question: We are receiving the error code ACOP106 ERROR >4751 LINES IN
+   AREA 5328 LINE LIST. What should we do?
+   Answer: PROSIX is telling you that you have exceeded the limit of lines
+   allowed in an area. Area 5328 is the area PROSIX established in the
+   center of the overlay. In this case, the error occurred because of the
+   large number of lines that were collected and the number of unnecessary
+   nodes that were established. The solution is to combine as many lines
+   as possible to reduce the number of lines in polygon 5328.
+
+   A stream was not connected because of a break in the scribed line on
+   the lithograph. It was probably originally compiled that way because of
+   the timber. The stream was connected in Microstation, which created two
+   areas, thus reducing the number of lines associated with Area 5328.
+
+   The MicroStation design file (DGN) was translated to a DLG-Optional
+   (DO). A digital cartographic file (DCF) was created in PROSIX, and the
+   following PROSIX functions were used:
+     * Line/Node association check (LNA) - with the snapping tolerances
+       set to 5, 5, 3, and 30. (Floating nodes were found in the file at
+       this time.)
+     * Remove unnecessary nodes (RUN)
+     * Check intersections and proximities (CIP)
+     * Line/Area association check (LAA)
+
+   The file then processed without further problems. Please note: if there
+   is not a place where a line can be connected to reduce the number of
+   lines in an area, a processing line (50.299) can be added to divide the
+   area.
+
+   Question: PROSIX is flagging all flats and mangroves. What is the
+   problem?
+   Answer: Flats should also carry the code of the larger hydrographic
+   feature in which they occur, with exceptions. See Standards for Digital
+   Line Graphs, Part 3: Attribute Coding , Section 3.2, attribute
+   050.0115. Mangrove is being flagged by AVP because it is using a
+   previous guideline, expecting an apparent limit (50.204) to border the
+   mangrove. Ignore the warning.
+
+   Question: Why is PROSIX flagging rock areas as invalid attribution?
+   Answer: The code 50.410 (rock) is used for an individual rock collected
+   as a degenerate line. A rock reef is collected as a line that connects
+   the high points of the closed, outer part of the reef symbol, with the
+   attribute codes 50.422(reef) and 50.633 (rock) added to the line. See
+   Standards for Digital Line Graphs, Part 3: Attribute Coding, Section
+   3.2, attribute 050.0422.
+
+   Question: Why is PROSIX flagging channels?
+   Answer: PROSIX is flagging the line that contains the polygon of the
+   channel because it is unattributed; this is just a warning. The area
+   needs to have the code of the larger hydrographic feature. See
+   Standards for Digital Line Graphs, Part 3: Attribute Coding, Section
+   3.2, attribute 050.0419.
+
+2.  GENERAL QUESTIONS
+
+   Question: Are we responsible for revising original data that are off
+   copy from the digital orthophoto quadrangle (DOQ)?
+   Answer: The contractors are responsible for revising all data that are
+   more than 73 feet off from the source (DOQ), do not adequately
+   represent the shape, or do not represent the feature's connectivity
+   with other features.
+
+   See Technical Criteria for Digital Revision and Product Generation,
+   Section 1.1.3.3.
+
+   Please note: Check each overlay against the others to verify that
+   features are registered vertically.
+
+   Question: Which source date should we use?
+   Answer: Use the date of the current source (DOQ's or photographs) as
+   the source date in the header for image-based categories. For other
+   categories, see the list below. The confusion may come from instances
+   where a quadrangle has two different source dates. For example, the
+   east flight may be from 1994 and the west flight from 1995. When this
+   happens, the earlier of the two dates should be used.
+
+   There are occasions when the date of the DOQ's and the photographs
+   differ. Use the date of the source that was used for compilation, and
+   notify the point of contact (POC) of the source used.
+
+   Boundary - Use the date provided. This is the date the materials were
+   received by the USGS. If you are unsure of the date, contact your POC.
+
+   PLSS - Use the most current field check date or plane table survey
+   date. These are located in the lower left margin of the map.
+
+   Hypsography - revised - Use the date of the imagery.
+
+   Hypsography - not revised - Use the date of the original photograph or
+   plane table survey.
+
+   Question: In regard to theme or feature priority and the allowance for
+   redigitizing photorevised roads, can we also apply this approach to the
+   hydrographic theme? This question arose when we were working with a
+   quadrangle where many of the ditches and streams were messy and better
+   dealt with by redigitizing. Do we understand correctly that the order
+   of feature priority from highest to lowest is railroads, roads,
+   miscellaneous transportation, hydrograpy, photorevised roads,
+   photorevised hydrography, and then boundaries?
+   Answer: In the DLG world, the only features that are affected by
+   feature priority are transmission lines and pipe lines. Other features,
+   such as roads, railroads, and hydrographic features, will be shown in
+   their true position. There may be a positional problem with the
+   photorevised features shown in purple on the original map and on maps
+   made before 1960. If features are > 73 ft out of position, or if they
+   interfere with the position of a new feature, then the features need to
+   be adjusted.
+
+   It is always the contractors option to decide whether to delete an area
+   and redigitize. According to Technical Criteria for Digital Revision
+   and Product Generation, Section 1.1.3.3, you should collect or
+   reposition new or positionally modified features in the source
+   position, unless there is a conflict with an existing feature. If there
+   is a conflict, displace the feature of lesser priority. We suggest
+   using the following list to determine the feature of lesser priority:
+
+   Hierarchy (Order) of Importance or Priority - (general guidance only!)
+         horizontal monumented control
+         railroads
+         major roads, major canals, major dams, major levees, airports
+         minor roads, minor levees
+         transmission lines, pipelines
+         other cultural features - buildings, tanks, mines, and so on
+         trails
+         hydrography - natural, minor manmade
+         underground features
+         contours - fences - woodland
+         unsurveyed, indefinite, or submerged features
+
+   When a point feature interferes with a linear feature of regular
+   alignment, such as a road, railroad, or canal, the linear feature is
+   held in position and the point feature is moved. If the interfering
+   linear feature has an irregular course like a stream or a trail, the
+   point feature is held fixed, and the linear feature is displaced.
+
+   Two types of linear features are allowed to intersect with point
+   features on the map: those that do not represent physical structures
+   (there are a few exceptions), such as minor boundaries (not national or
+   state) and section lines, and those that are not on the same physical
+   level as the point feature, such as power lines and underground
+   pipelines.
+
+   The displacement should be at a right angle to the linear feature by
+   the shortest distance necessary for legibility, .005 inch, or 10 feet,
+   minimum.
+
+3.  MOST COMMON DIGITAL LINE GRAPH QUESTIONS BY OVERLAY
+
+  3.1      Boundaries
+
+   Question: Do we register the boundaries to the revised features or to
+   the digital raster graphic (DRG)?
+   Answer: Boundaries should be registered to the latest information
+   available. If there are revised transportation, hydrography, and Public
+   Land Survey System (PLSS) layers available, the boundaries should be
+   registered to them. If there is no DLG information available for one or
+   more of these layers (usually PLSS), the only alternative is to
+   register the revised boundaries to the DRG. A combination of DLG and
+   DRG may be necessary in some instances. Remember, always register to
+   the DLG first, and then use the DRG if necessary.
+
+   Question: Is there a hierarchy of attributes in the boundary overlay?
+   Answer: There is no hierarchical order of attributes in the boundary
+   category, but the preferred way is 90.####,91.####,92.####. If you need
+   to add an attribute to an existing area, it is not necessary to place
+   it in numerical order.
+
+   Question: The Nonimage Validation Review Report indicates that the
+   header dates should be changed to 1998. The Cartographic Services
+   Contract Vector Workshop Manual, in the Data Validation section, states
+   that "If there is a range of revision imagery dates, use the oldest
+   date (i.e.: 1993-94, use 1993)." The revision imagery date in this case
+   is 1994. Could you clarify this and give us some feedback?
+   Answer: This rule only applies to the image-based overlays.
+
+   Boundary - Use the date provided. This is the date the materials were
+   received by the USGS. If you are unsure of the date, consult your point
+   of contact.
+
+   PLSS - Use the most current field check date or planetable survey date.
+   These are found in the lower left margin of the map.
+
+   Hypsography - revised - Use the date of the imagery.
+
+   Hypsography - not revised - Use the date of the original photograph or
+   planetable survey.
+
+  3.2      Hydrography
+
+   Question: The existing attribute code for the swamp outlines (50.204,
+   apparent limit) has been called to be deleted. What is the correct
+   attribute for the outline?
+   Answer: The lines that represent the outlines of the swamp polygons are
+   unattributed. See Standards for Digital Line Graphs, Part 3: Attribute
+   Coding, Section 3.2 attribute 050.0111.
+
+   Question: The code for wooded (50.613) is no longer used. When we
+   removed it from the original DLG, areas were created where swamp joined
+   swamp. What should we do?
+   Answer: Make the swamps into one area by deleting the line that
+   separates the two areas and deleting one of the area points.
+
+   Question: Should swamps be broken for class 3 roads?
+   Answer: Yes, swamps should be broken for class 3 roads. See the
+   Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle Maps,
+   Part 2: Hydrography, SWAMP/MARSH, Source Interpretation Guidelines,
+   which states that swamps should be broken for railroads and class 1 and
+   2 roads. However, the next line of the Standard states "Break
+   SWAMP/MARSH for clearings that are >= 0.05" along the shortest axis, or
+   for linear clearings that are >= 0.025" along the shortest axis." This
+   was the subject of discussions about 2 years ago. It was decided then
+   that the linear break for a class 3 road would be at least 0.025", and
+   by definition a class 3 road is improved and passable in all kinds of
+   weather.
+
+   Question: When a stream flows through a swamp, how are the nodes
+   attributed?
+   Answer: If a stream flows through a swamp, do not add the entering and
+   exiting water body codes. The entering and exiting water body codes are
+   used when a stream stops or starts at the edge of, or within the limits
+   of, a swamp. See Standards for Digital Line Graphs, Part 3: Attribute
+   Coding,
+   Section 3.2 attributes 050.0004 and 050.0005.
+
+   Question: If a stream or river has been impounded, when is the
+   shoreline attribute code (50.200) used, rather than the right bank and
+   left bank attribute codes (50.605 and 50.606)?
+   Answer: Please refer to the Standards for Digital Line Graphs, Part 3:
+   Attribute Coding, Section 3.2.1, Feature Classification and
+   Delineation. It gives general guidelines on when to consider a feature
+   as a lake or as a stream.
+
+   An example of this can be found along the Ohio River on the Vanceburg,
+   Garrison, Concord, Buena Vista, and Pond Run, Kentucky, quadrangles.
+   The Ohio should be coded as a river with the right and left bank
+   attributes, because the river has been dammed to maintain water levels
+   for navigation, and the river retains its riverlike appearance.
+
+   The other instance occurs when a dam impounds water that inundates an
+   area to such an extent that the water body no longer maintains the
+   shape of a river. In this case, the area should be coded as a lake, and
+   the shoreline code used.
+
+   The question then becomes where to change the code from a lake back to
+   a stream. Most lakes formed from impounding a double-line stream will
+   have the normal pool elevation printed on the map. The change should be
+   made in the approximate area of this elevation. For example, on a
+   quadrangle with a 20-foot contour interval, if the lake has a normal
+   pool of 724 feet, the area should change from a lake to a stream
+   approximately one-fifth of the way between the 720-feet and 740-feet
+   contours. The code on the bounding vectors would change from shoreline
+   to right bank and left bank at the same point. This can affect numerous
+   quadrangles.
+
+   A good example is on the Sawyer and Cumberland Falls, Kentucky,
+   quadrangles. Damming the Cumberland River formed Lake Cumberland. The
+   area of Lake Cumberland on the Sawyer quadrangle has been inundated and
+   no longer maintains the shape of the river. The numerous fingers of the
+   lake extending up valleys show this. The lake's elevation is given as
+   723 feet. However, the water body becomes much more riverlike on the
+   south one-half of the quadrangle, and is labeled "Cumberland River."
+   Follow the 720-foot contour to determine where the change should be
+   made from lake to river. The contour runs off the south edge of the
+   quadrangle within the inundated area. Therefore, the change should take
+   place on the Cumberland Falls quadrangle. The 720-foot contour is not
+   on Cumberland Falls, so use the 740-foot contour. The change should
+   take place about halfway between the 720-foot contour on the Sawyer
+   quadrangle and the 740-foot contour on the Cumberland Falls quadrangle.
+
+   On quadrangles that have an inundation area symbolized, the change
+   should take place where the line bounding the inundation area crosses
+   the stream.
+
+   Question: Should the shape of a swamp be changed to match the
+   photograph? (If there are no manmade changes, can the shape be made
+   larger to match the photograph; should a swamp be deleted if it's
+   obviously no longer there, even if there are no manmade changes?)
+   Answer: No. The Standards for 1:24,000-Scale Digital Line Graphs and
+   Quadrangle Maps, Part 2: Hydrography, Source Interpretation Guidelines,
+   Revision, reads Do not revise. Retain existing features. So if there
+   are no manmade changes, the swamp outline should match the lithograph.
+
+   Please Note: Some of the swamp areas in Florida may look dryer or
+   wetter because of the date the photograph was taken.
+
+   Question: Since the photography was done during the drought season,
+   should ponds be deleted if it is apparent that there is no water in
+   them (dried up without manmade change)?
+   Answer: If there are no apparent manmade changes that would alter the
+   pond or the shoreline, or if there is nothing to indicate that the
+   drainage feeding the pond has been disrupted, then leave the shape and
+   size of the pond alone.
+
+   Please note: This is applicable on the Florida projects and is
+   specified in the task orders. This does not apply to projects outside
+   Florida unless specified in the task order or by the POC in writing.
+
+   Question: How are islands in a double-line stream attributed?
+   Answer: If the islands are large enough to be collected, the vector is
+   coded 50.200, shoreline. See the Standards for Digital Line Graphs,
+   Part 3: Attribute Coding, Section 3.2.1, Feature Classification, for
+   attribution, and refer to Coding Principles for size requirements.
+
+   Question: Should new ponds be collected in existing swamps?
+   Answer: If a definite shoreline or signs of dredging can be seen, then
+   a new pond can be shown in the middle of the swamp. If the new pond has
+   completely replaced the swamp, then delete the swamp and show the new
+   pond. Check the task order for special conditions, such as low or high
+   water.
+
+   Question: There have been calls to delete ponds that are too small, and
+   on the same quadrangle there are now calls to add ponds that are
+   smaller than the minimum specification. Why?
+   Answer: Ponds that were on the existing map should be collected no
+   matter what size they are, as long as they still exist. New ponds must
+   meet the minimum size criteria. The size criteria changed recently. The
+   standard used to be 100 feet in the shortest dimension. This is the
+   standard for Florida and the DLG-3 Core projects. The standard now
+   reads 50 feet in the shortest dimension and 10,000 square feet in area.
+   This is the standard for all of the non-Core digital limited update
+   (DLU) outside Florida.
+
+   Question: Do we collect all ditches, or do we show a representative
+   pattern?
+   Answer: Show a representative pattern. There are many swamp and
+   agricultural areas where ditch density is very high. In these areas,
+   the main ditches should be shown.
+
+   In the past, the criteria for showing canals/ditches on maps was that
+   main canals and ditches and their main laterals are always mapped.
+   Sublaterals are mapped except where space is limited by map detail.
+   Tributaries are omitted. The final decision for the feature templates
+   was that new canals/ditches will be added during revision if they are
+   named or if they are > 10 feet along the shortest axis. New
+   canals/ditches should be added during revision according to the current
+   capture conditions rather than the older criteria. We acknowledge that
+   the quality of imagery can vary, and it can be difficult to accurately
+   measure the width of narrow linear features. Also, most of the
+   canals/ditches that were left off of the original source maps were
+   probably not wider than 10 feet. For these reasons, we recommend that
+   during revision our contractors be very selective and add only those
+   canals/ditches that are obviously well over 10 feet wide. If there is a
+   tight pattern of sublateral ditches, then a representative pattern is
+   acceptable.
+
+   Question: Should ditches paralleling roads be collected?
+   Answer: Canals/ditches paralleling roads are not usually collected, but
+   if it is necessary for the continuity of a drainage pattern or if the
+   canals/ditches are major ones, then collect them.
+
+   All existing named canals/ditches should be compiled.
+
+   In the western United States, there are many instances of important
+   canals/ditches paralleling roads and other linear features.
+   Canals/ditches in those areas should be collected if they meet capture
+   conditions and adhere to the comments in the previous question.
+
+   Question: Do we use the underpassing code (50.617) on streams and
+   ditches where they go under roads?
+   Answer: No. See the Standards for Digital Line Graphs, Part 3:
+   Attribute Coding, Section 3.2, attribute 050.0617. The underpassing
+   code is used only when a linear hydrographic feature passes under any
+   other linear hydrographic feature.
+
+   Question: Is the intermittent code used on ditches?
+   Answer. No, the intermittent code is not used on ditches. See the
+   Standards for Digital Line Graphs, Part 3: Attribute Coding, Section
+   3.2, attribute 050.0610.
+
+   Question: How do you globally remove interpolated elevations without
+   removing regular elevations on water bodies?
+   Answer: Build a job in editcop that includes the following:
+   RAC
+   2-L
+   50.619,51.****/50.619
+   -AC
+   2-L
+   50.619
+
+   Question: What do we do if we cannot determine direction of flow?
+   Answer: If in doubt, do not code flow; use contours to help determine
+   flow. Do not forget to use the contours of adjoining maps when
+   appropriate. If the flow is coded on part of a drainage basin, it
+   should be coded on all of it. Streams ending at a sink may be an
+   exception to this. The sink attribute 50.3 is only used when a sink
+   symbol is shown on the graphic.
+
+   See Standards for Digital Line Graphs, Part 3: Attribute Coding,
+   Section 3.2.1, Flow Direction.
+
+   Question: We have two quadrangles where the streams do not join. An
+   intermittent stream is shown on one quadrangle, but the downstream part
+   of the same stream is not shown on the adjacent quadrangle. We
+   understand that we are not supposed to add new streams. How should we
+   handle this situation?
+   Answer: New streams should not be added during limited update; however,
+   there are a few logical exceptions. This is one of them. Add the
+   downstream part where you see the cut of the drain. If the drain is in
+   timber, use the contours on the DRG to help with placement. Note on the
+   road guide why you have added the stream. Place the note on the
+   lithograph supplied when there is not a road guide.
+
+   See Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle
+   Maps, Part 2: Hydrography, STREAM/RIVER, Revision-Limited.
+
+   Question: We have a perennial drain and an intermittent drain that join
+   at a quadrangle edge. What should we do?
+   Answer: Make a judgement as to which is correct. If the intermittent
+   drain flows into the perennial drain, find a logical place for it to
+   change. Change a small segment of the drain on one quadrangle or the
+   other, breaking it at a point where another drain or a spring flows in.
+   If there is not another drain or a spring close to the edge, try using
+   the contours on the DRG and break where another drain is indicated by
+   the topography. If the perennial drain flows into the intermittent
+   drain, try to determine from the upstream and downstream parts what the
+   classification should be. If one classification is bounded on both ends
+   by the other, change that segment and note on the lithograph what you
+   have done and why. If you are in doubt about which segment to change,
+   call your POC.
+
+   Please note: The definition of intermittent versus perennial was
+   changed sometime in the 1960's. Occasionally one may encounter cases
+   where the perennial stream is from a pre-1960's map and the
+   intermittent stream (which is more likely to be correct) is from a
+   post-1960's map. Checking the map dates may help in the decision
+   process.
+
+   Question: Does a channel receive a "right or left bank" code (for
+   example, an intercoastal waterway)?
+   Answer: Channels do not receive direction of flow. The symbolized part
+   of the outline of the area is unattributed. A closure line (50.202) is
+   digitized to close off any unsymbolized part of the outline. See the
+   Standards for Digital Line Graphs, Part 3: Attribute Coding, Section
+   3.2, attribute 050.0419.
+
+   Question: When a channel (areal or linear) flows through an areal
+   hydrographic feature, should we include that features attribute code
+   with the channel attribution? I'm asking these questions because the
+   standards seem to state everything about channels in reference to
+   creating a graphic product rather than a DLG. I want to verify that we
+   are applying the proper interpretation.
+   Answer: When a channel flows through an areal hydrographic feature on
+   topographic edition maps, and the channel area is shown with blue tint,
+   the area will also be assigned the code of the larger hydrographic
+   feature in which it occurs.
+
+   See the Standards for Digital Line Graphs, Part 3: Attribute Coding,
+   Section 3.2, attribute 050.0419.
+
+   Please note: Most standards were written with a graphic product in
+   mind. Also, most existing DLGs were made directly from graphic maps,
+   not by a direct compilation process.
+
+   Question: We have a situation where the swamp on one quadrangle does
+   not join the swamp on another quadrangle. We have been instructed not
+   to alter swamp outlines unless there is evidence of manmade change. How
+   do we make the quadrangles join?
+   Answer: This is an exception to the rule. Use the photographs to
+   determine the outline of the swamp. Close off the polygon on the edge
+   containing the swamp, or add a small piece of swamp polygon on the
+   edge. Each case will depend on the photointerpretation. Note the change
+   on the lithograph so that we will know the reason for the addition.
+
+   Question: The northwest section of a Florida quadrangle contains many
+   areas that look similar to areas bounded as swamp regions. Should I
+   capture these areas? There are a few lakes included in this region,
+   which looks drier than the swamps. I am inclined not to do any
+   capturing or altering of line work in this area, but the photographs
+   are marked by many of these uncaptured swamp areas, and it seems that
+   capturing these swamps would make the data more consistent.
+   Answer: No, don't add any new swamps. Varying water levels could be
+   making normally dry areas look swampy or normally swampy areas look
+   dry. The photographs of Florida have unusual water conditions, as noted
+   in the task orders.
+
+   Question: There are many new strip mine areas; should we add the water
+   in these areas or leave them alone?
+   Answer: If the water bodies meet capture conditions, then collect them.
+
+   Question: Can reservoirs be intermittent?
+   Answer: The hydrographic category intermittent (or the default
+   perennial) is not specified for filtration ponds, sewage treatment
+   ponds, aquaculture ponds, settling ponds, minimum size water storage
+   reservoirs (0-D), nonearthen water storage reservoirs, swimming pools,
+   decorative ponds, and unspecified ponds. However, on new graphics with
+   Part 5 symbology, they will be shown with the same screen that is used
+   for perennial fill. The Standards for 1:24,000-Scale Digital Line
+   Graphs and Quadrangle Maps, Part 2: Hydrography, RESERVOIR,
+   ATTRIBUTE/ATTRIBUTE VALUE LIST indicates that earthen, uncovered water
+   storage reservoirs are classified as perennial or intermittent.
+
+  3.3      Miscellaneous Transportation
+
+   Question: When should we delete or not collect pipe lines and
+   transmission lines because of other features?
+   Answer: See Standards for 1:24,000-Scale Digital Line Graphs and
+   Quadrangle Maps, Part 6: Built-up, TRANSMISSION LINE, Capture
+   Conditions. If the transmission line is above ground, is a major
+   cross-country metal, concrete, or double-wood-pole transmission line,
+   is a landmark, and is not within 500 feet of and parallel to another
+   linear feature, it should be compiled. If these features already exist,
+   they should be left. New pipelines or transmission lines within 500
+   feet of and parallel to a linear feature, such as a road or railroad,
+   should not be collected.
+
+  3.4      Roads And Trails
+
+   Question: What is the difference between a 170.209, a 170.217, and a
+   170.218?
+   Answer: Undivided class 3 roads are attributed 170.209. Class 3 roads
+   that are divided by a median of less than 20 feet are attributed as
+   170.217. Those that are divided by medians of more than 20 feet and
+   have an overall road width greater than 100 feet are attributed as
+   170.218. No lengths or widths are used in the description of 170.218.
+   According to ROAD feature templates, if the median is >= 20 feet and
+   the road is >= 100 feet, it is captured as two separate roads.
+
+   See Standards for Digital Line Graphs, Part 3: Attribute Coding,
+   Section 3.7, attributes 170.0209, 170.0217, and 170.0218.
+
+   Question: What is the difference between separated and divided roads?
+   Answer: Divided means that there is a median (or divider) in the road.
+   Separated means that the median (or divider) is equal to or greater
+   that than 20 feet, and the overall width of the road is equal to or
+   greater than 100 feet. Class 1 and 2 divided roads with medians
+   narrower than 20 feet are symbolized as one lane with a centerline
+   median. Class 3 roads with medians narrower than 20 feet are shown on
+   maps with Part 5 symbology as one lane without a centerline median.
+   Class 1, 2, and 3 roads with medians equal to or greater than 20 feet
+   and with an overall road width equal to or greater than 100 feet are
+   symbolized with two different lanes.
+
+   If there are class 1, 2, or 3 roads with medians greater than or equal
+   to 20 feet, and the overall width of the road is greater than or equal
+   to 100 feet, collect the roads using the divided, lanes separated codes
+   (170.203, 170.207, and 170.218). If symbolized on the map, they would
+   appear as two separate lanes. Digitize the center of each lane.
+
+   If there are class 1, 2, or 3 roads with medians less than 20 feet, and
+   if the overall width of the road is greater than or equal to 100 feet,
+   or if there are medians of any size and the overall width of the road
+   is less than 100 feet, then collect the roads using the divided by
+   centerline codes (170.202, 170.206, and 170.217). If shown on a map
+   using Part 5 symbology, the class 1 and class 2 roads would appear to
+   be one lane with a centerline median, and the class 3 roads would
+   appear as one lane without a median (on Part 6 maps, the class 3 road
+   would be shown with a three-line symbol). Digitize the road as a single
+   vector coincident with the median.
+
+   Question: Should we capture the service road under transmission lines?
+   And would we code this as Class 4?
+   Answer: If the road is only a service road for the transmission lines,
+   then don't show the road. In some cases, the road is map worthy, such
+   as when it is a connector with other roads, gives access to a complex,
+   or is the only access to remote areas. In such cases the road would be
+   shown and the transmission line omitted.
+
+   See Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle
+   Maps, Part 6: Built-up, TRANSMISSION LINE. If a transmission line
+   symbol parallels a linear feature, such as a Railway or a Road that
+   meets capture conditions, and if the separation is less than 500 feet,
+   then do not collect that section of the transmission line.
+
+   Question: How are roads that are under construction in new housing
+   areas handled? What if some of these roads are shown as class 4 on the
+   original map?
+   Answer: If it is obvious that the area has been developed or that
+   development is in progress and it is clear where the new roads will be,
+   collect them as class 3. Class 4 roads should be upgraded to class 3 if
+   they are part of the street pattern of a subdivision.
+
+   Question: Some new roads are in areas shown as swamp and even ponds on
+   the original map. How should this be handled?
+   Answer: Features need to be vertically registered. In other words, they
+   have to register to each other and make sense. Ponds and swamps have to
+   be pulled back from new subdivisions, roads and railroads, and new
+   agricultural areas.
+
+   Question: We've encountered arcs coded 170.602 (overpassing on bridge)
+   in the original data. On the lithograph, there are no graphic
+   indications of wing ticks as the standards require for capture. Should
+   I leave the ones I've encountered and refrain from adding this code?
+   Would you go over the capture condition for overpassing on bridge code
+   170.602 and the node code 170.001? When there are new roads in this
+   area overpassing canals on bridges, should we code these as 170.602?
+   Answer: To show a bridge, it has to be > 240 feet along the longest
+   axis and carry a transportation feature. The bridge abutment code
+   (170.1) will be placed on each end of the part coded overpassing on
+   bridge (170.602). (The limit of BRIDGE is the extent of the span as
+   defined by the edges of the deck and the end abutments.) This applies
+   to both new features and existing DLG features. If the existing DLG has
+   170.602 on a feature that does not meet capture conditions, the code
+   should be removed.
+
+   See the Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle
+   Maps, Part 3: Transportation, BRIDGE, Capture conditions and the
+   Standards for Digital Line Graphs, Part 3: Attribute Coding, Section
+   3.7, attributes 170.0001 and 170.0602.
+
+   Question: Do overpassing, underpassing, and interchange ramps have the
+   route number assigned to them?
+   Answer: The overpassing and underpassing codes are descriptive codes
+   that are applied in addition to feature codes. The route numbers (in
+   Missouri and Wisconsin they can also be letters) are applied to the
+   features, not to the descriptor codes. Sections of roads that are
+   overpassing or underpassing must carry the descriptive code for the
+   route number or letter. Route numbers are assigned to ramps in
+   interchanges whenever the ramp forms the only connection between two
+   segments of the same numbered or lettered route. If there are two or
+   more numbered or lettered routes and the ramp forms the only
+   connection, all of the appropriate route numbers or letters are
+   assigned to the ramp. This procedure for assigning route numbers has
+   nothing to do with the class of the road.
+
+   Question: Should we revise previously attributed road classes (other
+   than what is designated on the road class lithograph) or only classify
+   the roads we add during our update? Obviously, this concerns only the
+   class 3 and 4 roads, because the class 1 and 2 roads are annotated on
+   the provided lithograph.
+   Answer: Yes, you can upgrade class 4 roads if they meet the condition
+   of a class 3 road. Class 3 roads are hard-surface roads not included in
+   class 1 or 2. They are regularly maintained, loose-surfaced or paved,
+   and passable in all kinds of weather. Also included are important
+   private roads, such as main industrial roads, that serve as connecting
+   links to the regular road network. Within urban tint areas, roads are
+   coded as class 3 roads if they are not included in class 1 or 2. Roads
+   providing access to subdivisions generally should be class 3. Class 4
+   roads are unimproved roads that generally are passable only in fair or
+   dry weather and are used mostly for local traffic. Also included are
+   driveways, regardless of construction. Class 4 roads must have a
+   destination.
+
+   The classification of roads shown in black was obtained by field
+   inspection, and this classification generally should not be downgraded.
+   However, roads may be downgraded for several reasons. Change is allowed
+   when interpretation of the source clearly shows that the road varies
+   from its previous attribution. There are two common cases where roads
+   should be downgraded. The most important is when the classification is
+   changed on the red-road guide. This involves downgrading what
+   originally were class 1 and class 2 roads. The second case is when
+   roads were added in purple during photorevision. Many driveways were
+   added with solid road casings and then digitized as class 3; these
+   should be downgraded to class 4.
+
+   Question: Many photorevised driveways are symbolized with solid road
+   casings. Should these be class 3?
+   Answer: No, these should be attributed as class 4. (See the previous
+   answer.)
+
+   Question: Is it OK to upgrade a trail to another class?
+   Answer: Trails are not revised during a limited update, but higher
+   class roads can replace them. New roads can be added where trails were
+   located if it is obvious that they are, in fact, roads.
+
+   Question: When are attributes other than 170.201 and 170.205 used for
+   class 1 and class 2 roads?
+   Answer: Attribute codes that define road width, and whether or not a
+   road is divided, need to be collected according to the Standards for
+   1:24,000-Scale Digital Line Graphs and Quadrangle Maps, Part 3:
+   Transportation, ROAD, Attribute Information and the Standards for
+   Digital Line Graphs, Part 3: Attribute Coding, Section 3.7, attribute
+   170.065, Road Width. Other attributes, such as route number, bypassing,
+   and alternate, should be collected when shown on the road guide.
+
+   Question: What does it mean when some red-road guides have highways
+   with a penciled X through the road shield.
+   Answer: The highway designation should not be collected if the road
+   shield has been crossed off.
+
+   Question: Should we collect trails on golf courses?
+   Answer: No. Don't capture trails on golf courses. However, collect
+   footbridges on golf courses if they are shown on the published map. New
+   footbridges are added if they are greater than or equal to 50 feet
+   long, even though the trails going to them are not collected.
+
+   Question: When is the ramp code used?
+   Answer: The code for ramp in interchange (170.402) is used only when
+   the roads are grade separated. All other interchanges should carry the
+   class of the higher road.
+
+   See Standards for Digital Line Graphs, Part 3: Attribute Coding,
+   Section 3.7, attribute 170.0402.
+
+   Question: Should a turn-around in a median be collected?
+   Answer: Turn-arounds, or crossovers, should be collected only when they
+   allow access to either lane of traffic (as from a side street or a
+   driveway that is not long enough to show). This DOES NOT apply to the
+   crossovers on interstates, and so on, that are used only for police,
+   emergency, or maintenance vehicles. These are not collected.
+
+   Where an intersecting road is involved, the crossover, or turn-around,
+   carries the class of the road that it is crossing over. If the
+   intersecting road is one class on one side of the divided road and a
+   different class on the other, the crossover carries the higher class.
+
+   Code turn-around roads to be consistent with any similar type road
+   already portrayed on the graphic. When adding new turn-around roads not
+   on the graphic, use the photographs to help determine the proper road
+   classification. In most cases, these roads will be classified as class
+   3 (170.209).
+
+   Question: When there are traffic islands inside cul-de-sacs, how is the
+   feature captured?
+   Answer: In the past, the USGS would not scribe islands at the end of
+   roads that were less than 40 feet wide. This criteria was used for many
+   years and was discussed when the feature templates were written. The
+   final decision was that dead-end roads with islands of any size would
+   be captured as roads rather than cul-de-sacs. See Standards for
+   1:24,000-Scale Digital Line Graphs and Quadrangle Maps, Part 3:
+   Transportation, CUL-DE-SAC, which states If CUL-DE-SAC is on a class 3
+   road, and it does not contain an island, then capture.
+
+   Question: At times we have been instructed to change old railroad
+   grades to trails, but the specifications instruct us not to revise and
+   to retain existing features. Which is correct?
+   Answer: If the feature is labeled Old Railroad Grade on the existing
+   map, it should be collected on the road file and attributed as a trail
+   (170.211) and an old railroad grade (170.605). See the Standards for
+   1:24,000-Scale Digital Line Graphs and Quadrangle Maps, Part 3:
+   Transportation, RAILWAY.
+
+   Please note: We have recently been informed that we should be using the
+   170.605 attribute. For the last several years, we have not been using
+   it and had informed the contractors not to use it. It should not be
+   used on projects begun before January 1, 2000, but it should be used on
+   all new projects begun after that date.
+
+  3.5      Public Land Survey System
+
+   Question: Should we place a vertex on the quarter corner without a
+   quarter corner marked on the lithograph?
+   Answer: Changes in the azimuth along a survey line that are not
+   represented by a recovered corner or point are collected as inflection
+   points on the line. All other vertices are superfluous and should not
+   be retained.
+
+   Question: If we place a vertex on the quarter corner, do we also place
+   a Found Quarter Corner node, even if there is not a Found Quarter
+   Corner on the lithograph?
+   Answer: No. Node attribute codes are collected only when a monumented
+   survey corner or point has been recovered in the field and is
+   identified on the lithograph. All other nodes are unattributed.
+
+   Question: This question is in reference to Public Land Survey System
+   (PLSS) coverages. There were no calls on the 100-percent review call
+   sheets to collect the "location doubtful" section lines (thin red
+   dashed lines on the lithograph). However, there is an approximate
+   position attribute in the Core data dictionary. Should we collect these
+   lines as approximate, or should they not to be shown? We hope the
+   latter, as there are billions and billions of them!
+   Answer: There are only two features symbolized with dashed red lines:
+   fences and location doubtful section lines. Fence lines have a line
+   weight of 0.003", dash length of 0.1" and dash space of 0.02". The
+   section lines will follow the PLSS network (generally 1-mile squares)
+   and define the section area feature. Fence lines do not have a pattern,
+   do not define area features, and will be on the interior of sections.
+   Fence lines on section lines are not shown on the map.
+
+4.   MOST COMMON EDITING CALLS BY OVERLAY
+
+   The following is a list of the most common errors that our validators
+   are finding on vector data from all contractors.
+
+  4.1      Hydrography
+
+   Flow - If flow can be determined, it should be shown. If it cannot
+   readily be determined, it should not be shown. Contours are an obvious
+   indication of flow. Adjoining quadrangles can be checked for flow. If
+   flow is shown on part of the drain, it should be shown on the whole
+   drain. Streams ending at a sink may be an exception to this. The sink
+   attribute 50.3 is used only when a sink symbol is shown on the graphic.
+
+   Underpassing - The underpassing code (50.617) is not used on streams or
+   ditches flowing under roads. It is used only in the rare instances
+   where a flume, a siphon, or an aqueduct is present. Check where streams
+   and canals/ditches cross. If the crossing exists on the old map, retain
+   it as shown on the graphic. If it is new, one of three depictions is
+   needed:
+     * one simply underpasses the other,
+     * one (usually the canal/ditch) passes over the other in a flume, or
+       passes under or over the other in a siphon, or
+     * the stream flows completely into the canal/ditch and is broken (no
+       line is collected) for at least 60 feet downstream.
+
+   Do not add new streams - New streams are not added during a limited
+   update. Small segments are allowable when needed for edge joins. The
+   streams should be complete as shown on the map unless there has been
+   significant manmade change. Do not change existing natural streams
+   unless there are obvious changes in the stream channel. Do not delete a
+   stream unless it is clearly gone. See Standards for 1:24,000-Scale
+   Digital Line Graphs and Quadrangle Maps, Part 2: Hydrography,
+   STREAM/RIVER, Source Interpretation Guidelines, Revision - Limited.
+   Natural stream patterns rarely change, except when the area has been
+   developed. Occasionally a stream is plowed under, but this is uncommon.
+   For the most part, water will still flow down the path of the natural
+   stream. Do not delete unless it definitely looks like it has been
+   removed.
+
+   Single- and double-line streams - Streams are only double line if > 50
+   feet in the shortest dimension. Streams more than 50 feet in the
+   shortest dimension may be single line, on the basis of the special
+   conditions listed in the Standards for 1:24,000-Scale Digital Line
+   Graphs and Quadrangle Maps, Part 2: Hydrography.
+
+   Ditches - Ditches should be collected only if they are more than 10
+   feet wide. Areas of very dense ditches should be generalized to show a
+   representative pattern. Ditches must be 50 feet wide before they are
+   shown as double line and given an area code. Streams that have been
+   channelized to control flooding or erosion should not be attributed as
+   ditches. They should remain as streams. See Standards for
+   1:24,000-Scale Digital Line Graphs and Quadrangle Maps, Part 2:
+   Hydrography, CANAL/DITCH, Source Interpretation Guidelines.
+
+   Interpolated water elevations - Interpolated elevations need to be
+   removed from lakes. These include the interpolated code (50.619) and
+   the water surface elevation code (51.nnn or 52.nnn).
+
+   Missing point features - Don't forget to collect point features, such
+   as springs, mile markers in rivers, gaging stations, wells, and
+   windmills.
+
+   Swamp inside swamp - The code for wooded (50.613) is no longer used.
+   When it is removed, it often creates polygons of swamp within polygons
+   of swamp. The line that separates the two polygons, and one of the area
+   points, should be deleted.
+
+   Swamp and Mangrove - Swamps and Mangrove should not be revised unless
+   there is obvious manmade change. The two codes are not interchangeable.
+
+   Vertical registration - Many times the overlays are not registered to
+   one another. Swamp should be pulled back from class 3 and higher roads
+   and railroads. Roads and railroads do not run through lakes.
+
+   Reservoirs - Small rectangular farm ponds should not be classified as
+   reservoirs.
+
+   Geometrically shaped water bodies - If a new water body is geometric in
+   shape and is not in a stream course (whether mapped as a stream or
+   not), it may be a reservoir. See the Standards for 1:24,000-Scale
+   Digital Line Graphs and Quadrangle Maps, Part 2: Hydrography,
+   RESERVOIR, Source Interpretation Guidelines.
+
+   Small ponds - Ponds that exist on the map should be shown, regardless
+   of size, if they still exist.
+   New ponds in Florida should be shown only if they are > 100 feet in the
+   shortest dimension.
+   Florida tasks were negotiated using an old standard. New ponds in other
+   areas should be > 50 feet in the shortest dimension and > 10,000 square
+   feet in area. (Change to Standards for 1:24,000-Scale Digital Line
+   Graphs and Quadrangle Maps, Part 2: Hydrography, LAKE/POND (2/23/99)
+
+   Follow these general rules for the retention of small ponds:
+     * If a perennial pond existed before, and there is still water in it,
+       retain it and adjust the shoreline as appropriate to the level that
+       prevails for the greater part of the year.
+     * If a perennial pond existed before, and now there is no water in
+       it, change it to intermittent.
+     * If an intermittent pond existed before, the dam appears to be
+       intact, and (or) the pond has not been replaced by other features
+       (agricultural fields, residential housing, and so on), retain it as
+       intermittent, regardless of whether there is water in it or not.
+     * If an intermittent pond existed before and the dam clearly appears
+       to be breached, delete the pond and continue the stream through, if
+       there is one.
+     * If an intermittent or perennial pond existed before but has been
+       replaced by other features (agricultural fields, residential
+       housing, and so on) and is clearly gone, delete the pond.
+
+   Discussion Point: In arid or semiarid areas, intermittent ponds may be
+   dry for years. Grass and shrubby vegetation may appear. This is OK. As
+   long as the dam (usually an earthen dam or a levee-like structure) is
+   intact and does not appear to have been breached, leave the pond as is.
+   It is still a valid intermittent pond in this region. Perennial lakes
+   may shrink considerably, particularly during periods of drought or late
+   in the summer. This is common, and usually is ignored. Retain the pond
+   and adjust the shoreline as appropriate to the level that prevails for
+   the greater part of the year. If a perennial pond has dried up
+   completely, it may be changed to intermittent, but it is not deleted.
+   Do not delete small ponds. They can be hard to see, particularly in
+   monoscopic revision. If the topography has not changed, they are most
+   likely still there. Of course, if there has been development or real
+   topographic changes, or if the original compilation no longer fits the
+   current image, then revision may be necessary.
+
+   Islands - Islands less than 60 feet in the shortest dimension should
+   not be collected. The vector that delineates an island is coded as
+   50.200, shoreline.
+
+  4.2      Manmade Features
+
+   Do not capture buildings that are not intended for human activity and
+   are smaller than the average local dwelling (farm house or ranch
+   house.) These would include storage sheds, detached garages, chicken
+   coops, and so on. See Standards for 1:24,000-Scale Digital Line Graphs
+   and Quadrangle Maps, Part 6: Built-up, BUILDING, Capture Conditions.
+
+   Retain two-dimensional buildings from the previously published map if
+   the same buildings still exists. Do not re-collect as one-dimensional
+   buildings even if they are less than 100 feet in the longest axis. The
+   minimum size for two-dimensional buildings has changed with time, and
+   it is not economical to convert existing buildings.
+
+   Check for built-up area outlines that do not, but should, follow linear
+   features, such as roads ditches, railroads, and so on. Use a
+   1:24,000-scale plot as a guide to what is noticeable.
+
+   Retain oil and gas wells, even if they are not photoidentifiable, and
+   even if their associated roads, tanks, and other structures are
+   deleted. These are even retained in new or expanded built-up areas.
+
+   Do not retain intricate or disturbed surface areas. When one is
+   encountered during a limited update, it will be reclassified as the
+   feature it truly represents (that is, mine, disposal site, and so on.).
+   If the true feature cannot be determined, delete it.
+
+   Pits and Mines - Collect pit or mine outlines to the edge of the area
+   of disturbance, including storage areas, buildings, roads, and so on.
+   Clear pits or mine areas from ponds inside the pit or mine. Be careful
+   to avoid collecting disturbed ground as pits and mines in developing
+   areas, such as residential neighborhoods. Intricate surface areas from
+   previous mapping must be reclassified (sometimes as pits or mines, as
+   appropriate) or deleted.
+
+   Mobile home parks Previously existing or new mobile homes may be
+   collected as built-up area. See the Standards for 1:24,000-Scale
+   Digital Line Graphs and Quadrangle Maps, Part 6: Built-up, MOBILE HOME
+   PARK.
+
+  4.3      Miscellaneous Transportation
+
+   Attributed lines around airports and substations - These lines should
+   be unattributed. The area carries the attribute.
+
+   Deletion of transmission lines and pipelines - Transmission lines
+   running parallel to and within 500 feet of another linear feature for
+   more than 100 feet are not collected. Do not collect maintenance roads
+   under transmission lines. Roads that are intended to serve only the
+   power line are not as important as the power line. We have seen many
+   instances where the road has been collected and the power line deleted.
+
+   Transmission lines and substations - Run transmission lines up to, but
+   not through, substations.
+
+   Transmission Lines - Do not capture transmission lines that have single
+   wooden poles and (or) are not major cross-country lines unless they
+   have landmark significance. Do not capture transmission lines that are
+   less than 500 feet from a parallel road, railroad, or other linear
+   feature. Transmission lines in DLG-3 data are not comprehensive
+   networks. They are captured for orientation purposes only, so fragments
+   are allowed. See Standards for 1:24,000-Scale Digital Line Graphs and
+   Quadrangle Maps, Part 6: Built-up, TRANSMISSION LINE, Capture
+   Conditions. In the past, the distance from a transmission line to a
+   parallel feature was much smaller (100 feet), so there are some
+   transmission lines on the old maps that are less than 500 feet from the
+   feature.
+
+  4.4      Railroads
+
+   Underpassing/Overpassing - When a railroad overpasses another feature,
+   it must be at least 240 feet long before it is coded as a bridge.
+   Bridge ticks must then be collected. When a railroad underpasses
+   another feature (railroad, road, and so on) it must be coded as
+   underpassing (180.605). The vector should be broken on both sides of
+   the overpassing feature.
+
+   Abandoned, Dismantled - If the feature is labeled "Old Railroad Grade"
+   on the existing map, it should be shown on the road file and attributed
+   as a trail (170.211) and old railroad grade (170.605). Please note: We
+   have recently been informed that we should be using the 170.605
+   attribute. For the last several years we have not been using it and had
+   informed the contractors not to use it. It should not be used on
+   projects begun before January 1, 2000, but it should be used on all new
+   projects begun after that date.
+
+   If a feature is labeled Dismantled Railroad, it should be left off the
+   DLG.
+
+   If a railroad is labeled Abandoned Railroad, it should be attributed as
+   railroad.
+
+   If there is solid evidence such as missing trestles that a railroad
+   shown on the map no longer exists, do not collect it on either the road
+   or the railroad DLG.
+
+   Railroad yards - Six or more tracks make up a railroad yard and should
+   be coded as such. If the yard has been reduced, it may need to be
+   removed and the individual tracks collected.
+
+   Double track VS siding - The attribute code for siding is used only to
+   identify short sidings that are used for passing, temporary storage, or
+   the loading of railroad cars.
+
+   Missing sidings - Sidings shown on the map should be included in the
+   DLG unless they no longer exist. New sidings should be added.
+
+  4.5      Roads And Trails
+
+   Over-compilation of roads - Follow the definitions and capture
+   conditions in the
+   Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle Maps,
+   Part 3: Transportation, ROAD.
+
+   Typically, USGS topographic maps depict only the public road grid, with
+   exceptions made for clarity, continuity, and logical access to
+   map-worthy features. There are many visible roads, scars, and trails
+   that are not mapped because they are too short, cannot carry vehicular
+   traffic, give access only to private corners of agricultural/ranch
+   property, or are used only for maintenance (service roads) along
+   property lines or private canals/ditches, railroads, transmission lines
+   and so on.
+
+   As a general rule, class 4 roads leading to mapped features or
+   providing the only access to a remote area are shown. However, where
+   two such roads lead to the same feature in approximately the same
+   direction, only the better road is shown.
+
+   Another consideration is the amount of cultural detail in an area,
+   particularly one with a dense network of unimproved roads. To map such
+   an area legibly, you should select the better or more direct roads and
+   omit the others. However, in undeveloped areas where travel routes are
+   few and, therefore, important, all roads that may be useful are mapped.
+
+   Class 3 roads - Many roads were collected as Class 3 and either meet
+   the definition of class 4, but do not meet the capture conditions, or
+   do not even meet the definition of class 4. Follow the definitions and
+   capture conditions as outlined in the Standards for 1:24,000-Scale
+   Digital Line Graphs and Quadrangle Maps, Part 3: Transportation, ROAD.
+
+   Class 3 divided not being coded properly - Class 3 roads that are
+   divided need to be attributed correctly using either the 170.217 or
+   170.218 codes. Medians must be equal to or greater than 20 feet wide,
+   and overall road width must be equal to or greater than 100 feet for
+   lanes to be separated.
+
+   Private drives shown as class 3 - Private driveways are class 4
+   regardless of construction. Some existing driveways shown in purple may
+   have solid casings. These should still be attributed as class 4.
+
+   Class 4 roads - Add a class 4 road only if it goes to a mapped feature
+   or is the only access to a remote area. Do not add small Class 4 road
+   end loops.
+
+   As a general rule, class 4 roads from previously published maps lose
+   their relative importance in expanding urban areas. The newer class 3
+   roads take precedence. In these cases, delete the class 4 roads that
+   are no longer serving the local road network. Keep them only if they
+   access other mapped features or are the only access to large areas of
+   the map. Be especially aware if the previously published class 4 road
+   was printed in purple.
+
+   Minor roads in multifamily complexes - Avoid collecting minor roads
+   accessing the common parking areas of apartment and townhouse
+   (multifamily) complexes. In general, only the main roads in these areas
+   meet the definition of class 3 road. Roads accessing individual houses
+   and mobile homes may be collected if they meet capture conditions.
+
+   Do not add new trails. Retain existing trails. - Do not replace a
+   deleted railroad with a trail. See Standards for 1:24,000-Scale Digital
+   Line Graphs and Quadrangle Maps, Part 3: Transportation, TRAIL, Source
+   Interpretation Guidelines, Revision - Limited.
+
+   Shape of highways - The shape of highways should be appropriate to the
+   scale of the mapping. Avoid angular or rough appearance if, in fact,
+   the straight and curved parts of the road are smooth and possibly
+   engineered.
+
+   Bridges are shown that are too short - less than 240 feet, Bridge ticks
+   not shown or in the wrong location. - The node for the bridge ticks
+   should be collected at the point where the structure meets the ground.
+   See the Standards for 1:24,000-Scale Digital Line Graphs and Quadrangle
+   Maps, Part 3: Transportation, BRIDGE, and the Standards for Digital
+   Line Graphs, Part 3: Attribute Coding, Section 3.7, attribute 170.0001.
+
+   Old Railroad Grades attributed incorrectly - If the feature is labeled
+   "Old Railroad Grade" on the existing map, it should be collected on the
+   road file and attributed as a trail (170.211) and old railroad grade
+   (170.605). Please note: We have recently been informed that we should
+   be using the 170.605 attribute. For the last several years we have not
+   been using it and had informed the contractors not to use it. It should
+   not be used on projects undertaken before January 1, 2000, but it
+   should be used on all new projects begun after that date.
+
+   If a feature is labeled Dismantled Railroad, it should be left off the
+   DLG.
+
+   If a railroad is labeled Abandoned Railroad, it should be attributed as
+   railroad.
+
+   If there is solid evidence, for example missing trestles, that a
+   railroad or an abandoned railroad shown on the map no longer exists,
+   then do not collect it on either the road or the railroad DLG.
+
+   Crossovers on divided highways attributed incorrectly - Crossovers
+   should carry the same class as the intersecting road. If the road is
+   one class on one side of the divided highway and another class on the
+   other side, then the crossover carries the attribute of the higher
+   class.
+
+   Ramps - The code for ramp in interchange (170.402) is used only when
+   the roads are grade separated. All other interchanges should carry the
+   attribute of the higher class road.
+
+   Widths of roads and medians - Class 1 and 2 roads are often being
+   collected as 170.201 or 170.205, when one of the other attributes for
+   class 1 or class 2 should be used. Attribute codes for road widths need
+   to be collected according to the Standards for 1:24,000-Scale Digital
+   Line Graphs and Quadrangle Maps, Part 3: Transportation, ROAD,
+   Attribute Information and the Standards for Digital Line Graphs, Part
+   3: Attribute Coding, Section 3.7, attribute 170.065x, Road Width.
+   Medians must be equal to or greater than 20 feet wide, and overall
+   highway width equal to or greater than 100 feet for lanes to be
+   separated.
+
+   Vertical registration - Many times the overlays are not registered to
+   one another. Swamp should be pulled back from class 3 and higher roads
+   and railroads. Roads and railroads do not pass through lakes.
+
+   Maintenance roads under powerlines - Do not collect maintenance roads
+   under powerlines. Roads that are intended only to serve the power line
+   are not as important as the power line. We have seen many instances
+   where the road has been collected and the power line deleted.
+
+   Misshaped features - There have been many cases where too few vertices
+   were used to adequately represent the feature. There have been cases
+   where the azimuth of the vector varies from the DOQ's.
+     __________________________________________________________________
+
+                     | Search | USGS | Mapping | MCMC |
+     __________________________________________________________________
+
+   U.S. Department of the Interior
+   U.S. Geological Survey
+   1400 Independence Road, Rolla, MO 65401
+   URL: http://mcmcweb.er.usgs.gov/vector/index.html
+   Last modified: Thursday, 17-May-2001 18:22:21 CDT
+   Maintainer: mcmcweb@mailrmon1.er.usgs.gov
+   USGS Privacy Statement

@@ -1,0 +1,130 @@
+http://spdf.gsfc.nasa.gov/bowshock/
+
+                [logo] Collaborative Study of Earth's Bow Shock
+
+   Figure courtesy of "Tsurutani and Rodriguez, J. Geophys. Res., 86,
+   4319, 1981, copyright 1981 by the American Geophysical Union."
+
+   Earth's bow shock represents the outermost boundary between that region
+   of geospace which is influenced by Earth's magnetic field and the
+   undisturbed interplanetary medium streaming from the Sun. This boundary
+   is important because it is here that the streaming solar wind is
+   slowed, heated, and partially deflected around the Earth's
+   magnetosphere. From solar wind observations, we know there exist
+   rotational and tangential discontinuities, current sheets, magnetic
+   holes and clouds , many of which eventually impact the Earth's
+   magnetosphere with first contact at the bow shock. There are also any
+   number of small scale structures, inhomogeneities, or perturbations
+   present in the solar wind which hit the bow shock. As solar wind
+   structures or changes in the solar wind impinge on the bow shock, it
+   moves in response.
+
+   We have put together a database of Geotail bow shock crossings during
+   1995, 1996 and 1997. 1995 is the year in which Geotail switched from
+   its deep tail mission to come in to an approximately 30 Re orbit ripe
+   for studying magnetospheric boundaries. These years include the end of
+   the descending phase, solar minimum and the start of the ascending
+   phase of the solar cycle. We have concentrated on the crossings at the
+   bow shock flanks because it is here that more motion and wave activity
+   is expected - the nose is more tightly locked into place while the
+   flanks can flap in the breeze.
+
+   In addition J. Safrankova and Z. Nemecek supplied two years worth -
+   1995, 1996 - of Magion-4 (Interball-Tail's sub satellite) bow shock
+   crossings (approximately 1100 crossings). This orbit is highly
+   elliptical and significantly out of the ecliptic plane.
+
+  Geotail and Magion-4 Bow Shock Crossings
+
+   For questions on Geotail Crossings contact Dr. Mona Kessel
+   (mona.kessel@gsfc.nasa.gov)
+
+   For questions on Magion-4 Crossings contact Dr. Jana Safrankova
+   (safr@aurora.troja.mff.cuni.cz)
+     __________________________________________________________________
+
+  PRIMARY RESOURCES
+
+   Web access to the database was set up to facilitate statistical studies
+   and cross-comparisons of the Earth's bow shock. This database stores a
+   list of bow shock crossings as well as information associated with each
+   crossing - solar wind parameters such as Magnetosonic Mach number,
+   plasma beta, IMF Bx, By, Bz, model theta _Bn, and ram pressure
+
+  View the Bow Shock Crossings Database
+
+   The database design allows plots to be created for specific subsets of
+   the database, the conditions specifying the subset supplied through the
+   WWW-based interface. Current supported plots include:
+
+  Bow Shock Crossing Location Plots
+
+   [all_xings.gif]    [yz_xings.gif]
+
+  Bow Shock Surface Orientation Plots
+
+   [normals.gif]    [normals_yz.gif]
+     __________________________________________________________________
+
+  OTHER RESOURCES
+
+   CDAWeb Interactive Plotting of all public ISTP Key Parameter data.
+   These data are intended for browse purposes and particularly for
+   identification of events, although some of this data is now "citable
+   with caution". Users are encouraged to contact the appropriate
+   Principal Investigator(s) if interested in using the data.
+
+   GIFWalk ISTP Science Planning and Operations Facility (SPOF) Orbit and
+   Key Parameter Survey Plots
+
+   FTP directory of Orbit Plots provided through the Satellite Situation
+   Center. Gif images can be viewed. Both Gif and PS images can be
+   downloaded. Plots include (1) 4 day orbits from Wind, Geotail, Imp-8,
+   Interball-Tail and the Moon on two length scales, (2) Polar orbits, and
+   (3) 5 month long orbits from Wind.
+
+   FTP directory of Summary KP Plots provided by the ISTP Science Planning
+   and Operations Facility. Plots are in GIF format and include selected
+   variables from (1) combined daily geosynchronous and ground-based data,
+   (2) Geotail daily data, (3) Wind daily data, (4) 27 day Wind data, and
+   (5) monthly Wind data.
+
+  Back
+     __________________________________________________________________
+
+  List of Presentations and Publications
+
+     * Motion of the Earth's bow shock using ISTP multi-spacecraft
+       observations, Kessel, et al. IAGA, Uppsala, Swedem, August 1997
+     * Survey of Geotail skimming Earth's bow shock, Nov 1996 - Mar 1997,
+       Kessel, et al. Fall AGU, S.F., CA, U.S.A., Dec 1997
+     * The Earth's bow shock in motion, Kessel, Boston University Seminar,
+       Feb 1998
+     * The Earth's bow shock flank, Kessel, R.L., ISTP Workshop, NASA
+       GSFC, Maryland, Apr 1998
+     * Motion of the Earth's bow shock, Kessel, R.L., Spring AGU, Boston,
+       MA, U.S.A., May 1998
+     * Geotail observations of Multiple Crossings of the Earth's bow
+       shock, Kessel, R.L., Interball in the ISTP Meeting, Kosice, Slovak
+       Republic, Sept 1998
+     * Local Variations of IMF at Earth's bow shock, Kessel, R.L., E.
+       Quintana, M. Peredo, submitted to Geophys. Res. Lett., 1998
+     * Multiple Crossings of Earth's bow shock, Kessel, R.L., Fall AGU,
+       S.F., CA, U.S.A., Dec 1998
+     * On the Earth's bow shock near solar minimum, Kessel, R.L. and S.-H.
+       Chen, submitted to NATO publications, 1999
+
+  Back
+     __________________________________________________________________
+
+   Author and Curator
+
+
+    Mona Kessel, mona.kessel@gsfc.nasa.gov, (301)286-6595
+    Code 632, NASA Goddard Space Flight Center
+    Greenbelt, MD 20771, USA
+     __________________________________________________________________
+
+        NASA Official: R.E. McGuire, Head, Space Physics Data Facility
+        (Code 632, NASA/GSFC), Robert.E.McGuire@gsfc.nasa.gov, (301)286-7794
+        Last Updated: 17 Dec 1996, KCH

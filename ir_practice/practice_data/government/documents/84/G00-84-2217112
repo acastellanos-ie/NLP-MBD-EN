@@ -1,0 +1,153 @@
+http://wsom.nws.noaa.gov/manual/CHAPTERG/NG229407.HTML
+
+   commerce logo              U.S. DEPARTMENT OF COMMERCE
+
+   National Oceanic and Atmospheric Administration
+
+   NATIONAL WEATHER SERVICE
+                                                                   Silver
+   Spring. Md. 20910
+
+                                                                   July
+   6,. 1994                        W/OSO15
+
+   TO:                 All Holders of Operations Manual
+
+   SUBJECT:     Transmittal Memorandum for Operations Manual Issuance 94-7
+
+   1.    Material Transmitted:
+
+   New WSOM Chapter G-22, Family of Services.
+
+   2.    Summary:
+
+   This Chapter briefly describes the Family of Services and its primary
+   function of providing external users with access to near real-time
+   weather information.
+
+   3.    Effect on Other Instructions:
+
+   None.
+
+   Elbert W. Friday, Jr.
+   Assistant Administrator
+   for Weather Services
+     __________________________________________________________________
+
+   Issue Date     Org. Code    NATIONAL WEATHER SERVICE        Part
+   Chap.
+   7-6-94        W/OSO15         Operations Manual
+                G         22
+
+                             FAMILY OF SERVICES
+
+   Table of Contents:
+
+   1. Purpose
+
+   2. Background
+
+   3. Description
+
+   4. Organizational Responsibility
+
+                                  * * * * *
+     __________________________________________________________________
+
+   1.     Purpose. This Chapter describes the Family of Services (FOS) and
+   its primary function of providing external users such as value-added
+   weather distributors, the academic community, and Federal agencies with
+   access to near real-time weather information These services are
+   available through a collection of data services which are accessed via
+   dedicated telecommunications access lines in the Washington, D.C.,
+   area.
+
+   2.     Background. The FOS was established to help fulfill the National
+   Weather Service (NWS) mission of making weather information available
+   to the private sector. NWS watches, warnings, and advisories are
+   disseminated immediately on the NOAA Weather Radio and the NOAA Weather
+   Wire Service. These are the primary sources of weather information for
+   the media and the general public. NWS watches, warnings, and
+   advisories, as well as hydrological, climatological, agricultural, and
+   miscellaneous forecasts/products, are then relayed on the NWS FOS as
+   appropriate. Other products disseminated over the FOS include
+   observations and various aviation, marine, and gridded data.
+
+   3.     Description. The individual FOS data services may be obtained
+   from the NWS upon payment of a one-time connection charge and a
+   recurring annual user fee. Several private companies subscribe to the
+   FOS, then resell the FOS data as received and/or provide value-added
+   information services to their customers. The FOS includes the following
+   data services:
+
+       a.     Public Product Service (PPS)--carries all public watches;
+   warnings; advisories; and various hydrologic, agricultural, and
+   miscellaneous forecasts and products;
+
+       b.     Domestic Data Service (DDS)--carries basic observations and
+   various aviation, marine, and miscellaneous products;
+
+       c.     International Data Service (IDS)--carries worldwide surface
+   and upper air observations and miscellaneous products;
+
+       d.     Numerical Products Service (NPS)--carries global
+   model-derived forecasts out to 7 days and weather analyses, most of
+   which are in a gridded-binary format;
+
+       e.     High Resolution Data Service (HRS)--carries the same
+   products as the NPS, as well as gridded-model data, and serves users
+   who have a requirement for error-controlled NPS data. This FOS offering
+   is different from the other services in that users connect directly to
+   a port in the NWS Telecommunication Gateway computer facility located
+   in Silver Spring, Maryland;
+
+       f.     Automation of Field Operations and Services (AFOS) Graphics
+   Service (AGS)--carries centrally produced weather products ("charts")
+   in the vector graphic format utilized in the NWS AFOS system;
+
+       g.     Digital Facsimile Service (DIFAX)--carries weather analysis
+   and prognosis products related primarily to aviation; and
+
+       h.     Climate Analysis Center Climate Dial-up Service
+   (CACCDUS)--provides climate data to users who access a computer data
+   base via dial-in access. Unlike the other FOS services, user fees are
+   assessed on a usage basis.
+
+   4.     Organizational Responsibility. The Telecommunications and
+   Dissemination Branch of the Systems Integration Division, Office of
+   Systems Operations, has responsibility for the following:
+
+       a.     overall management of the FOS Telecommunications Program,
+   including the circuits and equipment provided by telecommunications
+   carriers;
+
+       b.     management of all FOS subscriber agreements;
+
+       c.     establishment and collection of all FOS user fees:
+
+       d.     coordination of all FOS matters with the FOS subscriber
+   community; and
+
+       d.     coordination of all FOS matters with the FOS subscriber
+   community; and
+
+       e.     management of FOS-related data product catalogs.
+
+   The Operations Plans and Change Management Branch has the
+   responsibility for processing FOS Baseline Request for Change items.
+
+   The Central Communications Control Branch of the Systems Operations
+   Center is responsible for operating the FOS circuits, including
+   real-time technical and operational coordination with FOS users and the
+   telecommunications common carriers. The Central Communications Software
+   Branch of the Systems Operations Center has the responsibility for
+   adding, deleting, or changing products on FOS circuits upon request
+   from the FOS Program Leader and for investigating and correcting
+   software-related transmission problems.
+
+   The NWS Data Review Group has the responsibility for reviewing FOS Data
+   Request for Change items that result in additions, deletions, or
+   changes to FOS data requirements.
+
+   WSOM Issuance
+   94-7 7-6-94

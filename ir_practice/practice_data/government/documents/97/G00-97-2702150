@@ -1,0 +1,89 @@
+http://homeenergysaver.lbl.gov/hes/about_dat.html
+
+   About The Home Energy Saver
+
+      The Home Energy Saver is designed to help consumers identify the best
+      ways to save energy in their homes, and find the resources to make the
+      savings happen. The Home Energy Saver was the first Internet-based tool
+      for calculating energy use in residential buildings. The project is
+      sponsored by the U.S. Department of Energy (DOE) and the U.S.
+      Environmental Protection Agency (EPA), as part of the national ENERGY
+      STAR Program for improving energy efficiency in homes.
+
+      The Home Energy Saver quickly computes a home's energy use on-line
+      based on methods developed at Lawrence Berkeley National Laboratory. By
+      changing one or more features of the modeled home, users can estimate
+      how much energy and money can be saved and how much pollution prevented
+      by implementing energy-efficiency improvements. All end uses (heating,
+      cooling, major appliances, lighting, and miscellaneous uses) are
+      included.
+
+      The Home Energy Saver's Energy Advisor calculates energy use and
+      savings opportunities, based on a detailed description of the home
+      provided by the user. Users can begin the process by simply entering
+      their zip code, and in turn receive instant initial estimates. By
+      providing more information about the home the user will receive
+      increasingly customized results along with energy-saving upgrade
+      recommendations.
+
+      The Energy Advisor calculates heating and cooling consumption using the
+      DOE-2 building simulation program (version 2.1E), developed by the U.S.
+      Department of Energy. The program performs a full annual simulation for
+      a typical weather year (involving 8760 hourly calculations) in about
+      10-20 seconds, after the user assembles the necessary information
+      describing their home. Users can choose from 239 weather locations
+      around the United States. DOE-2 performs a very sophisticated series of
+      calculations, but the web-based user interface is relatively simple and
+      results are distilled into a useful form. Default energy prices for
+      each fuel and state are also available, or users can enter a specific
+      price of their choosing.
+
+      The Energy Advisor calculates domestic water heating energy consumption
+      using a detailed model developed by LBNL researchers. Users can see how
+      household size, age of occupants, equipment efficiencies, and water
+      inlet temperatures affect bottom-line energy costs.
+
+      By simply entering the number and approximate age of their major
+      appliances, users can estimate their energy consumption, based on
+      historic sales-weighted efficiency data. A very detailed module is also
+      included to estimate energy consumption and savings opportunities for
+      lighting and dozens of miscellaneous gas and electric appliances, with
+      default values based on data compiled over the years by LBNL
+      researchers.
+
+      In addition to calculating energy use on-line, the Home Energy Saver's
+      Making it Happen and Energy Librarian modules connect users to an
+      expanding array of "how-to" information resources throughout the
+      Internet. These modules help users successfully capitalize on the
+      energy savings opportunities identified by the Energy Advisor module.
+      Users benefit from a dynamic information base unparalleled by resources
+      that could be published on static electronic media. These modules offer
+      a host of links to practical information, ranging from lists of
+      specific efficient products ... to tips about selecting a good
+      contractor ... to information on what assistance your utility might
+      have to offer. The site also features an extensive glossary and
+      frequently-asked questions module.
+
+      Through special arrangement with Home Energy Magazine, the Home Energy
+      Saver features extensive passages from the book No-Regrets Remodeling
+      as part of the Making It Happen module.
+
+      The Ask An Energy Expert Service is provided courtesy of USDOE's Energy
+      Efficiency and Renewable Energy Network.
+
+   How to Use the Home Energy Saver
+
+   Technical Description
+
+        * Appliances
+        * Heating and Cooling
+        * Lighting
+        * Water Heating
+        * Background Data
+             + Default descriptions for "typical" and "efficient" homes
+
+   User Testimonials and Media Accolades
+
+   The Development Team
+
+   Mission Statement

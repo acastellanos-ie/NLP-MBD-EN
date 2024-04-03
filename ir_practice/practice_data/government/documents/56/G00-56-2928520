@@ -1,0 +1,163 @@
+http://pac2001-ed.fnal.gov/faq.html
+
+ Back to the PAC 2001 Publications page
+
+                                                                   PAC 2001 FAQs
+ __________________________________________________________________
+
+   PAC 2001 FAQs
+ Account Creation
+    1. Why do I need a submission account?
+       The purpose of the submission account process is to make submission
+       easier for you. In the past, authors have needed to enter personal
+       information on a variety of different forms and remember various
+       unique ID numbers. The submission account simplifies this process.
+       It saves time because an author can make multiple submissions on
+       the same account. Therefore the author enters his/her personal
+       information only once and only needs to remember one username and
+       password.
+    2. Can secretaries or other designees create accounts for primary
+       authors?
+       Secretaries or other designees can create accounts and submit
+       abstracts and papers for primary authors. The account, however,
+       must be created in the primary author's name and contain his/her
+       personal information and email address. If you are a secretary or
+       other designee submitting papers for a group, please note that each
+       submitting author must have his/her own account.
+    3. Do you support special characters?
+       PAC 2001 supports a variety of special characters. Special
+       characters are available for names, titles and abstracts. Codes and
+       instructions can be accessed from the special characters link,
+       available at the top of all relevant forms. Please do not use any
+       HTML codes that are not provided on the special characters page.
+    4. Why are APS/DPB and IEEE fields required?
+       PAC 2001 is required to collect information on affiliations with
+       APS/DPB and IEEE. Everyone participating in the conference is
+       required to supply this information. If you are unsure of your
+       affiliation with either organization or you do not know if your
+       co-authors are affiliated, please choose Not Sure from the list of
+       options.
+
+   Paper Submission
+    1. I tried the LaTeX2e template for US letter on several machines, in
+       all cases the text (in the .ps) is not centered in the page, but
+       starts at the very top, and the bottom margin is twice what it
+       should be. How do I fix this?
+       This is most likely a dvips problem. First, check to make sure that
+       you have the latest version (5.86). Next, make sure that dvips is
+       set up to create postscript in US letter format instead of A4
+       format, which is the default. The configuration exists in a global
+       configuration file. For dvips itself there is a file called
+       config.ps (on UNIX it is found at .../texmf/dvips/config/config.ps)
+       that contains the global default settings for the dvips options. If
+       A4 appears before US Letter, the system is printing A4 as a
+       default. You should move the information as indicated below to get
+       the system to print US Letter. Alternatively, you can comment out
+       the A4 lines (using %). This will also cause the system to print
+       properly. See examples below for correct setups for both A4 and US
+       letter:
+       Here is the correct setup for creating postscript for A4 paper
+       (this is also the default setup):
+       @ a4 210mm 297mm
+       @+ ! %%DocumentPaperSizes: a4
+       @+ %%BeginPaperSize: a4
+       @+ a4
+       @+ %%EndPaperSize
+       @ letterSize 8.5in 11in
+       @ A4size 210mm 297mm
+       @+ %%PaperSize: A4
+       @ letter 8.5in 11in
+       @+ %%BeginPaperSize: Letter
+       @+ letter
+       @+ %%EndPaperSize
+       @ legal 8.5in 14in
+       @+ ! %%DocumentPaperSizes: Legal
+       @+ %%BeginPaperSize: Legal
+       @+ legal
+       @+ %%EndPaperSize
+       @ ledger 17in 11in
+       @+ ! %%DocumentPaperSizes: Ledger
+       @+ %%BeginPaperSize: Ledger
+       @+ ledger
+       @+ %%EndPaperSize
+       @ tabloid 11in 17in
+       @+ ! %%DocumentPaperSizes: Tabloid
+       @+ %%BeginPaperSize: Tabloid
+       @+ 11x17
+       @+ %%EndPaperSize
+       @ a3 297mm 420mm
+       @+ ! %%DocumentPaperSizes: a3
+       @+ %%BeginPaperSize: a3
+       @+ a3
+       @+ %%EndPaperSize
+       Here is the correct setup for creating postscript for US letter
+       paper:
+       @ letter 8.5in 11in
+       @+ %%BeginPaperSize: Letter
+       @+ letter
+       @+ %%EndPaperSize
+       @ A4size 210mm 297mm
+       @+ %%PaperSize: A4
+       @ letterSize 8.5in 11in
+       @ legal 8.5in 14in
+       @+ ! %%DocumentPaperSizes: Legal
+       @+ %%BeginPaperSize: Legal
+       @+ legal
+       @+ %%EndPaperSize
+       @ ledger 17in 11in
+       @+ ! %%DocumentPaperSizes: Ledger
+       @+ %%BeginPaperSize: Ledger
+       @+ ledger
+       @+ %%EndPaperSize
+       @ tabloid 11in 17in
+       @+ ! %%DocumentPaperSizes: Tabloid
+       @+ %%BeginPaperSize: Tabloid
+       @+ 11x17
+       @+ %%EndPaperSize
+       @ a4 210mm 297mm
+       @+ ! %%DocumentPaperSizes: a4
+       @+ %%BeginPaperSize: a4
+       @+ a4
+       @+ %%EndPaperSize
+       @ a3 297mm 420mm
+       @+ ! %%DocumentPaperSizes: a3
+       @+ %%BeginPaperSize: a3
+       @+ a3
+       @+ %%EndPaperSize
+
+   Abstract Submission
+    1. How do I enforce superscript and subscript in my title?
+       Simply use the HTML tags < sup > and < sub > to enforce superscript
+       and subscript in your title or your abstract. For example: X< sup
+       >2< /sup > and Y< sub >4< /sub > will appear as X^2 and Y[4]. A
+       list of HTML tags available for use in your PAC titles and
+       abstracts may be accessed from the special characters link,
+       available on all relevant forms.
+    2. Why are you asking for Author affiliation information on the
+       Abstract Submission Page instead of on the Account Creation Page?
+       Some authors may be affiliated with multiple laboratories. We want
+       authors to be able list a different affiliation for each abstract
+       instead of being limited to one affiliation per account.
+    3. Why is the primary authors information automatically entered into
+       the speaker fields?
+       The primary author is often the speaker at the conference. This
+       default is intended to make submission easier for you. If the
+       speaker is someone other than the primary author, just type his/her
+       information into the fields.
+    4. What is the required disclaimer?
+       The required disclaimer is a reference to your funding agency and
+       contract number. For example: Work supported by the U.S. Department
+       of Energy. This information will be included as an endnote to your
+       abstract.
+    5. There is nowhere to add co-authors on the abstract submission page.
+       How do I enter my co-authors information?
+       You will have the opportunity to add co-authors after you submit
+       your abstract. There is a button labeled co-authors on the abstract
+       information page. Please click this button to add co-authors. We
+       are requesting that you add each co-author separately so that we
+       can track their personal information and so that we can easily
+       manipulate the data for our publications.
+
+
+
+   Legal Notices

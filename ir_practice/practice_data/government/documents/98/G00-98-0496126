@@ -1,0 +1,125 @@
+http://oceanesip.jpl.nasa.gov/de.shtml
+
+   corner_img Digital_Earth
+
+   spacer_img | Contact | Discussion Board | Register | XML version |
+
+   spacer_img Home > Digital Earth
+
+
+                  GUI
+   [digital_earth_side_separator.jpg]
+
+   Datasets
+   [digital_earth_side_separator.jpg]
+
+   Objectives
+   [digital_earth_side_separator.jpg]
+
+   Digital Earth
+   [digital_earth_side_separator.jpg]
+
+   ESM
+   [digital_earth_side_separator.jpg]
+
+   BigSur
+   [digital_earth_side_separator.jpg]
+
+   People
+   [digital_earth_side_separator.jpg]
+
+   Federation Home
+   [digital_earth_side_separator.jpg]
+
+Digital Earth
+
+   The Digital Earth Web Mapping Testbed (WMT) provides a standard method
+   for transferring georeferenced images over the internet. This standard
+   allows maps from multiple sources to be overlayed. Images from Ocean
+   ESIP are returned to your browser (or other client) using a URL string.
+     ___________________________________________________________________
+
+   Example URL strings that were used to generate the images to the right:
+
+
+                                     1.
+
+
+                   http://oceanesip.jpl.nasa.gov/cgi-bin/
+                   esip/de.pl?BBOX=-180.,-30.,-60.,40.
+                   &LAYERS=sst_reynolds
+                   &FORMAT=png
+                   &WIDTH=640&HEIGHT=480
+                   &SRS=4326&REQUEST=map
+
+    Recent Sea surface temperature data over the region- 180W, 30S, 60W,
+                                    40N:
+
+                            sea_surface_temp_img
+                                     2.
+
+                   http://oceanesip.jpl.nasa.gov/cgi-bin/
+                   esip/de.pl?BBOX=-160.,20.,-120.,60.
+                   &LAYERS=ssh_along
+                   &FORMAT=png
+                   &WIDTH=640&HEIGHT=480
+                   &SRS=4326&REQUEST=map
+                   &STYLES=&WMTVER=1.0
+                   &TIME=1997-10-25
+                   &MINVALUE=-200&MAXVALUE=200
+
+    Sea surface height along-track on Oct 25, 1997 over the region: 160W,
+               20N, 120W, 60N, with plot range -200 to 200 mm:
+
+                           sea_surface_height_img
+     ___________________________________________________________________
+
+Field Information
+
+   The following fields may be changed or added on the URL string:
+
+                      FIELD POSSIBLE VALUES DESCRIPTION
+      BBOX lon1, lat1, lon2, lat2 Bounding longitude and latitude range
+            LAYERS ssh TOPEX/Poseidon Sea Surface Height Anomaly
+             ssh_along Same as above, but along satellite track
+                sst_reynolds Reynolds Sea Surface Temperature
+                    ssta_reynolds Anomaly of sst_reynolds
+                         wind NSCAT Sea Surface Wind
+                           wind_mag Speed of wind
+                       wind_zonal Zonal Speed of wind
+                     wind_merid Meridional Speed of wind
+                         wind_div Divergence of wind
+                           wind_curl Curl of wind
+                        windstress Wind Pseudo-stress
+                   windstress_mag Magnitude of windstress
+                      windstress_zonal Zonal windstress
+                   windstress_merid Meridional windstress
+                   windstress_div Divergence of windstress
+                     windstress_curl Curl of windstress
+                             landmask Land Mask
+    TIME YYYY-MM-DD Date of measurement (TOPEX: 19921101-19991031; NSCAT:
+      19960827-19970530). If excluded, the last available date is used.
+               FORMAT GIF, TIFF, GeoTIFF, or PNG Image format
+                     WIDTH integer Image width in pixels
+                    HEIGHT integer Image height in pixels
+                 SRS 4326 Map Projection (equal angle grid)
+   REQUEST map or capabilities map returns a map; capabilities returns the
+                              XML metadata file
+                 STYLES No style options currently available
+       BGCOLOR Hex, e.g. 0x33333 (Optional) Background color of image
+   TRANSPARENT true or false (Optional) Can background color be considered
+                                transparent?
+                MINVALUE value (Optional) Minimum plot value
+                MAXVALUE value (Optional) Maximum plot value
+
+   An xml version of the above information is contained in the
+   Capabilities file. OceanESIP is a member of the Digital Earth Cluster
+   of the Federation.
+
+
+
+
+   [top]
+     __________________________________________________________________
+
+   Last Updated: 2001-05-13

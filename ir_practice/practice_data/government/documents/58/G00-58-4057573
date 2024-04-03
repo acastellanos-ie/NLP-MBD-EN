@@ -1,0 +1,50 @@
+http://rnagene.lbl.gov/manual.html
+
+
+
+title graphic
+
+   Home
+   Run program
+   The authors
+   News
+   Instructions
+   Ode to RNA
+   Predictions
+
+Sorry but this is very much a work in progress
+
+   At the moment this is a suite of programs written in C, PERL, HTML,
+   FORTRAN, JAVASCRIPT and UNIX shell script. They are continually being
+   developed and tested to be made more accurate.
+   It is also hoped that they will soon be ported to all perl scripts
+   running on a LINUX box and this will improve the speed with which
+   predictions are made.
+
+   To make a prediction all you need to do is to click on the run program
+   link on the left hand side of the browser. This takes you to the
+   submission page. All you have to do then is enter your e-mail, a title
+   (if you want) and your DNA sequence which you suspect may be an RNA
+   gene.
+
+   The sequence must only contain the bases a, c, g, t or u (case
+   insensitive). Any other characters, except spaces and carriage returns,
+   will cause the program to generate an error and tell you which is the
+   first character it doesn't like.
+
+   The sequence must be longer than 40 nt and shorter than ~ 7,000 nt or
+   else the machine will generate an error and produce gibberish. N.B./
+   When the program checks the input sequence length it counts whitespace
+   as a character so may still return an error because of that.
+   Then select the organism which most closely resembles your genomic DNA
+   and click on submit. The results are computed and should be e-mailed to
+   you in a few minutes.
+
+   The program breaks the sequence into windows of 80 nt (with an overlap
+   of 40) and computed the probability of each window being an RNA gene.
+   It will tell you whether or not this window is either not predicted,
+   predicted or strongly predicted to be part of an RNA gene.
+
+   If you see a cluster of predictions around the same area this may be
+   indicative of a larger rna gene.
+   Any comments or for further help contact me.

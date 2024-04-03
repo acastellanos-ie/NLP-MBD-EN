@@ -1,0 +1,77 @@
+http://www-fsli.fsl.noaa.gov/syncFiles.txt
+
+   #This file is the config file for auto syncing of the webSite and your
+   local system. #Please do not change this file. This could cause your
+   system to become unstable. # logs/aaa.txt
+   localizations/iii/mapdata/cities_us.dbfm.gzip
+   localizations/iii/mapdata/cities_us.shpm.gzip
+   localizations/iii/mapdata/cous_0005.dbfm.gzip
+   localizations/iii/mapdata/cous_0005.shpm.gzip
+   localizations/iii/mapdata/hwy_us_001.dbfm.gzip
+   localizations/iii/mapdata/hwy_us_001.shpm.gzip
+   localizations/iii/mapdata/mzus_001.dbfm.gzip
+   localizations/iii/mapdata/mzus_001.shpm.gzip
+   localizations/iii/mapdata/northamerica_001.dbfm.gzip
+   localizations/iii/mapdata/northamerica_001.shpm.gzip
+   localizations/iii/mapdata/obs-hydro-station-local.gzip
+   localizations/iii/mapdata/obs-manual-station-local.gzip
+   localizations/iii/mapdata/obs-metar-station-national.gzip
+   localizations/iii/mapdata/obs-qcmesonet-station-local.gzip
+   localizations/iii/mapdata/riverBasins_us.dbfm.gzip
+   localizations/iii/mapdata/riverBasins_us.shpm.gzip
+   localizations/iii/mapdata/rivers_us_001.dbfm.gzip
+   localizations/iii/mapdata/rivers_us_001.shpm.gzip
+   localizations/iii/mapdata/roads_us_001.dbfm.gzip
+   localizations/iii/mapdata/roads_us_001.shpm.gzip
+   localizations/iii/mapdata/wforfc_us.dbfm.gzip
+   localizations/iii/mapdata/wforfc_us.shpm.gzip
+   localizations/iii/mapdata/wzus_001.dbfm.gzip
+   localizations/iii/mapdata/wzus_001.shpm.gzip
+   localizations/iii/imagedata/Topogr_us.gif imagedata/icons/0.125.gif
+   imagedata/icons/0.25.gif imagedata/icons/0.5.gif imagedata/icons/1.gif
+   imagedata/icons/2.gif imagedata/icons/20.gif imagedata/icons/5.gif
+   imagedata/icons/Frzrain.gif imagedata/icons/Hail.gif
+   imagedata/icons/Rain.gif imagedata/icons/Sleet.gif
+   imagedata/icons/Snow.gif imagedata/icons/cs_nws16.jpg
+   imagedata/icons/cs_noaa16.jpg imagedata/icons/ldad.jpg
+   ldadhelp/hlp1hrain.html ldadhelp/hlp1hsnow.html ldadhelp/hlp3hrain.html
+   ldadhelp/hlp6hrain.html ldadhelp/hlpDewpt.html ldadhelp/hlpFire.html
+   ldadhelp/hlpGeography.html ldadhelp/hlpIntro.htm
+   ldadhelp/hlpLanduse.htm ldadhelp/hlpPrectype.htm ldadhelp/hlpProbe.htm
+   ldadhelp/hlpRadar.htm ldadhelp/hlpRhum.htm ldadhelp/hlpScales.htm
+   ldadhelp/hlpSnowcov.htm ldadhelp/hlpSoilm.htm ldadhelp/hlpTemp.htm
+   ldadhelp/hlpTopo.htm ldadhelp/hlpTotrain.htm ldadhelp/hlpTotsnow.htm
+   ldadhelp/hlpVis.htm ldadhelp/hlpWchill.htm ldadhelp/hlpWind.htm
+   ldadhelp/hlpWxImg.htm ldadhelp/hlpWxOvly.htm ldadhelp/user1.html
+   ldadhelp/user2.html ldadhelp/user3.html ldadhelp/user3a.html
+   ldadhelp/user4.html ldadhelp/EMDSUsersGuide.html
+   ldadhelp/MenuEditor.html ldadhelp/LDADIngestManual.html
+   ldadhelp/Check.gif ldadhelp/aboutFsl.gif ldadhelp/aboutLdad.gif
+   ldadhelp/annotatedImage.gif ldadhelp/changeAnimTimeWindow.gif
+   ldadhelp/changeDelayBetweenFrames.gif
+   ldadhelp/changeDelayBetweenLoops.gif ldadhelp/changeMaxFrames.gif
+   ldadhelp/clearButton.gif ldadhelp/emds.gif ldadhelp/emds2.gif
+   ldadhelp/helpCursor1.gif ldadhelp/helpCursor2.gif
+   ldadhelp/helpCursor3.gif ldadhelp/imageMenuBar.gif
+   ldadhelp/ldadWebPage.gif ldadhelp/obsDisplay.gif
+   ldadhelp/probeDisplay.gif ldadhelp/probeMenuBar.gif ldadhelp/qcData.gif
+   ldadhelp/tempImage.gif ldadhelp/textMenuBar.gif
+   ldadhelp/textScrollerMenuBar.gif ldadhelp/textScrollers.gif
+   ldadhelp/toolbar.gif ldadhelp/weatherMenu.gif ldadhelp/webDismFlow.gif
+   ldadhelp/Topogr_denver.gif ldadhelp/Landuse_denver.gif
+   ldadhelp/Graphic.mnu ldadhelp/hospitals.shp ldadhelp/hospitals.shx
+   ldadhelp/hospitals.dbf ldadhelp/OverviewBlock.gif
+   ldadhelp/DetailClientBlock.gif ldadhelp/seqDiagClient.gif
+   ldadhelp/seqDiagIngestNonText.gif ldadhelp/seqDiagIngestText.gif
+   ldadhelp/prereleaseInstall.html ldadhelp/EMDSInstall.html
+   ################################################################ # DO
+   NOT CHANGE/ADD/REMOVE ITEMS BELOW
+   ################################################################
+   webSiteName.txt logconf.ini siteId.txt display0.jar display1.jar
+   display2.jar ptolemy.plot.jar symantec.jar
+   localizations/iii/wkspace/Graphic.mnu
+   localizations/iii/wkspace/Text.mnu localizations/iii/wkspace/Probe.mnu
+   localizations/iii/wkspace/Scroll.mnu localizations/iii/wkspace/Edit.mnu
+   localizations/iii/wkspace/Edit.frm
+   localizations/iii/wkspace/Xtensibl.frm Sync.class StatusText.class
+   StatusWindow.class ldad.jpg

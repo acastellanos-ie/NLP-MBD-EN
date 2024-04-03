@@ -1,0 +1,268 @@
+http://snfactory.lbl.gov/eso.science_case.ps
+
+   ESO Participation in the Nearby Supernova Factory 1 Overview The Nearby
+   Supernova Factory (SNfactory) is a project to discover and obtain
+   detailed lightcurve and spectral observations for over 300 nearby
+   supernovae during the period 2002-- 2006. This project has been
+   initiated by scientist at Lawrence Berkeley National Lab (LBNL) in the
+   United States; IN2P3, Observatories Lyon, and INPL in France; Stockholm
+   University in Sweden; and Centro Multidisciplinar de Astrofisica at the
+   Instituto Superior Tecnico in Portugal. The SNfactory will concentrate
+   on Type Ia supernovae (SNe Ia), the type which have recently been used
+   to determine that the expansion of the universe is accelerating. Type
+   II supernovae (SNe II) will also be developed as more reliable distance
+   indicators. Several aspects of the SNfactory set it apart from other
+   supernova projects. Foremost among these is that supernovae will be
+   discovered using a blind wide-area CCD-based survey; other nearby
+   supernova projects target known galaxies but there is now evidence that
+   this approach misses an important subset of supernovae. In addition,
+   the SNfactory will coordinate discovery and follow-up observations,
+   eliminating the delays and spotty early lightcurve coverage which
+   typically results from follow-up of supernovae listed in the IAU
+   Circulars. It is expected that with the SNfactory detailed follow-up of
+   supernova candidates can begin within as little as 12 hrs of the
+   discovery observations. Finally, SNfactory follow-up observations will
+   use an integral field unit spectrograph, data from which can be used to
+   construct both detailed flux-calibrated spectra and broadband images.
+   The regular photometric spectral time series for nearby supernovae the
+   SNfactory will generate will revolutionize the study of supernovae.
+   This dataset will also eliminate several limitations (bandpass
+   mismatch, wavelength-dependent slit losses, etc.) of all other
+   currently available instrumentation used to study supernovae. 2 Goals
+   The primary goal of the SNfactory is to determine those properties of
+   SNe Ia affecting their use for cosmology. The most critical of these
+   will be the search for deviations or extra parameters not accounted for
+   by the lightcurve width -- brightness relations currently used to
+   standardize SNe Ia for use as cosmological distance indicators. If such
+   deviations are found, it is expected that exclusion criteria or
+   improved standardization methods based on lightcurve shapes and/or
+   spectral features will be found to ameliorate the effect of deviant SNe
+   Ia on measurements of the cosmological parameters. Well-observed nearby
+   SNe Ia, especially in host galaxies spanning a wide range in
+   metallicity and star-formation histories, are essential for testing for
+   possible deviations. It is possible that the discovery of new
+   luminosity-related parameters will actually allow the standardization
+   of SNe Ia to be further improved, making them even better tools for
+   cosmology. A number of sample-size and technical issues related to the
+   use of SNe Ia as distance indicators for cosmology will also be
+   addressed by the SNfactory. These include: ffl securing the low-z
+   portion of the SNe Ia Hubble diagram (Fig 1) -- which serves as the
+   zero-point for high-z cosmological measurements -- using this large,
+   less biased, sample of nearby SNe Ia. ffl obtain U BV RI lightcurves
+   beginning well before maximum -- data currently available for only a
+   handful of nearby SNe Ia, and needed to fit the lightcurves of high-z
+   SNe Ia for which there is now have extensive data prior to maximum (see
+   Fig 2). ffl test and refine the lightcurve width vs. brightness
+   relation used to standardize SNe Ia luminosities, (to , 0:1 mag after
+   extinction correction), for which a wide range of lightcurve widths is
+   essential. ffl construct a U -band template lightcurve and a U -band
+   lightcurve width vs. brightness relation to allow U and U -B
+   lightcurves to be used to correct z ? 0:75 SNe Ia observed with, e.g.,
+   HST. ffl obtain spectral coverage with lightcurve phase, and thereby
+   determine accurate K-corrections as a function of lightcurve width and
+   time (see Fig 2). ffl determine intrinsic (unreddened) SNe Ia
+   color-curves needed to establish the correct color zeropoints for
+   host-galaxy extinction corrections. ffl test for the existence of
+   abnormal host-galaxy extinction laws. The uniquely large sample of
+   nearby SNe Ia expected from the SNfactory will allow these standardized
+   candles to be studied at a level of detail heretofore impossible.
+   Indeed, there are enough plausible luminosity-related parameters that a
+   large sample intentionally covering a wide range of such parameters (or
+   their surrogates) is essential (and can only be carried out with the
+   large discovery overcapacity possible with the SNfactory). This level
+   of scrutiny is demanded by the remarkable evidence for an accelerating
+   universe and by plans to refine and expand such measurements using much
+   larger (thousands) samples of high-redshift SNe Ia. The resulting
+   SNfactory dataset on SNe Ia will also allow detailed exploration of SNe
+   Ia properties never before possible, which will almost certainly lead
+   to a better understanding of SN physics and place strong constraints on
+   progenitor models. It will enable us to determine: ffl the intrinsic
+   luminosity function of SNe Ia ffl new relations between lightcurve
+   shapes, spectral diagnostics (such as UV continuum slope, Si5180/Si6150
+   line ratios), etc., and luminosity. ffl SNe properties in different
+   host galaxy environments (as a surrogate for progenitor age, mass, and
+   metallicity). ffl the rates of SNe of all types (presently uncertain by
+   at least 2x for nearby galaxies), including rates as a function of host
+   galaxy properties. 2 3 Components of the Nearby SNfactory 3.1 Discovery
+   The SNfactory will search for supernovae using CCD images obtained by
+   JPL's Near Earth Asteroid Team (NEAT). A proof-of-concept search
+   conducted using two nights of NEAT data found 4 confirmed supernovae.
+   NEAT has since expanded it's operation to include a 1.2-m telescope (at
+   the 10,000 ft summit of Haleakala, Hawaii) working 18 nights per month.
+   NEAT has agreed to examine supernova search fields three times during
+   each month, giving the SNfactory the potential to find many supernova
+   shortly after explosion. (Risetime -- the time from explosion to peak
+   brightness -- is considered one possible parameter that could affect
+   peak luminosity). In addition, since this search covers large portions
+   of the sky irrespective of known galaxies, it will be rid of the biases
+   to which pointed searches are subject due to their reliance on existing
+   galaxy catalogs. NEAT will soon quadruple it's capacity, with a second
+   1.2-m telescope operating at Mt. Palomar with a large CCD camera, so we
+   expect to discovery several supernovae per night. As with the
+   proof-of-concept search, NEAT data will be transferred in near realtime
+   via high-speed Internet connection to Lawrence Berkeley Nation Lab
+   (LBNL, where 1 Tb of NEAT data is already archived). Once there, the
+   images will be processed and searched using automated software
+   developed by the Supernova Cosmology Project (SCP) and further refined
+   by the SNfactory. Candidate supernovae will be screened interactively
+   and assigned a preliminary follow-up priority. An important aspect of
+   the SNfactory is that the selection of supernova candidates will be
+   quantitative and traceable, something current surveys completely lack
+   and which makes calculations of supernova rates and peculiarity
+   fractions extremely difficult. 3.2 Follow-up -- Lightcurves and
+   Spectroscopy The most revolutionary aspect of the SNfactory -- aside
+   from the huge numbers of supernovae it will find -- is the coordinated
+   follow-up using instrumention tailored to the study of supernovae.
+   Candidate supernovae found in the NEAT images must first be screened
+   with spectroscopy to confirm the supernovae and reveal its type (Ia,
+   II, Ib, Ic) and redshift. The SNfactory will not only discover
+   supernovae closer to explosion that other surveys do, with a 12 hr
+   turn-around it will also begin the follow-up much much sooner.
+   Typically candidate supernovae are confirmed with imaging on subsequent
+   nights, then reported to the IAU Circulars, and then observed
+   spectroscopically with regular - but infrequently -- scheduled time or
+   director's discretionary time (requiring a proposal for each supernova
+   and the availability of the right instrumentation). This process can
+   easily stretch on for a week or more after discovery. The SNfactory
+   plans to have at least two telescopes with optimal instrumentation
+   available every night, waiting to be fed by the stream of supernova
+   candidates coming from the two NEAT sites. Indeed, realizing this
+   capability is the main reason the SNfactory is seeking significant
+   regular access to an ESO telescope. Traditionally supernovae have been
+   followed with BV RI photometry, and spectra beyond the 3 initial
+   confirmation spectrum are rare. The SNfactory will change all that.
+   Using a integral field unit on a two-channel (blue & red) optical
+   spectrograph, the SNfactory's SuperNova Integral Field Sspectrograph
+   (SNIFS; under construction at Observatorie Lyon) equipped with LBNL's
+   red-enhanced CCD's, will allow spectroscopy of supernovae at all
+   epochs. Because these spectra will be spectrophotometric, U BV RIZ
+   photometry can be synthesized from these spectra, without the
+   uncertainties due to photometric color terms and K-corrections (the
+   latter usually based on non-spectrophotometric spectra). SNIFS will
+   retain one advantage of the traditional approach, which allows
+   surrounding field stars to be used for flux scaling when conditions are
+   non-photometric, by also having an imager which integrates on the field
+   immediately surrounding each supernova and having the exact same
+   exposure as the integral field unit. 4 More about SNIFS The
+   opto-mechanical layout of SNIFS is shown in Fig. X. The operation of
+   SNIFS is intended to be fully automated. An observer/technician is
+   needed to prepare the telescope for observing, point the telescope to
+   targets designated by the SNfactory, close the telescope, and possibly
+   ensure that the SNIFS dewars are supplied with LN2. SNIFS is intended
+   to be capable of focusing the telescope, recognizing star fields near
+   requested targets using it's own imager, adjusting the telescope
+   pointing to place the desired target on the integral field unit, and
+   acquire and guide on a suitable star. It will then execute an observing
+   sequence for the spectrograph and imager, read out the date, determine
+   the quality of the data, and take it's own calibration (afternoon dome
+   flats may also be required on occasion). Moving parts on SNIFS are
+   limited to a shutter, filter wheel, and pick-off mirror (feeding the
+   spectrograph). The electronic components consist of detector readout
+   (for 4 CCD's), a shutter, filter wheel, calibration lamps, and
+   status-monitoring. Software interface to the telescope control system
+   to execute pointing and focus adjustments, and to obtain information
+   for the data headers and control software will be necessary. An
+   additional software interface to the Internet is required to transfer
+   the imager and spectrograph data (at most 64 Mbytes every 10 minutes,
+   and that only during the fraction of time SNIFS is operating) to Europe
+   and the United States so that the observing program can be revised as
+   needed based on the new observations. The SNIFS spectrograph
+   continuously covers a 600\Theta 600field of view with a sampling of
+   0.400. It has blue and red channels, which are operated simultaneously,
+   generating spectra on 2k\Theta 4k LBNL red-enhanced CCD's at
+   resolutions of 4.5*A and 6.6*A, respectively. The imager consists of a
+   2k\Theta 4k LBNL red-enhanced CCD with 15_mpixels, which views the sky
+   surrounding the spectrograph pick-off mirror. The built-in
+   guider/focuser consists of a second identical CCD. (If designed for a
+   telescope which provided guiding, the guider channel on SNIFS2 could be
+   modified to serve as an imager.) The imager and guider are used
+   directly, without re-imaging optics. 4 5 A Role for ESO: The SNfactory
+   currently has plans to place the first SNIFS on the University of
+   Hawaii 2.2-m telescope on Mauna Kea. It will be permanently mounted,
+   and continuously available for use of up to 20% of the night. SNIFS is
+   under construction at Observatorie Lyon, and is expected to begin
+   operations on Mauna Kea in early 2002. We are now seeking a significant
+   fraction of time on a second telescope at a comparably good site to be
+   the home of SNIFS2 (which could be available as early as mid-2002). The
+   ESO 2.2-m could be such a telescope if significant time can be obtained
+   and arrangements can be made to permanently mount a second SNIFS. The
+   ESO NTT or 3.6-m are other possible options. The membership of the
+   SNfactory is predominantly European, with more than 10 scientists (and
+   several students) from ESO nations such as France, Sweden, and
+   Portugal. This, it is only fitting that an approach be made to ESO for
+   its assistance in realizing the full potential of the SNfactory. In an
+   age where 8-m telescopes like the VLT dominate, smaller telescopes like
+   the ESO 2.2-m must seek roles for themselves that capitalize on their
+   ability to be dedicated to large and unique projects. We seek
+   suggestions from ESO on how it can contribute to a program -- the
+   SNfactory -- which will revolutionize the study of supernovae. Below we
+   have listed some possible arrangements for SNIFS at La Silla, in order
+   of preference: 1. SNIFS permanently mounted on the ESO 2.2-m and used
+   for the SNfactory at least 20% of the time. 2. SNIFS mounted at a
+   Nasymth port on the NTT (possibly as a replacement for SuSI2), and
+   available at least 10% of the time for the SNfactory. 3. SNIFS mounted
+   on the ESO 2.2-m for at least 2 nights each week, during which time it
+   would be used mainly for the SNfactory. 5 \Omega M No Big Bang 1 2 fl0
+   1 2 3 fl expands forever \Omega \Lambda Flatfl\Lambda = 0fl Universe-1
+   0 1 2 3 2 3 close do pen 90% 68% 99%95% recollapses eventually flat
+   Calan/Tololofl(Hamuy et al, fl A.J. 1996) SupernovaflCosmologyfl
+   Project effe ctiv e m B (0.5,0.5) (0, 0)( 1, 0 ) (1, 0) (1.5,-0.5) (2,
+   0) (\Omega M,\Omega \Lambda ) = fl ( 0, 1 ) Fla t \Lambda = 0 redshift
+   z 14 16 18 20 22 24 26 0.02 0.05 0.1 0.2 0.5 1.00.02 0.05 0.1 0.2 0.5
+   1.0 Figure 1: Cosmological constraints from Type Ia supernovae: Hubble
+   diagram and resulting constraints on \Omega M and \Omega \Lambda from
+   42 high-z Type Ia supernovae from Perlmutter et al 1998b. At left, the
+   68%, 90%, and 99% confidence regions for an unconstrained fit for
+   \Omega M and \Omega \Lambda are shown. At right, the low-z SNe Ia are
+   those from Hamuy et al 1996a which are suitable for analysis using the
+   same methods as used for the high-z SNe Ia. 6 -20 0 20 40 60-17 -18 -19
+   -20 -20 0 20 40 60-17 -18 -19 -20 V Band as measured light-curve
+   timescalefl"stretch-factor" corrected days MV - 5 log (h/6 5) days MV -
+   5 log (h/6 5) Calan/Tololo SNe Ia SpectraflAn Example: SN1994an at z =
+   0.378fl +9 days past max observer framefl= +6 days rest frame fl days
+   flrest frame fl Wavelength in SN Rest Frame Scaled Flux +flConstants
+   Keck 10-m TelescopeSN1994an at z = 0.378 "Nearby" Type Iafl SN1992A -5
+   -1 +3 +6 +7 +11 +16 +17 +24 +28 Figure 2: Photometric and Spectral Time
+   Evolution of Type Ia supernovae: At left, V -band lightcurves for
+   nearby SNe Ia from Hamuy et al 1996b. The upper panel shows lightcurves
+   for individual SNe Ia, with absolute magnitudes derived assuming pure
+   Hubble flow and Ho = 65 km/s/Mpc. Template lightcurves from Leibundgut
+   et al 1991 have been fit to the lightcurve for each SN. Note that the
+   brighter SNe have lightcurves which are broader and decline more
+   slowly. Also notice that very few of these SNe have data well before
+   maximum light. The lower panel at left shows the superposition of these
+   data after using a linear correction for stretch, S, and scaling the
+   time axis (with maximum at t = 0) by the same stretch-factor. We have
+   found that the lightcurves for a given filter for most SNe Ia can be
+   represented by a single stretched template. We have also found that
+   this stretch factor is linearly proportional to the intrinsic
+   luminosity (in magnitudes). At right is the evolution of the spectrum
+   of a Type Ia supernova as the explosion ages. This was constructed
+   using spectra from different SNe Ia obtained at different epochs. The
+   shaded regions highlight portions of the spectra which are seen to
+   evolve with time. Some of these can also be used as luminosity
+   indicators. 7 200 300 400 500 600 700 800 900 1000 1100 1200Wavelength
+   (nm)0.00 0.10 0.20 0.30 0.40 0.50 0.60 0.70 0.80 0.90 1.00 MODEL
+   PARAMETERS:Quartz thickness = 0.106 um ITO thickness = 0.056
+   umPolysilicon thickness = 0.020 um T = 143.1 K = -130.0 C U B V R I Z
+   CTIO T2k Model (red end, no abs)flModel (blue, drop-deadfl abs in
+   poly)flModel (blue, reflectivity)fl Lick QE measurementsfl (photon
+   transfer methodfl gain calibration)fl(1- Refl), Lick reflectivityfl
+   measurements Qu ant um effi cien cy ( ) o r 1- refl ect ivit y ( ) fl
+   Figure 3: Measured QE of LBNL red-enhanced CCD: The black solid circles
+   show the measured QE as a function of wavelength for a LBNL 2k\Theta 2k
+   CCD. The red crosses show 1\Gamma reflectance as a function of
+   wavelength for the same device. Overlaid on these measurements are
+   model calculations derived from the known physical parameters of the
+   CCD's. Also overlaid as a thick gray line is the QE for a good imaging
+   CCD from Cerro Tololo Interamerican Observatory. The standard U BV RIZ
+   bandpasses are also shown for reference. Note that this CCD has
+   enhanced QE in at longer wavelengths than conventional thinned CCD's
+   due to it's greater thickness (300_m, which is fully deleted). The
+   antireflection coating is also optimized for red wavelengths. These
+   devices are free of fringing, which plagues other CCD's at red
+   wavelengths. The difference between 1\Gamma reflectance and the QE
+   indicates losses in the polysilicon gettering layer. An anti-reflection
+   coating optimized for blue wavelengths would improve the blue
+   performance slightly. Alternatively, SNIFS may use an EEV CCD for the
+   blue channel. 8

@@ -1,0 +1,76 @@
+http://www.isd.mel.nist.gov/projects/sw_component_spec/
+
+      Specifications for Intelligent Control System Software Components
+
+   atp logo Advanced Technology Program
+                                       isd logo Intelligent Systems Division
+
+            Enabling Component-Based Intelligent Control Systems
+
+   This project is sponsored by the National Institute of Standards and
+   Technology's Advanced Technology Program (ATP) Component-Based Software
+   Focused Program. The Component-Based Software Focused Program is aimed
+   at increasing the productivity of software users and developers by
+   enabling systematic reuse of components, increasing interoperation of
+   software, and enabling automated assembly of software components. The
+   Intelligent Systems Division of the Manufacturing Engineering
+   Laboratory is researching methods of specifying software components
+   tailored for real-time control systems. Collaborating with an ATP
+   grantee, Real-Time Innovations, Inc., we are developing the
+   specifications and implementing a component for the estimation of a
+   part's pose based on sensory information.
+     __________________________________________________________________
+
+   General Information about Software Component Specifications
+     * What Are Specifications for Components?
+     * How Can Specifications Be Used?
+     * What Types of Problems Have We Studied?
+     * What Are Some Methods for Conveying a Component's Specifications?
+     __________________________________________________________________
+
+  A Paper Documenting our Initial Findings is Available.
+
+     * PDF (66K) *
+     * PostScript (275K)
+
+   *To get the free PDF viewer download Adobe Acrobat Reader from Adobe's
+   homepage, http://www.adobe.com/
+     __________________________________________________________________
+
+   For more information, contact:
+
+     Elena Messina
+     National Institute of Standards and Technology
+     Building 220, Room B124
+     Gaithersburg, MD 20899-0001
+     E-mail: elena.messina@nist.gov
+     Voice: 301-975-3510
+     FAX: 301-990-9688
+     Web: http://www.isd.mel.nist.gov/staff/messina/
+     John Horst
+     National Institute of Standards and Technology
+     Building 220, Room B124
+     Gaithersburg, MD 20899-0001
+     E-mail: john.horst@nist.gov
+     Voice: 301-975-3430
+     FAX: 301-990-9688
+     Web: http://www.isd.mel.nist.gov/staff/horst/
+     __________________________________________________________________
+
+  Our project team
+     __________________________________________________________________
+
+    1. This software was produced by the National Institute of Standards
+       and Technology (NIST), an agency of the U.S. government, and by
+       statute is not subject to copyright in the United States.
+       Recipients of this software assume all responsibility associated
+       with its operation, modification, maintenance, and subsequent
+       redistribution.
+     __________________________________________________________________
+
+   The National Institute of Standards and Technology is an agency of the
+   U.S. Department of Commerce, located 25 miles north of Washington, D.C.
+   in suburban Gaithersburg, Maryland. A map to NIST is available on-line.
+     __________________________________________________________________
+
+                      Last Modified: February 27, 2001

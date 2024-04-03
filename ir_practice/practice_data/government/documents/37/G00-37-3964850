@@ -1,0 +1,25 @@
+http://scripts.osha-slc.gov/GD-1.19/
+
+                               Index of /GD-1.19
+
+        Name                    Last modified       Size  Description
+  ___________________________________________________________________________
+
+ [DIR]  Parent Directory        17-Sep-2001 12:44      -
+ [   ]  ChangeLog               14-Feb-2001 11:38     1k
+ [TXT]  GD.html                 14-Feb-2001 11:38    32k
+ [   ]  GD.pm                   14-Feb-2001 11:38    33k
+ [   ]  GD.xs                   14-Feb-2001 11:38    13k
+ [   ]  MANIFEST                14-Feb-2001 11:38     1k
+ [   ]  Makefile.PL             14-Feb-2001 11:38     1k
+ [   ]  bdftogd                 14-Feb-2001 11:38     4k
+ [DIR]  demos/                  14-Feb-2001 11:38      -
+ [   ]  fonttest                14-Feb-2001 11:38     1k
+ [DIR]  libgd/                  14-Feb-2001 11:38      -
+ [   ]  qd.pl                   14-Feb-2001 11:38    32k
+ [DIR]  t/                      14-Feb-2001 11:38      -
+ [   ]  typemap                 14-Feb-2001 11:38     1k
+     __________________________________________________________________
+
+
+    Apache/1.3.12 Server at scripts.osha-slc.gov Port 80

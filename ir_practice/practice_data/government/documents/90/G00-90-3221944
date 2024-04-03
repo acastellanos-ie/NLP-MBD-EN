@@ -1,0 +1,137 @@
+http://t1web.lanl.gov/JD.pdf
+
+   A Bound and Estimate for the Maximum Compression of Single Shocks J. D.
+   Johnson T Division Los Alamos National Laboratory Los Alamos, NM 87545
+   Abstract We derive that the compression for any single shock has an
+   upper bound of 7. This is in the case of shocking from any initial
+   state except gaseous densities with temperatures such that a
+   significant fraction of the electrons are bound. For shocks in
+   condensed material initially near ambient, we present a simple analytic
+   estimate for the maximum compression as a function of (initial
+   density), A (atomic weight), Z (atomic number), and E (the o sum of
+   cohesion, dissociation, and total ionization energies).
+   __________________________________ Introduction For any material that
+   is compressed by a shock wave, one might suppose that increasing the
+   pressure of the shock wave to arbitrarily high values will produce an
+   arbitrarily large compression. This is not true and in particular one
+   can show that for infinitely strong shock waves in any substance there
+   is a compression of exactly fourfold from the initial density in front
+   of the shock to the final density behind the shock. Thus in defiance of
+   the high pressure, the compression is limited by the high temperatures
+   produced by shocks. For condensed materials shocked from near ambient
+   the maximum possible compression attainable by a single shock is
+   greater than four and occurs at some finite pressure, the particular
+   values depending on the specific material and on the initial density
+   and temperature. This overshot of the fourfold limit is caused by the
+   "softening" of the material when energy is drained into internal
+   degrees of freedom such as in ionization. In this note we derive from
+   general arguments an upper bound on the maximum compression attainable
+   by a single shock in any material from any initial state except those
+   with gaseous densities and a significant number of bound electrons. We
+   also obtain an estimate of the maximum compression in the case of
+   condensed materials shocked from near ambient. An Upper Bound A
+   Hugoniot is a curve in thermodynamic parameter space that is the
+   collection of final states behind a shock as the strength of a shock is
+   varied for fixed initial state. Hugoniots, along with isotherms,
+   isobars, and isentropes, for example, are curves specified on the
+   equation of state surface by constraints such as requiring that the
+   temperature, pressure, or entropy is constant. It is just that the
+   constraint for the Hugoniot is not as simple as keeping a standard
+   thermodynamic variable fixed. For weaker shocks with little entropy
+   production the Hugoniot is approximately an isentrope. For shocks with
+   significant entropy production the Hugoniot in pressure-density space
+   is stiffer than an isentrope. The principal Hugoniot is that one with
+   ambient as the initial state [1]. Any Hugoniot is determined from the
+   hydrodynamic equation of state P( ,E) and the energy jump constraint, 1
+   E - Eo = (P + o P )(1/ o -1/ ) 2 . (1) 2 Here P is pressure, is
+   density, and E is the internal energy per gram. P , , and E o o o
+   represent the same but are for the initial state of the Hugoniot. We
+   define the compression as = / and rewrite Eq. (1) as o = 4 + [2 (E - Eo
+   )- ( 3 P + o P )]/(P + o P ) . (2) We now assume that the virial
+   theorem is exact for the equation of state [2]; i.e., if E = K + U,
+   where K is the average kinetic energy per gram and U is the average
+   potential energy per gram, then P/ = 2K/3 + U/3. (We are considering
+   here the case of physical interest, namely, the charge neutral, quantum
+   Coulomb system.) Substituting into Eq. (2), we get = b - 3 o P (1+ )/(P
+   + o P ) b , (3) where = 4 + (U - U )/(P + P ). If U U , then 4. If U U
+   , then we rewrite b o o o b o Eq. (3) as b = 4 + 3/[1+ 2Ks /Us + 3 o P
+   (1/ +1/ o )/Us] , (4) where K = K  K and U = U  U . s o s o For
+   classical systems, K 0 because the average kinetic energy is linear in
+   s temperature T. This is not the case in general for a quantum, charge
+   neutral, bare Coulomb system. For low densities where atomic states are
+   a good approximation for the electrons, the electrons ionize from
+   localized high kinetic energy states to low kinetic energy extended
+   free states. Thus the average kinetic energy drops as the temperature
+   rises as long as there is a significant fraction of electrons remaining
+   to be ionized. This is nothing more than the uncertainty principle with
+   the electrons going from a small to a big box. The just discussed 3
+   situation is not the case for densities higher than gaseous. There the
+   electrons do not have an extreme change in localization in going from
+   low to high temperatures. Thus for quantum systems, it is very
+   reasonable that K 0 when U 0 if 7 - ( > 0) for a s s material shocked
+   from densities greater than gaseous. (Models support this position.)
+   Then from Eq. (4), 7. Thus we conclude that the compression along a
+   single-shock b Hugoniot for any material cannot exceed 7 for a broad
+   class of initial shock states. An Estimate for the Principal Hugoniot
+   We now look to the principal Hugoniot, where P = 0. We assume that we
+   are o shocking from T = 0. (The difference between zero and room
+   temperature is small when we are looking for estimates of the maximum
+   compression.) From Eqs. (3) and (4), we find that = 4 + 3 1 /( + 2Ks
+   /Us) . (5) It is convenient to define Y = U /(2 E) where, for the
+   principal Hugoniot, E = -E and is s o the sum of cohesive,
+   dissociation, and total ionization energies. Then = (7Y + 4Ks / E ) /(Y
+   + Ks / E ) . (6) From the exact high-temperature series for the
+   equation of state of any elemental material [3], we obtain Y as an
+   exact series in 1/K . (We are thinking of K as the s s independent
+   variable.) All that we need is Y = 1+ a 1/2 + , (7a) 4 with a = -e3(1+
+   Z)2(L/ ) A 2 / E (7b) and = 3 3 Z . (7c) o /(2Ks ) In these equations,
+   L is Avogadro's number, and e is the electron charge. The a 1/2
+   originates from the Debye-Hückel term in the high-T expansion. We
+   substitute Eqs. (7a)-(7c) into Eq. (6) and solve for the maximum
+   compression, . The result is m m = ( 4 1+ C 7 )/(1+ C 4 ) , (8a) with C
+   = ( 2 E / Z)3 4 A 81 /[ 6 e 1 ( + Z)4 4 L o] . (8b) This is our
+   estimate for the maximum compression along the principal Hugoniot.
+   Equation (8b) can be simplified further if one neglects cohesive and
+   dissociation energies. We fit to the total ionization energies of C. E.
+   Moore (through Ca) [4] to estimate that E 13.6 Z 2.4 eV per atom. Thus
+   C 011 . 0 2 . 4 AZ /[ o 1 ( + Z)4] . (8c) Conclusions The estimates of
+   Eqs. (8a)-(8c) and an upper bound of 7 are our results. The only
+   existing data that is a strong test of our expression is for Al [5]. In
+   that case 5, and m m that value agrees well with Eqs. (8). One has
+   available more terms in the expansion Eq. (7a). We have extensively
+   studied these terms and found that they do not influence our 5
+   estimates at all. We have also extensively worked with the series Eq.
+   (7a) using Padé approximants. Again there was no significant influence.
+   We feel Eqs. (8a)-(8c) are a quite good approximation of .m In a
+   previous discussion of the high pressure Hugoniot [6], we presented the
+   relations s = 1 + /2 and = 1 + 2/ , where s is the derivative of the
+   shock velocity with m respect to the particle velocity and = 1/ P/ E is
+   the Grüneisen parameter. These relations are exact at any point on the
+   Hugoniot where the density derivative of the pressure is infinite. The
+   first is also approximately true for any given material over a very
+   large region of the Hugoniot, including particle velocities from about
+   10 to 100 km/s. In such a region it is universal that s 1.2 and thus
+   0.4. It is above this very linear region that the Hugoniot becomes
+   steeper and in pressure-density space attains maximum compression.
+   There s will be a little larger than its value in the linear region.
+   (We should clarify that there are two linear regions in the shock
+   velocity-particle velocity Hugoniot. One is from 0 to about 3 km/s for
+   the particle velocity and the other, which is the one of interest, is
+   from about 10 to 100 or more km/s.) From our approximation of the
+   maximum compression and the above two relations, we can obtain
+   estimates of s and at the maximum compression point. The ultimate
+   limiting values for shocks of infinite strength are = 4, s = 4/3, and =
+   2/3. 6 References [1] For more discussion see, for example, J. O.
+   Hirschfelder, C. F. Curtiss, and R. B. Bird, Molecular Theory of Gases
+   and Liquids (John Wiley & Sons, Inc., New York, 1954), p. 398. [2] We
+   especially prefer the physics derivation of J. Yvon, Acad. Sci. (Paris)
+   227 , 763(1948). [3] See, for example, A. L. Fetter and J. D. Walecka,
+   Quantum Theory of Many-Particle Systems (McGraw-Hill, Inc., New York,
+   1971) p. 267. [4] C. E. Moore, "Ionization Potentials and Ionization
+   Limits Derived from the Analysis of Optical Spectra," Nat. Stand. Ref.
+   Data Ser., Nat. Bur. Stand. (U.S.), 35 (1970). [5] A. S. Vladimirov, N.
+   P. Voloshin, V. N. Nogin, A. V. Petrovtsev, and V. A. Simonenko, Sov.
+   Phys. JETP Lett. 39 , 85 (1984). [6] J. D. Johnson, Shock Compression
+   of Condensed Materials1997, (AIP, Woodbury, New York, 1998), pp. 27-30
+   and General Features of HugoniotsII, Los Alamos report LA-13217-MS,
+   January 1997 (unpublished). 7

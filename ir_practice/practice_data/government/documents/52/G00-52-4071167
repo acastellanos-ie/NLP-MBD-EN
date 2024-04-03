@@ -1,0 +1,163 @@
+http://endo.sandia.gov/cubit/
+
+   #Scott A. Mitchell
+
+   [About Sandia]
+   [Unique Solutions]
+   [Working With Us]
+   [Contacting Us]
+   [News Center]
+   [Search]
+   [Home]
+   [navigation panel] [1pixel.gif]
+
+                                 [cubit.gif]
+                       CUBIT Mesh Generation Toolsuite
+   Automatic Unstructured Hex, Tet, Quad, and Tri Meshing and Solid Model
+                            Geometry Preparation
+
+   [Sandia National Laboratories]
+     __________________________________________________________________
+
+
+   Quick Fact Sheet
+
+   CUBIT 6.0
+
+   Links & Bibliography
+
+   Cu-Tips
+
+   Documentation
+
+   Licensing
+
+   Download directory
+
+The CUBIT Toolsuite
+
+   CUBIT is a toolkit for robust and unattended generation of two- and
+   three-dimensional finite element meshes (grids). Our main goal is to
+   reduce the time, the user time, it takes to generate meshes, particular
+   large hex meshes of complicated, interlocking assemblies. Verde and CGM
+   are companion tools in the suite. CUBIT is a solid-modeler based
+   preprocessor that meshes volumes and surfaces for finite element
+   analysis. Mesh generation algorithms include quadrilateral and
+   triangular paving, 2d and 3d mapping, hex sweeping and multi-sweeping,
+   tet meshing, and various special-purpose primitives. Our smoothing
+   algorithms are state of the art and are incorporated into volume
+   sweeping. CUBIT contains many algorithms for controlling and automating
+   much of the meshing process, such as automatic scheme selection,
+   interval matching, sweep grouping, and sweep verification. One of
+   CUBIT's strengths is its geometry module, for changing the underlying
+   solid model into the model you wish to mesh. This is now available in
+   library form to other applications, e.g. adaptivity, as the separate
+   "Common Geometry Module"
+   CGM.
+
+CUBIT 6.0 [new.gif]
+
+   CUBIT 6.0 was released 27 September 2001. Read the release
+   announcement.
+
+CUBIT 7.0 beta for Windows [new.gif]
+
+   The command-line version of CUBIT 7.0 beta has been successfully ported
+   to Windows for those without access to the GUI, as of 19 Jan 2002. Read
+   the announcement.
+
+Verde 2.5 beta [new.gif]
+
+   Verde 2.5 beta wae released 18 Dec 2001. There was a seminar. Read the
+   release announcement.
+
+CUBIT Tutorials
+
+     * Basic Tutorial Slides
+     * Advanced Tutorial Slides
+     * Schedule/Content
+     * Demo Files
+
+CUBIT Documentation:
+
+     * Verde GUI 2.5 Beta documentation (Postscript File)(PDF File)
+       [new.gif]
+     * Cubit On-Line User's Manual Version 4.0 (html)
+     * Version 4.0 Users Manual (pdf)
+     * Version 3.1 Users Manual (Postscript)
+     * Quick-reference sheet (Postscript File)(PDF File)
+     * Version 2.0 Users Manual (Postscript File)(PDF File)
+     * Version 1.14 Users Manual (Postscript File)
+     * Cu-Tips
+     * Users Junkyard
+     * Restricted documents (Technical reports, etc; Sandia-only)
+     * Developers Manual (restricted)
+     * Developers Junkyard (restricted)
+     * CGM (Common Geometry Module) (restricted)
+
+SEACAS
+
+   Many of the SEACAS tools work well with CUBIT; the SEAMS pre- and
+   post-processing codes, database translation codes, and support
+   libraries complement CUBIT's capabilities. SEACAS is also developed by
+   Sandia, but is administered and licensed separately from CUBIT.
+     * More information about getting SEACAS and SEAMS and their
+       capabilities.
+     * Documentation and manuals for SEACAS codes, libraries and formats.
+     * Exodus II manual. Exodus II is the open mesh output format used by
+       CUBIT.
+
+CUBIT Licensing and Distribution:
+
+   CUBIT research licenses are available free to all universities, and to
+   the U.S. Government, and to U.S. Government laboratories, for
+   non-commercial research.
+
+   CUBIT commercial licenses are available to U.S. and non-U.S. companies,
+   non-U.S. Government laboratories, and universities for commercial
+   purposes. In addition to the standard end-user license, we are open to
+   licensing CUBIT, selected algorithms in CUBIT, or the Common Geometry
+   Module (CGM) for inclusion in other software.
+
+   CUBIT is available on a wide variety of hardware platforms, including
+   NT, Linux, and most Unix workstations.
+
+   Obtaining a CUBIT License:
+     * Everyone except Employees of Sandia National Laboratories
+          + 1. Fill out a participant data sheet (pds). Get the Word
+            document or Postscript.
+          + 2. Write "Cubit Mesh Generation Toolkit" across the top of
+            page one of the pds and fill out the rest of it. Then, for
+            commercial Test and Evaluation licenses (with an eye towards
+            commercial purchase) email (llmcnie@sandia.gov) or fax
+            (505-843-4175) it to Linda McNiel. For academic or research
+            licenses, email (slhealy@sandia.gov) or fax (505-844-4523) it
+            to Sharon Healy. Also send the original signed pds via paper
+            mail (to the address indicated on the pds). Linda or Sharon
+            can also provide help in how to fill out the pds. Non-U.S.
+            companies and individuals may be asked for some additional
+            export control information.
+          + 3. Once you have a license, we will issue you a password so
+            that you can download the executable of your choice from the
+            web.
+     * Sandia Employees ONLY
+          + 1. Email Bob Kerr your request, Include your organization
+            number, and some indication of what you will use Cubit for
+            (for internal tracking only.)
+          + 2. We will issue you a password so that you can download the
+            executable of your choice from the web.
+
+   For technical information about CUBIT see the documentation, or contact
+   Scott Mitchell, samitch@sandia.gov.
+     __________________________________________________________________
+
+
+    [Mail to:djmelan@sandia.gov] Scott A. Mitchell
+
+   Last modified: September 27, 2000.
+     __________________________________________________________________
+
+
+   Back to top of page
+
+   Questions and Comments || Acknowledgment and Disclaimer

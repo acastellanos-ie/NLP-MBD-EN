@@ -1,0 +1,34 @@
+http://edcw2ks15.cr.usgs.gov/fgdc/EDCgateway.html
+
+   [nsdi2.gif]
+
+EROS Data Center (EDC)
+Entry Point to Geospatial Data Clearinghouse
+     __________________________________________________________________
+
+   Select one of the following interfaces to search for spatial data.
+   These options allow you to search for digital geographic data based on
+   its location, time period of content, full-text and fielded search and
+   to select one or more collections to query.
+
+   [searchw.gif]
+
+     NEW!   Use the NSDI Search Wizard to "smart select" servers and data
+
+   [search1.gif]
+
+     NEW!   Search Clearinghouse sites using map interface with place
+   names (Uses Java applet)
+
+   [search2.gif]
+
+     Search Clearinghouse sites using place names (Does not use Java
+   applet)
+
+   [status.gif]
+
+     Check status of participating Clearinghouse collection servers
+     __________________________________________________________________
+
+   Hosted by:   The EROS Data Center and Federal Geographic Data Committee
+   Secretariat, Reston, VA

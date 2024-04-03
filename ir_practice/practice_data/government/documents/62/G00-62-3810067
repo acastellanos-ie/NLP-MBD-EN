@@ -1,0 +1,111 @@
+http://www.insc.anl.gov/matprop/
+
+                                                                  Security
+                                                                       and
+                                                                   Privacy
+                                                                    Notice
+
+                                                                Disclaimer
+
+   INSC Logo - International Nuclear Safety Center at ANL
+   Main Graphical Menu Choices
+
+                                                                INSC Material
+                                                          Properties Database
+     __________________________________________________________________
+
+  Table of Contents
+
+     * Introduction to the INSC Material Properties Database
+     * Material Type Categories
+     * Material Property Categories
+     * Global Documents
+     * Related Links
+     * What's New?
+     * Registration for Notification on Updates
+
+  Introduction to the INSC Material Properties Database
+
+   Material properties that are to be included in the database are
+   intended to meet the needs of analysts using computer codes and doing
+   experiments for safety evaluation of the world's commercial nuclear
+   reactors. The focus is on the materials used in light water reactors
+   (LWRs) with initial emphasis on high-priority properties of materials
+   unique to Soviet nuclear reactor designs and reactors in eastern-Europe
+   and developing countries. A list of properties for each material and
+   the phases to be considered are determined based on a needs assessment.
+   The longer-term goal is to include data that will meet future needs
+   such as materials used in evolutionary reactor designs, properties of
+   extended burnup fuel, and possibly properties of mixed oxide fuels.
+
+  Material Type Categories
+
+   In accord with a proposed database by the IAEA, the properties are
+   organized according to material type in the following categories:
+     * Fuel
+     * Cladding
+     * Absorber materials
+     * Structural materials
+     * Coolants
+     * Concretes
+     * Mixtures relevant to last stages of severe accidents
+
+  Material Property Categories
+
+   The database user may select one of these categories to obtain a list
+   of materials for which there are properties. The categories for the
+   properties to be assessed are:
+     * Thermodynamic properties
+     * Transport properties
+     * Mechanical properties
+
+   Although some properties such as density and thermal expansion are
+   required for all materials, some properties are relevant for only
+   certain materials.
+
+  Global Documents
+
+   In addition to the above categories, some global documents concerning
+   more than one specific property or material are available. They are
+   usually accessed by following links from the other material properties
+   documents.
+     * Relationship between materials properties
+
+  Related Links
+
+   This link provides access to information on the THERSYST Database for
+   Thermophysical Properties. The experimental data that are analyzed in
+   the assessments in the INSC Material Properties Database are stored in
+   the THERSYST Database. Information regarding how these data may be
+   obtained from the THERSYST Database is given at this site.
+
+   Please follow this link to additional databases of material properties
+   available on the world wide web.
+
+  What's New?
+
+   This last paragraph provides quick links to recent modifications,
+   corrections, or additions to the INSC Materials Properties Database.
+   Please contact us if you are interested in an automated E-mail
+   notification on status and upgrades of the Material Properties Section.
+     * September 1999 - The following chapters were changed or added:
+          + Zr-1%Nb - Thermal Conductivity has now it's own INSC document
+            instead of a link to the IBRAE database in Moscow - see here.
+          + Zirconium - Enthalpy of Fusion - see here.
+     * July 1999 - The following chapters were changed or added:
+          + Uranium Dioxide - Thermal Conductivity and Thermal Diffusivity
+            of Solid UO2 - see here.
+     * June 1999 - The following chapters were changed or added:
+          + Uranium Dioxide - Enthalpy and Heat Capacity of Liquid UO2 -
+            see here.
+          + Uranium Dioxide - Enthalpy of Fusion - see here.
+          + Uranium Dioxide - Thermal Expansion of Solid UO2 - see here.
+          + Uranium Dioxide - Enthalpy and Heat Capacity of Solid UO2 -
+            see here.
+     __________________________________________________________________
+
+   Please send questions or comments regarding material properties to:
+   Joanne K. Fink, JKFink@anl.gov
+     __________________________________________________________________
+
+                               Last Modified on Monday, 11-Oct-99 11:03:29

@@ -1,0 +1,1295 @@
+http://ecfp.cadc.uscourts.gov/MS-Docs/1648/0.pdf
+
+   ORAL ARGUMENT SCHEDULED FOR FEBRUARY 26-27, 2001
+   _______________________________________________________________________
+   _______
+   _______________________________________________________________________
+   _______ Nos. 00-5212, 00-5213 IN THE UNITED STATES COURT OF APPEALS FOR
+   THE DISTRICT OF COLUMBIA CIRCUIT _______________ UNITED STATES OF
+   AMERICA and STATE OF NEW YORK, et al., Plaintiffs-Appellees v.
+   MICROSOFT CORPORATION, Defendant-Appellant _______________ ON APPEAL
+   FROM THE UNITED STATES DISTRICT COURT FOR THE DISTRICT OF COLUMBIA
+   _______________ BRIEF FOR APPELLEES UNITED STATES AND THE STATE
+   PLAINTIFFS _______________ ELIOT SPITZER A. DOUGLAS MELAMED Attorney
+   General of the Acting Assistant Attorney General State of New York
+   JEFFREY H. BLATTNER PREETA D. BANSAL Deputy Assistant Attorney General
+   Solicitor General JEFFREY P. MINEAR HARRY FIRST DAVID C. FREDERICK
+   Assistant Attorney General Assistants to the Solicitor General MELANIE
+   L. OXHORN MARY JEAN MOLTENBREY Assistant Solicitor General Director,
+   Civil Non-Merger Enforcement RICHARD L. SCHWARTZ CATHERINE G.
+   O'SULLIVAN Assistant Attorney General ROBERT B. NICHOLSON 120 Broadway
+   DAVID E. BLAKE-THOMAS New York, NY 10271 JOHN F. COVE, JR. JAMES E.
+   DOYLE SUSAN M. DAVIES Attorney General of Wisconsin ADAM D. HIRSH KEVIN
+   J. O'CONNOR ANDREA LIMMER Lead State Counsel PHILLIP R. MALONE Office
+   of the Attorney General DAVID SEIDMAN State Capitol, Suite 114 East
+   CHRISTOPHER SPRIGMAN Madison WI 53707-7857 Attorneys (608) 266-8986
+   Department of Justice Washington D.C. 20530 (202) 514-2413 CERTIFICATE
+   AS TO PARTIES, RULINGS, AND RELATED CASES A. All parties, intervenors
+   and amici appearing before the district court and in this court are
+   listed in the Brief for Appellant. B. References to the rulings at
+   issue appear in the Brief for Appellant. C. This case was previously
+   before this Court in Nos. 98-5399 and 98-5400, United States v.
+   Microsoft Corp., 165 F.3d 952 (D.C. Cir. 1999). There are no other
+   related cases currently pending in this Court or in any other court.
+   TABLE OF CONTENTS CERTIFICATE AS TO PARTIES, RULINGS, AND RELATED CASES
+   . . . . . . . . . . . . . . . . i TABLE OF CONTENTS . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . ii TABLE OF AUTHORITIES . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vi
+   GLOSSARY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . xvi STATEMENT
+   AS TO STATUTES AND REGULATIONS . . . . . . . . . . . . . . . . . . . .
+   . . . . xix STATEMENT OF ISSUES . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+   STATEMENT OF THE CASE . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . 1 A. Introduction . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 1 B. Course Of Proceedings . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . 4 C. Statement Of Facts . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6 1.
+   Microsoft's Operating System Monopoly . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 7 a. The Market . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7 b.
+   The Applications Barrier To Entry . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 9 2. Combating The Middleware Threats . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . 11 a. The Attempt
+   To Obtain Agreement With Netscape . . . . . . . . . . . . . . . . . 12
+   b. Denying Netscape Access To Crucial Channels Of Distribution . . . .
+   . . . . 14 (i) Excluding Navigator From The OEM Channel . . . . . . . .
+   . . . . . . . . . . . . 16 (a) Contractual Restrictions And Coercion Of
+   OEMs . . . . . . . . . . . . . . 16 (b) Additional Means To Prevent
+   OEMs From Distributing Navigator . 20 (ii) The IAP Channel . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   24 (iii) Apple . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . 28 KK (iv) ICPs And ISVs .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . 30 (v) Effects Of The Campaign . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 31 c. Java . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 35 d. Intel And Others . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . 39 SUMMARY OF
+   ARGUMENT . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . 41 ARGUMENT . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 45 STANDARD OF REVIEW . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . 45 I. MICROSOFT VIOLATED SECTION 2 OF THE SHERMAN ACT THROUGH A
+   COURSE OF ANTICOMPETITIVE CONDUCT THAT MAINTAINED ITS OPERATING SYSTEM
+   MONOPOLY . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . 47 A. The Offense Of Monopolization . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 47 B. Microsoft
+   Has Monopoly Power . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . 51 1. The District Court Correctly Found That
+   The Relevant Market Is "The Licensing Of All Intel-Compatible PC
+   Operating Systems Worldwide" . . 52 2. The District Court Correctly
+   Concluded That Microsoft Has Monopoly Power . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 55 a. Microsoft's Dominant,
+   Persistent, And Increasing Market Share Supports A Finding Of Monopoly
+   Power . . . . . . . . . . . . . . . . . . . . . . . . 55 b. Microsoft
+   Is Protected By Barriers To Entry That Support A Finding Of Monopoly
+   Power . . . . . . . . . . . . . . . . . . . . . . . . . 57 c.
+   Microsoft's Conduct Did Not Negate A Finding Of Monopoly Power . . . 60
+   C. Microsoft Engaged In A Multifaceted Campaign Of Exclusionary Conduct
+   That Maintained Its Monopoly Power . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . 62 1. The District Court Imposed
+   Liability Based On Microsoft's Anticompetitive Conduct . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 63 KKK
+   2. The District Court Did Not Condemn Microsoft For Developing Or
+   Improving Its Products . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 65 3. The District Court Correctly
+   Concluded That Microsoft Wrongfully Excluded Netscape Navigator From
+   The OEM Channel . . . . . . . . . . . . . . . . . 68 a. Copyright Law
+   Does Not Insulate Microsoft's Restrictive OEM License Provisions From
+   The Antitrust Laws . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . 68 b. Microsoft's Conduct Was Exclusionary Even Though It Did Not
+   Completely Exclude Navigator From The OEM Distribution Channel . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 4. The
+   District Court Correctly Concluded That Microsoft Wrongfully Excluded
+   Netscape Navigator From The IAP Channel . . . . . . . . . . 76 a. The
+   Court's Section 1 Determination Does Not Preclude A Finding That
+   Microsoft's Exclusion Of Navigator From The IAP Channel Violated
+   Section 2 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 77 b. Microsoft's Conduct Was Exclusionary Even
+   Though It Did Not Completely Exclude Navigator From The IAP
+   Distribution Channel . . . . 78 5. The District Court Correctly Ruled
+   That Aspects Of Microsoft's Java Implementation Violated Section 2 . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 79 6. The
+   District Court Correctly Based Liability On Microsoft's Course Of
+   Conduct As A Whole, As Well As On Its Individual Acts . . . . . . . 80
+   D. Microsoft's Exclusionary Conduct Contributed Significantly To The
+   Maintenance Of Its Operating Systems Monopoly . . . . . . . . . . . . .
+   . . . . . . . . . . . . . 83 II. MICROSOFT ATTEMPTED TO MONOPOLIZE THE
+   BROWSER MARKET . . . . . . 87 A. Microsoft's Proposal To Netscape In
+   June 1995 Constituted Attempted Monopolization . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 88 B. Microsoft's Pattern Of Conduct Following Netscape's Failure
+   To Accept Its Proposal Constituted Attempted Monopolization . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 93 III. MICROSOFT VIOLATED
+   SECTION 1 OF THE SHERMAN ACT BY TYING INTERNET EXPLORER TO WINDOWS . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 97 KX
+   A. Microsoft Is Liable Under The Supreme Court's Tying Decisions . . .
+   . . . . . . . . . . . 98 B. Microsoft Is Liable Under The Microsoft II
+   Rationale For Distinguishing Integrated Products . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . 102 1. The District Court Condemned Tying, Not Integrated Design . .
+   . . . . . . . . . . 102 2. Windows and IE Would Be Considered Separate
+   Products If Microsoft II Were Applied To The Facts Of This Case . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . 104 C. Microsoft's Tying
+   Had Significant Competitive Consequences . . . . . . . . . . . . . . .
+   . 107 IV. THE DISTRICT COURT DID NOT COMMIT REVERSIBLE ERROR IN THE
+   SCHEDULING OR CONDUCT OF THE PROCEEDINGS ON LIABILITY . . . . . . . .
+   110 A. The District Court Did Not Abuse Its Discretion In Managing Its
+   Docket . . . . . . . 110 B. The District Court Did Not Rely On
+   Inadmissible Hearsay In Making Any Essential Finding Of Fact . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   114 V. THE DISTRICT COURT PROPERLY ORDERED STRUCTURAL AND CONDUCT
+   REMEDIES AND FOLLOWED APPROPRIATE PROCEDURES IN DOING SO . . . 119 A.
+   The District Court Did Not Abuse Its Discretion In Ordering The Remedy
+   . . . . . . 119 1. Divestiture Of Microsoft Into "OpsCo" And "AppsCo" .
+   . . . . . . . . . . . . . . . . 120 2. Conduct Restrictions . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . 128 B. The District Court Did Not Err By Entering Its Decree Without
+   A Separate Evidentiary Hearing On Remedy . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . 135 VI. JUDGE JACKSON'S
+   OUT-OF-COURT COMMENTS DO NOT MERIT VACATING THE JUDGMENT OR REMOVING
+   HIM FROM FURTHER PROCEEDINGS . . . . . 145 CONCLUSION . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 150 ADDENDUM A Statutes And Regulations . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . A-1
+   ADDENDUM B Index To The District Court's Findings Of Fact . . . . . . .
+   . . . . . . . . . . . B-1 ADDENDUM C Witnesses, Deponents, And Others
+   Named In This Brief . . . . . . . . . . . . C-1 X TABLE OF AUTHORITIES
+   Cases A.H. Cox & Co. v. Star Mach. Co., 653 F.2d 1302 (9th Cir. 1981) .
+   . . . . . . . . . . . . . . . . . . . . 89 AD/SAT v. Associated Press,
+   181 F.3d 216 (2d Cir. 1999) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 55 Adams v. Hinchman, 154 F.3d 420 (D.C. Cir. 1998) . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 46 Advanced
+   Computer Servs. of Mich., Inc. v. MAI Sys. Corp., 845 F. Supp. 356
+   (E.D. Va. 1994) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . 73 Advanced Health-Care Servs. v. Radford
+   Cmty. Hosp., 910 F.2d 139 (4th Cir. 1990) . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Am.
+   Can Co. v. Mansukhani, 814 F.2d 421 (7th Cir. 1987) . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 136 Am. Prof'l Testing Serv., Inc. v.
+   Harcourt Brace Jovanovich Legal & Prof'l Publ'ns, Inc., 108 F.3d 1147
+   (9th Cir. 1997) . . . . . . . . . . . . . . . . . . . . . . . . 59 Am.
+   Tobacco Co. v. United States, 328 U.S. 781 (1946) (67%) . . . . . . . .
+   . . . . . . . . . . . . . . . . 56 Amadeo v. Zant, 486 U.S. 214 (1988)
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . 46 Anderson v. City of Bessemer City, 470 U.S. 564 (1985)
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . 3, 45 * Aspen
+   Skiing Co. v. Aspen Highlands Skiing Corp., 472 U.S. 585 (1985) . . . .
+   . . . . . . . . . . . . 47 Ass'n for Intercollegiate Athletics for
+   Women v. NCAA, 735 F.2d 577 (D.C. Cir. 1984) . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53, 88
+   Atari Games Corp. v. Oman, 888 F.2d 878 (D.C. Cir. 1989) . . . . . . .
+   . . . . . . . . . . . . . . . . . . . 69 Atchinson v. District of
+   Columbia, 73 F.3d 418 (D.C. Cir. 1996) . . . . . . . . . . . . . . . .
+   . . . . . . 112 Bailey v. Fed. Nat'l Mortgage Ass'n, 209 F.3d 740 (D.C.
+   Cir. 2000) . . . . . . . . . . . . . . . . . . . . 45 Ball Mem'l Hosp.,
+   Inc. v. Mutual Hosp. Ins., Inc., 784 F.2d 1325 (7th Cir. 1986). . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . 56 Barry Wright Corp. v. ITT
+   Grinnell Corp., 724 F.2d 227 (1st Cir. 1993) . . . . . . . . . . . . .
+   . . . . 47 (Authorities upon which we chiefly rely are marked with an
+   asterisk) XK Berry v. District of Columbia, 833 F.2d 1031 (D.C. Cir.
+   1987) . . . . . . . . . . . . . . . . . . . . . . . 111 BMI v. CBS, 441
+   U.S. 1 (1979) . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . 73 Brown Shoe Co. v. United
+   States, 370 U.S. 294 (1962) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . 128 C.E. Servs., Inc. v. Control Data Corp., 759 F.2d
+   1241 (5th Cir. 1985) . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48
+   Cal. Computer Prod., Inc. v. IBM Corp., 613 F.2d 727 (9th Cir. 1979) .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 68 Cardinal Films, Inc. v.
+   Republic Pictures Corp., 148 F. Supp. 156 (S.D.N.Y. 1957) . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   73 Carey Can., Inc. v. Columbia Cas. Co., 940 F.2d 1548 (D.C. Cir.
+   1991) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . 111 Caribbean Broad. Sys.,
+   Ltd. v. Cable & Wireless PLC, 148 F.3d 1080 (D.C. Cir. 1998) . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 112 Citizen Publ'g Co. v. United States, 394 U.S. 131 (1969) . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . 128 City of Anaheim
+   v. S. Cal. Edison, 955 F.2d 1373 (9th Cir. 1992) . . . . . . . . . . .
+   . . . . . . . . . . . 82 City of Groton v. Conn. Light & Power Co., 662
+   F.2d 921 (2d Cir. 1981) . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   82 Coastal Fuels of P.R., Inc. v. Caribbean Petroleum Corp., 79 F.3d
+   182 (1st Cir. 1996) . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . 52 Comm. for Creative
+   Non-Violence v. Reid, 846 F.2d 1485 (D.C. Cir. 1988) . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 71 Concord Boat Co. v. Brunswick Corp., 207 F.3d
+   1039 (8th Cir.), cert. denied, 121 S. Ct. 428 (2000). . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+   Conoco Inc. v. Inman Oil Co., 774 F.2d 895 (8th Cir. 1985) . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 89 * Cont'l Ore Co. v. Union
+   Carbide & Carbon Co., 370 U.S. 690 (1962). . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 81 XKK * Data Gen. Corp. v. Grumman Systems Support Corp., 36
+   F.3d 1147 (1st Cir. 1994) . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . 47, 72, 83 * Davoll v. Webb, 194
+   F.3d 1116 (10th Cir. 1999) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 135 Dial A Car, Inc. v. Transp., Inc., 82 F.3d
+   484 (D.C. Cir. 1996) . . . . . . . . . . . . . . . . . . . . . . . . 89
+   * Eastman Kodak Co. v. Image Technical Servs., Inc., 504 U.S. 451
+   (1992) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . passim Eli Lilly & Co. v. Generix
+   Drug Sales, Inc., 460 F.2d 1096 (5th Cir. 1972) . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . 137 Ford Motor Co. v. United States, 405 U.S. 562
+   (1972) . . . . . . . . . . . . . . . . . . . . . . . . . 119, 145
+   Foster v. Maryland State Sav. & Loan Ass'n, 590 F.2d 928 (D.C. Cir.
+   1978); . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 97 Gen. Elec. Co. v. Joiner, 522 U.S. 136
+   (1997) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 114 Gen. Indus. Corp. v. Hartz Mountain Corp., 810 F.2d 795
+   (8th Cir. 1987) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . 48, 90, 96 Gilliam v. ABC, Inc., 538 F.2d 14
+   (2d Cir. 1967) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . 70 Gracen v. Bradford Exch., 698 F.2d 300 (7th Cir. 1983) .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69 * Greater
+   Kan. City Laborers Pension Fund v. Superior Gen. Contractors, Inc., 104
+   F.3d 1050 (8th Cir. 1997) . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . 115 H.J., Inc. v. Int'l Tel. & Tel. Corp., 867 F.2d
+   1531 (8th Cir. 1989) . . . . . . . . . . . . . . . . . . . . . 88
+   Halberstam v. Welch, 705 F.2d 472 (D.C. Cir. 1983) . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 45 Harris v. Rivera, 454 U.S.
+   339 (1981) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 115 Image Technical Servs. v. Eastman Kodak,
+   125 F.3d 1195 (9th Cir. 1997) . . . . . . . . . . . . . . . 72 * In re
+   Barry, 946 F.2d 913 (D.C. Cir. 1991) . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 148 * In re Fine Paper
+   Antitrust Litig., 685 F.2d 810 (3d Cir. 1982) . . . . . . . . . . . . .
+   . . . . . . . 110, 111 XKKK In re IBM Peripheral EDP Devices Antitrust
+   Litig., 481 F. Supp. 965 (N.D. Cal. 1979) . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . 67, 68 In re
+   Independent Service Organizations Antitrust Litigation, 203 F.3d 1322
+   (Fed. Cir.), petition for cert. filed, 69 U.S.L.W. 3087 (July 11, 2000)
+   (No. 00-62), . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . 72 Ind. Grocery, Inc. v. Super
+   Valu Stores, Inc., 864 F.2d 1409 (7th Cir. 1989), . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 56 * Int'l Boxing Club of N.Y., Inc. v. United
+   States, 358 U.S. 242 (1959) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 53, 120 Int'l
+   Salt Co. v. United States, 332 U.S. 392 (1947) . . . . . . . . . . . .
+   . . . . . . . . . . . 119, 125, 129 * Jefferson Parish Hospital
+   District No. 2 v. Hyde, 466 U.S. 2 (1984) . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . passim LaShawn v. Barry, 87 F.3d 1389 (D.C. Cir. 1996) . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . 100 Lee v. A.R.T.
+   Co., 125 F.3d 580 (7th Cir. 1997) . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 69 * Liteky v. United States, 510 U.S.
+   540 (1994) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 145-147 Lone Star Steakhouse & Saloon, Inc. v. Alpha of Va.,
+   Inc., 43 F.3d 922 (4th Cir. 1995) . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136 Los Angeles
+   Land Co. v. Brunswick Corp., 6 F.3d 1422 (9th Cir. 1993) . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 58, 59 LucasArts Entm't Co. v. Humongous Entm't
+   Co., 870 F. Supp. 285 (N.D. Cal. 1993) . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 M & M Med.
+   Supplies & Serv., Inc. v. Pleasant Valley Hosp., Inc., 981 F.2d 160
+   (4th Cir. 1992) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . 95 Mass. Mut. Life Ins. Co. v.
+   Ludwig, 426 U.S. 479 (1976) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . 128 Matsushita Elec. Indus. Co. v. Zenith Radio Corp., 475
+   U.S. 574 (1986) . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Milmark Servs.,
+   Inc. v. United States, 731 F.2d 855 (Fed. Cir. 1984) . . . . . . . . .
+   . . . . . . . . . . . 46 KZ Montgomery County Ass'n of Realtors, Inc.
+   v. Realty Photo Master Corp., 878 F. Supp. 804 (D. Md. 1995) . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 73 Multistate Legal Studies, Inc. v. Harcourt Brace Jovanovich
+   Legal & Prof'l Publ'ns, Inc., 63 F.3d 1540 (10th Cir. 1995) . . . . . .
+   . . . . . 47, 83, 95, 97, 108 Multi-Med. Convalescent & Nursing Ctr. of
+   Towson v. NLRB, 550 F.2d 974 (4th Cir. 1977) . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+   N. Pac. R. Co. v. United States, 356 U.S. 1 (1958). . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . 97 Nat'l Bank of Commerce
+   v. Shaklee Corp., 503 F. Supp. 533 (W.D. Tex. 1980) . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . 71 Nat'l Soc'y of Prof'l Eng'rs v. United States,
+   435 U.S. 679 (1978) . . . . . . . . . . . . . 44, 119, 125 NCAA v. Bd.
+   of Regents of Univ. of Okla., 468 U.S. 85 (1984), . . . . . . . . . . .
+   . . . . . . . . . . . . . 55 * Neumann v. Reinforced Earth Co., 786
+   F.2d 424 (D.C. Cir. 1986) . . . . . . . . . . . . . . . 41, 48, 65
+   Northeastern Tel. Co. v. AT&T Co., 651 F.2d 76 (2d Cir. 1981) . . . . .
+   . . . . . . . . . . . . . . . . . . 68 Otter Tail Power Co. v. United
+   States, 410 U.S. 366 (1973) . . . . . . . . . . . . . . . . . . . . . .
+   . . . 126 Palmer v. BRG of Ga., Inc., 498 U.S. 46 (1990) . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 89 Pan Am.
+   World Airways, Inc. v. Aetna Cas. & Sur. Co., 505 F.2d 989 (2d Cir.
+   1974) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 114 Re/Max Int'l, Inc. v. Realty One, Inc.,
+   173 F.3d 995 (6th Cir. 1999) . . . . . . . . . . . . . . . . . . . . 51
+   Rebel Oil Co. v. Atl. Richfield Co., 51 F.3d 1421 (9th Cir. 1995) . . .
+   . . . . . . . . . . . . . . . . 51, 52 Rodriguez de Quijas v.
+   Shearson/American Express, Inc., 490 U.S. 477 (1989) . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . 100 * Rothery Storage & Van Co. v. Atlas Van Lines,
+   Inc., 792 F.2d 210 (D.C. Cir. 1986) . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . 52, 53 Roy B. Taylor
+   Sales, Inc. v. Hollymatic Corp., 28 F.3d 1379 (5th Cir. 1994) . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . 109 Z S. Pac. Communications Co. v. AT&T, 740 F.2d 980 (D.C.
+   Cir. 1984) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . 58, 82 Schine Chain
+   Theatres, Inc. v. United States, 334 U.S. 110 (1948) . . . . . . . . .
+   . . . . . . . . . . . 125 SCM Corp. v. Xerox Corp., 645 F.2d 1195 (2d
+   Cir. 1981) . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+   Simpson v. Union Oil Co. of Cal., 377 U.S. 13 (1964) . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 73 Sitka Sound Seafoods, Inc.
+   v. NLRB, 206 F.3d 1175 (D.C. Cir. 2000) . . . . . . . . . . . . . . . .
+   . . 46 Socialist Workers Party v. Ill. State Bd. of Elections, 566 F.2d
+   586 (7th Cir. 1977) . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 137 Sony Corp. of Am. v.
+   Universal City Studios, Inc., 464 U.S. 417 (1984) . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 70, 71 * Spectrum Sports, Inc. v. McQuillan, 506 U.S. 447
+   (1993) . . . . . . . . . . . . . . . . . . . 43, 88, 89, 94 Standard
+   Oil Co. v. United States, 221 U.S. 1 (1911) . . . . . . . . . . . . . .
+   . . . . . . . . 119, 122, 138 Stearns Airport Equip. Co., Inc. v. FMC
+   Corp., 170 F.3d 518 (5th Cir. 1999) . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 Sun
+   Microsystems, Inc. v. Microsoft Corp., 21 F. Supp. 2d 1109 (N.D. Cal.
+   1998), vacated, 188 F.3d 1115, 1123 (9th Cir. 1999), on remand, 87 F.
+   Supp. 2d 992, 998 (N.D. Cal. 2000) . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . 38 Swift & Co. v. United States, 196 U.S. 375
+   (1905) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . 82 Taylor Publ'g Co. v. Jostens, Inc., 216 F.3d 465 (5th Cir. 2000)
+   . . . . . . . . . . . . . . . . . . . . . . . 96 Tendler v. Jaffe, 203
+   F.2d 14 (D.C. Cir. 1953) . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . 69 Times-Picayune Publ'g Co. v. United
+   States, 345 U.S. 594 (1953) . . . . . . . . . . . . . . . 54, 94, 99
+   U.S. Healthcare, Inc. v. Healthsource, Inc., 986 F.2d 589 (1st Cir.
+   1993) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . 74 United States ex
+   rel. Modern Elec., Inc. v. Ideal Elec. Sec. Co., 81 F.3d 240 (D.C. Cir.
+   1996) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 46 ZK United States v. Alcoa, 148 F.2d 416
+   (2d Cir. 1945) . . . . . . . . . . . . . . . . . . . . . . . . 47, 137,
+   148 United States v. Alcoa, 91 F. Supp. 333 (S.D.N.Y. 1950) . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . 137 * United States v. Am.
+   Airlines, Inc., 743 F.2d 1114 (5th Cir. 1984) . . . . . . . . . . . . .
+   89, 91, 93, 96 United States v. Am. Tobacco Co., 221 U.S. 106 (1911) .
+   . . . . . . . . . . . . . . . 119, 135, 136, 138 United States v. AT&T,
+   552 F. Supp. 131 (D.D.C. 1982) . . . . . . . . . . . . . . . . . . . .
+   . . . . . 61, 126 * United States v. Barry, 961 F.2d 260 (D.C. Cir.
+   1992) . . . . . . . . . . . . . . . . . . . . . . . . . 148, 149 United
+   States v. Bausch & Lomb Optical Co., 321 U.S. 707 (1944). . . . . . . .
+   . . . . . . . . 125, 129 United States v. Crescent Amusement Co., 323
+   U.S. 173 (1944) . . . . . . . . . . . . . . . . . . 119, 120 United
+   States v. E.I. du Pont de Nemours & Co., 177 F. Supp. 1 (N.D. Ill.
+   1959) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 142 * United States v. E.I. du Pont de Nemours
+   & Co., 351 U.S. 377 (1956) . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 51, 52, 53, 55, 56 * United
+   States v. E.I. du Pont de Nemours & Co., 366 U.S. 316 (1961) . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 119, 143, 145 United States v. Griffith, 334 U.S. 100 (1948) .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   47 * United States v. Grinnell Corp., 384 U.S. 563 (1966) . . . . . . .
+   . . . . . . . . . . . . . . . . . 51, 56, 128 United States v.
+   Haldeman, 559 F.2d 31 (D.C. Cir. 1976) . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . 148 United States v. Loew's Inc., 371 U.S. 38
+   (1962) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 72 United States v. Matlock, 415 U.S. 164 (1974) . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . 115 * United
+   States v. Microsoft Corp., 147 F.3d 935 (D.C. Cir. 1998) . . . . . . .
+   . . . . . . . . . . . . passim United States v. Microsoft Corp., 1998-2
+   Trade Cas. (CCH) ¶ 72,261 (D.D.C. 1998) . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 112 United
+   States v. Microsoft Corp., 84 F. Supp. 2d 9 (D.D.C. 1999) (Findings of
+   Fact) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . passim ZKK United States v. Microsoft Corp., 87 F. Supp.
+   2d 30 (D.D.C. 2000) (Conclusions of Law) . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . passim United States v.
+   Microsoft Corp., 97 F. Supp. 2d 59 (D.D.C. 2000) (Remedy Order) . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . passim United States v. National Lead Co., 332 U.S. 319 (1947) . . .
+   . . . . . . . . . . . . . . . . . . . . 124, 136 United States v.
+   Paramount Pictures, Inc., 334 U.S. 131 (1948) . . . . . . . . . . . . .
+   . . . . . . 72, 136 United States v. Prod. Plated Plastics, Inc., 762
+   F. Supp. 722 (W.D. Mich. 1991) . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 136, 144
+   United States v. Studiengesellschaft Kohle, m.b.H, 670 F.2d 1122 (D.C.
+   Cir. 1981) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 United States
+   v. Syufy Enters., 903 F.2d 659 (9th Cir. 1990) . . . . . . . . . . . .
+   . . . . . . . . . . . . . . 57 United States v. Taylor, 487 U.S. 326
+   (1988) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 110 United States v. U.S. Gypsum Co., 340 U.S. 76 (1950) . . .
+   . . . . . . . . . . . . . . . . . . . . . . 125, 129 United States v.
+   U.S. Gypsum Co., 438 U.S. 422 (1978) . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 50 United States v. United Shoe Mach. Corp.,
+   391 U.S. 244 (1968) . . . . . . . . . . . . . . . . . . 119, 123 United
+   States v. W. Elec. Co., 900 F.2d 283 (D.C. Cir. 1990) . . . . . . . . .
+   . . . . . . . . . . . . . . . . 53 United States v. Ward Baking Co.,
+   376 U.S. 327 (1964). . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . 137 United States v. Westinghouse Elec. Corp., 648 F.2d 642 (9th
+   Cir. 1981) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73 W. Parcel
+   Express v. UPS, 190 F.3d 974 (9th Cir. 1999) . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 59 Walsh v. Schlecht, 429 U.S. 401
+   (1977) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . 133 WGN Cont'l Broad. Co. v. United Video, Inc., 693
+   F.2d 622 (7th Cir. 1982) . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . 70 William Inglis &
+   Sons Baking Co. v. ITT Cont'l Baking Co., 668 F.2d 1014 (9th Cir. 1982)
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . 90 ZKKK Woods v. Bourne Co., 60 F.3d 978 (2d Cir.
+   1995) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . 69 Zenith Radio Corp. v. Hazeltine Research, Inc., 395 U.S. 100
+   (1969) . . . . . . . . . . . . . . 125, 129 Statutes & Rules 15 U.S.C.
+   1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . 1, 2, 4 15 U.S.C. 2 .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 1, 2, 4, 47 17 U.S.C. 101 . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . 69 17 U.S.C. 102 . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . 69 17 U.S.C. 106 . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . 69 175 F.R.D. 363 et seq. (1998) .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . 148, 149 28 U.S.C. 455 . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   145, 146, 148 FED. R. CIV. P. 1 . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . 111 FED. R. CIV. P. 52 . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3,
+   45 FED. R. EVID. 106 . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+   FED. R. EVID. 611 . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115 FED. R.
+   EVID. 703 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . 143 FED. R. EVID.
+   803 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . 118 Treatises & Other
+   Authorities PHILLIP E. AREEDA ET AL., ANTITRUST LAW . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . passim Steve Ballmer,
+   The Microsoft Suit, WASH. POST, Jan. 24, 2000, at A20 . . . . . . . . .
+   . . . . . . . . 139 ROBERT H. BORK, THE ANTITRUST PARADOX (1993) . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 48 ZKX Joel
+   Brinkley, A Microsoft Remedy: Antitrust Experts Offer Prescriptions,
+   N.Y. TIMES, Nov. 15, 1999, at C1 . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 139 Joel Brinkley, U.S. and 17 States Ask Judge
+   to Cut Microsoft in 2 Parts; Serious Curbs Also Sought, N.Y. TIMES,
+   Apr. 29, 2000, at A1 . . . . . . . . . . . . . . . . . . . . . 139 Joel
+   Brinkley, U.S. Hires Advisory Firm in Microsoft Case, N.Y. TIMES, Dec.
+   3, 1999, at C2 . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . 139 Joel Brinkley & Steve Lohr,
+   Microsoft and U.S. Unable to Reach Antitrust Accord, N.Y. TIMES, Apr.
+   2, 2000, at A1 . . . . . . . . . . . . . . . . . . . . . . . . 139 JOEL
+   BRINKLEY & STEVE LOHR, U.S. V. MICROSOFT (2000) . . . . . . . . . . . .
+   . . . . . . . . . . 146, 147 Rajiv Chandrasekaran, Justice Dept. Hires
+   Firm to Study Microsoft `Remedies,' WASH. POST, Dec. 3, 1999, at E3 . .
+   . . . . . . . . . . . . . . . . . . . . . . . 139 DARTMOUTH ALUMNI MAG.
+   Nov./Dec. 2000, at 44 . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . 148 James V. Grimaldi, Microsoft Filing Critical of
+   Judge, WASH. POST, Nov. 28, 2000, at E1 . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . . . . . . . . . . . . . . . 138 James V.
+   Grimaldi, Microsoft Judge Says Ruling at Risk, WASH. POST, Sept. 29,
+   2000, at E1 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . . . . 147 John E. Lopatka & William H. Page, A
+   (Cautionary) Note on Remedies in the Microsoft Case, ANTITRUST, Summer
+   1999, at 25 . . . . . . . . . . . . . . . 138 MANUAL FOR COMPLEX
+   LITIGATION (THIRD) (1995) . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . 114, 115 Report of the Judicial Conference Committee on Codes
+   of Conduct (Sept. 1992) . . . . . . . . . 149 R. Craig Romaine & Steven
+   C. Salop, Slap Their Wrists? Tie Their Hands? Slice Them into Pieces?
+   Alternative Remedies for Monopolization in the Microsoft Case,
+   ANTITRUST, Summer 1999, at 1 . . . . . . . . . . . 138 Peter Spiegel,
+   Microsoft Judge Defends Post-Trial Comment, FIN. TIMES, Oct. 6, 2000,
+   at 4 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+   . . . . . . . . . 146, 147 WRIGHT & MILLER, FEDERAL PRACTICE AND
+   PROCEDURE § 6026 . . . . . . . . . . . . . . . . . . . . . 115 ZX
+   GLOSSARY ACT Amici Association for Competitive Technology and Computing
+   Technology Industry Association AOL America Online, Inc., an online
+   service (OLS). FF 15. API Application programming interface. APIs
+   "exposed" by a computer program, such as an operating system or
+   middleware, provide other computer programs with means of access to
+   blocks of code that perform particular tasks, such as displaying text
+   on the computer screen. FF 2. CL Conclusions of law. The district
+   court's April 3, 2000 order, 87 F. Supp. 2d 30 (D.D.C. 2000). DX
+   Defendant's exhibit in the district court. FF Findings of fact. The
+   district court's November 5, 1999 order, 84 F. Supp. 2d 9 (D.D.C.
+   1999). FJ Final Judgment, 97 F. Supp. 2d 59, 63-74 (D.D.C. 2000). GX
+   Plaintiffs' exhibit in the district court. HTML Hypertext Markup
+   Language. FF 233. The language to create Web pages with hyperlinks and
+   markup for formatting. IAP Internet access provider. Includes ISPs and
+   OLSs, which provide computer users with access to the Internet. FF 15.
+   ICP Internet content provider. Individuals and organizations that have
+   established a presence, or "site," on the Web by publishing a
+   collection of Web pages. FF 13. IE Internet Explorer, Microsoft's Web
+   browser. FF 17. Intel-com- A PC designed to use a microprocessor in, or
+   compatible with, Intel's patible PC 80x86/Pentium microprocessor
+   family. FF 3. Internet A global electronic network of computers. FF 11.
+   ISP Internet service provider, such as MindSpring or Netcom, which
+   provides Internet access to subscribers. FF 15. ZXK ISV Independent
+   software vendor. A developer of applications. FF 28. Java A programming
+   language and related middleware that enable applications written in
+   that language to run on different operating systems. FF 73. JVM Java
+   Virtual Machine. A program that translates Java bytecode (which a Java
+   compiler has produced from sourcecode written in the Java language)
+   into instructions that the operating system can understand. FF 73.
+   Middleware Software that relies on the APIs provided by the operating
+   system on which it runs, but also exposes its own APIs. FF 28. MS Br.
+   Microsoft's opening brief in this Court, November 27, 2000. Navigator
+   Netscape Communications Corporation's Web browser. FF 17. NSP Native
+   Signal Processing. NSP software enables Intel microprocessors to
+   perform certain tasks (useful for advanced video and graphics
+   performance) usually carried out by separate chips called "digital
+   signal processors." FF 95. OEM Original equipment manufacturer. FF 10.
+   In this brief, a manufacturer of PCs. OLS An online service that
+   provides Internet access, various other services, and an array of
+   proprietary content to subscribers. FF 15. OS or A software program
+   that controls the allocation and use of computer resources. Operating
+   FF 2. System PC Personal computer. A digital information processing
+   device designed for use by one person at a time. FF 1. Platform
+   Software, like an operating system or middleware, that exposes APIs. FF
+   2, 69. Port, or Adapting an application program written for one OS to
+   run on a different OS. FF Porting 4. Remedy District Court's June 7,
+   2000 decision on remedy, 97 F. Supp. 2d 59, 59-63 (D.D.C. Order 2000).
+   RX Plaintiffs' remedy exhibit in the district court. ZXKK Web The World
+   Wide Web. A massive collection of digital information resources stored
+   on servers throughout the Internet, typically provided in the form of
+   hypertext documents, commonly referred to as "Web pages." FF 12. Web
+   Browser Software that enables a user to select, retrieve, and perceive
+   resources on the (or Browser) Web. FF 16. In this brief, the term
+   "browser" by itself means "Web browser." Windows A family of software
+   packages produced by Microsoft, each including an operating system. The
+   principal members of this family for purposes of this case are Windows
+   95, Windows 98, and successors, which include operating systems for
+   Intel- compatible PCs. FF 6-8. ZXKKK STATEMENT AS TO STATUTES AND
+   REGULATIONS Pertinent statutes and regulations are bound with this
+   brief as Addendum A. Except for the items in Addendum A, all applicable
+   statutes, etc., are contained in the Brief for Appellant. ZKZ STATEMENT
+   OF ISSUES 1. Whether Microsoft violated Section 2 of the Sherman Act,
+   15 U.S.C. 2, by engaging in a course of exclusionary conduct that
+   protected and maintained its personal computer operating system
+   monopoly. 2. Whether Microsoft violated Section 2 of the Sherman Act,
+   15 U.S.C. 2, by attempting to monopolize the market for Web browsers.
+   3. Whether Microsoft violated Section 1 of the Sherman Act, 15 U.S.C.
+   1, by tying its Internet Explorer Web browser to its Windows operating
+   system. 4. Whether any of the district court's procedural and
+   evidentiary rulings constituted an abuse of discretion requiring
+   reversal of the judgment. 5. Whether the district court abused its
+   discretion by ordering structural separation of Microsoft into two
+   entities and transitional restrictions on its conduct. 6. Whether the
+   district court's extrajudicial comments about the case require vacating
+   the judgment or removing the district judge. STATEMENT OF THE CASE A.
+   Introduction The United States and numerous States (collectively, the
+   government) sued Microsoft Corporation to enjoin it from violating
+   antitrust laws that embody fundamental principles of lawful
+   competition. The government proved at trial that Microsoft had engaged
+   in a broad pattern of anticompetitive conduct to eradicate a developing
+   threat to its monopoly power in its core business  personal computer
+   operating systems  and that Microsoft's conduct had harmed consumers.
+   Findings of Fact (FF), United States v. Microsoft Corp., 84 F. Supp. 2d
+   9 (D.D.C. 1999) (JA ____). The district court determined that
+   Microsoft's conduct violated Section 1 and Section 2 of the Sherman
+   Act, 15 U.S.C. 1, 2, as well as analogous state laws. Conclusions of
+   Law (CL), United States v. Microsoft Corp., 87 F. Supp. 2d 30 (D.D.C.
+   2000) (JA ____). The court's judgment imposed a remedy to stop the
+   violations and restore competitive conditions in the marketplace.
+   United States v. Microsoft Corp., 97 F. Supp. 2d 59 (D.D.C. 2000)
+   (Remedy Order) (JA ____). The government's case at trial  and the
+   district court's findings of fact and conclusions of law  focused on
+   Microsoft's unlawful campaign to maintain its monopoly power in
+   violation of Section 2. The evidence demonstrated that Microsoft
+   engaged not just in aggressive, lawful competition, but also in
+   predatory conduct to thwart the development of emerging technologies
+   that would allow "applications," such as word processors, spreadsheets,
+   games, and other useful programs, to be written so they would run on
+   operating systems other than Microsoft's "Windows" without costly
+   adaptation. The evidence showed that Microsoft acted out of concern
+   that those technologies would erode the "applications barrier to entry"
+   that protected its Windows monopoly. Microsoft specifically set out to
+   protect its monopoly from erosion by two "middleware" technologies
+   Netscape's Navigator Web browser and Sun's Java software. Those
+   technologies had the potential to enable software developers to design
+   a single version of an application that would run on a wide variety of
+   operating systems. The increased availability of software that could
+   run on operating systems other than Windows would have made alternative
+   operating systems more attractive to consumers and would thus have
+   eroded Windows' market dominance. In effect, Microsoft sought by
+   anticompetitive means to insulate its operating system monopoly from
+   the kinds of technological and entrepreneurial changes that have
+   characterized other parts of the industry. The evidence further
+   established that, in the course of taking unlawful steps to maintain
+   its Windows monopoly, Microsoft engaged in tying and in attempted
+   monopolization of the browser market in violation of Sections 1 and 2
+   of the Sherman Act. In response to the public interest in resolving
+   this case expeditiously and in recognition of the rapid pace of
+   technological change in software markets, the district court conducted
+   a fair and efficient trial. The court's 412 findings of fact
+   painstakingly and accurately describe the relevant market (FF 18-32 (JA
+   ____)), Microsoft's power in that market (FF 33-67 (JA ____)), the
+   middleware threat (FF 68-78 (JA ____)), Microsoft's response to that
+   threat (FF 79-407 (JA ____)), and the effects on consumers of
+   Microsoft's efforts to protect the applications barrier to entry (e.g.,
+   FF 408-12 (JA ____)). The court specifically found that Microsoft's
+   conduct harmed the company's direct and indirect customers, stifled
+   innovation, and would not have been profitable or made business sense
+   but for its effect of maintaining Microsoft's operating system
+   monopoly. See, e.g., FF 409-12 (JA ____). The court's findings of fact
+   are supported by the extensive trial record, including a wealth of
+   evidence from Microsoft's own contemporaneous documents. The court's
+   findings also correctly distinguished lawful from unlawful conduct. The
+   court imposed an appropriate remedy based on its factual findings and
+   the circumstances before it. Microsoft declines to acknowledge the
+   district court's core findings of fact and instead recites, as its
+   Statement of the Case, a sanitized description of its actions based
+   largely on its own proposed  but rejected  findings. Microsoft,
+   however, is not entitled to re-tender its proposed findings to this
+   Court. Rather, this Court conducts its appellate review based on the
+   district court's findings, which "shall not be set aside unless clearly
+   erroneous." FED. R. CIV. P. 52(a). See Anderson v. City of Bessemer
+   City, 470 U.S. 564, 573-74 (1985). That standard of review is
+   dispositive of the fact- findings in this case because nowhere in its
+   submission does Microsoft assert specifically that any fact found by
+   the district court is clearly erroneous. The following description of
+   the case is based on the trial proceedings and the facts found by the
+   district court. B. Course Of Proceedings On May 18, 1998, the United
+   States filed a complaint alleging that Microsoft had violated Sections
+   1 and 2 of the Sherman Act, 15 U.S.C. 1, 2. The opening paragraphs of
+   that complaint describe Microsoft's "monopoly power in the market for
+   personal computer operating systems" (US Compl. § I, ¶ 2 (JA ____));
+   the "high barriers to entry in [that] market" (id. at § I, ¶ 3 (JA
+   ____); the "significant potential threat to Microsoft's operating
+   system monopoly" from new technologies (id. at § I, ¶ 4 (JA ____); and
+   the various "anticompetitive activities" that Microsoft undertook "[t]o
+   protect its valuable Windows monopoly against such potential
+   competitive threats, and to extend its operating system monopoly into
+   other software markets" (id. at § I, ¶ 5 (JA ____). Although the
+   complaint further alleged that some of Microsoft's actions
+   independently violated the antitrust laws in other respects, the core
+   of the government's allegations was Microsoft's maintenance of its
+   operating system monopoly. Id. at § I, ¶¶ 2-13 (JA ____). The complaint
+   sought specific injunctive relief and "such other preliminary and
+   permanent relief as is necessary and appropriate to restore competitive
+   conditions in the markets affected by Microsoft's unlawful conduct."
+   Id. at § VIII, ¶ 3 (JA ____). Twenty states and the District of
+   Columbia filed a similar complaint the same day (one state later
+   withdrew), and the district court consolidated the cases at Microsoft's
+   request. After extensive discovery, the court began a 78-day trial on
+   October 19, 1998, which ended on June 24, 1999. The court heard
+   testimony from 26 witnesses and admitted depositions of 79 other
+   witnesses and 2733 exhibits. On November 5, 1999, the court entered its
+   Findings of Fact (JA ____). The court then ordered the parties to
+   engage in mediation before Chief Judge Posner of the U.S. Court of
+   Appeals for the Seventh Circuit. On April 3, 2000, after four months of
+   intensive mediation efforts that ultimately failed, the court entered
+   its Conclusions of Law (JA ____). The district court held that
+   Microsoft successfully engaged in a series of anticompetitive acts to
+   protect and maintain its personal computer operating system monopoly,
+   in violation of Section 2 of the Sherman Act. It also concluded that
+   Microsoft violated Section 2 by attempting to monopolize the market for
+   Web browsers and Section 1 by tying its Web browser to its operating
+   system. Moreover, the court found that Microsoft's conduct violated
+   various state laws. The court rejected the government's claim that
+   Microsoft's exclusive dealing contracts violated Section 1. (The remedy
+   it ordered effectively terminated and prohibited such agreements,
+   however, because they were part of the Section 2 violation.) The court
+   then proceeded to consider a remedy for Microsoft's antitrust
+   violations, inviting the parties to submit proposals. After reviewing
+   those submissions, and holding a hearing on May 24, 2000, the court
+   noted that the government had offered "a proposed form of final
+   judgment that would mandate both conduct modification and structural
+   reorganization by the defendant when fully implemented." Remedy Order
+   at 61 (JA ____). Microsoft rejected the government's proposed remedy
+   and requested "months of additional time to oppose the relief sought in
+   all other respects" based on its "surprise" at the scope of the
+   government's proposed remedy. The court explained that "Microsoft's
+   profession of surprise is not credible. From the inception of this case
+   Microsoft knew, from well-established Supreme Court precedents dating
+   from the beginning of the last century, that a mandated divestiture was
+   a possibility, if not a probability, in the event of an adverse result
+   at trial." Id. (JA ____). The court further noted that "the Court's
+   Findings of Fact gave clear warning to Microsoft that the result would
+   likely be adverse, yet the Court delayed entry of its Conclusions of
+   Law for five months" so that mediation on a remedy could occur. Id. (JA
+   ____). "Even assuming that Microsoft negotiated in utmost good faith in
+   the course of mediation, it had to have in contemplation the prospect
+   that, were mediation to fail, the prevailing plaintiffs would propose
+   to the Court a remedy most to their liking and least likely to be
+   acceptable to Microsoft." Id. (JA ____). On June 7, 2000, the court
+   entered a Final Judgment (FJ) that requires Microsoft, following the
+   conclusion of this appeal, to submit a plan to reorganize itself into
+   two separate firms: an "Operating System Business" and an "Applications
+   Business." The court would review that plan and the government's
+   response prior to its implementation. The "OpsCo" would receive the
+   operating system business and "AppsCo" would receive the rest of
+   Microsoft's businesses. FJ § 1 (JA ____). The Final Judgment also
+   requires Microsoft to comply with transitional injunctive provisions
+   until the structural remedy becomes effective. Some of those provisions
+   terminate upon completion of the reorganization; others, three years
+   later. FJ §§ 1.d, 3 (JA ____). Explaining that "the proposed final
+   judgment is represented to the Court as incorporating provisions
+   employed successfully in the past," the court further stated that the
+   remedy "appears to the Court to address all the principal objectives of
+   relief in such cases, namely, to terminate the unlawful conduct, to
+   prevent its repetition in the future, and to revive competition in the
+   relevant markets." Remedy Order at 63 (JA ____). C. Statement Of Facts
+   The district court's detailed findings of fact show that Microsoft
+   undertook an extensive campaign of exclusionary acts to maintain its
+   operating system monopoly. The findings are based on the court's
+   consideration of the entire trial record and its assessment of the
+   credibility of the witnesses' testimony. See 84 F. Supp. 2d at 12 (JA
+   ____). The court had access to the government's 875-page proposed
+   findings of fact, including a hyperlinked CD-ROM version, which
+   compiled in detail the evidentiary support for the government's case.
+   (Copies of that CD-ROM are being lodged with this Court.) 1.
+   Microsoft's Operating System Monopoly A personal computer (PC) is
+   designed for use by one person at a time. It consists, inter alia, of
+   central processing components (a microprocessor and main memory),
+   software, and data storage (e.g., a hard disk). FF 1 (JA ____). T 1 he
+   software on a PC largely consists of an operating system (OS) and
+   applications. An application is designed to accomplish a specific task,
+   such as word processing. The OS "controls the allocation and use of
+   computer resources" and serves as a "platform" for applications by
+   exposing interfaces (application programming interfaces, or APIs) that
+   applications invoke to perform crucial tasks such as displaying text on
+   a screen. FF 2 (JA ____). a. The Market For the maintenance of monopoly
+   and tying claims, the district court found that the relevant market for
+   evaluating Microsoft's monopoly power was the "licensing of all
+   Intel-compatible PC operating systems worldwide." CL at 36 (JA ____);
+   FF 18 (JA ____); Fisher ¶ 62 (JA ____). "Intel-compatible" PCs are
+   designed to function with Intel's 80x86 and successor family of
+   microprocessors (or compatible microprocessors). FF 3 (JA ____).
+   Operating systems designed for Intel-compatible PCs do not run on other
+   PCs, and OSs designed for other PCs do not run on Intel- compatible
+   PCs. FF 4 (JA ____). Consumers are very reluctant to substitute away
+   from Intel- compatible PCs (for any reason, including an increase in OS
+   prices) because to do so would entail incurring substantial costs and
+   would not result in a satisfactory substitute. FF 19-27 (JA ____).2
+   Thus, a monopolist of OSs for Intel-compatible PCs "could set the price
+   of a license substantially above that which would be charged in a
+   competitive market  and leave the price there for a 1 For general
+   background about the terminology and technical issues presented in the
+   case, see FF 1-17 (JA ____); Felten ¶¶ 11-28, Farber ¶ 11, Gosling ¶¶
+   7-11, Tevanian ¶¶ 8-9, 12, Warren-Boulton ¶¶ 20-25, Barksdale ¶¶ 69-70
+   (JA ____); GX 1050 (Microsoft Press Computer Dictionary). 2 See
+   Schmalensee Tr. 1/14/99 am at 24:9-25, Tevanian Tr. 11/4/98 pm at
+   11:21-12:13 (JA ____). significant period of time  without losing so
+   many customers as to make the action unprofitable." CL at 36 (JA ____);
+   FF 18 (JA ____).3 The court concluded that "the proof of Microsoft's
+   dominant, persistent market share protected by a substantial barrier to
+   entry, together with Microsoft's failure to rebut that prima facie
+   showing effectively and the additional indicia of monopoly power, have
+   compelled the Court to find as fact that Microsoft enjoys monopoly
+   power in the relevant market." CL at 37, citing FF 33 (Microsoft "could
+   charge a price for Windows substantially above that which could be
+   charged in a competitive market") (JA ____); see Fisher ¶ 62 (JA ____).
+   T 4 he court highlighted four important factors. First, "Microsoft
+   possesses a dominant, persistent, and increasing share of the worldwide
+   market for Intel-compatible PC operating systems." FF 35 (JA ____).
+   "Every year for the last decade, Microsoft's share of the market for
+   Intel-compatible PC operating systems has stood above ninety percent
+   [and] [f]or the last couple of years, the figure has been at least
+   ninety-five percent." Id.5 Even if the market were broadened to include
+   operating systems for the Apple Macintosh, which is not an
+   Intel-compatible PC, Microsoft's share "would still stand well above
+   eighty percent." Id.6 Second, an "applications barrier to entry"
+   prevents competitors from attracting significant consumer demand and
+   "would continue to do so even if Microsoft held its prices
+   substantially above the competitive level." FF 36 (JA ____). Third,
+   original equipment manufacturers of PCs (OEMs) "uniformly are of a mind
+   that there exists no commercially viable alternative" to Windows. FF 54
+   (JA 3 See GX 401 (JA ____); Fisher Tr. 6/1/99 am at 27:1-16,
+   Warren-Boulton Tr. 11/23/98 pm at 8:20- 25, 9:17-25 (JA ____);
+   Warren-Boulton ¶¶ 33-41 (JA ____). 4 See also Fisher ¶¶ 72-78,
+   Warren-Boulton ¶¶ 42-63 (JA ____); Fisher Tr. 6/1/99 am at 27:1-6,
+   27:14-16, Kempin Tr. 2/25/99 pm at 97:24-99:8 (JA ____). 5 See Fisher ¶
+   64, Warren-Boulton ¶¶ 41, 45 (JA ____); GX 1 (JA ____). 6 See also
+   Tevanian ¶ 14, Fisher ¶ 64, Warren-Boulton ¶ 41 (JA ____). ____). 7
+   Fourth, through a range of actions over several years, "Microsoft has
+   comported itself in a way that could only be consistent with rational
+   behavior for a profit-maximizing firm if the firm knew that it
+   possessed monopoly power, and if it was motivated by a desire to
+   preserve the barrier to entry protecting that power." CL at 37, citing
+   FF 67, 99, 136, 141, 215-16, 241, 261-62, 286, 291, 330, 355, 393, 407
+   (JA ____). T 8 he court rejected Microsoft's arguments regarding
+   alleged constraints on its monopoly power and its contentions that its
+   pricing and innovation were inconsistent with monopoly power. CL at 37
+   (JA ____); FF 57-67 (JA ____). b. The Applications Barrier To Entry The
+   OS serves principally two functions: It enables the computer's hardware
+   to operate; and it serves as a platform for applications programs, such
+   as word-processing and spreadsheets. The latter function is the source
+   of what the district court found to be an "applications barrier to
+   entry" that protects Microsoft's monopoly power in the OS market. FF
+   30-52 (JA ____). This barrier results from "an intractable
+   `chicken-and-egg' problem . . . . Users do not want to invest in an
+   operating system until it is clear that the system will support
+   generations of applications that will meet their needs, and developers
+   do not want to invest in writing or quickly porting [i.e., adapting]
+   applications for an operating system until it is clear that there will
+   be a sizeable and stable market for it." FF 30 (JA ____). A 9 s the
+   district court found, that "self-reinforcing cycle" is 7 See Norris Tr.
+   6/7/99 am at 66:15-67:6, Rose Tr. 2/17/99 pm at 17-20 (JA ____); Fisher
+   ¶ 63, Rose ¶ 17 (JA ____). 8 See Warren-Boulton ¶ 195, Fisher ¶¶
+   127-29, 241(JA ____); Tr. 6/1/99 am at 37:21-38:24, 39:14- 40:6,
+   60:15-62:2 (JA ____). 9 See FF 31-32, 36-52 (JA ____); GX 679 at 8 (JA
+   ____); Gosling ¶¶ 15, 18, Tevanian ¶ 15, Fisher ¶¶ 66-70,
+   Warren-Boulton ¶¶ 53, 54, 57 (JA ____); Tr. 1/13/99 at 298:2-23 (Von
+   Holle Dep.) (JA ____). sometimes referred to as the "network effect," a
+   "phenomenon by which the attractiveness of a product increases with the
+   number of people using it." FF 39 (JA ____). The applications barrier
+   to entry increases the dependence of both consumers and software
+   developers on Windows and thus perpetuates Microsoft's OS monopoly. F
+   10 or consumers, the applications barrier to entry limits the choice of
+   an operating system. "The consumer wants an operating system that runs
+   not only types of applications that he knows he will want to use, but
+   also those types in which he might develop an interest later." FF 37
+   (JA ____). "The fact that a vastly larger number of applications are
+   written for Windows than for other PC operating systems attracts
+   consumers to Windows, because it reassures them that their interests
+   will be met as long as they use Microsoft's product." Id. "The
+   overwhelming majority of consumers will only use a PC operating system
+   for which there already exists a large and varied set of high-quality,
+   full-featured applications, and for which it seems relatively certain
+   that new types of applications and new versions of existing
+   applications will continue to be marketed at pace with those written
+   for other operating systems." FF 30 (JA ____).11 For software
+   developers, the applications barrier to entry creates disincentives to
+   write programs for operating systems other than Microsoft's. "An
+   application that is written for one PC operating system will operate on
+   another PC operating system only if it is ported to that system, and
+   porting applications is both time-consuming and expensive." FF 38 (JA
+   ____). C 12 onsequently, applications developers "tend to write first
+   to the operating system with the most users  Windows" 10 See GX 510 at
+   MS7 004130 (Chase) (JA ____); Kempin Tr. 2/25/99 pm at 98:18-99:5, Rose
+   Tr. 2/17/99 pm at 19-20, 24-25 (JA ____); Fisher ¶ 71 (JA ____). 11 Tr.
+   1/13/99 at 717:21-718:4 (Slivka Dep.), Tevanian Tr. 11/4/98 pm at
+   11:12-12:18 (JA ____); Warren-Boulton ¶ 53 (JA ____); GX 523 at MS98
+   0103654 (JA ____). 12 See Gosling ¶¶ 10-12, Barksdale ¶ 75 (JA ____).
+   and will write applications for other operating systems "only to the
+   extent that the marginal added sales justify the cost of porting." Id.
+   (JA ____).13 For competitors, the applications barrier to entry causes
+   "a vicious cycle. For just as Microsoft's large market share creates
+   incentives for ISVs [independent software vendors] to develop
+   applications first and foremost for Windows, the small or non-existent
+   market share of an aspiring competitor makes it prohibitively expensive
+   for the aspirant to develop its PC operating system into an acceptable
+   substitute for Windows." FF 40 (JA ____). Accordingly, "there is a
+   strong chance that the new operating system could stall; it would not
+   support the most familiar applications, nor the variety and number of
+   applications, that attract large numbers of consumers." FF 42 (JA
+   ____).14 2. Combating The Middleware Threats Although an operating
+   system serves as a platform for applications, the terms "OS" and
+   "platform" have distinct meanings. As Microsoft's economist put it,
+   "conceptually, there is a difference, and an important difference,"
+   between OSs and platforms. Schmalensee Tr. 6/21/99 am at 19:15-20:9 (JA
+   ____). A platform need not drive the computer's hardware directly, so
+   long as it properly functions with an OS that does. And an OS need not
+   provide the APIs that support a particular application, so long as a
+   platform that operates on the OS provides the APIs that allow that
+   program to run. A "middleware" program is not an operating system;
+   rather, it is platform software that runs on top of an operating system
+    i.e., uses OS interfaces to take advantage of the operating system's
+   code and functionality  and simultaneously exposes its own APIs so that
+   applications can run on the middleware itself. An application written
+   to rely exclusively on a middleware program's APIs could 13 See Harris
+   ¶ 25, Barksdale ¶¶ 71-73, Gosling ¶¶ 13-14, Fisher ¶¶ 70-71 (JA ____).
+   14 See Warren-Boulton ¶ 57, Fisher ¶ 43 (JA ____); Fisher Tr. 6/1/99 am
+   at 52-56, Warren-Boulton Tr. 11/24/98 am at 52-53, Schmalensee Tr.
+   1/14/99 am at 34 (JA ____). run on all OSs on which that middleware
+   runs. FF 68, 29 (JA ____); Tevanian ¶ 45 (JA ____). Applications
+   developers would have incentives to write for widely used middleware;
+   and, if the middleware ran on a variety of operating systems, users
+   would not be reluctant to choose a non- Windows operating system for
+   fear that it would run an insufficient array of applications. FF 29, 68
+   (JA ____); Fisher ¶¶ 86, 89 (JA ____). As Microsoft acknowledges, if
+   middleware became a leading development platform, operating systems
+   could become "commodities," i.e., essentially fungible, and Windows
+   would lose the benefits of the applications barrier to entry that has
+   protected its monopoly. MS Rev. Prop. FF ¶ 214 (JA ____).15 Microsoft
+   "was concerned with middleware" because middleware could weaken the
+   applications barrier and thereby threaten the dominance of Windows. FF
+   68-78, 29 (JA ____). Microsoft focused "on two incarnations of
+   middleware that, working together, had the potential to weaken the
+   applications barrier severely without the assistance of any other
+   middleware. These were Netscape's Web browser and Sun's implementation
+   of the Java technologies." FF 68 (JA ____).16 a. The Attempt To Obtain
+   Agreement With Netscape In December 1994, Netscape first marketed a Web
+   browser called Navigator. A Web browser is "software that, when running
+   on a computer connected to the Internet . . . enables a user to select,
+   retrieve, and perceive resources on the [World Wide] Web." FF 16 (JA
+   ____); GX 1050 at 505 (JA ____); Farber ¶ 11 (JA ____). Within months,
+   Navigator was the preeminent Web browser; and Microsoft soon saw it as
+   a threat to the OS monopoly. FF 72 (JA ____). In May 1995, Microsoft 15
+   See Maritz ¶ 236 (JA ____); GX 21 at MS98 0102395, GX 521 at MS98
+   0103337 (JA ____); Maritz Tr. 1/28/99 am at 56:8-57:1 (JA ____); Tr.
+   1/13/99 at 724 (Slivka Dep.) (JA ____). 16 See FF 69-77 (JA ____); GX
+   20 (JA ____); Tr. 1/13/99 at 460-61, 502-07 (Gates Dep.), Maritz Tr.
+   1/28/99 am at 56:20-57:1, Tr. 1/13/99 at 578:2-14 (Jones Dep.), Tr.
+   1/13/99 at 637:14-638:22 (Mehdi Dep.), Muglia Tr. 2/26/99 pm at 4:8-18
+   (JA ____); Fisher ¶ 88 (JA ____); GX 42 at MS6 6010347 (JA ____). CEO
+   Bill Gates wrote to Microsoft executives that Netscape was "pursuing a
+   multi-platform strategy where they move the key API into the client
+   [the Web browser] to commoditize the underlying operating system." Id.
+   (JA ____); GX 20 at MS98 0112876.3 (JA ____). As the court found, "[b]y
+   the late spring of 1995, the executives responsible for setting
+   Microsoft's corporate strategy were deeply concerned that Netscape was
+   moving its business in a direction that could diminish the applications
+   barrier to entry." FF 72 (JA ____). 17 Microsoft thus decided to
+   eliminate the threat that Navigator would become a viable alternative
+   platform for applications. FF 133, 142 (JA ____); GX 521 (JA ____);
+   Fisher ¶¶ 91-92 (JA ____). The court found that Microsoft first tried
+   to reach an agreement with Netscape in June 1995, which the court
+   called a "market allocation" agreement, pursuant to which Netscape
+   would have stopped efforts to develop Navigator into "platform-level"
+   (i.e., API-exposing) browsing software for the Windows 95 operating
+   system that was to be released later that summer; in return, Microsoft
+   would refrain from competing with Netscape in developing browsers for
+   other OSs. CL at 45 (JA ____); FF 79-89 (JA ____); see, e.g., GX 540 at
+   MS98 0010341 (Maritz: "we . . . hoped . . . to leverage a relationship
+   with Netscape . . . whereby they would be prepared to cede the client
+   [browser] to us") (JA ____).18 Microsoft "warned" Netscape that timely
+   access to critical technical information about Windows APIs
+   information that Netscape needed to make its browser run well on
+   Windows 95  17 See GX 523 at MS98 0103658, GX 407 at MS6 5005709, GX 21
+   at MS98 0102395, 0102397 (JA ____). 18 Accord GX 540 at MS98 0010342,
+   GX 536 at MS98 0009585 (JA ____); Tr. 1/13/99 at 581:20- 582:18 (Jones
+   Dep.), Tr. 10/27/98 am at 39-40 (JA ____); GX 18, 24, 27, 501, 535,
+   537, 557, 952, 953, GX 331 at MS98 0103672, GX 25 at MS98 0009973, GX
+   33 at NSC 017098-100 (JA ____). depended on its acquiescence. FF 82,
+   84, 90-91 (JA ____). Had Net 19 scape acquiesced in Microsoft's
+   proposal, it would have become "all but impossible" for Navigator or
+   any other browser rival to pose a platform threat to Windows. FF 89 (JA
+   ____); Fisher ¶ 99, Warren-Boulton ¶ 88 (JA ____). Netscape did not
+   accept Microsoft's proposal. FF 87 (JA ____). In response, Microsoft
+   withheld from Netscape crucial Windows-related technical information
+   that it routinely provided to others, and delayed the provision of
+   necessary APIs, so that "Netscape was excluded from most of the holiday
+   selling season." FF 91; see also FF 87, 90-92 (JA ____); Barksdale ¶
+   114 (JA ____); GX 241 (JA ____).20 Compare MS Br. 28-29. Moreover,
+   "[o]nce it became clear to senior executives at Microsoft that Netscape
+   would not abandon its efforts to develop Navigator into a platform,
+   Microsoft focused its efforts on ensuring that few developers would
+   write their applications to rely on the APIs that Navigator exposed."
+   FF 133 (JA ____). b. Denying Netscape Access To Crucial Channels Of
+   Distribution Microsoft understood that software "[d]evelopers would
+   only write to the APIs exposed by Navigator in numbers large enough to
+   threaten the applications barrier if they believed that Navigator would
+   emerge as the standard software employed to browse the Web." FF 133 (JA
+   ____); GX 498 at MS98 0168614 (JA ____). If Microsoft could demonstrate
+   that Netscape would not become the standard and that Microsoft's
+   browser, Internet Explorer (IE), would meet or exceed Netscape's
+   browser usage share, developers would continue to focus their efforts
+   on the Windows platform. FF 19 GX 33, 34 (JA ____); Barksdale ¶¶ 25,
+   106, 110-12 (JA ____); Tr. 10/27/98 am at 53:3-54:23 (JA ____); DX 2555
+   at 429:10-430:8 (JA ____). 20 GX 243, 248 (JA ____); Barksdale ¶¶
+   207-09, 213 (JA ____); Tr. 10/22/98 pm at 53:14-18, Tr. 10/26/98 pm at
+   59-67 (JA ____). 133 (JA ____). T 21 o protect the applications barrier
+   to entry, therefore, Microsoft embarked on a multifaceted campaign to
+   maximize IE's share of usage and to minimize Navigator's. Id. (JA
+   ____).22 Between 1995 and 1999, Microsoft spent more than $100 million
+   each year and increased from five or six to more than a thousand the
+   number of developers working on IE, even though the company has given
+   IE away free since its initial release in July 1995. FF 135-39 (JA
+   ____).23 "Decision-makers at Microsoft worried that simply developing
+   its own attractive browser product, pricing it at zero, and promoting
+   it vigorously would not divert enough browser usage from Navigator to
+   neutralize it as a platform." FF 143 (JA ____). Thus, rather than
+   confine itself to improving and promoting IE as a competitor to
+   Navigator (see MS Br. 30-32), Microsoft decided "to constrict
+   Netscape's access to the distribution channels that led most
+   efficiently to browser usage": installation by OEMs on new PCs and
+   distribution by Internet access providers (IAPs). FF 143-45 (JA ____);
+   Barksdale ¶¶ 227-30 (JA ____); Schmalensee Tr. 1/19/99 pm at 50:3-17
+   (JA ____); GX 515 (JA ____). Users rarely switch from "whatever
+   browsing software is placed most readily at their disposal," usually
+   the browsing software installed on their computer by the OEM or
+   supplied by their Internet access provider when they sign up for
+   Internet service. FF 144-47, 356 (JA ____). M 24 icrosoft thus sought
+   to "ensure that, to as great an extent as possible, OEMs and IAPs
+   bundled and promoted Internet Explorer to the exclusion of Navigator."
+   FF 148 (JA ____); see, e.g., 21 GX 39 at MS6 5005719-20, GX 42 at MS6
+   6010346, GX 296, GX 56 at TXAG 0009634 (JA ____). 22 GX 511, GX 432
+   (sealed), GX 56 at TXAG 0009635, GX 296, GX 42 at MS6 6010346 (JA
+   ____). 23 Fisher ¶¶ 122-23, Schmalensee ¶ 211 (JA ____); Schmalensee
+   Tr. 1/20/99 am at 21, Maritz Tr. 1/26/99 pm at 18-22 (JA ____); GX 112
+   (JA ____). 24 GX 93, 204, 233 at MS98 0125655 (JA ____); Barksdale ¶
+   125, Harris ¶ 92, Fisher ¶ 214 (JA ____). GX 204 (Microsoft recognizing
+   that users will never switch from Navigator unless IE is bundled with
+   Windows); GX 93, 510 at MS7 004129 (Microsoft recognizing importance of
+   Internet service providers) (JA ____). (i) Excluding Navigator From The
+   OEM Channel Microsoft's campaign to foreclose Netscape from the OEM
+   channel involved a "massive and multifarious investment" in a
+   "complementary set of tactics": (1) Microsoft "forced OEMs to take
+   Internet Explorer with Windows and forbade them to remove or obscure
+   it," which not only ensured the presence of IE on PC systems, but also
+   "increased the costs attendant to pre-installing and promoting
+   Navigator"; (2) Microsoft "imposed additional technical restrictions to
+   increase the cost of promoting Navigator"; (3) Microsoft offered OEMs
+   valuable consideration for commitments to promote IE to the exclusion
+   of any other browser; and (4) Microsoft "threatened to penalize
+   individual OEMs that insisted on pre-installing and promoting
+   Navigator." FF 241 (JA ____). The district court found that
+   "Microsoft's campaign to capture the OEM channel succeeded." Id. (a)
+   Contractual Restrictions And Coercion Of OEMs Microsoft knew that it
+   could not win the browser war on the merits, so it set out to impose
+   contractual restrictions on OEMs that interfered with their ability to
+   distribute Navigator. FF 157-58 (JA ____). Although Microsoft's OEM
+   licenses had required that computer makers not delete or modify any
+   part of what Microsoft defined to be "Windows," that requirement had
+   not been strictly enforced. FF 204 (JA ____). Beginning in July 1995
+   with the first Windows 95 contracts, however, Microsoft defined
+   "Windows" to include early versions of IE that were entirely separate
+   from the OS but that Microsoft insisted on distributing with it. FF
+   158, 175 (JA ____). And, unlike its earlier flexible practices,
+   Microsoft prevented unauthorized deletions or modifications by OEMs. FF
+   204 (JA ____). Microsoft prohibited OEMs from deleting IE, even though
+   it provided an Add/Remove capability in Windows 95 that it promoted to
+   users precisely for that purpose. FF 165, 175-76 (JA ____); GX 164, 352
+   (Microsoft Web pages telling users that "IE Uninstalls Easily" and how
+   to do it) (JA ____). Microsoft "knew that the inability to remove
+   Internet Explorer made OEMs less disposed to pre-install Navigator onto
+   Windows 95" because installing Navigator in addition to IE would lead
+   to confusion among some users, consume disk space, and increase testing
+   and support costs to OEMs, which operate at such low margins that three
+   support calls can make a PC sale unprofitable. FF 159, 210 (JA ____).25
+   The court rejected Microsoft's contrary assertions (see MS Br. 108)
+   that rely on self-contradictory testimony from its witnesses. See,
+   e.g., Kempin Tr. 2/25/99 am at 55, Tr. 2/25/99 pm at 60-64 (Kempin
+   acknowledging Gateway raised concerns about user confusion and greater
+   support costs, and Microsoft recognized that installation of second
+   browser increases OEM costs), Rose Tr. 2/18/99 pm at 45:25-48:14
+   (conceding that loading two applications with similar functions adds to
+   costs, confusion, and complexity) (JA ____). Microsoft's restrictions
+   on OEMs went further. Microsoft feared that OEMs might promote the use
+   of Navigator rather than IE by configuring the icons on the initial
+   Windows desktop screen or the "Start" menu entries, or arranging the
+   Windows boot (start-up) sequence. FF 202-03 (JA ____). 26 Microsoft
+   thus "threatened to terminate the Windows license of any OEM" that made
+   such changes or added "programs that promoted third-party software to
+   the Windows `boot' sequence." FF 203 (JA ____). 27 Microsoft also
+   offered OEMs valuable incentives and discounts to promote IE 25 See Tr.
+   1/13/99 at 304:17-305:12, 310:24-312:21(Von Holle Dep.), Tr. 2/18/99 am
+   at 61:2-63:19 (Decker Dep.), Tr. 12/16/98 am at 17:3-11 (Kies Dep.) (JA
+   ____); Weadock ¶ 39 (JA ____). 26 See Kempin Tr. 2/25/99 am at 43:4-15
+   (JA ____); GX 295 (Gates memo), 297 (JA ____). 27 See also FF 204-07
+   (JA ____); Schmalensee Tr. 1/20/99 am at 33-35 (JA ____); GX 649-50,
+   645, 301, 304, 1129 at MSV 0005245, 647 at MSV 0002127 (sealed), 1183
+   at MS98 0009095-96 (sealed), 458 at MS98 0009146 (sealed) (JA ____).
+   and limit distribution of Navigator. FF 142, 233-34 (JA ____).
+   Microsoft exploited Compaq's dependency on Windows, for example, to
+   compel Compaq to commit to IE and to "curtail its distribution and
+   promotion of Navigator." FF 232-34 (JA ____); GX 1155 (sealed), 464
+   (sealed) (JA ____). And it penalized IBM and Gateway in various ways
+   when they declined such an alliance. FF 235-38 (JA ____); GX 257 (Gates
+   email), GX 308 (JA ____). The court found that these licensing and
+   coercive measures, which "guaranteed the presence of Internet Explorer
+   on every new Windows PC system," had no technical justification. FF
+   158, 175- 76 (JA ____). T 28 he forbidden OEM conduct, although
+   facilitating the distribution of Navigator, "would not compromise the
+   quality or consistency of Windows any more than the modifications that
+   Microsoft currently permits." FF 221-23 (JA ____). A 29 nd, because it
+   would not have "removed or altered any Windows APIs," it would not have
+   interfered with the Windows platform or impaired any operating-system
+   function. FF 226 (JA ____); Warren-Boulton ¶ 180 (JA ____). "Finally,
+   it is significant that, while all vendors of PC operating systems
+   undoubtedly share Microsoft's stated interest in maximizing consumer
+   satisfaction, the prohibitions that Microsoft imposes on OEMs are
+   considerably more restrictive than those imposed by other operating
+   system vendors." FF 229 (JA ____); see p. 23 n.40, infra. Microsoft's
+   OEM restrictions harmed consumers who preferred Windows with Navigator
+   or with no browser at all, harmed the OEMs who wanted to serve the
+   "[m]any consumers [who] desire to separate their choice of a Web
+   browser from their choice of an operating system," an 30 d "stifled 28
+   See GX 36 (JA ____); Weadock Tr. 11/16/98 pm at 92:16-22 (JA ____);
+   Felten ¶¶ 21-22, Fisher ¶ 159 (JA ____). 29 See Kempin ¶¶ 17-22, 46,
+   57-58 (JA ____); GX 379, 304 (JA ____); Norris Tr. 6/7/99 pm at
+   62:25-63:25 (JA ____). 30 FF 151 (JA ____); see GX 1242 at 7 (JA ____);
+   Tr. 1/13/99 at 332-33 (Kanicki Dep.), Tr. 11/17/98 am at 52-53 (Vesey
+   Dep.) (JA ____). innovation by OEMs that might have made Windows PC
+   systems easier to use and more attractive to consumers." FF 151, 241,
+   203 (JA ____). 31 "By constraining the freedom of OEMs to implement
+   certain software programs in the Windows boot sequence, Microsoft
+   foreclosed an opportunity for OEMs to make Windows PC systems less
+   confusing and more user-friendly, as consumers desired." FF 410 (JA
+   ____); Tr. 12/16/98 pm at 41:20-42:6 (as "direct result" of Microsoft's
+   restrictions, Hewlett-Packard's "support calls went up by approximately
+   ten percent") (Romano Dep.) (JA ____).32 Computer makers acquiesced in
+   Microsoft's demands because "they had no commercially viable
+   alternative to pre-installing Windows 95 on their PCs." FF 158 (JA
+   ____); Schmalensee Tr. 1/20/99 am at 33-34 (JA ____); GX 309 (JA ____).
+   But Microsoft's tactics "soured" its relations with OEMs and reduced
+   the value of Microsoft's products to both end users and OEMs.
+   "Microsoft would not have paid this price had it not been convinced
+   that its actions were necessary to ostracize Navigator from the vital
+   OEM distribution channel." FF 203 (JA ____). I 33 ts effort to enlist
+   the OEMs in its campaign against Netscape "was only profitable to the
+   extent that it protected the applications barrier to entry." FF 141 (JA
+   ____).34 Indeed, based on Microsoft's extensive "internal
+   correspondence and external communi- cations," the court found that,
+   "[b]efore it decided to blunt the threat that Navigator posed to the
+   applications barrier to entry, Microsoft did not plan to make it
+   difficult or impossible for OEMs or 31 See GX 302, 319, 2191 (JA ____).
+   32 Accord GX 307, 309, 2141 (JA ____). 33 See GX 302, 307, 309, 319 (JA
+   ____); Warren-Boulton ¶¶ 189-94 (JA ____). 34 See Fisher ¶¶ 124, 126,
+   Warren-Boulton ¶ 185 (JA ____); Schmalensee Tr. 6/24/99 pm at 16:12-
+   21, Fisher Tr. 6/1/99 am at 40:7-25, 68:18-69:10 (JA ____); GX 39 at
+   MS6 5005720, GX 59 (JA ____). consumers to obtain Windows without
+   obtaining Internet Explorer." FF 156 (JA ____). Even as late as June
+   1995, Microsoft was planning only "to include low-level Internet
+   `plumbing,' . . . but not a browser, with Windows 95." FF 156-57 (JA
+   ____); GX 125, 124 ("[Windows 95] contains all the plumbing you need to
+   hook up to the net  but cool apps like Mosaic [browser] are stuff you
+   need to obtain from 3rd parties"). "The plan at that point, rather, was
+   to ship the browser in a separate `frosting' package, for which
+   Microsoft intended to charge." FF 157 (JA ____); see, e.g, GX 143 (JA
+   ____). 35 Microsoft reversed course in July 1995 because it concluded
+   that bundling Windows 95 and IE was the "most effective way" to
+   diminish Navigator's threat to the operating system monopoly. FF 157-58
+   (JA ____). C 36 ompare MS Br. 23-24. (b) Additional Means To Prevent
+   OEMs From Distributing Navigator Despite its contractual restraints on
+   OEMs, Microsoft Senior Vice President James Allchin wrote in late 1996
+   that "I don't understand how IE is going to win." FF 166 (JA ____); GX
+   47 (JA ____). Microsoft had recognized in 1995 that IE "remained
+   markedly inferior to Navigator in the estimation of consumers." FF 134
+   (JA ____). By 1996, after $100 million in development expenses were
+   devoted to it, IE was "vastly improved." FF 135 (JA ____). But even by
+   the end of 1997, the number of those "who regarded it as the superior
+   product was roughly equal to those who preferred Navigator." Id.;
+   Schmalensee Tables F-1 to F-3 (JA ____); Tr. 1/20/99 am at 41:2-20 (JA
+   ____); GX 428 at MS7 000366 (sealed) (JA ____). Microsoft thus believed
+   that it was not "going to win" the browser war simply by "[p]itting
+   browser against browser." FF 166 (JA ____); GX 47, 48 (JA ____). 35
+   Accord GX 140 at MS98 0107151, 138 at MS6 6005045, GX 151, 601, 606,
+   143, 63, 146, 137 (JA ____); Tr. 1/13/99 at 106-07, 111 (Barrett Dep.)
+   (JA ____). 36 GX 521 (JA ____); Allchin Tr. 2/3/99 am at 56-58 (JA
+   ____); Fisher ¶ 143 (JA ____). In January 1997, Allchin complained to
+   Microsoft executive Paul Maritz that "[w]e are not leveraging Windows
+   from a marketing perspective." "[W]e are not investing sufficiently in
+   finding ways to tie IE and Windows together." FF 166 (JA ____), quoting
+   GX 48 (JA ____). In Allchin's view, "[t]reating IE as just an add-on to
+   Windows which is cross-platform [means] losing our biggest advantage
+   Windows marketshare." FF 166 (JA ____), quoting GX 47 (JA ____).
+   Reporting on a February 1997 study, Microsoft's Christian Wildfeuer
+   agreed with Allchin's assessment: "It seems clear that it will be very
+   hard to increase browser market share on the merits of IE 4 alone. It
+   will be more important to leverage the OS asset to make people use IE
+   instead of Navigator." GX 202 at MS7 004346 (emphasis added) (JA ____);
+   FF 169 (JA ____); accord GX 53, 205 (JA ____). "Microsoft's executives
+   believed that the incentives that its contractual restrictions placed
+   on OEMs would not be sufficient in themselves to reverse the direction
+   of Navigator's usage share." FF 160 (JA ____). They therefore decided
+   to make technical changes in Windows to ensure that removing IE from
+   Windows is difficult and that, in the words of Microsoft executive Brad
+   Chase, "running any other browser is a jolting experience." Id. (JA
+   ____); GX 684 at MS6 6007119 (JA ____); see also GX 355 at MS7 003002
+   (report to Allchin: "An integrated browser [would make] Netscape a
+   non-issue  a superfluous product for all but the most committed
+   Netscape user"). Accordingly, unlike Windows 95, Windows 98 did not
+   allow even users to uninstall IE with the Add/Remove feature, even
+   though a major OEM (Gateway) had expressly requested such a feature and
+   even though users remained able to uninstall dozens of other features
+   that Microsoft held out as integrated into Windows 98. FF 170 (JA
+   ____); Allchin Tr. 2/2/99 pm at 5-12:2; GX 1073 at MS98 0204593, GX
+   1366 (JA ____). Windows 98 contained a second feature that thwarted
+   Navigator: Microsoft set IE as the default browser on Windows 98 and
+   configured the software so that, even "when a user chooses a browser
+   other than Internet Explorer as the default [by changing the
+   appropriate setting], Windows 98 nevertheless requires the user to
+   employ Internet Explorer in numerous situations that, from the user's
+   perspective, are entirely unexpected." FF 171 (JA ____).37 That
+   configuration caused "considerable uncertainty and confusion in the
+   ordinary course of using Windows 98" for those "users who choose a
+   browser other than Internet Explorer as their default." FF 171 (JA
+   ____). "By increasing the likelihood that using Navigator on Windows 98
+   would have unpleasant consequences for users, Microsoft further
+   diminished the inclination of OEMs to pre- install Navigator onto
+   Windows." FF 172 (JA ____). The court found no merit in the various
+   technical rationales put forward by Microsoft for binding IE with
+   Windows 98. Microsoft "could offer consumers all the benefits of the
+   current Windows 98 package by distributing the products separately and
+   allowing OEMs or consumers themselves to combine the products if they
+   wished." FF 191 (JA ____). T 38 he court termed "specious" Microsoft's
+   contention that "binding the browser to the operating system is
+   reasonably necessary to preserve the `integrity' of the Windows
+   platform." FF 193 (JA ____): First, concern with the integrity of the
+   platform cannot explain Microsoft's original decision to bind Internet
+   Explorer to Windows 95, because Internet Explorer 1.0 and 2.0 did not
+   contain APIs. Second, concern with the integrity of the platform cannot
+   explain Microsoft's refusal to offer OEMs the option of uninstalling
+   Internet Explorer from Windows 95 and Windows 98 because APIs, like all
+   other shared files, are left on the system when Internet Explorer is
+   uninstalled. Third, Microsoft's contention that offering OEMs the
+   choice of whether or not to install certain browser-related APIs would
+   fragment the Windows platform is unpersuasive because OEMs operate in a
+   competitive market and thus have ample incentive to include APIs
+   (including non-Microsoft APIs) required by the applications that their
+   customers demand. Fourth, even if there were some potential benefit
+   associated with the forced licensing of a single set of APIs to all
+   OEMs, such justification could not apply in this case, because
+   Microsoft itself precipitates fragmentation of its platform by
+   continually updating various portions of the Windows installed base
+   with new APIs. 37 See Felten ¶ 51 (JA ____); Farber Tr. 12/9/98 am at
+   53:3-16, Felten Tr. 12/14/98 am at 27:11-19, 29:11-17, Tr. 12/14/98 pm
+   at 14:7-11 (JA ____). 38 See also FF 187-93 (JA ____); Farber ¶ 24,
+   Felten ¶ 31 (JA ____); Felten Tr. 6/10/99 am at 18-20, Allchin Tr.
+   2/1/99 pm at 41:9-14 (JA ____). Id. (JA ____).39 The court further
+   found that other OS providers give OEMs the flexibility to uninstall or
+   not install a browser because it satisfies consumer demand. FF 153 (JA
+   ____).40 Compare MS Br. 24-25. Thus, the court concluded, Microsoft's
+   decision "to bind Internet Explorer to Windows" was intended "to
+   prevent Netscape from weakening the applications barrier to entry,
+   rather than for any pro-competitive purpose." FF 155 (JA ____).41
+   Indeed, rather than having any procompetitive justification,
+   Microsoft's actions harmed consumers. To "combat" Netscape, Mi 42
+   crosoft decided "to delay the release of Windows 98 long enough so that
+   it could be shipped with Internet Explorer 4.0 tightly bound to it,"
+   "`even if OEMs suffer[ed].'" FF 168, 167 (JA ____); GX 50, 53, 357 at
+   GW 026522 (sealed) (JA ____). "Microsoft delayed the debut of numerous
+   features, including support for new hardware devices, that Microsoft
+   believed consumers would find beneficial, simply in order to protect
+   the applications barrier to entry." FF 168 (JA ____). Binding IE to
+   Windows 98 also harmed consumers because "Windows purchasers who did
+   not want browsing software . . . had to . . . content themselves with a
+   PC system that ran slower and provided less available memory than if
+   the newest version of Windows came without browsing software." FF 410,
+   173 (JA ____). A 43 nd, indeed, "Microsoft has harmed even those 39 See
+   Felten ¶¶ 56-57, Fisher ¶ 165, Soyring ¶¶ 21-22, Warren-Boulton ¶ 181
+   (JA ____); Warren-Boulton Tr. 11/24/98 pm at 22-23, Muglia Tr. 2/26/99
+   pm at 67, Felten Tr. 6/10/99 am at 62 (JA ____). 40 See DX 2572 at
+   53-54, 115-16 (IBM) (JA ____); Tevanian ¶ 24 (Apple) (JA ____); Tr.
+   12/10/98 pm at 60:10-62:1 (Sun), Tr. 12/15/98 am at 62:25-64:6 (SCO),
+   Tr. 1/13/99 at 190:18-191:2 (Novell), Tr. 12/16/98 am at 50:24-51:8
+   (Caldera) (JA ____). 41 See also FF 156-57 (JA ____); GX 623, 521 (JA
+   ____); Allchin Tr. 2/3/99 am at 56 (JA ____); Fisher ¶ 143 (JA ____).
+   42 GX 53 (JA ____). 43 See Felten ¶ 67 (JA ____); Weadock Tr. 11/16/98
+   pm at 44:16-23 (JA ____); GX 364 at MS7 004719 (JA ____). consumers who
+   desire to use Internet Explorer, and no other browser," by commingling
+   operating system and browsing-specific routines that "jeopardized the
+   stability and security of the operating system." FF 174 (JA ____);
+   Farber ¶ 27, Weadock ¶ 32(e) (JA ____). The court found that Microsoft
+   would not have made those changes in Windows 98 and imposed those harms
+   upon consumers absent its campaign to injure Netscape and thereby
+   protect the applications barrier to entry. FF 409-11 (JA ____).
+   Microsoft "largely succeeded in exiling Navigator from the crucial OEM
+   distribution channel." FF 239 (JA ____). By January 1998, Microsoft
+   executive Joachim Kempin was able to report to CEO Bill Gates that
+   Navigator was being shipped through only 4 of the 60 OEM distribution
+   sub- channels, and even then most often in a position "much less likely
+   to lead to usage" than IE's position. FF 239 (JA ____); GX 421 at MS7
+   000680 (JA ____); Barksdale ¶ 173 (JA ____). By early 1999, "Navigator
+   was present on the desktop of only a tiny percentage of the PCs that
+   OEMs were shipping." FF 239 (JA ____); Barksdale ¶ 173 (JA ____);
+   Fisher Tr. 1/7/99 am at 8, 11-12 (JA ____). (ii) The IAP Channel
+   Microsoft also embarked on a strategy to foreclose Netscape from the
+   other crucial distribution channel, Internet access providers, which
+   distribute browser software to their customers. FF 242-310 (JA ____).
+   The court found that "Microsoft made substantial sacrifices, including
+   the forfeiture of significant revenue opportunities, in order to induce
+   IAPs," inter alia, "to restrict their distribution and promotion of
+   non-Microsoft browsing software." FF 247 (JA ____). M 44 icrosoft gave
+   IAPs valuable incentives to promote and distribute IE and to inhibit
+   promotion and distribution of 44 See Myhrvold Tr. 2/10/99 am at 2

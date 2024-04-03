@@ -1,0 +1,122 @@
+http://www.fnal.gov/docs/products/ups/
+
+cdlogo
+            Departments | Computing Division | Fermilab at Work | Fermilab Home
+          _______________________________________________________________________
+                              ______________________________
+
+
+       Computing Division
+
+                             UPS, UPD and UPP v4
+
+     * What are UPS, UPD and UPP?
+     * Documentation
+     * Release Notes
+     * Related Documents and Information
+     * Historical Materials
+     * D0 UPS/UPD Documentation
+
+  What are UPS, UPD and UPP?
+
+   UPS (UNIX Product Support) is a software support toolkit developed at
+   Fermilab for the management of software products on local systems by
+   the system administrators and users. It was also designed to facilitate
+   the product distribution and configuration management tasks of the
+   product providers. The three principal user benefits are:
+     * a uniform interface for accessing all products on a UNIX (or
+       UNIX-like, e.g., Cygwin) system via the setup command
+     * unified and coordinated support of in-house and vendor-supplied
+       software across all the supported UNIX operating systems
+     * the capacity for running multiple concurrent versions of products
+       on the same system, with a standard, simple version-selection
+       mechanism
+
+   UPD (UNIX Product Distribution) is a companion product to UPS, and
+   provides the functionality for uploading/downloading products between
+   local systems and product distribution servers.
+
+   UPP (UNIX Product Poll) is a layer on top of UPD that allows a client
+   to request notification of changes in a distribution node database and
+   to download pre-specified products. UPP can be automated. This is a
+   useful tool for keeping abreast of changes/enhancements to your
+   favorite products.
+
+   In the summer of 1998, the completely-rewritten UPS and UPD were
+   released. These product management tools have been redesigned in
+   preparation for Run II Computing needs. The new UPS/UPD is much more
+   user friendly for product developers and installers; the setup
+   interface for end users remains largely unchanged, but is much faster.
+
+  Documentation
+
+     * UPS, UPD and UPP v4 Complete Guide and Reference Manual
+     * Installation of UPS/UPD (and other Administrative topics)
+     * Temporary Installation of UPS/UPD (to install other products)
+     * Downloading a product or file from KITS (using UPD)
+     * Downloading a product or file from KITS (using anonymous FTP)
+
+  Related Documents and Information
+
+    Division Recommendations and Technical Notes
+
+     * DR0009 Computing Division UNIX Environment Standards (the FUE
+       environment)
+     * TN0086 Use of "/usr/local/products" now deprecated
+     * TN0088 Files Which You May Be Able To Remove From /usr/local
+     * TN0089 FUE Login Methodology
+     * TN0090 Guidelines for Product Maintainers: How to Write a Table
+       File for 'Privileged Product' Installations
+     * TN0091 Configuring a Local UPS Database (While Still Using the
+       Centrally Supported AFS Database)
+     * TN0092 What Does "InstallAsRoot" Really Mean?
+
+    Forms and other Web Pages
+
+     * View the Quick Reference Card (html), or print the PostScript Quick
+       Reference Card (legal sized paper). Printed copies are available at
+       WH8NE.
+     * See information on the UPS/UPD CDROM distribution for Linux.
+     * To register for downloading products from fnkits.fnal.gov (off-site
+       machines only): Product Distribution Platform Registration Request
+     * To download a proprietary product: Proprietary Product Request Form
+     * To inform products database maintainer when a product arrives on
+       fnkits.fnal.gov: Computing Division Product Input Form
+     * To add a product with special requirements to fnkits.fnal.gov:
+       Special UPD Product Registration Form
+     * View the FermiTools Web page.
+
+  Historical Materials
+
+     * Overheads from the UPS/UPD Brown Bag Seminars given in June, 1998.
+     * UPS Design Overview, the working design document. (Related design
+       documents can be found under the UPS Reconstruction pages).
+     * Obsolete: UPS and UPD v4 Reference Manual, Release 1.0, June 1998.
+     * Obsolete: bootstrap_coreFUE, a self-contained pre-configured
+       ups/upd/perl package which can be installed on new systems.
+       Replaced by the much more automated bootstrap product. See Chapter
+       13: Bootstrapping CoreFUE.
+     * Obsolete: Installation and Upgrade Instructions for
+       bootstrap_coreFUE.
+     * Obsolete: Fill-in-the-blank, a checklist of "answers to have on
+       hand" when you begin the installation/upgrade (bootstrap_coreFUE)
+       the first time.
+     * Obsolete: Instructions for installing ups/upd on an NT box running
+       cygwin b19 or higher. June 1999: this is now obsolete; use the much
+       more automated bootstrap product. See Chapter 13: Bootstrapping
+       CoreFUE.
+     * Archived ups v3_4 internal documents. And the completely obsolete
+       UPS v3.x and UPD v2.x documentation UNIX Product Methodology at
+       Fermilab (also GU0014).
+     __________________________________________________________________
+
+      Announcements - Services - Systems & Networking - Documentation &
+                                  Software
+     Getting Started - About the Computing Division - Computing Division
+                      Legal Notices - CD Index - Search
+     __________________________________________________________________
+
+
+    For assistance contact helpdesk@fnal.gov
+    Information compiled and maintained by Anne Heavey (aheavey@fnal.gov)
+    This page last Modified by AH on March 27, 2001.
