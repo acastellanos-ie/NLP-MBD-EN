@@ -1,0 +1,15 @@
+transformers
+nltk
+spacy>=2.2.0,<3.0.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
+pandas
+elasticsearch
+torch
+fastai
+fastbook
+seaborn
+tensorflow_gpu>=2.0
+ktrain
+git+https://github.com/amaiya/eli5@tfkeras_0_10_1
+git+https://github.com/amaiya/stellargraph@no_tf_dep_082
+tqdm
