@@ -6,7 +6,7 @@ srsly==2.4.7
 confection==0.1.5
 weasel==0.4.1
 
-python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
 
 # Keep pandas at 2.2.2 for google-colab’s sake
 pandas==2.2.2
