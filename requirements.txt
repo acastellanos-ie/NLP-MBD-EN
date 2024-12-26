@@ -1,13 +1,10 @@
 transformers
 nltk
 
-# Pin spaCy to a version that is still <3.0 but supports srsly>=2.4.x
 spacy==2.3.9
+srsly==1.0.5
 # This older model is still compatible with spaCy 2.3.x:
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz#egg=en_core_web_sm
-
-# Force srsly to something that satisfies >=2.4.0,<3.0.0
-srsly==2.4.7
 
 # Keep pandas at 2.2.2 for google-colab’s sake
 pandas==2.2.2
