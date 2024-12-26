@@ -18,3 +18,5 @@ git+https://github.com/amaiya/eli5@tfkeras_0_10_1
 git+https://github.com/amaiya/stellargraph@no_tf_dep_082
 
 tqdm
+
+tensorflow==2.15.1
