@@ -2,14 +2,13 @@ transformers
 nltk
 
 spacy
-srsly==2.4.7
-confection==0.1.5
-weasel==0.4.1
+# srsly==2.4.7
+# confection==0.1.5
+# weasel==0.4.1
 
 en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1-py3-none-any.whl
 
-# Keep pandas at 2.2.2 for google-colab’s sake
-pandas==2.2.2
+pandas
 
 elasticsearch
 torch
@@ -23,5 +22,5 @@ git+https://github.com/amaiya/stellargraph@no_tf_dep_082
 
 tqdm
 
-fsspec==2024.10.0
-gcsfs==2024.10.0
+# fsspec==2024.10.0
+# gcsfs==2024.10.0
