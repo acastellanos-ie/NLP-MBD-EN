@@ -21,3 +21,4 @@ tqdm
 
 tensorflow==2.15.1
 tf-keras==2.15.1
+fsspec==2024.10.0
