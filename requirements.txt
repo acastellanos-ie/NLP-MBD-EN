@@ -1,7 +1,7 @@
 transformers
 nltk
 
-spacy==3.2.4
+spacy
 srsly==2.4.7
 confection==0.1.5
 weasel==0.4.1
