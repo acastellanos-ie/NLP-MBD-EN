@@ -1,14 +1,28 @@
 transformers
 nltk
-spacy>=2.2.0,<3.0.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz#egg=en_core_web_sm
-pandas
+
+# Pin spaCy to a version that is still <3.0 but supports srsly>=2.4.x
+spacy==2.3.9
+# This older model is still compatible with spaCy 2.3.x:
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz#egg=en_core_web_sm
+
+# Force srsly to something that satisfies >=2.4.0,<3.0.0
+srsly==2.4.7
+
+# Keep pandas at 2.2.2 for google-colab’s sake
+pandas==2.2.2
+
 elasticsearch
 torch
 fastai
 fastbook
 seaborn
 ktrain
+
 git+https://github.com/amaiya/eli5@tfkeras_0_10_1
 git+https://github.com/amaiya/stellargraph@no_tf_dep_082
+
 tqdm
+
+fsspec==2024.10.0
+gcsfs==2024.10.0
