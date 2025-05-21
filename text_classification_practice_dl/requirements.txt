@@ -1,0 +1,23 @@
+# --- transformers & NLP ---
+transformers
+
+# --- data & ML utils ---
+pandas==2.2.2
+torch
+fastai
+fastbook
+seaborn
+ktrain
+
+# --- explainability & graphs ---
+git+https://github.com/amaiya/eli5@tfkeras_0_10_1
+git+https://github.com/amaiya/stellargraph@no_tf_dep_082
+
+tqdm
+
+# --- TensorFlow stack aligned to 2.18 ---
+ml-dtypes>=0.4.0
+protobuf>=5.29.1,<6.0.0
+fsspec==2025.3.2
+tensorflow==2.18.0
+tf-keras==2.18.0
