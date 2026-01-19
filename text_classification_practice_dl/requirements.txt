@@ -1,16 +1,9 @@
-# --- NLP & Data ---
 transformers
-pandas>=2.2.2
 torch
 seaborn
 tqdm
-
-# --- ML Core (TensorFlow 2.18 stack) ---
-tensorflow==2.18.0
-tf-keras==2.18.0
-ml-dtypes>=0.4.0
-protobuf>=5.29.1,<6.0.0
-fsspec==2025.3.2
-
-# --- Wrapper & Explainability ---
-ktrain
+datasets
+evaluate
+accelerate
+torch_lr_finder
+shap
