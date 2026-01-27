@@ -7,15 +7,14 @@ st.set_page_config(page_title="NLP 2026: The Tokenizer Playground", layout="wide
 
 st.title("✂️ The Tokenizer Playground")
 st.markdown("""
-Explora cómo los LLMs 'ven' realmente el texto. Nota cómo las palabras comunes son un solo token, 
-pero las palabras complejas o en otros idiomas se rompen en pedazos.
+Explore how LLM's really 'see' the text. Check how common words use a unique token but more complex words are broken into pieces.
 """)
 
 # Selector de modelo
 col1, col2 = st.columns([1, 3])
 with col1:
     model_name = st.selectbox(
-        "Elige el Tokenizer (Modelo):",
+        "Pick the tokenizer (Model):",
         ["gpt-4o", "gpt-3.5-turbo", "text-davinci-003"],
         index=0
     )
@@ -27,12 +26,12 @@ with col1:
         "text-davinci-003": 20.00
     }
     
-    st.info(f"Coste estimado Input: ${pricing[model_name]} / 1M tokens")
+    st.info(f"Estimated Cost: ${pricing[model_name]} / 1M tokens")
 
 # Área de texto
 text_input = st.text_area(
-    "Escribe tu texto aquí (prueba con código, español, emojis...):",
-    value="El curso de NLP en 2026 es increíble. 🚀 Strawberry.",
+    "Input your text here:",
+    value="NLP 2026 course is amazing. 🚀 Strawberry.",
     height=150
 )
 
@@ -48,17 +47,17 @@ if text_input:
     
     # Métricas
     c1, c2, c3 = st.columns(3)
-    c1.metric("Caracteres", len(text_input))
-    c1.metric("Palabras (aprox)", len(text_input.split()))
-    c2.metric("Tokens Reales", num_tokens)
+    c1.metric("Characters", len(text_input))
+    c1.metric("Words (aprox)", len(text_input.split()))
+    c2.metric("Tokens", num_tokens)
     
     ratio = num_tokens / len(text_input.split()) if len(text_input.split()) > 0 else 0
-    c3.metric("Ratio Tokens/Palabra", f"{ratio:.2f}x")
+    c3.metric("Ratio Tokens/Word", f"{ratio:.2f}x")
 
     st.divider()
 
     # Visualización de Tokens con Colores
-    st.subheader("Visualización de Tokens")
+    st.subheader("Token Visualization")
     
     # Paleta de colores para alternar
     colors = ["#FFD700", "#ADFF2F", "#00BFFF", "#FF69B4", "#FFA500"]
