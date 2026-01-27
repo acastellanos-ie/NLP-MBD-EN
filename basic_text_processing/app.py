@@ -83,10 +83,10 @@ if text_input:
     st.divider()
     
     # Tabla de detalles
-    with st.expander("Ver tabla detallada de IDs"):
+    with st.expander("See detailed ID table"):
         token_data = {
-            "Token (Texto)": [encoding.decode([t]) for t in tokens],
-            "Token ID (Número)": tokens
+            "Token (Text)": [encoding.decode([t]) for t in tokens],
+            "Token ID (Number)": tokens
         }
         st.dataframe(token_data)
 
